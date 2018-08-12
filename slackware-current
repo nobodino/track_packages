@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (11/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (12/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -85,7 +85,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.4 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
--openssl-solibs: 1.0.20 http://www.openssl.org/
+-openssl-solibs: 1.1.0h http://www.openssl.org/
 -os-prober: 1.76 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.6.1 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
@@ -236,7 +236,7 @@ Ap series :
 -tmux: 2.7 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.0127 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.0127 to 0273 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.0127
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -285,12 +285,12 @@ d series:
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.2.0 http://oprofile.sourceforge.net/news/
 -p2c: 1.21alpha2 to 1.22 (mageia)
--parallel: 20180722
+-parallel: 20180722 https://www.gnu.org/software/parallel/
 -patchelf: 0.9 http://nixos.org/patchelf.html
 -perl: 5.28.0
 	- perl: 5.28.0 http://www.perl.com/CPAN/src/5.0/
 	- DBD-mysql: 4.046 http://www.cpan.org/modules/by-module/DBD/
-	- DBI: 641 http://www.cpan.org/modules/by-module/DBI/
+	- DBI: 1.641 http://www.cpan.org/modules/by-module/DBI/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- URI: 1.74 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.44 http://www.cpan.org/modules/by-module/XML/
@@ -298,7 +298,7 @@ d series:
 	- TermReadKey: 2.37
 	- Authen-SASL: 2.16
 	- MIME-Base64: 3.15
-	- libnet: 3.10 to 3.11
+	- libnet: 3.11
 	- IO-Socket-SSL: 2.056
 	- Net-SSLeay: 1.85
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
@@ -375,7 +375,7 @@ l series:
 -aspell-en: 2018.04.16
 -at-spi2-atk: 2.26.2 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
 -at-spi2-core: 2.28.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
--atk: 2.28.1 to 2.29.1 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
+-atk: 2.28.1 to 2.29.1 (beta) ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.24.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
@@ -391,7 +391,7 @@ l series:
 -db48: 4.8.30 (to 6.2.32) http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.8 http://dbus.freedesktop.org/releases/dbus-glib/
--dconf: 0.26.0 to 0.28.0 http://download.gnome.org/sources/dconf/
+-dconf: 0.26.2 to 0.28.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 3.26.2 to 3.28.0 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.23 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
@@ -423,7 +423,7 @@ l series:
 -glib2: 2.56.1 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glib-networking: 2.56.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.56.0 http://www.gtkmm.org/
--glibc: 2.27
+-glibc: 2.27 to 2.28
 	-glibc: 2.27 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2018e https://www.iana.org/time-zones
 	-tzdata: 2018e https://www.iana.org/time-zones
@@ -456,7 +456,7 @@ l series:
 -hunspell: 1.6.2 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 61.1 to 62.1 http://site.icu-project.org/download
--id3lib: 3.8.3
+-id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 http://www.openexr.com/downloads.html
 -imagemagick: 6.9.10_3 to 6.9.10_9 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
@@ -464,8 +464,8 @@ l series:
 -jasper: 2.0.12 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.0.1 http://www.canonware.com/jemalloc/
 -js185: 1.0.0 (to js187) http://www.mozilla.org/js/spidermonkey (mozjs: 24.2.0)
--json-c: 0.13.1_20180305
--json-glib: 1.4.2
+-json-c: 0.13.1_20180305  https://github.com/json-c/json-c
+-json-glib: 1.4.2 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
 -keybinder: 0.3.1 http://pkgs.fedoraproject.org/repo/pkgs/keybinder/
 -keyutils: 1.5.10 http://people.redhat.com/~dhowells/keyutils/
@@ -549,7 +549,7 @@ l series:
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.0.9 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
--libunwind: 1.2.1 
+-libunwind: 1.2.1 http://www.nongnu.org/libunwind
 -libusb: 1.0.22 ftp://download.sourceforge.net/pub/sourceforge/libusb/
 -libusb-compat: 0.1.5 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
 -libusbmuxd: 1.0.10 http://www.libimobiledevice.org/
@@ -585,8 +585,8 @@ l series:
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -openexr: 2.2.0 http://www.openexr.com/downloads.html
 -openjpeg: 2.3.0 http://www.openjpeg.org
--opus: 1.3_rc
--opusfile: 0.9
+-opus: 1.3_rc https://opus-codec.org/
+-opusfile: 0.9 https://opus-codec.org/
 -orc: 0.4.28 http://code.entropywave.com/projects/orc/
 -pango: 1.42.2 to 1.42.3 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.40.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
@@ -615,7 +615,7 @@ l series:
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.14 http://docutils.sourceforge.net/
 -python-idna: 2.6 https://github.com/kjd/idna
--python-notify2: 0.3.1 
+-python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 16.8 https://github.com/pypa/packaging
 -python-pillow: 5.1.0 https://python-pillow.github.io/
 -python-requests: 2.18.4 http://docs.python-requests.org/en/master/
@@ -711,7 +711,7 @@ n series:
 -gpgme: 1.11.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.34 http://www.apache.org/dist/httpd/
--icmpinfo: 1.11
+-icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 4.17.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
@@ -727,7 +727,7 @@ n series:
 -libgpg-error: 1.32 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
 -libmbim: 1.16.0 http://www.freedesktop.org/software/libmbim/
--libmilter: 8.15.2 
+-libmilter: 8.15.2 (??)
 -libmnl: 1.0.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libndp: 1.6 http://libndp.org/https://sources.archlinux.org/sources/
 -libnetfilter_acct: 1.0.3 ftp://ftp.netfilter.org/pub/conntrack-tools/
@@ -817,7 +817,7 @@ n series:
 -traceroute: 2.1.0 http://traceroute.sourceforge.net/
 -ulogd: 2.0.7 ftp://ftp.netfilter.org/pub/nftables/
 -uucp: 1.07 to 1.07_20.diff.gz ftp://ftp.gnu.org/gnu/uucp/
--vlan: 1.9 to 2.0 http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
+-vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.19.5 http://ftp.gnu.org/gnu/wget/
 -whois: 5.3.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
@@ -850,7 +850,7 @@ tcl/tk series:
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
 -tk: 8.6.8 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
-x series:
+x series: (main packages)
 --------------------
 -fontconfig: 2.12.6 to 2.13.0 http://freedesktop.org/software/fontconfig
 -igt-gpu-tools: 1.23
@@ -906,7 +906,7 @@ xap series:
 -blueman: 2.0.6 (graphical bluetooth manager)  http://blueman-project.org
 -ddd: 3.3.12 ftp://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 (screensaver) to 2.7b33 http://electricsheep.org/
--easytag: 2.4.2
+-easytag: 2.4.2 http://easytag.sourceforge.net
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
@@ -935,7 +935,7 @@ xap series:
 	-pidgin: 2.13.0 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.8.3 http://www.rdesktop.org/#download
--rxvt-unicode: 9.22
+-rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.0.27
 	- sane-backend : 1.0.27 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
@@ -946,11 +946,11 @@ xap series:
 -x3270: 3.3.12ga7 http://x3270.bgp.nu/download.html
 -xaos: 3.6 http://xaos.sf.net
 -xfractint: 20.04p13 ftp://ftp.debian.org/debian/pool/non-free/x/xfractint/
--xgames: 0.2
+-xgames: 0.2 (??)
 -xine-lib: 1.2.9 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.10 http://dl.sourceforge.net/xine/
 -xlockmore: 5.55 to 5.56 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
--xmms: 1.2.11
+-xmms: 1.2.11 (??)
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
