@@ -853,28 +853,28 @@ tcl/tk series:
 x series: (main packages)
 --------------------
 -fontconfig: 2.12.6 to 2.13.0 http://freedesktop.org/software/fontconfig
--igt-gpu-tools: 1.23
--intelvaapi-driver: 2.1.0
+-igt-gpu-tools: 1.23 https://cgit.freedesktop.org/drm/igt-gpu-tools
+-intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
 -libpciaccess: 0.14
 -libdrm: 2.4.93 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.2
 -libevdev: 1.5.9
 -libinput: 1.11.3
--libmypaint: 1.3.0
--libva: 2.2.0
--libva-utils: 2.2.0
+-libmypaint: 1.3.0 http://mypaint.org
+-libva: 2.2.0 https://01.org/linuxmedia/vaapi
+-libva-utils: 2.2.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.1.1 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 0.30
+-libwacom: 0.30 https://github.com/linuxwacom
 -libXcm: 0.5.3 (no more necessary ?)
 -libXfont2: 2.0.3
 -libXpm: 3.5.12
 -libX11: 1.6.5
 -libXres: 1.2.0
 -mesa: 18.1.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
--m17n-lib: 1.8.0
+-m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
--mypaint-brushes: 1.3.0
+-mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.34.0 http://cairographics.org/releases/
 -sessreg: 1.1.1
 -vulkan-sdk: 1.1.73 to 1.1.81 https://www.khronos.org/vulkan/
@@ -994,30 +994,19 @@ y series:
 extra:
 --------------------
 -aspell-word-list: 0.50.4
--bash-completion: 2.8
+-bash-completion: 2.8 https://github.com/scop/bash-completion
 -bittornado: 0.3.18
 -bittorrent: 4.4.0 to 5.2.2 http://bitconjurer.org/BitTorrent/
--brltty: 5.4
--btmgr: 3.7
-	-bootmgr: 3.7
-	-nasm: 0.98
-	-ucl: 1.01 to 1.03
--dip: 3.3.7p
+-brltty: 5.4 http://mielke.cc/brltty/
 -emacspeak: 38.0 to 40.0
--emacspeak-ss: 1.9.1 to 1.12 (debian)
--fltk: 1.3.3
--google-chrome:
-	-Gconf2: 2.32.1 to 2.32.3
-	-Orbit2: 2.14.9
-	-google-chrome-pam-solibs: 1.1.3
--java: (jdk and jre) 8u144
--mplayerplug-in: 3.55
--partitionmanager: 1.0.2 to 2.1.0
--recordmydesktop: 0.3.8.1
--tigervnc: 1.8.0 to 1.9.0
+-flashplayer-plugin: 31 beta  http://labs.adobe.com/technologies/eula/flashplayer.html
+-fltk: 1.3.3 http://www.fltk.org
+-java: (jdk and jre) 8u172
+-mplayerplug-in: 3.55 https://launchpad.net/wicd
+-recordmydesktop: 0.3.8.1 http://recordmydesktop.sourceforge.net/
+-tigervnc: 1.8.0 to 1.9.0 http://tigervnc.org
 -wicd: 1.7.4 https://launchpad.net/wicd
 -xf86-video-fbdev: 0.4.3
--xf86-video-nouveau-blacklist
 --------------------
 testing :
 --------------------
