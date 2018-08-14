@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (13/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (14/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -88,7 +88,7 @@ A series :
 -openssl-solibs: 1.1.0h http://www.openssl.org/
 -os-prober: 1.76 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
--pciutils: 3.6.1 to 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
+-pciutils: 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.7 http://www.nongnu.org/lzip/plzip.html
@@ -271,6 +271,7 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
 -help2man: 1.47.6 http://ftp.gnu.org/gnu/help2man/
+-icecream: 1.1 https://github.com/icecc/icecream
 -indent: 2.2.10 to 2.2.11 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 4.14.62
@@ -726,7 +727,7 @@ n series:
 -libgcrypt: 1.8.3 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.32 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
--libmbim: 1.16.0 to 1.16.2 http://www.freedesktop.org/software/libmbim/
+-libmbim: 1.16.2 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.15.2 (??)
 -libmnl: 1.0.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libndp: 1.6 http://libndp.org/https://sources.archlinux.org/sources/
@@ -738,7 +739,7 @@ n series:
 -libnetfilter_queue: 1.0.3 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.1.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libqmi: 1.20.0 to 1.20.2 http://www.freedesktop.org/software/libqmi/
+-libqmi: 1.20.2 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.0.3 http://sourceforge.net/projects/libtirpc/
 -links: 2.16 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9dev19 http://lynx.isc.org/release/
@@ -785,7 +786,7 @@ n series:
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
 -openssl: 1.1.0h ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.12 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.13 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.8 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
@@ -871,7 +872,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.5
 -libXres: 1.2.0
--mesa: 18.1.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 18.1.5 to 18.1.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -891,7 +892,7 @@ x series: (main packages)
 -xf86-video-savage: 20180625
 -xf86-video-sis: 20170717
 -xf86-video-vesa: 2.4.0
--xterm: 333 to 334 ftp://invisible-island.net/xterm/
+-xterm: 334 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------

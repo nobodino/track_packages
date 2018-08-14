@@ -10,7 +10,6 @@ a series:
 -kbd: 1.15.5
 -lvm2: 2.02.181
 -mcelog: 159
--pciutils: 3.6.2
 -quota: 4.04
 -shadow: 4.6
 -syslinux: 5.10
@@ -54,10 +53,8 @@ l series:
 -libexif: 0.6.21
 -libical: 3.0.3
 -libkarma: 0.1.2
--libmbim: 1.16.2
 -libmtp: 1.1.15
 -libpng: 1.6.35
--libqmi: 1.20.2
 -libsigc++: 2.99.11
 -libssh: 0.8.0
 -mozilla-nss: 3.38
@@ -91,8 +88,8 @@ tcl/tk series:
 -------------------------
 x series:
 -fontconfig: 2.13.0 (pb)
+-mesa: 18.1.6
 -vulkan-sdk: 1.1.82
--xterm: 334
 -------------------------
 xap:
 -pan: 0.144
