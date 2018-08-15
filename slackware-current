@@ -403,7 +403,7 @@ l series:
 -enchant: 1.6.1 to 2.1.1 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180319 http://www.exiv2.org/
--expat: 2.2.5 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.2.5 to 2.2.6 http://sourceforge.net/projects/expat/files/expat/
 -ffmpeg: 3.4.4 to 4.0.2 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.10
@@ -892,7 +892,7 @@ x series: (main packages)
 -xf86-video-savage: 20180625
 -xf86-video-sis: 20170717
 -xf86-video-vesa: 2.4.0
--xterm: 334 ftp://invisible-island.net/xterm/
+-xterm: 334 to 335 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1002,7 +1002,7 @@ extra:
 -emacspeak: 38.0 to 40.0
 -flashplayer-plugin: 31 beta  http://labs.adobe.com/technologies/eula/flashplayer.html
 -fltk: 1.3.3 http://www.fltk.org
--java: (jdk and jre) 8u172
+-java: (jdk and jre) 8u181 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
 -recordmydesktop: 0.3.8.1 http://recordmydesktop.sourceforge.net/
 -tigervnc: 1.8.0 to 1.9.0 http://tigervnc.org

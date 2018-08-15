@@ -35,6 +35,7 @@ l series:
 -dconf-editor: 3.28.0 
 -enchant: 2.1.1
 -exiv2: 0.26.0_20180319
+-expat: 2.2.6
 -ffmpeg: 4.0.2
 -freetype: 2.9.1 (make RC="" to build)
 -fribidi: 1.0.5 
@@ -86,6 +87,7 @@ tcl/tk series:
 x series:
 -fontconfig: 2.13.0 (pb)
 -vulkan-sdk: 1.1.83
+-xterm: 335
 -------------------------
 xap:
 -pan: 0.144
