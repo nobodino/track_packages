@@ -19,7 +19,7 @@ ap series:
 -cdrtools: 3.02a9
 -dash: 0.5.10.2
 -distcc: 3.3.2
--lxc: 2.1.1 or 3.0.1
+-lxc: 2.1.1 or 3.0.2
 -mariadb: 10.3.9
 -sysstat: 11.6.5 or 12.0.1
 -vim: 8.1.0287
@@ -42,6 +42,7 @@ l series:
 -fribidi: 1.0.5 
 -fuse3: 3.2.5
 -glade3: 3.22.0
+-glib2: 2.56.2
 -gmime: 3.2.0
 -grantlee: 5.1.0
 -icu4c: 62.1
@@ -71,9 +72,10 @@ n series:
 -net-snmp: 5.8
 -nfs-utils: 2.3.2
 -ntp: 4.2.8p12
+-php: 7.2.9
 -samba: 4.8.4
 -slrn: 1.0.3a
--sshfs: 3.3.2
+-sshfs: 3.4.0
 -vlan: 2.0 (debian)
 -yp-tools: 4.2.1
 -ypbind-mt: 2.4

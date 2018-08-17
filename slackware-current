@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (15/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (17/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -199,7 +199,7 @@ Ap series :
 -lm_sensors: 3.4.0 to 3.4.0_20180318 (gentoo) https://github.com/groeck/lm-sensors
 -lsof: 4.91 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.29 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 2.0.9 to 2.1.1/3.0.1 http://sourceforge.net/projects/lxc/files/lxc
+-lxc: 2.0.9 to 2.1.1/3.0.2 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.20 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b http://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 http://www.nongnu.org/man-db/
@@ -421,7 +421,7 @@ l series:
 -giflib: 5.1.4 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.0 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib2: 2.56.1 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.56.1 to 2.56.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glib-networking: 2.56.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.56.0 http://www.gtkmm.org/
 -glibc: 2.27 to 2.28
@@ -787,7 +787,7 @@ n series:
 -openssl: 1.1.0i ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.13 http://p11-glue.freedesktop.org/releases/
--php: 7.2.8 http://www.php.net/distributions/
+-php: 7.2.8 to 7.2.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -806,7 +806,7 @@ n series:
 -samba: 4.8.2 to 4.8.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.2 to 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.5.13_20180507 http://kiza.kcore.de/software/snownews/
--sshfs: 2.10 to 3.3.2 https://github.com/lib~/fuse/sshfs
+-sshfs: 2.10 to 3.4.0 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.48 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
