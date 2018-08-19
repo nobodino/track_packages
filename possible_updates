@@ -4,6 +4,7 @@ a series:
 -acpid: 2.0.30
 -cryptsetup: 2.0.4
 -dialog: 1.3_20180621 (pb)
+-e2fsprogs: 1.44.4
 -findutils: 4.6.0
 -getty_ps: 2.1.1
 -kbd: 1.15.5
@@ -20,6 +21,7 @@ ap series:
 -dash: 0.5.10.2
 -distcc: 3.3.2
 -lxc: 2.1.1 or 3.0.2
+-sudo: 1.8.24
 -sysstat: 11.6.5 or 12.0.1
 -vim: 8.1.0287
 -------------------------
@@ -39,6 +41,7 @@ l series:
 -freetype: 2.9.1 (make RC="" to build)
 -fribidi: 1.0.5 
 -fuse3: 3.2.5
+-gegl: 0.4.8
 -glade3: 3.22.0
 -glib2: 2.56.2
 -gmime: 3.2.0

@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (18/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (19/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_93.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20180621 (pb) http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.44.3 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.44.3 to 1.44.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.14.2 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 16 http://linux.dell.com/efibootmgr
 -efivar: 36  https://github.com/rhboot/efivar
@@ -229,7 +229,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.24.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.3 http://squashfs.sourceforge.net/
--sudo: 1.8.23 http://www.courtesan.com/sudo/current.html
+-sudo: 1.8.23 to 1.8.24 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.4 to 11.6.5/12.0.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -416,7 +416,7 @@ l series:
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.17.0 ftp://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.6 http://ftp.acc.umu.se/pub/gnome/sources/gegl
+-gegl: 0.4.6 to 0.4.8 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.10.8 http://www.exiv2.org/
 -giflib: 5.1.4 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.0 http://ftp.acc.umu.se/pub/gnome/sources/glade3
