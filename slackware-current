@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (19/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (20/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_93.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20180621 (pb) http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.44.3 to 1.44.4 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.44.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.14.2 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 16 http://linux.dell.com/efibootmgr
 -efivar: 36  https://github.com/rhboot/efivar
@@ -61,7 +61,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20180814 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.64 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.14.65 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -215,7 +215,7 @@ Ap series :
 -pamixer: 1.3.1 https://github.com/cdemoulins/pamixer
 -pm-utils: 1.4.1 + pm-quirks (20100619) http://pm-utils.freedesktop.org/wiki/
 -powertop: 2.8 http://ftp.debian.org/debian/pool/main/p/powertop/
--qpdf: 8.1.0 http://qpdf.sourceforge.net/
+-qpdf: 8.1.0 to 8.2.1 http://qpdf.sourceforge.net/
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
 -rpm: 4.14.1 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -229,7 +229,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.24.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.3 http://squashfs.sourceforge.net/
--sudo: 1.8.23 to 1.8.24 http://www.courtesan.com/sudo/current.html
+-sudo: 1.8.24 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.4 to 11.6.5/12.0.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -271,10 +271,10 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
 -help2man: 1.47.6 http://ftp.gnu.org/gnu/help2man/
--icecream: 1.1 https://github.com/icecc/icecream
+-icecream: 20180808 https://github.com/icecc/icecream
 -indent: 2.2.10 to 2.2.11 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.64
+-kernel-headers: 4.14.65
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 6.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.64
+-kernel : 4.14.65
 --------------------
 kde series :
 --------------------
@@ -343,7 +343,7 @@ kde series :
 -k3b: 2.0.3 to 2.0.3a
 -kde: 4.14.27 to 5.8.5 https://download.kde.org/stable/
 -kdelibs: 4.14.38
--kdevelop: 4.7.1 to 4.7.4/5.2.3 https://download.kde.org/stable/
+-kdevelop: 4.7.1 to 4.7.4/5.2.4 https://download.kde.org/stable/
 -calligra: 2.9.11 to 3.0.0.1 https://download.kde.org/stable/
 -ktorrent: 4.3.1 to 5.0.1
 -libktorrent: 1.3.1 to 2.0.1
@@ -381,7 +381,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.54 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.54 to 0.1.56 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.68.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.15.12 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -600,7 +600,7 @@ l series:
 -polkit: 0.113 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.67.0 http://poppler.freedesktop.org/
+-poppler: 0.67.0 to 0.68.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 12.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -913,7 +913,7 @@ xap series:
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.4 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.4 to 2.10.6 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.10 http://gkrellm.srcbox.net/
 	- gkrellm: 2.3.10
 	- gkrellm-countdown: 0.1.2
