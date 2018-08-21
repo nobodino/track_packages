@@ -60,6 +60,7 @@ l series:
 -libssh: 0.8.0
 -mozilla-nss: 3.38
 -netpbm: 10.76.00
+-pango: 1.42.4 
 -poppler: 0.68.0 
 -pycairo: 1.17.1
 -sg3_utils: 1.43r785
@@ -71,6 +72,7 @@ l series:
 -------------------------
 n series:
 -cifs-utils: 6.8
+-dhcpcd: 7.0.8
 -net-snmp: 5.8
 -nfs-utils: 2.3.2
 -php: 7.2.9
