@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (21/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (23/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -34,7 +34,7 @@ A series :
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.5 https://wiki.gentoo.org/wiki/Project:Eudev
 -file: 5.34 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
--findutils: 4.4.2 to 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
+-findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
 	- mtools: 4.0.18 http://www.tux.org/pub/tux/knaff/mtools/
@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-firmware: 20180814 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.65 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20180821 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.14.66 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -151,7 +151,7 @@ Ap series :
 	- cups: 2.2.8 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.20.4 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.21.0 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.9.1 to 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.23 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -215,9 +215,9 @@ Ap series :
 -pamixer: 1.3.1 https://github.com/cdemoulins/pamixer
 -pm-utils: 1.4.1 + pm-quirks (20100619) http://pm-utils.freedesktop.org/wiki/
 -powertop: 2.8 http://ftp.debian.org/debian/pool/main/p/powertop/
--qpdf: 8.1.0 to 8.2.1 http://qpdf.sourceforge.net/
+-qpdf: 8.2.1 http://qpdf.sourceforge.net/
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
--rpm: 4.14.1 ftp://ftp.rpm.org/pub/rpm/dist
+-rpm: 4.14.1 to 4.14.2 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc-im: 0.7.0 
 -screen: 4.6.2 https://ftp.gnu.org/gnu/screen/
@@ -274,7 +274,7 @@ d series:
 -icecream: 20180808 https://github.com/icecc/icecream
 -indent: 2.2.10 to 2.2.11 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.65
+-kernel-headers: 4.14.66
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 6.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.65
+-kernel : 4.14.66
 --------------------
 kde series :
 --------------------
@@ -381,7 +381,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.54 to 0.1.56 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.56 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.68.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.15.12 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -415,13 +415,13 @@ l series:
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
--gdbm: 1.17.0 ftp://ftp.gnu.org/gnu/gdbm/
+-gdbm: 1.18.0 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.6 to 0.4.8 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.10.8 http://www.exiv2.org/
 -giflib: 5.1.4 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.0 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib2: 2.56.1 to 2.56.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.56.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glib-networking: 2.56.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.56.0 http://www.gtkmm.org/
 -glibc: 2.27 to 2.28
@@ -464,6 +464,7 @@ l series:
 -iso-codes: 3.76 to 3.79 http://de-mirror.org/gentoo/distfiles/
 -jasper: 2.0.12 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.0.1 http://www.canonware.com/jemalloc/
+-jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -js185: 1.0.0 (to js187) http://www.mozilla.org/js/spidermonkey (mozjs: 24.2.0)
 -json-c: 0.13.1_20180305  https://github.com/json-c/json-c
 -json-glib: 1.4.2 https://gitlab.gnome.org/GNOME/json-glib/
@@ -589,7 +590,7 @@ l series:
 -opus: 1.3_rc https://opus-codec.org/
 -opusfile: 0.9 https://opus-codec.org/
 -orc: 0.4.28 http://code.entropywave.com/projects/orc/
--pango: 1.42.3 to 1.42.4 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.42.4 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.40.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.2 ftp://ftp.gnu.org/pub/parted/
 -pcre2: 10.31 http://www.pcre.org/
@@ -600,7 +601,7 @@ l series:
 -polkit: 0.113 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.67.0 to 0.68.0 http://poppler.freedesktop.org/
+-poppler: 0.68.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 12.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -696,7 +697,7 @@ n series:
 -curl: 7.61.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27-rc7 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 7.0.7 to 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.79 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.2.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
@@ -787,7 +788,7 @@ n series:
 -openssl: 1.1.0i ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.13 http://p11-glue.freedesktop.org/releases/
--php: 7.2.8 to 7.2.9 http://www.php.net/distributions/
+-php: 7.2.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -839,7 +840,7 @@ n firmware:
 t series:
 --------------------
 -fig2dev: 3.2.7a https://sourceforge.net/projects/mcj/files/
--texlive: 2018.180630
+-texlive: 2018.180822
 -xfig: 3.2.7a https://sourceforge.net/projects/mcj/files/
 --------------------
 tcl/tk series:
@@ -870,7 +871,7 @@ x series: (main packages)
 -libXcm: 0.5.3 (no more necessary ?)
 -libXfont2: 2.0.3
 -libXpm: 3.5.12
--libX11: 1.6.5
+-libX11: 1.6.6
 -libXres: 1.2.0
 -mesa: 18.1.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -913,7 +914,7 @@ xap series:
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.4 to 2.10.6 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.6 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.10 http://gkrellm.srcbox.net/
 	- gkrellm: 2.3.10
 	- gkrellm-countdown: 0.1.2
@@ -923,7 +924,7 @@ xap series:
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.2.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
--gparted: 0.31.0 http://gparted.sourceforge.net/
+-gparted: 0.31.0 to 0.32.0 http://gparted.sourceforge.net/
 -gucharmap: 10.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0127 to 0287

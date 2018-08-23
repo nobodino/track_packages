@@ -4,7 +4,6 @@ a series:
 -acpid: 2.0.30
 -cryptsetup: 2.0.4
 -dialog: 1.3_20180621 (pb)
--findutils: 4.6.0
 -getty_ps: 2.1.1
 -kbd: 1.15.5
 -lvm2: 2.02.181
@@ -20,7 +19,7 @@ ap series:
 -dash: 0.5.10.2
 -distcc: 3.3.2
 -lxc: 2.1.1 or 3.0.2
--qpdf: 8.2.1 
+-rpm: 4.14.2 
 -sysstat: 11.6.5 or 12.0.1
 -vim: 8.1.0287
 -------------------------
@@ -32,7 +31,6 @@ l series:
 -Consolekit2: 1.2.1
 -LibRaw: 0.19.0
 -atk: 2.29.2 (beta)
--babl: 0.1.56
 -dconf: 0.28.0
 -dconf-editor: 3.28.0 
 -enchant: 2.1.1
@@ -43,7 +41,6 @@ l series:
 -fuse3: 3.2.5
 -gegl: 0.4.8
 -glade3: 3.22.0
--glib2: 2.56.2
 -gmime: 3.2.0
 -grantlee: 5.1.0
 -icu4c: 62.1
@@ -60,8 +57,6 @@ l series:
 -libssh: 0.8.0
 -mozilla-nss: 3.38
 -netpbm: 10.76.00
--pango: 1.42.4 
--poppler: 0.68.0 
 -pycairo: 1.17.1
 -sg3_utils: 1.43r785
 -sip: 4.19.12
@@ -72,10 +67,8 @@ l series:
 -------------------------
 n series:
 -cifs-utils: 6.8
--dhcpcd: 7.0.8
 -net-snmp: 5.8
 -nfs-utils: 2.3.2
--php: 7.2.9
 -slrn: 1.0.3a
 -sshfs: 3.4.0
 -vlan: 2.0 (debian)
@@ -91,10 +84,10 @@ tcl/tk series:
 -------------------------
 x series:
 -fontconfig: 2.13.0 (pb)
+-gparted: 0.32.0
 -vulkan-sdk: 1.1.83
 -------------------------
 xap:
--gimp: 2.10.6 
 -pan: 0.144
 -xlockmore: 5.56
 -------------------------
