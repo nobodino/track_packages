@@ -46,12 +46,13 @@ l series:
 -gmime: 3.2.0
 -grantlee: 5.1.0
 -icu4c: 62.1
--imagemagick: 6.9.10_10
+-imagemagick: 6.9.10_11
 -iso-codes: 3.79 
 -jemalloc: 5.0.1
 -libclc: 0.2.0-20180319
 -libexif: 0.6.21
 -libical: 3.0.3
+-libjeg-turbo: 2.0.0 
 -libkarma: 0.1.2
 -libmtp: 1.1.15
 -libpng: 1.6.35
@@ -89,6 +90,7 @@ x series:
 -vulkan-sdk: 1.1.83
 -------------------------
 xap:
+-hexchat: 2.14.2 
 -pan: 0.144
 -xlockmore: 5.56
 -------------------------

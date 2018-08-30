@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0 (29/08/2018)
+Slackware-14.2 (02/07/2016) to Slackware-15.0 (30/08/2018)
 
 http://www.slackware.com/changelog/current.php?cpu=i386
 /-----------------------------------------------------------------------------------/
@@ -459,7 +459,7 @@ l series:
 -icu4c: 61.1 to 62.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_3 to 6.9.10_10 http://www.imagemagick.org/
+-imagemagick: 6.9.10_3 to 6.9.10_11 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 3.76 to 3.79 http://de-mirror.org/gentoo/distfiles/
 -jasper: 2.0.12 http://www.ece.uvic.ca/~frodo/jasper/#download
@@ -512,7 +512,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 1.2.0 http://www.libimobiledevice.org/
 -libiodbc: 3.52.10 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjeg-turbo: 1.5.3 to 1.5.90 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjeg-turbo: 1.5.3 to 2.0.0 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.1 to 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -928,7 +928,7 @@ xap series:
 -gucharmap: 10.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0328
--hexchat: 2.14.1 https://hexchat.github.io/
+-hexchat: 2.14.1 to 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.16 https://download.gnome.org/sources/network-manager-applet/1.0/
