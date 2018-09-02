@@ -27,7 +27,7 @@ ap series:
 d series:
 -indent: 2.2.11
 -opencl-headers: 2.2
--re2c: 1.1
+-re2c: 1.1.1	
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -40,8 +40,9 @@ l series:
 -ffmpeg: 4.0.2
 -freetype: 2.9.1 (make RC="" to build)
 -fribidi: 1.0.5 
--fuse3: 3.2.5
+-fuse3: 3.2.6
 -gegl: 0.4.8
+-glib2: 2.58.0 
 -glade3: 3.22.0
 -gmime: 3.2.0
 -grantlee: 5.1.0
@@ -59,7 +60,7 @@ l series:
 -libsigc++: 2.99.11
 -libssh: 0.8.0
 -libunwind: 6.0.1
--mozilla-nss: 3.38
+-mozilla-nss: 3.39
 -netpbm: 10.76.00
 -pycairo: 1.17.1
 -sg3_utils: 1.43r785
@@ -70,6 +71,7 @@ l series:
 -------------------------
 n series:
 -cifs-utils: 6.8
+-gnupg2: 2.2.10
 -net-snmp: 5.8
 -nfs-utils: 2.3.2
 -slrn: 1.0.3a
@@ -87,7 +89,7 @@ tcl/tk series:
 -------------------------
 x series:
 -fontconfig: 2.13.0 (pb)
--vulkan-sdk: 1.1.83
+-vulkan-sdk: 1.1.82.0
 -------------------------
 xap:
 -hexchat: 2.14.2 
