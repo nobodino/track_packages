@@ -74,6 +74,7 @@ n series:
 -gnupg2: 2.2.10
 -net-snmp: 5.8
 -nfs-utils: 2.3.2
+-p11-kit: 0.23.14
 -slrn: 1.0.3a
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
@@ -88,7 +89,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--fontconfig: 2.13.0 (pb)
+-fontconfig: 2.13.1
 -vulkan-sdk: 1.1.82.0
 -------------------------
 xap:

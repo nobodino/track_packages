@@ -787,7 +787,7 @@ n series:
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
 -openssl: 1.1.0i ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.13 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.13 to 0.23.14 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
@@ -854,7 +854,7 @@ tcl/tk series:
 --------------------
 x series: (main packages)
 --------------------
--fontconfig: 2.12.6 to 2.13.0 http://freedesktop.org/software/fontconfig
+-fontconfig: 2.12.6 to 2.13.1 http://freedesktop.org/software/fontconfig
 -igt-gpu-tools: 1.23 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
