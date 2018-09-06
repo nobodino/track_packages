@@ -1,17 +1,15 @@
 ~possible updates
 -----------------------
 a series:
--acpid: 2.0.30
 -cryptsetup: 2.0.4
 -dialog: 1.3_20180621 (pb)
 -getty_ps: 2.1.1
--ghostscript: 9.24
+-haveged: 1.9.4 
 -kbd: 1.15.5
 -lvm2: 2.02.181
 -mcelog: 159
 -quota: 4.04
 -shadow: 4.6
--sudo: 1.8.25
 -syslinux: 5.10
 -udisk2: 2.7.6
 -upower: 0.99.7
@@ -19,7 +17,6 @@ a series:
 ap series:
 -at: 3.1.23
 -cdrtools: 3.02a9
--cups-filters: 1.21.2
 -dash: 0.5.10.2
 -distcc: 3.3.2
 -lm_sensors: 3.4.0_20180820 
@@ -29,6 +26,7 @@ ap series:
 -zsh: 5.6
 -------------------------
 d series:
+-gdb: 8.2
 -indent: 2.2.11
 -opencl-headers: 2.2
 -re2c: 1.1.1	
@@ -41,6 +39,7 @@ l series:
 -at-spi2-core: 2.30.0
 -dconf: 0.28.0
 -dconf-editor: 3.28.0 
+-eigen3: 3.3.5
 -enchant: 2.1.1
 -exiv2: 0.26.0_20180319
 -ffmpeg: 4.0.2
@@ -57,7 +56,7 @@ l series:
 -gtk+3: 3.24.0
 -icu4c: 62.1
 -imagemagick: 6.9.10_11
--iso-codes: 4.0 
+-iso-codes: 4.1
 -jemalloc: 5.0.1
 -libclc: 0.2.0-20180319
 -libexif: 0.6.21
@@ -70,7 +69,6 @@ l series:
 -libsoup: 2.64.0
 -libssh: 0.8.0
 -libunwind: 6.0.1
--mozilla-nss: 3.39
 -netpbm: 10.76.00
 -pycairo: 1.17.1
 -sg3_utils: 1.43r785
@@ -81,15 +79,11 @@ l series:
 -------------------------
 n series:
 -cifs-utils: 6.8
--gnupg2: 2.2.10
--libtirpc: 1.1.4 
 -net-snmp: 5.8
 -nfs-utils: 2.3.2
--p11-kit: 0.23.14
 -rpcbind: 1.2.5 
 -slrn: 1.0.3a
 -sshfs: 3.5.0
--stunnel: 5.49
 -vlan: 2.0 (debian)
 -yp-tools: 4.2.1
 -ypbind-mt: 2.4
@@ -103,14 +97,10 @@ tcl/tk series:
 -------------------------
 x series:
 -fontconfig: 2.13.1
--libdrm: 2.4.94
 -vulkan-sdk: 1.1.82.0
 -------------------------
 xap:
--hexchat: 2.14.2 
--mozilla-firefox: 62.0
 -pan: 0.144
--xlockmore: 5.56
 -------------------------
 xfce series:
 -xfce4-power-manager: 1.6.1

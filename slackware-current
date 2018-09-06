@@ -8,7 +8,7 @@ A series :
 -aaa_elflibs: 15.0
 -aaa_terminfo: 6.1
 -acl: 2.2.53 http://savannah.nongnu.org/projects/acl
--acpid: 2.0.29 to 2.0.30 http://sourceforge.net/projects/acpid2/
+-acpid: 2.0.30 http://sourceforge.net/projects/acpid2/
 -attr: 2.2.48 http://savannah.nongnu.org/projects/attr
 -bash: 4.4.023 ftp://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
@@ -49,7 +49,7 @@ A series :
 -grep: 3.1 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.02 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.9 ftp://ftp.gnu.org/pub/gnu/gzip/
--haveged: 1.9.2 http://www.issihosts.com/haveged/index.html
+-haveged: 1.9.2 to 1.9.4 http://www.issihosts.com/haveged/index.html
 -hdparm: 9.56 https://sourceforge.net/projects/hdparm/
 -hostname: 3.18
 -hwdata: 0.304 https://git.fedorahosted.org/git/hwdata.git
@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-firmware: 20180825 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.67 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20180904 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.14.68 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -151,7 +151,7 @@ Ap series :
 	- cups: 2.2.8 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.21.0 to 1.21.2 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.21.2 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.9.1 to 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.23 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -163,7 +163,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.23 to 9.24 https://www.ghostscript.com/download/
+-ghostscript: 9.24 https://www.ghostscript.com/download/
 -gphoto2: 2.5.17 http://www.gphoto.org/
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 http://gimp-print.sourceforge.net/p_Download.php
@@ -229,7 +229,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.24.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.3 http://squashfs.sourceforge.net/
--sudo: 1.8.24 to 1.8.25 http://www.courtesan.com/sudo/current.html
+-sudo: 1.8.25 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.4 to 11.6.5/12.0.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -252,7 +252,7 @@ d series:
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.1 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 3.4.1 https://ftp.samba.org/pub/ccache/
+-ccache: 3.4.3 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20180409 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
@@ -264,7 +264,7 @@ d series:
 -doxygen: 1.8.14 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
--gdb: 8.1.1 ftp://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 8.1.1 to 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.18.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
@@ -274,12 +274,12 @@ d series:
 -icecream: 20180808 https://github.com/icecc/icecream
 -indent: 2.2.10 to 2.2.11 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.67
+-kernel-headers: 4.14.68
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 6.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 4.7 https://mercurial.selenic.com/downloads
+-mercurial: 4.7.1 https://mercurial.selenic.com/downloads
 -meson: 0.47.2 http://mesonbuild.com/
 -nasm: 2.13.03 http://www.nasm.us/
 -ninja: 1.8.2 https://ninja-build.org/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.67
+-kernel : 4.14.68
 --------------------
 kde series :
 --------------------
@@ -398,7 +398,7 @@ l series:
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
--eigen3: 3.2.10 to 3.3.4 http://eigen.tuxfamily.org/index.php?title=Main_Page
+-eigen3: 3.2.10 to 3.3.5 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.171 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.1.1 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
@@ -461,7 +461,7 @@ l series:
 -ilmbase: 2.2.0 http://www.openexr.com/downloads.html
 -imagemagick: 6.9.10_3 to 6.9.10_11 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
--iso-codes: 3.76 to 4.0 http://de-mirror.org/gentoo/distfiles/
+-iso-codes: 3.76 to 4.1 http://de-mirror.org/gentoo/distfiles/
 -jasper: 2.0.12 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.0.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
@@ -576,9 +576,9 @@ l series:
 -media-player-info: 23 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.37.3 to 3.39 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.37.3 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.19 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+-mozilla-nss: 3.39 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.39 https://ftp.mozilla.org/pub/security/nss/releases/
+	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.1_20180616 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
@@ -694,7 +694,7 @@ n series:
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
 	- wireless-regdb: 20180531
--curl: 7.61.0 http://curl.haxx.se/download/
+-curl: 7.61.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27-rc7 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -707,7 +707,7 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.5 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.9 to 2.2.10 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.10 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.3 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.9.10 https://www.gnupg.org/download/index.html
 -gpgme: 1.11.1 https://www.gnupg.org/download/index.html
@@ -741,7 +741,7 @@ n series:
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.1.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.20.2 http://www.freedesktop.org/software/libqmi/
--libtirpc: 1.0.3 to 1.1.4 http://sourceforge.net/projects/libtirpc/
+-libtirpc: 1.1.4 http://sourceforge.net/projects/libtirpc/
 -links: 2.16 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9dev19 http://lynx.isc.org/release/
 -mailx: 12.5 http://sourceforge.net/projects/heirloom/files/heirloom-mailx/
@@ -775,7 +775,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.3.1 to 2.3.2 http://sourceforge.net/projects/nfs/
 -nftables: 0.9.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.32.0 https://nghttp2.org/
+-nghttp2: 1.33.0 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.5 https://github.com/gpg/npth/releases
@@ -787,7 +787,7 @@ n series:
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
 -openssl: 1.1.0i ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.13 to 0.23.14 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.14 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
@@ -808,7 +808,7 @@ n series:
 -slrn: 1.0.2 to 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.5.13_20180507 http://kiza.kcore.de/software/snownews/
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
--stunnel: 5.48 to 5.49 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.49 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -859,7 +859,7 @@ x series: (main packages)
 -intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
 -libpciaccess: 0.14
--libdrm: 2.4.93 to 2.4.94 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.94 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.2
 -libevdev: 1.5.9
 -libinput: 1.11.3
@@ -885,7 +885,7 @@ x series: (main packages)
 -xf86-input-libinput: 0.28.0
 -xf86-input-wacom: 0.36.1
 -xf86-video-amdgpu: 18.0.1
--xf86-video-ati: 20180719
+-xf86-video-ati: 20180824
 -xf86-video-intel: 20180601
 -xf86-video-nv: 2.1.21
 -xf86-video-nouveau: 1.0.15
@@ -928,8 +928,8 @@ xap series:
 -gucharmap: 10.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0328
--hexchat: 2.14.1 to 2.14.2 https://hexchat.github.io/
--mozilla-firefox: 60.1.0esr to 62.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-hexchat: 2.14.2 https://hexchat.github.io/
+-mozilla-firefox: 60.2.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.16 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.143 to 0.144 http://pan.rebelbase.com/download/releases/
@@ -952,7 +952,7 @@ xap series:
 -xgames: 0.2 (??)
 -xine-lib: 1.2.9 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.10 http://dl.sourceforge.net/xine/
--xlockmore: 5.55 to 5.56 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+-xlockmore: 5.56 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11 (??)
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
