@@ -13,6 +13,7 @@ a series:
 -syslinux: 5.10
 -udisk2: 2.7.6
 -upower: 0.99.7
+-xfsprogs: 4.18.0 
 ------------------------
 ap series:
 -at: 3.1.23
@@ -26,8 +27,7 @@ ap series:
 -zsh: 5.6
 -------------------------
 d series:
--gdb: 8.2
--indent: 2.2.11
+-cmake: 3.12.2 
 -opencl-headers: 2.2
 -re2c: 1.1.1	
 -------------------------
@@ -48,16 +48,19 @@ l series:
 -fuse3: 3.2.6
 -gdk-pixbuf2: 2.38.0
 -gegl: 0.4.8
--glib2: 2.58.0 
+-glib2: 2.58.0
+-glib-networking: 2.58.0  
 -glade3: 3.22.0
 -gmime: 3.2.0
 -gobject-introspection: 1.58.0
 -grantlee: 5.1.0
+-gsettings-desktop-schemas: 3.28.1
 -gtk+3: 3.24.0
 -icu4c: 62.1
 -imagemagick: 6.9.10_11
 -iso-codes: 4.1
 -jemalloc: 5.0.1
+-libarchive: 3.3.3 
 -libclc: 0.2.0-20180319
 -libexif: 0.6.21
 -libical: 3.0.3
@@ -79,8 +82,9 @@ l series:
 -------------------------
 n series:
 -cifs-utils: 6.8
+-links: 2.17
 -net-snmp: 5.8
--nfs-utils: 2.3.2
+-nfs-utils: 2.3.3
 -rpcbind: 1.2.5 
 -slrn: 1.0.3a
 -sshfs: 3.5.0
