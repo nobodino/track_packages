@@ -376,7 +376,7 @@ l series:
 -aspell-en: 2018.04.16
 -at-spi2-atk: 2.26.2 to 2.30.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
 -at-spi2-core: 2.28.0 to 2.30.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
--atk: 2.28.1 to 2.29.1 (beta) ftp://ftp.gnome.org/pub/GNOME/sources/atk/
+-atk: 2.28.1 to 2.30.0 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.24.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
@@ -693,7 +693,7 @@ n series:
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
-	- wireless-regdb: 20180531
+	- wireless-regdb: 20180531 to 20180907
 -curl: 7.61.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27-rc7 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
@@ -931,7 +931,7 @@ xap series:
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.2.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
--network-manager-applet: 1.8.16 https://download.gnome.org/sources/network-manager-applet/1.0/
+-network-manager-applet: 1.8.16 to 1.18.18 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.143 to 0.144 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.13.0
@@ -970,7 +970,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -libxfce4util: 4.12.1 to 4.13.1
 -orage: 4.12.1
 -thunar-volman: 0.8.1
--tumbler: 0.2.1
+-tumbler: 0.2.1 to 0.2.2
 -xfce4-appfinder: 4.12.0 to 4.13.0
 -xfce4-clipman-plugin: 1.4.2
 -xfce4-dev-tools: 4.12.0
@@ -1016,4 +1016,7 @@ testing :
 -efibootmgr: 0.6.0
 /-----------------------------------------------------------------------------------/
  grep . /sys/devices/system/cpu/vulnerabilities/*
+/-----------------------------------------------------------------------------------/
+old archive packages for slackware64 (no delete rsync)
+http://slackmirror.cbpf.br/pub/slackware/slackware64-current/
 /-----------------------------------------------------------------------------------/

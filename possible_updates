@@ -37,6 +37,7 @@ l series:
 -adwaita-icon-theme: 3.30.0
 -at-spi2-atk: 2.30.0
 -at-spi2-core: 2.30.0
+-atk: 2.30.0
 -dconf: 0.28.0
 -dconf-editor: 3.28.0 
 -eigen3: 3.3.5
@@ -89,6 +90,7 @@ n series:
 -slrn: 1.0.3a
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
+-wireless-regdb: 20180907
 -yp-tools: 4.2.1
 -ypbind-mt: 2.4
 -ypserv: 4.0
@@ -104,9 +106,11 @@ x series:
 -vulkan-sdk: 1.1.82.0
 -------------------------
 xap:
+-network-manager-applet: 1.18.18 
 -pan: 0.144
 -------------------------
 xfce series:
+-tumbler: 0.2.2
 -xfce4-power-manager: 1.6.1
 -xfwm4: 4.12.5
 -------------------------
