@@ -13,7 +13,6 @@ a series:
 -syslinux: 5.10
 -udisk2: 2.7.6
 -upower: 0.99.7
--xfsprogs: 4.18.0 
 ------------------------
 ap series:
 -at: 3.1.23
@@ -24,10 +23,10 @@ ap series:
 -lxc: 2.1.1 or 3.0.2
 -rpm: 4.14.2 
 -sysstat: 11.6.5 or 12.0.1
--zsh: 5.6
+-zsh: 5.6.1
 -------------------------
 d series:
--cmake: 3.12.2 
+-git: 2.19.0
 -opencl-headers: 2.2
 -re2c: 1.1.1	
 -------------------------
@@ -57,11 +56,11 @@ l series:
 -grantlee: 5.1.0
 -gsettings-desktop-schemas: 3.28.1
 -gtk+3: 3.24.0
+-harfbuzz: 1.9.0 
 -icu4c: 62.1
 -imagemagick: 6.9.10_11
 -iso-codes: 4.1
 -jemalloc: 5.0.1
--libarchive: 3.3.3 
 -libclc: 0.2.0-20180319
 -libexif: 0.6.21
 -libical: 3.0.3
@@ -83,7 +82,6 @@ l series:
 -------------------------
 n series:
 -cifs-utils: 6.8
--links: 2.17
 -net-snmp: 5.8
 -nfs-utils: 2.3.3
 -rpcbind: 1.2.5 
@@ -103,14 +101,15 @@ tcl/tk series:
 -------------------------
 x series:
 -fontconfig: 2.13.1
+-libinput: 1.12.0
 -vulkan-sdk: 1.1.82.0
 -------------------------
 xap:
+-media-player-info: 24
 -network-manager-applet: 1.18.18 
 -pan: 0.144
 -------------------------
 xfce series:
--tumbler: 0.2.2
 -xfce4-power-manager: 1.6.1
 -xfwm4: 4.12.5
 -------------------------
