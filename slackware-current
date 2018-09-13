@@ -85,7 +85,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.4 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
--openssl-solibs: 1.1.0i http://www.openssl.org/
+-openssl-solibs: 1.1.1 http://www.openssl.org/
 -os-prober: 1.76 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
@@ -163,7 +163,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.24 https://www.ghostscript.com/download/
+-ghostscript: 9.24 to 9.25 https://www.ghostscript.com/download/
 -gphoto2: 2.5.17 http://www.gphoto.org/
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 http://gimp-print.sourceforge.net/p_Download.php
@@ -229,7 +229,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.24.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.3 http://squashfs.sourceforge.net/
--sudo: 1.8.25 http://www.courtesan.com/sudo/current.html
+-sudo: 1.8.25 to 1.8.25p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.4 to 11.6.5/12.0.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -266,7 +266,7 @@ d series:
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.18.0 to 2.19.0 http://git-scm.com/download
+-git: 2.19.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -407,7 +407,7 @@ l series:
 -ffmpeg: 3.4.4 to 4.0.2 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.10
--freetype: 2.9 to 2.9.1 http://sourceforge.net/projects/freetype/files/freetype2/
+-freetype: 2.9.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.4 to 1.0.5 http://fribidi.org/download/
 -fuse: 2.9.8 to (fuse3: 3.2.6) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
@@ -452,7 +452,7 @@ l series:
 -gtkmm3: 3.22.2 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.36.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 1.8.8 to 1.9.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 1.9.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
@@ -573,7 +573,7 @@ l series:
 -libzip: 1.5.1 http://www.nih.at/libzip/
 -loudmouth: 1.5.3 http://www.loudmouth-project.org/
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
--media-player-info: 23 to 24 http://www.freedesktop.org/software/media-player-info/
+-media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.39 (nss) http://de-mirror.org/gentoo/distfiles/
@@ -593,7 +593,7 @@ l series:
 -pango: 1.42.4 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.40.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.2 ftp://ftp.gnu.org/pub/parted/
--pcre2: 10.31 http://www.pcre.org/
+-pcre2: 10.32 http://www.pcre.org/
 -pcre: 8.42 http://pcre.sourceforge.net/src/
 -phonon: 4.8.3 http://download.kde.org/stable/phonon/
 -phonon-gstreamer: 4.8.2 (phonon-backend-gstreamer)
@@ -636,7 +636,7 @@ l series:
 -redland: 1.0.17 http://download.librdf.org/source/
 -sbc: 1.3 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
--sg3_utils: 1.42 to 1.43r785 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.43 to 1.44 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -668,7 +668,7 @@ l series:
 -utf8proc: 2.2.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.14.2 http://linuxtv.org/downloads/v4l-utils/
 -virtuoso-ose: 6.1.8 to 7.2.5.1 http://virtuoso.openlinksw.com/wiki/main/
--vte: 0.52.2 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.52.2 to 0.54.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.5 to 1.4.7 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
@@ -785,7 +785,7 @@ n series:
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 7.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
--openssl: 1.1.0i ftp://ftp.openssl.org/source/
+-openssl: 1.1.1 ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.14 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.9 http://www.php.net/distributions/
@@ -854,7 +854,7 @@ tcl/tk series:
 --------------------
 x series: (main packages)
 --------------------
--fontconfig: 2.12.6 to 2.13.1 http://freedesktop.org/software/fontconfig
+-fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -igt-gpu-tools: 1.23 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
@@ -862,7 +862,7 @@ x series: (main packages)
 -libdrm: 2.4.94 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.2
 -libevdev: 1.5.9
--libinput: 1.11.3 to 1.12.0
+-libinput: 1.12.0
 -libmypaint: 1.3.0 http://mypaint.org
 -libva: 2.2.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.2.0 https://01.org/linuxmedia/vaapi
@@ -970,7 +970,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -libxfce4util: 4.12.1 to 4.13.1
 -orage: 4.12.1
 -thunar-volman: 0.8.1
--tumbler: 0.2.2
+-tumbler: 0.2.2 to 0.2.3
 -xfce4-appfinder: 4.12.0 to 4.13.0
 -xfce4-clipman-plugin: 1.4.2
 -xfce4-dev-tools: 4.12.0
