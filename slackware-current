@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-firmware: 20180904 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.69 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20180913 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.14.70 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -227,7 +227,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.0.4 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.24.0 http://www.sqlite.org/download.html
+-sqlite: 3.24.0 to 3.25.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.3 http://squashfs.sourceforge.net/
 -sudo: 1.8.25 to 1.8.25p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.4 to 11.6.5/12.0.1 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -242,7 +242,7 @@ Ap series :
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.4.8
--zsh: 5.5.1 to 5.6.1 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
+-zsh: 5.6.2 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
 --------------------
 d series:
 --------------------
@@ -274,7 +274,7 @@ d series:
 -icecream: 20180808 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.69
+-kernel-headers: 4.14.70
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 6.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -290,7 +290,7 @@ d series:
 -patchelf: 0.9 http://nixos.org/patchelf.html
 -perl: 5.28.0
 	- perl: 5.28.0 http://www.perl.com/CPAN/src/5.0/
-	- DBD-mysql: 4.046 to 4.047 http://www.cpan.org/modules/by-module/DBD/
+	- DBD-mysql: 4.046 to 4.048 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.641 http://www.cpan.org/modules/by-module/DBI/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- URI: 1.74 http://www.cpan.org/modules/by-module/URI/
@@ -311,7 +311,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.0.3 to 1.1.1 http://re2c.org
 -ruby: 2.5.1 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.28.0 https://rust-lang.org
+-rust: 1.29.0 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.24 http://sourceforge.net/projects/strace/files/strace/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.69
+-kernel : 4.14.70
 --------------------
 kde series :
 --------------------
@@ -406,7 +406,7 @@ l series:
 -expat: 2.2.6 http://sourceforge.net/projects/expat/files/expat/
 -ffmpeg: 3.4.4 to 4.0.2 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
--fluidsynth: 1.1.10
+-fluidsynth: 1.1.10 http://www.fluidsynth.org/
 -freetype: 2.9.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.4 to 1.0.5 http://fribidi.org/download/
 -fuse: 2.9.8 to (fuse3: 3.2.6) https://github.com/libfuse/libfuse/releases
@@ -571,6 +571,7 @@ l series:
 -libyaml: 0.1.7 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxslt: 1.1.32 ftp://xmlsoft.org/
 -libzip: 1.5.1 http://www.nih.at/libzip/
+-lmdb: 0.9.22 http://symas.com/mdb/
 -loudmouth: 1.5.3 http://www.loudmouth-project.org/
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
@@ -672,11 +673,12 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.5 to 1.4.7 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
+-zstd: 1.3.5 http://zstd.net/
 --------------------
 n series:
 --------------------
 -ModemManager: 1.8.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.12.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.14.0 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -788,7 +790,7 @@ n series:
 -openssl: 1.1.1 ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.14 http://p11-glue.freedesktop.org/releases/
--php: 7.2.9 http://www.php.net/distributions/
+-php: 7.2.10 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -804,7 +806,7 @@ n series:
 -rpcbind: 0.2.4 to 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.12  http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
--samba: 4.8.5 https://ftp.samba.org/pub/samba/
+-samba: 4.9.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.2 to 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.5.13_20180507 http://kiza.kcore.de/software/snownews/
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
@@ -884,8 +886,8 @@ x series: (main packages)
 -xorg-server: 1.20.1 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.28.0
 -xf86-input-wacom: 0.36.1
--xf86-video-amdgpu: 18.0.1
--xf86-video-ati: 20180824
+-xf86-video-amdgpu: 18.1.0
+-xf86-video-ati: 18.1.0
 -xf86-video-intel: 20180601
 -xf86-video-nv: 2.1.21
 -xf86-video-nouveau: 1.0.15
@@ -931,7 +933,7 @@ xap series:
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.2.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
--network-manager-applet: 1.8.16 to 1.18.18 https://download.gnome.org/sources/network-manager-applet/1.0/
+-network-manager-applet: 1.8.18 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.143 to 0.144 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.13.0
