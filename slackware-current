@@ -236,7 +236,7 @@ Ap series :
 -tmux: 2.7 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.0328 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.0328 to 8.1.0412 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.0328
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -536,7 +536,7 @@ l series:
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.44.2 to 2.44.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.0 to 2.99.11 (beta) ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -896,7 +896,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 335 ftp://invisible-island.net/xterm/
+-xterm: 335 to 336 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -929,7 +929,7 @@ xap series:
 -gparted: 0.32.0 http://gparted.sourceforge.net/
 -gucharmap: 10.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.0328
+-gvim: 8.1.0328 to 8.1.0412
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.2.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
