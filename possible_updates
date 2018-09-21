@@ -42,6 +42,7 @@ l series:
 -dconf: 0.28.0
 -dconf-editor: 3.28.0 
 -eigen3: 3.3.5
+-elfutils: 0.174 
 -enchant: 2.1.1
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.0.2
@@ -108,8 +109,9 @@ tcl/tk series:
 -
 -------------------------
 x series:
--xter: 336
--vulkan-sdk: 1.1.82.0
+-mesa: 18.2.1
+-xterm: 336
+-vulkan-sdk: 1.1.84.0
 -------------------------
 xap:
 -pan: 0.144

@@ -399,7 +399,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.2.10 to 3.3.5 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.171 http://fedorahosted.org/releases/e/l/elfutils
+-elfutils: 0.171 to 0.174 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.1.1 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
@@ -628,7 +628,7 @@ l series:
 -qca: 2.1.3 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.8.1 http://qjson.sourceforge.net/
--qt: 4.8.7 to 5.9.3 ftp://ftp.trolltech.com/qt/source/
+-qt: 4.8.7 to 5.11.2 ftp://ftp.trolltech.com/qt/source/
 -qt-gstreamer: 1.2.0 http://gstreamer.freedesktop.org/modules/qt-gstreamer.html
 -qtscriptgenerator: 0.2.0 https://code.google.com/p/qtscriptgenerator/downloads/list
 -raptor2: 2.0.15 http://download.librdf.org/source/
@@ -875,7 +875,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.6
 -libXres: 1.2.0
--mesa: 18.2.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 18.2.0 to 18.2.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
