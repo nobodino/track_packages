@@ -61,7 +61,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20180913 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.71 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.14.72 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -113,7 +113,7 @@ A series :
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.7.0 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
--udisks2: 2.6.5 to 2.7.6 http://udisks.freedesktop.org/releases/
+-udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.9.23 to 0.99.7 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.5.1 http://www.draisberghof.de/usb_modeswitch/#download
@@ -135,8 +135,6 @@ Ap series :
 -a2ps:
 	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 1.23 ftp://drocklinux.dyndns.org/software/psutils/ or http://pkgs.fedoraproject.org/repo/pkgs/psutils/
-
-
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
 -alsa-utils: 1.1.6 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
@@ -168,7 +166,7 @@ Ap series :
 -ghostscript: 9.24 to 9.25 https://www.ghostscript.com/download/
 -gphoto2: 2.5.17 http://www.gphoto.org/
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
--gutenprint: 5.2.14 http://gimp-print.sourceforge.net/p_Download.php
+-gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
 -hplip: 3.18.7 to 3.18.9 http://hplipopensource.com
 -ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
@@ -198,7 +196,7 @@ Ap series :
 	- perl-XML-SXA-Base: 1.08 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
 	- sgml-common: 0.6.3 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
--lm_sensors: 3.4.0 to 3.4.0_20180820 (gentoo) https://github.com/groeck/lm-sensors
+-lm_sensors: 3.4.0 to 3.4.0_20180923 (gentoo) https://github.com/groeck/lm-sensors
 -lsof: 4.91 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.29 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 2.0.9 to 2.1.1/3.0.2 http://sourceforge.net/projects/lxc/files/lxc
@@ -229,7 +227,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.0.4 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.25.1 to 3.25.2 http://www.sqlite.org/download.html
+-sqlite: 3.25.2 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.25 to 1.8.25p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.4 to 11.6.5/12.0.1 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -238,8 +236,8 @@ Ap series :
 -tmux: 2.7 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.0328 to 8.1.0412 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.0328
+-vim: 8.1.0436 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.0436
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -276,7 +274,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.71
+-kernel-headers: 4.14.72
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -311,9 +309,9 @@ d series:
 -python-pip: 18.0 https://pip.pypa.io/
 -python-setuptools: 40.4.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
--re2c: 1.0.3 to 1.1.1 http://re2c.org
+-re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.1 ftp://ftp.ruby-lang.org/pub/ruby
- https://rust-lang.org
+-rust: 1.29.1 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.24 http://sourceforge.net/projects/strace/files/strace/
@@ -337,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.71
+-kernel : 4.14.72
 --------------------
 kde series :
 --------------------
@@ -372,7 +370,7 @@ l series:
 -alsa-lib: 1.1.6 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.6 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.1.6 ftp://ftp.alsa-project.org/pub/plugins/
--apr: 1.6.3 http://apr.apache.org/download.cgi
+-apr: 1.6.5 http://apr.apache.org/download.cgi
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -aspell: 0.60.6.1 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2018.04.16
@@ -539,7 +537,7 @@ l series:
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.44.4 to 2.44.6 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.0 to 2.99.11 (beta) ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -584,7 +582,7 @@ l series:
 	- nss: 3.39 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.1_20180616 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
+-ncurses: 6.1_20180923 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
 -netpbm: 10.66.02 to 10.76.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
@@ -712,7 +710,7 @@ n series:
 -getmail: 5.5 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.10 https://www.gnupg.org/download/index.html
--gnutls: 3.6.3 to 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.9.10 https://www.gnupg.org/download/index.html
 -gpgme: 1.11.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -872,6 +870,7 @@ x series: (main packages)
 -libva-utils: 2.2.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.1.1 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 0.30 https://github.com/linuxwacom
+-libxcb: 1.13 to 1.13.1
 -libXcm: 0.5.3 (no more necessary ?)
 -libXfont2: 2.0.3
 -libXpm: 3.5.12
@@ -883,14 +882,14 @@ x series: (main packages)
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.34.0 http://cairographics.org/releases/
 -sessreg: 1.1.1
--vulkan-sdk: 1.1.73 to 1.1.82.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.73 to 1.1.84.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
 -xorg-server: 1.20.1 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.28.0
 -xf86-input-wacom: 0.36.1
 -xf86-video-amdgpu: 18.1.0
 -xf86-video-ati: 18.1.0
--xf86-video-intel: 20180601
+-xf86-video-intel: 20180906
 -xf86-video-nv: 2.1.21
 -xf86-video-nouveau: 1.0.15
 -xf86-video-r128: 6.11.0
@@ -931,7 +930,7 @@ xap series:
 -gparted: 0.32.0 http://gparted.sourceforge.net/
 -gucharmap: 10.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.0328 to 8.1.0412
+-gvim: 8.1.0436
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.2.1esr to 62.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
@@ -966,7 +965,7 @@ xap series:
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.1
+-Thunar: 1.8.1 to 1.8.2
 -exo: 0.12.2
 -garcon: 0.6.1
 -gtk-xfce-engine: 2.10.1 to 3.2.0

@@ -11,7 +11,7 @@ a series:
 -quota: 4.04
 -shadow: 4.6
 -syslinux: 5.10
--udisk2: 2.7.6
+-udisk2: 2.8.1
 -upower: 0.99.7
 ------------------------
 ap series:
@@ -19,18 +19,15 @@ ap series:
 -cdrtools: 3.02a9
 -dash: 0.5.10.2
 -distcc: 3.3.2
+-gutenprint: 5.3.1 
 -hplip: 3.18.9
--lm_sensors: 3.4.0_20180820 
+-lm_sensors: 3.4.0_20180923
 -lxc: 2.1.1 or 3.0.2
 -rpm: 4.14.2
--sqlite: 3.25.2
 -sysstat: 11.6.5 or 12.0.1
--vim: 8.1.0412
 -------------------------
 d series:
 -opencl-headers: 2.2
--re2c: 1.1.1
--rust: 1.29.1
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -69,6 +66,7 @@ l series:
 -libkarma: 0.1.2
 -libmtp: 1.1.15
 -libpng: 1.6.35
+-librsvg: 2.44.6
 -libsigc++: 2.99.11
 -libsoup: 2.64.0
 -libssh: 0.8.0
@@ -85,7 +83,6 @@ n series:
 -ModemManager: 1.8.2
 -bind: 9.13.3
 -cifs-utils: 6.8
--gnutls: 3.6.4 
 -net-snmp: 5.8
 -nfs-utils: 2.3.3
 -rpcbind: 1.2.5
@@ -105,13 +102,14 @@ tcl/tk series:
 -
 -------------------------
 x series:
+-libxcb: 1.13.1
 -vulkan-sdk: 1.1.84.0
 -------------------------
 xap:
 -pan: 0.144
 -------------------------
 xfce series:
--mozilla-firefox: 62.0.2
+-Thunar: 1.8.2
 -xfce4-power-manager: 1.6.1
 -xfwm4: 4.12.5
 -------------------------
