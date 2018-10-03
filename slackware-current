@@ -32,12 +32,12 @@ A series :
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
--eudev: 3.2.6 https://wiki.gentoo.org/wiki/Project:Eudev
+-eudev: 3.2.5 to 3.2.6 https://wiki.gentoo.org/wiki/Project:Eudev
 -file: 5.34 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 http://www.tux.org/pub/tux/knaff/mtools/
+	- mtools: 4.0.18 to 4.0.19 http://www.tux.org/pub/tux/knaff/mtools/
 -gawk: 4.2.1 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-firmware: 20180913 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.72 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20181001 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.14.73 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -138,7 +138,7 @@ Ap series :
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
 -alsa-utils: 1.1.6 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
--at: 3.1.20 to 3.1.23 http://ftp.debian.org/debian/pool/main/a/at/
+-at: 3.1.23 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
@@ -168,7 +168,7 @@ Ap series :
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.18.7 to 3.18.9 http://hplipopensource.com
+-hplip: 3.18.9 http://hplipopensource.com
 -ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -itstool: 2.0.4 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
@@ -274,12 +274,12 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.72
+-kernel-headers: 4.14.73
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 4.7.1 https://mercurial.selenic.com/downloads
+-mercurial: 4.7.2 https://mercurial.selenic.com/downloads
 -meson: 0.48.0 http://mesonbuild.com/
 -nasm: 2.13.03 http://www.nasm.us/
 -ninja: 1.8.2 https://ninja-build.org/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.72
+-kernel : 4.14.73
 --------------------
 kde series :
 --------------------
@@ -439,12 +439,12 @@ l series:
 -gsettings-desktop-schemas: 3.28.0 to 3.28.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.5 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
--gst-plugins-base: 1.14.3
+-gst-plugins-base: 1.14.3 to 1.14.4
 -gst-plugins-good0: 0.10.31 http://gstreamer.freedesktop.org/src/gst-plugnis-good
--gst-plugins-good: 1.14.3
--gst-plugins-libav: 1.14.3 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gst-plugins-good: 1.14.3 to 1.14.4
+-gst-plugins-libav: 1.14.3 to 1.14.4 http://gstreamer.freedesktop.org/modules/gst-libav.html
 -gstreamer0: 0.10.36 
--gstreamer: 1.14.3 http://gstreamer.freedesktop.org/src/gstreamer
+-gstreamer: 1.14.3 to 1.14.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.22.30 to 3.24.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -537,7 +537,7 @@ l series:
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.4 to 2.44.6 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.44.6 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.0 to 2.99.11 (beta) ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -932,8 +932,8 @@ xap series:
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0436
 -hexchat: 2.14.2 https://hexchat.github.io/
--mozilla-firefox: 60.2.1esr to 62.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 60.2.2esr to 62.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 60.2.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.18 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.143 to 0.144 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -965,7 +965,7 @@ xap series:
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.1 to 1.8.2
+-Thunar: 1.8.2
 -exo: 0.12.2
 -garcon: 0.6.1
 -gtk-xfce-engine: 2.10.1 to 3.2.0
