@@ -61,7 +61,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20181001 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.73 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.14.74 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -151,7 +151,7 @@ Ap series :
 	- cups: 2.2.8 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.21.2 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.21.2 to 1.21.3 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.9.1 to 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.23 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -176,7 +176,7 @@ Ap series :
 -jove: 4.16.0.73 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
 -ksh93: 20180412 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
--linuxdoc-tools: 0.9.72 http://packages.qa.debian.org/l/linuxdoc-tools.html
+-linuxdoc-tools: 0.9.72 to 0.9.73 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 8.6.9 http://www.methods.co.nz/asciidoc/
 	- docbook-dsssl: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-dsssl-doc: 1.79 http://sourceforge.net/projects/docbook/files/
@@ -204,7 +204,7 @@ Ap series :
 -madplay: 0.15.2b http://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 http://www.nongnu.org/man-db/
 -man-pages: 4.16 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.3.9 http://mariadb.org/
+-mariadb: 10.3.10 http://mariadb.org/
 -mc: 4.8.21 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -256,7 +256,7 @@ d series:
 -clisp: 2.49.20180409 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
--cmake: 3.12.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.12.2 to 3.12.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.8a http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -270,11 +270,12 @@ d series:
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
+
 -help2man: 1.47.7 http://ftp.gnu.org/gnu/help2man/
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.73
+-kernel-headers: 4.14.74
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -306,7 +307,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.6 https://www.python.org/downloads/
--python-pip: 18.0 https://pip.pypa.io/
+-python-pip: 18.1 https://pip.pypa.io/
 -python-setuptools: 40.4.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
@@ -335,7 +336,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.73
+-kernel : 4.14.74
 --------------------
 kde series :
 --------------------
@@ -411,7 +412,7 @@ l series:
 -fribidi: 1.0.4 to 1.0.5 http://fribidi.org/download/
 -fuse: 2.9.8 to (fuse3: 3.2.6) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
--gc: 7.6.6 http://www.hboehm.info/gc/gc_source/
+-gc: 7.6.6 to 8.0.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 to 2.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
@@ -439,12 +440,12 @@ l series:
 -gsettings-desktop-schemas: 3.28.0 to 3.28.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.5 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
--gst-plugins-base: 1.14.3 to 1.14.4
+-gst-plugins-base: 1.14.4
 -gst-plugins-good0: 0.10.31 http://gstreamer.freedesktop.org/src/gst-plugnis-good
--gst-plugins-good: 1.14.3 to 1.14.4
--gst-plugins-libav: 1.14.3 to 1.14.4 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gst-plugins-good: 1.14.4
+-gst-plugins-libav: 1.14.4 http://gstreamer.freedesktop.org/modules/gst-libav.html
 -gstreamer0: 0.10.36 
--gstreamer: 1.14.3 to 1.14.4 http://gstreamer.freedesktop.org/src/gstreamer
+-gstreamer: 1.14.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.22.30 to 3.24.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -703,6 +704,7 @@ n series:
 -dnsmasq: 2.79 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.2.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
+
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.0.1 http://www.epicsol.org/
 -ethtool: 4.18 https://www.kernel.org/pub/software/network/ethtool/
@@ -777,7 +779,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.3.1 to 2.3.3 http://sourceforge.net/projects/nfs/
 -nftables: 0.9.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.33.0 https://nghttp2.org/
+-nghttp2: 1.33.0 to 1.34.0 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.5 https://github.com/gpg/npth/releases
@@ -861,10 +863,10 @@ x series: (main packages)
 -intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
 -libpciaccess: 0.14
--libdrm: 2.4.94 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.94 to 2.4.95 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.2
 -libevdev: 1.5.9
--libinput: 1.12.0
+-libinput: 1.12.1
 -libmypaint: 1.3.0 http://mypaint.org
 -libva: 2.2.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.2.0 https://01.org/linuxmedia/vaapi
@@ -876,7 +878,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.6
 -libXres: 1.2.0
--mesa: 18.2.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 18.2.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
