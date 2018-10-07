@@ -266,11 +266,10 @@ d series:
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.19.0 http://git-scm.com/download
+-git: 2.19.0 to 2.19.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
-
 -help2man: 1.47.7 http://ftp.gnu.org/gnu/help2man/
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
@@ -622,7 +621,7 @@ l series:
 -python-idna: 2.7 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 17.1 https://github.com/pypa/packaging
--python-pillow: 5.2.0 https://python-pillow.github.io/
+-python-pillow: 5.2.0 to 5.3.0 https://python-pillow.github.io/
 -python-requests: 2.19.1 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.11.0 http://pypi.python.org/pypi/six/
@@ -670,7 +669,7 @@ l series:
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.2.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.14.2 http://linuxtv.org/downloads/v4l-utils/
--vte: 0.52.2 to 0.54.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.52.2 to 0.54.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.5 to 1.4.7 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
@@ -864,7 +863,7 @@ x series: (main packages)
 -libdmx: 1.1.4
 -libpciaccess: 0.14
 -libdrm: 2.4.94 to 2.4.95 http://dri.freedesktop.org/libdrm/
--libepoxy: 1.5.2
+-libepoxy: 1.5.2 to 1.5.3
 -libevdev: 1.5.9
 -libinput: 1.12.1
 -libmypaint: 1.3.0 http://mypaint.org
@@ -928,7 +927,7 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.2.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.2.4 to 5.2.5 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 0.32.0 http://gparted.sourceforge.net/
 -gucharmap: 10.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/

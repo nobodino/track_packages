@@ -3,7 +3,7 @@
 a series:
 -cryptsetup: 2.0.4
 -dialog: 1.3_20180621 (pb)
--eudev: 3.2.6 
+-eudev: 3.2.6 (pb)
 -getty_ps: 2.1.1
 -haveged: 1.9.4 
 -kbd: 1.15.5
@@ -29,7 +29,7 @@ ap series:
 -sysstat: 11.6.5 or 12.0.1
 -------------------------
 d series:
--cmake: 3.12.3
+-git: 2.19.1 
 -opencl-headers: 2.2
 -------------------------
 l series:
@@ -76,10 +76,11 @@ l series:
 -libunwind: 6.0.1
 -netpbm: 10.76.00
 -poppler: 0.69.0
--pygobject3: 3.30.1 
+-pygobject3: 3.30.1
+-python-pillow: 5.3.0  
 -sip: 4.19.12
 -urwid: 2.0.1
--vte: 0.54.0
+-vte: 0.54.1
 -xapian-core: 1.4.7
 -------------------------
 n series:
@@ -106,11 +107,13 @@ tcl/tk series:
 -
 -------------------------
 x series:
--libdrm: 2.4.95 
+-libdrm: 2.4.95
+-libepoxy: 1.5.3 
 -libxcb: 1.13.1
 -vulkan-sdk: 1.1.84.0
 -------------------------
 xap:
+-gnuplot: 5.2.5
 -pan: 0.144
 -------------------------
 xfce series:
