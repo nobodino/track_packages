@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-firmware: 20181001 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.14.74 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20181008 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.14.75 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -71,7 +71,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.14.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.02.177 to 181 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.02.177 to 2.03.00 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 158 to 161 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.0 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -266,7 +266,7 @@ d series:
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.19.0 to 2.19.1 http://git-scm.com/download
+-git: 2.19.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -274,7 +274,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.14.74
+-kernel-headers: 4.14.75
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -311,11 +311,11 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.1 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.29.1 https://rust-lang.org
+-rust: 1.29.1 to 1.29.2 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.24 http://sourceforge.net/projects/strace/files/strace/
--subversion: 1.10.2 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
+-subversion: 1.10.2 to 1.10.3 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 3.0.12 http://www.swig.org/download.html
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.14.74
+-kernel : 4.14.75
 --------------------
 kde series :
 --------------------
@@ -381,7 +381,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.56 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.56 to 0.1.58 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.68.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.15.14 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -537,14 +537,14 @@ l series:
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.6 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.44.7 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.0 to 2.99.11 (beta) ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.16 https://libsodium.org
--libsoup: 2.62.3 to 2.64.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.62.3 to 2.64.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.7.5 to 0.8.0 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.8.0 http://www.libssh2.org/
@@ -608,20 +608,20 @@ l series:
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 12.2 http://www.freedesktop.org/software/pulseaudio/releases/
 -pycairo: 1.17.1 http://cairographics.org/releases/
--pycups: 1.9.73 https://pypi.python.org/pypi/pycups
+-pycups: 1.9.74 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.2 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.28.3 to 3.30.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
--pyparsing: 2.2.1 http://pyparsing.wikispaces.com/
+-pyparsing: 2.2.2 http://pyparsing.wikispaces.com/
 -python-appdirs: 1.4.3 https://github.com/ActiveState/appdirs
 -python-certifi: 2018.8.24 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.14 http://docutils.sourceforge.net/
 -python-idna: 2.7 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
--python-packaging: 17.1 https://github.com/pypa/packaging
--python-pillow: 5.2.0 to 5.3.0 https://python-pillow.github.io/
+-python-packaging: 18.0 https://github.com/pypa/packaging
+-python-pillow: 5.3.0 https://python-pillow.github.io/
 -python-requests: 2.19.1 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.11.0 http://pypi.python.org/pypi/six/
@@ -636,7 +636,7 @@ l series:
 -rasqal: 0.9.33 http://download.librdf.org/source/
 -readline: 7.0.005 ftp://ftp.cwru.edu/pub/bash/
 -redland: 1.0.17 http://download.librdf.org/source/
--sbc: 1.3 http://www.kernel.org/pub/linux/bluetooth
+-sbc: 1.3 to 1.4 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
 -sg3_utils: 1.43 to 1.44 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
@@ -668,7 +668,7 @@ l series:
 -tevent: 0.9.37 https://tevent.samba.org
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.2.0 https://github.com/JuliaStrings/utf8proc
--v4l-utils: 1.14.2 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.14.2 to 1.16.0 http://linuxtv.org/downloads/v4l-utils/
 -vte: 0.52.2 to 0.54.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.5 to 1.4.7 http://www.xapian.org/
@@ -703,7 +703,6 @@ n series:
 -dnsmasq: 2.79 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.2.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
-
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.0.1 http://www.epicsol.org/
 -ethtool: 4.18 https://www.kernel.org/pub/software/network/ethtool/
@@ -713,7 +712,7 @@ n series:
 -gnupg2: 2.2.10 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.9.10 https://www.gnupg.org/download/index.html
--gpgme: 1.11.1 https://www.gnupg.org/download/index.html
+-gpgme: 1.12.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.35 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 (??)
@@ -778,7 +777,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.3.1 to 2.3.3 http://sourceforge.net/projects/nfs/
 -nftables: 0.9.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.33.0 to 1.34.0 https://nghttp2.org/
+-nghttp2: 1.34.0 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.5 https://github.com/gpg/npth/releases
@@ -862,7 +861,7 @@ x series: (main packages)
 -intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
 -libpciaccess: 0.14
--libdrm: 2.4.94 to 2.4.95 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.95 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.2 to 1.5.3
 -libevdev: 1.5.9
 -libinput: 1.12.1
@@ -871,11 +870,11 @@ x series: (main packages)
 -libva-utils: 2.2.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.1.1 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 0.30 https://github.com/linuxwacom
--libxcb: 1.13 to 1.13.1
+-libxcb: 1.13.1
 -libXcm: 0.5.3 (no more necessary ?)
 -libXfont2: 2.0.3
 -libXpm: 3.5.12
--libX11: 1.6.6
+-libX11: 1.6.7
 -libXres: 1.2.0
 -mesa: 18.2.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -883,7 +882,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.34.0 http://cairographics.org/releases/
 -sessreg: 1.1.1
--vulkan-sdk: 1.1.73 to 1.1.84.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.85.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
 -xorg-server: 1.20.1 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.28.0
