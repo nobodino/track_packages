@@ -456,7 +456,7 @@ l series:
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 61.1 to 62.1 http://site.icu-project.org/download
+-icu4c: 61.1 to 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
 -imagemagick: 6.9.10_11 to 6.9.10_12 http://www.imagemagick.org/
@@ -966,7 +966,7 @@ xap series:
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
 -Thunar: 1.8.2
--exo: 0.12.2
+-exo: 0.12.2 to 0.12.3
 -garcon: 0.6.1
 -gtk-xfce-engine: 2.10.1 to 3.2.0
 -libxfce4ui: 4.12.1 to 4.13.2

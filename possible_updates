@@ -76,7 +76,7 @@ l series:
 -gsettings-desktop-schemas: 3.28.1
 -gtk+3: 3.24.1
 -gvfs: 1.38.1
--icu4c: 62.1
+-icu4c: 63.1
 -ilmbase: 2.3.0
 -imagemagick: 6.9.10_12
 -iso-codes: 4.1
@@ -159,6 +159,7 @@ xap:
 -pan: 0.144
 -------------------------
 xfce series:
+-exo: 0.12.3
 -xfce4-power-manager: 1.6.1
 -xfwm4: 4.12.5
 -------------------------
