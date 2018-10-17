@@ -76,7 +76,6 @@ l series:
 -gsettings-desktop-schemas: 3.28.1
 -gtk+3: 3.24.1
 -gvfs: 1.38.1
--icu4c: 63.1
 -ilmbase: 2.3.0
 -imagemagick: 6.9.10_12
 -iso-codes: 4.1
@@ -87,7 +86,6 @@ l series:
 -libblueray: 1.0.2
 -libcap-ng: 0.7.9
 -libclc: 0.2.0-20180610
--libical: 3.0.4
 -libiodbc: 3.52.12
 -libjeg-turbo: 2.0.0 
 -libkarma: 0.1.2
@@ -97,7 +95,7 @@ l series:
 -libpng: 1.6.35
 -libsigc++: 2.99.11
 -libsoup: 2.64.1
--libssh: 0.8.3
+-libssh: 0.8.4
 -libunwind: 6.0.1
 -libwpd: 0.10.2
 -libwpg: 0.3.2
@@ -129,7 +127,6 @@ n series:
 -net-snmp: 5.8
 -nfs-utils: 2.3.3
 -npth: 1.6
--php: 7.2.11 
 -rpcbind: 1.2.5
 -samba: 4.9.1
 -slrn: 1.0.3a
