@@ -50,7 +50,7 @@ A series :
 -grub: 2.02 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.9 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.2 to 1.9.4 http://www.issihosts.com/haveged/index.html
--hdparm: 9.57 https://sourceforge.net/projects/hdparm/
+-hdparm: 9.57 to 9.58 https://sourceforge.net/projects/hdparm/
 -hostname: 3.18 to 3.21
 -hwdata: 0.304 to 0.316 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
@@ -74,7 +74,7 @@ A series :
 -lvm2: 2.02.177 to 2.03.00 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 158 to 161 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
--mdadm: 4.0 https://www.kernel.org/pub/linux/utils/raid/mdadm/
+-mdadm: 4.0 to 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.7.1 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
@@ -164,7 +164,7 @@ Ap series :
 -flac: 1.3.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.24 to 9.25 https://www.ghostscript.com/download/
--gphoto2: 2.5.17 http://www.gphoto.org/
+-gphoto2: 2.5.17 to 2.5.20 http://www.gphoto.org/
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
@@ -280,7 +280,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 4.7.2 https://mercurial.selenic.com/downloads
--meson: 0.48.0 http://mesonbuild.com/
+-meson: 0.48.0 to 0.48.1 http://mesonbuild.com/
 -nasm: 2.13.03 http://www.nasm.us/
 -ninja: 1.8.2 https://ninja-build.org/
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -307,11 +307,11 @@ d series:
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.7 https://www.python.org/downloads/
 -python-pip: 18.1 https://pip.pypa.io/
--python-setuptools: 40.4.3 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 40.4.3 to 40.5.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.3 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.29.2 https://rust-lang.org
+-rust: 1.30.0 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 20181024 https://github.com/strace/strace/releases/download/
@@ -415,7 +415,7 @@ l series:
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 to 2.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
--gdbm: 1.18.0 ftp://ftp.gnu.org/gnu/gdbm/
+-gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.10 to 0.4.12 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.10.8 http://www.exiv2.org/
 -giflib: 5.1.4 http://sourceforge.net/projects/giflib/files/
@@ -426,8 +426,8 @@ l series:
 -glibmm: 2.56.0 http://www.gtkmm.org/
 -glibc: 2.28
 	-glibc: 2.28 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2018f https://www.iana.org/time-zones
-	-tzdata: 2018f https://www.iana.org/time-zones
+	-tzcode: 2018f to 2018g https://www.iana.org/time-zones
+	-tzdata: 2018f to 2018g https://www.iana.org/time-zones
 -gmime: 3.0.5 to 3.2.0 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 4.3 to 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -459,7 +459,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_11 to 6.9.10_13 http://www.imagemagick.org/
+-imagemagick: 6.9.10_14 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 3.76 to 4.1 http://de-mirror.org/gentoo/distfiles/
 -jasper: 2.0.12 to 2.0.14 http://www.ece.uvic.ca/~frodo/jasper/#download
@@ -501,7 +501,7 @@ l series:
 -libffi: 3.2.1 ftp://sourceware.org/pub/libffi/
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.19 http://www.gphoto.org/
+-libgphoto2: 2.5.19 to 2.5.20 http://www.gphoto.org/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.44 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
@@ -520,7 +520,7 @@ l series:
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
 -libmpc: 1.1.0  http://www.multiprecision.org (for gcc)
 -libmsn: 4.2.1 http://sourceforge.net/projects/libmsn/
--libmtp: 1.1.14 to 1.1.15 http://libmtp.sourceforge.net/
+-libmtp: 1.1.14 to 1.1.16 http://libmtp.sourceforge.net/
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 http://www.carisma.slowglass.com/~tgr/libnl/files/
@@ -578,8 +578,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.39 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.39 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.40 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.40 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.1_20180923 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
@@ -671,7 +671,7 @@ l series:
 -v4l-utils: 1.16.1 http://linuxtv.org/downloads/v4l-utils/
 -vte: 0.52.2 to 0.54.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
--xapian-core: 1.4.5 to 1.4.7 http://www.xapian.org/
+-xapian-core: 1.4.5 to 1.4.8 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
 -zstd: 1.3.5 http://zstd.net/
 --------------------
@@ -727,7 +727,7 @@ n series:
 -iw: 4.14 https://www.kernel.org/pub/software/network/iw/
 -lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.1 https://www.gnupg.org/download/index.html
--libgcrypt: 1.8.3 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.8.3 to 1.8.4 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.32 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
 -libmbim: 1.16.2 http://www.freedesktop.org/software/libmbim/
@@ -863,7 +863,7 @@ x series: (main packages)
 -libpciaccess: 0.14
 -libdrm: 2.4.96 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
--libevdev: 1.5.9
+-libevdev: 1.6.0
 -libinput: 1.12.2
 -libmypaint: 1.3.0 http://mypaint.org
 -libva: 2.2.0 to 2.3.0 https://01.org/linuxmedia/vaapi
