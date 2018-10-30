@@ -19,11 +19,11 @@ A series :
 -coreutils: 8.30 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
--cryptsetup: 1.7.5 to 2.0.4 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 1.7.5 to 2.0.5 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.10 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 http://www.jimpryor.net/linux/dcron.html
 -devs: 2.3.1_46.2.diff to 2.3.1_93.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20180621 (pb) http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
+-dialog: 1.3_20170509 to 1.3_20181022 http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.44.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.14.2 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -50,7 +50,7 @@ A series :
 -grub: 2.02 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.9 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.2 to 1.9.4 http://www.issihosts.com/haveged/index.html
--hdparm: 9.57 to 9.58 https://sourceforge.net/projects/hdparm/
+-hdparm: 9.58 https://sourceforge.net/projects/hdparm/
 -hostname: 3.18 to 3.21
 -hwdata: 0.304 to 0.316 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
@@ -64,7 +64,7 @@ A series :
 -kernel-ide: 4.19.0 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
--less: 530 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
+-less: 530 to 540 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
 -lha: 1.14i_10.1.diff.gz to 1.14i_10.3.diff.gz http://www2m.biglobe.ne.jp/~dolphin/lha/lha-download.htm
 -libcgroup: 0.41 http://libcg.sourceforge.net/
 -libgudev: 232 http://wiki.gnome.org/Projects/libgudev
@@ -164,11 +164,11 @@ Ap series :
 -flac: 1.3.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.24 to 9.25 https://www.ghostscript.com/download/
--gphoto2: 2.5.17 to 2.5.20 http://www.gphoto.org/
+-gphoto2: 2.5.20 http://www.gphoto.org/
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.18.9 http://hplipopensource.com
+-hplip: 3.18.9 to 3.18.10 http://hplipopensource.com
 -ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -itstool: 2.0.4 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
@@ -251,7 +251,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.1 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.1 to 3.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.5 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20180409 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -280,7 +280,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 4.7.2 https://mercurial.selenic.com/downloads
--meson: 0.48.0 to 0.48.1 http://mesonbuild.com/
+-meson: 0.48.1 http://mesonbuild.com/
 -nasm: 2.13.03 http://www.nasm.us/
 -ninja: 1.8.2 https://ninja-build.org/
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -291,7 +291,7 @@ d series:
 -perl: 5.28.0
 	- perl: 5.28.0 http://www.perl.com/CPAN/src/5.0/
 	- DBD-mysql: 4.046 to 4.048 http://www.cpan.org/modules/by-module/DBD/
-	- DBI: 1.641 http://www.cpan.org/modules/by-module/DBI/
+	- DBI: 1.641 to 1.642 http://www.cpan.org/modules/by-module/DBI/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- URI: 1.74 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.44 http://www.cpan.org/modules/by-module/XML/
@@ -307,7 +307,7 @@ d series:
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.7 https://www.python.org/downloads/
 -python-pip: 18.1 https://pip.pypa.io/
--python-setuptools: 40.4.3 to 40.5.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 40.5.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.3 ftp://ftp.ruby-lang.org/pub/ruby
@@ -426,8 +426,8 @@ l series:
 -glibmm: 2.56.0 http://www.gtkmm.org/
 -glibc: 2.28
 	-glibc: 2.28 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2018f to 2018g https://www.iana.org/time-zones
-	-tzdata: 2018f to 2018g https://www.iana.org/time-zones
+	-tzcode: 2018g https://www.iana.org/time-zones
+	-tzdata: 2018g https://www.iana.org/time-zones
 -gmime: 3.0.5 to 3.2.0 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 4.3 to 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -501,7 +501,7 @@ l series:
 -libffi: 3.2.1 ftp://sourceware.org/pub/libffi/
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.19 to 2.5.20 http://www.gphoto.org/
+-libgphoto2: 2.5.20 http://www.gphoto.org/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.44 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
@@ -520,7 +520,7 @@ l series:
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
 -libmpc: 1.1.0  http://www.multiprecision.org (for gcc)
 -libmsn: 4.2.1 http://sourceforge.net/projects/libmsn/
--libmtp: 1.1.14 to 1.1.16 http://libmtp.sourceforge.net/
+-libmtp: 1.1.16 http://libmtp.sourceforge.net/
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 http://www.carisma.slowglass.com/~tgr/libnl/files/
@@ -546,7 +546,7 @@ l series:
 -libsodium: 1.0.16 https://libsodium.org
 -libsoup: 2.62.3 to 2.64.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
--libssh: 0.7.6 to 0.8.4 https://red.libssh.org/projects/libssh/files
+-libssh: 0.8.5 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.8.0 http://www.libssh2.org/
 -libtasn1: 4.13 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
@@ -673,7 +673,7 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.5 to 1.4.8 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.3.5 http://zstd.net/
+-zstd: 1.3.5 to 1.3.7 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -711,7 +711,7 @@ n series:
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.10 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
--gpa: 0.9.10 to 0.10.0 https://www.gnupg.org/download/index.html
+-gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.37 http://www.apache.org/dist/httpd/
@@ -727,7 +727,7 @@ n series:
 -iw: 4.14 https://www.kernel.org/pub/software/network/iw/
 -lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.1 https://www.gnupg.org/download/index.html
--libgcrypt: 1.8.3 to 1.8.4 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.8.4 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.32 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
 -libmbim: 1.16.2 http://www.freedesktop.org/software/libmbim/
