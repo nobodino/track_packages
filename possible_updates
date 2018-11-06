@@ -1,7 +1,6 @@
 ~possible updates
 -----------------------
 a series:
--btrfs-progs: 4.19
 -cryptsetup: 2.0.5
 -dialog: 1.3_20181022
 -efibootmgr: 17
@@ -12,7 +11,7 @@ a series:
 -inotify-tools: 3.20.1 
 -kbd: 1.15.5
 -less: 540
--lvm2: 2.03.01
+-lvm2: 2.02.182 or 2.03.01
 -mdadm: 4.1
 -floppy: mtools 4.0.19
 -quota: 4.04
@@ -21,6 +20,7 @@ a series:
 -sysvinit: 2.91 
 -udisk2: 2.8.1
 -upower: 0.99.7
+-util-linux: 2.33
 ------------------------
 ap series:
 -cdrdao: 1.2.4
@@ -38,10 +38,9 @@ ap series:
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.2
 -rpm: 4.14.2.1
--tmux: 2.8 
+-sqlite: 3.25.3 
 -------------------------
 d series:
--cmake: 3.12.4
 -cscope: 15.9
 -cvs: 1.12.23 
 -opencl-headers: 2.2
@@ -62,7 +61,7 @@ l series:
 -elfutils: 0.174 
 -enchant: 2.2.3
 -exiv2: 0.26.0_20180811
--ffmpeg: 4.0.3
+-ffmpeg: 4.1
 -fluidsynth: 2.0.1
 -fuse3: 3.2.6
 -gc: 8.0.0
@@ -79,7 +78,7 @@ l series:
 -gsettings-desktop-schemas: 3.28.1
 -gtk+3: 3.24.1
 -gvfs: 1.38.1
--harfbuzz: 2.1.0
+-harfbuzz: 2.1.1
 -ilmbase: 2.3.0
 -iso-codes: 4.1
 -jasper: 2.0.14
@@ -105,8 +104,6 @@ l series:
 -polkit-gnome: 0.106
 -poppler: 0.71.0
 -pygobject3: 3.30.1
--pyparsing: 2.3.0
--python-urllib3: 1.24.1
 -sbc: 1.4
 -sip: 4.19.12
 -urwid: 2.0.1
@@ -117,12 +114,13 @@ n series:
 -bridge-utils: 1.6
 -ca-certificates: 20180821 
 -cifs-utils: 6.8
--ethtool: 4.19
+-gnupg2: 2.2.11 
 -libndp: 1.7
 -mobile-broadband-provider-info: 20180219
 -net-snmp: 5.8
 -nfs-utils: 2.3.3
 -npth: 1.6
+-php: 7.2.12
 -rpcbind: 1.2.5
 -slrn: 1.0.3a
 -sshfs: 3.5.0
