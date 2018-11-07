@@ -409,7 +409,7 @@ l series:
 -fluidsynth: 1.1.10 to 2.0.1 http://www.fluidsynth.org/
 -freetype: 2.9.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.5 http://fribidi.org/download/
--fuse: 2.9.8 to (fuse3: 3.2.6) https://github.com/libfuse/libfuse/releases
+-fuse: 2.9.8 to (fuse3: 3.3.0) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 7.6.6 to 8.0.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
