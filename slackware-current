@@ -27,8 +27,8 @@ A series :
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.44.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.14.2 ftp://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 16 to 17 http://linux.dell.com/efibootmgr
--efivar: 36 to 37 https://github.com/rhboot/efivar
+-efibootmgr: 17 http://linux.dell.com/efibootmgr
+-efivar: 36 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
@@ -51,12 +51,12 @@ A series :
 -gzip: 1.9 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.4 http://www.issihosts.com/haveged/index.html
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/
--hostname: 3.18 to 3.21
+-hostname: 3.21
 -hwdata: 0.304 to 0.316 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inotify-tools: 3.14 to 3.20.1 https://github.com/rvoicilas/inotify-tools/wiki/
+-inotify-tools: 3.20.1 https://github.com/rvoicilas/inotify-tools/wiki/
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
@@ -74,7 +74,7 @@ A series :
 -lvm2: 2.02.177 to 2.02.182/2.03.01 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 161 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
--mdadm: 4.0 to 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
+-mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.7.1 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
@@ -116,14 +116,14 @@ A series :
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.9.23 to 0.99.7 http://upower.freedesktop.org/releases/
--usb_modeswitch: 2.5.1 http://www.draisberghof.de/usb_modeswitch/#download
+-usb_modeswitch: 2.5.2 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 010 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.32.1 to 2.33
+-util-linux: 2.33
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz ftp://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 1.60_19.diff.gz to 1.60_p20141019041918.tar.xz (gentoo) or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.32.1 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.33 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 4.18.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
@@ -142,7 +142,7 @@ Ap series :
 -bc: 1.07.1 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
--cdrdao: 1.2.3 to 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
+-cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
 -cdrtools: 3.01 to 3.02a9
 	- cdrtools: 3.01 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
@@ -152,10 +152,10 @@ Ap series :
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
 -cups-filters: 1.21.2 to 1.21.3 https://www.openprinting.org/download/cups-filters/
--dash: 0.5.9.1 to 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
+-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.23 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
--diffstat: 1.61 to 1.62 http://invisible-island.net/diffstat/diffstat.html
+-diffstat:  1.62 http://invisible-island.net/diffstat/diffstat.html
 -diffutils: 3.6 ftp://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 ftp://oss.sgi.com/projects/xfs/cmd_tars/
 -dmidecode: 3.2 https://www.nongnu.org/dmidecode/
@@ -217,7 +217,7 @@ Ap series :
 -powertop: 2.9 http://ftp.debian.org/debian/pool/main/p/powertop/
 -qpdf: 8.2.1 http://qpdf.sourceforge.net/
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
--rpm: 4.14.1 to 4.14.2.1 ftp://ftp.rpm.org/pub/rpm/dist
+-rpm: 4.14.2.1 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc-im: 0.7.0 
 -screen: 4.6.2 https://ftp.gnu.org/gnu/screen/
@@ -227,7 +227,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.0.4 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.25.2 to 3.25.3 http://www.sqlite.org/download.html
+-sqlite: 3.25.3 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.25 to 1.8.25p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 11.6.6 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -433,7 +433,7 @@ l series:
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
 -gnome-keyring: 3.28.2 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
--gnu-efi: 3.0.8 to 3.0.9 http://sourceforge.net/projects/gnu-efi/
+-gnu-efi: 3.0.9 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.56.1 to 1.58.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -grantlee: 0.5.1 to 5.1.0 http://downloads.grantlee.org/
 -gsettings-desktop-schemas: 3.28.0 to 3.28.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
@@ -461,8 +461,8 @@ l series:
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
 -imagemagick: 6.9.10_14 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
--iso-codes: 3.76 to 4.1 http://de-mirror.org/gentoo/distfiles/
--jasper: 2.0.12 to 2.0.14 http://www.ece.uvic.ca/~frodo/jasper/#download
+-iso-codes: 4.1 http://de-mirror.org/gentoo/distfiles/
+-jasper: 2.0.14 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -js185: 1.0.0 (to js187) http://www.mozilla.org/js/spidermonkey (mozjs: 24.2.0)
@@ -480,11 +480,11 @@ l series:
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
--libblueray: 1.0.1 to 1.0.2 http://www.videolan.org/developers/libbluray.html
+-libblueray: 1.0.2 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
 -libcap: 2.25 https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/
--libcap-ng: 0.7.8 to 0.7.9 https://people.redhat.com/sgrubb/libcap-ng/
+-libcap-ng: 0.7.9 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 0.94 to 2.0.0 ftp://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+0.94+2 http://ftp.gnu.org/gnu/libcdio/
@@ -511,7 +511,7 @@ l series:
 -libidn2: 2.0.5 http://ftp.gnu.org/gnu/libidn2/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 1.2.0 http://www.libimobiledevice.org/
--libiodbc: 3.52.10 to 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
+-libiodbc: 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
 -libjeg-turbo: 2.0.0 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.1 to 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
@@ -526,7 +526,7 @@ l series:
 -libnl: 1.1.4 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnl3: 3.4.0 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnotify: 0.7.7 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
--libodfgen: 0.1.6 to 0.1.7 http://sourceforge.net/p/libwpd/wiki/libodfgen/
+-libodfgen: 0.1.7 http://sourceforge.net/p/libwpd/wiki/libodfgen/
 -libogg: 1.3.3 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
@@ -565,11 +565,11 @@ l series:
 -libwebp: 1.0.0 https://developers.google.com/speed/webp/
 -libwmf: 0.2.8.4 http://sourceforge.net/projects/wvware/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
--libwpd: 0.10.1 to 0.10.2 http://libwpd.sourceforge.net/
--libwpg: 0.3.1 to 0.3.2 http://libwpg.sourceforge.net/
+-libwpd: 0.10.2 http://libwpd.sourceforge.net/
+-libwpg: 0.3.2 http://libwpg.sourceforge.net/
 -libxklavier: 5.4 http://ftp.gnome.org/pub/gnome/sources/libxklavier/
 -libxml2: 2.9.8 http://xmlsoft.org/sources/
--libyaml: 0.1.7 (yaml) http://pyyaml.org/wiki/LibYAML
+-libyaml: 0.2.1 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxslt: 1.1.32 ftp://xmlsoft.org/
 -libzip: 1.5.1 http://www.nih.at/libzip/
 -lmdb: 0.9.22 http://symas.com/mdb/
@@ -636,7 +636,7 @@ l series:
 -rasqal: 0.9.33 http://download.librdf.org/source/
 -readline: 7.0.005 ftp://ftp.cwru.edu/pub/bash/
 -redland: 1.0.17 http://download.librdf.org/source/
--sbc: 1.3 to 1.4 http://www.kernel.org/pub/linux/bluetooth
+-sbc: 1.4 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
 -sg3_utils: 1.43 to 1.44 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
@@ -673,7 +673,7 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.9 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.3.5 to 1.3.7 http://zstd.net/
+-zstd: 1.3.7 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -709,7 +709,7 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.7 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.10 to 2.2.11 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.11 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
@@ -719,7 +719,7 @@ n series:
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 4.19.1 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 6.38 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-ipset: 7.0 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.1 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20180629 http://www.skbuff.net/iputils/
@@ -733,7 +733,7 @@ n series:
 -libmbim: 1.16.2 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.15.2 (??)
 -libmnl: 1.0.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libndp: 1.6 to 1.7 http://libndp.org/https://sources.archlinux.org/sources/
+-libndp: 1.7 http://libndp.org/https://sources.archlinux.org/sources/
 -libnetfilter_acct: 1.0.3 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_conntrack: 1.0.7 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cthelper: 1.0.0 ftp://ftp.netfilter.org/pub/conntrack-tools/
@@ -780,7 +780,7 @@ n series:
 -nghttp2: 1.34.0 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
--npth: 1.5 to 1.6 https://github.com/gpg/npth/releases
+-npth: 1.6 https://github.com/gpg/npth/releases
 -ntp: 4.2.8p12 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap-client: 2.4.46 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
@@ -790,7 +790,7 @@ n series:
 -openssl: 1.1.1 ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.14 http://p11-glue.freedesktop.org/releases/
--php: 7.2.11 to 7.2.12 http://www.php.net/distributions/
+-php: 7.2.12 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -807,8 +807,8 @@ n series:
 -rp-pppoe: 3.12  http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -samba: 4.9.0 to 4.9.1 https://ftp.samba.org/pub/samba/
--slrn: 1.0.2 to 1.0.3a http://slrn.sourceforge.net/
--snownews: 1.5.13_20180507 http://kiza.kcore.de/software/snownews/
+-slrn: 1.0.3a http://slrn.sourceforge.net/
+-snownews: 1.6.10 http://kiza.kcore.de/software/snownews/
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.49 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
@@ -824,7 +824,7 @@ n series:
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.19.5 http://ftp.gnu.org/gnu/wget/
--whois: 5.3.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-whois: 5.4.0 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless-tools: 29 to 30pre9 http://pcmcia-cs.sourceforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.6 http://hostap.epitest.fi/releases/
 -yptools:
@@ -864,12 +864,12 @@ x series: (main packages)
 -libdrm: 2.4.96 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.6.0
--libinput: 1.12.2
+-libinput: 1.12.3
 -libmypaint: 1.3.0 http://mypaint.org
--libva: 2.2.0 to 2.3.0 https://01.org/linuxmedia/vaapi
--libva-utils: 2.2.0 to 2.3.0 https://01.org/linuxmedia/vaapi
+-libva: 2.3.0 https://01.org/linuxmedia/vaapi
+-libva-utils: 2.3.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.1.1 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 0.31 https://github.com/linuxwacom
+-libwacom: 0.32 https://github.com/linuxwacom
 -libxcb: 1.13.1
 -libXcm: 0.5.3 (no more necessary ?)
 -libXfont2: 2.0.3
@@ -907,7 +907,7 @@ xap series:
 -audacious: 3.10 http://audacious-media-player.org/release/
 -audacious-plugins: 3.10
 -blackbox:
-	- blackbox: 0.73.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
+	- blackbox: 0.74.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
 -blueman: 2.0.6 (graphical bluetooth manager)  http://blueman-project.org
 -ddd: 3.3.12 ftp://ftp.gnu.org/gnu/ddd
