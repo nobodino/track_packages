@@ -23,12 +23,12 @@ A series :
 -dbus: 1.12.10 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 http://www.jimpryor.net/linux/dcron.html
 -devs: 2.3.1_46.2.diff to 2.3.1_93.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20181022 http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
+-dialog: 1.3_20170509 to 1.3_20181107 http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.44.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.14.2 ftp://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 17 http://linux.dell.com/efibootmgr
--efivar: 36 https://github.com/rhboot/efivar
+-efibootmgr: 16 http://linux.dell.com/efibootmgr
+-efivar: 35 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
@@ -52,7 +52,7 @@ A series :
 -haveged: 1.9.4 http://www.issihosts.com/haveged/index.html
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/
 -hostname: 3.21
--hwdata: 0.304 to 0.316 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.317 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -71,7 +71,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.14.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.02.177 to 2.02.182/2.03.01 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.01 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 161 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -93,7 +93,7 @@ A series :
 -pkgtools: 15.0
 -plzip: 1.7 http://www.nongnu.org/lzip/plzip.html
 -procps-ng: 3.3.15 http://sourceforge.net/projects/procps-ng/files/Production/
--quota: 4.03 to 4.04 http://www.sf.net/projects/linuxquota/
+-quota: 4.04 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
 -sdparm: 1.10 http://sg.danny.cz/sg/sdparm.html
@@ -126,7 +126,7 @@ A series :
 	- util-linux: 2.33 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
--xfsprogs: 4.18.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 4.18.0 to 4.19.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.4 http://tukaani.org/xz/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
 --------------------
@@ -147,8 +147,8 @@ Ap series :
 	- cdrtools: 3.01 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
 -cgmanager: 0.41 https://cgmanager.linuxcontainers.org/ (git)
--cups: 2.2.8
-	- cups: 2.2.8 http://www.cups.org/software.php
+-cups: 2.2.9
+	- cups: 2.2.9 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
 -cups-filters: 1.21.2 to 1.21.3 https://www.openprinting.org/download/cups-filters/
@@ -230,7 +230,7 @@ Ap series :
 -sqlite: 3.25.3 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.25 to 1.8.25p1 http://www.courtesan.com/sudo/current.html
--sysstat: 11.6.6 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.0.2 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 2.8 https://tmux.github.io/
@@ -251,16 +251,16 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.2 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.2 to 3.2.1 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.5 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20180922 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
 -cmake: 3.12.4 http://www.cmake.org/cmake/resources/software.html
--cscope: 15.8a to 15.9 http://cscope.sourceforge.net/index.html
+-cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
--distcc: 3.3 to 3.3.2 http://distcc.samba.org/
+-distcc: 3.3.2 http://distcc.samba.org/
 -doxygen: 1.8.14 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
@@ -280,11 +280,11 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 4.8 https://mercurial.selenic.com/downloads
--meson: 0.48.1 http://mesonbuild.com/
--nasm: 2.13.03 http://www.nasm.us/
+-meson: 0.48.1 to 0.48.2 http://mesonbuild.com/
+-nasm: 2.14 http://www.nasm.us/
 -ninja: 1.8.2 https://ninja-build.org/
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
--oprofile: 1.2.0 to 1.3.0 http://oprofile.sourceforge.net/news/
+-oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 1.21alpha2 to 2.01
 -parallel: 20181022 https://www.gnu.org/software/parallel/
 -patchelf: 0.9 http://nixos.org/patchelf.html
@@ -311,7 +311,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.3 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.30.0 https://rust-lang.org
+-rust: 1.30.1 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.25 https://github.com/strace/strace/releases/download/
@@ -399,7 +399,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.2.10 to 3.3.5 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.171 to 0.174 http://fedorahosted.org/releases/e/l/elfutils
+-elfutils: 0.174 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
@@ -607,7 +607,7 @@ l series:
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 12.2 http://www.freedesktop.org/software/pulseaudio/releases/
--pycairo: 1.17.1 http://cairographics.org/releases/
+-pycairo: 1.17.1 to 1.18.0 http://cairographics.org/releases/
 -pycups: 1.9.74 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.2 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -647,7 +647,7 @@ l series:
 	-SDL_ttf: 2.0.11 https://www.libsdl.org/projects/SDL_ttf/
 -seamonkey-solibs: 2.49.4
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
--shared-mime-info: 1.9 http://freedesktop.org/wiki/Software/shared-mime-info/
+-shared-mime-info: 1.10 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.8 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
@@ -707,7 +707,7 @@ n series:
 -epic5: 2.0.1 http://www.epicsol.org/
 -ethtool: 4.19 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
--getmail: 5.7 http://pyropus.ca/software/getmail/
+-getmail: 5.7 to 5.8 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.11 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
@@ -806,7 +806,7 @@ n series:
 -rpcbind: 0.2.4 to 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.12  http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
--samba: 4.9.0 to 4.9.1 https://ftp.samba.org/pub/samba/
+-samba: 4.9.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 http://kiza.kcore.de/software/snownews/
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
@@ -917,7 +917,7 @@ xap series:
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.6 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.8 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.10 http://gkrellm.srcbox.net/
 	- gkrellm: 2.3.10
 	- gkrellm-countdown: 0.1.2
