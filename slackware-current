@@ -251,7 +251,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.2 to 3.2.1 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.2.1 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.5 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20180922 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -280,7 +280,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 4.8 https://mercurial.selenic.com/downloads
--meson: 0.48.1 to 0.48.2 http://mesonbuild.com/
+-meson: 0.48.2 http://mesonbuild.com/
 -nasm: 2.14 http://www.nasm.us/
 -ninja: 1.8.2 https://ninja-build.org/
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -688,7 +688,7 @@ n series:
 -bluez: 5.50 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
--bridge-utils: 1.5 to 1.6 http://sourceforge.net/projects/bridge/files/bridge/
+-bridge-utils: 1.6 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20180409 to 20180821 http://packages.qa.debian.org/c/ca-certificates.html
 -cifs-utils: 6.7 to 6.8 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
@@ -754,7 +754,7 @@ n series:
 -mutt: 1.10.1 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
--net-snmp: 5.7.3 to 5.8 http://www.net-snmp.org/download.html
+-net-snmp: 5.8 http://www.net-snmp.org/download.html
 -net-tools: 20170208_479bb4a
 -netatalk: 3.1.11 http://netatalk.sourceforge.net/
 -netdate: diff2.gz to 1.2 (gentoo)
