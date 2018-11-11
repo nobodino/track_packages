@@ -544,13 +544,13 @@ l series:
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.16 https://libsodium.org
--libsoup: 2.62.3 to 2.64.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.62.3 to 2.64.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.8.5 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.8.0 http://www.libssh2.org/
 -libtasn1: 4.13 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.0.9 ftp://ftp.remotesensing.org/pub/libtiff/
+-libtiff: 4.0.9 to 4.0.10 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.2.1 to 6.0.1 http://www.nongnu.org/libunwind
 -libusb: 1.0.22 ftp://download.sourceforge.net/pub/sourceforge/libusb/
@@ -668,7 +668,7 @@ l series:
 -tevent: 0.9.37 https://tevent.samba.org
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.2.0 https://github.com/JuliaStrings/utf8proc
--v4l-utils: 1.16.1 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.16.1 to 1.16.2 http://linuxtv.org/downloads/v4l-utils/
 -vte: 0.52.2 to 0.54.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.9 http://www.xapian.org/
