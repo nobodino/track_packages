@@ -9,12 +9,10 @@ a series:
 -kbd: 1.15.5
 -less: 540
 -floppy: mtools 4.0.19
--shadow: 4.6
 -syslinux: 5.10
 -sysvinit: 2.91 
 -udisk2: 2.8.1
 -upower: 0.99.7
--xfsprogs: 4.19.0
 ------------------------
 ap series:
 -cdrtools: 3.02a9
@@ -59,7 +57,6 @@ l series:
 -gmime: 3.2.0
 -gobject-introspection: 1.58.0
 -grantlee: 5.1.0
--gsettings-desktop-schemas: 3.28.1
 -gtk+3: 3.24.1
 -gvfs: 1.38.1
 -harfbuzz: 2.1.1
@@ -69,12 +66,9 @@ l series:
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
 -libjeg-turbo: 2.0.0 
--libkarma: 0.1.2
 -libsoup: 2.64.2
--libtiff: 4.0.10
 -libunwind: 6.0.1
 -openexr: 2.3.0  
--netpbm: 10.83.02
 -phonon: 4.10.1
 -phonon-gstreamer: 4.9.0
 -polkit: 0.115
@@ -83,16 +77,11 @@ l series:
 -pygobject3: 3.30.1
 -sip: 4.19.12
 -urwid: 2.0.1
--v4l-utils: 1.16.2
 -vte: 0.54.1
 -------------------------
 n series:
 -ca-certificates: 20180821 
--cifs-utils: 6.8
--getmail: 5.8
 -mobile-broadband-provider-info: 20180219
--nfs-utils: 2.3.3
--rpcbind: 1.2.5
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
