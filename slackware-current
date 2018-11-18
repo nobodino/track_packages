@@ -37,7 +37,7 @@ A series :
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.19 http://www.tux.org/pub/tux/knaff/mtools/
+	- mtools: 4.0.18 to 4.0.20 http://www.tux.org/pub/tux/knaff/mtools/
 -gawk: 4.2.1 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -111,7 +111,7 @@ A series :
 -tar: 1.30 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
 -tcsh: 6.20.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
--tree: 1.7.0 http://mama.indstate.edu/users/ice/tree/
+-tree: 1.7.0 to 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
@@ -449,12 +449,12 @@ l series:
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.22.30 to 3.24.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.22.2 https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.22.2 to 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.36.2 to 1.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 1.9.0 to 2.1.1 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 1.9.0 to 2.1.3 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
--hunspell: 1.6.2 http://hunspell.sourceforge.net/
+-hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
@@ -512,7 +512,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 1.2.0 http://www.libimobiledevice.org/
 -libiodbc: 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjeg-turbo: 2.0.0 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjeg-turbo: 2.0.0 to 2.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -697,7 +697,7 @@ n series:
 	- crda: 3.18
 	- wireless-regdb: 20180531 to 20180907
 -curl: 7.62.0 http://curl.haxx.se/download/
--cyrus-sasl: 2.1.27-rc7 http://cyrusimap.org/
+-cyrus-sasl: 2.1.27-rc7 to 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
@@ -849,10 +849,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
--tcl: 8.6.8 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.8 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.1 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.8 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.8 to 8.6.9 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
