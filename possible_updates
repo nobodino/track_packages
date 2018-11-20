@@ -7,7 +7,7 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
--less: 540
+-less: 544
 -floppy: mtools 4.0.20
 -syslinux: 5.10
 -sysvinit: 2.91
@@ -67,14 +67,13 @@ l series:
 -jemalloc: 5.1.0
 -json-glib: 1.4.4
 -libbluedevil: 5.2.2
+-libcap: 2.26 
 -libclc: 0.2.0-20180610
 -libjeg-turbo: 2.0.1 
 -libsoup: 2.64.2
 -libunwind: 6.0.1
 -openexr: 2.3.0  
 -phonon: 4.10.1
--phonon-gstreamer: 4.9.0
--polkit: 0.115
 -polkit-gnome: 0.106
 -poppler: 0.71.0
 -pygobject3: 3.30.1
@@ -98,7 +97,7 @@ t:
 -------------------------
 tcl/tk series:
 -tcl: 8.6.9.1
--tk: 8.6.9 
+-tk: 8.6.9.1 
 -------------------------
 x series:
 -

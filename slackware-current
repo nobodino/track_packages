@@ -64,7 +64,7 @@ A series :
 -kernel-ide: 4.19.2 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
--less: 530 to 540 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
+-less: 530 to 544 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
 -lha: 1.14i_10.1.diff.gz to 1.14i_10.3.diff.gz http://www2m.biglobe.ne.jp/~dolphin/lha/lha-download.htm
 -libcgroup: 0.41 http://libcg.sourceforge.net/
 -libgudev: 232 http://wiki.gnome.org/Projects/libgudev
@@ -204,7 +204,7 @@ Ap series :
 -madplay: 0.15.2b http://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 http://www.nongnu.org/man-db/
 -man-pages: 4.16 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.3.10 http://mariadb.org/
+-mariadb: 10.3.10 to 10.3.11 http://mariadb.org/
 -mc: 4.8.21 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -465,7 +465,6 @@ l series:
 -jasper: 2.0.14 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
--js185: 1.0.0 (to js187) http://www.mozilla.org/js/spidermonkey (mozjs: 24.2.0)
 -json-c: 0.13.1_20180305  https://github.com/json-c/json-c
 -json-glib: 1.4.2 to 1.4.4 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
@@ -483,7 +482,7 @@ l series:
 -libblueray: 1.0.2 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.25 https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/
+-libcap: 2.25 to 2.26 https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/
 -libcap-ng: 0.7.9 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 0.94 to 2.0.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -562,7 +561,7 @@ l series:
 -libvncserver: 0.9.11 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.6 https://www.xiph.org/downloads/
 -libvpx: 1.7.0 http://www.webmproject.org/
--libwebp: 1.0.0 https://developers.google.com/speed/webp/
+-libwebp: 1.0.1 https://developers.google.com/speed/webp/
 -libwmf: 0.2.8.4 http://sourceforge.net/projects/wvware/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
 -libwpd: 0.10.2 http://libwpd.sourceforge.net/
@@ -581,6 +580,7 @@ l series:
 -mozilla-nss: 3.40 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.40 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+-mozjs52: 52.9.0esr
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.1_20181110 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
@@ -600,7 +600,7 @@ l series:
 -phonon: 4.8.3 to 4.10.1 http://download.kde.org/stable/phonon/
 -phonon-gstreamer: 4.8.2 to 4.9.0 (phonon-backend-gstreamer)
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--polkit: 0.113 to 0.115 http://www.freedesktop.org/software/polkit/releases/
+-polkit: 0.115 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 0.68.0 to 0.71.0 http://poppler.freedesktop.org/
@@ -852,7 +852,7 @@ tcl/tk series:
 -tcl: 8.6.8 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.1 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.8 to 8.6.9 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.8 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
