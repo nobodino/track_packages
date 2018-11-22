@@ -26,6 +26,7 @@ ap series:
 -lxc: 2.1.1 or 3.0.2
 -------------------------
 d series:
+-bison: 3.2.2
 -cscope: 15.9
 -cvs: 1.12.23 
 -opencl-headers: 2.2
@@ -34,14 +35,9 @@ d series:
 -------------------------
 l series:
 -Consolekit2: 1.2.1
--LibRaw: 0.19.0
+-LibRaw: 0.19.1
 -QScintilla: 2.10.8
--adwaita-icon-theme: 3.30.0
--at-spi2-atk: 2.30.0
--at-spi2-core: 2.30.0
--atk: 2.30.0
--dconf: 0.28.0
--dconf-editor: 3.28.0 
+-adwaita-icon-theme: 3.30.1 
 -eigen3: 3.3.5
 -enchant: 2.2.3
 -exiv2: 0.26.0_20180811
@@ -49,39 +45,28 @@ l series:
 -fluidsynth: 2.0.1
 -fuse3: 3.2.6
 -gc: 8.0.0
--gdk-pixbuf2: 2.38.0
--glib2: 2.58.1
--glib-networking: 2.58.0  
 -glade3: 3.22.1
--glibmm: 2.58.0
 -gmm: 5.3
 -gmime: 3.2.0
--gobject-introspection: 1.58.0
 -grantlee: 5.1.0
--gtk+3: 3.24.1
--gtkmm3: 3.24.0
--gvfs: 1.38.1
 -harfbuzz: 2.1.3
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -json-glib: 1.4.4
 -libbluedevil: 5.2.2
--libcap: 2.26 
 -libclc: 0.2.0-20180610
 -libjeg-turbo: 2.0.1 
--libsoup: 2.64.2
 -libunwind: 6.0.1
 -openexr: 2.3.0  
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.71.0
--pygobject3: 3.30.1
 -sip: 4.19.12
 -urwid: 2.0.1
--vte: 0.54.1
 -------------------------
 n series:
+-bind: 9.13.4
 -ca-certificates: 20180821 
 -cyrus-sasl: 2.1.27
 -mobile-broadband-provider-info: 20180219
