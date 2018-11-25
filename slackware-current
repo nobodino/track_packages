@@ -37,7 +37,7 @@ A series :
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.20 http://www.tux.org/pub/tux/knaff/mtools/
+	- mtools: 4.0.18 to 4.0.21 http://www.tux.org/pub/tux/knaff/mtools/
 -gawk: 4.2.1 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -111,7 +111,7 @@ A series :
 -tar: 1.30 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
 -tcsh: 6.20.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
--tree: 1.7.0 to 1.8.0  http://mama.indstate.edu/users/ice/tree/
+-tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
@@ -170,7 +170,7 @@ Ap series :
 -htop: 2.2.0 http://htop.sourceforge.net
 -hplip: 3.18.10 http://hplipopensource.com
 -ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--itstool: 2.0.4 http://itstool.org/download/
+-itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.73 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
@@ -246,7 +246,7 @@ Ap series :
 --------------------
 d series:
 --------------------
--Cython: 0.29.0 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.1 https://pypi.python.org/pypi/Cython/
 -Mako: 1.0.7
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
@@ -393,14 +393,14 @@ l series:
 -db48: 4.8.30 (to 6.2.32) http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.8 http://dbus.freedesktop.org/releases/dbus-glib/
--dconf: 0.26.1 to 0.28.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 3.26.2 to 3.28.0 https://download.gnome.org/sources/dconf-editor/
+-dconf: 0.30.1 http://download.gnome.org/sources/dconf/
+-dconf-editor: 3.30.2 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.23 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.2.10 to 3.3.5 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.174 http://fedorahosted.org/releases/e/l/elfutils
+-elfutils: 0.175 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
@@ -412,7 +412,7 @@ l series:
 -fribidi: 1.0.5 http://fribidi.org/download/
 -fuse: 2.9.8 to (fuse3: 3.3.0) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
--gc: 7.6.6 to 8.0.0 http://www.hboehm.info/gc/gc_source/
+-gc: 8.0.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 to 2.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
@@ -435,7 +435,7 @@ l series:
 -gnome-keyring: 3.28.2 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.9 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.58.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.58.1 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -grantlee: 0.5.1 to 5.1.0 http://downloads.grantlee.org/
 -gsettings-desktop-schemas: 3.28.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.5 http://www.gnu.org/software/gsl/
@@ -467,10 +467,10 @@ l series:
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.13.1_20180305  https://github.com/json-c/json-c
--json-glib: 1.4.2 to 1.4.4 https://gitlab.gnome.org/GNOME/json-glib/
+-json-glib: 1.4.4 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
 -keybinder: 0.3.1 http://pkgs.fedoraproject.org/repo/pkgs/keybinder/
--keyutils: 1.5.10 http://people.redhat.com/~dhowells/keyutils/
+-keyutils: 1.6 http://people.redhat.com/~dhowells/keyutils/
 -lame: 3.100 http://lame.sourceforge.net
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
 -lcms2: 2.9 http://sourceforge.net/projects/lcms/files/lcms/
@@ -512,7 +512,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 1.2.0 http://www.libimobiledevice.org/
 -libiodbc: 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjeg-turbo: 2.0.0 to 2.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -535,7 +535,7 @@ l series:
 -libplist: 2.0.0 http://www.libimobiledevice.org/
 -libpng: 1.6.35 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
--libpsl: 0.20.1
+-libpsl: 0.20.2
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.44.9 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -699,11 +699,11 @@ n series:
 	- crda: 3.18
 	- wireless-regdb: 20180531 to 20180907
 -curl: 7.62.0 http://curl.haxx.se/download/
--cyrus-sasl: 2.1.27-rc7 to 2.1.27 http://cyrusimap.org/
+-cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.2.1 http://www.dovecot.org/releases/
+-dovecot: 2.3.4 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.0.1 http://www.epicsol.org/
@@ -748,7 +748,6 @@ n series:
 -libtirpc: 1.1.4 http://sourceforge.net/projects/libtirpc/
 -links: 2.17 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
--mailx: 12.5 http://sourceforge.net/projects/heirloom/files/heirloom-mailx/
 -mcabber: 1.1.0 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20170310 to 20180219 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
@@ -808,6 +807,7 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.12  http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
+-s-nail: 14.9.11
 -samba: 4.9.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 http://kiza.kcore.de/software/snownews/
@@ -851,10 +851,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
--tcl: 8.6.8 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.9 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.1 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.8 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
@@ -930,7 +930,7 @@ xap series:
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.2.4 to 5.2.5 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 0.32.0 http://gparted.sourceforge.net/
--gucharmap: 10.0.3 to 11.0.2 https://download.gnome.org/sources/gucharmap/3.14/
+-gucharmap: 11.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0513
 -hexchat: 2.14.2 https://hexchat.github.io/
@@ -977,14 +977,14 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -thunar-volman: 0.8.1
 -tumbler: 0.2.2 to 0.2.3
 -xfce4-appfinder: 4.12.0 to 4.13.0
--xfce4-clipman-plugin: 1.4.2
+-xfce4-clipman-plugin: 1.4.3
 -xfce4-dev-tools: 4.12.0
 -xfce4-mixer: 4.10.0 to 4.11.0
 -xfce4-notifyd: 0.4.3
 -xfce4-panel: 4.12.2 to 4.13.1
 -xfce4-power-manager: 1.4.4 to 1.6.1
 -xfce4-pulseaudio-plugin: 0.4.1
--xfce4-screenshooter: 1.9.2
+-xfce4-screenshooter: 1.9.3
 -xfce4-session: 4.12.1 to 4.13.0
 -xfce4-settings: 4.12.4
 -xfce4-systemload-plugin: 1.2.1

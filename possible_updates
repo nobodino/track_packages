@@ -8,10 +8,9 @@ a series:
 -iftop: 1.0
 -kbd: 1.15.5
 -less: 544
--floppy: mtools 4.0.20
+-floppy: mtools 4.0.21
 -syslinux: 5.10
 -sysvinit: 2.92
--tree: 1.8.0 
 -udisk2: 2.8.1
 -upower: 0.99.7
 ------------------------
@@ -42,7 +41,6 @@ l series:
 -ffmpeg: 4.1
 -fluidsynth: 2.0.1
 -fuse3: 3.2.6
--gc: 8.0.0
 -glade3: 3.22.1
 -gmm: 5.3
 -gmime: 3.2.0
@@ -51,10 +49,8 @@ l series:
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
--json-glib: 1.4.4
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
--libjeg-turbo: 2.0.1 
 -libunwind: 6.0.1
 -openexr: 2.3.0  
 -phonon: 4.10.1
@@ -66,7 +62,6 @@ l series:
 n series:
 -bind: 9.13.4
 -ca-certificates: 20180821 
--cyrus-sasl: 2.1.27
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
@@ -79,15 +74,13 @@ t:
 -
 -------------------------
 tcl/tk series:
--tcl: 8.6.9.1
--tk: 8.6.9.1 
+-
 -------------------------
 x series:
 -
 -------------------------
 xap:
 -easytag: 2.4.3
--gucharmap: 11.0.2
 -network-manager-applet: 1.8.19
 -------------------------
 xfce series:
