@@ -10,7 +10,7 @@ a series:
 -less: 544
 -floppy: mtools 4.0.21
 -syslinux: 5.10
--sysvinit: 2.92
+-sysvinit: 2.93
 -udisk2: 2.8.1
 -upower: 0.99.7
 ------------------------
@@ -63,6 +63,7 @@ n series:
 -bind: 9.13.4
 -ca-certificates: 20180821 
 -mobile-broadband-provider-info: 20180219
+-mutt: 1.11.0
 -postfix: 3.3.2 
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
