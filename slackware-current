@@ -196,7 +196,7 @@ Ap series :
 	- perl-XML-SXA-Base: 1.08 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
 	- sgml-common: 0.6.3 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
--lm_sensors: 3.4.0 to 3.4.0_20180923 (gentoo) https://github.com/groeck/lm-sensors
+-lm_sensors: 3.5.0 https://github.com/groeck/lm-sensors
 -lsof: 4.91 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.29 to 0.30 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 2.0.9 to 2.1.1/3.0.2 http://sourceforge.net/projects/lxc/files/lxc
@@ -752,7 +752,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20170310 to 20180219 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.92 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.10.1 to 1.11.0 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.11.0 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -808,7 +808,7 @@ n series:
 -rp-pppoe: 3.12  http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.11 http://www.sdaoden.eu/downloads
--samba: 4.9.2 https://ftp.samba.org/pub/samba/
+-samba: 4.9.2 to 4.9.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 http://kiza.kcore.de/software/snownews/
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
