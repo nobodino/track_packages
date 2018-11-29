@@ -25,6 +25,7 @@ ap series:
 -soma: 3.2.0
 -------------------------
 d series:
+-cmake: 3.13.1
 -cscope: 15.9
 -cvs: 1.12.23 
 -opencl-headers: 2.2
@@ -79,7 +80,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--
+-mesa: 18.2.6
 -------------------------
 xap:
 -easytag: 2.4.3
