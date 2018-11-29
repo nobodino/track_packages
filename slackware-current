@@ -33,7 +33,7 @@ A series :
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.5 to 3.2.7 https://wiki.gentoo.org/wiki/Project:Eudev
--f2fs-tools: 1.12
+-f2fs-tools: 1.12 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.35 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
@@ -220,13 +220,13 @@ Ap series :
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
 -rpm: 4.14.2.1 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
--sc-im: 0.7.0 
+-sc-im: 0.7.0 https://github.com/andmarti1424/sc-im
 -screen: 4.6.2 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
 -slackpkg: 2.83.0 http://www.slackpkg.org/
--soma: 3.0.4 to 3.2.0 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
+-soma: 3.2.0 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.25.3 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
@@ -257,7 +257,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
--cmake: 3.13.0 to 3.13.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.13.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -290,19 +290,19 @@ d series:
 -parallel: 20181122 https://www.gnu.org/software/parallel/
 -patchelf: 0.9 http://nixos.org/patchelf.html
 -perl: 5.28.0
-	- perl: 5.28.0 http://www.perl.com/CPAN/src/5.0/
+	- Authen-SASL: 2.16
 	- DBD-mysql: 4.046 to 4.048 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.641 to 1.642 http://www.cpan.org/modules/by-module/DBI/
-	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
+	- IO-Socket-SSL: 2.056 to 2.060
+	- MIME-Base64: 3.15
+	- Net-SSLeay: 1.85
+	- TermReadKey: 2.37
 	- URI: 1.74 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.44 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
-	- TermReadKey: 2.37
-	- Authen-SASL: 2.16
-	- MIME-Base64: 3.15
+	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- libnet: 3.11
-	- IO-Socket-SSL: 2.056 to 2.060
-	- Net-SSLeay: 1.85
+	- perl: 5.28.0 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.15 https://www.python.org/downloads/
@@ -318,7 +318,7 @@ d series:
 -strace: 4.25 https://github.com/strace/strace/releases/download/
 -subversion: 1.11.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 3.0.12 http://www.swig.org/download.html
--vala. 0.42.3
+-vala. 0.42.3 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -437,7 +437,7 @@ l series:
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.9 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.58.1 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
--graphite2: 1.3.12
+-graphite2: 1.3.12 http://graphite.sil.org/
 -grantlee: 0.5.1 to 5.1.0 http://downloads.grantlee.org/
 -gsettings-desktop-schemas: 3.28.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.5 http://www.gnu.org/software/gsl/
@@ -465,6 +465,7 @@ l series:
 -imagemagick: 6.9.10_14 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.1 http://de-mirror.org/gentoo/distfiles/
+-jansson: 2.12 http://www.digip.org/jansson/
 -jasper: 2.0.14 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
@@ -797,7 +798,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.3.1 to 3.3.2 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.3.2 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.7
 	-ppp: 2.4.7 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
@@ -807,10 +808,10 @@ n series:
 -pssh: 2.3.1 https://code.google.com/p/parallel-ssh/
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
--rp-pppoe: 3.12  http://www.roaringpenguin.com/products/pppoe
+-rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.11 http://www.sdaoden.eu/downloads
--samba: 4.9.2 to 4.9.3 https://ftp.samba.org/pub/samba/
+-samba: 4.9.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 http://kiza.kcore.de/software/snownews/
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
@@ -880,13 +881,13 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 18.2.5 to 18.2.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 18.2.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.36.0 http://cairographics.org/releases/
 -sessreg: 1.1.1
--vulkan-sdk: 1.1.85.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.92.1 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
 -xorg-server: 1.20.3 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.28.1
@@ -956,16 +957,16 @@ xap series:
 -x3270: 3.3.12ga7 http://x3270.bgp.nu/download.html
 -xaos: 3.6 http://xaos.sf.net
 -xfractint: 20.04p13 ftp://ftp.debian.org/debian/pool/non-free/x/xfractint/
--xgames: 0.2 (??)
+-xgames: 0.2
 -xine-lib: 1.2.9 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.10 http://dl.sourceforge.net/xine/
 -xlockmore: 5.56 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
--xmms: 1.2.11 (??)
+-xmms: 1.2.11
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 5.40 http://www.jwz.org/xscreensaver/
--xv: 3.10a to 3.10a+ jumbo-patch ftp://ftp.cis.upenn.edu/pub/xv/
+-xv: 3.10a ftp://ftp.cis.upenn.edu/pub/xv/
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
@@ -999,7 +1000,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
 y series:
 --------------------
--bsd-games: 2.13 to 2.17_7.diff.gz + non-free (debian) ftp://metalab.unc.edu/pub/Linux/games/
+-bsd-games: 2.13 to 2.17_7.diff.gz ftp://metalab.unc.edu/pub/Linux/games/
 --------------------
 extra:
 --------------------
