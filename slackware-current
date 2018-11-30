@@ -455,7 +455,7 @@ l series:
 -gtkmm3: 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 1.9.0 to 2.1.3 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 1.9.0 to 2.2.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
@@ -828,7 +828,7 @@ n series:
 -uucp: 1.07 to 1.07_20.diff.gz ftp://ftp.gnu.org/gnu/uucp/
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
--wget: 1.19.5 http://ftp.gnu.org/gnu/wget/
+-wget: 1.20.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.4.0 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless-tools: 29 to 30pre9 http://pcmcia-cs.sourceforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.6 http://hostap.epitest.fi/releases/
@@ -864,6 +864,7 @@ x series: (main packages)
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -igt-gpu-tools: 1.23 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intelvaapi-driver: 2.1.0 https://01.org/linuxmedia/vaapi
+
 -libdmx: 1.1.4
 -libpciaccess: 0.14
 -libdrm: 2.4.96 http://dri.freedesktop.org/libdrm/
@@ -938,7 +939,7 @@ xap series:
 -gvim: 8.1.0513
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.3esr to 63.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.3.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 60.3.1 to 60.3.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.18 to 1.8.19 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
