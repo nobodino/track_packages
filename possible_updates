@@ -39,10 +39,10 @@ l series:
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.1
 -fluidsynth: 2.0.1
--fuse3: 3.2.6
+-fuse3: 3.3.0
 -glade3: 3.22.1
 -gmm: 5.3
--gmime: 3.2.0
+-gmime: 3.2.3
 -grantlee: 5.1.0
 -harfbuzz: 2.2.0
 -hunspell: 1.7.0
@@ -55,6 +55,8 @@ l series:
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.71.0
+-pygobject3: 3.30.4
+-python-certifi: 2018.11.29 
 -sip: 4.19.12
 -urwid: 2.0.1
 -------------------------
