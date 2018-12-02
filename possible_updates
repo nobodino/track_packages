@@ -50,7 +50,9 @@ l series:
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
+-libpng: 1.6.36
 -libunwind: 6.0.1
+-mozilla-nss: 3.40.1
 -openexr: 2.3.0  
 -phonon: 4.10.1
 -polkit-gnome: 0.106

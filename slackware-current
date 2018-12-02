@@ -536,7 +536,7 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org
 -libpcap: 1.9.0 http://www.tcpdump.org/release/
 -libplist: 2.0.0 http://www.libimobiledevice.org/
--libpng: 1.6.35 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.35 to 1.6.36 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
@@ -582,7 +582,7 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.40 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.40 to 3.40.1 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.40 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
@@ -813,7 +813,7 @@ n series:
 -s-nail: 14.9.11 http://www.sdaoden.eu/downloads
 -samba: 4.9.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
--snownews: 1.6.10 http://kiza.kcore.de/software/snownews/
+-snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.49 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
