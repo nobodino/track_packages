@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20181026 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.19.5 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide:  4.19.6 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 to 544 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -228,7 +228,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.0 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.25.3 http://www.sqlite.org/download.html
+-sqlite: 3.25.3 to 3.26.0 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.26 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.0.2 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -275,7 +275,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.5
+-kernel-headers:  4.19.6
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -337,7 +337,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 4.19.5
+-kernel :  4.19.6
 --------------------
 kde series :
 --------------------
@@ -455,7 +455,7 @@ l series:
 -gtkmm3: 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 1.9.0 to 2.2.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.2.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
@@ -616,11 +616,11 @@ l series:
 -pycups: 1.9.74 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.2 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.30.2 to 3.30.4 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.30.4 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
 -pyparsing: 2.3.0 http://pyparsing.wikispaces.com/
 -python-appdirs: 1.4.3 https://github.com/ActiveState/appdirs
--python-certifi: 2018.10.15 to 2018.11.29 http://certifi.io/
+-python-certifi: 2018.11.29 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.14 http://docutils.sourceforge.net/
 -python-idna: 2.7 https://github.com/kjd/idna
@@ -653,7 +653,7 @@ l series:
 -seamonkey-solibs: 2.49.4
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.10 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.8 to 4.19.52 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 4.19.8 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
 -soprano: 2.9.4 http://sourceforge.net/projects/soprano/
@@ -715,7 +715,7 @@ n series:
 -getmail: 5.8 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.11 https://www.gnupg.org/download/index.html
--gnutls: 3.6.4 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.6.4 to 3.6.5 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -723,7 +723,7 @@ n series:
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 4.19.5 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2:  4.19.6 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.0 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
@@ -755,7 +755,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20170310 to 20180219 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.92 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.11.0 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.11.0 to 1.11.1 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
