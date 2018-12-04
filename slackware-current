@@ -19,7 +19,7 @@ A series :
 -coreutils: 8.30 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
--cryptsetup: 1.7.5 to 2.0.5 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 1.7.5 to 2.0.6 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.10 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 http://www.jimpryor.net/linux/dcron.html
 -devs: 2.3.1_46.2.diff to 2.3.1_93.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -38,7 +38,7 @@ A series :
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.21 http://www.tux.org/pub/tux/knaff/mtools/
+	- mtools: 4.0.18 to 4.0.23 http://www.tux.org/pub/tux/knaff/mtools/
 -gawk: 4.2.1 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -169,7 +169,7 @@ Ap series :
 -groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.18.10 http://hplipopensource.com
+-hplip: 3.18.10 to 3.18.12 http://hplipopensource.com
 -ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
@@ -228,7 +228,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.0 http://www.dawoodfall.net/files/slackbuilds/noversion/soma/
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.25.3 to 3.26.0 http://www.sqlite.org/download.html
+-sqlite: 3.26.0 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.26 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.0.2 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -462,7 +462,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_14 http://www.imagemagick.org/
+-imagemagick: 6.9.10_14 to 6.9.10_15 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.1 http://de-mirror.org/gentoo/distfiles/
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -582,8 +582,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.40 to 3.40.1 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.40 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.40.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.40.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -755,7 +755,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20170310 to 20180219 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.92 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.11.0 to 1.11.1 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.11.1 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -815,7 +815,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.0 https://github.com/lib~/fuse/sshfs
--stunnel: 5.49 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.50 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -927,7 +927,7 @@ xap series:
 -gimp: 2.10.8 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.10 http://gkrellm.srcbox.net/
 	- gkrellm: 2.3.10
-	- gkrellm-countdown: 0.1.2
+	- gkrellm-countdownhplip: 0.1.2
 -gnuchess: 6.2.5
 	- gnuchess : 6.2.5 http://ftp.gnu.org/gnu/chess/
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
