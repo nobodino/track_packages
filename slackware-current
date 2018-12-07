@@ -312,7 +312,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.3 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.30.1 https://rust-lang.org
+-rust: 1.30.1 to 1.31.0 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.25 https://github.com/strace/strace/releases/download/
@@ -608,7 +608,7 @@ l series:
 -polkit: 0.115 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.68.0 to 0.71.0 http://poppler.freedesktop.org/
+-poppler: 0.68.0 to 0.72.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 12.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -794,7 +794,7 @@ n series:
 -openssl: 1.1.1a ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.14 http://p11-glue.freedesktop.org/releases/
--php: 7.2.12 http://www.php.net/distributions/
+-php: 7.2.12 to 7.2.13 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
