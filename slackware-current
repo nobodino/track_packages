@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20181026 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide:  4.19.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide:  4.19.8 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 to 544 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -275,7 +275,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers:  4.19.7
+-kernel-headers:  4.19.8
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -337,7 +337,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.7
+-kernel :  4.19.8
 --------------------
 kde series :
 --------------------
@@ -723,7 +723,7 @@ n series:
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2:  4.19.7 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2:  4.19.8 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.0 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
