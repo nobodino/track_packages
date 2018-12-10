@@ -70,7 +70,7 @@ A series :
 -libcgroup: 0.41 http://libcg.sourceforge.net/
 -libgudev: 232 http://wiki.gnome.org/Projects/libgudev
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
--logrotate: 3.14.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
+-logrotate: 3.14.0 to 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.01 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
@@ -267,7 +267,7 @@ d series:
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.19.2 http://git-scm.com/download
+-git: 2.19.2 to 2.20.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -905,7 +905,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 337 ftp://invisible-island.net/xterm/
+-xterm: 337 to 338 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
