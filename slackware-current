@@ -504,7 +504,7 @@ l series:
 -libffi: 3.2.1 ftp://sourceware.org/pub/libffi/
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.20 http://www.gphoto.org/
+-libgphoto2: 2.5.51 http://www.gphoto.org/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.44 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
@@ -781,7 +781,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.3.3 http://sourceforge.net/projects/nfs/
 -nftables: 0.9.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.35.0 https://nghttp2.org/
+-nghttp2: 1.35.1 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
