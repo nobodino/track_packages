@@ -541,7 +541,7 @@ l series:
 -libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.9 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.44.10 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.1 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -674,7 +674,7 @@ l series:
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.2.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.16.2 http://linuxtv.org/downloads/v4l-utils/
--vte: 0.54.2 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.54.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.9 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
@@ -695,7 +695,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.6 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20180409 to 20180821 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20181210 http://packages.qa.debian.org/c/ca-certificates.html
 -cifs-utils: 6.8 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
@@ -883,7 +883,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 18.3.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 18.3.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -896,8 +896,10 @@ x series: (main packages)
 -xf86-input-wacom: 0.36.1
 -xf86-video-amdgpu: 18.1.0
 -xf86-video-ati: 18.1.0
+-xf86-video-i128: 1.4.0
 -xf86-video-i740: 1.4.0
 -xf86-video-intel: 20180906
+-xf86-video-mga: 2.0.0
 -xf86-video-nv: 2.1.21
 -xf86-video-nouveau: 1.0.15
 -xf86-video-r128: 6.12.0
@@ -905,7 +907,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 337 to 338 ftp://invisible-island.net/xterm/
+-xterm: 338 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -940,7 +942,7 @@ xap series:
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0552
 -hexchat: 2.14.2 https://hexchat.github.io/
--mozilla-firefox: 60.3esr to 64.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 60.4esr to 64.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.3.3 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.18 to 1.8.19 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/

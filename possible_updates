@@ -59,7 +59,6 @@ l series:
 -------------------------
 n series:
 -bind: 9.13.4
--ca-certificates: 20180821
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
@@ -75,7 +74,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--xterm: 338 
+-
 -------------------------
 xap:
 -easytag: 2.4.3
