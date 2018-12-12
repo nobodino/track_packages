@@ -34,6 +34,7 @@ l series:
 -Consolekit2: 1.2.1
 -LibRaw: 0.19.1
 -QScintilla: 2.10.8
+-boost: 1.69.0 
 -eigen3: 3.3.5
 -enchant: 2.2.3
 -exiv2: 0.26.0_20180811
@@ -50,7 +51,8 @@ l series:
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
 -libunwind: 6.0.1
--openexr: 2.3.0  
+-openexr: 2.3.0 
+-pango: 1.43.0 
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.72.0
@@ -59,6 +61,7 @@ l series:
 -------------------------
 n series:
 -bind: 9.13.4
+-curl: 7.63.0 
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)

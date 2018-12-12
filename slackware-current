@@ -384,7 +384,7 @@ l series:
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
 -babl: 0.1.60 http://download.gimp.org/pub/babl/0.1/
--boost: 1.68.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.68.0 to 1.69.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
@@ -597,7 +597,7 @@ l series:
 -opus: 1.3 https://opus-codec.org/
 -opusfile: 0.11 https://opus-codec.org/
 -orc: 0.4.28 http://code.entropywave.com/projects/orc/
--pango: 1.42.4 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.42.4 to 1.43.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.2 ftp://ftp.gnu.org/pub/parted/
 -pcre2: 10.32 http://www.pcre.org/
@@ -701,7 +701,7 @@ n series:
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
 	- wireless-regdb: 20180531 to 20180907
--curl: 7.62.0 http://curl.haxx.se/download/
+-curl: 7.62.0 to 7.63.0  http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
