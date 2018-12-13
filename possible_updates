@@ -45,6 +45,7 @@ l series:
 -gmm: 5.3
 -gmime: 3.2.3
 -grantlee: 5.1.0
+-gtk+3: 3.24.2
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
