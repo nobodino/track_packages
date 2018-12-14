@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20181026 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide:  4.19.8 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide:  4.19.9 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 to 544 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -70,7 +70,7 @@ A series :
 -libcgroup: 0.41 http://libcg.sourceforge.net/
 -libgudev: 232 http://wiki.gnome.org/Projects/libgudev
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
--logrotate: 3.14.0 to 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
+-logrotate: 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.01 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
@@ -257,7 +257,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
--cmake: 3.13.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.13.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -275,7 +275,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers:  4.19.8
+-kernel-headers:  4.19.9
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -308,7 +308,7 @@ d series:
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.7 https://www.python.org/downloads/
 -python-pip: 18.1 https://pip.pypa.io/
--python-setuptools: 40.6.2 to 40.6.3 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 40.6.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.5.3 ftp://ftp.ruby-lang.org/pub/ruby
@@ -337,7 +337,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.8
+-kernel :  4.19.9
 --------------------
 kde series :
 --------------------
@@ -450,7 +450,7 @@ l series:
 -gstreamer: 1.14.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.1 to 3.24.2 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.2 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -497,7 +497,7 @@ l series:
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.0.0 http://download.videolan.org/videolan/libdvdread/
--libedit: 20170329-3.1 http://www.thrysoee.dk/editline/
+-libedit: 20181209-3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.8 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
@@ -629,7 +629,7 @@ l series:
 -python-pillow: 5.3.0 https://python-pillow.github.io/
 -python-requests: 2.21.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
--python-six: 1.11.0 to 1.12.0 http://pypi.python.org/pypi/six/
+-python-six: 1.12.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.24.1 https://urllib3.readthedocs.io/
 -qca: 2.1.3 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
@@ -653,7 +653,7 @@ l series:
 -seamonkey-solibs: 2.49.4
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.10 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.8 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 4.19.9 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
 -soprano: 2.9.4 http://sourceforge.net/projects/soprano/
@@ -689,7 +689,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.5 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.12.3 to 9.13.4 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.12.3_P1 to 9.13.5 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.50 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -701,7 +701,7 @@ n series:
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
 	- wireless-regdb: 20180531 to 20180907
--curl: 7.62.0 to 7.63.0  http://curl.haxx.se/download/
+-curl: 7.63.0  http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -723,15 +723,15 @@ n series:
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2:  4.19.8 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.0 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-iproute2:  4.19.9 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-ipset: 7.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20180629 http://www.skbuff.net/iputils/
 -irssi: 1.1.0 http://www.irssi.org/files/
 -iw: 4.14 https://www.kernel.org/pub/software/network/iw/
 -lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
--libassuan: 2.5.1 https://www.gnupg.org/download/index.html
+-libassuan: 2.5.2 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.8.4 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.33 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
@@ -907,7 +907,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 338 to 339 ftp://invisible-island.net/xterm/
+-xterm: 339 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -937,7 +937,7 @@ xap series:
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.2.4 to 5.2.5 http://sourceforge.net/projects/gnuplot/files/gnuplot/
--gparted: 0.32.0 http://gparted.sourceforge.net/
+-gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 11.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0552
