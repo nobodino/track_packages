@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-firmware: 20181026 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide:  4.19.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20181214 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.9 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 to 544 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -231,7 +231,7 @@ Ap series :
 -sqlite: 3.26.0 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.26 http://www.courtesan.com/sudo/current.html
--sysstat: 12.0.2 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.0.2 to 12.0.3 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 2.8 https://tmux.github.io/
@@ -384,7 +384,7 @@ l series:
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
 -babl: 0.1.60 http://download.gimp.org/pub/babl/0.1/
--boost: 1.68.0 to 1.69.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.69.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
@@ -714,7 +714,7 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.8 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.11 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.11 to 2.2.12 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.5 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
