@@ -25,10 +25,10 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_93.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20181107 http://ftp.debian.org/debian/pool/main/d/dialog/ or http://invisible-island.net/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.44.4 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.44.4 to 1.44.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.14.2 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 16 http://linux.dell.com/efibootmgr
--efivar: 35 https://github.com/rhboot/efivar
+-efivar: 35 to 37 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
@@ -247,7 +247,7 @@ Ap series :
 --------------------
 d series:
 --------------------
--Cython: 0.29.1 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.1 to 0.29.2 https://pypi.python.org/pypi/Cython/
 -Mako: 1.0.7
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
@@ -267,7 +267,7 @@ d series:
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.20.0 http://git-scm.com/download
+-git: 2.20.0 to 2.20.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
