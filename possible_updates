@@ -3,7 +3,6 @@
 a series:
 -cryptsetup: 2.0.6
 -dialog: 1.3_20181107
--e2fsprogs: 1.44.5
 -eudev: 3.2.7
 -efivar: 37
 -getty_ps: 2.1.1
@@ -18,6 +17,7 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
+-cups-filters: 1.21.6
 -eudev: 3.2.7
 -gutenprint: 5.3.1 
 -linuxdoc-tools: 0.9.73
@@ -26,10 +26,8 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
--Cython: 0.29.2
 -cscope: 15.9
 -cvs: 1.12.23
--git: 2.20.1
 -opencl-headers: 2.2
 -oprofile: 1.3.0
 -p2c: 2.01
