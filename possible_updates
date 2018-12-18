@@ -62,7 +62,6 @@ l series:
 -------------------------
 n series:
 -bind: 9.13.5
--gnupg2: 2.2.12
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)

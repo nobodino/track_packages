@@ -714,7 +714,7 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.8 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.11 to 2.2.12 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.12 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.5 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
