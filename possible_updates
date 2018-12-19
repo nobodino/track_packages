@@ -45,6 +45,7 @@ l series:
 -fluidsynth: 1.1.11 or 2.0.2
 -fuse3: 3.3.0
 -glade3: 3.22.1
+-glib2: 2.58.2
 -gmm: 5.3
 -gmime: 3.2.3
 -grantlee: 5.1.0
@@ -54,6 +55,7 @@ l series:
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
+-libgsf: 1.14.45
 -libunwind: 6.0.1
 -openexr: 2.3.0 
 -pango: 1.43.03
@@ -81,7 +83,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--
+-libinput: 1.12.4
 -------------------------
 xap:
 -easytag: 2.4.3
