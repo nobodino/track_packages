@@ -5,11 +5,12 @@ a series:
 -dialog: 1.3_20181107
 -eudev: 3.2.7
 -efivar: 37
+-floppy: mtools 4.0.23
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
 -less: 544
--floppy: mtools 4.0.23
+-lvm2: 2.03.02
 -syslinux: 5.10
 -sysvinit: 2.93
 -udisk2: 2.8.1
@@ -26,6 +27,7 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
+-bison: 3.2.3
 -cscope: 15.9
 -cvs: 1.12.23
 -opencl-headers: 2.2
@@ -40,7 +42,7 @@ l series:
 -enchant: 2.2.3
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.1
--fluidsynth: 2.0.1
+-fluidsynth: 1.1.11 or 2.0.2
 -fuse3: 3.3.0
 -glade3: 3.22.1
 -gmm: 5.3
@@ -48,17 +50,19 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
+-imagemagick: 6.9.10_17
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
 -libunwind: 6.0.1
 -openexr: 2.3.0 
--pango: 1.43.0 
+-pango: 1.43.03
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.72.0
 -sip: 4.19.12
 -urwid: 2.0.1
+-v4l-utils: 1.16.2
 -------------------------
 n series:
 -bind: 9.13.5
