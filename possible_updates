@@ -49,7 +49,6 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
--imagemagick: 6.9.10_18
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -libclc: 0.2.0-20180610
@@ -61,12 +60,10 @@ l series:
 -poppler: 0.72.0
 -sip: 4.19.12
 -urwid: 2.0.1
--v4l-utils: 1.16.2
 -------------------------
 n series:
 -bind: 9.13.5
 -mobile-broadband-provider-info: 20180219
--openldap-client: 2.4.47
 -sshfs: 3.5.0
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
