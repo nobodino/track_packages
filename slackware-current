@@ -166,7 +166,7 @@ Ap series :
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.26 https://www.ghostscript.com/download/
 -gphoto2: 2.5.20 http://www.gphoto.org/
--groff: 1.22.3 ftp://ftp.gnu.org/pub/gnu/groff/
+-groff: 1.22.3 to 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
 -hplip: 3.18.12 http://hplipopensource.com
@@ -265,7 +265,7 @@ d series:
 -doxygen: 1.8.14 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
--gdb: 8.2 ftp://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 8.2 to 8.2.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.20.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
