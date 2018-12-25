@@ -166,7 +166,7 @@ Ap series :
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.26 https://www.ghostscript.com/download/
 -gphoto2: 2.5.20 http://www.gphoto.org/
--groff: 1.22.3 to 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
+-groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
 -hplip: 3.18.12 http://hplipopensource.com
@@ -252,7 +252,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.2.2 to 3.2.3 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.2.4 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.5 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -265,7 +265,7 @@ d series:
 -doxygen: 1.8.14 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
--gdb: 8.2 to 8.2.1 ftp://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 8.2.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.20.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
@@ -287,7 +287,7 @@ d series:
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 1.21alpha2 to 2.01
--parallel: 20181122 to 20181222 https://www.gnu.org/software/parallel/
+-parallel: 20181222 https://www.gnu.org/software/parallel/
 -patchelf: 0.9 http://nixos.org/patchelf.html
 -perl: 5.28.1
 	- Authen-SASL: 2.16
@@ -306,12 +306,12 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.15 https://www.python.org/downloads/
--python3: 3.6.7 https://www.python.org/downloads/
+-python3: 3.6.7 to 3.6.8 https://www.python.org/downloads/
 -python-pip: 18.1 https://pip.pypa.io/
 -python-setuptools: 40.6.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
--ruby: 2.5.3 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 2.5.3 tp 2.6.0 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.31.1 https://rust-lang.org
 -scons: 3.0.1 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes

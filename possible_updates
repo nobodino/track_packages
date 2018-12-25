@@ -19,7 +19,6 @@ a series:
 ap series:
 -cdrtools: 3.02a9
 -eudev: 3.2.7
--groff: 1.22.4 
 -gutenprint: 5.3.1 
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
@@ -27,15 +26,15 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
--bison: 3.2.3
+-bison: 3.2.4
 -cscope: 15.9
 -cvs: 1.12.23
--gdb: 8.2.1
 -nasm: 2.14.1
 -opencl-headers: 2.2
 -oprofile: 1.3.0
 -p2c: 2.01
--parallel: 20181222
+-python3: 3.6.8
+-ruby: 2.6.0
 -------------------------
 l series:
 -Consolekit2: 1.2.1
