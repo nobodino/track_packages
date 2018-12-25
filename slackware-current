@@ -905,7 +905,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 339340 ftp://invisible-island.net/xterm/
+-xterm: 340 to 341 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
