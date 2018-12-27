@@ -29,12 +29,13 @@ d series:
 -bison: 3.2.4
 -cscope: 15.9
 -cvs: 1.12.23
--nasm: 2.14.1
+-nasm: 2.14.2
 -opencl-headers: 2.2
 -oprofile: 1.3.0
 -p2c: 2.01
 -python3: 3.6.8
 -ruby: 2.6.0
+-strace: 4.26
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -84,6 +85,8 @@ x series:
 -xterm: 341
 -------------------------
 xap:
+-audacious: 3.10.1
+-audacious-plugins: 3.10.1
 -easytag: 2.4.3
 -network-manager-applet: 1.8.19
 -------------------------
