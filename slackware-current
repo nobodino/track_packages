@@ -262,7 +262,7 @@ d series:
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
 -distcc: 3.3.2 http://distcc.samba.org/
--doxygen: 1.8.14 ftp://ftp.stack.nl/pub/users/dimitri/
+-doxygen: 1.8.14 to 1.8.15 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2.1 ftp://ftp.gnu.org/pub/gnu/gdb/
@@ -968,7 +968,7 @@ xap series:
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 5.40 http://www.jwz.org/xscreensaver/
+-xscreensaver: 5.40 to 5.41 http://www.jwz.org/xscreensaver/
 -xv: 3.10a ftp://ftp.cis.upenn.edu/pub/xv/
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
