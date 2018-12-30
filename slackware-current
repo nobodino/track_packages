@@ -49,7 +49,7 @@ A series :
 -gptfdisk: 1.0.4 http://www.rodsbooks.com/gdisk/
 -grep: 3.3 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.02 ftp://ftp.gnu.org/gnu/grub/
--gzip: 1.9 ftp://ftp.gnu.org/pub/gnu/gzip/
+-gzip: 1.9 to 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.4 http://www.issihosts.com/haveged/index.html
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/
 -hostname: 3.21
@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20181218 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.19.11 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.13 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org
 -less: 530 to 544 ftp://ftp.gnu.org/pub/gnu/less or http://www.greenwoodsoftware.com/less/
@@ -262,7 +262,7 @@ d series:
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
 -distcc: 3.3.2 http://distcc.samba.org/
--doxygen: 1.8.14 to 1.8.15 ftp://ftp.stack.nl/pub/users/dimitri/
+-doxygen: 1.8.15 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2.1 ftp://ftp.gnu.org/pub/gnu/gdb/
@@ -275,7 +275,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.11
+-kernel-headers: 4.19.13
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -337,7 +337,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.11
+-kernel :  4.19.13
 --------------------
 kde series :
 --------------------
@@ -428,8 +428,8 @@ l series:
 -glibmm: 2.58.00 http://www.gtkmm.org/
 -glibc: 2.28
 	-glibc: 2.28 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2018g https://www.iana.org/time-zones
-	-tzdata: 2018g https://www.iana.org/time-zones
+	-tzcode: 2018g to 2018h https://www.iana.org/time-zones
+	-tzdata: 2018g to 2018h https://www.iana.org/time-zones
 -gmime: 3.0.5 to 3.2.3 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 4.3 to 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -544,7 +544,7 @@ l series:
 -librsvg: 2.44.10 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.1 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
--libsecret: 0.18.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
+-libsecret: 0.18.7 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.16 https://libsodium.org
@@ -653,7 +653,7 @@ l series:
 -seamonkey-solibs: 2.49.4
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.10 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.11 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 4.19.8 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
 -soprano: 2.9.4 http://sourceforge.net/projects/soprano/
@@ -723,7 +723,7 @@ n series:
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2:  4.19.11 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 4.19.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
@@ -831,7 +831,7 @@ n series:
 -wget: 1.20.1 http://ftp.gnu.org/gnu/wget/
 -whois: 5.4.0 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless-tools: 29 to 30pre9 http://pcmcia-cs.sourceforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
--wpa_supplicant: 2.7 http://hostap.epitest.fi/releases/
+-wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
 -yptools:
 	- yp-tools: 2.14 to 4.2.3 http://www.linux-nis.org/download/yp-tools/
 	- ypbind-mt: 1.38 to 2.4 http://www.linux-nis.org/nis/ypbind-mt/
@@ -968,7 +968,7 @@ xap series:
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 5.40 to 5.41 http://www.jwz.org/xscreensaver/
+-xscreensaver: 5.40 to 5.42 http://www.jwz.org/xscreensaver/
 -xv: 3.10a ftp://ftp.cis.upenn.edu/pub/xv/
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
