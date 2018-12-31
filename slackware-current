@@ -49,7 +49,7 @@ A series :
 -gptfdisk: 1.0.4 http://www.rodsbooks.com/gdisk/
 -grep: 3.3 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.02 ftp://ftp.gnu.org/gnu/grub/
--gzip: 1.9 to 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
+-gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.4 http://www.issihosts.com/haveged/index.html
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/
 -hostname: 3.21
@@ -72,7 +72,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.01 to 2.03.02 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.02 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.10 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 161 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -80,14 +80,14 @@ A series :
 	- minicom: 2.7.1 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.28.3 to 1.29.3 http://www.busybox.net/
+	- busybox: 1.28.3 to 1.30. http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.3 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.4 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -openssl-solibs: 1.1.1a http://www.openssl.org/
--os-prober: 1.76 https://packages.debian.org/testing/utils/os-prober
+-os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
@@ -327,7 +327,7 @@ e series:
 --------------------
 Installer:
 --------------------
--busybox: 1.19.4 to 1.29.3
+-busybox: 1.19.4 to 1.30.0
 -dhcpcd: 3.2.3 to 7.0.8
 -dropbear: 2012.55 to 2018.76 http://matt.ucc.asn.au/dropbear/dropbear.html
 --------------------
@@ -413,7 +413,7 @@ l series:
 -fribidi: 1.0.5 http://fribidi.org/download
 -fuse: 2.9.8 to (fuse3: 3.4.1) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
--gc: 8.0.0 http://www.hboehm.info/gc/gc_source/
+-gc: 8.0.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 to 2.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
@@ -428,8 +428,8 @@ l series:
 -glibmm: 2.58.00 http://www.gtkmm.org/
 -glibc: 2.28
 	-glibc: 2.28 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2018g to 2018h https://www.iana.org/time-zones
-	-tzdata: 2018g to 2018h https://www.iana.org/time-zones
+	-tzcode: 2018g to 2018i https://www.iana.org/time-zones
+	-tzdata: 2018g to 2018i https://www.iana.org/time-zones
 -gmime: 3.0.5 to 3.2.3 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 4.3 to 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -462,7 +462,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_19 to 6.9.10_21 http://www.imagemagick.org/
+-imagemagick: 6.9.10_21 to 6.9.10_22 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.1 http://de-mirror.org/gentoo/distfiles/
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -491,7 +491,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 0.94 to 2.0.0 ftp://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+0.94+2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 20180223 to 0.2.0-20180610 http://libclc.llvm.org/
+-libclc: 20181127 http://libclc.llvm.org/
 -libcroco: 0.6.12 http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/
 -libdbusmenu-qt: 0.9.2 https://launchpad.net/libdbusmenu-qt/
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
@@ -541,7 +541,7 @@ l series:
 -libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.10 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.44.11 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.1 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.7 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -678,7 +678,7 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.9 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.3.7 http://zstd.net/
+-zstd: 1.3.8 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -917,7 +917,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.74.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.0.6 (graphical bluetooth manager)  http://blueman-project.org
+-blueman: 2.0.7 (graphical bluetooth manager)  http://blueman-project.org
 -ddd: 3.3.12 ftp://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 (screensaver) to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.2 to 2.4.3 http://easytag.sourceforge.net
@@ -968,7 +968,7 @@ xap series:
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 5.40 to 5.42 http://www.jwz.org/xscreensaver/
+-xscreensaver: 5.42 http://www.jwz.org/xscreensaver/
 -xv: 3.10a ftp://ftp.cis.upenn.edu/pub/xv/
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
@@ -994,7 +994,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -xfce4-session: 4.12.1 to 4.13.0
 -xfce4-settings: 4.12.4
 -xfce4-systemload-plugin: 1.2.2
--xfce4-taskmanager: 1.2.1
+-xfce4-taskmanager: 1.2.2
 -xfce4-terminal: 0.8.7.4
 -xfce4-weather-plugin: 0.8.10
 -xfconf: 4.12.1 to 4.13.6

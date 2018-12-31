@@ -7,11 +7,9 @@ a series:
 -efivar: 37
 -floppy: mtools 4.0.23
 -getty_ps: 2.1.1
--gzip: 1.10
 -iftop: 1.0
 -kbd: 1.15.5
 -less: 544
--lvm2: 2.03.02
 -syslinux: 5.10
 -sysvinit: 2.93
 -udisk2: 2.8.1
@@ -52,10 +50,9 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
--imagemagick: 6.9.10_21
+-imagemagick: 6.9.10_22
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
--libclc: 0.2.0-20180610
 -libunwind: 6.0.1
 -openexr: 2.3.0 
 -pango: 1.43.03
@@ -87,7 +84,6 @@ x series:
 xap:
 -easytag: 2.4.3
 -network-manager-applet: 1.8.19
--xscreensaver: 5.42
 -------------------------
 xfce series:
 -exo: 0.12.3
