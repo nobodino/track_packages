@@ -10,7 +10,7 @@ a series:
 -kbd: 1.15.5
 -less: 544
 -syslinux: 5.10
--sysvinit: 2.93
+-sysvinit: 2.94
 -udisk2: 2.8.1
 -upower: 0.99.7
 ------------------------

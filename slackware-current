@@ -106,7 +106,7 @@ A series :
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 1.5.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 2.90 to 2.93 http://download.savannah.gnu.org/releases/sysvinit/
+-sysvinit: 2.90 to 2.94 http://download.savannah.gnu.org/releases/sysvinit/
 -sysvinit-functions: 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.30 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
