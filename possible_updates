@@ -4,7 +4,6 @@ a series:
 -cryptsetup: 2.0.6
 -dialog: 1.3_20181107
 -eudev: 3.2.7
--efivar: 37
 -floppy: mtools 4.0.23
 -getty_ps: 2.1.1
 -iftop: 1.0
@@ -17,6 +16,7 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
+-diffutils: 3.7
 -eudev: 3.2.7
 -gutenprint: 5.3.1 
 -linuxdoc-tools: 0.9.73
@@ -32,7 +32,6 @@ d series:
 -oprofile: 1.3.0
 -p2c: 2.01
 -python3: 3.6.8
--ruby: 2.6.0
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -50,7 +49,6 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
--imagemagick: 6.9.10_22
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -libunwind: 6.0.1
