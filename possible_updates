@@ -8,7 +8,6 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
--less: 544
 -syslinux: 5.10
 -udisk2: 2.8.1
 -upower: 0.99.7
@@ -47,6 +46,7 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
+-imagemagick: 6.9.10_23
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -libunwind: 6.0.1
