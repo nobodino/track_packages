@@ -10,22 +10,20 @@ a series:
 -kbd: 1.15.5
 -less: 544
 -syslinux: 5.10
--sysvinit: 2.94
 -udisk2: 2.8.1
 -upower: 0.99.7
 ------------------------
 ap series:
 -cdrtools: 3.02a9
--diffutils: 3.7
 -eudev: 3.2.7
 -gutenprint: 5.3.1 
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
+-soma: 3.2.1 
 -sysstat: 12.0.3
 -------------------------
 d series:
--bison: 3.2.4
 -cscope: 15.9
 -cvs: 1.12.23
 -opencl-headers: 2.2
@@ -57,6 +55,7 @@ l series:
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.72.0
+-python-pillow: 5.4.0
 -sip: 4.19.12
 -urwid: 2.0.1
 -------------------------
@@ -81,6 +80,7 @@ x series:
 -------------------------
 xap:
 -easytag: 2.4.3
+-gnuplot: 5.2.6
 -network-manager-applet: 1.8.19
 -------------------------
 xfce series:
