@@ -109,7 +109,7 @@ A series :
 -sysvinit: 2.93 http://download.savannah.gnu.org/releases/sysvinit/
 -sysvinit-functions: 8.53
 -sysvinit-scripts: 2.0
--tar: 1.30 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
+-tar: 1.31 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
 -tcsh: 6.20.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
@@ -253,7 +253,7 @@ d series:
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.2.4 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 3.5 https://ftp.samba.org/pub/ccache/
+-ccache: 3.5.1 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
@@ -462,7 +462,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_22 to 6.9.10_23 http://www.imagemagick.org/
+-imagemagick: 6.9.10_23 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.1 http://de-mirror.org/gentoo/distfiles/
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -934,7 +934,7 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.2.5 to 5.2.6 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.2.6 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 11.0.3 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
@@ -948,7 +948,7 @@ xap series:
 -pidgin: 2.13.0
 	-pidgin: 2.13.0 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
--rdesktop: 1.8.3 http://www.rdesktop.org/#download
+-rdesktop: 1.8.4 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.0.27
 	- sane-backend : 1.0.27 https://alioth.debian.org/frs/?group_id=30186
