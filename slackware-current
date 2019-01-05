@@ -53,7 +53,7 @@ A series :
 -haveged: 1.9.4 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.21
--hwdata: 0.318 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.319 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -84,7 +84,7 @@ A series :
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.3 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
--ncompress: 4.2.4.4 http://ftp.debian.org/debian/pool/main/n/ncompress/
+-ncompress: 4.2.4.4 to 4.2.4.5 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -openssl-solibs: 1.1.1a http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
@@ -262,7 +262,7 @@ d series:
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
 -distcc: 3.3.2 http://distcc.samba.org/
--doxygen: 1.8.15 ftp://ftp.stack.nl/pub/users/dimitri/
+-doxygen: 1.8.14 to 1.8.15 (pb) ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.2.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.2.1 ftp://ftp.gnu.org/pub/gnu/gdb/
@@ -570,11 +570,11 @@ l series:
 -libwmf: 0.2.8.4 http://sourceforge.net/projects/wvware/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
 -libwpd: 0.10.3 http://libwpd.sourceforge.net/
--libwpg: 0.3.2 http://libwpg.sourceforge.net/
+-libwpg: 0.3.3 http://libwpg.sourceforge.net/
 -libxklavier: 5.4 http://ftp.gnome.org/pub/gnome/sources/libxklavier/
--libxml2: 2.9.8 http://xmlsoft.org/sources/
+-libxml2: 2.9.9 http://xmlsoft.org/sources/
 -libyaml: 0.2.1 (yaml) http://pyyaml.org/wiki/LibYAML
--libxslt: 1.1.32 ftp://xmlsoft.org/
+-libxslt: 1.1.33 ftp://xmlsoft.org/
 -libzip: 1.5.1 http://www.nih.at/libzip/
 -lmdb: 0.9.23 http://symas.com/mdb/
 -loudmouth: 1.5.3 http://www.loudmouth-project.org/
@@ -626,7 +626,7 @@ l series:
 -python-idna: 2.8 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 18.0 https://github.com/pypa/packaging
--python-pillow: 5.3.0 to 5.4.0 https://python-pillow.github.io/
+-python-pillow: 5.4.0 https://python-pillow.github.io/
 -python-requests: 2.21.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.12.0 http://pypi.python.org/pypi/six/
@@ -905,7 +905,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 341 ftp://invisible-island.net/xterm/
+-xterm: 342 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------

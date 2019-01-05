@@ -8,6 +8,7 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
+-ncompress: 4.2.4.5
 -syslinux: 5.10
 -udisk2: 2.8.1
 -upower: 0.99.7
@@ -71,7 +72,7 @@ t:
 -
 -------------------------
 tcl/tk series:
--mesa: 18.2.8
+-
 -------------------------
 x series:
 -vulkan-sdk: 1.1.96
