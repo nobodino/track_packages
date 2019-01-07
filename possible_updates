@@ -8,7 +8,6 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
--ncompress: 4.2.4.5
 -syslinux: 5.10
 -udisk2: 2.8.1
 -upower: 0.99.7
@@ -20,7 +19,6 @@ ap series:
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
--man-db: 2.8.5
 -sysstat: 12.0.3
 -------------------------
 d series:
