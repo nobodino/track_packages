@@ -16,7 +16,6 @@ a series:
 ap series:
 -cdrtools: 3.02a9
 -eudev: 3.2.7
--gutenprint: 5.3.1 
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
