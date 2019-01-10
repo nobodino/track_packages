@@ -61,7 +61,10 @@ l series:
 -------------------------
 n series:
 -bind: 9.13.5
+-libmbim: 1.18.0
+-libqmi: 1.22.0
 -mobile-broadband-provider-info: 20180219
+-php: 7.2.14
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
