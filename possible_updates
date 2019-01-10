@@ -19,6 +19,7 @@ ap series:
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
+-qpdf: 8.3.0
 -sysstat: 12.0.3
 -------------------------
 d series:
