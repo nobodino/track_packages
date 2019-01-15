@@ -21,6 +21,7 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
+-cmake: 3.13.3 
 -cscope: 15.9
 -cvs: 1.12.23
 -opencl-headers: 2.2
@@ -41,12 +42,10 @@ l series:
 -gmm: 5.3
 -gmime: 3.2.3
 -grantlee: 5.1.0
--gtk+3: 3.24.3 
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
--libunwind: 6.0.1
 -openexr: 2.3.0 
 -pango: 1.43.03
 -phonon: 4.10.1
@@ -74,8 +73,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--vulkan-sdk: 1.1.96
--xterm: 343
+-vulkan-sdk: 1.1.98
 -------------------------
 xap:
 -easytag: 2.4.3
