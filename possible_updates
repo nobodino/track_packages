@@ -50,11 +50,9 @@ l series:
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.73.0
--pyparsing: 2.3.1
 -python-pillow: 5.4.0
 -readline: 8.0 
 -sip: 4.19.12
--talloc: 2.1.15
 -urwid: 2.0.1
 -------------------------
 n series:
