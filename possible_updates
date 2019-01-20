@@ -1,6 +1,7 @@
 ~possible updates
 -----------------------
 a series:
+-btrfs-progs: 4.20.0
 -cryptsetup: 2.0.6
 -dialog: 1.3_20181107
 -eudev: 3.2.7
@@ -14,7 +15,6 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
--cups-filters: 1.22.0 
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
