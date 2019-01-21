@@ -39,13 +39,16 @@ l series:
 -fluidsynth: 1.1.11 or 2.0.2
 -fuse3: 3.4.1
 -glade3: 3.22.1
+-glib2: 2.58.3
 -gmm: 5.3
 -gmime: 3.2.3
 -grantlee: 5.1.0
+-gtk+3: 3.24.4
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
+-librsvg: 2.44.12
 -openexr: 2.3.0 
 -pango: 1.43.03
 -phonon: 4.10.1
@@ -74,6 +77,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
+-libinput: 1.12.6
 -vulkan-sdk: 1.1.98
 -------------------------
 xap:
