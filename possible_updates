@@ -10,7 +10,7 @@ a series:
 -kbd: 1.15.5
 -syslinux: 5.10
 -udisk2: 2.8.1
--upower: 0.99.7
+-upower: 0.99.9
 ------------------------
 ap series:
 -cdrtools: 3.02a9
@@ -57,13 +57,13 @@ l series:
 -------------------------
 n series:
 -bind: 9.13.5
+-dhcpcd: 7.1.0
 -mobile-broadband-provider-info: 20180219
--nghttp2: 1.36.0
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
 -yp-tools: 4.2.3
--ypbind-mt: 2.4
+-ypbind-mt: 2.6
 -ypserv: 4.0
 -------------------------
 t:

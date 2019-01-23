@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-firmware: 20190118 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kernel-ide: 4.19.15 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.17 https://www.kernel.org/pub/linux/kernel/
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 530 to 544 (beta) ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -114,7 +114,7 @@ A series :
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.9.23 to 0.99.7 http://upower.freedesktop.org/releases/
+-upower: 0.9.23 to 0.99.9 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.5.2 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 010 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -273,7 +273,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.15
+-kernel-headers: 4.19.17
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -311,12 +311,12 @@ d series:
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.0 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.31.1 to 1.32.0 https://rust-lang.org
--scons: 3.0.3 http://www.scons.org/
+-scons: 3.0.4 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.26 https://github.com/strace/strace/releases/download/
 -subversion: 1.11.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 3.0.12 http://www.swig.org/download.html
--vala. 0.42.4 https://wiki.gnome.org/Projects/Vala
+-vala. 0.42.5 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -326,7 +326,7 @@ e series:
 Installer:
 --------------------
 -busybox: 1.19.4 to 1.30.0
--dhcpcd: 3.2.3 to 7.0.8
+-dhcpcd: 3.2.3 to 7.1.0
 -dropbear: 2012.55 to 2018.76 http://matt.ucc.asn.au/dropbear/dropbear.html
 --------------------
 f series:
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.15
+-kernel :  4.19.17
 --------------------
 kde series :
 --------------------
@@ -703,7 +703,7 @@ n series:
 -curl: 7.63.0  http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 7.0.8 to 7.1.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.4 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
@@ -718,7 +718,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.37 http://www.apache.org/dist/httpd/
+-httpd: 2.4.38 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -833,7 +833,7 @@ n series:
 -wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
 -yptools:
 	- yp-tools: 2.14 to 4.2.3 http://www.linux-nis.org/download/yp-tools/
-	- ypbind-mt: 1.38 to 2.4 http://www.linux-nis.org/nis/ypbind-mt/
+	- ypbind-mt: 1.38 to 2.6 http://www.linux-nis.org/nis/ypbind-mt/
 	- ypserv: 2.32.1 to 4.0 http://www.linux-nis.org/download/ypserv/
 -ytalk: 3.3.0 http://www.iagora.com/~espel/ytalk/ytalk.html or ftp://ftp.debian.org/debian/pool/main/y/ytalk/
 --------------------
@@ -865,7 +865,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
 -libpciaccess: 0.14
--libdrm: 2.4.96 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.97 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.6.0
 -libinput: 1.12.6
