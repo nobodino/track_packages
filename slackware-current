@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 4.20.0 http://btrfs.wiki.kernel.org
+-btrfs-progs: 4.20.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.6 http://www.bzip.org/downloads.html
 -coreutils: 8.30 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -305,7 +305,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.8 https://www.python.org/downloads/
--python-pip: 18.1 https://pip.pypa.io/
+-python-pip: 19.0.1 https://pip.pypa.io/
 -python-setuptools: 40.6.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
@@ -580,8 +580,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.41.0 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.41.0 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.41.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.41.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -681,7 +681,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.10.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.14.4 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.14.4 to 1.15.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -703,7 +703,7 @@ n series:
 -curl: 7.63.0  http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 7.0.8 to 7.1.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 7.1.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.4 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
