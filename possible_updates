@@ -21,6 +21,7 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
+-bison: 3.3
 -cscope: 15.9
 -cvs: 1.12.23
 -opencl-headers: 2.2
@@ -81,7 +82,6 @@ xap:
 -network-manager-applet: 1.8.19
 -------------------------
 xfce series:
--exo: 0.12.3
 -xfce4-power-manager: 1.6.1
 -xfwm4: 4.12.5
 -------------------------
