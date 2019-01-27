@@ -20,13 +20,11 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
--bison: 3.3
 -cscope: 15.9
 -cvs: 1.12.23
 -opencl-headers: 2.2
 -oprofile: 1.3.0
 -p2c: 2.01
--rust: 1.32.0
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -47,11 +45,10 @@ l series:
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -openexr: 2.3.0 
--pango: 1.43.03
+-pango: 1.43.0
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.73.0
--python-pillow: 5.4.0
 -readline: 8.0 
 -sip: 4.19.12
 -urwid: 2.0.1
