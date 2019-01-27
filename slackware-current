@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 4.19.1 to 4.20.0 http://btrfs.wiki.kernel.org
+-btrfs-progs: 4.20.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.6 http://www.bzip.org/downloads.html
 -coreutils: 8.30 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -61,8 +61,13 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+<<<<<<< HEAD
 -kernel-firmware: 20190114 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kernel-ide: 4.19.18 https://www.kernel.org/pub/linux/kernel/
+=======
+-kernel-firmware: 20190118 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.17 https://www.kernel.org/pub/linux/kernel/
+>>>>>>> cf66f5bb67f6cdad5fb0ba1327361ac870fe1270
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 530 to 544 (beta) ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -114,7 +119,7 @@ A series :
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.9.23 to 0.99.7 http://upower.freedesktop.org/releases/
+-upower: 0.9.23 to 0.99.9 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.5.2 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 010 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -273,7 +278,11 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
+<<<<<<< HEAD
 -kernel-headers: 4.19.18
+=======
+-kernel-headers: 4.19.17
+>>>>>>> cf66f5bb67f6cdad5fb0ba1327361ac870fe1270
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -285,7 +294,7 @@ d series:
 -opencl-headers: 2.1 to 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 1.21alpha2 to 2.01
--parallel: 20181222 https://www.gnu.org/software/parallel/
+-parallel: 20190122 https://www.gnu.org/software/parallel/
 -patchelf: 0.9 http://nixos.org/patchelf.html
 -perl: 5.28.1
 	- Authen-SASL: 2.16
@@ -305,18 +314,18 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.8 https://www.python.org/downloads/
--python-pip: 18.1 https://pip.pypa.io/
+-python-pip: 19.0.1 https://pip.pypa.io/
 -python-setuptools: 40.6.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.0 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.31.1 to 1.32.0 https://rust-lang.org
--scons: 3.0.3 http://www.scons.org/
+-scons: 3.0.4 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
 -strace: 4.26 https://github.com/strace/strace/releases/download/
 -subversion: 1.11.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 3.0.12 http://www.swig.org/download.html
--vala. 0.42.4 https://wiki.gnome.org/Projects/Vala
+-vala. 0.42.5 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -326,7 +335,7 @@ e series:
 Installer:
 --------------------
 -busybox: 1.19.4 to 1.30.0
--dhcpcd: 3.2.3 to 7.0.8
+-dhcpcd: 3.2.3 to 7.1.0
 -dropbear: 2012.55 to 2018.76 http://matt.ucc.asn.au/dropbear/dropbear.html
 --------------------
 f series:
@@ -335,7 +344,11 @@ f series:
 --------------------
 -k series:
 --------------------
+<<<<<<< HEAD
 -kernel :  4.19.18
+=======
+-kernel :  4.19.17
+>>>>>>> cf66f5bb67f6cdad5fb0ba1327361ac870fe1270
 --------------------
 kde series :
 --------------------
@@ -421,7 +434,7 @@ l series:
 -giflib: 5.1.4 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib2: 2.58.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.58.3 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glib-networking: 2.58.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.58.00 http://www.gtkmm.org/
 -glibc: 2.28
@@ -448,7 +461,7 @@ l series:
 -gstreamer: 1.14.4 to 1.15.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.3 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.4 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -539,7 +552,7 @@ l series:
 -libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.44.11 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.24.12 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.1 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.7 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -580,8 +593,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.41.0 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.41.0 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.41.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.41.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -623,7 +636,7 @@ l series:
 -python-docutils: 0.14 http://docutils.sourceforge.net/
 -python-idna: 2.8 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
--python-packaging: 18.0 https://github.com/pypa/packaging
+-python-packaging: 19.0 https://github.com/pypa/packaging
 -python-pillow: 5.4.1 https://python-pillow.github.io/
 -python-requests: 2.21.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
@@ -681,7 +694,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.10.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.14.4 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.14.4 to 1.15.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -703,7 +716,7 @@ n series:
 -curl: 7.63.0  http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 7.0.8 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 7.1.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.4 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
@@ -718,7 +731,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.37 http://www.apache.org/dist/httpd/
+-httpd: 2.4.38 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -792,7 +805,7 @@ n series:
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
 -openssl: 1.1.1a ftp://ftp.openssl.org/source/
 -openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.14 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.15 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.14 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
@@ -833,7 +846,7 @@ n series:
 -wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
 -yptools:
 	- yp-tools: 2.14 to 4.2.3 http://www.linux-nis.org/download/yp-tools/
-	- ypbind-mt: 1.38 to 2.4 http://www.linux-nis.org/nis/ypbind-mt/
+	- ypbind-mt: 1.38 to 2.6 http://www.linux-nis.org/nis/ypbind-mt/
 	- ypserv: 2.32.1 to 4.0 http://www.linux-nis.org/download/ypserv/
 -ytalk: 3.3.0 http://www.iagora.com/~espel/ytalk/ytalk.html or ftp://ftp.debian.org/debian/pool/main/y/ytalk/
 --------------------
@@ -865,10 +878,10 @@ x series: (main packages)
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
 -libdmx: 1.1.4
 -libpciaccess: 0.14
--libdrm: 2.4.96 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.97 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.6.0
--libinput: 1.12.5
+-libinput: 1.12.6
 -libmypaint: 1.3.0 http://mypaint.org
 -libva: 2.3.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.3.0 https://01.org/linuxmedia/vaapi
@@ -972,7 +985,11 @@ xap series:
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
+<<<<<<< HEAD
 -Thunar: 1.8.3
+=======
+-Thunar: 1.8.2
+>>>>>>> cf66f5bb67f6cdad5fb0ba1327361ac870fe1270
 -exo: 0.12.4
 -garcon: 0.6.2
 -gtk-xfce-engine: 2.10.1 to 3.2.0

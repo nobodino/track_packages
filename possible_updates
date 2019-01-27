@@ -1,7 +1,6 @@
 ~possible updates
 -----------------------
 a series:
--btrfs-progs: 4.20.0
 -cryptsetup: 2.0.6
 -dialog: 1.3_20181107
 -eudev: 3.2.7
@@ -11,7 +10,7 @@ a series:
 -kbd: 1.15.5
 -syslinux: 5.10
 -udisk2: 2.8.1
--upower: 0.99.7
+-upower: 0.99.9
 ------------------------
 ap series:
 -cdrtools: 3.02a9
@@ -58,14 +57,14 @@ l series:
 -urwid: 2.0.1
 -------------------------
 n series:
+-NetworkManager: 1.15.2 
 -bind: 9.13.5
 -mobile-broadband-provider-info: 20180219
--nghttp2: 1.36.0
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
 -yp-tools: 4.2.3
--ypbind-mt: 2.4
+-ypbind-mt: 2.6
 -ypserv: 4.0
 -------------------------
 t:
