@@ -14,6 +14,7 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
+-hplip: 3.19.1 
 -linuxdoc-tools: 0.9.73
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
@@ -42,6 +43,7 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
+-imagemagick: 6.9.10_25
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -openexr: 2.3.0 
@@ -59,6 +61,7 @@ n series:
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
+-whois: 5.4.1
 -wireless-regdb: 20180907
 -yp-tools: 4.2.3
 -ypbind-mt: 2.6
