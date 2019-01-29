@@ -897,7 +897,7 @@ x series: (main packages)
 -xf86-video-intel: 20180906
 -xf86-video-mga: 2.0.0
 -xf86-video-nv: 2.1.21
--xf86-video-nouveau: 1.0.15
+-xf86-video-nouveau: 1.0.15 to 1.0.16
 -xf86-video-r128: 6.12.0
 -xf86-video-savage: 20180625
 -xf86-video-sis: 20170717

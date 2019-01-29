@@ -76,6 +76,7 @@ tcl/tk series:
 -------------------------
 x series:
 -vulkan-sdk: 1.1.98
+-xf86-video-nouveau: 1.0.16
 -------------------------
 xap:
 -easytag: 2.4.3
