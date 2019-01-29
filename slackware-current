@@ -305,7 +305,7 @@ d series:
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.8 https://www.python.org/downloads/
 -python-pip: 19.0.1 https://pip.pypa.io/
--python-setuptools: 40.6.3 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 40.6.3 to 40.7.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.0 ftp://ftp.ruby-lang.org/pub/ruby
