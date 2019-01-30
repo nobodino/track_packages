@@ -249,7 +249,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.31.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.3 to 3.3.1 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.3.1 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.6 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -308,7 +308,7 @@ d series:
 -python-setuptools: 40.6.3 to 40.7.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
--ruby: 2.6.0 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 2.6.0 to 2.6.1 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.31.1 to 1.32.0 https://rust-lang.org
 -scons: 3.0.4 http://www.scons.org/
 -slacktrack: 2.18 http://www.slackware.com/~mozes
@@ -459,7 +459,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_24 to 6.9.10_25 http://www.imagemagick.org/
+-imagemagick: 6.9.10_25 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -579,8 +579,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.41.1 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.41.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.42.0 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.42.0 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.20 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -827,7 +827,7 @@ n series:
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.20.1 http://ftp.gnu.org/gnu/wget/
--whois: 5.4.0 to 5.4.1 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-whois: 5.4.1 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless_tools: 30pre9 http://pcmcia-cs.sourceforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
 -yptools:
@@ -897,7 +897,7 @@ x series: (main packages)
 -xf86-video-intel: 20180906
 -xf86-video-mga: 2.0.0
 -xf86-video-nv: 2.1.21
--xf86-video-nouveau: 1.0.15 to 1.0.16
+-xf86-video-nouveau: 1.0.16
 -xf86-video-r128: 6.12.0
 -xf86-video-savage: 20180625
 -xf86-video-sis: 20170717
@@ -938,8 +938,8 @@ xap series:
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0727
 -hexchat: 2.14.2 https://hexchat.github.io/
--mozilla-firefox: 60.4esr to 65.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.4.0 to 60.5.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 60.5.0esr to 65.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 60.5.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.18 to 1.8.19 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -971,7 +971,7 @@ xap series:
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.3
+-Thunar: 1.8.4
 -exo: 0.12.4
 -garcon: 0.6.2
 -gtk-xfce-engine: 2.10.1 to 3.2.0
