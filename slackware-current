@@ -939,7 +939,7 @@ xap series:
 -gvim: 8.1.0727
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.4esr to 65.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.4.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 60.4.0 to 60.5.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.18 to 1.8.19 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
