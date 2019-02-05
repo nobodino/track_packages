@@ -21,7 +21,6 @@ ap series:
 -sysstat: 12.0.3
 -------------------------
 d series:
--bison: 3.3.2 
 -cscope: 15.9
 -cvs: 1.12.23
 -p2c: 2.01

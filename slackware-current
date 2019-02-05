@@ -240,7 +240,7 @@ Ap series :
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.0
--zsh: 5.7 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
+-zsh: 5.7 to 5.7.1 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
 --------------------
 d series:
 --------------------
@@ -249,7 +249,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.3.1 to 3.3.2 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.3.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.6 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -305,7 +305,7 @@ d series:
 -python: 2.7.15 https://www.python.org/downloads/
 -python3: 3.6.8 https://www.python.org/downloads/
 -python-pip: 19.0.1 https://pip.pypa.io/
--python-setuptools: 40.7.2 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 40.7.2 to 40.7.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.1 ftp://ftp.ruby-lang.org/pub/ruby
@@ -380,7 +380,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.60 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.62 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.69.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -447,7 +447,7 @@ l series:
 -gstreamer: 1.14.4 to 1.15.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.4 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.5 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -727,7 +727,7 @@ n series:
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20180629 http://www.skbuff.net/iputils/
 -irssi: 1.1.2 http://www.irssi.org/files/
--iw: 5.0 https://www.kernel.org/pub/software/network/iw/
+-iw: 5.0.1 https://www.kernel.org/pub/software/network/iw/
 -lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.2 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.8.4 https://www.gnupg.org/download/index.html
@@ -1008,7 +1008,6 @@ extra:
 -aspell-word-list: 0.50.4
 -bash-completion: 2.8 https://github.com/scop/bash-completion
 -bittornado: 0.3.18
--bittorrent: 4.4.0 to 5.2.2 http://bitconjurer.org/BitTorrent/
 -brltty: 5.4 http://mielke.cc/brltty/
 -emacspeak: 38.0 to 40.0
 -flashplayer-plugin: 31 beta  http://labs.adobe.com/technologies/eula/flashplayer.html
