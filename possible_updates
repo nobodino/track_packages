@@ -55,6 +55,7 @@ l series:
 n series:
 -NetworkManager: 1.15.2 
 -bind: 9.13.5
+-dovecot: 2.3.4.1
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
