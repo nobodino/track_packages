@@ -8,7 +8,6 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
--mcelog: 162
 -syslinux: 5.10
 -udisk2: 2.8.1
 -upower: 0.99.9
@@ -55,7 +54,6 @@ l series:
 n series:
 -NetworkManager: 1.15.2 
 -bind: 9.13.5
--curl: 7.64.0
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)

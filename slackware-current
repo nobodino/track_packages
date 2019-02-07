@@ -53,7 +53,7 @@ A series :
 -haveged: 1.9.4 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.21
--hwdata: 0.319 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.320 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.19 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19..20 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190118 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 25 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -72,7 +72,7 @@ A series :
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.77 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http://www.nongnu.org/lzip/lzlib.html
--mcelog: 161 to 162 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 162 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.7.1 http://alioth.debian.org/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.19
+-kernel-headers: 4.19..20
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.19
+-kernel :  4.19..20
 --------------------
 kde series :
 --------------------
@@ -562,7 +562,7 @@ l series:
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvncserver: 0.9.11 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.6 https://www.xiph.org/downloads/
--libvpx: 1.7.0 http://www.webmproject.org/
+-libvpx: 1.8.0 http://www.webmproject.org/
 -libwebp: 1.0.2 https://developers.google.com/speed/webp/
 -libwmf: 0.2.8.4 http://sourceforge.net/projects/wvware/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
@@ -699,7 +699,7 @@ n series:
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
 	- wireless-regdb: 20180531 to 20180907
--curl: 7.63.0 to 7.64.0 http://curl.haxx.se/download/
+-curl: 7.64.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.1.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
