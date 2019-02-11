@@ -862,6 +862,7 @@ x series: (main packages)
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -igt-gpu-tools: 1.23 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
+-libXau: 1.0.8 to 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.14
 -libdrm: 2.4.97 http://dri.freedesktop.org/libdrm/
