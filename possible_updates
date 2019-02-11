@@ -8,7 +8,6 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
--kmod: 26
 -syslinux: 5.10
 -udisk2: 2.8.1
 -upower: 0.99.9
