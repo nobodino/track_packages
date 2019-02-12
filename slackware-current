@@ -19,7 +19,7 @@ A series :
 -coreutils: 8.30 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
--cryptsetup: 1.7.5 to 2.0.6 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 1.7.5 to 2.1.0 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.12 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -225,7 +225,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.1 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.27.0 to 3.27.1 http://www.sqlite.org/download.html
+-sqlite: 3.27.1 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.0.2 to 12.0.3 http://sebastien.godard.pagesperso-orange.fr/download.html
