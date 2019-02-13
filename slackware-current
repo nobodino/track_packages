@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19..20 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190118 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.21 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20190212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 530 to 544 (beta) ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19..20
+-kernel-headers: 4.19.21
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19..20
+-kernel :  4.19.21
 --------------------
 kde series :
 --------------------
@@ -480,7 +480,7 @@ l series:
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
--libblueray: 1.0.2 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.1.0 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
 -libcap: 2.26 http://sites.google.com/site/fullycapable/
@@ -673,7 +673,7 @@ l series:
 -v4l-utils: 1.16.3 http://linuxtv.org/downloads/v4l-utils/
 -vte: 0.54.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
--xapian-core: 1.4.9 http://www.xapian.org/
+-xapian-core: 1.4.10 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
 -zstd: 1.3.8 http://zstd.net/
 --------------------
@@ -712,7 +712,7 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.12 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.13 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.6 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 https://www.gnupg.org/download/index.html
@@ -726,10 +726,10 @@ n series:
 -iptables: 1.8.2 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20180629 http://www.skbuff.net/iputils/
--irssi: 1.1.2 http://www.irssi.org/files/
+-irssi: 1.2.0 http://www.irssi.org/files/
 -iw: 5.0.1 https://www.kernel.org/pub/software/network/iw/
 -lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
--libassuan: 2.5.2 https://www.gnupg.org/download/index.html
+-libassuan: 2.5.3 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.8.4 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.34 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
@@ -862,7 +862,7 @@ x series: (main packages)
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -igt-gpu-tools: 1.23 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
--libXau: 1.0.8 to 1.0.9
+-libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.14
 -libdrm: 2.4.97 http://dri.freedesktop.org/libdrm/
@@ -884,7 +884,7 @@ x series: (main packages)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
--pixman: 0.36.0 http://cairographics.org/releases/
+-pixman: 0.38.0 http://cairographics.org/releases/
 -sessreg: 1.1.1
 -vulkan-sdk: 1.1.92.1 to 1.1.96 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
