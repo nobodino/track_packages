@@ -417,7 +417,7 @@ l series:
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.12 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.10.10 http://www.exiv2.org/
--giflib: 5.1.4 http://sourceforge.net/projects/giflib/files/
+-giflib: 5.1.6 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib2: 2.58.3 http://ftp.acc.umu.se/pub/gnome/sources/glib/
@@ -710,7 +710,7 @@ n series:
 -epic5: 2.0.1 http://www.epicsol.org/
 -ethtool: 4.19 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
--getmail: 5.9 http://pyropus.ca/software/getmail/
+-getmail: 5.10 to 5.11 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.13 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.6 ftp://ftp.gnutls.org/gcrypt/gnutls/
@@ -906,7 +906,7 @@ x series: (main packages)
 -xf86-video-sis: 20170717
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 343 ftp://invisible-island.net/xterm/
+-xterm: 344 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -941,7 +941,7 @@ xap series:
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.0867
 -hexchat: 2.14.2 https://hexchat.github.io/
--mozilla-firefox: 60.5.0esr to 65.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 60.5.1esr to 65.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.5.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.20 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
