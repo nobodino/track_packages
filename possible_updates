@@ -32,7 +32,6 @@ l series:
 -enchant: 2.2.3
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.1
--fluidsynth: 1.1.11 or 2.0.2
 -fuse3: 3.4.1
 -glade3: 3.22.1
 -gmm: 5.3
@@ -54,7 +53,6 @@ l series:
 n series:
 -NetworkManager: 1.15.2 
 -bind: 9.13.6
--getmail: 5.11
 -mobile-broadband-provider-info: 20180219
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)

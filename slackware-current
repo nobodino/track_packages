@@ -405,7 +405,7 @@ l series:
 -expat: 2.2.6 http://sourceforge.net/projects/expat/files/expat/
 -ffmpeg: 3.4.5 to 4.1 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
--fluidsynth: 1.1.10 to 1.1.11/2.0.2 http://www.fluidsynth.org/
+-fluidsynth: 1.1.11 to 2.0.2 http://www.fluidsynth.org/
 -freetype: 2.9.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.5 http://fribidi.org/download
 -fuse: 2.9.9 to (fuse3: 3.4.1) https://github.com/libfuse/libfuse/releases
@@ -710,7 +710,7 @@ n series:
 -epic5: 2.0.1 http://www.epicsol.org/
 -ethtool: 4.19 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
--getmail: 5.10 to 5.11 http://pyropus.ca/software/getmail/
+-getmail: 5.11 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.13 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.6 ftp://ftp.gnutls.org/gcrypt/gnutls/
@@ -942,7 +942,7 @@ xap series:
 -gvim: 8.1.0867
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.5.1esr to 65.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.5.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 60.5.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.20 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
