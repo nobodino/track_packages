@@ -2,7 +2,7 @@
 -----------------------
 a series:
 -cryptsetup: 2.1.0
--dialog: 1.3_20181107
+-dialog: 1.3_20190211
 -eudev: 3.2.7
 -floppy: mtools 4.0.23
 -getty_ps: 2.1.1
@@ -14,7 +14,7 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
--hplip: 3.19.1 
+-cups-filters: 1.22.1
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
 -sysstat: 12.0.3
@@ -41,6 +41,7 @@ l series:
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
+-libjpeg-turbo: 2.0.2
 -openexr: 2.3.0 
 -pango: 1.43.0
 -phonon: 4.10.1

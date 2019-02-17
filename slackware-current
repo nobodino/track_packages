@@ -23,7 +23,7 @@ A series :
 -dbus: 1.12.12 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20181107 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.44.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.21 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.23 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -78,7 +78,7 @@ A series :
 	- minicom: 2.7.1 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.28.3 to 1.30. http://www.busybox.net/
+	- busybox: 1.28.3 to 1.30.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.3 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.10 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.0 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.22.0 to 1.22.1 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.23 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -167,7 +167,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.18.12 to 3.19.1 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
+-hplip: 3.19.1 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -230,7 +230,7 @@ Ap series :
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.0.2 to 12.0.3 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
--texinfo: 6.5 ftp://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 6.6 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 2.8 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.21
+-kernel-headers: 4.19.23
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -324,7 +324,7 @@ e series:
 --------------------
 Installer:
 --------------------
--busybox: 1.19.4 to 1.30.0
+-busybox: 1.19.4 to 1.30.1
 -dhcpcd: 3.2.3 to 7.1.0
 -dropbear: 2012.55 to 2018.76 http://matt.ucc.asn.au/dropbear/dropbear.html
 --------------------
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.21
+-kernel :  4.19.23
 --------------------
 kde series :
 --------------------
@@ -398,7 +398,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.2.10 to 3.3.7 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.175 http://fedorahosted.org/releases/e/l/elfutils
+-elfutils: 0.176 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
@@ -512,7 +512,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20190118 http://www.libimobiledevice.org/
 -libiodbc: 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.0.1 to 2.0.2 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -538,7 +538,7 @@ l series:
 -libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.24.12 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.24.13 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.1 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.7 http://ftp.gnome.org/pub/gnome/sources/libsecret/
