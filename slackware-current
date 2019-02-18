@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.10 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.0 to 1.22.1 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.22.1 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.23 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -1004,7 +1004,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
 y series:
 --------------------
--bsd-games: 2.13 to 2.17_7.diff.gz ftp://metalab.unc.edu/pub/Linux/games/
+-bsd-games: 2.17 ftp://metalab.unc.edu/pub/Linux/games/
 --------------------
 extra:
 --------------------
