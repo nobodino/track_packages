@@ -74,6 +74,7 @@ x series:
 xap:
 -easytag: 2.4.3
 -network-manager-applet: 1.8.19
+-xpdf: 4.0.1
 -------------------------
 xfce series:
 -xfce4-power-manager: 1.6.1

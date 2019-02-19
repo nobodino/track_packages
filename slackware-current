@@ -968,7 +968,7 @@ xap series:
 -xlockmore: 5.56 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
--xpdf: 4.0.0 ftp://ftp.foolabs.com/pub/xpdf
+-xpdf: 4.0.0 to 4.0.1 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 5.42 http://www.jwz.org/xscreensaver/
 -xv: 3.10a ftp://ftp.cis.upenn.edu/pub/xv/
