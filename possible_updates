@@ -4,6 +4,7 @@ a series:
 -cryptsetup: 2.1.0
 -dialog: 1.3_20190211
 -eudev: 3.2.7
+-file: 5.36
 -floppy: mtools 4.0.23
 -getty_ps: 2.1.1
 -iftop: 1.0
@@ -54,6 +55,7 @@ n series:
 -NetworkManager: 1.15.2 
 -bind: 9.13.6
 -mobile-broadband-provider-info: 20180219
+-openvpn: 2.4.7
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907

@@ -34,7 +34,7 @@ A series :
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.5 to 3.2.7 https://dev.gentoo.org/~blueness/eudev/
 -f2fs-tools: 1.12.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
--file: 5.35 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
+-file: 5.35 to 5.36 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
@@ -791,7 +791,7 @@ n series:
 -openssh: 7.9p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
 -openssl: 1.1.1a ftp://ftp.openssl.org/source/
--openvpn: 2.4.6 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.4.6 to 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.15 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.15 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
