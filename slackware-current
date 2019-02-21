@@ -304,7 +304,7 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.15 https://www.python.org/downloads/
--python3: 3.6.8 https://www.python.org/downloads/
+-python3: 3.7.2 https://www.python.org/downloads/
 -python-pip: 19.0.2 https://pip.pypa.io/
 -python-setuptools: 40.7.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
