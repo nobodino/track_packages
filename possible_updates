@@ -41,7 +41,6 @@ l series:
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
--libjpeg-turbo: 2.0.2
 -openexr: 2.3.0 
 -pango: 1.43.0
 -phonon: 4.10.1
@@ -55,7 +54,6 @@ n series:
 -NetworkManager: 1.15.2 
 -bind: 9.13.6
 -mobile-broadband-provider-info: 20180219
--openvpn: 2.4.7
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907

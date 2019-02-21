@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.23 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19..24 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -273,7 +273,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.23
+-kernel-headers: 4.19..24
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -513,7 +513,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20190118 http://www.libimobiledevice.org/
 -libiodbc: 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.0.1 to 2.0.2 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.0.2 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -791,7 +791,7 @@ n series:
 -openssh: 7.9p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2o ftp://ftp.openssl.org/source/
 -openssl: 1.1.1a ftp://ftp.openssl.org/source/
--openvpn: 2.4.6 to 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.15 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.15 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
