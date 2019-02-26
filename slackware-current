@@ -71,7 +71,7 @@ A series :
 -logrotate: 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.77 ftp://ftp.sistina.com/pub/LVM2/tools/
--lzlib: 1.11 http://www.nongnu.org/lzip/lzlib.html
+-lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 162 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
@@ -104,8 +104,8 @@ A series :
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 1.5.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 2.93 http://download.savannah.gnu.org/releases/sysvinit/
--sysvinit-functions: 8.53
+-sysvinit: 2.93 to 2.94 http://download.savannah.gnu.org/releases/sysvinit/
+-sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.32 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
 -tcsh: 6.20.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
@@ -225,7 +225,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.1 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.27.1 http://www.sqlite.org/download.html
+-sqlite: 3.27.1 to 3.27.2 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.0.2 to 12.0.3 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -269,6 +269,7 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
 -help2man: 1.47.8 http://ftp.gnu.org/gnu/help2man/
+
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download

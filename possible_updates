@@ -9,6 +9,7 @@ a series:
 -iftop: 1.0
 -kbd: 1.15.5
 -syslinux: 5.10
+-sysvinit: 2.94
 -udisk2: 2.8.1
 -upower: 0.99.9
 ------------------------
@@ -16,6 +17,7 @@ ap series:
 -cdrtools: 3.02a9
 -lsscsi: 0.30
 -lxc: 2.1.1 or 3.0.3
+-sqlite: 3.27.2
 -sysstat: 12.0.3
 -------------------------
 d series:
