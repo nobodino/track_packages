@@ -1,6 +1,7 @@
 ~possible updates
 -----------------------
 a series:
+-btrfs-progs: 4.20.2 
 -cryptsetup: 2.1.0
 -dialog: 1.3_20190211
 -eudev: 3.2.7
@@ -41,6 +42,7 @@ l series:
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
+-libssh: 0.8.7
 -openexr: 2.3.0 
 -pango: 1.43.0
 -phonon: 4.10.1
@@ -53,6 +55,8 @@ l series:
 n series:
 -bind: 9.13.6
 -mobile-broadband-provider-info: 20180219
+-openssl10: 1.0.2r 
+-openssl: 1.1.1b
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
