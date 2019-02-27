@@ -797,7 +797,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.3.2 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.3.2 to 3.3.3 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.7
 	-ppp: 2.4.7 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
