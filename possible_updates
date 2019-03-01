@@ -53,7 +53,6 @@ n series:
 -bind: 9.13.6
 -mobile-broadband-provider-info: 20180219
 -openssl10: 1.0.2r
--postfix: 3.3.3 
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -wireless-regdb: 20180907
