@@ -114,7 +114,7 @@ A series :
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.9.23 to 0.99.9 http://upower.freedesktop.org/releases/
+-upower: 0.9.23 to 0.99.10 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.5.2 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 010 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -303,7 +303,7 @@ d series:
 	- perl: 5.28.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
--python: 2.7.15 https://www.python.org/downloads/
+-python: 2.7.15 to 2.7.16 https://www.python.org/downloads/
 -python3: 3.7.2 https://www.python.org/downloads/
 -python-pip: 19.0.3 https://pip.pypa.io/
 -python-setuptools: 40.7.3 https://pypi.python.org/pypi/setuptools
@@ -411,12 +411,12 @@ l series:
 -fribidi: 1.0.5 http://fribidi.org/download
 -fuse: 2.9.9 to (fuse3: 3.4.1) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
--gc: 8.0.2 http://www.hboehm.info/gc/gc_source/
+-gc: 8.0.2 to 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.36.12 to 2.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.12 http://ftp.acc.umu.se/pub/gnome/sources/gegl
+-gegl: 0.4.12 to 0.4.14 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.10.10 http://www.exiv2.org/
 -giflib: 5.1.6 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3

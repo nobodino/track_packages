@@ -11,7 +11,7 @@ a series:
 -syslinux: 5.10
 -sysvinit: 2.94
 -udisk2: 2.8.1
--upower: 0.99.9
+-upower: 0.99.10
 ------------------------
 ap series:
 -cdrtools: 3.02a9
@@ -22,6 +22,7 @@ ap series:
 d series:
 -cscope: 15.9
 -cvs: 1.12.23
+-python: 2.7.16
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -32,9 +33,11 @@ l series:
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.1
 -fuse3: 3.4.1
+-gc: 8.0.4
 -glade3: 3.22.1
 -gmm: 5.3
 -gmime: 3.2.3
+-gegl: 0.4.14
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
