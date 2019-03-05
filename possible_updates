@@ -22,7 +22,6 @@ ap series:
 d series:
 -cscope: 15.9
 -cvs: 1.12.23
--python: 2.7.16
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -33,11 +32,9 @@ l series:
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.1
 -fuse3: 3.4.1
--gc: 8.0.4
 -glade3: 3.22.1
 -gmm: 5.3
 -gmime: 3.2.3
--gegl: 0.4.14
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
