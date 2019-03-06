@@ -53,7 +53,7 @@ A series :
 -haveged: 1.9.4 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.21
--hwdata: 0.320 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.321 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.26 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.27 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190221 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -273,7 +273,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.26
+-kernel-headers: 4.19.27
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.26
+-kernel :  4.19.27
 --------------------
 kde series :
 --------------------
@@ -354,7 +354,7 @@ l series:
 -ConsoleKit2: 1.0.0 to 1.2.1 http://www.freedesktop.org/software/ConsoleKit/dist/
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -LibRaw: 0.18.12 to 0.19.1 http://www.libraw.org/
--M2Crypto: 0.31.0 http://chandlerproject.org/Projects/MeTooCrypto
+-M2Crypto: 0.32.0 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.1 http://www.riverbankcomputing.co.uk/software/pyqt/download
 -QScintilla: 2.10.7 to 2.10.8 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -SDL2: 2.0.9 https://www.libsdl.org/projects/
@@ -460,7 +460,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_31 http://www.imagemagick.org/
+-imagemagick: 6.9.10_32 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -705,7 +705,7 @@ n series:
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.1.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.4.1 http://www.dovecot.org/releases/
+-dovecot: 2.3.5 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
