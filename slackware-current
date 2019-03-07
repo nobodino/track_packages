@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.44.5 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.44.5 to 1.44.6 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 17 http://linux.dell.com/efibootmgr
 -efivar: 37 https://github.com/rhboot/efivar
@@ -201,7 +201,7 @@ Ap series :
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 to 2.8.5 http://www.nongnu.org/man-db/
--man-pages: 4.16 https://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 4.16 to 5.00 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.3.13 http://mariadb.org/
 -mc: 4.8.22 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -784,7 +784,7 @@ n series:
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
--ntp: 4.2.8p12 http://www.ntp.org/downloads.html
+-ntp: 4.2.8p12 tp p13 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap-client: 2.4.47 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
