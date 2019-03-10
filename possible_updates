@@ -3,13 +3,11 @@
 a series:
 -cryptsetup: 2.1.0
 -dialog: 1.3_20190211
--eudev: 3.2.7
 -floppy: mtools 4.0.23
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
 -syslinux: 5.10
--sysvinit: 2.94
 -udisk2: 2.8.1
 -upower: 0.99.10
 ------------------------
@@ -77,5 +75,6 @@ xap:
 -------------------------
 xfce series:
 -xfce4-power-manager: 1.6.1
+-xfce4-screenshooter: 1.9.4
 -------------------------
 

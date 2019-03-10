@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.44.5 to 1.44.6 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.45.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 17 http://linux.dell.com/efibootmgr
 -efivar: 37 https://github.com/rhboot/efivar
@@ -694,7 +694,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.6 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20181210 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20190308 http://packages.qa.debian.org/c/ca-certificates.html
 -cifs-utils: 6.8 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
@@ -780,11 +780,11 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.3.3 http://sourceforge.net/projects/nfs/
 -nftables: 0.9.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.35.1 to 1.36.0 https://nghttp2.org/
+-nghttp2: 1.37.0 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
--ntp: 4.2.8p12 tp p13 http://www.ntp.org/downloads.html
+-ntp: 4.2.8p13 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap-client: 2.4.47 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
@@ -797,7 +797,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.4.0 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.4.1 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.7
 	-ppp: 2.4.7 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
@@ -809,7 +809,7 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.11 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.13 http://www.sdaoden.eu/downloads
 -samba: 4.9.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
@@ -992,7 +992,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -xfce4-panel: 4.12.2 to 4.13.4
 -xfce4-power-manager: 1.4.4 to 1.6.1
 -xfce4-pulseaudio-plugin: 0.4.1
--xfce4-screenshooter: 1.9.3
+-xfce4-screenshooter: 1.9.3 to 1.9.4
 -xfce4-session: 4.12.1 to 4.13.0
 -xfce4-settings: 4.12.4
 -xfce4-systemload-plugin: 1.2.2
