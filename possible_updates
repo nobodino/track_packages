@@ -38,6 +38,7 @@ l series:
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
+-libzip: 1.5.2 
 -openexr: 2.3.0 
 -pango: 1.43.0
 -phonon: 4.10.1
@@ -51,7 +52,6 @@ n series:
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
--wireless-regdb: 20180907
 -yp-tools: 4.2.3
 -ypbind-mt: 2.6
 -ypserv: 4.1

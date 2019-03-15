@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.28 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190312 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.29 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20190313 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 530 to 544 (beta) ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.28
+-kernel-headers: 4.19.29
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 7.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -308,7 +308,7 @@ d series:
 -python-setuptools: 40.7.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
--ruby: 2.6.1 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 2.6.2 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.33.0 https://rust-lang.org
 -scons: 3.0.4 http://www.scons.org/
 -slacktrack: 2.19 http://www.slackware.com/~mozes
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.28
+-kernel :  4.19.29
 --------------------
 kde series :
 --------------------
@@ -421,7 +421,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib2: 2.60.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glib-networking: 2.6.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.60.0.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.58.00 http://www.gtkmm.org/
 -glibc: 2.29
 	-glibc: 2.29 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -447,7 +447,7 @@ l series:
 -gstreamer: 1.14.4 to 1.15.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.5 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.7 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -463,7 +463,7 @@ l series:
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
--jasper: 2.0.14 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 2.0.16 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.13.1_20180305  https://github.com/json-c/json-c
@@ -572,7 +572,7 @@ l series:
 -libxml2: 2.9.9 http://xmlsoft.org/sources/
 -libyaml: 0.2.1 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxslt: 1.1.33 ftp://xmlsoft.org/
--libzip: 1.5.1 http://www.nih.at/libzip/
+-libzip: 1.5.1 to 1.5.2 http://www.nih.at/libzip/
 -lmdb: 0.9.23 http://symas.com/mdb/
 -loudmouth: 1.5.3 http://www.loudmouth-project.org/
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
@@ -698,7 +698,7 @@ n series:
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
-	- wireless-regdb: 20180531 to 20180907
+	- wireless-regdb: 2019.03.01
 -curl: 7.64.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
@@ -708,7 +708,7 @@ n series:
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
--ethtool: 4.19 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.0 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -753,7 +753,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190116 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.92 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.11.3 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.11.4 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -880,7 +880,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 18.3.4 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -937,7 +937,7 @@ xap series:
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.2.6 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 0.33.0 http://gparted.sourceforge.net/
--gucharmap: 12.0.0 https://download.gnome.org/sources/gucharmap/3.14/
+-gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.1002
 -hexchat: 2.14.2 https://hexchat.github.io/
