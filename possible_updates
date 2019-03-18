@@ -30,6 +30,7 @@ l series:
 -ffmpeg: 4.1
 -fuse3: 3.4.2
 -gdk-pixbuf2: 2.38.1
+-giflib: 5.1.8
 -glade3: 3.22.1
 -gmm: 5.3
 -gmime: 3.2.3
@@ -67,8 +68,7 @@ x series:
 -------------------------
 xap:
 -easytag: 2.4.3
--network-manager-applet: 1.8.19
--xpdf: 4.0.1
+-xpdf: 4.01.01
 -------------------------
 xfce series:
 -xfce4-power-manager: 1.6.1
