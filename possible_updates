@@ -30,7 +30,6 @@ l series:
 -ffmpeg: 4.1
 -fuse3: 3.4.2
 -gdk-pixbuf2: 2.38.1
--giflib: 5.1.8
 -glade3: 3.22.1
 -gmm: 5.3
 -gmime: 3.2.3

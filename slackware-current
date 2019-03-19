@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.10 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.1 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.22.2 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -364,7 +364,7 @@ l series:
 -SDL2_ttf: 2.0.15 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
--adwaita-icon-theme: 3.30.1 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 3.32.0 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.1.8 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.8 ftp://ftp.alsa-project.org/pub/oss-lib
@@ -417,7 +417,7 @@ l series:
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.14 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.0 http://www.exiv2.org/
--giflib: 5.1.7 to 5.1.8 http://sourceforge.net/projects/giflib/files/
+-giflib: 5.1.8 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib2: 2.60.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
@@ -941,7 +941,7 @@ xap series:
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.1.1002
 -hexchat: 2.14.2 https://hexchat.github.io/
--mozilla-firefox: 60.5.2esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 60.6.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.5.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.20 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
