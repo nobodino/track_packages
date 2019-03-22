@@ -14,7 +14,7 @@ a series:
 ap series:
 -cdrtools: 3.02a9
 -lsscsi: 0.30
--lxc: 2.0.11 or 3.0.3
+-lxc: 3.0.3
 -sysstat: 12.0.3
 -------------------------
 d series:
@@ -42,13 +42,12 @@ l series:
 -pango: 1.43.0
 -phonon: 4.10.1
 -polkit-gnome: 0.106
--poppler: 0.74.0
+-poppler: 0.75.0
 -readline: 8.0 
 -sip: 4.19.12
 -urwid: 2.0.1
 -------------------------
 n series:
--iproute2: 5.0.0 
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
