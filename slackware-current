@@ -207,7 +207,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.10 http://sourceforge.net/projects/mpg123/files/
--nano: 3.2 http://www.nano-editor.org/download.php
+-nano: 4.0 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4.0 https://github.com/cdemoulins/pamixer
@@ -223,7 +223,7 @@ Ap series :
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
 -slackpkg: 2.83.0 http://www.slackpkg.org/
--soma: 3.2.1 http://tty1.uk/slackbuilds/noversion/soma
+-soma: 3.2.1 to 3.2.3 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.27.2 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
@@ -245,7 +245,7 @@ Ap series :
 d series:
 --------------------
 -Cython: 0.29.6 https://pypi.python.org/pypi/Cython/
--Mako: 1.0.7
+-Mako: 1.0.8 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
@@ -303,7 +303,7 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.16 https://www.python.org/downloads/
--python3: 3.7.2 https://www.python.org/downloads/
+-python3: 3.7.2 to 3.7.3 https://www.python.org/downloads/
 -python-pip: 19.0.3 https://pip.pypa.io/
 -python-setuptools: 40.7.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -459,7 +459,7 @@ l series:
 -icu4c: 63.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_34 http://www.imagemagick.org/
+-imagemagick: 6.9.10_35 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -494,7 +494,7 @@ l series:
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.0.1 http://download.videolan.org/videolan/libdvdread/
--libedit: 20181209-3.1 http://www.thrysoee.dk/editline/
+-libedit: 20190324 http://www.thrysoee.dk/editline/
 -libevent: 2.1.8 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
@@ -649,7 +649,7 @@ l series:
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -seamonkey-solibs: 2.49.4
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
--shared-mime-info: 1.10 http://freedesktop.org/wiki/Software/shared-mime-info/
+-shared-mime-info: 1.12 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.8 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
@@ -712,10 +712,10 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.14 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.14 to 2.2.15 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.6 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.12.0 https://www.gnupg.org/download/index.html
+-gpgme: 1.12.0 to 1.13.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.38 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 (??)
@@ -942,7 +942,7 @@ xap series:
 -gvim: 8.1.1002
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.6.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 60.6.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.20 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/

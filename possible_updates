@@ -15,9 +15,10 @@ ap series:
 -cdrtools: 3.02a9
 -lsscsi: 0.30
 -lxc: 3.0.3
+-soma: 3.2.3
 -------------------------
 d series:
--
+-python3: 3.7.3
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -27,7 +28,6 @@ l series:
 -exiv2: 0.26.0_20180811
 -ffmpeg: 4.1
 -fuse3: 3.4.2
--gdk-pixbuf2: 2.38.1
 -glade3: 3.22.1
 -gmm: 5.3
 -gmime: 3.2.3
@@ -46,7 +46,8 @@ l series:
 -urwid: 2.0.1
 -------------------------
 n series:
--bind: 9.14.0 
+-gnupg2: 2.2.15
+-gpgme: 1.13.0
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
