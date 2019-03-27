@@ -13,9 +13,7 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
--lsscsi: 0.30
 -lxc: 3.0.3
--soma: 3.2.3
 -------------------------
 d series:
 -python3: 3.7.3
@@ -46,7 +44,6 @@ l series:
 -urwid: 2.0.1
 -------------------------
 n series:
--gnupg2: 2.2.15
 -gpgme: 1.13.0
 -openssl10: 1.0.2r
 -sshfs: 3.5.1

@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.11 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.2 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.22.3 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -196,7 +196,7 @@ Ap series :
 	- xmlto: 0.0.28 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.5.0 https://github.com/groeck/lm-sensors
 -lsof: 4.91 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
--lsscsi: 0.29 to 0.30 http://sg.danny.cz/scsi/lsscsi.html
+-lsscsi: 0.30 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 2.0.11 to 3.0.2 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
@@ -223,7 +223,7 @@ Ap series :
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
 -slackpkg: 2.83.0 http://www.slackpkg.org/
--soma: 3.2.1 to 3.2.3 http://tty1.uk/slackbuilds/noversion/soma
+-soma: 3.2.3 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.27.2 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 2.8 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.1002 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.1002
+-vim: 8.1.1053 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.1053
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -548,7 +548,7 @@ l series:
 -libsoup: 2.66.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.8.7 https://red.libssh.org/projects/libssh/files
--libssh2: 1.8.1 http://www.libssh2.org/
+-libssh2: 1.8.2 http://www.libssh2.org/
 -libtasn1: 4.13 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.0.10 ftp://ftp.remotesensing.org/pub/libtiff/
@@ -712,7 +712,7 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.14 to 2.2.15 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.15 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.6 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.12.0 to 1.13.0 https://www.gnupg.org/download/index.html
@@ -939,7 +939,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1002
+-gvim: 8.1.1053
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.6.1 http://www.mozilla.org/projects/thunderbird/
