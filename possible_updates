@@ -16,7 +16,7 @@ ap series:
 -lxc: 3.0.3
 -------------------------
 d series:
--python3: 3.7.3
+-
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -60,7 +60,7 @@ tcl/tk series:
 -------------------------
 x series:
 -libXau: 1.0.9
--vulkan-sdk: 1.1.98
+-vulkan-sdk: 1.1.101.0
 -------------------------
 xap:
 -easytag: 2.4.3
