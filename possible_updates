@@ -35,7 +35,8 @@ l series:
 -imagemagick: 6.9.10_36 
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
--openexr: 2.3.0 
+-openexr: 2.3.0
+-openjpeg: 2.3.1 
 -pango: 1.43.0
 -phonon: 4.10.1
 -polkit-gnome: 0.106
@@ -48,6 +49,7 @@ n series:
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
+-wget: 1.20.2
 -yp-tools: 4.2.3
 -ypbind-mt: 2.6
 -ypserv: 4.1

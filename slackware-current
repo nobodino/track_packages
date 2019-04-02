@@ -590,7 +590,7 @@ l series:
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -openexr: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--openjpeg: 2.3.0 http://www.openjpeg.org
+-openjpeg: 2.3.0 to 2.3.1 http://www.openjpeg.org
 -opus: 1.3 https://opus-codec.org/
 -opusfile: 0.11 https://opus-codec.org/
 -orc: 0.4.28 http://code.entropywave.com/projects/orc/
@@ -826,9 +826,8 @@ n series:
 -uucp: 1.07 to 1.07_20.diff.gz ftp://ftp.gnu.org/gnu/uucp/
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
--wget: 1.20.1 http://ftp.gnu.org/gnu/wget/
--whois: 5.4.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
--wireless_tools: 30pre9 http://pcmcia-cs.sourceforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+-wget: 1.20.1 to 1.20.2 http://ftp.gnu.org/gnu/wget/-whois: 5.4.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
 -yptools:
 	- yp-tools: 2.14 to 4.2.3 http://www.linux-nis.org/download/yp-tools/
