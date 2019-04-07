@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.32 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.34 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190402 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -162,7 +162,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.26 https://www.ghostscript.com/download/
+-ghostscript: 9.27 https://www.ghostscript.com/download/
 -gphoto2: 2.5.20 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
@@ -202,7 +202,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 to 2.8.5 http://www.nongnu.org/man-db/
 -man-pages: 4.16 to 5.00 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.3.13 http://mariadb.org/
+-mariadb: 10.3.14 http://mariadb.org/
 -mc: 4.8.22 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 2.8 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.1053 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.1053
+-vim: 8.1.1119 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.1119
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.32
+-kernel-headers: 4.19.34
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -305,7 +305,7 @@ d series:
 -python: 2.7.16 https://www.python.org/downloads/
 -python3: 3.7.3 https://www.python.org/downloads/
 -python-pip: 19.0.3 https://pip.pypa.io/
--python-setuptools: 40.7.3 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 40.9.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.2 ftp://ftp.ruby-lang.org/pub/ruby
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.32
+-kernel :  4.19.34
 --------------------
 kde series :
 --------------------
@@ -459,7 +459,7 @@ l series:
 -icu4c: 64.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_36 http://www.imagemagick.org/
+-imagemagick: 6.9.10_37 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -590,7 +590,7 @@ l series:
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -openexr: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--openjpeg: 2.3.0 to 2.3.1 http://www.openjpeg.org
+-openjpeg: 2.3.1 http://www.openjpeg.org
 -opus: 1.3 https://opus-codec.org/
 -opusfile: 0.11 https://opus-codec.org/
 -orc: 0.4.28 http://code.entropywave.com/projects/orc/
@@ -636,7 +636,7 @@ l series:
 -qtscriptgenerator: 0.2.0 https://code.google.com/p/qtscriptgenerator/downloads/list
 -raptor2: 2.0.15 http://download.librdf.org/source/
 -rasqal: 0.9.33 http://download.librdf.org/source/
--readline: 7.0.005 to 8.0 ftp://ftp.cwru.edu/pub/bash/
+-readline: 8.0 ftp://ftp.cwru.edu/pub/bash/
 -redland: 1.0.17 http://download.librdf.org/source/
 -sbc: 1.4 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
@@ -713,7 +713,7 @@ n series:
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.15 https://www.gnupg.org/download/index.html
--gnutls: 3.6.7 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.6.7.1 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.13.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -747,7 +747,7 @@ n series:
 -libnftnl: 1.1.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.22.0 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.1.4 http://sourceforge.net/projects/libtirpc/
--links: 2.18 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.19 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
 -mcabber: 1.1.0 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
@@ -792,7 +792,7 @@ n series:
 -openssl: 1.1.1b ftp://ftp.openssl.org/source/
 -openvpn: 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.15 http://p11-glue.freedesktop.org/releases/
--php: 7.2.15 http://www.php.net/distributions/
+-php: 7.2.17 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -809,11 +809,11 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.13 http://www.sdaoden.eu/downloads
--samba: 4.10.0 https://ftp.samba.org/pub/samba/
+-samba: 4.10.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.50 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.51 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -826,7 +826,7 @@ n series:
 -uucp: 1.07 to 1.07_20.diff.gz ftp://ftp.gnu.org/gnu/uucp/
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
--wget: 1.20.2 http://ftp.gnu.org/gnu/wget/-whois: 5.4.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-wget: 1.20.3 http://ftp.gnu.org/gnu/wget/-whois: 5.4.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
 -yptools:
@@ -938,7 +938,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1053
+-gvim: 8.1.1119
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.6.1 http://www.mozilla.org/projects/thunderbird/
