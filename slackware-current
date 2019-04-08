@@ -1,6 +1,6 @@
 Slackware-14.2 (02/07/2016) to Slackware-15.0
 
-http://www.slackware.com/changelog/current.php?cpu=i386
+http://www.slackware.com/changelog/current.php?cpu=x86_64
 /-----------------------------------------------------------------------------------/
 A series :
 --------------------
@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.11 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.3 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.22.3 to 1.22.5 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -369,7 +369,7 @@ l series:
 -alsa-lib: 1.1.8 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.8 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.1.8 ftp://ftp.alsa-project.org/pub/plugins/
--apr: 1.6.5 http://apr.apache.org/download.cgi
+-apr: 1.6.5 to 1.7.0 http://apr.apache.org/download.cgi
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -aspell: 0.60.6.1 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2018.04.16
@@ -459,7 +459,7 @@ l series:
 -icu4c: 64.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_37 http://www.imagemagick.org/
+-imagemagick: 6.9.10_37 to 39 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -925,9 +925,8 @@ xap series:
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.8 http://download.gimp.org/pub/gimp/
--gkrellm: 2.3.10 http://gkrellm.srcbox.net/
-	- gkrellm: 2.3.10
+-gimp: 2.10.8 to 2.10.10 http://download.gimp.org/pub/gimp/
+-gkrellm: 2.3.10 ttp://gkrellm.srcbox.net/	- gkrellm: 2.3.10
 	- gkrellm-countdown
 -gnuchess: 6.2.5
 	- gnuchess : 6.2.5 http://ftp.gnu.org/gnu/chess/
