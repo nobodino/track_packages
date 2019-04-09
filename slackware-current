@@ -44,7 +44,7 @@ A series :
 -gettext: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -getty_ps: 2.1.0b to 2.1.1 http://www.ibiblio.org/pub/Linux/system/serial/getty/
 -glibc-solibs: 2.29
--glibc-zoneinfo: 2018i
+-glibc-zoneinfo: 2019a
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.4 http://www.rodsbooks.com/gdisk/
 -grep: 3.3 ftp://ftp.gnu.org/pub/gnu/grep
@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.11 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.3 to 1.22.5 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.22.5 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -425,8 +425,8 @@ l series:
 -glibmm: 2.60.0 http://www.gtkmm.org/
 -glibc: 2.29
 	-glibc: 2.29 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2018i https://www.iana.org/time-zones
-	-tzdata: 2018i https://www.iana.org/time-zones
+	-tzcode: 2019a https://www.iana.org/time-zones
+	-tzdata: 2019a https://www.iana.org/time-zones
 -gmime: 3.0.5 to 3.2.3 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 4.3 to 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -489,7 +489,7 @@ l series:
 -libcdio: 0.94 to 2.0.0 ftp://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.0 http://ftp.gnu.org/gnu/libcdio/
 -libclc: 20181127 http://libclc.llvm.org/
--libcroco: 0.6.12 http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/
+-libcroco: 0.6.13 http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/
 -libdbusmenu-qt: 0.9.2 https://launchpad.net/libdbusmenu-qt/
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
@@ -525,7 +525,7 @@ l series:
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnl3: 3.4.0 http://www.carisma.slowglass.com/~tgr/libnl/files/
--libnotify: 0.7.7 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
+-libnotify: 0.7.8 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libodfgen: 0.1.7 http://sourceforge.net/p/libwpd/wiki/libodfgen/
 -libogg: 1.3.3 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
@@ -694,7 +694,7 @@ n series:
 -bridge-utils: 1.6 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20190308 http://packages.qa.debian.org/c/ca-certificates.html
--cifs-utils: 6.8 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 6.9 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
@@ -809,11 +809,11 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.13 http://www.sdaoden.eu/downloads
--samba: 4.10.1 https://ftp.samba.org/pub/samba/
+-samba: 4.10.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.51 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.51 to 5.52 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -869,7 +869,7 @@ x series: (main packages)
 -libevdev: 1.6.0
 -libinput: 1.13.0
 -libmypaint: 1.3.0 http://mypaint.org
--libva: 2.4.0 https://01.org/linuxmedia/vaapi
+-libva: 2.4.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.4.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.1.1 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 0.32 https://github.com/linuxwacom
@@ -883,7 +883,7 @@ x series: (main packages)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
--pixman: 0.38.0 http://cairographics.org/releases/
+-pixman: 0.38.2 http://cairographics.org/releases/
 -sessreg: 1.1.1
 -vulkan-sdk: 1.1.101.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
@@ -925,7 +925,7 @@ xap series:
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.8 to 2.10.10 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.10 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.10 ttp://gkrellm.srcbox.net/	- gkrellm: 2.3.10
 	- gkrellm-countdown
 -gnuchess: 6.2.5

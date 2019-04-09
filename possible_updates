@@ -13,7 +13,6 @@ a series:
 ------------------------
 ap series:
 -cdrtools: 3.02a9
--cups-filters: 1.22.5
 -lxc: 3.0.3
 -------------------------
 d series:
@@ -34,7 +33,6 @@ l series:
 -grantlee: 5.1.0
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
--imagemagick: 6.9.10_39
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
 -openexr: 2.3.0
@@ -48,6 +46,7 @@ l series:
 n series:
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
+-stunnel: 5.52
 -vlan: 2.0 (debian)
 -yp-tools: 4.2.3
 -ypbind-mt: 2.6
@@ -63,8 +62,6 @@ x series:
 -
 -------------------------
 xap:
--easytag: 2.4.3
--gimp: 2.10.10 
 -xpdf: 4.01.01
 -------------------------
 xfce series:
