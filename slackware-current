@@ -70,7 +70,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.02.77 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.02.177 to 2.02.184 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 162 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -118,11 +118,11 @@ A series :
 -usb_modeswitch: 2.5.2 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 010 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.33.1
+-util-linux: 2.33.2
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz ftp://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 1.60_19.diff.gz to 1.60_p20141019041918.tar.xz (gentoo) or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.33.1 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.33.2 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 4.20.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
@@ -315,7 +315,7 @@ d series:
 -strace: 5.0 https://github.com/strace/strace/releases/download/
 -subversion: 1.11.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 3.0.12 http://www.swig.org/download.html
--vala: 0.44.2 https://wiki.gnome.org/Projects/Vala
+-vala: 0.44.3 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -369,12 +369,12 @@ l series:
 -alsa-lib: 1.1.8 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.8 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.1.8 ftp://ftp.alsa-project.org/pub/plugins/
--apr: 1.6.5 to 1.7.0 http://apr.apache.org/download.cgi
+-apr: 1.7.0 http://apr.apache.org/download.cgi
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -aspell: 0.60.6.1 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2018.04.16
 -at-spi2-atk: 2.32.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.32.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.32.1 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.32.0 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.24.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
@@ -451,7 +451,7 @@ l series:
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
--gvfs: 1.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.40.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 2.4.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
@@ -480,7 +480,7 @@ l series:
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
--libbluray: 1.1.0 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.1.1 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
 -libcap: 2.26 http://sites.google.com/site/fullycapable/
@@ -545,7 +545,7 @@ l series:
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
--libsoup: 2.66.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.66.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.8.7 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.8.2 http://www.libssh2.org/
@@ -628,7 +628,7 @@ l series:
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.12.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.24.1 https://urllib3.readthedocs.io/
--qca: 2.1.3 http://delta.affinix.com/download/qca/2.0/
+-qca: 2.1.3 to 2.2.0 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
 -qt: 4.8.7 to 5.11.3 ftp://ftp.trolltech.com/qt/source/
@@ -671,7 +671,7 @@ l series:
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.3.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.16.5 http://linuxtv.org/downloads/v4l-utils/
--vte: 0.56.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.56.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.11 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
@@ -813,7 +813,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.51 to 5.52 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.52 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -867,7 +867,7 @@ x series: (main packages)
 -libdrm: 2.4.97 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.6.0
--libinput: 1.13.0
+-libinput: 1.13.1
 -libmypaint: 1.3.0 http://mypaint.org
 -libva: 2.4.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.4.0 https://01.org/linuxmedia/vaapi

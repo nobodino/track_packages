@@ -7,6 +7,7 @@ a series:
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
+-lvm2: 2.02.184
 -syslinux: 5.10
 -udisk2: 2.8.1
 -upower: 0.99.10
@@ -21,7 +22,6 @@ d series:
 l series:
 -Consolekit2: 1.2.1
 -LibRaw: 0.19.1
--apr: 1.7.0 
 -eigen3: 3.3.7
 -enchant: 2.2.3
 -exiv2: 0.26.0_20180811
@@ -40,13 +40,13 @@ l series:
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.75.0
+-qca: 2.2.0
 -sip: 4.19.12
 -urwid: 2.0.1
 -------------------------
 n series:
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
--stunnel: 5.52
 -vlan: 2.0 (debian)
 -yp-tools: 4.2.3
 -ypbind-mt: 2.6
