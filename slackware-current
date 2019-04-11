@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 4.19.34 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190402 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20190409 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 530 to 544 (beta) ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -447,7 +447,7 @@ l series:
 -gstreamer: 1.14.4 to 1.15.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.7 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.7 to 3.24.8 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -813,7 +813,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.52 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.52 to 5.53 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -870,7 +870,7 @@ x series: (main packages)
 -libinput: 1.13.1
 -libmypaint: 1.3.0 http://mypaint.org
 -libva: 2.4.1 https://01.org/linuxmedia/vaapi
--libva-utils: 2.4.0 https://01.org/linuxmedia/vaapi
+-libva-utils: 2.4.1 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.1.1 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 0.32 https://github.com/linuxwacom
 -libxcb: 1.13.1
@@ -879,11 +879,11 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 19.0.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.0.1 to 19.0.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
--pixman: 0.38.2 http://cairographics.org/releases/
+-pixman: 0.38.4 http://cairographics.org/releases/
 -sessreg: 1.1.1
 -vulkan-sdk: 1.1.101.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
