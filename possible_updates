@@ -31,7 +31,6 @@ l series:
 -gmm: 5.3
 -gmime: 3.2.3
 -grantlee: 5.1.0
--gtk+3: 3.24.8
 -hunspell: 1.7.0
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
@@ -48,7 +47,6 @@ l series:
 n series:
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
--stunnel: 5.53
 -vlan: 2.0 (debian)
 -yp-tools: 4.2.3
 -ypbind-mt: 2.6
@@ -61,7 +59,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--mesa: 19.0.2
+-
 -------------------------
 xap:
 -xpdf: 4.01.01

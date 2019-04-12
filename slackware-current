@@ -309,7 +309,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.2 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.33.0 https://rust-lang.org
+-rust: 1.34.0 https://rust-lang.org
 -scons: 3.0.5 http://www.scons.org/
 -slacktrack: 2.19 http://www.slackware.com/~mozes
 -strace: 5.0 https://github.com/strace/strace/releases/download/
@@ -447,7 +447,7 @@ l series:
 -gstreamer: 1.14.4 to 1.15.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.7 to 3.24.8 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.8 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -813,7 +813,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.52 to 5.53 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.53 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -879,7 +879,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 19.0.1 to 19.0.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.0.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
