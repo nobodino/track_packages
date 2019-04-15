@@ -207,7 +207,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.10 http://sourceforge.net/projects/mpg123/files/
--nano: 4.0 http://www.nano-editor.org/download.php
+-nano: 4.0 to 4.1 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4.0 https://github.com/cdemoulins/pamixer
@@ -533,7 +533,7 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org
 -libpcap: 1.9.0 http://www.tcpdump.org/release/
 -libplist: 2.0.0 http://www.libimobiledevice.org/
--libpng: 1.6.36 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.36 to 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
