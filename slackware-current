@@ -244,7 +244,7 @@ Ap series :
 --------------------
 d series:
 --------------------
--Cython: 0.29.6 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29. https://pypi.python.org/pypi/Cython/
 -Mako: 1.0.8 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
