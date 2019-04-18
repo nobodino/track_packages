@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.34 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.35 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190409 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -225,7 +225,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.3 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.27.2 http://www.sqlite.org/download.html
+-sqlite: 3.28.0 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.1.3 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -245,7 +245,7 @@ Ap series :
 d series:
 --------------------
 -Cython: 0.29. https://pypi.python.org/pypi/Cython/
--Mako: 1.0.8 http://www.python.org/pypi/Mako/
+-Mako: 1.0.9 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
@@ -272,13 +272,13 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.34
+-kernel-headers: 4.19.35
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 4.9.1 https://mercurial.selenic.com/downloads
--meson: 0.50.0 http://mesonbuild.com/
+-meson: 0.50.0 to 0.50.1 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -308,7 +308,7 @@ d series:
 -python-setuptools: 40.9.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
--ruby: 2.6.2 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 2.6.3 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.34.0 https://rust-lang.org
 -scons: 3.0.5 http://www.scons.org/
 -slacktrack: 2.19 http://www.slackware.com/~mozes
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.34
+-kernel :  4.19.35
 --------------------
 kde series :
 --------------------
@@ -408,7 +408,7 @@ l series:
 -fluidsynth: 1.1.11 to 2.0.2 http://www.fluidsynth.org/
 -freetype: 2.10.0 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.5 http://fribidi.org/download
--fuse: 2.9.9 to (fuse3: 3.4.2) https://github.com/libfuse/libfuse/releases
+-fuse: 2.9.9 to (fuse3: 3.5.0) https://github.com/libfuse/libfuse/releases
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -483,7 +483,7 @@ l series:
 -libbluray: 1.1.1 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.26 http://sites.google.com/site/fullycapable/
+-libcap: 2.27 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.7.9 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 0.94 to 2.0.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -533,9 +533,9 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org
 -libpcap: 1.9.0 http://www.tcpdump.org/release/
 -libplist: 2.0.0 http://www.libimobiledevice.org/
--libpng: 1.6.36 to 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
--libpsl: 0.20.2 https://github.com/rockdaboot/libpsl
+-libpsl: 0.21.0 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.24.13 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -597,7 +597,7 @@ l series:
 -pango: 1.42.4 to 1.43.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.2 ftp://ftp.gnu.org/pub/parted/
--pcre2: 10.32 http://www.pcre.org/
+-pcre2: 10.33 http://www.pcre.org/
 -pcre: 8.43 http://pcre.sourceforge.net/src/
 -phonon: 4.8.3 to 4.10.1 http://download.kde.org/stable/phonon/
 -phonon-gstreamer: 4.8.2 to 4.9.0 (phonon-backend-gstreamer)
@@ -615,7 +615,7 @@ l series:
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.32.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
--pyparsing: 2.3.1 http://pyparsing.wikispaces.com/
+-pyparsing: 2.4.0 http://pyparsing.wikispaces.com/
 -python-appdirs: 1.4.3 https://github.com/ActiveState/appdirs
 -python-certifi: 2019.3.9 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
@@ -675,7 +675,7 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.11 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.3.8 http://zstd.net/
+-zstd: 1.3.8 to 1.4.0 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -787,7 +787,7 @@ n series:
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap-client: 2.4.47 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
--openssh: 7.9p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 7.9p1 to 8.0p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2o to 1.0.2r ftp://ftp.openssl.org/source/
 -openssl: 1.1.1b ftp://ftp.openssl.org/source/
 -openvpn: 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html

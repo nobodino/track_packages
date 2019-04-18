@@ -35,17 +35,19 @@ l series:
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
--libpng: 1.6.37
 -openexr: 2.3.0
 -pango: 1.43.0
+-pcre2: 10.33
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.75.0
 -qca: 2.2.0
 -sip: 4.19.12
 -urwid: 2.0.1
+-zstd: 1.4.0 
 -------------------------
 n series:
+-openssh: 8.0p1
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
