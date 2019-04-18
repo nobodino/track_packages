@@ -228,7 +228,7 @@ Ap series :
 -sqlite: 3.28.0 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
--sysstat: 12.1.3 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.1.3 to 12.1.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.6 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 2.8 https://tmux.github.io/
@@ -456,7 +456,7 @@ l series:
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 64.1 http://site.icu-project.org/download
+-icu4c: 64.1 to 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
 -imagemagick: 6.9.10_40 http://www.imagemagick.org/
@@ -702,7 +702,7 @@ n series:
 -curl: 7.64.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 7.1.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 7.1.1 to 7.2.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.5.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
