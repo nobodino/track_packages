@@ -15,7 +15,6 @@ a series:
 ap series:
 -cdrtools: 3.02a9
 -lxc: 3.0.3
--sysstat: 12.1.4 
 -------------------------
 d series:
 -
@@ -33,7 +32,6 @@ l series:
 -gmime: 3.2.3
 -grantlee: 5.1.0
 -hunspell: 1.7.0
--icu4c: 64.2
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
@@ -46,11 +44,8 @@ l series:
 -qca: 2.2.0
 -sip: 4.19.12
 -urwid: 2.0.1
--zstd: 1.4.0 
 -------------------------
 n series:
--dhcpcd: 7.2.0 
--openssh: 8.0p1
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
