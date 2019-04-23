@@ -6,7 +6,7 @@ A series :
 --------------------
 -aaa_base: 14.2
 -aaa_elflibs: 15.0
--aaa_terminfo: 6.1_20181110
+-aaa_terminfo: 6.1_20190420
 -acl: 2.2.53 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.31 http://sourceforge.net/projects/acpid2/
 -attr: 2.2.48 http://savannah.nongnu.org/projects/attr
@@ -254,7 +254,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
--cmake: 3.14.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.14.2 to 3.14.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -584,7 +584,7 @@ l series:
 	- nspr: 4.21 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.1_20190223  ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
+-ncurses: 6.1_20190420 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
 -netpbm: 10.84.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
@@ -828,7 +828,7 @@ n series:
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.20.3 http://ftp.gnu.org/gnu/wget/-whois: 5.4.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
--wpa_supplicant: 2.6 to 2.7 (pb) http://hostap.epitest.fi/releases/
+-wpa_supplicant: 2.8 http://hostap.epitest.fi/releases/
 -yptools:
 	- yp-tools: 2.14 to 4.2.3 http://www.linux-nis.org/download/yp-tools/
 	- ypbind-mt: 1.38 to 2.6 http://www.linux-nis.org/nis/ypbind-mt/
