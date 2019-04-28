@@ -41,7 +41,7 @@ l series:
 -phonon: 4.10.1
 -polkit-gnome: 0.106
 -poppler: 0.76.0
--qca: 2.2.0
+-qca: 2.2.1
 -sip: 4.19.12
 -urwid: 2.0.1
 -------------------------
