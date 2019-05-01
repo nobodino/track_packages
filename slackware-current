@@ -704,7 +704,7 @@ n series:
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.2.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.5.2 http://www.dovecot.org/releases/
+-dovecot: 2.3.5.2 to 2.3.6 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/

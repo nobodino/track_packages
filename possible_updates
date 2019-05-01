@@ -47,6 +47,7 @@ l series:
 -urwid: 2.0.1
 -------------------------
 n series:
+-dovecot: 2.3.6
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
