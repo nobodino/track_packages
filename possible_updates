@@ -15,6 +15,7 @@ a series:
 ap series:
 -cdrtools: 3.02a9
 -lxc: 3.0.3
+-tmux: 2.9a
 -------------------------
 d series:
 -
@@ -40,7 +41,7 @@ l series:
 -pcre2: 10.33
 -phonon: 4.10.1
 -polkit-gnome: 0.106
--poppler: 0.76.0
+-poppler: 0.76.1
 -qca: 2.2.1
 -sip: 4.19.12
 -urwid: 2.0.1
