@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.37 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190424 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.38 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20190502 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 530 to 544 (beta) ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -250,7 +250,7 @@ d series:
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.3.2 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 3.7 https://ftp.samba.org/pub/ccache/
+-ccache: 3.7.1 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
@@ -272,12 +272,12 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.37
+-kernel-headers: 4.19.38
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 4.9.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.0 https://mercurial.selenic.com/downloads
 -meson: 0.50.0 to 0.50.1 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.37
+-kernel :  4.19.38
 --------------------
 kde series :
 --------------------
@@ -421,7 +421,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib2: 2.60.1 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glib-networking: 2.60.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.60.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.60.0 http://www.gtkmm.org/
 -glibc: 2.29
 	-glibc: 2.29 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -459,7 +459,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_42 http://www.imagemagick.org/
+-imagemagick: 6.9.10_43 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
