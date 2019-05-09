@@ -4,6 +4,7 @@ a series:
 -cryptsetup: 2.1.0
 -dialog: 1.3_20190211
 -floppy: mtools 4.0.23
+-gettext: 0.20
 -getty_ps: 2.1.1
 -iftop: 1.0
 -kbd: 1.15.5
