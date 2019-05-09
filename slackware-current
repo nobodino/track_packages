@@ -108,7 +108,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.32 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
--tcsh: 6.20.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.20.0 to 6.21.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
