@@ -201,7 +201,7 @@ Ap series :
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 to 2.8.5 http://www.nongnu.org/man-db/
--man-pages: 4.16 to 5.00 https://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 5.00 to 5.01 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.3.14 http://mariadb.org/
 -mc: 4.8.22 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
