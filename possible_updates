@@ -17,11 +17,9 @@ a series:
 ap series:
 -cdrtools: 3.02a9
 -lxc: 3.0.3
--man-pages: 5.01
 -------------------------
 d series:
--Mako: 1.0.10
--gdb: 8.3
+-
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -40,7 +38,6 @@ l series:
 -ilmbase: 2.3.0
 -jemalloc: 5.1.0
 -libbluedevil: 5.2.2
--mozilla-nss: 3.44.0 
 -openexr: 2.3.0
 -pango: 1.43.0
 -pcre2: 10.33
@@ -52,8 +49,6 @@ l series:
 -urwid: 2.0.1
 -------------------------
 n series:
--iproute2: 5.1.0
--nfs-utils: 2.3.4 
 -openssl10: 1.0.2r
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
