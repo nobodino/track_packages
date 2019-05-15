@@ -202,7 +202,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 to 2.8.5 http://www.nongnu.org/man-db/
 -man-pages: 5.01 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.3.14 http://mariadb.org/
+-mariadb: 10.3.14 to 10.3.15 http://mariadb.org/
 -mc: 4.8.22 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -254,7 +254,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
--cmake: 3.14.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.14.3 to 3.14.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -309,7 +309,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.3 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.34.1 https://rust-lang.org
+-rust: 1.34.1 to 1.34.2 https://rust-lang.org
 -scons: 3.0.5 http://www.scons.org/
 -slacktrack: 2.19 http://www.slackware.com/~mozes
 -strace: 5.0 https://github.com/strace/strace/releases/download/
@@ -809,7 +809,7 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.13 http://www.sdaoden.eu/downloads
--samba: 4.10.2 https://ftp.samba.org/pub/samba/
+-samba: 4.10.2 to 4.10.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
@@ -906,7 +906,7 @@ x series: (main packages)
 -xf86-video-sis: 20181217
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 344 ftp://invisible-island.net/xterm/
+-xterm: 344 to 345 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
