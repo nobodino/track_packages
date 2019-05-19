@@ -14,13 +14,13 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 4.20.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 4.20.2 to 5.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.6 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cryptsetup: 1.7.5 to 2.1.0 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.12.12 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.12.12 to 1.12.14 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -34,7 +34,7 @@ A series :
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.5 to 3.2.7 https://dev.gentoo.org/~blueness/eudev/
 -f2fs-tools: 1.12.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
--file: 5.36 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
+-file: 5.37 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.6.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.43 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.44 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190514 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.11 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.22.5 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.23.0 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.43
+-kernel-headers: 4.19.44
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.43
+-kernel :  4.19.44
 --------------------
 kde series :
 --------------------
@@ -545,7 +545,7 @@ l series:
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
--libsoup: 2.66.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.66.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.8.7 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.8.2 http://www.libssh2.org/
@@ -624,7 +624,7 @@ l series:
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 19.0 https://github.com/pypa/packaging
 -python-pillow: 6.0.0 https://python-pillow.github.io/
--python-requests: 2.21.0 http://docs.python-requests.org/en/master/
+-python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.12.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.25.2 https://urllib3.readthedocs.io/
@@ -687,7 +687,7 @@ n series:
 -argon2: 20171227
 -autofs: 5.1.5 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.14.1 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.14.2 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.50 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -708,7 +708,7 @@ n series:
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
--ethtool: 5.0 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.0 to 5.1 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -725,7 +725,7 @@ n series:
 -ipset: 7.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
--iputils: s20190324 http://www.skbuff.net/iputils/
+-iputils: s20190515 http://www.skbuff.net/iputils/
 -irssi: 1.2.0 http://www.irssi.org/files/
 -iw: 5.0.1 https://www.kernel.org/pub/software/network/iw/
 -lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
@@ -813,7 +813,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.53 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.54 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -941,7 +941,7 @@ xap series:
 -gvim: 8.1.1239
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.6.3esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.6.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 60.7.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.20 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -973,14 +973,14 @@ xap series:
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.4
+-Thunar: 1.8.4 to 1.8.5
 -exo: 0.12.5
 -garcon: 0.6.2
 -gtk-xfce-engine: 2.10.1 to 3.2.0
 -libxfce4ui: 4.12.1 to 4.13.2
 -libxfce4util: 4.12.1 to 4.13.1
 -orage: 4.12.1
--thunar-volman: 0.8.1
+-thunar-volman: 0.8.1 to 0.9.2
 -tumbler: 0.2.2 to 0.2.3
 -xfce4-appfinder: 4.12.0 to 4.13.2
 -xfce4-clipman-plugin: 1.4.3
@@ -988,7 +988,7 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -xfce4-mixer: 4.10.0 to 4.11.0
 -xfce4-notifyd: 0.4.3
 -xfce4-panel: 4.12.2 to 4.13.4
--xfce4-power-manager: 1.4.4 to 1.6.1
+-xfce4-power-manager: 1.4.4 to 1.6.2
 -xfce4-pulseaudio-plugin: 0.4.1
 -xfce4-screenshooter: 1.9.3 to 1.9.4
 -xfce4-session: 4.12.1 to 4.13.0
