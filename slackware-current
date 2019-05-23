@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.44 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.45 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190514 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.1239 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.1239
+-vim: 8.1.1365 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.1365
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -249,7 +249,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.4 to 3.4.1 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.4.1 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.7.1 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.44
+-kernel-headers: 4.19.45
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -284,15 +284,15 @@ d series:
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20190422 https://www.gnu.org/software/parallel/
+-parallel: 20190522 https://www.gnu.org/software/parallel/
 -patchelf: 0.10 http://nixos.org/patchelf.html
--perl: 5.28.2
+-perl: 5.30.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.641 to 1.642 http://www.cpan.org/modules/by-module/DBI/
 	- IO-Socket-SSL: 2.066
 	- MIME-Base64: 3.15
-	- Net-SSLeay: 1.85
+	- Net-SSLeay: 1.88
 	- TermReadKey: 2.38
 	- URI: 1.76 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.44 http://www.cpan.org/modules/by-module/XML/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.44
+-kernel :  4.19.45
 --------------------
 kde series :
 --------------------
@@ -420,7 +420,7 @@ l series:
 -giflib: 5.1.9 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib2: 2.60.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.60.3 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glib-networking: 2.60.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.60.0 http://www.gtkmm.org/
 -glibc: 2.29
@@ -699,7 +699,7 @@ n series:
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
 	- wireless-regdb: 2019.03.01
--curl: 7.64.1 to 7.65.0 http://curl.haxx.se/download/
+-curl: 7.65.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 7.2.2 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -809,7 +809,7 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.13 http://www.sdaoden.eu/downloads
--samba: 4.10.3 to 4.10.4 https://ftp.samba.org/pub/samba/
+-samba: 4.10.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
@@ -866,6 +866,7 @@ x series: (main packages)
 -libpciaccess: 0.14
 -libdrm: 2.4.98 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
+
 -libevdev: 1.6.0
 -libglvnd: 1.1.1
 -libinput: 1.13.2
@@ -880,7 +881,7 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 19.0.4 to 19.0.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.0.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -938,7 +939,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1239
+-gvim: 8.1.1365
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.6.3esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.7.0 http://www.mozilla.org/projects/thunderbird/

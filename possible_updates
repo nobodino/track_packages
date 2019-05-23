@@ -18,8 +18,7 @@ ap series:
 -lxc: 3.0.3
 -------------------------
 d series:
--bison: 3.4.1
--strace: 5.1 
+-
 -------------------------
 l series:
 -Consolekit2: 1.2.1
@@ -48,9 +47,7 @@ l series:
 -urwid: 2.0.1
 -------------------------
 n series:
--curl: 7.65.0
 -openssl10: 1.0.2r
--samba: 4.10.4 
 -sshfs: 3.5.1
 -vlan: 2.0 (debian)
 -yp-tools: 4.2.3
@@ -64,7 +61,7 @@ tcl/tk series:
 -
 -------------------------
 x series:
--mesa: 19.0.5
+-
 -------------------------
 xap:
 -xpdf: 4.01.01
