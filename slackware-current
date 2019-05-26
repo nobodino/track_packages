@@ -41,7 +41,7 @@ A series :
 	- mtools: 4.0.18 to 4.0.23 https://www.gnu.org/software/mtools/
 -gawk: 5.0.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
--gettext: 0.19.8.1 to 0.20 ftp://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -getty_ps: 2.1.0b to 2.1.1 http://www.ibiblio.org/pub/Linux/system/serial/getty/
 -glibc-solibs: 2.29
 -glibc-zoneinfo: 2019a
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.45 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.46 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190514 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -263,7 +263,7 @@ d series:
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/ or http://flex.sourceforge.net/
 -gcc: 8.3.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.3 ftp://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.19.8.1 ftp://ftp.gnu.org/pub/gnu/gettext/
+-gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.21.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.45
+-kernel-headers: 4.19.46
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -309,7 +309,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.1.1 http://re2c.org
 -ruby: 2.6.3 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.34.2 https://rust-lang.org
+-rust: 1.35.0 https://rust-lang.org
 -scons: 3.0.5 http://www.scons.org/
 -slacktrack: 2.19 http://www.slackware.com/~mozes
 -strace: 5.0 to 5.1 https://github.com/strace/strace/releases/download/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.45
+-kernel :  4.19.46
 --------------------
 kde series :
 --------------------
@@ -627,7 +627,7 @@ l series:
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.12.0 http://pypi.python.org/pypi/six/
--python-urllib3: 1.25.2 https://urllib3.readthedocs.io/
+-python-urllib3: 1.25.3 https://urllib3.readthedocs.io/
 -qca: 2.1.3 to 2.2.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
