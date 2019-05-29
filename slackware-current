@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.45.1 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.45.1 to 1.45.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 17 http://linux.dell.com/efibootmgr
 -efivar: 37 https://github.com/rhboot/efivar
@@ -84,7 +84,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.4 to 4.2.4.5 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
--openssl-solibs: 1.1.1b http://www.openssl.org/
+-openssl-solibs: 1.1.1c http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
@@ -380,7 +380,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.62 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.64 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.70.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -452,14 +452,14 @@ l series:
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.40.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.4.0 to 2.5.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.5.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_46 http://www.imagemagick.org/
+-imagemagick: 6.9.10_46 to 47 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -495,7 +495,7 @@ l series:
 -libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.0.1 http://download.videolan.org/videolan/libdvdread/
 -libedit: 20190324 http://www.thrysoee.dk/editline/
--libevent: 2.1.8 http://libevent.org/
+-libevent: 2.1.10 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
 -libffi: 3.2.1 ftp://sourceware.org/pub/libffi/
@@ -712,8 +712,8 @@ n series:
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.15 https://www.gnupg.org/download/index.html
--gnutls: 3.6.7.1 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnupg2: 2.2.16 https://www.gnupg.org/download/index.html
+-gnutls: 3.6.8 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.13.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -723,7 +723,7 @@ n series:
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
--iptables: 1.8.2 http://www.netfilter.org/files/
+-iptables: 1.8.2 to 1.8.3 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20190515 http://www.skbuff.net/iputils/
 -irssi: 1.2.0 http://www.irssi.org/files/
@@ -753,7 +753,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190116 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.92 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.11.4 to 1.12.0 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.12.0 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -789,7 +789,7 @@ n series:
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.0p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2o to 1.0.2r ftp://ftp.openssl.org/source/
--openssl: 1.1.1b ftp://ftp.openssl.org/source/
+-openssl: 1.1.1c ftp://ftp.openssl.org/source/
 -openvpn: 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.16.1 http://p11-glue.freedesktop.org/releases/
 -php: 7.2.18 http://www.php.net/distributions/
@@ -906,7 +906,7 @@ x series: (main packages)
 -xf86-video-sis: 20181217
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 345 ftp://invisible-island.net/xterm/
+-xterm: 345 to 346 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
