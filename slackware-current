@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.48 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190514 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.49 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20190607 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 550 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -150,7 +150,7 @@ Ap series :
 	- cups: 2.2.11 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.24.0 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.25.0 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.1365 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.1365
+-vim: 8.1.1486 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.1486
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -245,7 +245,7 @@ Ap series :
 d series:
 --------------------
 -Cython: 0.29.10 https://pypi.python.org/pypi/Cython/
--Mako: 1.0.11 http://www.python.org/pypi/Mako/
+-Mako: 1.0.12 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
@@ -264,7 +264,7 @@ d series:
 -gcc: 8.3.0 http://gcc.gnu.org/pub/gcc/releases/
 -gdb: 8.3 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.21.0 http://git-scm.com/download
+-git: 2.22.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.4 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.48
+-kernel-headers: 4.19.49
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.48
+-kernel :  4.19.49
 --------------------
 kde series :
 --------------------
@@ -459,7 +459,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_48 http://www.imagemagick.org/
+-imagemagick: 6.9.10_49 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -938,7 +938,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1365
+-gvim: 8.1.1486
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 60.6.3esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.7.0 http://www.mozilla.org/projects/thunderbird/
