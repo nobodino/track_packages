@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.49 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.50 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190607 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.49
+-kernel-headers: 4.19.50
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.49
+-kernel :  4.19.50
 --------------------
 kde series :
 --------------------
@@ -353,7 +353,7 @@ l series:
 -ConsoleKit2: 1.0.0 to 1.2.1 http://www.freedesktop.org/software/ConsoleKit/dist/
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -LibRaw: 0.18.12 to 0.19.1 http://www.libraw.org/
--M2Crypto: 0.33.0 http://chandlerproject.org/Projects/MeTooCrypto
+-M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.1 http://www.riverbankcomputing.co.uk/software/pyqt/download
 -QScintilla: 2.10.7 to 2.10.8 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -SDL2: 2.0.9 https://www.libsdl.org/projects/
@@ -420,8 +420,8 @@ l series:
 -giflib: 5.1.9 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib2: 2.60.3 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glib-networking: 2.60.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: 2.60.4 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib-networking: 2.60.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.60.0 http://www.gtkmm.org/
 -glibc: 2.29
 	-glibc: 2.29 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -679,7 +679,7 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.10.0 http://www.freedesktop.org/software/ModemManager/
+-ModemManager: 1.10.2 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.18.1 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
@@ -722,7 +722,7 @@ n series:
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-ipset: 7.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 to 1.8.3 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20190515 http://www.skbuff.net/iputils/
@@ -779,7 +779,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.3.4 http://sourceforge.net/projects/nfs/
 -nftables: 0.9.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.38.0 https://nghttp2.org/
+-nghttp2: 1.38.1 https://nghttp2.org/
 -nmap: 7.70 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
@@ -813,7 +813,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.54 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.55 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
 -telnet:
@@ -885,7 +885,7 @@ x series: (main packages)
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.38.4 http://cairographics.org/releases/
--sessreg: 1.1.1
+-sessreg: 1.1.2
 -vulkan-sdk: 1.1.106.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
 -xorg-server: 1.20.4 ftp://ftp.x.org/pub/individual/xserver/
@@ -906,7 +906,7 @@ x series: (main packages)
 -xf86-video-sis: 20181217
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 345 to 346 ftp://invisible-island.net/xterm/
+-xterm: 346 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
