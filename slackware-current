@@ -14,13 +14,13 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.1 to 5.1.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.6 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cryptsetup: 1.7.5 to 2.1.0 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.12.14 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.12.14 to 1.12.16 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -65,7 +65,7 @@ A series :
 -kernel-firmware: 20190607 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 550 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
+-less: 550 to 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lha: 1.14i_10.1.diff.gz to 1.14i_10.3.diff.gujects/libgudev
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
@@ -540,7 +540,7 @@ l series:
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.24.14 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
--libsigc++: 2.10.1 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
+-libsigc++: 2.10.1 to 2.10.2 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.8 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
@@ -880,13 +880,13 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.7
 -libXres: 1.2.0
--mesa: 19.0.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.0.6 to 19.1.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.38.4 http://cairographics.org/releases/
 -sessreg: 1.1.2
--vulkan-sdk: 1.1.106.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.106.0 to 1.1.111.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
 -xorg-server: 1.20.4 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.28.1
@@ -926,7 +926,7 @@ xap series:
 -fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.10 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.10 to 2.10.12 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.10 ttp://gkrellm.srcbox.net/	- gkrellm: 2.3.10
 	- gkrellm-countdown
 -gnuchess: 6.2.5
