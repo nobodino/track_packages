@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.53 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.55 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190620 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -203,7 +203,7 @@ Ap series :
 -man-db: 2.8.4 to 2.8.5 http://www.nongnu.org/man-db/
 -man-pages: 5.01 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.4.6 http://mariadb.org/
--mc: 4.8.22 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
+-mc: 4.8.22 to 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.10 http://sourceforge.net/projects/mpg123/files/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.53
+-kernel-headers: 4.19.55
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -284,7 +284,7 @@ d series:
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20190522 https://www.gnu.org/software/parallel/
+-parallel: 20190622 https://www.gnu.org/software/parallel/
 -patchelf: 0.10 http://nixos.org/patchelf.html
 -perl: 5.30.0
 	- Authen-SASL: 2.16
@@ -333,7 +333,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.53
+-kernel :  4.19.55
 --------------------
 kde series :
 --------------------
@@ -578,8 +578,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.44.0 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.44.0 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.44.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.44.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.21 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -880,17 +880,18 @@ x series: (main packages)
 -libXpm: 3.5.12
 -libX11: 1.6.8
 -libXres: 1.2.0
+-libXt: 1.2.0
 -mesa: 19.0.6 to 19.1.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.38.4 http://cairographics.org/releases/
 -sessreg: 1.1.2
--vulkan-sdk: 1.1.106.0 to 1.1.111.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.108.0 to 1.1.111.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3 
 -xorg-server: 1.20.4 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.28.1
--xf86-input-wacom: 0.36.1
+-xf86-input-wacom: 0.37.0
 -xf86-video-amdgpu: 18.1.0
 -f86-video-apm: 1.3.0
 -xf86-video-ati: 19.0.1
