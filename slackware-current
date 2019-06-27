@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.55 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.56 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190620 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.55
+-kernel-headers: 4.19..56
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -333,7 +333,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.55
+-kernel :  4.19..56
 --------------------
 kde series :
 --------------------
@@ -451,7 +451,7 @@ l series:
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.40.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.5.2 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.5.2 to 2.5.3 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
@@ -604,7 +604,7 @@ l series:
 -polkit: 0.115 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.68.0 to 0.77.0 http://poppler.freedesktop.org/
+-poppler: 0.68.0 to 0.78.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 12.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -770,7 +770,7 @@ n series:
 	- netkit-rwho
 	- netkit-timed
 -netpipes: 4.2 to 4.2_4.diff.gz http://web.purplefrog.com/ftp/netpipes/
--nettle: 3.4.1 https://ftp.gnu.org/gnu/nettle/
+-nettle: 3.5 https://ftp.gnu.org/gnu/nettle/
 -netwatch: 1.3.1_2 http://www.slctech.org/~mackay/netwatch.html#FTP%20SITE%20ACCESS
 -network-scripts: 15.0
 -netwrite: 0.17
