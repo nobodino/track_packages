@@ -225,7 +225,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.3 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.28.0 to 3.29.0 http://www.sqlite.org/download.html
+-sqlite: 3.29.0 http://www.sqlite.org/download.html
 -squashfs-tools: 20180612 http://squashfs.sourceforge.net/
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.1.5 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -278,7 +278,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.0.2 https://mercurial.selenic.com/downloads
--meson: 0.51.0 to 0.50.1 http://mesonbuild.com/
+-meson: 0.51.1 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -460,7 +460,7 @@ l series:
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
 -imagemagick: 6.9.10_53 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
--iso-codes: 4.2 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
 -jasper: 2.0.16 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
@@ -578,8 +578,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.44.1 to 3.45 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.44.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.45 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.45 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.21 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -863,7 +863,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
 -libdmx: 1.1.4
--libpciaccess: 0.14
+-libpciaccess: 0.15
 -libdrm: 2.4.99 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.7.0
