@@ -125,7 +125,7 @@ A series :
 	- util-linux: 2.34 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
--xfsprogs: 5.0.0 to 5.1.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.1.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.4 http://tukaani.org/xz/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
 --------------------
@@ -274,7 +274,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 4.19.59
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
--llvm: 8.0.0 http://llvm.org/
+-llvm: 8.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.0.2 https://mercurial.selenic.com/downloads
@@ -458,7 +458,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_54 http://www.imagemagick.org/
+-imagemagick: 6.9.10_55 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -572,7 +572,7 @@ l series:
 -libyaml: 0.2.2 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxslt: 1.1.33 ftp://xmlsoft.org/
 -libzip: 1.5.2 http://www.nih.at/libzip/
--lmdb: 0.9.23 http://symas.com/mdb/
+-lmdb: 0.9.24 http://symas.com/mdb/
 -loudmouth: 1.5.3 http://www.loudmouth-project.org/
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
@@ -674,7 +674,7 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.11 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.4.0 http://zstd.net/
+-zstd: 1.4.1 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -974,7 +974,7 @@ xap series:
 --------------------
 xfce: 4.12.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.7
+-Thunar: 1.8.8
 -exo: 0.12.6
 -garcon: 0.6.3
 -gtk-xfce-engine: 2.10.1 to 3.2.0
