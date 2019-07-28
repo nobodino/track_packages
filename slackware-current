@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.2.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -23,7 +23,7 @@ A series :
 -dbus: 1.12.16 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20190211 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20170509 to 1.3_20190724 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.3 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.60 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190717 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.61 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20190726 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -234,7 +234,7 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.1710 to 1685 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.1710 to 1764 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.1710
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -244,7 +244,7 @@ Ap series :
 --------------------
 d series:
 --------------------
--Cython: 0.29.12 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.13 https://pypi.python.org/pypi/Cython/
 -Mako: 1.0.14 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
@@ -254,7 +254,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 20120424cvs
--cmake: 3.14.6 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.15.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.60
+-kernel-headers: 4.19.61
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -333,7 +333,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.60
+-kernel :  4.19.61
 --------------------
 kde series :
 --------------------
@@ -355,7 +355,7 @@ l series:
 -M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.1 http://www.riverbankcomputing.co.uk/software/pyqt/download
 -QScintilla: 2.10.7 to 2.10.8 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
--SDL2: 2.0.9 https://www.libsdl.org/projects/
+-SDL2: 2.0.10 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
@@ -379,7 +379,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.66 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.68 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.70.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -392,7 +392,7 @@ l series:
 -dbus-python: 1.2.8 http://dbus.freedesktop.org/releases/dbus-glib/
 -dconf: 0.32.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 3.32.0 https://download.gnome.org/sources/dconf-editor/
--desktop-file-utils: 0.23 http://freedesktop.org/software/desktop-file-utils/releases/
+-desktop-file-utils: 0.24 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
@@ -426,10 +426,11 @@ l series:
 	-glibc: 2.29 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2019b https://www.iana.org/time-zones
 	-tzdata: 2019b https://www.iana.org/time-zones
--gmime: 3.0.5 to 3.2.3 http://ftp.acc.umu.se/pub/gnome/sources/gmime
+-gmime: 3.2.3 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
 -gnome-keyring: 3.28.2 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
+
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.9 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.60.2 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
@@ -458,7 +459,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_56 http://www.imagemagick.org/
+-imagemagick: 6.9.10_56 to 57 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -513,7 +514,7 @@ l series:
 -libiodbc: 3.52.12 http://sourceforge.net/projects/iodbc/files/iodbc/
 -libjpeg-turbo: 2.0.2 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
--liblastfm: 1.0.9 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
+-liblastfm: 1.1.0 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
@@ -674,12 +675,12 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.11 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.4.1 http://zstd.net/
+-zstd: 1.4.2 http://zstd.net/
 --------------------
 n series:
 --------------------
 -ModemManager: 1.10.4 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.18.1 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.18.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -701,18 +702,18 @@ n series:
 -curl: 7.65.3 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 7.2.2 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.0.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.7.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
--ethtool: 5.1 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.2 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.3.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.13 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.17 https://www.gnupg.org/download/index.html
--gnutls: 3.6.8 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.6.9 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.13.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -784,7 +785,7 @@ n series:
 -npth: 1.6 https://github.com/gpg/npth/releases
 -ntp: 4.2.8p13 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap-client: 2.4.47 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap-client: 2.4.48 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.0p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2o to 1.0.2r ftp://ftp.openssl.org/source/
@@ -902,6 +903,7 @@ x series: (main packages)
 -xf86-video-nv: 2.1.21
 -xf86-video-nouveau: 1.0.16
 -xf86-video-r128: 6.12.0b
+-xf86-video-s3: 0.7.0
 -xf86-video-s3virge: 1.11.0
 -xf86-video-savage: 20190128
 -xf86-video-sis: 20181217
@@ -928,8 +930,9 @@ xap series:
 -geeqie: 1.4.0 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
 -gimp: 2.10.12 http://download.gimp.org/pub/gimp/
--gkrellm: 2.3.10 ttp://gkrellm.srcbox.net/	- gkrellm: 2.3.10
-	- gkrellm-countdown
+-gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
+	- gkrellm: 2.3.11
+	- gkrellm-countdown: 0.1.2
 -gnuchess: 6.2.5
 	- gnuchess : 6.2.5 http://ftp.gnu.org/gnu/chess/
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
@@ -939,7 +942,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1710
+-gvim: 8.1.1710 to 1764
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.0.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.8.0 http://www.mozilla.org/projects/thunderbird/
