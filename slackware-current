@@ -808,7 +808,7 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.13 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.13 to 1.9.14 http://www.sdaoden.eu/downloads
 -samba: 4.10.6 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
