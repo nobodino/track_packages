@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.61 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.62 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190726 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -272,7 +272,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.61
+-kernel-headers: 4.19.62
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -333,7 +333,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.61
+-kernel :  4.19.62
 --------------------
 kde series :
 --------------------
@@ -594,7 +594,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.11 https://opus-codec.org/
 -orc: 0.4.29 http://code.entropywave.com/projects/orc/
--pango: 1.42.4 to 1.43.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.42.4 to 1.44.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.2 ftp://ftp.gnu.org/pub/parted/
 -pcre2: 10.33 http://www.pcre.org/
@@ -808,7 +808,7 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.13 to 1.9.14 http://www.sdaoden.eu/downloads
+-s-nail: 1.9.14 http://www.sdaoden.eu/downloads
 -samba: 4.10.6 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
@@ -906,7 +906,7 @@ x series: (main packages)
 -xf86-video-s3: 0.7.0
 -xf86-video-s3virge: 1.11.0
 -xf86-video-savage: 20190128
--xf86-video-sis: 20181217
+-xf86-video-sis: 0.11.0
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
 -xterm: 348 ftp://invisible-island.net/xterm/
