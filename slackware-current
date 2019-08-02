@@ -202,7 +202,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.4 to 2.8.5 http://www.nongnu.org/man-db/
 -man-pages: 5.01 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.4.6 to 10.4.7 http://mariadb.org/
+-mariadb: 10.4.7 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -277,7 +277,7 @@ d series:
 -llvm: 8.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.0.2 https://mercurial.selenic.com/downloads
+-mercurial: 5.0.2 to 5.1 https://mercurial.selenic.com/downloads
 -meson: 0.51.1 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
@@ -353,8 +353,8 @@ l series:
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -LibRaw: 0.18.12 to 0.19.1 http://www.libraw.org/
 -M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
--PyQt: 4.12.1 http://www.riverbankcomputing.co.uk/software/pyqt/download
--QScintilla: 2.10.7 to 2.10.8 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
+-PyQt: 4.12.3 http://www.riverbankcomputing.co.uk/software/pyqt/download
+-QScintilla: 2.11.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -SDL2: 2.0.10 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
@@ -422,7 +422,7 @@ l series:
 -glib2: 2.60.6 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glib-networking: 2.60.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.60.0 http://www.gtkmm.org/
--glibc: 2.29
+-glibc: 2.29 to 2.30
 	-glibc: 2.29 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2019b https://www.iana.org/time-zones
 	-tzdata: 2019b https://www.iana.org/time-zones
@@ -430,7 +430,6 @@ l series:
 -gmm: 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
 -gnome-keyring: 3.28.2 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
-
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.9 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.60.2 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
@@ -650,7 +649,7 @@ l series:
 -seamonkey-solibs: 2.49.4
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.12 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.8 to 4.19.12 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 4.19.18 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
 -soprano: 2.9.4 http://sourceforge.net/projects/soprano/
@@ -954,8 +953,8 @@ xap series:
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.8.6 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.0.27 to 1.0.28
-	- sane-backend : 1.0.27 to 1.0.28 https://alioth.debian.org/frs/?group_id=30186
+-sane: 1.0.28
+	- sane-backend : 1.0.28 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
 -seamonkey: 2.49.4 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
