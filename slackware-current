@@ -60,13 +60,14 @@ A series :
 -inotify-tools: 3.20.1 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.0.4 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.62 https://www.kernel.org/pub/linux/kernel/
+-kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+-kernel-ide: 4.19.63 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190726 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
--lha: 1.14i_10.1.diff.gz to 1.14i_10.3.diff.gujects/libgudev
+-lha: 1.14i_10.1.diff.gz to 1.14i_10.3.diff
+-libgudev: 233 http://wiki.gnome.org/Projects/libgudev
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
@@ -200,8 +201,8 @@ Ap series :
 -lxc: 2.0.11 to 3.0.2 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.8.5 to 2.8.6 http://www.nongnu.org/man-db/
--man-pages: 5.01 to 5.02 https://www.kernel.org/pub/linux/docs/man-pages/
+-man-db: 2.8.6 http://www.nongnu.org/man-db/
+-man-pages: 5.02 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.4.7 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -234,7 +235,7 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.1778 to 1803 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.1778 to 1813 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.1778
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -245,7 +246,7 @@ Ap series :
 d series:
 --------------------
 -Cython: 0.29.13 https://pypi.python.org/pypi/Cython/
--Mako: 1.0.14 http://www.python.org/pypi/Mako/
+-Mako: 1.1.0 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
@@ -272,7 +273,7 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.62
+-kernel-headers: 4.19.63
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -307,7 +308,7 @@ d series:
 -python-pip: 19.2.1 https://pip.pypa.io/
 -python-setuptools: 41.0.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
--re2c: 1.1.1 http://re2c.org
+-re2c: 1.2 http://re2c.org
 -ruby: 2.6.3 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.36.0 https://rust-lang.org
 -scons: 3.1.0 http://www.scons.org/
@@ -333,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.62
+-kernel :  4.19.63
 --------------------
 kde series :
 --------------------
@@ -379,7 +380,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
--babl: 0.1.68 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.70 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.70.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
@@ -458,7 +459,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_58 http://www.imagemagick.org/
+-imagemagick: 6.9.10_59 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -941,7 +942,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1778 to 1803
+-gvim: 8.1.1778 to 1813
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.0.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.8.0 http://www.mozilla.org/projects/thunderbird/
