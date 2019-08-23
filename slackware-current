@@ -139,7 +139,7 @@ Ap series :
 -alsa-utils: 1.1.9 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.1.23 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 2.1.3 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -353,7 +353,7 @@ l series:
 --------------------
 -ConsoleKit2: 1.0.0 to 1.2.1 http://www.freedesktop.org/software/ConsoleKit/dist/
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--LibRaw: 0.18.12 to 0.19.1 http://www.libraw.org/
+-LibRaw: 0.18.12 to 0.19.5 http://www.libraw.org/
 -M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.3 http://www.riverbankcomputing.co.uk/software/pyqt/download
 -QScintilla: 2.11.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
