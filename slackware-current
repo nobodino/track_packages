@@ -166,7 +166,7 @@ Ap series :
 -ghostscript: 9.27 https://www.ghostscript.com/download/
 -gphoto2: 2.5.23 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
--gutenprint: 5.2.14 to 5.3.1 http://gimp-print.sourceforge.net/p_Download.php
+-gutenprint: 5.3.1 to 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
 -hplip: 3.19.6 to 3.19.8 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
 -itstool: 2.0.5 http://itstool.org/download/
@@ -309,7 +309,7 @@ d series:
 -python-setuptools: 41.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.2.1 http://re2c.org
--ruby: 2.6.3 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 2.6.3 to 2.6.4  ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.37.0 https://rust-lang.org
 -scons: 3.1.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -792,7 +792,7 @@ n series:
 -openssl: 1.1.1c ftp://ftp.openssl.org/source/
 -openvpn: 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.16.1 http://p11-glue.freedesktop.org/releases/
--php: 7.3.8 http://www.php.net/distributions/
+-php: 7.3.8 to 7.3.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -945,7 +945,7 @@ xap series:
 -gvim: 8.1.1847 to 1918
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.0.2esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.8.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 60.8.0 to 68.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.22 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -981,29 +981,29 @@ xfce: 4.12.x http://archive.xfce.org/src/xfce/
 -exo: 0.12.8
 -garcon: 0.6.4
 -gtk-xfce-engine: 2.10.1 to 3.2.0
--libxfce4ui: 4.12.1 to 4.13.2
--libxfce4util: 4.12.1 to 4.13.1
+-libxfce4ui: 4.12.1 to 4.14.1
+-libxfce4util: 4.12.1 to 4.14.0
 -orage: 4.12.1
 -thunar-volman: 0.9.5
 -tumbler: 0.2.7
--xfce4-appfinder: 4.12.0 to 4.13.2
+-xfce4-appfinder: 4.12.0 to 4.14.0
 -xfce4-clipman-plugin: 1.4.3
 -xfce4-dev-tools: 4.12.0
 -xfce4-mixer: 4.10.0 to 4.11.0
 -xfce4-notifyd: 0.4.4
--xfce4-panel: 4.12.2 to 4.13.4
--xfce4-power-manager: 1.4.4 to 1.6.4
+-xfce4-panel: 4.12.2 to 4.14.0
+-xfce4-power-manager: 1.4.4 to 1.6.5
 -xfce4-pulseaudio-plugin: 0.4.2
 -xfce4-screenshooter: 1.9.5
--xfce4-session: 4.12.1 to 4.13.0
--xfce4-settings: 4.12.4
+-xfce4-session: 4.12.1 to 4.14.0
+-xfce4-settings: 4.12.4 to 4.14.1
 -xfce4-systemload-plugin: 1.2.3
 -xfce4-taskmanager: 1.2.2
 -xfce4-terminal: 0.8.8
 -xfce4-weather-plugin: 0.8.10
--xfconf: 4.12.1 to 4.13.6
--xfdesktop: 4.12.5 to 4.13.1
--xfwm4: 4.12.5 to 4.13.0
+-xfconf: 4.12.1 to 4.14.1
+-xfdesktop: 4.12.5 to 4.14.1
+-xfwm4: 4.12.5 to 4.14.0
 --------------------
 y series:
 --------------------
