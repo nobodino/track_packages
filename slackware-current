@@ -321,7 +321,7 @@ d series:
 --------------------
 e series:
 --------------------
--emacs: 26.2 ftp://ftp.gnu.org/pub/gnu/emacs/
+-emacs: 26.2 to 26.3 ftp://ftp.gnu.org/pub/gnu/emacs/
 --------------------
 Installer:
 --------------------
@@ -747,7 +747,7 @@ n series:
 -libnftnl: 1.1.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.22.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.1.4 http://sourceforge.net/projects/libtirpc/
--links: 2.19 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.19 to 2.20 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
 -mcabber: 1.1.0 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
