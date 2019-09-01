@@ -236,7 +236,7 @@ Ap series :
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
 -vim: 8.1.1936 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.1936
+	- vim: 8.1.1936 to 1951
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -459,7 +459,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_62 http://www.imagemagick.org/
+-imagemagick: 6.9.10_62 to 63 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -579,7 +579,7 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.45 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.45 to 3.46 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.45 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.21 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs52: 52.9.0esr
@@ -942,7 +942,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1936
+-gvim: 8.1.1936 to 1951
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.0.2esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.8.0 to 68.0 http://www.mozilla.org/projects/thunderbird/
