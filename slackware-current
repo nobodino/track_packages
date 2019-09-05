@@ -62,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 4.19.69 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20190827 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20190904 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -172,7 +172,7 @@ Ap series :
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
--jove: 4.16.0.73 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
+-jove: 4.16.0.74 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
 -ksh93: 20190416 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.73 http://packages.qa.debian.org/l/linuxdoc-tools.html
@@ -447,7 +447,7 @@ l series:
 -gstreamer: 1.16.0 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.10 to 3.24.11 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.11 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -554,7 +554,7 @@ l series:
 -libtiff: 4.0.10 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.3.1 http://www.nongnu.org/libunwind
--libusb: 1.0.22 ftp://download.sourceforge.net/pub/sourceforge/libusb/
+-libusb: 1.0.22 to 1.0.23 ftp://download.sourceforge.net/pub/sourceforge/libusb/
 -libusb-compat: 0.1.5 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
 -libusbmuxd: 20190118 http://www.libimobiledevice.org/
 -libvisio: 0.1.7 https://wiki.documentfoundation.org/DLP/Libraries/libvisio
@@ -599,8 +599,8 @@ l series:
 -parted: 3.2 ftp://ftp.gnu.org/pub/parted/
 -pcre2: 10.33 http://www.pcre.org/
 -pcre: 8.43 http://pcre.sourceforge.net/src/
--phonon: 4.8.3 to 4.10.1 http://download.kde.org/stable/phonon/
--phonon-gstreamer: 4.8.2 to 4.9.0 (phonon-backend-gstreamer)
+-phonon: 4.8.3 to 4.11.0 http://download.kde.org/stable/phonon/
+-phonon-gstreamer: 4.8.2 to 4.10.0 (phonon-backend-gstreamer)
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
 -polkit: 0.115 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
@@ -647,7 +647,7 @@ l series:
 	-SDL_mixer: 1.2.12 https://www.libsdl.org/projects/SDL_mixer/
 	-SDL_net: 1.2.8 https://www.libsdl.org/projects/SDL_net/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
--seamonkey-solibs: 2.49.4
+-seamonkey-solibs: 2.49.5
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.12 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.18 (Python-sip) https://pypi.python.org/pypi/SIP
@@ -680,7 +680,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.10.4 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.20.0 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.20.0 to 1.20.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -702,7 +702,7 @@ n series:
 -curl: 7.65.3 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 8.0.3 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.0.3 to 8.0.4 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.7.2 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
@@ -747,7 +747,7 @@ n series:
 -libnftnl: 1.1.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.22.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.1.4 http://sourceforge.net/projects/libtirpc/
--links: 2.19 to 2.20 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.19 to 2.20.1 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
 -mcabber: 1.1.0 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
@@ -882,7 +882,7 @@ x series: (main packages)
 -libX11: 1.6.8
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 19.1.5 to 19.1.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.1.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -957,7 +957,7 @@ xap series:
 -sane: 1.0.28
 	- sane-backend : 1.0.28 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.49.4 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.49.5 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
