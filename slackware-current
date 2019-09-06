@@ -255,7 +255,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.15.2 to 3.15.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.15.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -540,7 +540,7 @@ l series:
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.24.15 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
--libsigc++: 2.10.2 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
+-libsigc++: 2.10.2 to 3.0.0 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.8 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
@@ -680,7 +680,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.10.4 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.20.0 to 1.20.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.20.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -747,7 +747,7 @@ n series:
 -libnftnl: 1.1.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.22.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.1.4 http://sourceforge.net/projects/libtirpc/
--links: 2.19 to 2.20.1 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.20.1 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
 -mcabber: 1.1.0 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
