@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.2.1 to 5.2.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.2.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.69 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.71 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190904 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -273,12 +273,12 @@ d series:
 -icecream: 20180905 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.69
+-kernel-headers: 4.19.71
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.1.1 https://mercurial.selenic.com/downloads
 -meson: 0.51.2 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.69
+-kernel :  4.19.71
 --------------------
 kde series :
 --------------------
@@ -512,7 +512,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20190118 http://www.libimobiledevice.org/
 -libiodbc: 3.52.13 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.0.2 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.0.3 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.1.0 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -663,11 +663,11 @@ l series:
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.11.1 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
--talloc: 2.2.0 https://talloc.samba.org
+-talloc: 2.3.0 https://talloc.samba.org
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
 -tdb: 1.4.2 https://tdb.samba.org
--tevent: 0.10.0 https://tevent.samba.org
+-tevent: 0.10.1 https://tevent.samba.org
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.4.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.16.7 http://linuxtv.org/downloads/v4l-utils/
@@ -702,7 +702,7 @@ n series:
 -curl: 7.65.3 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 8.0.3 to 8.0.4 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.0.4 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.7.2 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
@@ -926,7 +926,7 @@ xap series:
 -electricsheep: 20090306 (screensaver) to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.2 to 2.4.3 http://easytag.sourceforge.net
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
--fvwm: 2.6.8 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
+-fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.5.1 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
 -gimp: 2.10.12 http://download.gimp.org/pub/gimp/
