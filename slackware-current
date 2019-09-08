@@ -236,7 +236,7 @@ Ap series :
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
 -vim: 8.1.1936 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.1936 to 1991
+	- vim: 8.1.1936 to 2006
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -942,7 +942,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.1936 to 1991
+-gvim: 8.1.1936 to 2006
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 60.8.0 to 68.0 http://www.mozilla.org/projects/thunderbird/
