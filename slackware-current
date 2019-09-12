@@ -44,7 +44,7 @@ A series :
 -gettext: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -getty_ps: 2.1.0b to 2.1.1 http://www.ibiblio.org/pub/Linux/system/serial/getty/
 -glibc-solibs: 2.30
--glibc-zoneinfo: 2019b
+-glibc-zoneinfo: 2019c
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.4 http://www.rodsbooks.com/gdisk/
 -grep: 3.3 ftp://ftp.gnu.org/pub/gnu/grep
@@ -85,7 +85,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.4 to 4.2.4.5 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
--openssl-solibs: 1.1.1c http://www.openssl.org/
+-openssl-solibs: 1.1.1cd http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
@@ -203,7 +203,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.7 http://www.nongnu.org/man-db/
 -man-pages: 5.02 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.4.7 http://mariadb.org/
+-mariadb: 10.4.8 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -425,8 +425,8 @@ l series:
 -glibmm: 2.60.0 http://www.gtkmm.org/
 -glibc: 2.30
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2019b https://www.iana.org/time-zones
-	-tzdata: 2019b https://www.iana.org/time-zones
+	-tzcode: 2019c https://www.iana.org/time-zones
+	-tzdata: 2019c https://www.iana.org/time-zones
 -gmime: 3.2.3 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -586,7 +586,7 @@ l series:
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.1_20190720 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
--netpbm: 10.87.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.87.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -openexr: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
@@ -699,7 +699,7 @@ n series:
 -crda: 3.18 to 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 3.18
 	- wireless-regdb: 2019.03.01
--curl: 7.65.3 to 7.66.0 http://curl.haxx.se/download/
+-curl: 7.66.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.0.4 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -788,10 +788,10 @@ n series:
 -openldap-client: 2.4.48 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.0p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl10: 1.0.2o to 1.0.2t ftp://ftp.openssl.org/source/
--openssl: 1.1.1c to 1.1.1d ftp://ftp.openssl.org/source/
+-openssl10: 1.0.2t ftp://ftp.openssl.org/source/
+-openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.7 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.16.1 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.17 http://p11-glue.freedesktop.org/releases/
 -php: 7.3.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
@@ -945,7 +945,7 @@ xap series:
 -gvim: 8.1.1936 to 2006
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 60.8.0 to 68.1.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.1.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.22 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
