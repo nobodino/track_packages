@@ -105,7 +105,7 @@ A series :
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 1.5.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 2.95 http://download.savannah.gnu.org/releases/sysvinit/
+-sysvinit: 2.95 to 2.96 http://download.savannah.gnu.org/releases/sysvinit/
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.32 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
@@ -250,7 +250,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.4.1 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.4.1 to 3.4.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.7.3 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
