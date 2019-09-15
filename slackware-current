@@ -402,7 +402,7 @@ l series:
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
--expat: 2.2.7 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.2.7 to 2.2.8 http://sourceforge.net/projects/expat/files/expat/
 -ffmpeg: 4.2.1 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.11 to 2.0.2 http://www.fluidsynth.org/
@@ -878,7 +878,7 @@ x series: (main packages)
 -libwacom: 1.0 https://github.com/linuxwacom
 -libxcb: 1.13.1
 -libXcm: 0.5.4
--libXfont2: 2.0.3
+-libXfont2: 2.0.3 to 2.0.4
 -libXpm: 3.5.12
 -libX11: 1.6.8
 -libXres: 1.2.0
