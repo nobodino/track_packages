@@ -92,7 +92,9 @@ A series :
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.8 http://www.nongnu.org/lzip/plzip.html
--procps-ng: 3.3.15 http://sourceforge.net/projects/procps-ng/files/Production/
+-procps-ng: 3.3.15 
+	-procps-ng: 3.3.15 http://sourceforge.net/projects/procps-ng/files/Production/
+	-psmisc: 23.2 
 -quota: 4.05 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
@@ -235,7 +237,7 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2022 to 8027 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2022 to 2041 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2022
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -505,7 +507,7 @@ l series:
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.46 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
--libical: 3.0.5 https://libical.github.io/libical/
+-libical: 3.0.6 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.34 to 1.35 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.2.0 http://ftp.gnu.org/gnu/libidn2/
@@ -651,7 +653,7 @@ l series:
 -seamonkey-solibs: 2.49.5
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.12 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.18 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 4.19.19 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
 -soprano: 2.9.4 http://sourceforge.net/projects/soprano/
@@ -680,7 +682,7 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.10.4 http://www.freedesktop.org/software/ModemManager/
+-ModemManager: 1.10.6 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.20.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
@@ -703,7 +705,7 @@ n series:
 -curl: 7.66.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 8.0.4 to 8.0.6 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.0.6 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.7.2 http://www.dovecot.org/releases/
 -ebtables: 2.0.10 ftp://ftp.netfilter.org/pub/ebtables/
@@ -810,7 +812,7 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.15 http://www.sdaoden.eu/downloads
--samba: 4.10.8 https://ftp.samba.org/pub/samba/
+-samba: 4.10.8 to 4.11.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
@@ -861,6 +863,7 @@ tcl/tk series:
 x series: (main packages)
 --------------------
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
+-freeglut: 3.2.0
 -igt-gpu-tools: 1.24.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
@@ -878,12 +881,12 @@ x series: (main packages)
 -libwacom: 1.0 https://github.com/linuxwacom
 -libxcb: 1.13.1
 -libXcm: 0.5.4
--libXfont2: 2.0.3 to 2.0.4
+-libXfont2: 2.0.4
 -libXpm: 3.5.12
 -libX11: 1.6.8
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 19.1.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.1.7 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -943,7 +946,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2022 to 2027
+-gvim: 8.1.2022 to 2041
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.1.0 http://www.mozilla.org/projects/thunderbird/
