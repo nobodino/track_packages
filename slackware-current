@@ -244,7 +244,7 @@ Ap series :
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.0 https://www.gnu.org/software/xorriso
 -zsh: 5.7.1 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
---------------------
+------------------
 d series:
 --------------------
 -Cython: 0.29.13 https://pypi.python.org/pypi/Cython/
@@ -277,7 +277,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 4.19.72
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
--llvm: 8.0.1 http://llvm.org/
+-llvm: 8.0.1 to 9.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 (4.2.90 beta) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.1.1 https://mercurial.selenic.com/downloads
@@ -902,7 +902,7 @@ x series: (main packages)
 -xf86-video-ati: 19.0.1
 -xf86-video-i128: 1.4.0
 -xf86-video-i740: 1.4.0
--xf86-video-intel: 20190301
+-xf86-video-intel: 20190724
 -xf86-video-mga: 2.0.0
 -xf86-video-nv: 2.1.21
 -xf86-video-nouveau: 1.0.16
