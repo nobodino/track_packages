@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.72 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.74 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20190909 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -275,7 +275,7 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.72
+-kernel-headers: 4.19.74
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 8.0.1 to 9.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -318,7 +318,7 @@ d series:
 -strace: 5.2 https://github.com/strace/strace/releases/download/
 -subversion: 1.12.2 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.1 http://www.swig.org/download.html
--vala: 0.44.7 https://wiki.gnome.org/Projects/Vala
+-vala: 0.46.0 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -336,7 +336,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.72
+-kernel :  4.19.74
 --------------------
 kde series :
 --------------------
@@ -366,7 +366,7 @@ l series:
 -SDL2_ttf: 2.0.15 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
--adwaita-icon-theme: 3.32.0 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 3.34.0 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.1.9 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
@@ -375,9 +375,9 @@ l series:
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -aspell: 0.60.7 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2018.04.16
--at-spi2-atk: 2.32.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.32.1 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
--atk: 2.32.0 to 2.34.1 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
+-at-spi2-atk: 2.34.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
+-at-spi2-core: 2.34.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-atk: 2.34.1 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.24.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
@@ -393,8 +393,8 @@ l series:
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.12 http://dbus.freedesktop.org/releases/dbus-glib/
--dconf: 0.32.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 3.32.0 https://download.gnome.org/sources/dconf-editor/
+-dconf: 0.34.0 http://download.gnome.org/sources/dconf/
+-dconf-editor: 3.34.0 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.24 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
@@ -410,7 +410,8 @@ l series:
 -fluidsynth: 1.1.11 to 2.0.2 http://www.fluidsynth.org/
 -freetype: 2.10.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.5 http://fribidi.org/download
--fuse: 2.9.9 to (fuse3: 3.6.2) https://github.com/libfuse/libfuse/releases
+-fuse: 2.9.9 https://github.com/libfuse/libfuse/releases
+-fuse3: 3.6.2
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.28.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -422,8 +423,8 @@ l series:
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib2: 2.60.7 to 2.62.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glib-networking: 2.60.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: 2.62.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib-networking: 2.62.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glibmm: 2.60.0 http://www.gtkmm.org/
 -glibc: 2.30
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -433,12 +434,13 @@ l series:
 -gmm: 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
 -gnome-keyring: 3.28.2 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
+-gnome-themes-extra: 3.28
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.9 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.60.2 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.62.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphite2: 1.3.13 http://graphite.sil.org/
 -grantlee: 0.5.1 to 5.1.0 http://downloads.grantlee.org/
--gsettings-desktop-schemas: 3.32.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
+-gsettings-desktop-schemas: 3.34.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.6 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
 -gst-plugins-base: 1.16.0
@@ -453,7 +455,7 @@ l series:
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.1 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
--gvfs: 1.40.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.42.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 2.6.1 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
@@ -461,7 +463,7 @@ l series:
 -icu4c: 64.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_64 http://www.imagemagick.org/
+-imagemagick: 6.9.10_65 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
@@ -540,14 +542,14 @@ l series:
 -libpsl: 0.21.0 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.24.15 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.46.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.2 to 3.0.0 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.8 to 0.19.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
--libsoup: 2.66.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.68.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.8.7 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.9.0 http://www.libssh2.org/
@@ -564,7 +566,6 @@ l series:
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvncserver: 0.9.11 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.6 https://www.xiph.org/downloads/
-
 -libvpx: 1.8.1 http://www.webmproject.org/
 -libwebp: 1.0.3 https://developers.google.com/speed/webp/
 -libwmf: 0.2.8.4 http://sourceforge.net/projects/wvware/
@@ -616,7 +617,7 @@ l series:
 -pycups: 1.9.74 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.3 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.32.2 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.34.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
 -pyparsing: 2.4.2 http://pyparsing.wikispaces.com/
 -python-appdirs: 1.4.3 https://github.com/ActiveState/appdirs
@@ -625,7 +626,7 @@ l series:
 -python-docutils: 0.15.2 http://docutils.sourceforge.net/
 -python-idna: 2.8 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
--python-packaging: 19.1 https://github.com/pypa/packaging
+-python-packaging: 19.2 https://github.com/pypa/packaging
 -python-pillow: 6.1.0 https://python-pillow.github.io/
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
@@ -674,7 +675,7 @@ l series:
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.4.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.16.7 http://linuxtv.org/downloads/v4l-utils/
--vte: 0.56.3 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.58.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.12 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
@@ -690,7 +691,7 @@ n series:
 -argon2: 20190702
 -autofs: 5.1.5 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.14.5 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.14.6 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.50 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -815,7 +816,7 @@ n series:
 -samba: 4.10.8 to 4.11.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
--sshfs: 2.10 to 3.5.1 https://github.com/lib~/fuse/sshfs
+-sshfs: 3.5.2 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.55 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.2 http://www.tcpdump.org/releases
