@@ -237,7 +237,7 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2022 to 2041 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2022 to 2061 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2022
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -651,9 +651,8 @@ l series:
 	-SDL_mixer: 1.2.12 https://www.libsdl.org/projects/SDL_mixer/
 	-SDL_net: 1.2.8 https://www.libsdl.org/projects/SDL_net/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
--seamonkey-solibs: 2.49.5
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
--shared-mime-info: 1.12 http://freedesktop.org/wiki/Software/shared-mime-info/
+-shared-mime-info: 1.12 to 1.14 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.19 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
@@ -757,7 +756,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190618 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.93 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.12.1 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.12.1 to 1.12.2 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -800,7 +799,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.4.6 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.4.6 to 3.4.7 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.7
 	-ppp: 2.4.7 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
@@ -947,7 +946,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2022 to 2041
+-gvim: 8.1.2022 to 2061
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.1.0 http://www.mozilla.org/projects/thunderbird/
