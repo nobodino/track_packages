@@ -237,7 +237,7 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2022 to 2061 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2022 to 2079 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2022
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -312,7 +312,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.2.1 http://re2c.org
 -ruby: 2.6.4 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.37.0 https://rust-lang.org
+-rust: 1.37.0 to 1.38.0 https://rust-lang.org
 -scons: 3.1.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.3 https://github.com/strace/strace/releases/download/
@@ -684,7 +684,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.10.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.20.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.20.2 to 1.21.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -947,7 +947,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2022 to 2061
+-gvim: 8.1.2022 to 2079
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.1.1 http://www.mozilla.org/projects/thunderbird/
@@ -975,7 +975,7 @@ xap series:
 -xlockmore: 5.58 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
--xpdf: 4.0.0 to 4.01.01 ftp://ftp.foolabs.com/pub/xpdf
+-xpdf: 4.0.0 to 4.02 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 5.43 http://www.jwz.org/xscreensaver/
 -xv: 3.10a ftp://ftp.cis.upenn.edu/pub/xv/
