@@ -151,9 +151,9 @@ Ap series :
 -cgmanager: 0.42 https://cgmanager.linuxcontainers.org/ (git)
 -cups: 2.3.0
 	- cups: 2.3.0 http://www.cups.org/software.php
-	- cups-samba: 5.0rc3
+	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.25.7 to 1.25.8 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
+-cups-filters: 1.25.11 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/-ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat:  1.62 http://invisible-island.net/diffstat/diffstat.html
 -diffutils: 3.7 ftp://ftp.gnu.org/pub/gnu/diffutils/
@@ -883,7 +883,7 @@ x series: (main packages)
 -libXcm: 0.5.4
 -libXfont2: 2.0.4
 -libXpm: 3.5.12
--libX11: 1.6.8
+-libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
 -mesa: 19.2.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
@@ -949,7 +949,7 @@ xap series:
 -gvim: 8.1.2108 to 2117
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.1.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.1.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.145 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
