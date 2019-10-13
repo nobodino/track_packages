@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.78 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 4.19.79 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20191008 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -202,7 +202,7 @@ Ap series :
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.8.7 http://www.nongnu.org/man-db/
--man-pages: 5.02 https://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 5.03 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.4.8 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -226,7 +226,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.2.3 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.30.0 http://www.sqlite.org/download.html
+-sqlite: 3.30.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.8.27 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.1.7 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -249,7 +249,7 @@ d series:
 -Mako: 1.1.0 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.32.0 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.33.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.4.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.7.4 https://ftp.samba.org/pub/ccache/
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
@@ -272,7 +272,7 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.78
+-kernel-headers: 4.19.79
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -333,7 +333,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.78
+-kernel :  4.19.79
 --------------------
 kde series :
 --------------------
@@ -463,7 +463,7 @@ l series:
 -imagemagick: 6.9.10_68 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.21 http://isl.gforge.inria.fr
--iso-codes: 4.3 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
 -jasper: 2.0.16 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
@@ -598,7 +598,7 @@ l series:
 -orc: 0.4.29 http://code.entropywave.com/projects/orc/
 -pango: 1.42.4 to 1.44.6 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
--parted: 3.2 ftp://ftp.gnu.org/pub/parted/
+-parted: 3.3 ftp://ftp.gnu.org/pub/parted/
 -pcre2: 10.33 http://www.pcre.org/
 -pcre: 8.43 http://pcre.sourceforge.net/src/
 -phonon: 4.8.3 to 4.11.0 http://download.kde.org/stable/phonon/
@@ -672,7 +672,7 @@ l series:
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.4.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.18.0 http://linuxtv.org/downloads/v4l-utils/
--vte: 0.58.1 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.58.2 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.12 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
@@ -865,8 +865,6 @@ x series: (main packages)
 -igt-gpu-tools: 1.24.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
-
-
 -libdmx: 1.1.4
 -libpciaccess: 0.16
 -libdrm: 2.4.99 http://dri.freedesktop.org/libdrm/
@@ -897,7 +895,7 @@ x series: (main packages)
 -xorg-server: 1.20.5 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.29.0
 -xf86-input-wacom: 0.37.0
--xf86-video-amdgpu: 18.1.0
+-xf86-video-amdgpu: 19.1.0
 -f86-video-apm: 1.3.0
 -xf86-video-ati: 19.0.1
 -xf86-video-i128: 1.4.0
