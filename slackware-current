@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.3 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.3.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -32,7 +32,7 @@ A series :
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
--eudev: 3.2.8 to 3.2.9 https://dev.gentoo.org/~blueness/eudev/
+-eudev: 3.2.9 https://dev.gentoo.org/~blueness/eudev/
 -f2fs-tools: 1.13.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.37 ftp://ftp.fu-berlin.de/unix/tools/file/ or http://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.7.0 ftp://ftp.gnu.org/gnu/findutils/
@@ -61,7 +61,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 4.19.80 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20191023 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20191025 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -206,7 +206,7 @@ Ap series :
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.25.12 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.25.13 http://sourceforge.net/projects/mpg123/files/
 -nano: 4.5 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -opus-tools: 0.2 https://opus-codec.org/
@@ -239,7 +239,7 @@ Ap series :
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
--xorriso: 1.5.0 https://www.gnu.org/software/xorriso
+-xorriso: 1.5.2 https://www.gnu.org/software/xorriso
 -zsh: 5.7.1 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
 ------------------
 d series:
@@ -414,7 +414,7 @@ l series:
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.38.2 to 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.16 http://ftp.acc.umu.se/pub/gnome/sources/gegl
+-gegl: 0.4.18 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.0 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
@@ -459,7 +459,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_68 to 69 http://www.imagemagick.org/
+-imagemagick: 6.9.10_69 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.21 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -495,7 +495,7 @@ l series:
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.0.1 http://download.videolan.org/videolan/libdvdread/
--libedit: 20190324 http://www.thrysoee.dk/editline/
+-libedit: 20191025-3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.11 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
