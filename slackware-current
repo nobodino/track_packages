@@ -52,7 +52,7 @@ A series :
 -haveged: 1.9.8 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.22 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.328 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.329 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2174 to 2244 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.2174
+-vim: 8.1.2250 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.2250
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -263,7 +263,7 @@ d series:
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/
 -gdb: 8.3.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.23.0 http://git-scm.com/download
+-git: 2.24.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.6 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -353,7 +353,7 @@ l series:
 -LibRaw: 0.18.12 to 0.19.5 http://www.libraw.org/
 -M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.3 http://www.riverbankcomputing.co.uk/software/pyqt/download
--QScintilla: 2.11.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
+-QScintilla: 2.11.3 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -SDL2: 2.0.10 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
@@ -407,7 +407,7 @@ l series:
 -freetype: 2.10.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.7 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.7.0 https://github.com/libfuse/libfuse
+-fuse3: 3.8.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.34.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -552,7 +552,7 @@ l series:
 -libssh2: 1.9.0 http://www.libssh2.org/
 -libtasn1: 4.14 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.0.10 ftp://ftp.remotesensing.org/pub/libtiff/
+-libtiff: 4.1.0 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.3.1 http://www.nongnu.org/libunwind
 -libusb: 1.0.23 ftp://download.sourceforge.net/pub/sourceforge/libusb/
@@ -594,7 +594,7 @@ l series:
 -openjpeg: 2.3.1 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.11 https://opus-codec.org/
--orc: 0.4.30 http://code.entropywave.com/projects/orc/
+-orc: 0.4.31 http://code.entropywave.com/projects/orc/
 -pango: 1.42.4 to 1.44.7 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.3 ftp://ftp.gnu.org/pub/parted/
@@ -722,7 +722,7 @@ n series:
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.3.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.3 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-ipset: 7.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.2 to 1.8.3 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20190709 http://www.skbuff.net/iputils/
@@ -812,7 +812,7 @@ n series:
 -samba: 4.11.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
--sshfs: 3.5.2 https://github.com/lib~/fuse/sshfs
+-sshfs: 3.5.2 to 3.6.0 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.55 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.3 http://www.tcpdump.org/releases
@@ -844,7 +844,7 @@ n firmware:
 --------------------
 t series:
 --------------------
--fig2dev: 3.2.7a https://sourceforge.net/projects/mcj/files/
+-fig2dev: 3.2.7b https://sourceforge.net/projects/mcj/files/
 -texlive: 2019.190626
 -xfig: 3.2.7b https://sourceforge.net/projects/mcj/files/
 --------------------
@@ -911,7 +911,7 @@ x series: (main packages)
 -xf86-video-sis: 0.11.0
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
--xterm: 349 to 350 ftp://invisible-island.net/xterm/
+-xterm: 350 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -944,7 +944,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2174 to 2244
+-gvim: 8.1.2250
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.2.0esr to 70.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.2.1 http://www.mozilla.org/projects/thunderbird/
@@ -967,7 +967,7 @@ xap series:
 -xaos: 3.6 http://xaos.sf.net
 -xgames: 0.2
 -xine-lib: 1.2.9 http://dl.sourceforge.net/xine/
--xine-ui: 0.99.10 http://dl.sourceforge.net/xine/
+-xine-ui: 0.99.11 http://dl.sourceforge.net/xine/
 -xlockmore: 5.59 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
@@ -975,7 +975,7 @@ xap series:
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 5.43 http://www.jwz.org/xscreensaver/
 --------------------
-xfce: 4.12.x http://archive.xfce.org/src/xfce/
+xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 --------------------
 -Thunar: 1.8.9
 -exo: 0.12.8
