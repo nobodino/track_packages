@@ -17,7 +17,7 @@ A series :
 -btrfs-progs: 5.3.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
--cpio: 2.12 ftp://ftp.gnu.org/pub/gnu/cpio/
+-cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cryptsetup: 2.2.2 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.16 http://dbus.freedesktop.org/releases/dbus/
@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.81 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20191030 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.82 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20191104 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -167,7 +167,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.19.10 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
+-hplip: 3.19.11 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -202,7 +202,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.0 http://www.nongnu.org/man-db/
 -man-pages: 5.03 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.4.8 http://mariadb.org/
+-mariadb: 10.4.9 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -271,12 +271,12 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.81
+-kernel-headers: 4.19.82
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 (4.2.90 beta) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.1.2 https://mercurial.selenic.com/downloads
+-mercurial: 5.2 https://mercurial.selenic.com/downloads
 -meson: 0.52.0 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
@@ -332,7 +332,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.81
+-kernel :  4.19.82
 --------------------
 kde series :
 --------------------
@@ -362,7 +362,7 @@ l series:
 -SDL2_ttf: 2.0.15 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
--adwaita-icon-theme: 3.34.0 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 3.34.1 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.1.9 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
@@ -627,12 +627,12 @@ l series:
 -python-pillow: 6.2.1 https://python-pillow.github.io/
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
--python-six: 1.12.0 http://pypi.python.org/pypi/six/
+-python-six: 1.13.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.25.6 https://urllib3.readthedocs.io/
 -qca: 2.1.3 to 2.2.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
--qt: 4.8.7 to 5.11.3 ftp://ftp.trolltech.com/qt/source/
+-qt: 4.8.7 to 5.13.2 ftp://ftp.trolltech.com/qt/source/
 -qt-gstreamer: 1.2.0 http://gstreamer.freedesktop.org/modules/qt-gstreamer.html
 -qtscriptgenerator: 0.2.0 https://code.google.com/p/qtscriptgenerator/downloads/list
 -raptor2: 2.0.15 http://download.librdf.org/source/
@@ -649,7 +649,7 @@ l series:
 	-SDL_net: 1.2.8 https://www.libsdl.org/projects/SDL_net/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
--shared-mime-info: 1.12 to 1.14 http://freedesktop.org/wiki/Software/shared-mime-info/
+-shared-mime-info: 1.15 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.19 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
@@ -675,12 +675,12 @@ l series:
 -wavpack: 5.1.0 http://www.wavpack.com/
 -xapian-core: 1.4.13 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.4.3 http://zstd.net/
+-zstd: 1.4.4 http://zstd.net/
 --------------------
 n series:
 --------------------
--ModemManager: 1.10.8 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.20.4 to 1.21.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-ModemManager: 1.12.0 http://www.freedesktop.org/software/ModemManager/
+-NetworkManager: 1.20.6 to 1.21.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -699,7 +699,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.66.0 http://curl.haxx.se/download/
+-curl: 7.67.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -733,7 +733,7 @@ n series:
 -libgcrypt: 1.8.5 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.36 https://www.gnupg.org/download/index.html
 -libksba: 1.3.5 https://www.gnupg.org/download/index.html
--libmbim: 1.20.0 http://www.freedesktop.org/software/libmbim/
+-libmbim: 1.20.2 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.15.2 (??)
 -libmnl: 1.0.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libndp: 1.7 http://libndp.org/https://sources.archlinux.org/sources/
@@ -883,7 +883,7 @@ x series: (main packages)
 -libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 19.2.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.2.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
