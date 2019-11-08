@@ -308,7 +308,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.2.1 http://re2c.org
 -ruby: 2.6.5 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.37.0 to 1.38.0 (pb) https://rust-lang.org
+-rust: 1.37.0 to 1.39.0 https://rust-lang.org
 -scons: 3.1.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.3 https://github.com/strace/strace/releases/download/
@@ -659,7 +659,7 @@ l series:
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -strigi: 0.7.8 http://www.vandenoever.info/software/strigi/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
--system-config-printer: 1.5.11 http://cyberelk.net/tim/data/system-config-printer/
+-system-config-printer: 1.5.12 http://cyberelk.net/tim/data/system-config-printer/
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.11.1 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
@@ -812,7 +812,7 @@ n series:
 -samba: 4.11.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
--sshfs: 3.5.2 to 3.6.0 https://github.com/lib~/fuse/sshfs
+-sshfs: 3.6.0 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.55 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.3 http://www.tcpdump.org/releases
@@ -947,7 +947,7 @@ xap series:
 -gvim: 8.1.2250
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.2.0esr to 70.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.2.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.2.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
