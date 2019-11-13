@@ -23,7 +23,7 @@ A series :
 -dbus: 1.12.16 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20190728 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20170509 to 1.3_20191110 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -51,7 +51,7 @@ A series :
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.8 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
--hostname: 3.22 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
+-hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
 -hwdata: 0.329 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.82 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20191104 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 4.19.84 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20191108 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -202,7 +202,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.0 http://www.nongnu.org/man-db/
 -man-pages: 5.03 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.4.9 http://mariadb.org/
+-mariadb: 10.4.10 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -228,13 +228,13 @@ Ap series :
 -sqlite: 3.30.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.8.29 http://www.courtesan.com/sudo/current.html
--sysstat: 12.1.7 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.2.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2250 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2250 to 2291 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2250
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -271,7 +271,7 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.82
+-kernel-headers: 4.19.84
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -285,7 +285,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
 -parallel: 20191022 https://www.gnu.org/software/parallel/
 -patchelf: 0.10 http://nixos.org/patchelf.html
--perl: 5.30.0
+-perl: 5.30.0 to 5.30.1
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.641 to 1.642 http://www.cpan.org/modules/by-module/DBI/
@@ -314,7 +314,7 @@ d series:
 -strace: 5.3 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.1 http://www.swig.org/download.html
--vala: 0.46.3 https://wiki.gnome.org/Projects/Vala
+-vala: 0.46.4 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -332,7 +332,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.82
+-kernel :  4.19.84
 --------------------
 kde series :
 --------------------
@@ -362,7 +362,7 @@ l series:
 -SDL2_ttf: 2.0.15 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
--adwaita-icon-theme: 3.34.1 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 3.34.3 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.1.9 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
@@ -459,9 +459,9 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 6.9.10_71 http://www.imagemagick.org/
+-imagemagick: 7.0.9_2 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
--isl: 0.21 http://isl.gforge.inria.fr
+-isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.12 http://www.digip.org/jansson/
 -jasper: 2.0.16 http://www.ece.uvic.ca/~frodo/jasper/#download
@@ -533,7 +533,7 @@ l series:
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org
 -libpcap: 1.9.1 http://www.tcpdump.org/release/
--libplist: 2.0.0 http://www.libimobiledevice.org/
+-libplist: 2.1.0 http://www.libimobiledevice.org/
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.15 https://code.google.com/p/libproxy/
 -libpsl: 0.21.0 https://github.com/rockdaboot/libpsl
@@ -628,7 +628,7 @@ l series:
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.13.0 http://pypi.python.org/pypi/six/
--python-urllib3: 1.25.6 https://urllib3.readthedocs.io/
+-python-urllib3: 1.25.7 https://urllib3.readthedocs.io/
 -qca: 2.1.3 to 2.2.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
@@ -944,7 +944,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2250
+-gvim: 8.1.2250 to 2291
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.2.0esr to 70.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.2.2 http://www.mozilla.org/projects/thunderbird/
@@ -977,7 +977,7 @@ xap series:
 --------------------
 xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.9
+-Thunar: 1.8.10
 -exo: 0.12.8
 -garcon: 0.6.4
 -gtk-xfce-engine: 2.10.1 to 3.2.0
@@ -1018,16 +1018,24 @@ extra:
 -emacspeak: 38.0 to 40.0
 -flashplayer-plugin: 31 beta  http://labs.adobe.com/technologies/eula/flashplayer.html
 -fltk: 1.3.5 http://www.fltk.org
+-getty-ps: 2.1.0b
+-google-chrome:
 -java: (jdk and jre) 8u181 http://www.oracle.com/technetwork/java/javase/downloads/index.html
+-pure-alsa-system: 
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
 -recordmydesktop: 0.3.8.1 http://recordmydesktop.sourceforge.net/
+-sendmail: 8.15.2
 -tigervnc: 1.8.0 to 1.9.0 http://tigervnc.org
 -wicd: 1.7.4 https://launchpad.net/wicd
 -xf86-video-fbdev: 0.4.3
+-xf86-video-nouveau-blacklist: 
+-xfractint: 20.04p
+-xv: 3.10a
 --------------------
 testing :
 --------------------
--efibootmgr: 0.6.0
+-rust: 1.39.0
+-kernel: 5.4.0_rc7
 /-----------------------------------------------------------------------------------/
  grep . /sys/devices/system/cpu/vulnerabilities/*
 /-----------------------------------------------------------------------------------/
