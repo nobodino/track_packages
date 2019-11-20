@@ -289,7 +289,8 @@ d series:
 -perl: 5.30.1
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
-	- DBI: 1.641 to 1.642 http://www.cpan.org/modules/by-module/DBI/
+	- DBI: 1.642 http://www.cpan.org/modules/by-module/DBI/
+	- Devel-Checklib: 1.13 
 	- IO-Socket-SSL: 2.066
 	- MIME-Base64: 3.15
 	- Net-SSLeay: 1.88
