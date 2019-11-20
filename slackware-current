@@ -828,7 +828,7 @@ n series:
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.20.3 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.2 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-whois: 5.5.2 to 5.5.3 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.9 http://hostap.epitest.fi/releases/
 -yptools:
