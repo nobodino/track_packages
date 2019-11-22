@@ -27,8 +27,8 @@ A series :
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 20190528 http://linux.dell.com/efibootmgr
--efivar: 20190618 https://github.com/rhboot/efivar
+-efibootmgr: 20191011 http://linux.dell.com/efibootmgr
+-efivar: 20191015 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
@@ -234,7 +234,7 @@ Ap series :
 -tmux: 2.9a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2318 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2318 to 2330 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2250
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -552,7 +552,7 @@ l series:
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.8.7 to 0.9.1 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.9.2 http://www.libssh2.org/
--libtasn1: 4.14 http://ftp.gnu.org/gnu/libtasn1/
+-libtasn1: 4.15 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.1.0 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
@@ -794,7 +794,7 @@ n series:
 -openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.18.1 http://p11-glue.freedesktop.org/releases/
--php: 7.3.11 to 7.3.12 http://www.php.net/distributions/
+-php: 7.3.12 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -854,7 +854,7 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
--tcl: 8.6.9 to 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.9 to 8.6.10 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
 -tk: 8.6.9.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
@@ -887,7 +887,7 @@ x series: (main packages)
 -libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 19.2.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.2.5 to 19.2.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -948,7 +948,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2318
+-gvim: 8.1.2318 to 2330
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.2.0esr to 70.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.2.2 http://www.mozilla.org/projects/thunderbird/
