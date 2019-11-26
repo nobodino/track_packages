@@ -284,7 +284,7 @@ d series:
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20191022 to 20191122 https://www.gnu.org/software/parallel/
+-parallel: 20191122 https://www.gnu.org/software/parallel/
 -patchelf: 0.10 http://nixos.org/patchelf.html
 -perl: 5.30.1
 	- Authen-SASL: 2.16
@@ -541,7 +541,7 @@ l series:
 -libpsl: 0.21.0 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.46.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.46.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.2 to 3.0.0 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.18.8 to 0.19.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -675,14 +675,14 @@ l series:
 -v4l-utils: 1.18.0 http://linuxtv.org/downloads/v4l-utils/
 -vte: 0.58.2 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.1.0 http://www.wavpack.com/
--xapian-core: 1.4.13 http://www.xapian.org/
+-xapian-core: 1.4.14 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
 -zstd: 1.4.4 http://zstd.net/
 --------------------
 n series:
 --------------------
 -ModemManager: 1.12.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.20.6 to 1.21.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.20.8 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -714,7 +714,7 @@ n series:
 -fetchmail: 6.4.1 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.14 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.17 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.17 to 2.2.18 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.10 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.13.1 https://www.gnupg.org/download/index.html
@@ -798,7 +798,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.4.6 to 3.4.7 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.4.8 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.7
 	-ppp: 2.4.7 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
@@ -815,8 +815,8 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 3.6.0 https://github.com/lib~/fuse/sshfs
--stunnel: 5.55 http://www.stunnel.org/download/stunnel/src/
--tcp_wrappers: 7.6 : 6.2 to 6.4 ftp://ftp.porcupine.org/pub/security/
+-stunnel: 5.56 http://www.stunnel.org/download/stunnel/src/
+-tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.3 http://www.tcpdump.org/releases
 -telnet:
 	-netkit-telnet:  0.17 to 0.17_36.diff.gz (ipv6: telnet from redhat)
@@ -894,7 +894,7 @@ x series: (main packages)
 -vulkan-sdk: 1.1.121.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3
 -xorgproto: 2019.2 
--xorg-server: 1.20.5 to 1.20.6 ftp://ftp.x.org/pub/individual/xserver/
+-xorg-server: 1.20.6 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.29.0
 -xf86-input-wacom: 0.38.0
 -xf86-video-amdgpu: 19.1.0
