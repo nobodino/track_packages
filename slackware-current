@@ -231,7 +231,7 @@ Ap series :
 -sysstat: 12.2.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 2.9a https://tmux.github.io/
+-tmux: 3.0 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
 -vim: 8.1.2318 to 2336 ftp://ftp.vim.org/pub/vim/patches/8.1/
@@ -255,7 +255,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.15.5 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.15.5 to 3.16.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -306,7 +306,7 @@ d series:
 -python: 2.7.17 https://www.python.org/downloads/
 -python3: 3.7.5 to 3.8.0 https://www.python.org/downloads/
 -python-pip: 19.3.1 https://pip.pypa.io/
--python-setuptools: 41.6.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 42.0.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.2.1 http://re2c.org
 -ruby: 2.6.5 ftp://ftp.ruby-lang.org/pub/ruby
@@ -390,7 +390,7 @@ l series:
 -db44: 4.4.20.2 http://forum.prepas.org/viewtopic.php?f=16&t=70962
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
--dbus-python: 1.2.12 http://dbus.freedesktop.org/releases/dbus-glib/
+-dbus-python: 1.2.14 http://dbus.freedesktop.org/releases/dbus-glib/
 -dconf: 0.34.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 3.34.2 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.24 http://freedesktop.org/software/desktop-file-utils/releases/
@@ -449,7 +449,7 @@ l series:
 -gstreamer: 1.16.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.12 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.13 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.2 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_5 http://www.imagemagick.org/
+-imagemagick: 7.0.9_6 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -794,7 +794,7 @@ n series:
 -openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.18.1 http://p11-glue.freedesktop.org/releases/
--php: 7.3.12 http://www.php.net/distributions/
+-php: 7.3.12 to 7.4.0 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
