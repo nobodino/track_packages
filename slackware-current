@@ -60,7 +60,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 4.19.85 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.1 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20191118 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -70,7 +70,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.1 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.06 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.06 to 2.03.07 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 166 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -110,14 +110,14 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.32 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
--tcsh: 6.21.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.22.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
 -udisks2: 2.6.5 to 2.8.1 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.9.23 to 0.99.11 http://upower.freedesktop.org/releases/
--usb_modeswitch: 2.5.2 http://www.draisberghof.de/usb_modeswitch/#download
+-usb_modeswitch: 2.6.0 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 012 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
 -util-linux: 2.34
@@ -152,9 +152,9 @@ Ap series :
 	- cups: 2.3.0 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.25.11 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
+-cups-filters: 1.25.13 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/-ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
--diffstat:  1.62 http://invisible-island.net/diffstat/diffstat.html
+-diffstat: 1.63 http://invisible-island.net/diffstat/diffstat.html
 -diffutils: 3.7 ftp://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 ftp://oss.sgi.com/projects/xfs/cmd_tars/
 -dmidecode: 3.2 https://www.nongnu.org/dmidecode/
@@ -207,7 +207,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.13 http://sourceforge.net/projects/mpg123/files/
--nano: 4.5 http://www.nano-editor.org/download.php
+-nano: 4.6 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4.0 https://github.com/cdemoulins/pamixer
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 3.0 https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2318 to 2336 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.1.2250
+-vim: 8.1.2318 to 2357 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.1.2318
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -272,13 +272,13 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 4.19.85
+-kernel-headers: 5.4.1
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 (4.2.90 beta) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.2 https://mercurial.selenic.com/downloads
--meson: 0.52.0 http://mesonbuild.com/
+-meson: 0.52.1 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -313,7 +313,7 @@ d series:
 -rust: 1.39.0 https://rust-lang.org
 -scons: 3.1.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
--strace: 5.3 https://github.com/strace/strace/releases/download/
+-strace: 5.4 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.1 http://www.swig.org/download.html
 -vala: 0.46.5 https://wiki.gnome.org/Projects/Vala
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel :  4.19.85
+-kernel : 5.4.1
 --------------------
 kde series :
 --------------------
@@ -366,7 +366,7 @@ l series:
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -adwaita-icon-theme: 3.34.3 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
--alsa-lib: 1.2.1.1 ftp://ftp.alsa-project.org/pub/lib
+-alsa-lib: 1.2.1.1 to 1.2.1.2 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.2.1 ftp://ftp.alsa-project.org/pub/plugins/
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -398,7 +398,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.2.10 to 3.3.7 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.177 http://fedorahosted.org/releases/e/l/elfutils
+-elfutils: 0.178 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_6 http://www.imagemagick.org/
+-imagemagick: 7.0.9_6 to 7.0.9_7 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -620,7 +620,7 @@ l series:
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
 -pyparsing: 2.4.5 http://pyparsing.wikispaces.com/
 -python-appdirs: 1.4.3 https://github.com/ActiveState/appdirs
--python-certifi: 2019.9.11 http://certifi.io/
+-python-certifi: 2019.11.28 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.15.2 http://docutils.sourceforge.net/
 -python-idna: 2.8 https://github.com/kjd/idna
@@ -695,7 +695,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.6 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20191018 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20191130 http://packages.qa.debian.org/c/ca-certificates.html
 -cifs-utils: 6.9 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
@@ -755,7 +755,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190618 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.93 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.12.1 to 1.12.2 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.12.1 to 1.13.0 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -946,7 +946,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2318 to 2336
+-gvim: 8.1.2318 to 2357
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.2.0esr to 70.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.2.2 http://www.mozilla.org/projects/thunderbird/
@@ -1036,7 +1036,7 @@ extra:
 --------------------
 testing :
 --------------------
--kernel: 5.4.0_rc7
+-
 /-----------------------------------------------------------------------------------/
  grep . /sys/devices/system/cpu/vulnerabilities/*
 /-----------------------------------------------------------------------------------/
