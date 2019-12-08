@@ -91,7 +91,7 @@ A series :
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.8 http://www.nongnu.org/lzip/plzip.html
--procps-ng: 3.3.15 
+-procps-ng: 3.3.15 to 3.3.16
 	-procps-ng: 3.3.15 http://sourceforge.net/projects/procps-ng/files/Production/
 	-psmisc: 23.2 
 -quota: 4.05 http://www.sf.net/projects/linuxquota/
@@ -234,7 +234,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2391 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2391 to 2408 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2391
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_7 http://www.imagemagick.org/
+-imagemagick: 7.0.9_8 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -715,7 +715,7 @@ n series:
 -fetchmail: 6.4.1 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.14 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.17 to 2.2.18 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.19 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.11.1 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.13.1 https://www.gnupg.org/download/index.html
@@ -754,7 +754,7 @@ n series:
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
 -mcabber: 1.1.0 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
--mobile-broadband-provider-info: 20190618 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mobile-broadband-provider-info: 20190922 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.93 ftp://ftp.bitwizard.nl/mtr/
 -mutt: 1.13.0 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
@@ -947,7 +947,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2391
+-gvim: 8.1.2391 to 2408
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.3.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.3.0 http://www.mozilla.org/projects/thunderbird/
