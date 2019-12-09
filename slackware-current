@@ -91,8 +91,8 @@ A series :
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.8 http://www.nongnu.org/lzip/plzip.html
--procps-ng: 3.3.15 to 3.3.16
-	-procps-ng: 3.3.15 http://sourceforge.net/projects/procps-ng/files/Production/
+-procps-ng: 3.3.16
+	-procps-ng: 3.3.16 http://sourceforge.net/projects/procps-ng/files/Production/
 	-psmisc: 23.2 
 -quota: 4.05 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
@@ -486,7 +486,7 @@ l series:
 -libbluray: 1.1.2 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.27 http://sites.google.com/site/fullycapable/
+-libcap: 2.22 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.7.10 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
