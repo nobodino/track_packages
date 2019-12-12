@@ -23,7 +23,7 @@ A series :
 -dbus: 1.12.16 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20191110 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20170509 to 1.3_20191210 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -202,7 +202,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.0 http://www.nongnu.org/man-db/
 -man-pages: 5.04 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.4.10 http://mariadb.org/
+-mariadb: 10.4.11 http://mariadb.org/
 -mc: 4.8.23 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -234,7 +234,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.1.2391 to 2408 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.1.2391 to 2410 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.1.2391
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -255,7 +255,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.15.5 to 3.16.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.16.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -264,7 +264,7 @@ d series:
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/
 -gdb: 8.3.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.24.0 http://git-scm.com/download
+-git: 2.24.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.6 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -381,7 +381,7 @@ l series:
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
 -babl: 0.1.72 http://download.gimp.org/pub/babl/0.1/
--boost: 1.71.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.71.0 to 1.72.0 http://sourceforge.net/projects/boost/files/boost/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
@@ -421,7 +421,7 @@ l series:
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.62.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.62.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.62.3 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.62.0 http://www.gtkmm.org/
 -glibc: 2.30
@@ -585,7 +585,7 @@ l series:
 -mozilla-nss: 3.47.1 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.47.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.23 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs52: 52.9.0esr
+-mozjs60: 60.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.1_20191026 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
@@ -606,7 +606,7 @@ l series:
 -phonon: 4.8.3 to 4.11.0 http://download.kde.org/stable/phonon/
 -phonon-gstreamer: 4.8.2 to 4.10.0 (phonon-backend-gstreamer)
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--polkit: 0.115 http://www.freedesktop.org/software/polkit/releases/
+-polkit: 0.116 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 0.68.0 to 0.83.0 http://poppler.freedesktop.org/
@@ -682,7 +682,7 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.12.0 http://www.freedesktop.org/software/ModemManager/
+-ModemManager: 1.12.2 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.20.8 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
@@ -812,7 +812,7 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.15 http://www.sdaoden.eu/downloads
--samba: 4.11.2 https://ftp.samba.org/pub/samba/
+-samba: 4.11.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -sshfs: 3.6.0 https://github.com/lib~/fuse/sshfs
@@ -892,7 +892,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.38.4 http://cairographics.org/releases/
 -sessreg: 1.1.2
--vulkan-sdk: 1.1.121.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.126.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3
 -xorgproto: 2019.2 
 -xorg-server: 1.20.6 ftp://ftp.x.org/pub/individual/xserver/
@@ -947,7 +947,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.1.2391 to 2408
+-gvim: 8.1.2391 to 2418
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.3.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.3.0 http://www.mozilla.org/projects/thunderbird/
@@ -970,7 +970,7 @@ xap series:
 -xaos: 3.6 http://xaos.sf.net
 -xgames: 0.2
 -xine-lib: 1.2.9 http://dl.sourceforge.net/xine/
--xine-ui: 0.99.11 http://dl.sourceforge.net/xine/
+-xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
 -xlockmore: 5.59 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
