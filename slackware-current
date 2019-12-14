@@ -140,7 +140,7 @@ Ap series :
 -alsa-utils: 1.2.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 2.1.3 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 2.4.0 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -152,7 +152,7 @@ Ap series :
 	- cups: 2.3.0 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.25.13 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
+-cups-filters: 1.25.13 to 1.26.0 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/-ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.63 http://invisible-island.net/diffstat/diffstat.html
 -diffutils: 3.7 ftp://ftp.gnu.org/pub/gnu/diffutils/
@@ -234,7 +234,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0000 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0000 to 0002 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0000
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -486,7 +486,7 @@ l series:
 -libbluray: 1.1.2 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.22 http://sites.google.com/site/fullycapable/
+-libcap: 2.22 to 2.28 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.7.10 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -501,7 +501,7 @@ l series:
 -libevent: 2.1.11 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
--libffi: 3.2.1 ftp://sourceware.org/pub/libffi
+-libffi: 3.2.1 to 3.3 ftp://sourceware.org/pub/libffi
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.53 http://www.gphoto.org/
@@ -635,7 +635,7 @@ l series:
 -qca: 2.1.3 to 2.2.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
--qt: 4.8.7 to 5.13.2 ftp://ftp.trolltech.com/qt/source/
+-qt: 4.8.7 to 5.14.0 ftp://ftp.trolltech.com/qt/source/
 -qt-gstreamer: 1.2.0 http://gstreamer.freedesktop.org/modules/qt-gstreamer.html
 -qtscriptgenerator: 0.2.0 https://code.google.com/p/qtscriptgenerator/downloads/list
 -raptor2: 2.0.15 http://download.librdf.org/source/
@@ -949,7 +949,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0000
+-gvim: 8.2.0000 to 0002
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.3.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.3.0 http://www.mozilla.org/projects/thunderbird/
@@ -971,7 +971,7 @@ xap series:
 -x3270: 3.3.12ga7 http://x3270.bgp.nu/download.html
 -xaos: 3.6 http://xaos.sf.net
 -xgames: 0.2
--xine-lib: 1.2.9 http://dl.sourceforge.net/xine/
+-xine-lib: 1.2.9 to 1.2.10 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
 -xlockmore: 5.61 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
