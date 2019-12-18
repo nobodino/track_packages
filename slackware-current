@@ -311,7 +311,7 @@ d series:
 -re2c: 1.3 http://re2c.org
 -ruby: 2.6.5 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.39.0 https://rust-lang.org
--scons: 3.1.1 http://www.scons.org/
+-scons: 3.1.1 to 3.1.2 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.4 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
@@ -401,11 +401,11 @@ l series:
 -elfutils: 0.178 http://fedorahosted.org/releases/e/l/elfutils
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
--exiv2: 0.26.0 to 0.26.0_20180811 http://www.exiv2.org/
+-exiv2: 0.26.0 to 0.27.2 http://www.exiv2.org/
 -expat: 2.2.9 http://sourceforge.net/projects/expat/files/expat/
 -ffmpeg: 4.2.1 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
--fluidsynth: 1.1.11 to 2.0.2 http://www.fluidsynth.org/
+-fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
 -freetype: 2.10.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.7 http://fribidi.org/download
 -fuse: 2.9.9 to 3.9.0 https://github.com/libfuse/libfuse
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_8 http://www.imagemagick.org/
+-imagemagick: 7.0.9_8 to 7.0.9_9 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -795,7 +795,7 @@ n series:
 -openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.18.1 http://p11-glue.freedesktop.org/releases/
--php: 7.4.0 http://www.php.net/distributions/
+-php: 7.4.0 to 7.4.1 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -952,7 +952,7 @@ xap series:
 -gvim: 8.2.0000 to 0002
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.3.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.3.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.3.0 to 68.3.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
