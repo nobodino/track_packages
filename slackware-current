@@ -60,8 +60,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.4 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20191215 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.4.6 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20191220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -127,7 +127,7 @@ A series :
 	- util-linux: 2.34 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
--xfsprogs: 5.3.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.4.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.4 http://tukaani.org/xz/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
 --------------------
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0000 to 0019 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.0000
+-vim: 8.2.0019 to 23 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.0019
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -255,7 +255,7 @@ d series:
 -clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.16.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.16.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -272,9 +272,9 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.4
+-kernel-headers: 5.4.6
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
--llvm: 9.0.0 http://llvm.org/
+-llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 (4.2.90 beta) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.2 https://mercurial.selenic.com/downloads
@@ -304,14 +304,14 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.17 https://www.python.org/downloads/
--python3: 3.7.5 to 3.8.0 https://www.python.org/downloads/
+-python3: 3.7.6 to 3.8.1 https://www.python.org/downloads/
 -python-pip: 19.3.1 https://pip.pypa.io/
 -python-setuptools: 42.0.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.3 http://re2c.org
 -ruby: 2.6.5 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.39.0 https://rust-lang.org
--scons: 3.1.1 to 3.1.2 http://www.scons.org/
+-rust: 1.40.0 https://rust-lang.org
+-scons: 3.1.2 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.4 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.4
+-kernel : 5.4.6
 --------------------
 kde series :
 --------------------
@@ -355,7 +355,7 @@ l series:
 -LibRaw: 0.18.12 to 0.19.5 http://www.libraw.org/
 -M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.3 http://www.riverbankcomputing.co.uk/software/pyqt/download
--QScintilla: 2.11.3 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
+-QScintilla: 2.11.4 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -SDL2: 2.0.10 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
@@ -422,7 +422,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.62.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.62.3 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.62.4 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.62.0 http://www.gtkmm.org/
 -glibc: 2.30
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_8 to 7.0.9_9 http://www.imagemagick.org/
+-imagemagick: 7.0.9_9 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -501,7 +501,7 @@ l series:
 -libevent: 2.1.11 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
--libffi: 3.2.1 to 3.3 ftp://sourceware.org/pub/libffi
+-libffi: 3.3 ftp://sourceware.org/pub/libffi
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.53 http://www.gphoto.org/
@@ -565,7 +565,7 @@ l series:
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvncserver: 0.9.11 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.6 https://www.xiph.org/downloads/
--libvpx: 1.8.1 http://www.webmproject.org/
+-libvpx: 1.8.2 http://www.webmproject.org/
 -libwebp: 1.0.3 https://developers.google.com/speed/webp/
 -libwmf: 0.2.8.4 http://sourceforge.net/projects/wvware/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
@@ -653,7 +653,7 @@ l series:
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.15 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.19 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 4.19.20 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 ftp://space.mit.edu/pub/davis/slang/
 -soprano: 2.9.4 http://sourceforge.net/projects/soprano/
@@ -675,7 +675,7 @@ l series:
 -utf8proc: 2.4.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.18.0 http://linuxtv.org/downloads/v4l-utils/
 -vte: 0.58.2 http://ftp.gnome.org/pub/gnome/sources/vte/
--wavpack: 5.1.0 http://www.wavpack.com/
+-wavpack: 5.2.0 http://www.wavpack.com/
 -xapian-core: 1.4.14 http://www.xapian.org/
 -zlib: 1.2.11 http://www.gzip.org/zlib/
 -zstd: 1.4.4 http://zstd.net/
@@ -690,14 +690,14 @@ n series:
 -argon2: 20190702
 -autofs: 5.1.6 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.14.8 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.14.9 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.52 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.6 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20191130 http://packages.qa.debian.org/c/ca-certificates.html
--cifs-utils: 6.9 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 6.10 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
@@ -705,7 +705,7 @@ n series:
 -curl: 7.67.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 8.1.2 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.1.4 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.9.2 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
@@ -731,7 +731,7 @@ n series:
 -iputils: s20190709 http://www.skbuff.net/iputils/
 -irssi: 1.2.1 http://www.irssi.org/files/
 -iw: 5.4 https://www.kernel.org/pub/software/network/iw/
--lftp: 4.8.4 http://ftp.yars.free.net/pub/source/lftp/
+-lftp: 4.9.0 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.3 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.8.5 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.36 https://www.gnupg.org/download/index.html
@@ -756,7 +756,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190922 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.93 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.13.1 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.13.2 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -791,11 +791,11 @@ n series:
 -openldap-client: 2.4.48 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.1p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl10: 1.0.2t ftp://ftp.openssl.org/source/
+-openssl10: 1.0.2u ftp://ftp.openssl.org/source/
 -openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.18.1 http://p11-glue.freedesktop.org/releases/
--php: 7.4.0 to 7.4.1 http://www.php.net/distributions/
+-php: 7.4.1 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -866,7 +866,7 @@ x series: (main packages)
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
 -igt-gpu-tools: 1.24.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
--intel-vaapi-driver: 2.3.0 https://01.org/linuxmedia/vaapi
+-intel-vaapi-driver: 2.4.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
@@ -887,7 +887,7 @@ x series: (main packages)
 -libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 19.3.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.3.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
@@ -949,7 +949,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0000 to 0019
+-gvim: 8.2.0019 to 23
 -hexchat: 2.14.2 https://hexchat.github.io/
 -mozilla-firefox: 68.3.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.3.1 http://www.mozilla.org/projects/thunderbird/
@@ -1030,7 +1030,7 @@ extra:
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
 -recordmydesktop: 0.3.8.1 http://recordmydesktop.sourceforge.net/
 -sendmail: 8.15.2
--tigervnc: 1.10.0 http://tigervnc.org
+-tigervnc: 1.10.1 http://tigervnc.org
 -wicd: 1.7.4 https://launchpad.net/wicd
 -xf86-video-fbdev: 0.4.3
 -xf86-video-nouveau-blacklist: 
