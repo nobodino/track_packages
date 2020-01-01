@@ -60,7 +60,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.6 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.7 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20191220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -82,7 +82,7 @@ A series :
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.3 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
--ncompress: 4.2.4.4 to 4.2.4.5 http://ftp.debian.org/debian/pool/main/n/ncompress/
+-ncompress: 4.2.4.6 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -openssl-solibs: 1.1.1cd http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
@@ -101,7 +101,7 @@ A series :
 -sed: 4.7 ftp://ftp.gnu.org/pub/gnu/sed
 -shadow: 4.7 http://pkg-shadow.alioth.debian.org/
 -sharutils: 4.15.2 ftp://ftp.gnu.org/pub/gnu/sharutils/
--smartmontools: 7.0 http://sourceforge.net/projects/smartmontools/files/smartmontools/
+-smartmontools: 7.0 to 7.1 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 1.5.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
@@ -172,7 +172,7 @@ Ap series :
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 20190416 http://www.kornshell.com/
+-ksh93: 20191228 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.73 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 8.6.10 http://www.methods.co.nz/asciidoc/
@@ -227,14 +227,14 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.30.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
--sudo: 1.8.29 http://www.courtesan.com/sudo/current.html
--sysstat: 12.2.0 to 12.2.1 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sudo: 1.8.29 to 1.8.30 http://www.courtesan.com/sudo/current.html
+-sysstat: 12.3.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0050 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0050 to 0069 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0050
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -252,15 +252,15 @@ d series:
 -bison: 3.5 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.7.6 https://ftp.samba.org/pub/ccache/
 -check: 0.13.0 https://github.com/libcheck/check/releases
--clisp: 2.49.20181112 http://hg.code.sf.net/p/clisp/clisp
-	- clisp: 2.49 ftp://ftp.gnu.org/pub/gnu/clisp/
+-clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
+	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
 -cmake: 3.16.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
 -distcc: 3.3.3 http://distcc.samba.org/
--doxygen: 1.8.16 to 1.8.17 ftp://ftp.stack.nl/pub/users/dimitri/
+-doxygen: 1.8.17 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/
 -gdb: 8.3.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -272,7 +272,7 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.6
+-kernel-headers: 5.4.7
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -304,7 +304,7 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.17 https://www.python.org/downloads/
--python3: 3.7.6 to 3.8.1 https://www.python.org/downloads/
+-python3: 3.8.1 https://www.python.org/downloads/
 -python-pip: 19.3.1 https://pip.pypa.io/
 -python-setuptools: 42.0.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.6
+-kernel : 5.4.7
 --------------------
 kde series :
 --------------------
@@ -403,7 +403,7 @@ l series:
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.27.2 http://www.exiv2.org/
 -expat: 2.2.9 http://sourceforge.net/projects/expat/files/expat/
--ffmpeg: 4.2.1 https://ffmpeg.org/
+-ffmpeg: 4.2.1 to 4.2.2 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
 -freetype: 2.10.1 http://sourceforge.net/projects/freetype/files/freetype2/
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_12 http://www.imagemagick.org/
+-imagemagick: 7.0.9_13 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -479,7 +479,7 @@ l series:
 -lcms2: 2.9 http://sourceforge.net/projects/lcms/files/lcms/
 -libaio: 0.3.111 http://de-mirror.org/gentoo/distfiles/
 -libao: 1.2.2 https://www.xiph.org/downloads/
--libarchive: 3.4.0 http://www.libarchive.org/downloads/
+-libarchive: 3.4.1 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
@@ -515,7 +515,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20190118 http://www.libimobiledevice.org/
 -libiodbc: 3.52.13 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.0.3 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.0.4 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -liblastfm: 1.1.0 http://liblastfm.sourceforge.net/ or http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -563,7 +563,7 @@ l series:
 -libvisio: 0.1.7 https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 -libvisual: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
--libvncserver: 0.9.11 https://github.com/LibVNC/libvncserver/releases
+-libvncserver: 0.9.12 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.6 https://www.xiph.org/downloads/
 -libvpx: 1.8.2 http://www.webmproject.org/
 -libwebp: 1.0.3 https://developers.google.com/speed/webp/
@@ -609,7 +609,7 @@ l series:
 -polkit: 0.116 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.68.0 to 0.83.0 http://poppler.freedesktop.org/
+-poppler: 0.68.0 to 0.84.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.16 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 13.0 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -811,7 +811,7 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.15 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.16 http://www.sdaoden.eu/downloads
 -samba: 4.11.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
@@ -950,7 +950,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0050
+-gvim: 8.2.0050 to 0069
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.3.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.3.1 http://www.mozilla.org/projects/thunderbird/
@@ -1006,7 +1006,7 @@ xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 -xfce4-systemload-plugin: 1.2.3
 -xfce4-taskmanager: 1.2.2
 -xfce4-terminal: 0.8.8
--xfce4-weather-plugin: 0.8.10
+-xfce4-weather-plugin: 0.8.11
 -xfconf: 4.12.1 to 4.14.1
 -xfdesktop: 4.12.5 to 4.14.1
 -xfwm4: 4.12.5 to 4.14.0
