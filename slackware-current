@@ -6,7 +6,7 @@ A series :
 --------------------
 -aaa_base: 14.2
 -aaa_elflibs: 15.0
--aaa_terminfo: 6.1_20191026
+-aaa_terminfo: 6.1_20191228
 -acl: 2.2.53 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.32 http://sourceforge.net/projects/acpid2/
 -attr: 2.2.48 http://savannah.nongnu.org/projects/attr
@@ -23,7 +23,7 @@ A series :
 -dbus: 1.12.16 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20170509 to 1.3_20191210 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20191210 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -46,13 +46,13 @@ A series :
 -glibc-zoneinfo: 2019c
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.4 http://www.rodsbooks.com/gdisk/
--grep: 3.3 ftp://ftp.gnu.org/pub/gnu/grep
+-grep: 3.4 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.04 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.8 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.330 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.331 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -60,7 +60,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.8 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20191220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -99,9 +99,9 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.10 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.7 ftp://ftp.gnu.org/pub/gnu/sed
--shadow: 4.7 http://pkg-shadow.alioth.debian.org/
+-shadow: 4.8 http://pkg-shadow.alioth.debian.org/
 -sharutils: 4.15.2 ftp://ftp.gnu.org/pub/gnu/sharutils/
--smartmontools: 7.0 to 7.1 http://sourceforge.net/projects/smartmontools/files/smartmontools/
+-smartmontools: 7.1 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 1.5.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
@@ -152,7 +152,7 @@ Ap series :
 	- cups: 2.3.0 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.26.0 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
+-cups-filters: 1.26.1 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/-ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.63 http://invisible-island.net/diffstat/diffstat.html
 -diffutils: 3.7 ftp://ftp.gnu.org/pub/gnu/diffutils/
@@ -175,29 +175,29 @@ Ap series :
 -ksh93: 20191228 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.73 http://packages.qa.debian.org/l/linuxdoc-tools.html
-	- asciidoc: 8.6.10 http://www.methods.co.nz/asciidoc/
+	- asciidoc: 8.6.10-0.13.20180605git986f99d.fc32 http://www.methods.co.nz/asciidoc/
 	- docbook-dsssl: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-dsssl-doc: 1.79 http://sourceforge.net/projects/docbook/files/
-	- docbook-style-xsl: 1.79.1 http://downloads.sourceforge.net/project/docbook/docbook-xsl/
-	- docbook-utils: 0.6.14 ftp://sources.redhat.com/pub/docbook-tools/new-trials/SOURCES/
+	- docbook-style-xsl: 1.79.2-10.fc31 http://downloads.sourceforge.net/project/docbook/docbook-xsl/
+	- docbook-utils: 0.6.14-48.fc31 ftp://sources.redhat.com/pub/docbook-tools/new-trials/SOURCES/
 	- docbook-xml: 4.5 to 5.0b5 http://www.docbook.org/xml/
 	- docbook2x: 0.8.8 http://packages.debian.org/sid/docbook2x
 	- dbook: 4.5
 	- gnome-doc-utils: 0.20.10 http://ftp.acc.umu.se/pub/GNOME/sources/gnome-doc-utils/
-	- gtk-doc: 1.29 http://ftp.acc.umu.se/pub/GNOME/sources/gtk-doc/
+	- gtk-doc: 1.32-2.fc32 http://ftp.acc.umu.se/pub/GNOME/sources/gtk-doc/
 	- libsgmls-perl: 1.03 http://ftp.debian.org/debian/pool/main/libs/libsgmls-perl/
 	- linuxdoc-tools: 0.9.72 https://packages.debian.org/sid/linuxdoc-tools
 	- openjade: 1.3.2 (1.3.3-pre1: segfault) http://openjade.sourceforge.net/download.html
-	- opensp: 1.5.2 http://openjade.sourceforge.net/download.html
-	- perl-XML-Namespacesupport: 1.11 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
-	- perl-XML-SAX: 1.00 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
-	- perl-XML-SAX-Base: 1.08 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
-	- sgml-common: 0.6.3 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
-	- xmlto: 0.0.28 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
+	- opensp: 1.5.2-33.fc31 http://openjade.sourceforge.net/download.html
+	- perl-XML-Namespacesupport: 1.12-9.fc31 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
+	- perl-XML-SAX: 1.02-2.fc31 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
+	- perl-XML-SAX-Base: 1.09-9.fc31 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
+	- sgml-common: 0.6.3-53.fc31 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
+	- xmlto: 0.0.28-12.fc31 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/groeck/lm-sensors
 -lsof: 4.93.2 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.30 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 2.0.11 to 3.0.2 http://sourceforge.net/projects/lxc/files/lxc
+-lxc: 2.0.11_fad08f383 to 3.0.2 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.0 http://www.nongnu.org/man-db/
@@ -227,7 +227,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.30.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
--sudo: 1.8.29 to 1.8.30 http://www.courtesan.com/sudo/current.html
+-sudo: 1.8.30 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.3.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -268,11 +268,11 @@ d series:
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 2.2.6 ftp://ftp.gnu.org/pub/gnu/guile/
--help2man: 1.47.11 http://ftp.gnu.org/gnu/help2man/
+-help2man: 1.47.12 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.7
+-kernel-headers: 5.4.8
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -306,7 +306,7 @@ d series:
 -python: 2.7.17 https://www.python.org/downloads/
 -python3: 3.8.1 https://www.python.org/downloads/
 -python-pip: 19.3.1 https://pip.pypa.io/
--python-setuptools: 42.0.2 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 44.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.3 http://re2c.org
 -ruby: 2.7.0 ftp://ftp.ruby-lang.org/pub/ruby
@@ -334,7 +334,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.7
+-kernel : 5.4.8
 --------------------
 kde series :
 --------------------
@@ -403,7 +403,7 @@ l series:
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.27.2 http://www.exiv2.org/
 -expat: 2.2.9 http://sourceforge.net/projects/expat/files/expat/
--ffmpeg: 4.2.1 to 4.2.2 https://ffmpeg.org/
+-ffmpeg: 4.2.2 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
 -freetype: 2.10.1 http://sourceforge.net/projects/freetype/files/freetype2/
@@ -421,7 +421,7 @@ l series:
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.62.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.62.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.62.4 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.62.0 http://www.gtkmm.org/
 -glibc: 2.30
@@ -461,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_13 http://www.imagemagick.org/
+-imagemagick: 7.0.9_14 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -486,7 +486,7 @@ l series:
 -libbluray: 1.1.2 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.29 http://sites.google.com/site/fullycapable/
+-libcap: 2.30 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.7.10 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -497,7 +497,7 @@ l series:
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.0.1 http://download.videolan.org/videolan/libdvdread/
--libedit: 20191211-3.1 http://www.thrysoee.dk/editline/
+-libedit: 20191231-3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.11 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
@@ -587,9 +587,9 @@ l series:
 	- nspr: 4.23 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs60: 60.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.1_20191026 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
+-ncurses: 6.1_20191228 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
--netpbm: 10.88.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.89.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.4 https://github.com/kkos/oniguruma
@@ -624,10 +624,11 @@ l series:
 -python-certifi: 2019.11.28 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.15.2 http://docutils.sourceforge.net/
+-pyhton-distro: 1.4.0
 -python-idna: 2.8 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 19.2 https://github.com/pypa/packaging
--python-pillow: 6.2.1 https://python-pillow.github.io/
+-python-pillow: 7.0.0 https://python-pillow.github.io/
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.13.0 http://pypi.python.org/pypi/six/
@@ -705,7 +706,7 @@ n series:
 -curl: 7.67.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 8.1.4 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.1.5 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.9.2 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
@@ -815,7 +816,7 @@ n series:
 -samba: 4.11.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
--sshfs: 3.6.0 https://github.com/lib~/fuse/sshfs
+-sshfs: 3.7.0 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.56 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.3 http://www.tcpdump.org/releases
@@ -830,7 +831,7 @@ n series:
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.20.3 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.3 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-whois: 5.5.4 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.9 http://hostap.epitest.fi/releases/
 -yptools:
@@ -874,7 +875,7 @@ x series: (main packages)
 -libepoxy: 1.5.3
 -libevdev: 1.8.0
 -libglvnd: 1.2.0
--libinput: 1.14.3
+-libinput: 1.15.0
 -libmypaint: 1.4.0 http://mypaint.org
 -libva: 2.6.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.6.0 https://01.org/linuxmedia/vaapi
@@ -893,7 +894,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.38.4 http://cairographics.org/releases/
 -sessreg: 1.1.2
--vulkan-sdk: 1.1.126.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.1.130.0 https://www.khronos.org/vulkan/
 -xdg-utils: 1.1.3
 -xorgproto: 2019.2 
 -xorg-server: 1.20.6 ftp://ftp.x.org/pub/individual/xserver/
@@ -920,8 +921,8 @@ x series: (main packages)
 --------------------
 xap series:
 --------------------
--MPlayer: 1.3_20190717 https://mplayerhq.hu/design7/news.html
-	-Mplayer: 20190717
+-MPlayer: 1.3_20200103 https://mplayerhq.hu/design7/news.html
+	-Mplayer: 20200103
 	-Blue: 1.10 (skin)
 -audacious: 3.10.1 http://audacious-media-player.org/release/
 -audacious-plugins: 3.10.1
