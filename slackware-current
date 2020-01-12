@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.4 to 5.4.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.4.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.31 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -72,7 +72,7 @@ A series :
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.07 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
--mcelog: 167 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 168 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.7.1 http://alioth.debian.org/
@@ -234,8 +234,8 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0050 to 0100 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.0050
+-vim: 8.2.0111 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.0111
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.8 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -386,8 +386,6 @@ l series:
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
--db42: 4.2.52.4 http://www.oracle.com/technology/software/products/berkeley-db/index.html
--db44: 4.4.20.2 http://forum.prepas.org/viewtopic.php?f=16&t=70962
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.14 http://dbus.freedesktop.org/releases/dbus-glib/
@@ -685,7 +683,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.12.2 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.22.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.22.4 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.21
 	-alpine: 2.21 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -727,7 +725,7 @@ n series:
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.3.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-ipset: 7.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.4 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
 -iputils: s20190709 http://www.skbuff.net/iputils/
@@ -952,10 +950,10 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0050 to 0100
+-gvim: 8.2.0111
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.4.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.3.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.4.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
