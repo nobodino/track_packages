@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20191210 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.45.4 to 1.45.5 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.45.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.15 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 http://linux.dell.com/efibootmgr
 -efivar: 20191015 https://github.com/rhboot/efivar
@@ -278,7 +278,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 (4.2.90 beta) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.2.2 https://mercurial.selenic.com/downloads
--meson: 0.52.1 http://mesonbuild.com/
+-meson: 0.53.0 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.9.0 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -580,8 +580,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.47.1 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.47.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.49.0 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.49.0 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.23 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs60: 60.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -702,7 +702,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.67.0 http://curl.haxx.se/download/
+-curl: 7.68.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.5 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -711,7 +711,7 @@ n series:
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
--ethtool: 5.3 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.3 to 5.4 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.1 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.14 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
