@@ -60,7 +60,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20200114 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -235,7 +235,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0114 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0114 to 125 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0114
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -273,7 +273,7 @@ d series:
 -icecream: 1.3 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.12
+-kernel-headers: 5.4.13
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -335,7 +335,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.12
+-kernel : 5.4.13
 --------------------
 kde series :
 --------------------
@@ -415,7 +415,7 @@ l series:
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.18 http://ftp.acc.umu.se/pub/gnome/sources/gegl
+-gegl: 0.4.20 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.0 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
@@ -429,7 +429,7 @@ l series:
 	-tzdata: 2019c https://www.iana.org/time-zones
 -gmime: 3.2.5 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.3 http://download.gna.org/getfem/stable/
--gmp: 6.1.2 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
+-gmp: 6.2.0 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
 -gnome-keyring: 3.34.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
@@ -588,7 +588,7 @@ l series:
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.1_20191228 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
--netpbm: 10.89.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.89.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.4 https://github.com/kkos/oniguruma
@@ -623,12 +623,12 @@ l series:
 -python-certifi: 2019.11.28 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.16.0 http://docutils.sourceforge.net/
--pyhton-distro: 1.4.0
+-pyhton-distro: 1.4.0 https://github.com/nir0s/distro
 -python-idna: 2.8 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 19.2 https://github.com/pypa/packaging
 -python-pillow: 7.0.0 https://python-pillow.github.io/
--python-pygments: 2.5.2
+-python-pygments: 2.5.2 https://pypi.org/project/Pygments
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.14.0 http://pypi.python.org/pypi/six/
@@ -877,7 +877,7 @@ x series: (main packages)
 -libglvnd: 1.2.0
 -libinput: 1.15.0
 -libmypaint: 1.4.0 http://mypaint.org
--libva: 2.6.0 https://01.org/linuxmedia/vaapi
+-libva: 2.6.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.6.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.3 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 1.2 https://github.com/linuxwacom
@@ -917,7 +917,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
 -xf86-input-wacom: 0.39.0
--xterm: 351 ftp://invisible-island.net/xterm/
+-xterm: 352 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -951,7 +951,7 @@ xap series:
 -gparted: 0.33.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0114
+-gvim: 8.2.0114 to 125
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.4.0esr to 71.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.4.1 http://www.mozilla.org/projects/thunderbird/
