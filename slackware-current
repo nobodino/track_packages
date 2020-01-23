@@ -61,7 +61,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.4.13 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20200114 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20200122 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -88,7 +88,7 @@ A series :
 -openssl-solibs: 1.1.1cd http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
--pciutils: 3.6.2 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
+-pciutils: 3.6.3 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.8 http://www.nongnu.org/lzip/plzip.html
@@ -256,7 +256,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.16.2 to 3.16.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.16.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -285,7 +285,7 @@ d series:
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.3.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20191222 https://www.gnu.org/software/parallel/
+-parallel: 20200122 https://www.gnu.org/software/parallel/
 -patchelf: 0.10 http://nixos.org/patchelf.html
 -perl: 5.30.1
 	- Authen-SASL: 2.16
@@ -632,7 +632,7 @@ l series:
 -python-requests: 2.22.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.14.0 http://pypi.python.org/pypi/six/
--python-urllib3: 1.25.7 https://urllib3.readthedocs.io/
+-python-urllib3: 1.25.8 https://urllib3.readthedocs.io/
 -qca: 2.1.3 to 2.2.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
@@ -691,7 +691,7 @@ n series:
 -argon2: 20190702
 -autofs: 5.1.6 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.14.9 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.14.10 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.52 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -705,7 +705,7 @@ n series:
 	- wireless-regdb: 2019.06.03
 -curl: 7.68.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
--dhcp: 4.4.1 ftp://ftp.isc.org/isc/dhcp/
+-dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.5 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.9.2 http://www.dovecot.org/releases/
@@ -796,7 +796,7 @@ n series:
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
 -openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.8 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.18.1 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.19 http://p11-glue.freedesktop.org/releases/
 -php: 7.4.2 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
