@@ -121,15 +121,16 @@ A series :
 -usb_modeswitch: 2.5.2 to 2.6.0 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 012 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter:  1.1.6 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.35 to 2.35.1
+-util-linux: 2.35.1
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz ftp://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 20181103 or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.35 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.35.1 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.4.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.4 http://tukaani.org/xz/
+-zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
 --------------------
 Ap series :
@@ -228,14 +229,14 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.31.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
--sudo: 1.8.30 to 1.8.31 http://www.courtesan.com/sudo/current.html
+-sudo: 1.8.31 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.3.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0131 to 183 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0131 to 190 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0131
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -290,7 +291,7 @@ d series:
 -perl: 5.30.1
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
-	- DBI: 1.642 http://www.cpan.org/modules/by-module/DBI/
+	- DBI: 1.642 to 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.13 
 	- IO-Socket-SSL: 2.066
 	- MIME-Base64: 3.15
@@ -460,7 +461,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_20 http://www.imagemagick.org/
+-imagemagick: 7.0.9_20 to 21 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -685,7 +686,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.12.4 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.22.4 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.22.6 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.22
 	-alpine: 2.22 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -718,7 +719,7 @@ n series:
 -getmail: 5.14 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.19 https://www.gnupg.org/download/index.html
--gnutls: 3.6.11.1 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.6.11.1 to 3.6.12 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.13.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -791,7 +792,7 @@ n series:
 -npth: 1.6 https://github.com/gpg/npth/releases
 -ntp: 4.2.8p13 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap-client: 2.4.48 to 2.4.49  ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap-client: 2.4.49 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.1p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
@@ -868,6 +869,7 @@ x series: (main packages)
 -compiz: 0.8.16.1 
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
+
 -igt-gpu-tools: 1.24.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
@@ -920,7 +922,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.4.0
 -xf86-input-wacom: 0.39.0
--xterm: 352 ftp://invisible-island.net/xterm/
+-xterm: 352 to 353 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -954,7 +956,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0131 to 183
+-gvim: 8.2.0131 to 190
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.4.2esr to 72.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.4.2 http://www.mozilla.org/projects/thunderbird/
@@ -987,13 +989,13 @@ xap series:
 --------------------
 xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 --------------------
--Thunar: 1.8.11
 -exo: 0.12.10
 -garcon: 0.6.4
 -gtk-xfce-engine: 2.10.1 to 3.2.0
 -libxfce4ui: 4.12.1 to 4.14.1
 -libxfce4util: 4.12.1 to 4.14.0
 -orage: 4.12.1
+-thunar: 1.8.12
 -thunar-volman: 0.9.5
 -tumbler: 0.2.8
 -xfce4-appfinder: 4.12.0 to 4.14.0
@@ -1043,6 +1045,8 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
+-binutils: 2.34
+-glibc: 2.31
 --------------------
 -
 /-----------------------------------------------------------------------------------/
