@@ -52,7 +52,7 @@ A series :
 -haveged: 1.9.8 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.331 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.332 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -60,12 +60,12 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20200203 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.4.18 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20200206 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
--lhasa: 0.3.1
+-lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libgudev: 233 http://wiki.gnome.org/Projects/libgudev
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.1 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
@@ -209,7 +209,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.13 http://sourceforge.net/projects/mpg123/files/
--nano: 4.7 http://www.nano-editor.org/download.php
+-nano: 4.8 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4.0 https://github.com/cdemoulins/pamixer
@@ -220,7 +220,7 @@ Ap series :
 -rpm: 4.15.1 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc-im: 0.7.0 https://github.com/andmarti1424/sc-im
--screen: 4.7.0 https://ftp.gnu.org/gnu/screen/
+-screen: 4.8.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
@@ -236,8 +236,8 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0131 to 200 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.0131
+-vim: 8.2.0224 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.0224
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -257,7 +257,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.16.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.16.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -271,10 +271,10 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.0 ftp://ftp.gnu.org/pub/gnu/guile/
 -help2man: 1.47.12 http://ftp.gnu.org/gnu/help2man/
--icecream: 1.3 https://github.com/icecc/icecream
+-icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.16
+-kernel-headers: 5.4.18
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -315,7 +315,7 @@ d series:
 -rust: 1.41.0 https://rust-lang.org
 -scons: 3.1.2 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
--strace: 5.4 https://github.com/strace/strace/releases/download/
+-strace: 5.5 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.1 http://www.swig.org/download.html
 -vala: 0.46.5 https://wiki.gnome.org/Projects/Vala
@@ -336,7 +336,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.16
+-kernel : 5.4.18
 --------------------
 kde series :
 --------------------
@@ -544,7 +544,7 @@ l series:
 -librsvg: 2.46.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.2 to 3.0.0 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
--libsecret: 0.18.8 to 0.20.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
+-libsecret: 0.18.8 to 0.20.1 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
@@ -870,6 +870,7 @@ x series: (main packages)
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
 
+
 -igt-gpu-tools: 1.24.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
@@ -956,7 +957,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0131 to 200
+-gvim: 8.2.0224
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.4.2esr to 72.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.4.2 http://www.mozilla.org/projects/thunderbird/
@@ -980,7 +981,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.9 to 1.2.10 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
--xlockmore: 5.61 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+-xlockmore: 5.62 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 2.10.2 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.02 ftp://ftp.foolabs.com/pub/xpdf
