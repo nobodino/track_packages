@@ -6,7 +6,7 @@ A series :
 --------------------
 -aaa_base: 14.2
 -aaa_elflibs: 15.0
--aaa_terminfo: 6.1_20200118
+-aaa_terminfo: 6.2
 -acl: 2.2.53 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.32 http://sourceforge.net/projects/acpid2/
 -attr: 2.2.48 http://savannah.nongnu.org/projects/attr
@@ -60,7 +60,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.18 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.20 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20200207 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -70,7 +70,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.15.1 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.07 to 2.03.08 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.08 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 168 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -252,7 +252,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.33.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.5 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.5.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.7.7 https://ftp.samba.org/pub/ccache/
 -check: 0.14.0 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
@@ -276,7 +276,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.18
+-kernel-headers: 5.4.20
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -338,7 +338,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.18
+-kernel : 5.4.20
 --------------------
 kde series :
 --------------------
@@ -394,7 +394,7 @@ l series:
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.16 http://dbus.freedesktop.org/releases/dbus-glib/
 -dconf: 0.34.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 3.34.3 https://download.gnome.org/sources/dconf-editor/
+-dconf-editor: 3.34.4 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.24 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
@@ -481,7 +481,7 @@ l series:
 -lcms2: 2.9 http://sourceforge.net/projects/lcms/files/lcms/
 -libaio: 0.3.111 http://de-mirror.org/gentoo/distfiles/
 -libao: 1.2.2 https://www.xiph.org/downloads/
--libarchive: 3.4.1 http://www.libarchive.org/downloads/
+-libarchive: 3.4.2 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
@@ -576,6 +576,7 @@ l series:
 -libxklavier: 5.4 http://ftp.gnome.org/pub/gnome/sources/libxklavier/
 -libxml2: 2.9.10 http://xmlsoft.org/sources/
 -libyaml: 0.2.2 (yaml) http://pyyaml.org/wiki/LibYAML
+-libxkbcommon: 0.10.0
 -libxslt: 1.1.34 ftp://xmlsoft.org/
 -libzip: 1.6.1 http://www.nih.at/libzip/
 -lmdb: 0.9.24 http://symas.com/mdb/
@@ -589,7 +590,7 @@ l series:
 	- nspr: 4.25 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs60: 60.9.0esr
 -mpfr: 4.0.2 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.1_20200118 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
+-ncurses: 6.2 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.30.2 http://www.webdav.org/neon/
 -netpbm: 10.89.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
@@ -604,7 +605,7 @@ l series:
 -pangomm: 2.42.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.3 ftp://ftp.gnu.org/pub/parted/
 -pcre2: 10.34 http://www.pcre.org/
--pcre: 8.43 http://pcre.sourceforge.net/src/
+-pcre: 8.44 http://pcre.sourceforge.net/src/
 -phonon: 4.8.3 to 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-gstreamer: 4.8.2 to 4.10.0 (phonon-backend-gstreamer)
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
@@ -655,6 +656,7 @@ l series:
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
 	-SDL_mixer: 1.2.12 https://www.libsdl.org/projects/SDL_mixer/
 	-SDL_net: 1.2.8 https://www.libsdl.org/projects/SDL_net/
+	-SDL_sound: 1.0.3 https://www.libsdl.org/projects/SDL_sound/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 1.15 http://freedesktop.org/wiki/Software/shared-mime-info/
@@ -687,7 +689,7 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.12.4 http://www.freedesktop.org/software/ModemManager/
+-ModemManager: 1.12.6 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.22.6 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.22
 	-alpine: 2.22 http://patches.freeiz.com/alpine
@@ -712,7 +714,7 @@ n series:
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.6 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.9.2 http://www.dovecot.org/releases/
+-dovecot: 2.3.9.3 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
@@ -736,7 +738,7 @@ n series:
 -iputils: s20190709 http://www.skbuff.net/iputils/
 -irssi: 1.2.1 http://www.irssi.org/files/
 -iw: 5.4 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.17.1 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.18.0 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.1 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.3 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.8.5 https://www.gnupg.org/download/index.html
@@ -796,7 +798,7 @@ n series:
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap-client: 2.4.49 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
--openssh: 8.1p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 8.2p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
 -openssl: 1.1.1d ftp://ftp.openssl.org/source/
 -openvpn: 2.4.8 http://www.openvpn.net/index.php/open-source/downloads.html
@@ -895,7 +897,7 @@ x series: (main packages)
 -libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 19.3.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 19.3.4 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
@@ -962,7 +964,7 @@ xap series:
 -gvim: 8.2.0224 to 241
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.5.0esr to 72.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.4.2 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.5.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
