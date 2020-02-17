@@ -247,7 +247,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.14 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.15 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.1 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
@@ -463,7 +463,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_22 http://www.imagemagick.org/
+-imagemagick: 7.0.9_23 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -628,6 +628,7 @@ l series:
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-docutils: 0.16.0 http://docutils.sourceforge.net/
 -pyhton-distro: 1.4.0 https://github.com/nir0s/distro
+-python-future: 0.18.2 https://pypi.org/project/future/
 -python-idna: 2.8 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 20.1 https://github.com/pypa/packaging
@@ -719,7 +720,7 @@ n series:
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.1 http://www.epicsol.org/
 -ethtool: 5.4 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.1 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.2 http://www.catb.org/~esr/fetchmail/
 -getmail: 5.14 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.19 https://www.gnupg.org/download/index.html
@@ -764,7 +765,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190922 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.93 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.13.3 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.13.3 to 1.13.4 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.8 http://www.net-snmp.org/download.html
@@ -873,8 +874,6 @@ x series: (main packages)
 -compiz: 0.8.16.1 
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
-
-
 -igt-gpu-tools: 1.24.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
