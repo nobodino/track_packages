@@ -62,7 +62,7 @@ A series :
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.4.20 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20200207 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 26 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kmod: 26 to 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
@@ -237,7 +237,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0224 to 241 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0224 to 273 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0224
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -425,7 +425,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.62.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.62.4 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.62.4 to 2.62.5 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.62.0 http://www.gtkmm.org/
 -glibc: 2.30
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -696,7 +696,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.12.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.22.6 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.22.6 to 1.22.8 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.22
 	-alpine: 2.22 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -890,7 +890,7 @@ x series: (main packages)
 -libevdev: 1.8.0
 -libglvnd: 1.2.0
 -libinput: 1.15.1
--libmypaint: 1.4.0 http://mypaint.org
+-libmypaint: 1.4.0 to 1.5.0 http://mypaint.org
 -libva: 2.6.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.6.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.3 http://people.freedesktop.org/~aplattner/vdpau/
@@ -953,7 +953,7 @@ xap series:
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.5.1 (image viewer) http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.0.19 http://gftp.seul.org/
--gimp: 2.10.14 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.14 to 2.10.16 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
 	- gkrellm-countdown: 0.1.2
@@ -966,7 +966,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0224 to 241
+-gvim: 8.2.0224 to 273
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.5.0esr to 72.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.5.0 http://www.mozilla.org/projects/thunderbird/
