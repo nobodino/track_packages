@@ -139,7 +139,7 @@ Ap series :
 	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 1.23 ftp://drocklinux.dyndns.org/software/psutils/ or http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
--alsa-utils: 1.2.1 to 1.2.2 ftp://ftp.alsa-project.org/pub/utils
+-alsa-utils: 1.2.2 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 2.5.3 ftp://ftp.gnu.org/pub/gnu/bc/
@@ -370,9 +370,9 @@ l series:
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -adwaita-icon-theme: 3.34.3 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
--alsa-lib: 1.2.1.2 to 1.2.2 ftp://ftp.alsa-project.org/pub/lib
+-alsa-lib: 1.2.2 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
--alsa-plugin: 1.2.1 to 1.2.2 ftp://ftp.alsa-project.org/pub/plugins/
+-alsa-plugin: 1.2.2 ftp://ftp.alsa-project.org/pub/plugins/
 -apr: 1.7.0 http://apr.apache.org/download.cgi
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
@@ -465,7 +465,7 @@ l series:
 -icu4c: 65.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.9_24 http://www.imagemagick.org/
+-imagemagick: 7.0.9_25 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
