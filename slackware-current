@@ -169,7 +169,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.19.12 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
+-hplip: 3.30.2 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -202,7 +202,7 @@ Ap series :
 -lxc: 2.0.11_fad08f383 to 3.0.2 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.9.0 http://www.nongnu.org/man-db/
+-man-db: 2.9. http://www.nongnu.org/man-db/
 -man-pages: 5.05 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.4.12 http://mariadb.org/
 -mc: 4.8.24 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
@@ -237,8 +237,8 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0224 to 295 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.0224
+-vim: 8.2.0317 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.0317
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -282,7 +282,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.2.2 https://mercurial.selenic.com/downloads
--meson: 0.53.0 to 0.53.1 http://mesonbuild.com/
+-meson: 0.53.2 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.10.0 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -308,13 +308,13 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python: 2.7.17 https://www.python.org/downloads/
--python3: 3.8.1 https://www.python.org/downloads/
+-python3: 3.8.2 https://www.python.org/downloads/
 -python-pip: 20.0.2 https://pip.pypa.io/
 -python-setuptools: 45.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.3 http://re2c.org
 -ruby: 2.7.0 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.41.0 https://rust-lang.org
+-rust: 1.41.1 https://rust-lang.org
 -scons: 3.1.2 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.5 https://github.com/strace/strace/releases/download/
@@ -532,7 +532,7 @@ l series:
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnl3: 3.5.0 http://www.carisma.slowglass.com/~tgr/libnl/files/
--libnotify: 0.7.8 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
+-libnotify: 0.7.9 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libodfgen: 0.1.7 http://sourceforge.net/p/libwpd/wiki/libodfgen/
 -libogg: 1.3.4 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
@@ -552,7 +552,7 @@ l series:
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
--libsoup: 2.68.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.68.4 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.8 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.9.3 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.9.2 http://www.libssh2.org/
@@ -763,7 +763,7 @@ n series:
 -libnetfilter_queue: 1.0.3 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.1.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libqmi: 1.24.4 http://www.freedesktop.org/software/libqmi/
+-libqmi: 1.24.6 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.2.5 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.20.2 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
@@ -871,6 +871,7 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
+
 -tcl: 8.6.10 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
@@ -970,7 +971,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0224 to 295
+-gvim: 8.2.0317
 -hexchat: 2.14.3 https://hexchat.github.io/
 -mozilla-firefox: 68.5.0esr to 72.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.5.0 http://www.mozilla.org/projects/thunderbird/
@@ -985,7 +986,7 @@ xap series:
 -sane: 1.0.29
 	- sane-backend : 1.0.29 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.49.5 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.49.5 to 2.53.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
