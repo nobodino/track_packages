@@ -52,7 +52,7 @@ A series :
 -haveged: 1.9.8 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.332 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.333 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -61,7 +61,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.4.23 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20200224 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20200302 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 26 to 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -94,7 +94,7 @@ A series :
 -plzip: 1.8 http://www.nongnu.org/lzip/plzip.html
 -procps-ng: 3.3.16
 	-procps-ng: 3.3.16 http://sourceforge.net/projects/procps-ng/files/Production/
-	-psmisc: 23.2 to 23.3
+	-psmisc: 23.3
 -quota: 4.05 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
@@ -155,7 +155,8 @@ Ap series :
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
 -cups-filters: 1.27.2 https://www.openprinting.org/download/cups-filters/-dash: 0.5.10.2 http://gondor.apana.org.au/~herbert/dash
--dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/-ddrescue: 1.24 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
+-dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
+-ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.63 http://invisible-island.net/diffstat/diffstat.html
 -diffutils: 3.7 ftp://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 ftp://oss.sgi.com/projects/xfs/cmd_tars/
@@ -258,7 +259,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.1
--cmake: 3.16.4 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.16.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -298,6 +299,7 @@ d series:
 	- IO-Socket-SSL: 2.066 to 2.067
 	- MIME-Base64: 3.15
 	- Net-SSLeay: 1.88
+	- Parse-Yapp: 1.21
 	- TermReadKey: 2.38
 	- URI: 1.76 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
@@ -320,7 +322,7 @@ d series:
 -strace: 5.5 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.1 http://www.swig.org/download.html
--vala: 0.46.6 https://wiki.gnome.org/Projects/Vala
+-vala: 0.48.0 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -377,7 +379,7 @@ l series:
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2018.04.16
--at-spi2-atk: 2.34.1 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
+-at-spi2-atk: 2.34.2 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
 -at-spi2-core: 2.34.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.34.1 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.24.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
@@ -410,7 +412,7 @@ l series:
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
 -freetype: 2.10.1 http://sourceforge.net/projects/freetype/files/freetype2/
--fribidi: 1.0.7 http://fribidi.org/download
+-fribidi: 1.0.9 http://fribidi.org/download
 -fuse: 2.9.9 to 3.9.0 https://github.com/libfuse/libfuse
 -fuse3: 3.9.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
@@ -656,7 +658,7 @@ l series:
 -redland: 1.0.17 http://download.librdf.org/source/
 -sbc: 1.4 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
--sg3_utils: 1.43 to 1.44 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.45 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -716,7 +718,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.68.0 http://curl.haxx.se/download/
+-curl: 7.69.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.6 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -801,7 +803,7 @@ n series:
 -nmap: 7.80 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
--ntp: 4.2.8p13 http://www.ntp.org/downloads.html
+-ntp: 4.2.8p14 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap-client: 2.4.49 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
@@ -815,10 +817,10 @@ n series:
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.4.9 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
--ppp: 2.4.7
-	-ppp: 2.4.7 https://ftp.samba.org/pub/ppp/
+-ppp: 2.4.8
+	-ppp: 2.4.8 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
-	-freeradius-client: 1.1.6
+	-freeradius-client: 1.1.7
 -procmail: 3.22_5.diff.gz to 3.22_25.debian.tar.gz http://www.procmail.org/ or http://www.ring.gr.jp/archives/net/mail
 -proftpd: 1.3.6c ftp://ftp.proftpd.org/distrib/source/
 -pssh: 2.3.1 https://code.google.com/p/parallel-ssh/
@@ -827,7 +829,7 @@ n series:
 -rp-pppoe: 3.13 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.1.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.17 http://www.sdaoden.eu/downloads
--samba: 4.11.6 https://ftp.samba.org/pub/samba/
+-samba: 4.12.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.3.4 
