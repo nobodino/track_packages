@@ -170,7 +170,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 2.2.0 http://htop.sourceforge.net
--hplip: 3.30.2 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
+-hplip: 3.30.3 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html 
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -252,8 +252,8 @@ d series:
 -Mako: 1.1.2 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.1 ftp://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.33.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.5.2 to 3.5.3 ftp://ftp.gnu.org/pub/gnu/bison/
+-binutils: 2.33.1 to 2.34 https://www.kernel.org/pub/linux/devel/binutils/
+-bison: 3.5.3 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 3.7.7 https://ftp.samba.org/pub/ccache/
 -check: 0.14.0 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
@@ -272,7 +272,7 @@ d series:
 -git: 2.25.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
--guile: 3.0.0 ftp://ftp.gnu.org/pub/gnu/guile/
+-guile: 3.0.1 ftp://ftp.gnu.org/pub/gnu/guile/
 -help2man: 1.47.12 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
@@ -312,7 +312,7 @@ d series:
 -python: 2.7.17 https://www.python.org/downloads/
 -python3: 3.8.2 https://www.python.org/downloads/
 -python-pip: 20.0.2 https://pip.pypa.io/
--python-setuptools: 45.2.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 45.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.3 http://re2c.org
 -ruby: 2.7.0 ftp://ftp.ruby-lang.org/pub/ruby
@@ -322,7 +322,7 @@ d series:
 -strace: 5.5 https://github.com/strace/strace/releases/download/
 -subversion: 1.13.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.1 http://www.swig.org/download.html
--vala: 0.48.0 https://wiki.gnome.org/Projects/Vala
+-vala: 0.48.1 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -362,7 +362,7 @@ l series:
 -M2Crypto: 0.35.2 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.3 http://www.riverbankcomputing.co.uk/software/pyqt/download
 -QScintilla: 2.11.4 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
--SDL2: 2.0.10 https://www.libsdl.org/projects/
+-SDL2: 2.0.12 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
@@ -370,7 +370,7 @@ l series:
 -SDL2_ttf: 2.0.15 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
--adwaita-icon-theme: 3.34.3 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 3.36.0 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.2.2 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
@@ -380,7 +380,7 @@ l series:
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2018.04.16
 -at-spi2-atk: 2.34.2 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.34.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.36.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.34.1 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.24.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
@@ -396,8 +396,8 @@ l series:
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.16 http://dbus.freedesktop.org/releases/dbus-glib/
--dconf: 0.34.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 3.34.4 https://download.gnome.org/sources/dconf-editor/
+-dconf: 0.36.0 http://download.gnome.org/sources/dconf/
+-dconf-editor: 3.36.0 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.24 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.27 http://freedesktop.org/software/desktop-file-utils/releases/
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
@@ -417,7 +417,7 @@ l series:
 -fuse3: 3.9.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
--gcr: 3.34.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.36.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.2.5 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
@@ -427,23 +427,23 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.64.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.64.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.64.1 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.62.0 http://www.gtkmm.org/
--glibc: 2.30
+-glibc: 2.30 to 2.31
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2019c https://www.iana.org/time-zones
 	-tzdata: 2019c https://www.iana.org/time-zones
 -gmime: 3.2.6 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.3 http://download.gna.org/getfem/stable/
 -gmp: 6.2.0 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
--gnome-keyring: 3.34.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
+-gnome-keyring: 3.36.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.11 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.64.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphite2: 1.3.13 http://graphite.sil.org/
 -grantlee: 0.5.1 to 5.2.0 http://downloads.grantlee.org/
--gsettings-desktop-schemas: 3.34.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
+-gsettings-desktop-schemas: 3.36.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.6 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
 -gst-plugins-base: 1.16.2
@@ -550,7 +550,7 @@ l series:
 -librsvg: 2.48.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.2 to 3.0.0 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
--libsecret: 0.18.8 to 0.20.1 http://ftp.gnome.org/pub/gnome/sources/libsecret/
+-libsecret: 0.20.2 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
@@ -626,7 +626,7 @@ l series:
 -pycups: 1.9.74 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.3 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.34.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.36.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
 -pyparsing: 2.4.6 http://pyparsing.wikispaces.com/
 -python-appdirs: 1.4.3 https://github.com/ActiveState/appdirs
@@ -640,7 +640,7 @@ l series:
 -python-packaging: 20.3 https://github.com/pypa/packaging
 -python-pillow: 7.0.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.5.2 https://pypi.org/project/Pygments
+-python-pygments: 2.5.2 to 2.6.1 (pb) https://pypi.org/project/Pygments
 -python-requests: 2.23.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.14.0 http://pypi.python.org/pypi/six/
@@ -718,7 +718,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.69.0 http://curl.haxx.se/download/
+-curl: 7.69.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.6 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -913,6 +913,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
 -pixman: 0.38.4 http://cairographics.org/releases/
 -sessreg: 1.1.2
+-liberation-fonts-ttf: 2.1.0
 -vulkan-sdk: 1.1.131.1 https://www.khronos.org/vulkan/
 -wayland: 1.18 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.20 https://wayland.freedesktop.org/releases.html
@@ -976,7 +977,7 @@ xap series:
 -gvim: 8.2.0317 to 0356
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
--mozilla-firefox: 68.5.0esr to 72.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 68.6.0esr to 74.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.5.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
