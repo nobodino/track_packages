@@ -19,7 +19,7 @@ A series :
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
--cryptsetup: 2.3.0 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.3.1 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.16 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -60,7 +60,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.24 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.25 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20200302 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -165,7 +165,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.50 https://www.ghostscript.com/download/
+-ghostscript: 9.51 https://www.ghostscript.com/download/
 -gphoto2: 2.5.23 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
@@ -266,7 +266,7 @@ d series:
 -distcc: 3.3.3 http://distcc.samba.org/
 -doxygen: 1.8.17 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/
--gcc: 9.2.0 to 9.3.0 ftp://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 9.3.0 ftp://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 9.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.25.1 http://git-scm.com/download
@@ -277,7 +277,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.24
+-kernel-headers: 5.4.25
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 9.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -316,7 +316,7 @@ d series:
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 1.3 http://re2c.org
 -ruby: 2.7.0 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.41.1 to 1.42.0 https://rust-lang.org
+-rust: 1.42.0 https://rust-lang.org
 -scons: 3.1.2 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.5 https://github.com/strace/strace/releases/download/
@@ -340,7 +340,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.24
+-kernel : 5.4.25
 --------------------
 kde series :
 --------------------
@@ -566,7 +566,7 @@ l series:
 -libusb: 1.0.23 ftp://download.sourceforge.net/pub/sourceforge/libusb/
 -libusb-compat: 0.1.5 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
 -libusbmuxd: 20190118 http://www.libimobiledevice.org/
--libuv: 1.34.2 https://dist.libuv.org/dist
+-libuv: 1.35.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 -libvisual: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
@@ -699,7 +699,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.12.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.22.8 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.22.10 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.22
 	-alpine: 2.22 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -816,7 +816,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.4.9 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.4.10 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.8
 	-ppp: 2.4.8 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
@@ -978,7 +978,7 @@ xap series:
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
 -mozilla-firefox: 68.6.0esr to 74.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.5.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.6.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.8.24 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
