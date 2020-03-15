@@ -128,7 +128,7 @@ A series :
 	- util-linux: 2.35.1 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
--xfsprogs: 5.4.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.4.0 to 5.5.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.4 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
@@ -291,7 +291,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
 -parallel: 20200222 https://www.gnu.org/software/parallel/
 -patchelf: 0.10 http://nixos.org/patchelf.html
--perl: 5.30.1
+-perl: 5.30.1 to 5.30.2
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.642 to 1.643 http://www.cpan.org/modules/by-module/DBI/
