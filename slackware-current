@@ -129,7 +129,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.5.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.2.4 http://tukaani.org/xz/
+-xz: 5.2.5 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
 --------------------
@@ -165,7 +165,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.51 https://www.ghostscript.com/download/
+-ghostscript: 9.51 to 9.52 https://www.ghostscript.com/download/
 -gphoto2: 2.5.23 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
@@ -238,7 +238,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0317 to 0390 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0317 to 0399 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0317
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -269,7 +269,7 @@ d series:
 -gcc: 9.3.0 ftp://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 9.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.25.1 to 2.25.2 http://git-scm.com/download
+-git: 2.25.2 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.1 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -428,7 +428,7 @@ l series:
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.64.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.64.1 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glibmm: 2.64.0 http://www.gtkmm.org/
+-glibmm: 2.64.1 http://www.gtkmm.org/
 -glibc: 2.30 to 2.31
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2019c https://www.iana.org/time-zones
@@ -706,7 +706,7 @@ n series:
 -argon2: 20190702
 -autofs: 5.1.6 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.0 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.1 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.54 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -716,6 +716,7 @@ n series:
 -cifs-utils: 6.10 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
+
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
 -curl: 7.69.1 http://curl.haxx.se/download/
@@ -893,7 +894,7 @@ x series: (main packages)
 -libepoxy: 1.5.3
 -libevdev: 1.9.0
 -libglvnd: 1.2.0
--libinput: 1.15.2
+-libinput: 1.15.4
 -libmypaint: 1.4.0 to 1.5.0 http://mypaint.org
 -libva: 2.6.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.6.0 https://01.org/linuxmedia/vaapi
@@ -906,7 +907,7 @@ x series: (main packages)
 -libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 20.0.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 20.0.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
@@ -974,7 +975,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0317 to 0390
+-gvim: 8.2.0317 to 0399
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
 -mozilla-firefox: 68.6.0esr to 74.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
