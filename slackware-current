@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20200228 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.45.5 to 1.45.6 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.45.6 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.16 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 http://linux.dell.com/efibootmgr
 -efivar: 20191015 https://github.com/rhboot/efivar
@@ -210,7 +210,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.13 http://sourceforge.net/projects/mpg123/files/
--nano: 4.8 http://www.nano-editor.org/download.php
+-nano: 4.8 to 4.9 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.10.1 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
@@ -238,7 +238,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0418 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0418 to 441 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0418
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -269,7 +269,7 @@ d series:
 -gcc: 9.3.0 ftp://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 9.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.20.1 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.25.2 http://git-scm.com/download
+-git: 2.25.2 to 2.26.0 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.1 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -418,7 +418,7 @@ l series:
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.36.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
--gd: 2.2.5 http://libgd.bitbucket.org/
+-gd: 2.3.0 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.22 http://ftp.acc.umu.se/pub/gnome/sources/gegl
@@ -428,7 +428,7 @@ l series:
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.64.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.64.1 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glibmm: 2.64.1 http://www.gtkmm.org/
+-glibmm: 2.64.2 http://www.gtkmm.org/
 -glibc: 2.30 to 2.31
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2019c https://www.iana.org/time-zones
@@ -467,7 +467,7 @@ l series:
 -icu4c: 65.1 to 66.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.10_0 to 10_1 http://www.imagemagick.org/
+-imagemagick: 7.0.10_2 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -489,7 +489,7 @@ l series:
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
--libbluray: 1.1.2 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.2.0 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
 -libcap: 2.33 http://sites.google.com/site/fullycapable/
@@ -499,10 +499,11 @@ l series:
 -libcdio-paranoia: 10.2+2.0.1 http://ftp.gnu.org/gnu/libcdio/
 -libclc: 20181127 http://libclc.llvm.org/
 -libcroco: 0.6.13 http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/
+-libcue: 2.2.1 https://github.com/lipnitsk/libcue
 -libdbusmenu-qt: 0.9.2 https://launchpad.net/libdbusmenu-qt/
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
--libdvdnav: 6.0.0 http://www.mplayerhq.hu/design7/news.html
--libdvdread: 6.0.1 http://download.videolan.org/videolan/libdvdread/
+-libdvdnav: 6.1.0 http://www.mplayerhq.hu/design7/news.html
+-libdvdread: 6.1.0 http://download.videolan.org/videolan/libdvdread/
 -libedit: 20191231-3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.11 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
@@ -946,8 +947,8 @@ xap series:
 -MPlayer: 1.3_20200103 https://mplayerhq.hu/design7/news.html
 	-Mplayer: 20200103
 	-Blue: 1.10 (skin)
--audacious: 3.10.1 http://audacious-media-player.org/release/
--audacious-plugins: 3.10.1
+-audacious: 4.0 http://audacious-media-player.org/release/
+-audacious-plugins: 4.0
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
@@ -973,7 +974,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0418
+-gvim: 8.2.0418 to 441
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
 -mozilla-firefox: 68.6.0esr to 74.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
