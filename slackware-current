@@ -70,7 +70,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.16.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.08 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.08 to 2.03.09 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 168 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -238,7 +238,7 @@ Ap series :
 -tmux: 3.0a https://tmux.github.io/
 -usbmuxd: 1.1.0 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.0418 to 447 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.0418 to 459 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.0418
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -898,7 +898,7 @@ x series: (main packages)
 -libva: 2.6.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.6.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.3 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.2 https://github.com/linuxwacom
+-libwacom: 1.3 https://github.com/linuxwacom
 -libxcb: 1.14
 -libXcm: 0.5.4
 -libXfont2: 2.0.4
@@ -974,7 +974,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.0418 to 447
+-gvim: 8.2.0418 to 459
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
 -mozilla-firefox: 68.6.0esr to 74.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
