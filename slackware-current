@@ -221,7 +221,8 @@ Ap series :
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
 -rpm: 4.15.1 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
--sc-im: 0.7.0 https://github.com/andmarti1424/sc-im
+-sc: 7.16 
+-sc-im: 20200210 https://github.com/andmarti1424/sc-im
 -screen: 4.8.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
@@ -248,7 +249,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.15 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.16 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.2 http://www.python.org/pypi/Mako/
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 ftp://ftp.gnu.org/pub/gnu/automake/
@@ -282,7 +283,7 @@ d series:
 -llvm: 10.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.3.1 to 5.3.2 https://mercurial.selenic.com/downloads
+-mercurial: 5.3.2 https://mercurial.selenic.com/downloads
 -meson: 0.54.0 http://mesonbuild.com/
 -nasm: 2.14.2 http://www.nasm.us/
 -ninja: 1.10.0 https://ninja-build.org/
@@ -454,7 +455,7 @@ l series:
 -gstreamer: 1.16.2 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.16 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.17 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.2 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -503,7 +504,7 @@ l series:
 -libdbusmenu-qt: 0.9.2 https://launchpad.net/libdbusmenu-qt/
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdvdnav: 6.1.0 http://www.mplayerhq.hu/design7/news.html
--libdvdread: 6.1.0 http://download.videolan.org/videolan/libdvdread/
+-libdvdread: 6.1.1 http://download.videolan.org/videolan/libdvdread/
 -libedit: 20191231-3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.11 http://libevent.org/
 -libexif: 0.6.21 http://sourceforge.net/projects/libexif
@@ -723,7 +724,7 @@ n series:
 -curl: 7.69.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 8.1.6 to 9.0.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 8.1.7 to 9.0.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.80 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.10 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
@@ -742,7 +743,7 @@ n series:
 -icmpinfo: 1.11 (??)
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.5.0 to 5.6.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.6.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.4 http://www.netfilter.org/files/
 -iptraf-ng: 1.1.4 https://fedorahosted.org/iptraf-ng/
@@ -885,12 +886,13 @@ x series: (main packages)
 -compiz: 0.8.16.1 
 -fontconfig: 2.13.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
+-glew: 2.2.0
 -igt-gpu-tools: 1.25.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.0 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.100 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.101 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.9.0
 -libglvnd: 1.2.0
@@ -907,7 +909,7 @@ x series: (main packages)
 -libX11: 1.6.9
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 20.0.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 20.0.4 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
@@ -978,7 +980,7 @@ xap series:
 -gvim: 8.2.0418 to 501
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
--mozilla-firefox: 68.6.0esr to 74.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 68.6.1.0esr to 74.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 68.6.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.16.0 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
