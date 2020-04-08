@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.4.1 to 5.6 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.6 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -210,14 +210,14 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.25.13 http://sourceforge.net/projects/mpg123/files/
--nano: 4.9.1 to 4.9.2 http://www.nano-editor.org/download.php
+-nano: 4.9.2 http://www.nano-editor.org/download.php
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.10.1 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4.0 https://github.com/cdemoulins/pamixer
 -pm-utils: 1.4.1 + pm-quirks (20100619) http://pm-utils.freedesktop.org/wiki/
 -powertop: 2.11 http://ftp.debian.org/debian/pool/main/p/powertop/
--qpdf: 9.1.1 http://qpdf.sourceforge.net/
+-qpdf: 10.0.0 http://qpdf.sourceforge.net/
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
 -rpm: 4.15.1 ftp://ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -468,7 +468,7 @@ l series:
 -icu4c: 65.1 to 66.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.10_5 http://www.imagemagick.org/
+-imagemagick: 7.0.10_6 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.4 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -980,8 +980,8 @@ xap series:
 -gvim: 8.2.0521
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28
--mozilla-firefox: 68.6.1.0esr to 74.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.6.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 68.7.0esr to 74.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 68.6.0 to 68.7.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.16.0 https://download.gnome.org/sources/network-manager-applet/1.0/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
