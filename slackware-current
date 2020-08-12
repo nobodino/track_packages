@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.57 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.58 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20200807 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -72,7 +72,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.17.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.631 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.09 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.10 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.11 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 170 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -210,7 +210,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 http://www.nongnu.org/man-db/
 -man-pages: 5.07 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.4 http://mariadb.org/
+-mariadb: 10.5.5 http://mariadb.org/
 -mc: 4.8.25 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -246,7 +246,7 @@ Ap series :
 -undervolt: 20200612 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1361 to 1382 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1361 to 1404 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1361
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -286,7 +286,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.57
+-kernel-headers: 5.4.58
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 10.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -321,7 +321,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.8.5 https://www.python.org/downloads/
 -python-pip: 20.2.1 https://pip.pypa.io/
--python-setuptools: 49.2.1 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 49.3.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.2 http://re2c.org
 -ruby: 2.7.1 ftp://ftp.ruby-lang.org/pub/ruby
@@ -331,12 +331,12 @@ d series:
 -strace: 5.8 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.48.8 https://wiki.gnome.org/Projects/Vala
+-vala: 0.48.9 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
 --------------------
--emacs: 26.3  http://www.gnu.org/software/emacs/
+-emacs: 27.1  http://www.gnu.org/software/emacs/
 -emacspeak: 52.0 https://github.com/tvraman/emacspeak
 --------------------
 Installer:
@@ -350,7 +350,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.57
+-kernel : 5.4.58
 --------------------
 kde series :
 --------------------
@@ -467,7 +467,7 @@ l series:
 -gstreamer: 1.16.2 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.21 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.22 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.2 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
@@ -480,7 +480,7 @@ l series:
 -icu4c: 67.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.10_26 http://www.imagemagick.org/
+-imagemagick: 7.0.10_27 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -664,7 +664,8 @@ l series:
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.15.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.25.10 https://urllib3.readthedocs.io/
--qca: 2.1.3 to 2.3.0 http://delta.affinix.com/download/qca/2.0/
+-qca: 2.1.3 http://delta.affinix.com/download/qca/2.0/
+-qca-qt5: 2.3.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
 -qjson: 0.9.0 http://qjson.sourceforge.net/
 -qt: 4.8.7 ftp://ftp.trolltech.com/qt/source/
@@ -1007,7 +1008,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1361 to 1382
+-gvim: 8.2.1361 to 1404b
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.1.0esr to 74.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1048,7 +1049,7 @@ xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 -orage: 4.12.1
 -thunar: 1.8.15
 -thunar-volman: 0.9.5
--tumbler: 0.2.8
+-tumbler: 0.2.9
 -xfce4-appfinder: 4.12.0 to 4.14.0
 -xfce4-clipman-plugin: 1.4.3
 -xfce4-dev-tools: 4.12.0
