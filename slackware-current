@@ -246,7 +246,7 @@ Ap series :
 -undervolt: 20200612 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1361 to 1404 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1361 to 1464 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1361
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -854,7 +854,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.19 http://www.sdaoden.eu/downloads
--samba: 4.12.5 https://ftp.samba.org/pub/samba/
+-samba: 4.12.5 to 4.12.6 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.3.4 http://www.dest-unreach.org/socat/download/
@@ -1008,7 +1008,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1361 to 1404b
+-gvim: 8.2.1361 to 1464
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.1.0esr to 74.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1025,7 +1025,7 @@ xap series:
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
 -seamonkey: 2.53.3 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
--ssr: 0.4.2 
+-ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
 -x3270: 3.3.12ga7 to 4.0ga10 http://x3270.bgp.nu/download.html
