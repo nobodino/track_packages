@@ -61,8 +61,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.58 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20200807 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.4.59 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20200817 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 to 557 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -246,7 +246,7 @@ Ap series :
 -undervolt: 20200612 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1361 to 1464 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1361 to 1498 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1361
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -286,15 +286,15 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.58
+-kernel-headers: 5.4.59
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 10.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.5 https://mercurial.selenic.com/downloads
--meson: 0.55.0 http://mesonbuild.com/
--nasm: 2.15.03 http://www.nasm.us/
--ninja: 1.10.0 https://ninja-build.org/
+-meson: 0.55.1 http://mesonbuild.com/
+-nasm: 2.15.03 to 2.15.04 http://www.nasm.us/
+-ninja: 1.10.1 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
@@ -350,7 +350,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.58
+-kernel : 5.4.59
 --------------------
 kde series :
 --------------------
@@ -440,7 +440,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.64.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.64.4 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.64.5 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.2 http://www.gtkmm.org/
 -glibc: 2.30 to 2.32
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -480,13 +480,13 @@ l series:
 -icu4c: 67.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
--imagemagick: 7.0.10_27 http://www.imagemagick.org/
+-imagemagick: 7.0.10_28 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
 -jasper: 2.0.18 http://www.ece.uvic.ca/~frodo/jasper/#download
--jemalloc: 4.5.0 to 5.1.0 http://www.canonware.com/jemalloc/
+-jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
 -json-glib: 1.4.4 https://gitlab.gnome.org/GNOME/json-glib/
@@ -505,7 +505,7 @@ l series:
 -libbluray: 1.2.0 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.42 http://sites.google.com/site/fullycapable/
+-libcap: 2.43 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.7.10 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -541,7 +541,7 @@ l series:
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
--libmpc: 1.1.0  http://www.multiprecision.org (for gcc)
+-libmpc: 1.2.0  http://www.multiprecision.org (for gcc)
 -libmsn: 4.2.1 http://sourceforge.net/projects/libmsn/
 -libmtp: 1.1.17 http://libmtp.sourceforge.net/
 -libnice: 0.1.17 https://libnice.freedesktop.org/#download
@@ -567,7 +567,7 @@ l series:
 -libsigc++: 2.10.2 to 2.10.3/3.0.3 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.20.3 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.12 https://ftp.gnu.org/gnu/libsigsegv/
--libsndfile: 1.0.28 http://www.mega-nerd.com/libsndfile/files/
+-libsndfile: 1.0.29 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
 -libsoup: 2.70.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.9 http://www.freedesktop.org/wiki/Software/libspectre/
@@ -623,7 +623,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.31 http://code.entropywave.com/projects/orc/
--pango: 1.46.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.46.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.3 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
@@ -721,8 +721,8 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.12.10 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.26.0 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-ModemManager: 1.14.2 http://www.freedesktop.org/software/ModemManager/
+-NetworkManager: 1.26.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.23.2
 	-alpine: 2.23.2 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -741,7 +741,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.71.1 http://curl.haxx.se/download/
+-curl: 7.72.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.9 to 9.0.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
@@ -835,7 +835,7 @@ n series:
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
 -openssl: 1.1.1g ftp://ftp.openssl.org/source/
 -openvpn: 2.4.9 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.20 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.21 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
 -php: 7.4.9 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
@@ -933,7 +933,7 @@ x series: (main packages)
 -libX11: 1.6.11
 -libXres: 1.2.0
 -libXt: 1.2.0
--mesa: 20.1.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 20.1.6 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
@@ -973,7 +973,7 @@ x series: (main packages)
 -xf86-video-vesa: 2.4.0
 -xf86-input-wacom: 0.39.0
 -xisxwayland: 1
--xterm: 358 ftp://invisible-island.net/xterm/
+-xterm: 359 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1008,7 +1008,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1361 to 1464
+-gvim: 8.2.1361 to 1498
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.1.0esr to 74.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1028,7 +1028,7 @@ xap series:
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
--x3270: 3.3.12ga7 to 4.0ga10 http://x3270.bgp.nu/download.html
+-x3270: 3.3.12ga7 to 4.0ga11 http://x3270.bgp.nu/download.html
 -xaos: 4.1 http://xaos.sf.net
 -xgames: 0.2
 -xine-lib: 1.2.9 to 1.2.10 http://dl.sourceforge.net/xine/
