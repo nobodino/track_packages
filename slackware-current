@@ -34,8 +34,7 @@ A series :
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.9 https://dev.gentoo.org/~blueness/eudev/
--f2fs-tools: 1.13
-4.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
+-f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.39 https://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.7.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
@@ -63,7 +62,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.4..61 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20200824 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20200901 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 to 557 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -83,7 +82,7 @@ A series :
 -mkinitrd: 1.4.11
 	- busybox: 1.28.3 to 1.31.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
--mt-st: 1.3 http://ftp.debian.org/debian/pool/main/m/mt-st/
+-mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.6 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
@@ -137,6 +136,7 @@ A series :
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
 --------------------
+
 Ap series :
 --------------------
 -a2ps:
@@ -158,8 +158,8 @@ Ap series :
 	- cups: 2.3.3 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.0 https://www.openprinting.org/download/cups-filters/
--dash: 0.5.11.1 http://gondor.apana.org.au/~herbert/dash
+-cups-filters: 1.28.1 https://www.openprinting.org/download/cups-filters/
+-dash: 0.5.11.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.63 http://invisible-island.net/diffstat/diffstat.html
@@ -174,7 +174,7 @@ Ap series :
 -gphoto2: 2.5.23 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
--htop: 2.2.0 http://htop.sourceforge.net
+-htop: 3.0.0 http://htop.sourceforge.net
 -hplip: 3.20.6 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -inxi: 20200728 https://github.com/smxi/inxi
 -itstool: 2.0.5 http://itstool.org/download/
@@ -292,15 +292,15 @@ d series:
 -llvm: 10.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.5 https://mercurial.selenic.com/downloads
+-mercurial: 5.5.1 https://mercurial.selenic.com/downloads
 -meson: 0.55.1 http://mesonbuild.com/
--nasm: 2.15.03 to 2.15.04 (pb) http://www.nasm.us/
+-nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.1 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
 -parallel: 20200822 https://www.gnu.org/software/parallel/
--patchelf: 0.11 http://nixos.org/patchelf.html
+-patchelf: 0.12 http://nixos.org/patchelf.html
 -perl: 5.32.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
@@ -322,11 +322,11 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.8.5 https://www.python.org/downloads/
 -python-pip: 20.2.2 https://pip.pypa.io/
--python-setuptools: 49.6.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 50.0.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
 -ruby: 2.7.1 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.45.2 https://rust-lang.org
+-rust: 1.46.0 https://rust-lang.org
 -scons: 4.0.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.8 https://github.com/strace/strace/releases/download/
@@ -400,7 +400,7 @@ l series:
 -automoc4: 0.9.88 ftp://ftp.kde.org/pub/kde/stable/automoc4/0.9.88/
 -babl: 0.1.80 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.74.0 http://sourceforge.net/projects/boost/files/boost/
--brotli: 1.0.7 https://github.com/google/brotli/
+-brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 http://cairographics.org/cairomm/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
@@ -473,7 +473,7 @@ l series:
 -gtkmm3: 3.24.2 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.44.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.7.1 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.7.2 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -614,7 +614,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20200801 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
--netpbm: 10.91.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.91.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.12 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.5 https://github.com/kkos/oniguruma
@@ -752,10 +752,10 @@ n series:
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.2 http://www.epicsol.org/
 -ethtool: 5.8 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.8 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.11 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.02 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.21 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.22 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.14 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.14.0 https://www.gnupg.org/download/index.html
@@ -770,7 +770,7 @@ n series:
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20200821 http://www.skbuff.net/iputils/
 -irssi: 1.2.2 http://www.irssi.org/files/
--iw: 5.4 https://www.kernel.org/pub/software/network/iw/
+-iw: 5.8 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.18.0 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.3 https://www.gnupg.org/download/index.html
@@ -797,7 +797,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190922 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.93 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.14.6 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 1.14.7 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -830,7 +830,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.51 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.52 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.3p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
@@ -838,11 +838,11 @@ n series:
 -openvpn: 2.4.9 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.21 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
--php: 7.4.9 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.10 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.5.6 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.5.7 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.8
 	-ppp: 2.4.8 https://ftp.samba.org/pub/ppp/
 	-pppsetup: 1.98
@@ -925,7 +925,7 @@ x series: (main packages)
 -libva: 2.8.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.8.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.4.1 https://github.com/linuxwacom
+-libwacom: 1.5 https://github.com/linuxwacom
 -libXaw3dXft: 1.6.2g
 -libxcb: 1.14
 -libXcm: 0.5.4
@@ -1030,7 +1030,7 @@ xap series:
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
 -x3270: 3.3.12ga7 to 4.0ga11 http://x3270.bgp.nu/download.html
--xaos: 4.1 http://xaos.sf.net
+-xaos: 4.2 http://xaos.sf.net
 -xgames: 0.2
 -xine-lib: 1.2.9 to 1.2.10 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
