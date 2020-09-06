@@ -248,7 +248,7 @@ Ap series :
 -undervolt: 20200612 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1522 to 1618 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1522 to 1620 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1522
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -269,7 +269,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.2
--cmake: 3.18.1 to 3.18.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.18.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -610,7 +610,7 @@ l series:
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.56.0 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.56.0 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.25 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+	- nspr: 4.28 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs68: 68.11.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20200801 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
@@ -637,7 +637,7 @@ l series:
 -polkit: 0.117 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.68.0 to 0.87.0/20.08.0 http://poppler.freedesktop.org/
+-poppler: 0.68.0 to 0.87.0/20.09.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 13.0 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -716,7 +716,7 @@ l series:
 -vte: 0.60.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.3.0 http://www.wavpack.com/
 -woff2: 20180531 https://github.com/google/woff2
--xapian-core: 1.4.16 http://www.xapian.org/
+-xapian-core: 1.4.17 http://www.xapian.org/
 -xxHash: 0.8.0 https://github.com/Cyan4973/xxHash
 -zlib: 1.2.11 http://www.gzip.org/zlib/
 -zstd: 1.4.5 http://zstd.net/
@@ -731,7 +731,7 @@ n series:
 -argon2: 20190702
 -autofs: 5.1.6 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.5 to 9.17.4 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.6 to 9.17.4 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.54 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1010,7 +1010,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1522 to 1618
+-gvim: 8.2.1522 to 1620
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.2.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1057,7 +1057,7 @@ xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 -xfce4-clipman-plugin: 1.4.3
 -xfce4-dev-tools: 4.12.0
 -xfce4-mixer: 4.10.0 to 4.11.0
--xfce4-notifyd: 0.4.4
+-xfce4-notifyd: 0.4.4 to 0.6.2
 -xfce4-panel: 4.12.2 to 4.14.0
 -xfce4-power-manager: 1.4.4 to 1.6.5
 -xfce4-pulseaudio-plugin: 0.4.2
