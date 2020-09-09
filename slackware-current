@@ -461,12 +461,12 @@ l series:
 -gsettings-desktop-schemas: 3.36.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.6 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
--gst-plugins-base: 1.16.2 to 1.18.0
+-gst-plugins-base: 1.18.0
 -gst-plugins-good0: 0.10.31 http://gstreamer.freedesktop.org/src/gst-plugnis-good
--gst-plugins-good: 1.16.2 to 1.18.0
--gst-plugins-libav: 1.16.2  to 1.18.0 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gst-plugins-good: 1.18.0
+-gst-plugins-libav: 1.18.0 http://gstreamer.freedesktop.org/modules/gst-libav.html
 -gstreamer0: 0.10.36 
--gstreamer: 1.16.2 to 1.18.0 http://gstreamer.freedesktop.org/src/gstreamer
+-gstreamer: 1.18.0 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.23 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -487,7 +487,7 @@ l series:
 -isl: 0.22.1 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
--jasper: 2.0.18 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 2.0.20 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
