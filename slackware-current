@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.64 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.65 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20200901 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -159,7 +159,7 @@ Ap series :
 	- cups: 2.3.3 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.1 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.2 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.2 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -171,7 +171,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.51 to 9.52 https://www.ghostscript.com/download/
+-ghostscript: 9.53 https://www.ghostscript.com/download/
 -gphoto2: 2.5.23 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
@@ -288,13 +288,13 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.64
+-kernel-headers: 5.4.65
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 10.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.5.1 https://mercurial.selenic.com/downloads
--meson: 0.55.1 http://mesonbuild.com/
+-meson: 0.55.3 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.1 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -333,7 +333,7 @@ d series:
 -strace: 5.8 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.48.10 https://wiki.gnome.org/Projects/Vala
+-vala: 0.50.0 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -352,7 +352,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.64
+-kernel : 5.4.65
 --------------------
 kde series :
 --------------------
@@ -442,7 +442,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.64.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.64.5 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.2 http://www.gtkmm.org/
 -glibc: 2.30 to 2.32
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -564,7 +564,7 @@ l series:
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.48.8 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.50.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.2 to 2.10.3/3.0.3 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.20.3 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -573,7 +573,7 @@ l series:
 -libsodium: 1.0.17 https://libsodium.org
 -libsoup: 2.70.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.9 http://www.freedesktop.org/wiki/Software/libspectre/
--libssh: 0.9.4 https://red.libssh.org/projects/libssh/files
+-libssh: 0.9.5 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.9.2 http://www.libssh2.org/
 -libtasn1: 4.16 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
@@ -598,7 +598,7 @@ l series:
 -libxklavier: 5.4 http://ftp.gnome.org/pub/gnome/sources/libxklavier/
 -libxml2: 2.9.10 http://xmlsoft.org/sources/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
--libxkbcommon: 1.0.0 http://xkbcommon.org/
+-libxkbcommon: 1.0.1 http://xkbcommon.org/
 -libxslt: 1.1.34 ftp://xmlsoft.org/
 -libzip: 1.7.3 http://www.nih.at/libzip/
 -lmdb: 0.9.26 http://symas.com/mdb/
@@ -972,7 +972,7 @@ x series: (main packages)
 -xf86-video-savage: 20190128
 -xf86-video-sis: 0.12.0
 -xf86-video-v4l: 0.3.0
--xf86-video-vesa: 2.4.0
+-xf86-video-vesa: 2.5.0
 -xf86-input-wacom: 0.39.0
 -xisxwayland: 1
 -xterm: 359 ftp://invisible-island.net/xterm/
@@ -1014,7 +1014,7 @@ xap series:
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.2.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 68.11.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 68.12.0 http://www.mozilla.org/projects/thunderbird/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.1
