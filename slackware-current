@@ -67,7 +67,7 @@ A series :
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 551 to 557 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
--libgudev: 233 http://wiki.gnome.org/Projects/libgudev
+-libgudev: 234 http://wiki.gnome.org/Projects/libgudev
 -libpwquality: 1.4.2 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.17.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
@@ -175,7 +175,7 @@ Ap series :
 -gphoto2: 2.5.23 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
--htop: 3.0.1 http://htop.sourceforge.net
+-htop: 3.0.2 http://htop.sourceforge.net
 -hplip: 3.20.6 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -inxi: 20200728 https://github.com/smxi/inxi
 -itstool: 2.0.5 http://itstool.org/download/
@@ -272,6 +272,7 @@ d series:
 -cmake: 3.18.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
+
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
 -distcc: 3.3.3 http://distcc.samba.org/
 -doxygen: 1.8.20 ftp://ftp.stack.nl/pub/users/dimitri/
@@ -611,7 +612,7 @@ l series:
 -mozilla-nss: 3.56.0 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.56.0 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.28 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs68: 68.11.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.02.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20200801 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -634,7 +635,7 @@ l series:
 -phonon: 4.8.3 to 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-gstreamer: 4.8.2 to 4.10.0 (phonon-backend-gstreamer)
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--polkit: 0.117 http://www.freedesktop.org/software/polkit/releases/
+-polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 0.68.0 to 0.87.0/20.09.0 http://poppler.freedesktop.org/
@@ -923,8 +924,8 @@ x series: (main packages)
 -libglvnd: 1.3.2
 -libinput: 1.16.1
 -libmypaint: 1.6.1 http://mypaint.org
--libva: 2.8.0 https://01.org/linuxmedia/vaapi
--libva-utils: 2.8.0 https://01.org/linuxmedia/vaapi
+-libva: 2.9.0 https://01.org/linuxmedia/vaapi
+-libva-utils: 2.9.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 1.5 https://github.com/linuxwacom
 -libXaw3dXft: 1.6.2g
