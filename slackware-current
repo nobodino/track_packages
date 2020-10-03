@@ -246,7 +246,7 @@ Ap series :
 -undervolt: 20200612 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1728 to 1781 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1728 to 1796 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1728
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -263,7 +263,7 @@ d series:
 -automake: 1.16.2 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.33.1 to 2.34 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.2 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 3.7.11 https://ftp.samba.org/pub/ccache/
+-ccache: 3.7.12 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -326,7 +326,7 @@ d series:
 -python-setuptools: 50.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.9.4 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
--ruby: 2.7.1 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 2.7.2 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.46.0 https://rust-lang.org
 -scons: 4.0.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -403,7 +403,7 @@ l series:
 -boost: 1.74.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
--cairomm: 1.12.2 http://cairographics.org/cairomm/
+-cairomm: 1.12.2 to 1.14.0 http://cairographics.org/cairomm/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
@@ -611,7 +611,7 @@ l series:
 -mozilla-nss: 3.57.0 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.57.0 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.28 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.03.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.3.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20200801 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -826,7 +826,7 @@ n series:
 -nfs-utils: 2.5.1 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.6 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.41.0 https://nghttp2.org/
--nmap: 7.80 http://download.insecure.org/nmap/dist/
+-nmap: 7.80 to 7.90 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
@@ -1011,7 +1011,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1728 to 1781
+-gvim: 8.2.1728 to 1796
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.3.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
