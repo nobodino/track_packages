@@ -293,7 +293,7 @@ d series:
 -llvm: 10.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.5.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.5.2 https://mercurial.selenic.com/downloads
 -meson: 0.55.3 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.1 https://ninja-build.org/
@@ -421,7 +421,7 @@ l series:
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.26.0 to 0.27.2 http://www.exiv2.org/
--expat: 2.2.9 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.2.10 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.3.1 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
@@ -432,7 +432,7 @@ l series:
 -fuse3: 3.9.3 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
--gcr: 3.36.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.36.0 to 3.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.0 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
@@ -564,7 +564,7 @@ l series:
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.50.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.50.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.1.9 http://www.mega-nerd.com/SRC/download.html
 -libsigc++: 2.10.2 to 2.10.4 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.20.3 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -772,7 +772,7 @@ n series:
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20200821 http://www.skbuff.net/iputils/
 -irssi: 1.2.2 http://www.irssi.org/files/
--iw: 5.8 https://www.kernel.org/pub/software/network/iw/
+-iw: 5.9 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.18.0 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.3 https://www.gnupg.org/download/index.html
@@ -826,7 +826,7 @@ n series:
 -nfs-utils: 2.5.1 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.6 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.41.0 https://nghttp2.org/
--nmap: 7.80 to 7.90 http://download.insecure.org/nmap/dist/
+-nmap: 7.90 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
