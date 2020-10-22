@@ -65,7 +65,7 @@ A series :
 -kernel-firmware: 20201005 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 551 to 557 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
+-less: 551 to 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libgudev: 234 http://wiki.gnome.org/Projects/libgudev
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
@@ -142,7 +142,7 @@ Ap series :
 	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 1.23 ftp://drocklinux.dyndns.org/software/psutils/ or http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
--alsa-utils: 1.2.3 ftp://ftp.alsa-project.org/pub/utils
+-alsa-utils: 1.2.3 to 1.2.4 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 3.1.6 ftp://ftp.gnu.org/pub/gnu/bc/
@@ -183,7 +183,7 @@ Ap series :
 -ksh93: 20200131 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.73 http://packages.qa.debian.org/l/linuxdoc-tools.html
-	- asciidoc: 8.6.10-0.13.20180605git986f99d.fc32 http://www.methods.co.nz/asciidoc/
+	- asciidoc: 8.6.10-0.13.20180605git986f99d.fc32 to 9.0.3 http://www.methods.co.nz/asciidoc/
 	- docbook-dsssl: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-dsssl-doc: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-style-xsl: 1.79.2-10.fc31 http://downloads.sourceforge.net/project/docbook/docbook-xsl/
@@ -205,7 +205,7 @@ Ap series :
 -lm_sensors: 3.6.0 https://github.com/groeck/lm-sensors
 -lsof: 4.93.2 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.30 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 2.0.11_fad08f383 to 4.0.4 http://sourceforge.net/projects/lxc/files/lxc
+-lxc: 2.0.11_fad08f383 to 4.0.5 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 http://www.nongnu.org/man-db/
@@ -218,7 +218,7 @@ Ap series :
 -nano: 5.3 http://www.nano-editor.org/download.php
 -neofetch: 20200708 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
--nvme-cli: 1.12 https://github.com/linux-nvme/nvme-cli
+-nvme-cli: 1.13 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4.0 https://github.com/cdemoulins/pamixer
 -pm-utils: 1.4.1 + pm-quirks (20100619) http://pm-utils.freedesktop.org/wiki/
@@ -246,7 +246,7 @@ Ap series :
 -undervolt: 20200612 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1807 to 1855 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1807 to 1873 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1807
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -384,7 +384,7 @@ l series:
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -adwaita-icon-theme: 3.36.1 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
--alsa-lib: 1.2.3.2 ftp://ftp.alsa-project.org/pub/lib
+-alsa-lib: 1.2.3.2 to 1.2.4  ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.2.2 ftp://ftp.alsa-project.org/pub/plugins/
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -445,8 +445,8 @@ l series:
 -glibmm: 2.64.2 http://www.gtkmm.org/
 -glibc: 2.30 to 2.32
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2020c https://www.iana.org/time-zones
-	-tzdata: 2020c  https://www.iana.org/time-zones
+	-tzcode: 2020c to 2020d https://www.iana.org/time-zones
+	-tzdata: 2020c to 2020d  https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.0 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
@@ -545,13 +545,14 @@ l series:
 -libmpc: 1.2.0  http://www.multiprecision.org (for gcc)
 -libmsn: 4.2.1 http://sourceforge.net/projects/libmsn/
 -libmtp: 1.1.18 http://libmtp.sourceforge.net/
--libnice: 0.1.17 https://libnice.freedesktop.org/#download
+-libnice: 0.1.18 https://libnice.freedesktop.org/#download
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnl3: 3.5.0 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnotify: 0.7.9 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libnsl: 1.3.0 https://github.com/thkukuk/libnsl
+-libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis
 -libodfgen: 0.1.7 http://sourceforge.net/p/libwpd/wiki/libodfgen/
 -libogg: 1.3.4 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
@@ -679,6 +680,7 @@ l series:
 -rasqal: 0.9.33 http://download.librdf.org/source/
 -readline: 8.0.004 ftp://ftp.cwru.edu/pub/bash/
 -redland: 1.0.17 http://download.librdf.org/source/
+-rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
 -sbc: 1.4 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
 -sg3_utils: 1.45 http://sg.danny.cz/sg/sg3_utils.html
@@ -822,7 +824,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
--nfs-utils: 2.5.1 http://sourceforge.net/projects/nfs/ (need krb5)
+-nfs-utils: 2.5.1 to 2.5.2 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.6 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.41.0 https://nghttp2.org/
 -nmap: 7.91 http://download.insecure.org/nmap/dist/
@@ -1011,11 +1013,11 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1807 to 1855
+-gvim: 8.2.1807 to 1873
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.4.0esr to 82.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.3.3 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.4.0 http://www.mozilla.org/projects/thunderbird/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.1
@@ -1045,33 +1047,33 @@ xap series:
 --------------------
 xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 --------------------
--exo: 0.12.10
--garcon: 0.6.4
+-exo: 0.12.11 to 4.15.2
+-garcon: 0.6.4 to 0.7.1
 -gtk-xfce-engine: 2.10.1 to 3.2.0
 -libxfce4ui: 4.12.1 to 4.14.1
 -libxfce4util: 4.12.1 to 4.14.0
 -orage: 4.12.1
--thunar: 1.8.15
--thunar-volman: 0.9.5
--tumbler: 0.2.9
+-thunar: 1.8.15 to 4.15.2
+-thunar-volman: 0.9.5 to 4.15.0
+-tumbler: 0.2.9 to 0.3.0
 -xfce4-appfinder: 4.12.0 to 4.14.0
 -xfce4-clipman-plugin: 1.4.3
--xfce4-dev-tools: 4.12.0
+-xfce4-dev-tools: 4.12.0 to 4.14.0
 -xfce4-mixer: 4.10.0 to 4.11.0
 -xfce4-notifyd: 0.4.4 to 0.6.2
--xfce4-panel: 4.12.2 to 4.14.0
--xfce4-power-manager: 1.4.4 to 1.6.5
+-xfce4-panel: 4.12.2 to 4.14.4
+-xfce4-power-manager: 1.4.4 to 1.6.6
 -xfce4-pulseaudio-plugin: 0.4.2
 -xfce4-screenshooter: 1.9.5
--xfce4-session: 4.12.1 to 4.14.0
--xfce4-settings: 4.12.4 to 4.14.1
+-xfce4-session: 4.12.1 to 4.14.2
+-xfce4-settings: 4.12.4 to 4.14.3
 -xfce4-systemload-plugin: 1.2.3
--xfce4-taskmanager: 1.2.2
--xfce4-terminal: 0.8.8
+-xfce4-taskmanager: 1.2.2 to 1.2.3
+-xfce4-terminal: 0.8.8 to 0.8.9.2
 -xfce4-weather-plugin: 0.8.11
--xfconf: 4.12.1 to 4.14.1
--xfdesktop: 4.12.5 to 4.14.1
--xfwm4: 4.12.5 to 4.14.0
+-xfconf: 4.12.1 to 4.14.3
+-xfdesktop: 4.12.5 to 4.14.2
+-xfwm4: 4.12.5 to 4.14.5
 --------------------
 y series:
 --------------------
