@@ -6,7 +6,7 @@ A series :
 --------------------
 -aaa_base: 14.2
 -aaa_elflibs: 15.0
--aaa_terminfo: 6.2_20200801
+-aaa_terminfo: 6.2_20201024
 -acl: 2.2.53 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.32 http://sourceforge.net/projects/acpid2/
 -attr: 2.2.48 http://savannah.nongnu.org/projects/attr
@@ -39,7 +39,7 @@ A series :
 -findutils: 4.7.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.23 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.25 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -80,7 +80,7 @@ A series :
 	- minicom: 2.7.2 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.28.3 to 1.31.1 http://www.busybox.net/
+	- busybox: 1.31.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
@@ -175,7 +175,7 @@ Ap series :
 -gutenprint: 5.3.3 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 3.0.2 http://htop.sourceforge.net
 -hplip: 3.20.6 http://hplipopensource.com-ispell: 3.4.00 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 20200728 https://github.com/smxi/inxi
+-inxi: 20201016 https://github.com/smxi/inxi
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -216,7 +216,7 @@ Ap series :
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.26.3 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.3 http://www.nano-editor.org/download.php
--neofetch: 20200708 https://github.com/dylanaraps/neofetch/wiki
+-neofetch: 20201016 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.13 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
@@ -243,11 +243,11 @@ Ap series :
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.1b https://tmux.github.io/
--undervolt: 20200612 https://github.com/georgewhewell/undervolt
+-undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1895 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.1895
+-vim: 8.2.1905 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.1905
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -276,7 +276,7 @@ d series:
 -doxygen: 1.8.20 ftp://ftp.stack.nl/pub/users/dimitri/
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/
 -gcc: 9.3.0 to 10.2.0 ftp://ftp.gnu.org/pub/gnu/gcc/
--gdb: 9.1 to 10.1 ftp://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 10.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.29.1 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
@@ -320,7 +320,7 @@ d series:
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.8.6 to 3.9.0 https://www.python.org/downloads/
+-python3: 3.9.0 https://www.python.org/downloads/
 -python-pip: 20.2.4 https://pip.pypa.io/
 -python-setuptools: 50.3.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -441,7 +441,7 @@ l series:
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.64.3 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.2 to 2.67.0 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.2 http://www.gtkmm.org/
 -glibc: 2.30 to 2.32
 	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -460,12 +460,12 @@ l series:
 -gsettings-desktop-schemas: 3.36.1 to 3.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.6 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
--gst-plugins-base: 1.18.0
+-gst-plugins-base: 1.18.0 to 1.18.1
 -gst-plugins-good0: 0.10.31 http://gstreamer.freedesktop.org/src/gst-plugnis-good
--gst-plugins-good: 1.18.0
+-gst-plugins-good: 1.18.0 to 1.18.1
 -gst-plugins-libav: 1.18.0 http://gstreamer.freedesktop.org/modules/gst-libav.html
 -gstreamer0: 0.10.36 
--gstreamer: 1.18.0 http://gstreamer.freedesktop.org/src/gstreamer
+-gstreamer: 1.18.0 to 1.18.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.23 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -503,7 +503,7 @@ l series:
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluedevil: 2.1 to 5.2.2 http://de-mirror.org/gentoo/distfiles/
--libbluray: 1.2.0 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.2.1 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
 -libcap: 2.44 http://sites.google.com/site/fullycapable/
@@ -614,7 +614,7 @@ l series:
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.4.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.2_20200801 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
+-ncurses: 6.2_20201024 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
 -netpbm: 10.92.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
@@ -660,7 +660,7 @@ l series:
 -python-idna: 2.10 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 20.4 https://github.com/pypa/packaging
--python-pillow: 8.0.0 https://python-pillow.github.io/
+-python-pillow: 8.0.1 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.7.1 https://pypi.org/project/Pygments
 -python-requests: 2.24.0 http://docs.python-requests.org/en/master/
@@ -755,7 +755,7 @@ n series:
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.2 http://www.epicsol.org/
 -ethtool: 5.9 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.12 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.13 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.02 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.23 https://www.gnupg.org/download/index.html
@@ -776,8 +776,8 @@ n series:
 -iw: 5.9 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.18.0 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
--libassuan: 2.5.3 https://www.gnupg.org/download/index.html
--libgcrypt: 1.8.6 to 1.8.7 https://www.gnupg.org/download/index.html
+-libassuan: 2.5.4 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.8.7 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.39 https://www.gnupg.org/download/index.html
 -libksba: 1.4.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.24.4 http://www.freedesktop.org/software/libmbim/
@@ -833,7 +833,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.54 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.54 to 2.4.55 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.4p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
@@ -921,11 +921,11 @@ x series: (main packages)
 -libpciaccess: 0.16
 -libdrm: 2.4.102 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
--libevdev: 1.9.1
+-libevdev: 1.10.0
 -libglvnd: 1.3.2
 -libinput: 1.16.2
 -libmypaint: 1.6.1 http://mypaint.org
--libva: 2.9.0 https://01.org/linuxmedia/vaapi
+-libva: 2.9.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.9.1 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 1.5 https://github.com/linuxwacom
@@ -1013,7 +1013,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1895
+-gvim: 8.2.1905
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.4.0esr to 82.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
