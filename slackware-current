@@ -61,14 +61,14 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.72 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.73 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20201023 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
--libblockdev: 2.24
--libbytesize: 2.4
+-libblockdev: 2.24 https://github.com/rhinstaller/libblockdev
+-libbytesize: 2.4 https://github.com/rhinstaller/libbytesize
 -libgudev: 234 http://wiki.gnome.org/Projects/libgudev
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
@@ -87,7 +87,7 @@ A series :
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 4.2.4.6 http://ftp.debian.org/debian/pool/main/n/ncompress/
--ndctl: 70.1
+-ndctl: 70.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
 -openssl-solibs: 1.1.1h http://www.openssl.org/
@@ -133,7 +133,7 @@ A series :
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
 	- util-linux: 2.36.0 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
--volume_key: 0.3.12
+-volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.9.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
@@ -246,11 +246,11 @@ Ap series :
 -sysstat: 12.4.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.40 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.1b https://tmux.github.io/
+-tmux: 3.1c https://tmux.github.io/
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1905 to 1919 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1905 to 1927 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1905
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -gcc: 9.3.0 to 10.2.0 ftp://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 10.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
--git: 2.29.1 http://git-scm.com/download
+-git: 2.29.2 http://git-scm.com/download
 -gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.4 ftp://ftp.gnu.org/pub/gnu/guile/
@@ -291,13 +291,13 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.72
+-kernel-headers: 5.4.73
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.5.2 https://mercurial.selenic.com/downloads
--meson: 0.55.3 http://mesonbuild.com/
+-meson: 0.56.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.1 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -355,7 +355,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.72
+-kernel : 5.4.73
 --------------------
 kde series :
 --------------------
@@ -373,7 +373,7 @@ l series:
 --------------------
 -ConsoleKit2: 1.2.1 http://www.freedesktop.org/software/ConsoleKit/dist/
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--LibRaw: 0.18.12 to 0.20.2 http://www.libraw.org/
+-LibRaw: 0.20.2 http://www.libraw.org/
 -M2Crypto: 0.36.0 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQt: 4.12.3 http://www.riverbankcomputing.co.uk/software/pyqt/download
 -PyQT5: 5.15.0 https://pypi.org/project/PyQt5
@@ -423,7 +423,7 @@ l series:
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
 -enchant: 1.6.1 to 2.2.3 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
--exiv2: 0.26.0 to 0.27.2 http://www.exiv2.org/
+-exiv2: 0.27.3 http://www.exiv2.org/
 -expat: 2.2.10 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.3.1 https://ffmpeg.org/
@@ -440,7 +440,7 @@ l series:
 -gdk-pixbuf2: 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.26 http://ftp.acc.umu.se/pub/gnome/sources/gegl
--gexiv2: 0.12.0 http://www.exiv2.org/
+-gexiv2: 0.12.1 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -glade3: 3.8.6 to 3.22.1 http://ftp.acc.umu.se/pub/gnome/sources/glade3
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
@@ -459,6 +459,7 @@ l series:
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.12 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.64.0 to 1.66.1 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-graphene: 1.10.2 https://github.com/ebassi/graphene
 -graphite2: 1.3.14 http://graphite.sil.org/
 -grantlee: 0.5.1 to 5.2.0 http://downloads.grantlee.org/
 -gsettings-desktop-schemas: 3.36.1 to 3.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
@@ -482,9 +483,8 @@ l series:
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 67.1 to 68.1 http://site.icu-project.org/download
+-icu4c: 68.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--ilmbase: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
 -imagemagick: 7.0.10_34 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.22.1 http://isl.gforge.inria.fr
@@ -625,7 +625,7 @@ l series:
 -ocl-icd: 2.2.13 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.5 https://github.com/kkos/oniguruma
 -openal-soft: 1.20.1 https://openal-soft.org/openal-releases
--openexr: 2.2.0 to 2.3.0 http://www.openexr.com/downloads.html
+-openexr: 2.5.3 http://www.openexr.com/downloads.html
 -openjpeg: 2.3.1 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
@@ -642,7 +642,7 @@ l series:
 -polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 0.68.0 to 20.10.0 http://poppler.freedesktop.org/
+-poppler: 20.10.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.9 to 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 13.0 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -772,7 +772,7 @@ n series:
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.8.0 to 5.9.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-ipset: 7.7 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.5 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20200821 http://www.skbuff.net/iputils/
@@ -862,7 +862,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.19 http://www.sdaoden.eu/downloads
--samba: 4.13.0 https://ftp.samba.org/pub/samba/
+-samba: 4.13.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.3.4 http://www.dest-unreach.org/socat/download/
@@ -1017,7 +1017,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1905 to 1919
+-gvim: 8.2.1905 to 1927
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.4.0esr to 82.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1042,7 +1042,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.9 to 1.2.10 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
--xlockmore: 5.65 to 5.66 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+-xlockmore: 5.66 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 2.10.2 to 3.0.3 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.02 ftp://ftp.foolabs.com/pub/xpdf
