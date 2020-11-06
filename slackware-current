@@ -53,7 +53,7 @@ A series :
 -haveged: 1.9.13 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.58 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.340 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.341 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.74 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.75 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20201023 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -214,7 +214,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 http://www.nongnu.org/man-db/
 -man-pages: 5.0.9 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.6 http://mariadb.org/
+-mariadb: 10.5.7 http://mariadb.org/
 -mc: 4.8.25 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1905 to 1942 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1905 to 1961 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1905
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -291,7 +291,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.74
+-kernel-headers: 5.4.75
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -355,7 +355,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.74
+-kernel : 5.4.75
 --------------------
 kde series :
 --------------------
@@ -510,7 +510,7 @@ l series:
 -libbluray: 1.2.1 http://www.videolan.org/developers/libbluray.html
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.44 http://sites.google.com/site/fullycapable/
+-libcap: 2.45 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -623,8 +623,8 @@ l series:
 -netpbm: 10.92.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.13 https://forge.imag.fr/projects/ocl-icd/
--oniguruma: 6.9.5 https://github.com/kkos/oniguruma
--openal-soft: 1.20.1 https://openal-soft.org/openal-releases
+-oniguruma: 6.9.6 https://github.com/kkos/oniguruma
+-openal-soft: 1.21.0 https://openal-soft.org/openal-releases
 -openexr: 2.5.3 http://www.openexr.com/downloads.html
 -openjpeg: 2.3.1 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
@@ -643,7 +643,7 @@ l series:
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.112 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 20.11.0 http://poppler.freedesktop.org/
--poppler-data: 0.4.9 to 0.4.10 http://de-mirror.org/gentoo/distfiles/
+-poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 13.0 http://www.freedesktop.org/software/pulseaudio/releases/
 -pycairo: 1.20.0 http://cairographics.org/releases/
@@ -743,7 +743,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20201016 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20201105 http://packages.qa.debian.org/c/ca-certificates.html
 -cifs-utils: 6.11 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
@@ -862,7 +862,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.19 http://www.sdaoden.eu/downloads
--samba: 4.13.1 to 4.13.2 https://ftp.samba.org/pub/samba/
+-samba: 4.13.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.3.4 http://www.dest-unreach.org/socat/download/
@@ -923,7 +923,7 @@ x series: (main packages)
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.102 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.103 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.3
 -libevdev: 1.10.0
 -libglvnd: 1.3.2
@@ -932,7 +932,7 @@ x series: (main packages)
 -libva: 2.9.1 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.9.1 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.5 https://github.com/linuxwacom
+-libwacom: 1.6 https://github.com/linuxwacom
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
 -libXcm: 0.5.4
@@ -1017,7 +1017,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1905 to 1942
+-gvim: 8.2.1905 to 1961
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.4.0esr to 82.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1076,7 +1076,7 @@ xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 -xfce4-terminal: 0.8.8 to 0.8.9.2
 -xfce4-weather-plugin: 0.8.11
 -xfconf: 4.12.1 to 4.14.3
--xfdesktop: 4.12.5 to 4.14.2
+-xfdesktop: 4.12.5 to 4.14.3
 -xfwm4: 4.12.5 to 4.14.5
 --------------------
 y series:
