@@ -47,7 +47,7 @@ A series :
 -glibc-zoneinfo: 2020d
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.5 http://www.rodsbooks.com/gdisk/
--grep: 3.5 ftp://ftp.gnu.org/pub/gnu/grep
+-grep: 3.6 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.04 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.13 https://github.com/jirka-h/haveged/releases
@@ -250,8 +250,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1905 to 1967 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.1905
+-vim: 8.2.1969 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.1969
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -655,7 +655,7 @@ l series:
 -pyparsing: 2.4.7 http://pyparsing.wikispaces.com/
 -python2-module-collection: 2.7.18
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs
--python-certifi: 2020.06.20 http://certifi.io/
+-python-certifi: 2020.11.8 http://certifi.io/
 -python-chardet: 3.0.4 https://chardet.readthedocs.io
 -python-distro: 1.5.0 https://github.com/nir0s/distro
 -python-docutils: 0.16.0 http://docutils.sourceforge.net/
@@ -804,7 +804,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190922 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 1.14.7 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.0.0 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -849,7 +849,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.5.7 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.5.8 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.8
 	-ppp: 2.4.8 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -867,7 +867,7 @@ n series:
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.3.4 http://www.dest-unreach.org/socat/download/
--sshfs: 3.7.0 https://github.com/lib~/fuse/sshfs
+-sshfs: 3.7.0 to 3.7.1 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.57 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.3 http://www.tcpdump.org/releases
@@ -1018,11 +1018,11 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1905 to 1967
+-gvim: 8.2.1969
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 78.4.0esr to 82.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.4.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 78.4.1esr to 82.0.3 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 78.4.1 to 78.4.2 http://www.mozilla.org/projects/thunderbird/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.1
