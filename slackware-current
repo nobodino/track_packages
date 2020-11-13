@@ -61,7 +61,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.4.75 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.4.77 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20201023 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -92,7 +92,7 @@ A series :
 -nvi: 1.81.6 http://www.bostic.com/vi/
 -openssl-solibs: 1.1.1h http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
--pam: 1.4.0 https://github.com/linux-pam/linux-pam/releases
+-pam: 1.4.0 to 1.5.0 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.7.0 ftp://atrey.karlin.mff.cuni.cz/pub/linux/pci/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
@@ -101,7 +101,7 @@ A series :
 -procps-ng: 3.3.16
 	-procps-ng: 3.3.16 http://sourceforge.net/projects/procps-ng/files/Production/
 	-psmisc: 23.3
--quota: 4.05 http://www.sf.net/projects/linuxquota/
+-quota: 4.06 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
 -sdparm: 1.10 to 1.11 http://sg.danny.cz/sg/sdparm.html
@@ -207,14 +207,14 @@ Ap series :
 	- sgml-common: 0.6.3-53.fc31 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-12.fc31 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/groeck/lm-sensors
--lsof: 4.93.2 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
+-lsof: 4.94.0 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.30 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 2.0.11_fad08f383 to 4.0.5 http://sourceforge.net/projects/lxc/files/lxc
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 http://www.nongnu.org/man-db/
 -man-pages: 5.0.9 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.7 http://mariadb.org/
+-mariadb: 10.5.8 http://mariadb.org/
 -mc: 4.8.25 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1969 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1969 to 1979 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1969
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -283,7 +283,7 @@ d series:
 -gdb: 10.1 ftp://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.29.2 http://git-scm.com/download
--gnucobol: 2.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
+-gnucobol: 3.1 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.4 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
@@ -291,7 +291,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.4.75
+-kernel-headers: 5.4.77
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -311,11 +311,16 @@ d series:
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.14 
 	- IO-Socket-SSL: 2.068
-	- MIME-Base64: 3.15
+	- MIME-Base64: 3.16
+	- Module-Runtime: 0.016
+	- Moo: 2.004000
 	- Net-SSLeay: 1.88
 	- Parse-Yapp: 1.21
+	- Path-Tiny: 0.114
+	- Sub-Quote: 2.006006
+	- Template-Toolkit: 3.009
 	- TermReadKey: 2.38
-	- URI: 1.76 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.05 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -329,6 +334,7 @@ d series:
 -python-setuptools: 50.3.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
+-rinutils: 0.6.0 https://github.com/shlomif/rinutils
 -ruby: 2.7.2 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.47.0 https://rust-lang.org
 -scons: 4.0.1 http://www.scons.org/
@@ -355,7 +361,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.4.75
+-kernel : 5.4.77
 --------------------
 kde series :
 --------------------
@@ -429,6 +435,7 @@ l series:
 -ffmpeg: 4.3.1 https://ffmpeg.org/
 -fftw : 3.3.8 http://www.fftw.org/download.html
 -fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
+-freecell-solver: 6.2.0 https://fc-solve.shlomifish.org/downloads/fc-solve/
 -freetype: 2.10.4 http://sourceforge.net/projects/freetype/files/freetype2/
 -fribidi: 1.0.10 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
@@ -437,7 +444,7 @@ l series:
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.36.0 to 3.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.0 http://libgd.bitbucket.org/
--gdk-pixbuf2: 2.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.40.0 to 2.42.0 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdbm: 1.18.1 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.26 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.1 http://www.exiv2.org/
@@ -584,7 +591,7 @@ l series:
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.1.0 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
--libunwind: 1.4.0 http://www.nongnu.org/libunwind
+-libunwind: 1.5.0 http://www.nongnu.org/libunwind
 -libusb: 1.0.23 ftp://download.sourceforge.net/pub/sourceforge/libusb/
 -libusb-compat: 0.1.5 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
@@ -616,7 +623,7 @@ l series:
 -mozilla-nss: 3.57 to 3.58 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.57 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.4.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.4.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201024 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -630,7 +637,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.31 http://code.entropywave.com/projects/orc/
--pango: 1.46.2 to 1.47.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.46.2 to 1.48.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.3 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
@@ -667,10 +674,12 @@ l series:
 -python-pillow: 8.0.1 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.7.1 https://pypi.org/project/Pygments
--python-requests: 2.24.0 http://docs.python-requests.org/en/master/
+-python-pysol_cards: 0.10.1 https://pypi.org/project/pysol-cards
+-python-random2: 1.0.1 https://pypi.python.org/pypi/random2
+-python-requests: 2.25.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.8.3 https://github.com/python-pillow/Sane
 -python-six: 1.15.0 http://pypi.python.org/pypi/six/
--python-urllib3: 1.25.11 https://urllib3.readthedocs.io/
+-python-urllib3: 1.26.1 https://urllib3.readthedocs.io/
 -qca: 2.1.3 http://delta.affinix.com/download/qca/2.0/
 -qca-qt5: 2.3.1 http://delta.affinix.com/download/qca/2.0/
 -qimageblitz: 0.0.6 http://de-mirror.org/gentoo/distfiles/
@@ -760,7 +769,7 @@ n series:
 -epic5: 2.1.2 http://www.epicsol.org/
 -ethtool: 5.9 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.13 http://www.catb.org/~esr/fetchmail/
--getmail: 6.8 http://pyropus.ca/software/getmail/
+-getmail: 6.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.23 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.15 ftp://ftp.gnutls.org/gcrypt/gnutls/
@@ -837,7 +846,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.55 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.56 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.4p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
@@ -861,13 +870,12 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
-
 -s-nail: 14.9.19 http://www.sdaoden.eu/downloads
 -samba: 4.13.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.3.4 http://www.dest-unreach.org/socat/download/
--sshfs: 3.7.0 to 3.7.1 https://github.com/lib~/fuse/sshfs
+-sshfs: 3.7.1 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.57 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.9.3 http://www.tcpdump.org/releases
@@ -983,7 +991,7 @@ x series: (main packages)
 -xf86-video-vesa: 2.5.0
 -xf86-input-wacom: 0.39.0
 -xisxwayland: 1
--xterm: 361 ftp://invisible-island.net/xterm/
+-xterm: 362 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1018,11 +1026,11 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1969
+-gvim: 8.2.1969 to 1979
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.4.1esr to 82.0.3 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.4.1 to 78.4.2 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.4.3 http://www.mozilla.org/projects/thunderbird/
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.1
@@ -1076,7 +1084,7 @@ xfce: 4.12.x to 4.14.x http://archive.xfce.org/src/xfce/
 -xfce4-taskmanager: 1.2.2 to 1.2.3
 -xfce4-terminal: 0.8.8 to 0.8.9.2
 -xfce4-weather-plugin: 0.8.11
--xfconf: 4.12.1 to 4.14.3
+-xfconf: 4.12.1 to 4.12.2/4.14.3
 -xfdesktop: 4.12.5 to 4.14.3
 -xfwm4: 4.12.5 to 4.14.5
 --------------------
@@ -1110,7 +1118,7 @@ testing :
 -binutils: 2.34 to 2.35.1
 -gcc: 10.2.0
 -glibc: 2.31 to 2.32
--plasma: 5.20.2
+-plasma: 5.20.3
 --------------------
 -
 /-----------------------------------------------------------------------------------/
