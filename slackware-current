@@ -57,7 +57,7 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inotify-tools: 3.20.2.2 https://github.com/rvoicilas/inotify-tools/releases
+-inotify-tools: 3.20.11.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.2.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.1969 to 1979 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.1969 to 1988 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.1969
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -266,7 +266,7 @@ d series:
 -autoconf: 2.69 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.33.1 to 2.35.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.7.3 to 3.7.4 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.7.4 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.0 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
@@ -460,7 +460,7 @@ l series:
 	-tzdata: 2020d  https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
--gmp: 6.2.0 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
+-gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/ (for gcc)
 -gnome-keyring: 3.36.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
@@ -492,7 +492,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 68.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.10_35 to 37 http://www.imagemagick.org/
+-imagemagick: 7.0.10_37 to 38 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -620,8 +620,8 @@ l series:
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.57 to 3.59 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.57 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.59 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.59 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.4.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org (for gcc) + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -813,7 +813,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20190922 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.0.0 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.0.0 to 2.0.1 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -1026,7 +1026,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.1969 to 1979
+-gvim: 8.2.1969 to 1988
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.28 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.4.1esr to 82.0.3 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1041,7 +1041,7 @@ xap series:
 -sane: 1.0.31
 	- sane-backend : 1.0.31 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.4 to 2.53.5 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.5 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
