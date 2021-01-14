@@ -222,7 +222,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.26.4 http://sourceforge.net/projects/mpg123/files/
--nano: 5.4 http://www.nano-editor.org/download.php
+-nano: 5.4 to 5.5 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.13 https://github.com/linux-nvme/nvme-cli
@@ -474,10 +474,10 @@ l series:
 -gsettings-desktop-schemas: 3.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.6 http://www.gnu.org/software/gsl/
 -gst-plugins-base0: 0.10.36 http://gstreamer.freedesktop.org/src/gst-plugins-base
--gst-plugins-base: 1.18.2
+-gst-plugins-base: 1.18.2 to 1.18.3
 -gst-plugins-good0: 0.10.31 http://gstreamer.freedesktop.org/src/gst-plugnis-good
--gst-plugins-good: 1.18.2
--gst-plugins-libav: 1.18.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gst-plugins-good: 1.18.2 to 1.18.3
+-gst-plugins-libav: 1.18.2 to 1.18.3 http://gstreamer.freedesktop.org/modules/gst-libav.html
 -gstreamer0: 0.10.36 
 -gstreamer: 1.18.2 to 1.18.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
@@ -925,10 +925,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
--tcl: 8.6.10 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.11 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.10 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.11 to 8.6.11.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
