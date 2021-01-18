@@ -24,7 +24,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20201126 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20201126 to 1.3_20210117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.6 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.3.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.8 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210109 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 to 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -85,7 +85,7 @@ A series :
 	- minicom: 2.8 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.31.1 http://www.busybox.net/
+	- busybox: 1.32.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
@@ -234,7 +234,7 @@ Ap series :
 -rpm: 4.16.1.2 ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
--sc-im: 20200210 https://github.com/andmarti1424/sc-im
+-sc-im: 20200904 https://github.com/andmarti1424/sc-im
 -screen: 4.8.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2357 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.2323 to 2364 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.2323
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.7
+-kernel-headers: 5.10.8
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -333,7 +333,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.1 https://www.python.org/downloads/
 -python-pip: 20.3.3 https://pip.pypa.io/
--python-setuptools: 51.1.2 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 51.3.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
@@ -364,7 +364,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.7
+-kernel : 5.10.8
 --------------------
 kde series :
 --------------------
@@ -484,7 +484,7 @@ l series:
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.24 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.24.3 https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.24.3 to 4.0.0 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.46.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
@@ -495,7 +495,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 68.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.10_57 http://www.imagemagick.org/
+-imagemagick: 7.0.10_57 to 58 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -549,7 +549,7 @@ l series:
 -libgsf: 1.14.47 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://download.gnome.org/sources/libgtop/
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
--libical: 3.0.8 https://libical.github.io/libical/
+-libical: 3.0.9 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.36 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.0 http://ftp.gnu.org/gnu/libidn2/
@@ -667,7 +667,7 @@ l series:
 -poppler: 21.01.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
--pulseaudio: 14.1 http://www.freedesktop.org/software/pulseaudio/releases/
+-pulseaudio: 14.2 http://www.freedesktop.org/software/pulseaudio/releases/
 -pycairo: 1.20.0 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.6 http://pycurl.sourceforge.net/
@@ -748,7 +748,7 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.14.8 http://www.freedesktop.org/software/ModemManager/
+-ModemManager: 1.14.10 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.28.0 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.24
 	-alpine: 2.24 http://patches.freeiz.com/alpine
@@ -792,7 +792,7 @@ n series:
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.10.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.10 ftp://ftp.netfilter.org/pub/conntrack-tools/
--iptables: 1.8.6 to 1.8.7 http://www.netfilter.org/files/
+-iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20200821 http://www.skbuff.net/iputils/
 -irssi: 1.2.2 http://www.irssi.org/files/
@@ -814,7 +814,7 @@ n series:
 -libnetfilter_log: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libnftnl: 1.1.8 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-libnftnl: 1.1.9 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.26.8 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.1 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.21 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
@@ -868,7 +868,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.5.8 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.5.8 to 3.5.9 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.8 to 2.4.9
 	-ppp: 2.4.8 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -1047,7 +1047,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2357
+-gvim: 8.2.2323 to 2364
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1085,9 +1085,9 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -Greybird: 3.22.14
 -elementary-xfce: 0.15.1
 -exo: 4.16.0
--garcon: 0.8.0
--libxfce4ui: 4.12.1 to 4.14.1
--libxfce4util: 4.12.1 to 4.14.0
+-garcon: 4.16.1
+-libxfce4ui: 4.16.0
+-libxfce4util: 4.16.0
 -mousepad: 0.5.1
 -thunar: 4.16.2
 -thunar-volman: 4.16.0
@@ -1108,7 +1108,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-taskmanager: 1.4.0
 -xfce4-terminal: 0.8.10
 -xfce4-weather-plugin: 0.10.2
--xfce4-whiskermenu-plugin: 2.5.1
+-xfce4-whiskermenu-plugin: 2.5.2
 -xfconf: 4.16.0
 -xfdesktop: 4.16.0
 -xfwm4: 4.16.1
