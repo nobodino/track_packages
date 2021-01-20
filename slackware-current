@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.9 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.10 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -24,7 +24,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20201126 to 1.3_20210117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
 -e2fsprogs: 1.45.6 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -45,7 +45,7 @@ A series :
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
--glibc-solibs: 2.30 to 2.32
+-glibc-solibs: 2.32
 -glibc-zoneinfo: 2020f
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.6 http://www.rodsbooks.com/gdisk/
@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.3.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.8 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210109 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.10.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20210119 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 27 to 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2364 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.2323 to 2377 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.2323
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -289,11 +289,11 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.5 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
--help2man: 1.47.16 http://ftp.gnu.org/gnu/help2man/
+-help2man: 1.47.17 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.8
+-kernel-headers: 5.10.9
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -322,7 +322,7 @@ d series:
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.009
 	- TermReadKey: 2.38
-	- URI: 5.05 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.05 to 5.06 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -338,7 +338,7 @@ d series:
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.0 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.48.0 to 1.49.0 https://rust-lang.org
+-rust: 1.49.0 https://rust-lang.org
 -sassc: 3.6.1 https://github.com/sass/sassc
 -scons: 4.0.1 http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -364,7 +364,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.8
+-kernel : 5.10.9
 --------------------
 kde series :
 --------------------
@@ -456,8 +456,8 @@ l series:
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.66.4 to 2.67.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 http://www.gtkmm.org/
--glibc: 2.30 to 2.32
-	-glibc: 2.30 ftp://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.32
+	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2020f https://www.iana.org/time-zones
 	-tzdata: 2020f  https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -772,7 +772,7 @@ n series:
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.9 to 9.3.2 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
--dnsmasq: 2.82 http://www.thekelleys.org.uk/dnsmasq/doc.html
+-dnsmasq: 2.83 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.13 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
@@ -800,7 +800,7 @@ n series:
 -krb5: 1.18.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.4 https://www.gnupg.org/download/index.html
--libgcrypt: 1.8.7 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.8.7 to 1.9.0 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.41 https://www.gnupg.org/download/index.html
 -libksba: 1.5.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.24.4 http://www.freedesktop.org/software/libmbim/
@@ -856,7 +856,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.56 to 2.4.57 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.57 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.4p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl10: 1.0.2u ftp://ftp.openssl.org/source/
@@ -1047,7 +1047,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2364
+-gvim: 8.2.2323 to 2377
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1068,7 +1068,7 @@ xap series:
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
 -x3270: 3.3.12ga7 to 4.0ga12 http://x3270.bgp.nu/download.html
--xaos: 4.2 http://xaos.sf.net
+-xaos: 4.2.1 http://xaos.sf.net
 -xgames: 0.2
 -xine-lib: 1.2.9 to 1.2.11 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
