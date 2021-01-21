@@ -242,7 +242,7 @@ Ap series :
 -slackpkg: 2.83.0 http://www.slackpkg.org/
 -soma: 3.3.6 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.34.0 http://www.sqlite.org/download.html
+-sqlite: 3.34.0 to 3.34.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.5p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.2 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -755,7 +755,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.6 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.10 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.10 to 9.17.9 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.55 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1144,10 +1144,43 @@ testing :
 -
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
+/sys/devices/system/cpu/vulnerabilities/itlb_multihit:KVM: Mitigation: VMX disabled
+/sys/devices/system/cpu/vulnerabilities/l1tf:Mitigation: PTE Inversion; VMX: conditional cache flushes, SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/mds:Vulnerable: Clear CPU buffers attempted, no microcode; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/meltdown:Mitigation: PTI
+/sys/devices/system/cpu/vulnerabilities/spec_store_bypass:Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+/sys/devices/system/cpu/vulnerabilities/spectre_v1:Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+/sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: Full generic retpoline, IBPB: conditional, IBRS_FW, STIBP: conditional, RSB filling
+/sys/devices/system/cpu/vulnerabilities/srbds:Vulnerable: No microcode
+/sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Vulnerable: Clear CPU buffers attempted, no microcode; SMT vulnerable
+
 nvidia-smi --query-gpu=driver_version --format=csv,noheader
+
 uname -rp
 /-----------------------------------------------------------------------------------/
-
 cumulative archive packages for slackware64 (no delete rsync)
 http://slackware.uk/cumulative/slackware64-current/slackware64/
 /-----------------------------------------------------------------------------------/
+microcode intel:
+
+iucode_tool -S -l /lib/firmware/intel-ucode/*
+selected microcodes:
+  079/001: sig 0x000506e3, pf_mask 0x36, 2020-07-14, rev 0x00e2, size 105472
+
+# to reload microcode
+echo 1 > /sys/devices/system/cpu/microcode/reload
+# to see the microcode version 
+dmesg -t |grep -m1  microcode
+
+# to create 'my own' intel-ucode.cpio after installpkg intel-microcode SBo package
+cd /boot
+iucode_tool -S --write-earlyfw=intel-ucode.cpio /lib/firmware/intel-ucode/
+
+# hyperthreading or SMT
+# to temporarily enable hyperthreading:
+echo on > /sys/devices/system/cpu/smt/control
+
+# to disable hyperthreading:
+echo off > /sys/devices/system/cpu/smt/control
+
+can be seen with htop immediately.
