@@ -63,10 +63,10 @@ A series :
 -inotify-tools: 3.20.11.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.3.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+-kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.10.9 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210119 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 27 to 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
@@ -107,7 +107,7 @@ A series :
 -quota: 4.06 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
--sdparm: 1.10 to 1.11 http://sg.danny.cz/sg/sdparm.html
+-sdparm: 1.11 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.8 ftp://ftp.gnu.org/pub/gnu/sed
 -shadow: 4.8.1 http://pkg-shadow.alioth.debian.org/
 -sharutils: 4.15.2 ftp://ftp.gnu.org/pub/gnu/sharutils/
@@ -218,7 +218,7 @@ Ap series :
 -man-db: 2.9.3 http://www.nongnu.org/man-db/
 -man-pages: 5.10 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.5.8 http://mariadb.org/
--mc: 4.8.25 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
+-mc: 4.8.25 to 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.26.4 http://sourceforge.net/projects/mpg123/files/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2377 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.2323 to 2387 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.2323
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
@@ -355,8 +355,9 @@ e series:
 --------------------
 Installer:
 --------------------
--busybox: 1.30.1 to 1.31.1
--dropbear: 20171018 to 2018.76 http://matt.ucc.asn.au/dropbear/dropbear.html
+-busybox: 1.32.1
+-dropbear: 2020.81 http://matt.ucc.asn.au/dropbear/dropbear.html
+-nano: 5.5
 --------------------
 f series:
 --------------------
@@ -396,7 +397,7 @@ l series:
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
--aspell-en: 2018.04.16 to 2020.12.07
+-aspell-en: 2019.10.06 to 2020.12.07
 -at-spi2-atk: 2.38.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
 -at-spi2-core: 2.38.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.36.0 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
@@ -412,7 +413,7 @@ l series:
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -cryfs: 0.10.2 https://github.com/cryfs/cryfs
--cryptopp: 8.2.0 to 8.4.0 (pb with cryfs)
+-cryptopp: 8.2.0 to 8.4.0 (pb with cryfs) https://www.cryptopp.com/
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.16 http://dbus.freedesktop.org/releases/dbus-glib/
@@ -484,7 +485,7 @@ l series:
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.24 (to 4.0.2) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.24.3 to 4.0.0 https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.24.3 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.46.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
@@ -787,7 +788,7 @@ n series:
 -gpgme: 1.15.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.46 http://www.apache.org/dist/httpd/
--icmpinfo: 1.11 (??) 
+-icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.10.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
@@ -823,7 +824,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.0.4 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.0.4 to 2.0.5 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -880,7 +881,7 @@ n series:
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.20 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.20 to 14.9.21 http://www.sdaoden.eu/downloads
 -samba: 4.13.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
@@ -928,7 +929,7 @@ tcl/tk series:
 -tcl: 8.6.11 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.11 to 8.6.11.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.11.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
@@ -983,7 +984,7 @@ x series: (main packages)
 -skkdic: 20200128
 -twm: 1.0.11
 -vulkan-sdk: 1.2.141.0 to 1.2.158.0 https://www.khronos.org/vulkan/
--wayland: 1.18 to 1.18.92 https://wayland.freedesktop.org/releases.html
+-wayland: 1.18 to 1.18.93 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.20 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
 -xdg-utils: 1.1.3
@@ -1028,7 +1029,7 @@ xap series:
 -blueman: 2.1.4 http://blueman-project.org
 -ddd: 3.3.12 ftp://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
--easytag: 2.4.2 to 2.4.3 http://easytag.sourceforge.net
+-easytag: 2.4.3 http://easytag.sourceforge.net
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
@@ -1047,7 +1048,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2377
+-gvim: 8.2.2323 to 2387
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1070,7 +1071,7 @@ xap series:
 -x3270: 3.3.12ga7 to 4.0ga12 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 http://xaos.sf.net
 -xgames: 0.2
--xine-lib: 1.2.9 to 1.2.11 http://dl.sourceforge.net/xine/
+-xine-lib: 1.2.11 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
 -xlockmore: 5.66 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
@@ -1153,34 +1154,33 @@ grep . /sys/devices/system/cpu/vulnerabilities/*
 /sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: Full generic retpoline, IBPB: conditional, IBRS_FW, STIBP: conditional, RSB filling
 /sys/devices/system/cpu/vulnerabilities/srbds:Vulnerable: No microcode
 /sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Vulnerable: Clear CPU buffers attempted, no microcode; SMT vulnerable
-
+/-----------------------------------------------------------------------------------/
 nvidia-smi --query-gpu=driver_version --format=csv,noheader
-
-uname -rp
 /-----------------------------------------------------------------------------------/
 cumulative archive packages for slackware64 (no delete rsync)
 http://slackware.uk/cumulative/slackware64-current/slackware64/
 /-----------------------------------------------------------------------------------/
 microcode intel:
-
+--------------------
 iucode_tool -S -l /lib/firmware/intel-ucode/*
 selected microcodes:
   079/001: sig 0x000506e3, pf_mask 0x36, 2020-07-14, rev 0x00e2, size 105472
-
+--------------------
 # to reload microcode
 echo 1 > /sys/devices/system/cpu/microcode/reload
 # to see the microcode version 
 dmesg -t |grep -m1  microcode
-
+--------------------
 # to create 'my own' intel-ucode.cpio after installpkg intel-microcode SBo package
 cd /boot
 iucode_tool -S --write-earlyfw=intel-ucode.cpio /lib/firmware/intel-ucode/
-
+--------------------
 # hyperthreading or SMT
 # to temporarily enable hyperthreading:
 echo on > /sys/devices/system/cpu/smt/control
-
+--------------------
 # to disable hyperthreading:
 echo off > /sys/devices/system/cpu/smt/control
-
+--------------------
 can be seen with htop immediately.
+/-----------------------------------------------------------------------------------/
