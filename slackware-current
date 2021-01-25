@@ -46,7 +46,7 @@ A series :
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
 -glibc-solibs: 2.32
--glibc-zoneinfo: 2020f
+-glibc-zoneinfo: 2021a
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.6 http://www.rodsbooks.com/gdisk/
 -grep: 3.6 ftp://ftp.gnu.org/pub/gnu/grep
@@ -252,10 +252,10 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2387 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.2323 to 2401 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.2323
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
--vorbis-tools: 1.4.0 https://www.xiph.org/downloads/
+-vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.2 https://www.gnu.org/software/xorriso
 -zsh: 5.8 ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/
@@ -267,8 +267,8 @@ d series:
 -autoconf-archive: 2019.01.06 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.70 (pb) ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.35.1 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.7.4 ftp://ftp.gnu.org/pub/gnu/bison/
+-binutils: 2.36 https://www.kernel.org/pub/linux/devel/binutils/
+-bison: 3.7.5 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.1 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
@@ -307,7 +307,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
 -parallel: 20201222 to 20210122 https://www.gnu.org/software/parallel/
 -patchelf: 0.12 http://nixos.org/patchelf.html
--perl: 5.32.0
+-perl: 5.32.1
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
@@ -327,13 +327,13 @@ d series:
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- libnet: 3.11
-	- perl: 5.32.0 http://www.perl.com/CPAN/src/5.0/
+	- perl: 5.32.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.1 https://www.python.org/downloads/
--python-pip: 20.3.3 https://pip.pypa.io/
--python-setuptools: 51.3.3 https://pypi.python.org/pypi/setuptools
+-python-pip: 21.0 https://pip.pypa.io/
+-python-setuptools: 52.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
@@ -459,8 +459,8 @@ l series:
 -glibmm: 2.64.5 http://www.gtkmm.org/
 -glibc: 2.32
 	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2020f https://www.iana.org/time-zones
-	-tzdata: 2020f  https://www.iana.org/time-zones
+	-tzcode: 2021a https://www.iana.org/time-zones
+	-tzdata: 2021a  https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/
@@ -496,7 +496,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 68.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.10_58 http://www.imagemagick.org/
+-imagemagick: 7.0.10_59 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -593,7 +593,7 @@ l series:
 -libsigc++: 2.10.2 to 2.10.4/3.0.4 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
 -libsecret: 0.20.4 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.13 https://ftp.gnu.org/gnu/libsigsegv/
--libsndfile: 1.0.30 http://www.mega-nerd.com/libsndfile/files/
+-libsndfile: 1.0.31 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
 -libsoup: 2.72.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.9 http://www.freedesktop.org/wiki/Software/libspectre/
@@ -634,7 +634,7 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 6.24.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.60.1 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.60.1 to 3.61 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.60.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.6.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -968,7 +968,7 @@ x series: (main packages)
 -libXpm: 3.5.13
 -libX11: 1.7.0
 -libXres: 1.2.0
--libXt: 1.2.0
+-libXt: 1.2.1
 -marisa: 0.2.6
 -mesa: 20.3.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
@@ -1003,7 +1003,7 @@ x series: (main packages)
 -xf86-video-intel: 20201215
 -xf86-video-mga: 2.0.0
 -xf86-video-nv: 2.1.21
--xf86-video-nouveau: 1.0.16
+-xf86-video-nouveau: 1.0.17
 -xf86-video-r128: 6.12.0b
 -xf86-video-s3: 0.7.0
 -xf86-video-s3virge: 1.11.0
@@ -1048,7 +1048,7 @@ xap series:
 -gparted: 1.1.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2387
+-gvim: 8.2.2323 to 2401
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.6.1esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1063,7 +1063,7 @@ xap series:
 -sane: 1.0.31
 	- sane-backend : 1.0.31 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.5.1 to 2.53.6 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.6 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
