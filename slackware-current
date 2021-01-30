@@ -26,7 +26,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20210117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.45.6 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.45.7 to 1.46.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 http://linux.dell.com/efibootmgr
 -efivar: 20191015 https://github.com/rhboot/efivar
@@ -64,14 +64,14 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.11 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210119 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libblockdev: 2.25 https://github.com/rhinstaller/libblockdev
--libbytesize: 2.4 https://github.com/rhinstaller/libbytesize
+-libbytesize: 2.5 https://github.com/rhinstaller/libbytesize
 -libgudev: 234 http://wiki.gnome.org/Projects/libgudev
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
@@ -265,7 +265,7 @@ d series:
 -Cython: 0.29.21 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.4 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2019.01.06 https://www.gnu.org/software/autoconf-archive/
--autoconf: 2.69 to 2.70 (pb) ftp://ftp.gnu.org/pub/gnu/autoconf/
+-autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.36 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.5 ftp://ftp.gnu.org/pub/gnu/bison/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.2
--cmake: 3.19.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.19.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.9
+-kernel-headers: 5.10.11
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -340,7 +340,7 @@ d series:
 -ruby: 3.0.0 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.49.0 https://rust-lang.org
 -sassc: 3.6.1 https://github.com/sass/sassc
--scons: 4.0.1 http://www.scons.org/
+-scons: 4.0.1 to 4.1.0  http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
 -strace: 5.10 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.0 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
@@ -365,7 +365,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.9
+-kernel : 5.10.11
 --------------------
 kde series :
 --------------------
@@ -493,7 +493,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 68.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.10_59 http://www.imagemagick.org/
+-imagemagick: 7.0.10_60 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -584,7 +584,7 @@ l series:
 -libqalculate: 3.16.1 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.50.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.50.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.1 http://www.mega-nerd.com/SRC/download.html
 -libsass: 3.6.4 https://github.com/sass/libsass
 -libsigc++: 2.10.2 to 2.10.4/3.0.4 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
@@ -651,14 +651,14 @@ l series:
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
 -pango: 1.48.0 to 1.48.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
--parted: 3.3 ftp://ftp.gnu.org/pub/parted/
+-parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
 -pcre2: 10.36 http://www.pcre.org/
 -pcre: 8.44 http://pcre.sourceforge.net/src/
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.19 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.19 to 0.3.20 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -692,7 +692,7 @@ l series:
 -python-requests: 2.25.1 http://docs.python-requests.org/en/master/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane
 -python-six: 1.15.0 http://pypi.python.org/pypi/six/
--python-urllib3: 1.26.2 https://urllib3.readthedocs.io/
+-python-urllib3: 1.26.3 https://urllib3.readthedocs.io/
 -qca: 2.3.1 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.2 https://download.qt.io/official_releases/qt/
@@ -753,7 +753,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.10 to 9.17.9 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.10 to 9.16.11 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.55 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -798,10 +798,10 @@ n series:
 -krb5: 1.18.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.4 https://www.gnupg.org/download/index.html
--libgcrypt: 1.8.7 to 1.9.0 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.9.1 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.41 https://www.gnupg.org/download/index.html
 -libksba: 1.5.0 https://www.gnupg.org/download/index.html
--libmbim: 1.24.4 http://www.freedesktop.org/software/libmbim/
+-libmbim: 1.24.4 to 1.24.6 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.16.1 (??)
 -libmnl: 1.0.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libndp: 1.7 http://libndp.org/https://sources.archlinux.org/sources/
@@ -863,7 +863,7 @@ n series:
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
 -php: 7.4.14 to 8.0.1 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
--pinentry: 1.1.0 https://www.gnupg.org/download/index.html#pinentry
+-pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.5.9 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
@@ -878,7 +878,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.20 to 14.9.21 http://www.sdaoden.eu/downloads
--samba: 4.13.3 https://ftp.samba.org/pub/samba/
+-samba: 4.13.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -956,7 +956,7 @@ x series: (main packages)
 -libva: 2.10.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.10.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.7 https://github.com/linuxwacom
+-libwacom: 1.8 https://github.com/linuxwacom
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
 -libXcm: 0.5.4
@@ -966,7 +966,7 @@ x series: (main packages)
 -libXres: 1.2.0
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 20.3.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 20.3.4 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -980,7 +980,7 @@ x series: (main packages)
 -skkdic: 20200128
 -twm: 1.0.11
 -vulkan-sdk: 1.2.141.0 to 1.2.158.0 https://www.khronos.org/vulkan/
--wayland: 1.18 to 1.18.93 https://wayland.freedesktop.org/releases.html
+-wayland: 1.19.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.20 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
 -xdg-utils: 1.1.3
@@ -1073,7 +1073,7 @@ xap series:
 -xmms: 1.2.11
 -xsnow: 3.2.0
 -xpaint: 3.0.3 https://sourceforge.net/projects/sf-xpaint/
--xpdf: 4.02 ftp://ftp.foolabs.com/pub/xpdf
+-xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 5.45 http://www.jwz.org/xscreensaver/
 --------------------
@@ -1093,7 +1093,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-clipman-plugin: 1.6.1
 -xfce4-dev-tools: 4.16.0
 -xfce4-notifyd: 0.6.2
--xfce4-panel: 4.16.0
+-xfce4-panel: 4.16.1
 -xfce4-panel-profiles: 1.0.12
 -xfce4-power-manager: 4.16.0
 -xfce4-pulseaudio-plugin: 0.4.3
