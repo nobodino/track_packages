@@ -312,21 +312,21 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.14 
-	- IO-Socket-SSL: 2.068
+	- IO-Socket-SSL: 2.069
 	- MIME-Base64: 3.16
 	- Module-Runtime: 0.016
-	- Moo: 2.004000
-	- Net-SSLeay: 1.88
+	- Moo: 2.004004
+	- Net-SSLeay: 1.90
 	- Parse-Yapp: 1.21
-	- Path-Tiny: 0.114
+	- Path-Tiny: 0.116
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.009
 	- TermReadKey: 2.38
-	- URI: 5.05 to 5.07 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.06 to 5.07 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
-	- libnet: 3.11
+	- libnet: 3.13
 	- perl: 5.32.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
