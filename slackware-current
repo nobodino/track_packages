@@ -26,7 +26,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20210117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.1 http://fossies.org/linux/misc/
--e2fsprogs: 1.45.7 to 1.46.0 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.46.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 http://linux.dell.com/efibootmgr
 -efivar: 20191015 https://github.com/rhboot/efivar
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.11 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.12 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210119 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -114,7 +114,7 @@ A series :
 -smartmontools: 7.2 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.2.0 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
+-sysklogd: 2.2.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
 -sysvinit: 2.98 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
@@ -190,7 +190,7 @@ Ap series :
 -ksh93: 20200131 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.73 http://packages.qa.debian.org/l/linuxdoc-tools.html
-	- asciidoc: 8.6.10-0.13.20180605git986f99d.fc32 to 9.0.3 http://www.methods.co.nz/asciidoc/
+	- asciidoc: 8.6.10-0.13.20180605git986f99d.fc32 to 9.0.5 http://www.methods.co.nz/asciidoc/
 	- docbook-dsssl: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-dsssl-doc: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-style-xsl: 1.79.2-10.fc31 http://downloads.sourceforge.net/project/docbook/docbook-xsl/
@@ -199,7 +199,7 @@ Ap series :
 	- docbook2x: 0.8.8 http://packages.debian.org/sid/docbook2x
 	- dbook: 4.5
 	- gnome-doc-utils: 0.20.10 http://ftp.acc.umu.se/pub/GNOME/sources/gnome-doc-utils/
-	- gtk-doc: 1.32-2.fc32 to 1.33.0 http://ftp.acc.umu.se/pub/GNOME/sources/gtk-doc/
+	- gtk-doc: 1.32-2.fc32 to 1.33.2 http://ftp.acc.umu.se/pub/GNOME/sources/gtk-doc/
 	- libsgmls-perl: 1.03 http://ftp.debian.org/debian/pool/main/libs/libsgmls-perl/
 	- linuxdoc-tools: 0.9.72 https://packages.debian.org/sid/linuxdoc-tools
 	- openjade: 1.3.2 (1.3.3-pre1: segfault) http://openjade.sourceforge.net/download.html
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2415 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.2323 to 2433 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.2323
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -267,7 +267,7 @@ d series:
 -autoconf-archive: 2019.01.06 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.36 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.35.2 to 2.36 (pb with strace) https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.5 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.1 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.11
+-kernel-headers: 5.10.12
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -322,7 +322,7 @@ d series:
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.009
 	- TermReadKey: 2.38
-	- URI: 5.05 to 5.06 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.05 to 5.07 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -365,7 +365,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.11
+-kernel : 5.10.12
 --------------------
 kde series :
 --------------------
@@ -445,7 +445,7 @@ l series:
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
--gd: 2.3.0 http://libgd.bitbucket.org/
+-gd: 2.3.1 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.42.2 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 
 -gdbm: 1.19 ftp://ftp.gnu.org/gnu/gdbm/
@@ -456,7 +456,7 @@ l series:
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.66.4 to 2.67.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
--glibmm: 2.64.5 http://www.gtkmm.org/
+-glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.32
 	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2021a https://www.iana.org/time-zones
@@ -611,7 +611,7 @@ l series:
 -libvncserver: 0.9.13 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.9.0 http://www.webmproject.org/
--libwebp: 1.1.0 https://developers.google.com/speed/webp/
+-libwebp: 1.2.0 https://developers.google.com/speed/webp/
 -libwmf: 0.2.12 http://sourceforge.net/projects/wvware/
 -libwnck3: 3.6.4 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.3.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
@@ -650,7 +650,7 @@ l series:
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
 -pango: 1.48.0 to 1.48.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
--pangomm: 2.42.2 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
+-pangomm: 2.42.2 to 2.46.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
 -pcre2: 10.36 http://www.pcre.org/
@@ -683,7 +683,7 @@ l series:
 -python-future: 0.18.2 https://pypi.org/project/future/
 -python-idna: 3.1 https://github.com/kjd/idna
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
--python-packaging: 20.8 https://github.com/pypa/packaging
+-python-packaging: 20.9 https://github.com/pypa/packaging
 -python-pillow: 8.1.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.7.4 https://pypi.org/project/Pygments
@@ -1044,7 +1044,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2415
+-gvim: 8.2.2323 to 2433
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.7.0esr to 85.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1164,7 +1164,7 @@ selected microcodes:
 # to reload microcode
 echo 1 > /sys/devices/system/cpu/microcode/reload
 # to see the microcode version 
-dmesg -t |grep -m1  microcode
+dmesg | grep  microcode
 --------------------
 # to create 'my own' intel-ucode.cpio after installpkg intel-microcode SBo package
 cd /boot
