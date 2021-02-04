@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.14 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.60 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.343 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.344 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.4 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 3.2.5 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 3.2.6 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2442 ftp://ftp.vim.org/pub/vim/patches/8.1/
+-vim: 8.2.2323 to 2463 ftp://ftp.vim.org/pub/vim/patches/8.1/
 	- vim: 8.2.2323
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -455,7 +455,7 @@ l series:
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.4 to 2.67.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.4 to 2.66.5/2.67.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.32
 	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -662,7 +662,7 @@ l series:
 -polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.01.0 to 21.02.0 http://poppler.freedesktop.org/
+-poppler: 21.02.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -695,7 +695,7 @@ l series:
 -python-urllib3: 1.26.3 https://urllib3.readthedocs.io/
 -qca: 2.3.1 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.2 https://download.qt.io/official_releases/qt/
+-qt5: 5.15.2 (to 6.0.1) https://download.qt.io/official_releases/qt/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.12.0 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
@@ -765,7 +765,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.73.0 http://curl.haxx.se/download/
+-curl: 7.73.0 to 7.75.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
@@ -795,7 +795,7 @@ n series:
 -iputils: s20200821 http://www.skbuff.net/iputils/
 -irssi: 1.2.2 http://www.irssi.org/files/
 -iw: 5.9 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.18.3 to 1.19 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.19 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.4 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.9.1 https://www.gnupg.org/download/index.html
@@ -847,7 +847,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.5.2 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.8 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.42.0 https://nghttp2.org/
+-nghttp2: 1.43.0 https://nghttp2.org/
 -nmap: 7.91 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
@@ -861,7 +861,7 @@ n series:
 -openvpn: 2.5.0 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
--php: 7.4.14 to 8.0.1 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.14 to 8.0.2 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1009,7 +1009,7 @@ x series: (main packages)
 -xf86-video-vesa: 2.5.0
 -xf86-input-wacom: 0.39.0
 -xisxwayland: 1
--xterm: 363 ftp://invisible-island.net/xterm/
+-xterm: 363 to 365 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1044,7 +1044,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2442
+-gvim: 8.2.2323 to 2463
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.7.0esr to 85.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
