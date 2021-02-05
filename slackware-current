@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.10 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.10 to 5.10.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210119 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -89,7 +89,7 @@ A series :
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
--ncompress: 4.2.4.6 http://ftp.debian.org/debian/pool/main/n/ncompress/
+-ncompress: 5.0 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2323 to 2463 ftp://ftp.vim.org/pub/vim/patches/8.1/
-	- vim: 8.2.2323
+-vim: 8.2.2461 ftp://ftp.vim.org/pub/vim/patches/8.1/
+	- vim: 8.2.2461
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,12 +293,12 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.12
+-kernel-headers: 5.10.13
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.0.1 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.6.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.7 https://mercurial.selenic.com/downloads
 -meson: 0.56.2 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -365,11 +365,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.12
+-kernel : 5.10.13
 --------------------
 kde series :
 --------------------
--kde: 5.78.0 https://download.kde.org/stable/
+-kde: 5.78.0/20.12.2 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -441,7 +441,7 @@ l series:
 -frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.10.1 https://github.com/libfuse/libfuse
+-fuse3: 3.10.1 to 3.10.2 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -455,7 +455,7 @@ l series:
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.4 to 2.66.5/2.67.2 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.5 to 2.66.6 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.32
 	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -576,7 +576,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org
--libpcap: 1.9.1 http://www.tcpdump.org/release/
+-libpcap: 1.10.0 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.17 https://code.google.com/p/libproxy/
@@ -693,7 +693,7 @@ l series:
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane
 -python-six: 1.15.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.26.3 https://urllib3.readthedocs.io/
--qca: 2.3.1 http://delta.affinix.com/download/qca/2.0/
+-qca: 2.3.2 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.2 (to 6.0.1) https://download.qt.io/official_releases/qt/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
@@ -765,7 +765,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.73.0 to 7.75.0 http://curl.haxx.se/download/
+-curl: 7.75.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
@@ -792,7 +792,7 @@ n series:
 -ipset: 7.10 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
--iputils: s20200821 http://www.skbuff.net/iputils/
+-iputils: s20210202 http://www.skbuff.net/iputils/
 -irssi: 1.2.2 http://www.irssi.org/files/
 -iw: 5.9 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.19 http://web.mit.edu/kerberos/dist/krb5/
@@ -861,7 +861,7 @@ n series:
 -openvpn: 2.5.0 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
--php: 7.4.14 to 8.0.2 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.15 to 8.0.2 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -885,7 +885,7 @@ n series:
 -sshfs: 3.7.1 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.57 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
--tcpdump: 4.9.3 http://www.tcpdump.org/releases
+-tcpdump: 4.99.0 http://www.tcpdump.org/releases
 -telnet:
 	-netkit-telnet:  0.17 to 0.17_36.diff.gz (ipv6: telnet from redhat)
 	-telnet-OpenBSD: 20020321
@@ -1009,7 +1009,7 @@ x series: (main packages)
 -xf86-video-vesa: 2.5.0
 -xf86-input-wacom: 0.39.0
 -xisxwayland: 1
--xterm: 363 to 365 ftp://invisible-island.net/xterm/
+-xterm: 364 to 365 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1017,8 +1017,8 @@ xap series:
 	-Mplayer: 20200103
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.8.12
--audacious: 4.0.5 to 4.1 http://audacious-media-player.org/release/
--audacious-plugins: 4.0.5 to 4.1 
+-audacious: 4.1 http://audacious-media-player.org/release/
+-audacious-plugins: 4.1 
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
@@ -1044,11 +1044,12 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2323 to 2463
+-gvim: 8.2.2461
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 78.7.0esr to 85.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.7.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 78.7.0esr to 85.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 78.7.0 to 78.7.1 http://www.mozilla.org/projects/thunderbird/
+-network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.1
