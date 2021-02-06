@@ -124,7 +124,7 @@ A series :
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
--udisks2: 2.9.1 http://udisks.freedesktop.org/releases/
+-udisks2: 2.9.2 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.99.11 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch/#download
@@ -269,7 +269,7 @@ d series:
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.35.2 to 2.36 (pb with strace) https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.5 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.1 https://ftp.samba.org/pub/ccache/
+-ccache: 4.2 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -441,7 +441,7 @@ l series:
 -frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.10.1 to 3.10.2 https://github.com/libfuse/libfuse
+-fuse3: 3.10.2 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -455,7 +455,7 @@ l series:
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.5 to 2.66.6 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.6 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.32
 	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -521,7 +521,7 @@ l series:
 -libburn: 1.5.2.pl01 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.47 http://sites.google.com/site/fullycapable/
+-libcap: 2.48 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.2 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -634,7 +634,7 @@ l series:
 -mozilla-nss: 3.60.1 to 3.61 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.60.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.7.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.7.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -642,7 +642,7 @@ l series:
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.14 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.6 https://github.com/kkos/oniguruma
--openal-soft: 1.21.0 https://openal-soft.org/openal-releases
+-openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.1 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
 -openexr: 2.5.4 http://www.openexr.com/downloads.html
 -openjpeg: 2.4.0 http://www.openjpeg.org
@@ -1009,7 +1009,7 @@ x series: (main packages)
 -xf86-video-vesa: 2.5.0
 -xf86-input-wacom: 0.39.0
 -xisxwayland: 1
--xterm: 364 to 365 ftp://invisible-island.net/xterm/
+-xterm: 365 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1047,8 +1047,8 @@ xap series:
 -gvim: 8.2.2461
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 78.7.0esr to 85.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.7.0 to 78.7.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 78.7.1esr to 85.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 78.7.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
