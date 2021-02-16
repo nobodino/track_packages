@@ -59,13 +59,13 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inih: r52
+-inih: r53
 -inotify-tools: 3.20.11.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.10.15 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210208 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210211 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -119,7 +119,7 @@ A series :
 -sysvinit: 2.98 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
--tar: 1.33 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
+-tar: 1.33 to 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
 -tcsh: 6.22.03 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
@@ -130,11 +130,11 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 013 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.36.1
+-util-linux: 2.36.2
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz ftp://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 20181103 or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.36.1 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.36.2 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.4 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 3.2.6 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 3.2.7 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2461 to 2486 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2461 to 2516 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2461
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -267,7 +267,7 @@ d series:
 -autoconf-archive: 2019.01.06 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.35.2 to 2.36.1 (2.36 pb with strace) https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.5 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.2 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.7 https://mercurial.selenic.com/downloads
--meson: 0.56.2 http://mesonbuild.com/
+-meson: 0.56.2 to 0.57.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -455,10 +455,10 @@ l series:
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.6 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.7 http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
--glibc: 2.32
-	-glibc: 2.32 ftp://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.33
+	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2021a https://www.iana.org/time-zones
 	-tzdata: 2021a  https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -644,12 +644,12 @@ l series:
 -oniguruma: 6.9.6 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.1 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
--openexr: 2.5.4 http://www.openexr.com/downloads.html
+-openexr: 2.5.5 http://www.openexr.com/downloads.html
 -openjpeg: 2.4.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
--pango: 1.48.1 to 1.48.2 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.2 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
@@ -1008,7 +1008,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
--xterm: 365 to 366 ftp://invisible-island.net/xterm/
+-xterm: 366 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1029,7 +1029,7 @@ xap series:
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
--gftp: 2.0.19 http://gftp.seul.org/
+-gftp: 2.7.0b http://gftp.seul.org/
 -gimp: 2.10.22 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
@@ -1043,7 +1043,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2461 to 2497
+-gvim: 8.2.2461 to 2516
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.7.1esr to 85.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1056,7 +1056,7 @@ xap series:
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.0.31
+-sane: 1.0.31 to 1.0.32
 	- sane-backend : 1.0.31 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
 -seamonkey: 2.53.6 http://www.mozilla.org/projects/seamonkey/
@@ -1136,7 +1136,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--glibc: 2.33
+-
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
