@@ -93,7 +93,7 @@ A series :
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1i http://www.openssl.org/
+-openssl-solibs: 1.1.1j http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -pam: 1.5.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
@@ -119,7 +119,7 @@ A series :
 -sysvinit: 2.98 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
--tar: 1.33 to 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
+-tar: 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
 -tcsh: 6.22.03 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
@@ -245,14 +245,14 @@ Ap series :
 -sqlite: 3.34.0 to 3.34.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.5p2 http://www.courtesan.com/sudo/current.html
--sysstat: 12.5.2 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.5.2 to 12.5.3 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.1c https://tmux.github.io/
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2461 to 2516 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2461 to 2529 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2461
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.2
--cmake: 3.19.4 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.19.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.7 https://mercurial.selenic.com/downloads
--meson: 0.56.2 to 0.57.0 http://mesonbuild.com/
+-meson: 0.57.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -342,7 +342,7 @@ d series:
 -sassc: 3.6.1 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.1.0  http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
--strace: 5.10 https://github.com/strace/strace/releases/download/
+-strace: 5.10 to 5.11 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
 -vala: 0.50.3 https://wiki.gnome.org/Projects/Vala
@@ -369,7 +369,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.78.0/20.12.2 https://download.kde.org/stable/
+-kde: 5.79.0/21.0 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -480,7 +480,7 @@ l series:
 -gstreamer: 1.18.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.24 (to 4.0.2) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.25 (to 4.0.2) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.3 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
@@ -581,7 +581,7 @@ l series:
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.17 https://code.google.com/p/libproxy/
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
--libqalculate: 3.16.1 https://github.com/Qalculate/libqalculate
+-libqalculate: 3.17.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.50.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -604,7 +604,7 @@ l series:
 -libusb: 1.0.24 ftp://download.sourceforge.net/pub/sourceforge/libusb/
 -libusb-compat: 0.1.5 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
--libuv: 1.40.0 https://dist.libuv.org/dist
+-libuv: 1.41.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://wiki.documentfoundation.org/DLP/Libraries/libvisio
 -libvisual: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
@@ -686,7 +686,7 @@ l series:
 -python-packaging: 20.9 https://github.com/pypa/packaging
 -python-pillow: 8.1.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.7.4 https://pypi.org/project/Pygments
+-python-pygments: 2.8.0 https://pypi.org/project/Pygments
 -python-pysol_cards: 0.10.1 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
 -python-requests: 2.25.1 http://docs.python-requests.org/en/master/
@@ -724,7 +724,7 @@ l series:
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.14 http://cyberelk.net/tim/data/system-config-printer/
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.11.1 https://taglib.github.io/
+-taglib: 1.12 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
 -talloc: 2.3.2 https://talloc.samba.org
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
@@ -798,7 +798,7 @@ n series:
 -krb5: 1.19 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.4 https://www.gnupg.org/download/index.html
--libgcrypt: 1.9.1 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.9.1 to 1.9.2 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.41 https://www.gnupg.org/download/index.html
 -libksba: 1.5.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.24.4 to 1.24.6 http://www.freedesktop.org/software/libmbim/
@@ -813,7 +813,7 @@ n series:
 -libnetfilter_queue: 1.0.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.1.9 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libqmi: 1.26.8 http://www.freedesktop.org/software/libqmi/
+-libqmi: 1.26.10 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.1 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.21 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
@@ -857,7 +857,7 @@ n series:
 -openldap: 2.4.57 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.4p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1i ftp://ftp.openssl.org/source/
+-openssl: 1.1.1j ftp://ftp.openssl.org/source/
 -openvpn: 2.5.0 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
@@ -897,7 +897,7 @@ n series:
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.21.1 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.7 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-whois: 5.5.8 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.9 http://hostap.epitest.fi/releases/
 -yptools:
@@ -986,7 +986,7 @@ x series: (main packages)
 -xdg-utils: 1.1.3
 -xdm 1.1.11
 -xinit: 1.4.1
--xkeyboard-config: 2.31
+-xkeyboard-config: 2.32
 -xorgproto: 2020.1 
 -xorg-server: 1.20.10 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.30.0
@@ -1043,7 +1043,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2461 to 2516
+-gvim: 8.2.2461 to 2529
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.7.1esr to 85.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1056,8 +1056,8 @@ xap series:
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.0.31 to 1.0.32
-	- sane-backend : 1.0.31 https://alioth.debian.org/frs/?group_id=30186
+-sane: 1.0.32
+	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
 -seamonkey: 2.53.6 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
@@ -1102,7 +1102,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-session: 4.16.0
 -xfce4-settings: 4.16.0
 -xfce4-systemload-plugin: 1.2.4
--xfce4-taskmanager: 1.4.0
+-xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 0.8.10
 -xfce4-weather-plugin: 0.10.2
 -xfce4-whiskermenu-plugin: 2.5.2
@@ -1127,7 +1127,6 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u281 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
--recordmydesktop: 0.3.8.1 http://recordmydesktop.sourceforge.net/
 -sendmail: 8.15.2
 -tigervnc: 1.10.1 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
