@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.7 https://mercurial.selenic.com/downloads
--meson: 0.57.0 http://mesonbuild.com/
+-meson: 0.57.0 to 0.57.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -789,7 +789,7 @@ n series:
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.10.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.10 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-ipset: 7.10 to 7.11 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20210202 http://www.skbuff.net/iputils/
