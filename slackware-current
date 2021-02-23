@@ -116,7 +116,7 @@ A series :
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.2.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 2.98 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 2.98 to 2.99 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.4 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 3.2.7 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 3.3.0 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -164,7 +164,7 @@ Ap series :
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
 -cups-filters: 1.28.7 https://www.openprinting.org/download/cups-filters/
--dash: 0.5.11.2 http://gondor.apana.org.au/~herbert/dash
+-dash: 0.5.11.3 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.64 http://invisible-island.net/diffstat/diffstat.html
@@ -176,7 +176,7 @@ Ap series :
 -flac: 1.3.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.53.3 https://www.ghostscript.com/download/
--gphoto2: 2.5.26 http://www.gphoto.org/
+-gphoto2: 2.5.27 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 3.0.5 http://htop.sourceforge.net
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2461 to 2529 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.2461
+-vim: 8.2.2541 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.2541
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -262,7 +262,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.21 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.22 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.4 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2021.02.19 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
@@ -299,13 +299,13 @@ d series:
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.7 https://mercurial.selenic.com/downloads
--meson: 0.57.0 to 0.57.1 http://mesonbuild.com/
+-meson: 0.57.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20201222 to 20210122 https://www.gnu.org/software/parallel/
+-parallel: 20210222 https://www.gnu.org/software/parallel/
 -patchelf: 0.12 http://nixos.org/patchelf.html
 -perl: 5.32.1
 	- Authen-SASL: 2.16
@@ -433,7 +433,7 @@ l series:
 -exiv2: 0.27.3 http://www.exiv2.org/
 -expat: 2.2.10 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 4.3.1 https://ffmpeg.org/
+-ffmpeg: 4.3.2 https://ffmpeg.org/
 -fftw : 3.3.9 http://www.fftw.org/download.html
 -fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
 -freecell-solver: 6.2.0 https://fc-solve.shlomifish.org/downloads/fc-solve/
@@ -450,7 +450,7 @@ l series:
 -gdk-pixbuf2-xlib: 2.40.2 
 -gdbm: 1.19 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.28 http://ftp.acc.umu.se/pub/gnome/sources/gegl
--gexiv2: 0.12.1 http://www.exiv2.org/
+-gexiv2: 0.12.2 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
@@ -493,7 +493,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 68.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.11_0 http://www.imagemagick.org/
+-imagemagick: 7.0.11_1 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -542,7 +542,7 @@ l series:
 -libffi: 3.3 ftp://sourceware.org/pub/libffi
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.26 http://www.gphoto.org/
+-libgphoto2: 2.5.27 http://www.gphoto.org/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.47 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://download.gnome.org/sources/libgtop/
@@ -631,10 +631,10 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 6.24.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.60.1 to 3.61 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.60.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.62 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.62 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.7.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.8.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -788,14 +788,14 @@ n series:
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.10.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.10 to 7.11 ftp://ftp.netfilter.org/pub/conntrack-tools/
+-iproute2: 5.10.0 to 5.11.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-ipset: 7.11 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20210202 http://www.skbuff.net/iputils/
 -irssi: 1.2.2 http://www.irssi.org/files/
 -iw: 5.9 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.19 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.19.1 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.4 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.9.2 https://www.gnupg.org/download/index.html
@@ -845,7 +845,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
--nfs-utils: 2.5.2 http://sourceforge.net/projects/nfs/ (need krb5)
+-nfs-utils: 2.5.3 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.8 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.43.0 https://nghttp2.org/
 -nmap: 7.91 http://download.insecure.org/nmap/dist/
@@ -883,7 +883,7 @@ n series:
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.57 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.58 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.99.0 http://www.tcpdump.org/releases
 -telnet:
@@ -937,7 +937,7 @@ x series: (main packages)
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
 -glew: 2.2.0 http://glew.sourceforge.net
 -hack-fonts-ttf: 3.003 https://github.com/chrissimpkins/Hack
--ibus: 1.5.23 https://github.com/ibus/ibus/releases/
+-ibus: 1.5.24 https://github.com/ibus/ibus/releases/
 -igt-gpu-tools: 1.25.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.1 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
@@ -979,7 +979,7 @@ x series: (main packages)
 -liberation-fonts-ttf: 2.1.2
 -skkdic: 20200128
 -twm: 1.0.11
--vulkan-sdk: 1.2.141.0 to 1.2.158.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.2.162.0 https://www.khronos.org/vulkan/
 -wayland: 1.19.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.20 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
@@ -1043,10 +1043,10 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2461 to 2529
+-gvim: 8.2.2541
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 78.7.1esr to 85.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 78.8.0esr to 85.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 78.7.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
@@ -1095,7 +1095,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-dev-tools: 4.16.0
 -xfce4-notifyd: 0.6.2
 -xfce4-panel: 4.16.1
--xfce4-panel-profiles: 1.0.12
+-xfce4-panel-profiles: 1.0.13
 -xfce4-power-manager: 4.16.0
 -xfce4-pulseaudio-plugin: 0.4.3
 -xfce4-screensaver: 0.1.11
@@ -1137,7 +1137,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--
+-linux-5.11: 5.11.0
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
