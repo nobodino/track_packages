@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.18 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.19 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210211 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.18
+-kernel-headers: 5.10.19
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -330,10 +330,11 @@ d series:
 	- perl: 5.32.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
+-poke: 1.0
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.2 https://www.python.org/downloads/
 -python-pip: 21.0.1 https://pip.pypa.io/
--python-setuptools: 52.0.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 53.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
@@ -365,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.18
+-kernel : 5.10.19
 --------------------
 kde series :
 --------------------
@@ -404,7 +405,7 @@ l series:
 -atkmm: 2.28.1 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
--babl: 0.1.84 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.86 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.75.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
@@ -480,7 +481,7 @@ l series:
 -gstreamer: 1.18.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.25 (to 4.1.1) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.26 (to 4.1.1) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.3 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
@@ -987,7 +988,7 @@ x series: (main packages)
 -xdm 1.1.11
 -xinit: 1.4.1
 -xkeyboard-config: 2.32
--xorgproto: 2020.1 
+-xorgproto: 2021.3 
 -xorg-server: 1.20.10 ftp://ftp.x.org/pub/individual/xserver/
 -xf86-input-libinput: 0.30.0
 -xf86-input-wacom: 0.40.0
@@ -1094,7 +1095,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-clipman-plugin: 1.6.1
 -xfce4-dev-tools: 4.16.0
 -xfce4-notifyd: 0.6.2
--xfce4-panel: 4.16.1
+-xfce4-panel: 4.16.2
 -xfce4-panel-profiles: 1.0.13
 -xfce4-power-manager: 4.16.0
 -xfce4-pulseaudio-plugin: 0.4.3
@@ -1137,7 +1138,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11: 5.11.1
+-linux-5.11: 5.11.2
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
