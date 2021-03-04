@@ -32,7 +32,7 @@ A series :
 -efibootmgr: 20191011 http://linux.dell.com/efibootmgr
 -efivar: 20191015 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
--elogind: 246.9.2 https://github.com/elogind/elogind
+-elogind: 246.10.0 https://github.com/elogind/elogind
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.10 https://dev.gentoo.org/~blueness/eudev/
@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.10.19 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210211 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210303 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 563 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -222,7 +222,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.26.4 http://sourceforge.net/projects/mpg123/files/
--nano: 5.6 to 5.6.1 http://www.nano-editor.org/download.php
+-nano: 5.6.1 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.13 https://github.com/linux-nvme/nvme-cli
@@ -289,7 +289,7 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.5 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
--help2man: 1.48.1 to 1.48.2 http://ftp.gnu.org/gnu/help2man/
+-help2man: 1.48.2 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
@@ -312,7 +312,7 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.14 
-	- IO-Socket-SSL: 2.069
+	- IO-Socket-SSL: 2.069 to 2.070
 	- MIME-Base64: 3.16
 	- Module-Runtime: 0.016
 	- Moo: 2.004004
@@ -330,7 +330,7 @@ d series:
 	- perl: 5.32.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
--poke: 1.0
+-poke: 1.0 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.2 https://www.python.org/downloads/
 -python-pip: 21.0.1 https://pip.pypa.io/
@@ -696,7 +696,7 @@ l series:
 -python-urllib3: 1.26.3 https://urllib3.readthedocs.io/
 -qca: 2.3.2 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.2 (to 6.0.1) https://download.qt.io/official_releases/qt/
+-qt5: 5.15.2 (to 6.0.2) https://download.qt.io/official_releases/qt/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.12.0 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
@@ -743,7 +743,7 @@ l series:
 -xapian-core: 1.4.18 http://www.xapian.org/
 -xxHash: 0.8.0 https://github.com/Cyan4973/xxHash
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.4.8 http://zstd.net/
+-zstd: 1.4.8 to 1.4.9 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -814,7 +814,7 @@ n series:
 -libnetfilter_queue: 1.0.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.1.9 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libqmi: 1.26.10 http://www.freedesktop.org/software/libqmi/
+-libqmi: 1.28.0 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.1 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.21 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
@@ -857,12 +857,12 @@ n series:
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.4.57 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
--openssh: 8.4p1 to 8.5p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 8.5p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1j ftp://ftp.openssl.org/source/
 -openvpn: 2.5.1 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
--php: 7.4.15 to 8.0.2 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.16 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -949,7 +949,7 @@ x series: (main packages)
 -libevdev: 1.10.1
 -libgee: 0.20.3
 -libglvnd: 1.3.2
--libinput: 1.16.5
+-libinput: 1.16.5 to 1.17.0
 -libkkc: 0.3.5
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
@@ -1139,7 +1139,7 @@ extra:
 --------------------
 testing :
 -linux-5.11: 5.11.2
--php: 8.0.2 to 8.0.3
+-php: 8.0.3
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
