@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210117 to 1.3_20210306 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210306 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.20 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.21 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210305 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -76,7 +76,7 @@ A series :
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.18.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
--lrzip: 0.640 http://ck.kolivas.org/apps/lrzip/
+-lrzip: 0.641 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.11 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.22 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 175 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
@@ -116,7 +116,7 @@ A series :
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.2.1 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 2.98 to 2.99 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 2.99 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
@@ -212,7 +212,7 @@ Ap series :
 -lm_sensors: 3.6.0 https://github.com/groeck/lm-sensors
 -lsof: 4.94.0 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.30 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 2.0.11_fad08f383 to 4.0.6 http://sourceforge.net/projects/lxc/files/lxc
+-lxc: 2.0.11_fad08f383 to 4.0.6 https://linuxcontainers.org
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2541 to 2572 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2541 to 2580 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2541
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,12 +293,12 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.20
+-kernel-headers: 5.10.21
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.7 https://mercurial.selenic.com/downloads
+-mercurial: 5.7 to 5.7.1 https://mercurial.selenic.com/downloads
 -meson: 0.57.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -334,7 +334,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.2 https://www.python.org/downloads/
 -python-pip: 21.0.1 https://pip.pypa.io/
--python-setuptools: 54.1.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 54.1.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.20
+-kernel : 5.10.21
 --------------------
 kde series :
 --------------------
@@ -446,7 +446,7 @@ l series:
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
--gd: 2.3.1 http://libgd.bitbucket.org/
+-gd: 2.3.2 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.42.2 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 
 -gdbm: 1.19 ftp://ftp.gnu.org/gnu/gdbm/
@@ -494,10 +494,10 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 68.2 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.11_2 http://www.imagemagick.org/
+-imagemagick: 7.0.11_2 to 3 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
--iso-codes: 4.5.0 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
 -jasper: 2.0.26 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
@@ -760,7 +760,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20201219 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20210308 http://packages.qa.debian.org/c/ca-certificates.html
 -cifs-utils: 6.12 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
@@ -777,7 +777,7 @@ n series:
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.2 http://www.epicsol.org/
 -ethtool: 5.10 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.16 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.17 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.14 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.27 https://www.gnupg.org/download/index.html
@@ -822,7 +822,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.0.5 to 2.0.6 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.0.6 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -1044,11 +1044,11 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2541 to 2572
+-gvim: 8.2.2541 to 2580
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 78.8.0esr to 86.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.8.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.8.0 to 78.8.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1088,7 +1088,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -libxfce4ui: 4.16.0
 -libxfce4util: 4.16.0
 -mousepad: 0.5.3
--thunar: 4.16.3
+-thunar: 4.16.5
 -thunar-volman: 4.16.0
 -tumbler: 4.16.0
 -xfce4-appfinder: 4.16.1
@@ -1138,7 +1138,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11: 5.11.3
+-linux-5.11: 5.11.4
 -php: 8.0.3
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
