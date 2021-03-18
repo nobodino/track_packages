@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.22 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.24 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210315 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -242,7 +242,7 @@ Ap series :
 -slackpkg: 15.0 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.35.1 http://www.sqlite.org/download.html
+-sqlite: 3.35.1 to 3.35.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.6p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.3 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2585 to 2607 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2585 to 2615 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2585
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.22
+-kernel-headers: 5.10.24
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -346,7 +346,7 @@ d series:
 -strace: 5.11 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.50.4 https://wiki.gnome.org/Projects/Vala
+-vala: 0.52.0 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.22
+-kernel : 5.10.24
 --------------------
 kde series :
 --------------------
@@ -487,7 +487,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.46.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.7.4 to 2.8.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.8.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -624,7 +624,7 @@ l series:
 -libxkbcommon: 1.1.0 http://xkbcommon.org/
 -libxslt: 1.1.34 ftp://xmlsoft.org/
 -libzip: 1.7.3 http://www.nih.at/libzip/
--lmdb: 0.9.27 http://symas.com/mdb/
+-lmdb: 0.9.29 http://symas.com/mdb/
 -loudmouth: 1.5.4 http://www.loudmouth-project.org/
 -lz4: 1.9.3 https://lz4.github.io/lz4
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
@@ -818,7 +818,7 @@ n series:
 -libnftnl: 1.1.9 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.28.0 to 1.28.2 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.1 http://sourceforge.net/projects/libtirpc/ (need krb5)
--links: 2.21 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.21 to 2.22 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
@@ -857,7 +857,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.57 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.58 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.5p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1j ftp://ftp.openssl.org/source/
@@ -1046,7 +1046,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2585 to 2607
+-gvim: 8.2.2585 to 2615
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 86.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1140,7 +1140,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11: 5.11.5
+-linux-5.11: 5.11.7
 -php: 8.0.3
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
