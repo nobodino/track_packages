@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210306 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210306 to 20210319 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.24 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.25 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210315 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2585 to 2615 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.2585
+-vim: 8.2.2623 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.2623
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -270,6 +270,7 @@ d series:
 -binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.2 https://ftp.samba.org/pub/ccache/
+
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -293,7 +294,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.24
+-kernel-headers: 5.10.25
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -330,7 +331,7 @@ d series:
 	- perl: 5.32.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
--poke: 1.0 https://www.gnu.org/software/poke
+-poke: 1.0 to 1.1 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.2 https://www.python.org/downloads/
 -python-pip: 21.0.1 https://pip.pypa.io/
@@ -366,7 +367,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.24
+-kernel : 5.10.25
 --------------------
 kde series :
 --------------------
@@ -499,7 +500,7 @@ l series:
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
--jasper: 2.0.26 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 2.0.27 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
@@ -632,8 +633,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 6.24.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.62 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.62 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.63 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.63 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.8.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -659,7 +660,7 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.23 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.24 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -671,7 +672,7 @@ l series:
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.6 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.38.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.40.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
 -pyparsing: 2.4.7 http://pyparsing.wikispaces.com/
 -python2-module-collection: 2.7.18 
@@ -901,6 +902,7 @@ n series:
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.21.1 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.8 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-wireguard-tools: 1.0.20210315 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.9 http://hostap.epitest.fi/releases/
 -yptools:
@@ -1046,7 +1048,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2585 to 2615
+-gvim: 8.2.2623
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 86.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1140,7 +1142,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11: 5.11.7
+-linux-5.11: 5.11.8
 -php: 8.0.3
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
