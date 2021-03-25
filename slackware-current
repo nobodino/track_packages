@@ -93,7 +93,7 @@ A series :
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1j http://www.openssl.org/
+-openssl-solibs: 1.1.1j to 1.1.1k http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -pam: 1.5.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
@@ -342,7 +342,7 @@ d series:
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.0 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.50.0 https://rust-lang.org
+-rust: 1.50.0 to 1.51.0 https://rust-lang.org
 -sassc: 3.6.1 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.1.0  http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -354,7 +354,7 @@ d series:
 --------------------
 e series:
 --------------------
--emacs: 27.1  http://www.gnu.org/software/emacs/
+-emacs: 27.1 to 27.2 http://www.gnu.org/software/emacs/
 -emacspeak: 53.0 https://github.com/tvraman/emacspeak
 --------------------
 Installer:
@@ -864,7 +864,7 @@ n series:
 -openldap: 2.4.58 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.5p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1j ftp://ftp.openssl.org/source/
+-openssl: 1.1.1j to 1.1.1k ftp://ftp.openssl.org/source/
 -openvpn: 2.5.1 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
