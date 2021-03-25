@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.11.0 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.11.0 to 5.11.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2623 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2623 to 2650 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2623
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -270,6 +270,7 @@ d series:
 -binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.2 https://ftp.samba.org/pub/ccache/
+
 
 
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -590,7 +591,8 @@ l series:
 -librsvg: 2.50.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.1 http://www.mega-nerd.com/SRC/download.html
 -libsass: 3.6.4 https://github.com/sass/libsass
--libsigc++: 2.10.6 to 3.0.4 ftp://ftp.gnome.org/pub/gnome/sources/libsigc++
+-libsigc++: 2.10.6 to 3.0.4 https://github.com/libsigcplusplus/libsigcplusplus
+-libsigc++3: 3.0.6 https://github.com/libsigcplusplus/libsigcplusplus
 -libsecret: 0.20.4 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.13 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.31 http://www.mega-nerd.com/libsndfile/files/
@@ -883,7 +885,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.14.0 https://ftp.samba.org/pub/samba/
+-samba: 4.14.0 to 4.14.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -972,7 +974,7 @@ x series: (main packages)
 -libXres: 1.2.0
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 20.3.4 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.0.0 to 21.0.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1049,11 +1051,11 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2623
+-gvim: 8.2.2623 to 2650
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 87.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.8.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.9.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1143,7 +1145,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11: 5.11.8
+-linux-5.11.x: 5.11.9
 -php: 8.0.3
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
