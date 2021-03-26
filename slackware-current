@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.11.0 to 5.11.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.11.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210319 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210324 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.25 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.26 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210322 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -93,7 +93,7 @@ A series :
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1j to 1.1.1k http://www.openssl.org/
+-openssl-solibs: 1.1.1k http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -pam: 1.5.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
@@ -242,7 +242,7 @@ Ap series :
 -slackpkg: 15.0 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.35.1 to 3.35.2 http://www.sqlite.org/download.html
+-sqlite: 3.35.1 to 3.35.3 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.6p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.3 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2623 to 2650 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2623 to 2655 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2623
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.25
+-kernel-headers: 5.10.26
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -342,7 +342,7 @@ d series:
 -re2c: 2.0.3 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.0 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.50.0 to 1.51.0 https://rust-lang.org
+-rust: 1.51.0 https://rust-lang.org
 -sassc: 3.6.1 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.1.0  http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -354,7 +354,7 @@ d series:
 --------------------
 e series:
 --------------------
--emacs: 27.1 to 27.2 http://www.gnu.org/software/emacs/
+-emacs: 27.2 http://www.gnu.org/software/emacs/
 -emacspeak: 53.0 https://github.com/tvraman/emacspeak
 --------------------
 Installer:
@@ -369,7 +369,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.25
+-kernel : 5.10.26
 --------------------
 kde series :
 --------------------
@@ -864,7 +864,7 @@ n series:
 -openldap: 2.4.58 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.5p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1j to 1.1.1k ftp://ftp.openssl.org/source/
+-openssl: 1.1.1k ftp://ftp.openssl.org/source/
 -openvpn: 2.5.1 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.9 https://archives.eyrie.org/software/kerberos
@@ -885,7 +885,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.14.0 to 4.14.2 https://ftp.samba.org/pub/samba/
+-samba: 4.14.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -974,7 +974,7 @@ x series: (main packages)
 -libXres: 1.2.0
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 21.0.0 to 21.0.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.0.1 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1051,7 +1051,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2623 to 2650
+-gvim: 8.2.2623 to 2655
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 87.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1061,7 +1061,6 @@ xap series:
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.1
 	-pidgin: 2.14.1 https://www.pidgin.im/download/source/
-
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
