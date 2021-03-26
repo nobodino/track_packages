@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.4 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 3.3.0 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 3.3.4 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -435,7 +435,7 @@ l series:
 -enchant: 1.6.1 to 2.2.13 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.3 http://www.exiv2.org/
--expat: 2.2.10 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.2.10 to 2.3.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.3.2 https://ffmpeg.org/
 -fftw : 3.3.9 http://www.fftw.org/download.html
