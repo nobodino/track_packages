@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2623 to 2661 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2623 to 2670 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2623
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -269,7 +269,7 @@ d series:
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.2 https://ftp.samba.org/pub/ccache/
+-ccache: 4.2.1 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -336,7 +336,7 @@ d series:
 -python-pip: 21.0.1 https://pip.pypa.io/
 -python-setuptools: 54.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
--re2c: 2.1 http://re2c.org
+-re2c: 2.1.1 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.0 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.51.0 https://rust-lang.org
@@ -450,7 +450,7 @@ l series:
 -gdk-pixbuf2: 2.42.2 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 
 -gdbm: 1.19 ftp://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.28 http://ftp.acc.umu.se/pub/gnome/sources/gegl
+-gegl: 0.4.30 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.2 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
@@ -778,9 +778,9 @@ n series:
 -dovecot: 2.3.14 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
--epic5: 2.1.3 http://www.epicsol.org/
+-epic5: 2.1.4 http://www.epicsol.org/
 -ethtool: 5.10 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.17 to 6.4.18 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.18 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.15 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.27 https://www.gnupg.org/download/index.html
@@ -901,7 +901,7 @@ n series:
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.3 https://security.appspot.com/vsftpd.html
 -wget: 1.21.1 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.8 ftp://ftp.debian.org/debian/pool/main/w/whois/
+-whois: 5.5.9 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireguard-tools: 1.0.20210315 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.9 http://hostap.epitest.fi/releases/
@@ -919,9 +919,9 @@ n firmware:
 --------------------
 t series:
 --------------------
--fig2dev: 3.2.8 https://sourceforge.net/projects/mcj/files/
+-fig2dev: 3.2.8a https://sourceforge.net/projects/mcj/files/
 -texlive: 20200327 https://ctan.net/systems/texlive/Source/
--xfig: 3.2.8 https://sourceforge.net/projects/mcj/files/
+-xfig: 3.2.8a https://sourceforge.net/projects/mcj/files/
 --------------------
 tcl/tk series:
 --------------------
@@ -1049,7 +1049,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2623 to 2661
+-gvim: 8.2.2623 to 2670
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 87.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
