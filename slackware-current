@@ -175,7 +175,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.53.3 https://www.ghostscript.com/download/
+-ghostscript: 9.53.3 to 9.54.0 https://www.ghostscript.com/download/
 -gphoto2: 2.5.27 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2623 to 2670 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2623 to 2677 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2623
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -270,6 +270,7 @@ d series:
 -binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.2.1 https://ftp.samba.org/pub/ccache/
+
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -416,7 +417,7 @@ l series:
 -cryfs: 0.10.2 https://github.com/cryfs/cryfs
 -cryptopp: 8.2.0 to 8.4.0 (pb with cryfs) https://www.cryptopp.com/
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
--dbus-glib: 0.110 http://dbus.freedesktop.org/releases/dbus-glib/
+-dbus-glib: 0.110 to 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.16 http://dbus.freedesktop.org/releases/dbus-glib/
 -dconf: 0.38.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 3.38.2 https://download.gnome.org/sources/dconf-editor/
@@ -456,7 +457,7 @@ l series:
 -gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.7 http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.66.7 to 2.66.8  http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.33
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -708,7 +709,7 @@ l series:
 -rttr: 0.9.6 https://www.rttr.org/download
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
--sg3_utils: 1.45 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.45 to 1.46 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -1049,7 +1050,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2623 to 2670
+-gvim: 8.2.2623 to 2677
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 87.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1065,7 +1066,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.6 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.6 to 2.53.7 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
