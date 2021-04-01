@@ -38,7 +38,7 @@ A series :
 -eudev: 3.2.10 https://dev.gentoo.org/~blueness/eudev/
 -exfatprogs: 1.1.0 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
--file: 5.39 https://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
+-file: 5.40 https://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.26 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.27 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210322 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -175,7 +175,7 @@ Ap series :
 -enscript: 1.6.6 ftp://ftp.gnu.org/pub/gnu/enscript/
 -flac: 1.3.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.53.3 to 9.54.0 https://www.ghostscript.com/download/
+-ghostscript: 9.54.0 https://www.ghostscript.com/download/
 -gphoto2: 2.5.27 http://www.gphoto.org/
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2623 to 2677 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.2623
+-vim: 8.2.2678 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.2678
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -290,11 +290,11 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.5 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
--help2man: 1.48.2 http://ftp.gnu.org/gnu/help2man/
+-help2man: 1.48.3 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.26
+-kernel-headers: 5.10.27
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -367,7 +367,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.26
+-kernel : 5.10.27
 --------------------
 kde series :
 --------------------
@@ -401,7 +401,7 @@ l series:
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2019.10.06 to 2020.12.07
 -at-spi2-atk: 2.38.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.38.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.40.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.36.0 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.1 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
@@ -417,10 +417,10 @@ l series:
 -cryfs: 0.10.2 https://github.com/cryfs/cryfs
 -cryptopp: 8.2.0 to 8.4.0 (pb with cryfs) https://www.cryptopp.com/
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
--dbus-glib: 0.110 to 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
+-dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.16 http://dbus.freedesktop.org/releases/dbus-glib/
--dconf: 0.38.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 3.38.2 https://download.gnome.org/sources/dconf-editor/
+-dconf: 0.40.0 http://download.gnome.org/sources/dconf/
+-dconf-editor: 3.38.3 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.26 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.28 http://freedesktop.org/software/desktop-file-utils/releases/
 -dotconf: 1.3 http://live.gnome.org/dconf
@@ -446,18 +446,18 @@ l series:
 -fuse3: 3.10.2 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
--gcr: 3.38.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.2 http://libgd.bitbucket.org/
--gdk-pixbuf2: 2.42.2 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.4 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 
 -gdbm: 1.19 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.30 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.2 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.66.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.68.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.66.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.66.7 to 2.66.8  http://ftp.acc.umu.se/pub/gnome/sources/glib/
+-glib-networking: 2.68.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: to 2.66.8  http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.33
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -470,7 +470,7 @@ l series:
 -gnome-themes-extra: 3.28 
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.13 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.66.1 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.68.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.4 https://github.com/ebassi/graphene
 -graphite2: 1.3.14 http://graphite.sil.org/
 -grantlee: 5.2.0 http://downloads.grantlee.org/
@@ -482,12 +482,12 @@ l series:
 -gstreamer: 1.18.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.27 (to 4.1.2) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.28 (to 4.2.0)) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.3 to 3.24.4 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
--gvfs: 1.46.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.48.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 2.8.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
@@ -500,7 +500,7 @@ l series:
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
--jasper: 2.0.27 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 2.0.28 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
@@ -641,7 +641,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
--netpbm: 10.93.03 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.94.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.2.14 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.6 https://github.com/kkos/oniguruma
@@ -673,7 +673,7 @@ l series:
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.6 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.40.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.40.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
 -pyparsing: 2.4.7 http://pyparsing.wikispaces.com/
 -python2-module-collection: 2.7.18 
@@ -741,7 +741,7 @@ l series:
 -utf8proc: 2.6.1 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.20.0 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20200916 https://github.com/georgmartius/vid.stab.git
--vte: 0.62.3 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.64.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.4.0 http://www.wavpack.com/
 -woff2: 20180531 https://github.com/google/woff2
 -xapian-core: 1.4.18 http://www.xapian.org/
@@ -770,7 +770,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.75.0 http://curl.haxx.se/download/
+-curl: 7.76.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
@@ -1037,7 +1037,7 @@ xap series:
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.7.0b http://gftp.seul.org/
--gimp: 2.10.22 to 2.10.24 http://download.gimp.org/pub/gimp/
+-gimp: 2.10.24 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
 	- gkrellm-countdown: 0.1.2
@@ -1050,7 +1050,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2623 to 2677
+-gvim: 8.2.2678
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 87.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1066,7 +1066,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.6 to 2.53.7 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.7 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
@@ -1143,7 +1143,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11.x: 5.11.9
+-linux-5.11.x: 5.11.11
 -php: 8.0.3
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
