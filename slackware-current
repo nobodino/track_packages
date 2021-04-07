@@ -374,7 +374,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.80.0/5.21.3 https://download.kde.org/stable/
+-kde: 5.80.0/5.21.4 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -474,7 +474,7 @@ l series:
 -gnome-themes-standard: 3.22.3 http://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-standard
 -gnu-efi: 3.0.13 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.68.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
--graphene: 1.10.4 https://github.com/ebassi/graphene
+-graphene: 1.10.6 https://github.com/ebassi/graphene
 -graphite2: 1.3.14 http://graphite.sil.org/
 -grantlee: 5.2.0 http://downloads.grantlee.org/
 -gsettings-desktop-schemas: 3.38.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
@@ -522,7 +522,7 @@ l series:
 -libarchive: 3.5.1 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
--libbluray: 1.2.1 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.3.0 http://www.videolan.org/developers/libbluray.html
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
@@ -578,7 +578,6 @@ l series:
 -libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis
 -libodfgen: 0.1.8 http://sourceforge.net/p/libwpd/wiki/libodfgen/
 -libogg: 1.3.4 https://www.xiph.org/downloads/
-
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org
@@ -627,7 +626,7 @@ l series:
 -libxklavier: 5.4 http://ftp.gnome.org/pub/gnome/sources/libxklavier/
 -libxml2: 2.9.10 http://xmlsoft.org/sources/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
--libxkbcommon: 1.1.0 http://xkbcommon.org/
+-libxkbcommon: 1.2.0 http://xkbcommon.org/
 -libxslt: 1.1.34 ftp://xmlsoft.org/
 -libzip: 1.7.3 http://www.nih.at/libzip/
 -lmdb: 0.9.29 http://symas.com/mdb/
@@ -892,7 +891,7 @@ n series:
 -snownews: 1.6.10 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.1 https://github.com/lib~/fuse/sshfs
--stunnel: 5.58 http://www.stunnel.org/download/stunnel/src/
+-stunnel: 5.59 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
 -tcpdump: 4.99.0 http://www.tcpdump.org/releases
 -telnet:
@@ -1000,7 +999,7 @@ x series: (main packages)
 -xkeyboard-config: 2.32
 -xorgproto: 2021.3 
 -xorg-server: 1.20.10 ftp://ftp.x.org/pub/individual/xserver/
--xf86-input-libinput: 0.30.0
+-xf86-input-libinput: 1.0.0
 -xf86-input-wacom: 0.40.0
 -xf86-video-amdgpu: 19.1.0
 -xf86-video-apm: 1.3.0
