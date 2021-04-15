@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.29 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.30 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210405 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -293,9 +293,9 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.29
+-kernel-headers: 5.10.30
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
--llvm: 11.1.0 http://llvm.org/
+-llvm: 11.1.0 to 12.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.7.1 https://mercurial.selenic.com/downloads
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.29
+-kernel : 5.10.30
 --------------------
 kde series :
 --------------------
@@ -632,7 +632,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
--mlt: 6.26.0 https://github.com/mltframework/mlt
+-mlt: 6.26.1 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.63 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.63 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -644,7 +644,7 @@ l series:
 -netpbm: 10.94.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.0 https://forge.imag.fr/projects/ocl-icd/
--oniguruma: 6.9.6 https://github.com/kkos/oniguruma
+-oniguruma: 6.9.7 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.2 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
 -openexr: 2.5.5 http://www.openexr.com/downloads.html
@@ -709,7 +709,7 @@ l series:
 -rttr: 0.9.6 https://www.rttr.org/download
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
--sg3_utils: 1.45 to 1.46 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.46 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -771,7 +771,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.76.0 http://curl.haxx.se/download/
+-curl: 7.76.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2 ftp://ftp.isc.org/isc/dhcp/
@@ -1144,7 +1144,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11.x: 5.11.13
+-linux-5.11.x: 5.11.14
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
