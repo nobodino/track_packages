@@ -42,7 +42,7 @@ A series :
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.26 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.27 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.30 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.31 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210405 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.30
+-kernel-headers: 5.10.31
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 to 12.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.30
+-kernel : 5.10.31
 --------------------
 kde series :
 --------------------
@@ -389,7 +389,7 @@ l series:
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 0.6.55 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 3.38.0 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 3.38.0 to 40.0 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.2.4  ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
@@ -406,7 +406,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -babl: 0.1.86 http://download.gimp.org/pub/babl/0.1/
--boost: 1.75.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.75.0 to 1.76.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 to 1.16.0 http://cairographics.org/cairomm/
@@ -634,9 +634,9 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 6.26.1 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.63 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.63 to 3.64 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.63 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.29 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+	- nspr: 4.30 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.9.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
@@ -1144,7 +1144,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11.x: 5.11.14
+-linux-5.11.x: 5.11.15
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
