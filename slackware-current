@@ -242,7 +242,7 @@ Ap series :
 -slackpkg: 15.0 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.35.4 http://www.sqlite.org/download.html
+-sqlite: 3.35.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.6p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.3 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -601,7 +601,7 @@ l series:
 -libssh2: 1.9.2 http://www.libssh2.org/
 -libtasn1: 4.16 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.2.0 ftp://ftp.remotesensing.org/pub/libtiff/
+-libtiff: 4.3.0 ftp://ftp.remotesensing.org/pub/libtiff/
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.5.0 http://www.nongnu.org/libunwind
 -libusb: 1.0.24 ftp://download.sourceforge.net/pub/sourceforge/libusb/
@@ -786,7 +786,7 @@ n series:
 -fetchmail: 6.4.18 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.15 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.27 to 2.3.0 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.27 to 2.3. https://www.gnupg.org/download/index.html
 -gnutls: 3.6.15 to 3.7.1 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.15.1 https://www.gnupg.org/download/index.html
@@ -805,7 +805,7 @@ n series:
 -krb5: 1.19.1 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
--libgcrypt: 1.9.2 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.9.3 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.42 https://www.gnupg.org/download/index.html
 -libksba: 1.5.1 https://www.gnupg.org/download/index.html
 -libmbim: 1.24.4 to 1.24.6 http://www.freedesktop.org/software/libmbim/
@@ -885,7 +885,7 @@ n series:
 -rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.14.2 https://ftp.samba.org/pub/samba/
+-samba: 4.14.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.7 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -1071,7 +1071,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.7 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.7.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
