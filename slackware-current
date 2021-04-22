@@ -36,7 +36,7 @@ A series :
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) ftp://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz ftp://dickey.his.com/ncurses/
 -eudev: 3.2.10 https://dev.gentoo.org/~blueness/eudev/
--exfatprogs: 1.1.0 https://github.com/exfatprogs/exfatprogs
+-exfatprogs: 1.1.1 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.40 https://www.darwinsys.com/file/ or ftp://ftp.astron.com/pub/file/
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.31 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210419 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.10.32 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20210421 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2735 to 2758 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2735 to 2792 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2835
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.31
+-kernel-headers: 5.10.32
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 to 12.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.31
+-kernel : 5.10.32
 --------------------
 kde series :
 --------------------
@@ -535,7 +535,7 @@ l series:
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdmtx: 0.7.5 https://github.com/dmtx/libdmtx
--libdvdnav: 6.1.0 http://www.mplayerhq.hu/design7/news.html
+-libdvdnav: 6.1.1 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.1.2 http://download.videolan.org/videolan/libdvdread/
 -libedit: 20210216_3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.12 http://libevent.org/
@@ -865,7 +865,7 @@ n series:
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.6p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1k ftp://ftp.openssl.org/source/
--openvpn: 2.5.1 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.2 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
 -php: 7.4.16 http://www.php.net/distributions/ (need krb5)
@@ -1055,7 +1055,7 @@ xap series:
 -gparted: 1.2.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2735 to 2758
+-gvim: 8.2.2735 to 2792
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 88.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1148,7 +1148,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.11.x: 5.11.15
+-linux-5.11.x: 5.11.16
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
