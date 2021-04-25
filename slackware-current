@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.10.32 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210421 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210423 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -107,7 +107,7 @@ A series :
 -quota: 4.06 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
--sdparm: 1.11 http://sg.danny.cz/sg/sdparm.html
+-sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.8 ftp://ftp.gnu.org/pub/gnu/sed
 -shadow: 4.8.1 http://pkg-shadow.alioth.debian.org/
 -sharutils: 4.15.2 ftp://ftp.gnu.org/pub/gnu/sharutils/
@@ -225,7 +225,7 @@ Ap series :
 -nano: 5.6.1 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
--nvme-cli: 1.13 https://github.com/linux-nvme/nvme-cli
+-nvme-cli: 1.14 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 http://ftp.debian.org/debian/pool/main/p/powertop/
@@ -305,7 +305,7 @@ d series:
 -opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20210322 https://www.gnu.org/software/parallel/
+-parallel: 20210422 https://www.gnu.org/software/parallel/
 -patchelf: 0.12 http://nixos.org/patchelf.html
 -perl: 5.32.1
 	- Authen-SASL: 2.16
@@ -370,7 +370,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.81.0/5.21.4 https://download.kde.org/stable/
+-kde: 5.81.0/21.04.0 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -456,7 +456,7 @@ l series:
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.68.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.68.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.68.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.68.1  http://ftp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.66.0 http://www.gtkmm.org/
 -glibc: 2.33
@@ -482,7 +482,7 @@ l series:
 -gstreamer: 1.18.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.28 (to 4.2.0)) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.29 (to 4.2.0)) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.3 to 3.24.4 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
@@ -537,7 +537,7 @@ l series:
 -libdmtx: 0.7.5 https://github.com/dmtx/libdmtx
 -libdvdnav: 6.1.1 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.1.2 http://download.videolan.org/videolan/libdvdread/
--libedit: 20210216_3.1 http://www.thrysoee.dk/editline/
+-libedit: 20210419_3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.22 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
@@ -557,7 +557,7 @@ l series:
 -libimobiledevice: 20200615 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.14 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.0.6 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.1.0 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -661,7 +661,7 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.25 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.26 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -783,7 +783,7 @@ n series:
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.4 http://www.epicsol.org/
 -ethtool: 5.10 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.18 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.15 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.27 to 2.3. https://www.gnupg.org/download/index.html
@@ -948,7 +948,7 @@ x series: (main packages)
 -glew: 2.2.0 http://glew.sourceforge.net
 -hack-fonts-ttf: 3.003 https://github.com/chrissimpkins/Hack
 -ibus: 1.5.24 https://github.com/ibus/ibus/releases/
--igt-gpu-tools: 1.25.0 https://cgit.freedesktop.org/drm/igt-gpu-tools
+-igt-gpu-tools: 1.26 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.1 https://01.org/linuxmedia/vaapi
 -libXau: 1.0.9
 -libdmx: 1.1.4
@@ -977,7 +977,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 21.0.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.0.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
