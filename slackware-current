@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.32 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.33 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210426 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -120,7 +120,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
--tcsh: 6.22.03 to 6.22.04 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.22.04 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
@@ -217,7 +217,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.11 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.9 to 10.6.0 http://mariadb.org/
+-mariadb: 10.6.0 http://mariadb.org/
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -287,13 +287,13 @@ d series:
 -git: 2.31.1 http://git-scm.com/download
 -gnucobol: 3.1.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
--guile: 3.0.5 ftp://ftp.gnu.org/pub/gnu/guile/
+-guile: 3.0.6 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
 -help2man: 1.48.3 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.32
+-kernel-headers: 5.10.33
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 to 12.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.32
+-kernel : 5.10.33
 --------------------
 kde series :
 --------------------
@@ -758,7 +758,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.11 to 9.16.12 (pb) ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.15 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.58 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -795,7 +795,7 @@ n series:
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.11.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.12.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.11 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
@@ -966,7 +966,7 @@ x series: (main packages)
 -libva: 2.11.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.11.1 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.9 https://github.com/linuxwacom
+-libwacom: 1.10 https://github.com/linuxwacom
 -libXaw: 1.0.14 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
