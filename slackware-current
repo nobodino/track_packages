@@ -79,7 +79,7 @@ A series :
 -lrzip: 0.641 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.11 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.22 http: //www.nongnu.org/lzip/lzlib.html
--mcelog: 175 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 176 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://alioth.debian.org/
@@ -333,7 +333,7 @@ d series:
 -poke: 1.2 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.4 https://www.python.org/downloads/
--python-pip: 21.0.1 https://pip.pypa.io/
+-python-pip: 21.1.1 https://pip.pypa.io/
 -python-setuptools: 56.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.1.1 http://re2c.org
@@ -487,7 +487,7 @@ l series:
 -gtkmm3: 3.24.3 to 3.24.4 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
--gvfs: 1.48.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 2.8.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
@@ -495,7 +495,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.11_9 http://www.imagemagick.org/
+-imagemagick: 7.0.11_10 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.23 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -586,7 +586,7 @@ l series:
 -libqalculate: 3.18.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.50.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.50.5 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.1 http://www.mega-nerd.com/SRC/download.html
 -libsass: 3.6.4 https://github.com/sass/libsass
 -libsigc++: 2.10.6 to 3.0.4 https://github.com/libsigcplusplus/libsigcplusplus
@@ -741,7 +741,7 @@ l series:
 -utf8proc: 2.6.1 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.20.0 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20200916 https://github.com/georgmartius/vid.stab.git
--vte: 0.64.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.64.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.4.0 http://www.wavpack.com/
 -woff2: 20180531 https://github.com/google/woff2
 -xapian-core: 1.4.18 http://www.xapian.org/
@@ -868,11 +868,11 @@ n series:
 -openvpn: 2.5.2 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
--php: 7.4.16 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.17 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.5.10 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.6.0 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -954,11 +954,11 @@ x series: (main packages)
 -libdmx: 1.1.4
 -libpciaccess: 0.16
 -libdrm: 2.4.105 http://dri.freedesktop.org/libdrm/
--libepoxy: 1.5.5
+-libepoxy: 1.5.7
 -libevdev: 1.10.1
 -libgee: 0.20.3
--libglvnd: 1.3.2
--libinput: 1.17.0
+-libglvnd: 1.3.3
+-libinput: 1.17.2
 -libkkc: 0.3.5
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
@@ -992,13 +992,13 @@ x series: (main packages)
 -twm: 1.0.11
 -vulkan-sdk: 1.2.162.0 https://www.khronos.org/vulkan/
 -wayland: 1.19.0 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.20 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.21 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
 -xdg-utils: 1.1.3
 -xdm 1.1.11
 -xinit: 1.4.1
 -xkeyboard-config: 2.32
--xorgproto: 2021.3 
+-xorgproto: 2021.4 
 -xorg-server: 1.20.11 ftp://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.1 
 -xf86-input-libinput: 1.0.1
@@ -1063,8 +1063,8 @@ xap series:
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.3 to 2.14.4
-	-pidgin: 2.14.3 https://www.pidgin.im/download/source/
+-pidgin: 2.14.4
+	-pidgin: 2.14.4 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
