@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.10.34 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210426 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210503 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -85,7 +85,7 @@ A series :
 	- minicom: 2.8 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.32.1 http://www.busybox.net/
+	- busybox: 1.32.1 to 1.33.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
@@ -217,7 +217,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.11 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.6.0 http://mariadb.org/
+-mariadb: 10.5.9 http://mariadb.org/
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -332,7 +332,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.2 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.4 https://www.python.org/downloads/
+-python3: 3.9.4 to 3.9.5 https://www.python.org/downloads/
 -python-pip: 21.1.1 https://pip.pypa.io/
 -python-setuptools: 56.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -356,7 +356,7 @@ e series:
 --------------------
 Installer:
 --------------------
--busybox: 1.32.1
+-busybox: 1.32.1 to 1.33.1
 -dropbear: 2020.81 http://matt.ucc.asn.au/dropbear/dropbear.html
 -nano: 5.5
 --------------------
@@ -488,7 +488,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.8.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.8.0 to 2.8.1 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -497,7 +497,7 @@ l series:
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -imagemagick: 7.0.11_10 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
--isl: 0.23 http://isl.gforge.inria.fr
+-isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
 -jasper: 2.0.32 http://www.ece.uvic.ca/~frodo/jasper/#download
@@ -665,7 +665,7 @@ l series:
 -polkit: 0.118 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.04.0 to 21.05.0 http://poppler.freedesktop.org/
+-poppler: 21.05.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -691,7 +691,7 @@ l series:
 -python-packaging: 20.9 https://github.com/pypa/packaging
 -python-pillow: 8.2.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.8.0 https://pypi.org/project/Pygments
+-python-pygments: 2.9.0 https://pypi.org/project/Pygments
 -python-pysol_cards: 0.10.1 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
 -python-requests: 2.25.1 http://docs.python-requests.org/en/master/
@@ -782,7 +782,7 @@ n series:
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.4 http://www.epicsol.org/
--ethtool: 5.10 to 5.12 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.12 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.15 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -1052,7 +1052,7 @@ xap series:
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.1 http://sourceforge.net/projects/gnuplot/files/gnuplot/
--gparted: 1.2.0 http://gparted.sourceforge.net/
+-gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.2.2814 to 2825
@@ -1149,6 +1149,7 @@ extra:
 --------------------
 testing :
 -linux-5.12.x: 5.12.1
+-mariadb: 10.6.0
 -php8: 8.0.5
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
