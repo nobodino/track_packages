@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.14 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.61 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.345 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.347 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -212,7 +212,7 @@ Ap series :
 -lm_sensors: 3.6.0 https://github.com/groeck/lm-sensors
 -lsof: 4.94.0 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.30 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 2.0.11_fad08f383 to 4.0.6 https://linuxcontainers.org
+-lxc: 2.0.11_fad08f383 to 4.0.9 https://linuxcontainers.org
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
@@ -332,7 +332,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.2 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.4 to 3.9.5 https://www.python.org/downloads/
+-python3: 3.9.5 https://www.python.org/downloads/
 -python-pip: 21.1.1 https://pip.pypa.io/
 -python-setuptools: 56.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -370,7 +370,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.81.0/21.04.0 https://download.kde.org/stable/
+-kde: 5.21.5 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -488,7 +488,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.8.0 to 2.8.1 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.8.1 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -828,7 +828,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.0.6 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.0.6 to 2.0.7 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -987,7 +987,7 @@ x series: (main packages)
 -noto-fonts-ttf: 20171024
 -pixman: 0.40.0 http://cairographics.org/releases/
 -sessreg: 1.1.2
--liberation-fonts-ttf: 2.1.3
+-liberation-fonts-ttf: 2.1.4
 -skkdic: 20200128
 -twm: 1.0.11
 -vulkan-sdk: 1.2.162.0 https://www.khronos.org/vulkan/
@@ -1058,8 +1058,8 @@ xap series:
 -gvim: 8.2.2814 to 2825
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 88.0.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.10.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 88.0.0 to 88.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 78.10.0 to 78.10.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1150,7 +1150,7 @@ extra:
 testing :
 -linux-5.12.x: 5.12.1
 -mariadb: 10.6.0
--php8: 8.0.5
+-php8: 8.0.5 to 8.0.6
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
