@@ -11,7 +11,7 @@ A series :
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.32 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
--bash: 5.1.004 ftp://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.1.008 ftp://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -334,7 +334,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.5 https://www.python.org/downloads/
 -python-pip: 21.1.1 https://pip.pypa.io/
--python-setuptools: 56.0.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 56.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.1.1 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
@@ -545,6 +545,7 @@ l series:
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.27 http://www.gphoto.org/
+-libgnt: 2.14.1 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.47 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://download.gnome.org/sources/libgtop/
@@ -637,7 +638,7 @@ l series:
 -mozilla-nss: 3.64 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.64 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.30 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.10.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.10.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -696,7 +697,7 @@ l series:
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
 -python-requests: 2.25.1 http://docs.python-requests.org/en/master/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane
--python-six: 1.15.0 http://pypi.python.org/pypi/six/
+-python-six: 1.16.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.26.4 https://urllib3.readthedocs.io/
 -qca: 2.3.2 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
@@ -704,7 +705,7 @@ l series:
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.12.0 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
--readline: 8.1.000 ftp://ftp.cwru.edu/pub/bash/
+-readline: 8.1.001 ftp://ftp.cwru.edu/pub/bash/
 -rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
@@ -828,7 +829,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.0.6 to 2.0.7 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.0.7 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9 http://www.net-snmp.org/download.html
@@ -977,7 +978,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 21.0.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.0.3 to 21.1.0 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1058,8 +1059,8 @@ xap series:
 -gvim: 8.2.2814 to 2825
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 88.0.0 to 88.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.10.0 to 78.10.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 88.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 78.10.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1102,7 +1103,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -thunar-volman: 4.16.0
 -tumbler: 4.16.0
 -xfce4-appfinder: 4.16.1
--xfce4-clipman-plugin: 1.6.1
+-xfce4-clipman-plugin: 1.6.2
 -xfce4-dev-tools: 4.16.0
 -xfce4-notifyd: 0.6.2
 -xfce4-panel: 4.16.2
@@ -1150,7 +1151,7 @@ extra:
 testing :
 -linux-5.12.x: 5.12.1
 -mariadb: 10.6.0
--php8: 8.0.5 to 8.0.6
+-php8: 8.0.6
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
