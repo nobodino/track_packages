@@ -180,7 +180,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 3.0.5 http://htop.sourceforge.net
--hplip: 3.20.5 to 3.20.6 (pb) http://hplipopensource.com
+-hplip: 3.20.5 to 3.21.4 http://hplipopensource.com
 -ispell: 3.4.02 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -inxi: 20210329 https://github.com/smxi/inxi
 -itstool: 2.0.5 http://itstool.org/download/
