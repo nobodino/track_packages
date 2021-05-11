@@ -151,7 +151,7 @@ Ap series :
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
 -alsa-utils: 1.2.4 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
--at: 3.2.1 http://ftp.debian.org/debian/pool/main/a/at/
+-at: 3.2.1 to 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 3.3.4 ftp://ftp.gnu.org/pub/gnu/bc/
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
