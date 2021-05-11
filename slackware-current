@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.11.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.11.1 to 5.12 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -53,7 +53,7 @@ A series :
 -grub: 2.04 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.14 https://github.com/jirka-h/haveged/releases
--hdparm: 9.61 https://sourceforge.net/projects/hdparm/files/hdparm/
+-hdparm: 9.61 to 9.62 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
 -hwdata: 0.347 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.34 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.35 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210503 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -77,7 +77,7 @@ A series :
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.18.0 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
 -lrzip: 0.641 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.11 ftp://ftp.sistina.com/pub/LVM2/tools/
+-lvm2: 2.03.12 ftp://ftp.sistina.com/pub/LVM2/tools/
 -lzlib: 1.22 http: //www.nongnu.org/lzip/lzlib.html
 -mcelog: 176 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -217,11 +217,11 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.11 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.9 http://mariadb.org/
+-mariadb: 10.5.10 http://mariadb.org/
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.26.5 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.27.2 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.7 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -229,7 +229,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.4 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 http://ftp.debian.org/debian/pool/main/p/powertop/
--qpdf: 10.3.1 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 10.3.2 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
 -rpm: 4.16.1.3 ftp.rpm.org/pub/rpm/dist
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2814 to 2825 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2814 to 2845 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2814
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -269,7 +269,7 @@ d series:
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.2.1 https://ftp.samba.org/pub/ccache/
+-ccache: 4.3 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
@@ -287,13 +287,13 @@ d series:
 -git: 2.31.1 http://git-scm.com/download
 -gnucobol: 3.1.2 http://sourceforge.net/projects/open-cobol/files/open-cobol/
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
--guile: 3.0.6 ftp://ftp.gnu.org/pub/gnu/guile/
+-guile: 3.0.7 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
 -help2man: 1.48.3 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.34
+-kernel-headers: 5.10.35
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 11.1.0 to 12.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,12 +334,12 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.5 https://www.python.org/downloads/
 -python-pip: 21.1.1 https://pip.pypa.io/
--python-setuptools: 56.1.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 56.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.1.1 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.1 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.51.0 to 1.52.0 https://rust-lang.org
+-rust: 1.51.0 to 1.52.1 https://rust-lang.org
 -sassc: 3.6.1 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.1.0  http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -366,11 +366,12 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.34
+-kernel : 5.10.35
 --------------------
 kde series :
 --------------------
--kde: 5.21.5 https://download.kde.org/stable/
+-kde: 5.21.5 (plasma) https://download.kde.org/stable/
+-kde: 5.82.0 (framework) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -494,7 +495,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.11_11 http://www.imagemagick.org/
+-imagemagick: 7.0.11_12 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -641,7 +642,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
--netpbm: 10.94.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.94.03 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.0 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
@@ -791,7 +792,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.15.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.47 http://www.apache.org/dist/httpd/
+-httpd: 2.4.46 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -882,7 +883,7 @@ n series:
 -pssh: 2.3.4 https://code.google.com/p/parallel-ssh/
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.5 http://sourceforge.net/projects/rpcbind/
--rp-pppoe: 3.14 http://www.roaringpenguin.com/products/pppoe
+-rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
 -samba: 4.14.4 https://ftp.samba.org/pub/samba/
@@ -1046,8 +1047,8 @@ xap series:
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
 	- gkrellm-countdown: 0.1.2
--gnuchess: 6.2.7
-	- gnuchess : 6.2.7 http://ftp.gnu.org/gnu/chess/
+-gnuchess: 6.2.8
+	- gnuchess : 6.2.8 http://ftp.gnu.org/gnu/chess/
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
@@ -1055,7 +1056,7 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2814 to 2825
+-gvim: 8.2.2814 to 2845
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 88.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1098,7 +1099,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -libxfce4ui: 4.16.0
 -libxfce4util: 4.16.0
 -mousepad: 0.5.4
--thunar: 4.16.6
+-thunar: 4.16.8
 -thunar-volman: 4.16.0
 -tumbler: 4.16.0
 -xfce4-appfinder: 4.16.1
@@ -1148,7 +1149,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.12.x: 5.12.1
+-linux-5.12.x: 5.12.2
 -mariadb: 10.6.0
 -php8: 8.0.6
 /-----------------------------------------------------------------------------------/
