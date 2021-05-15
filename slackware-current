@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.12 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.12.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -64,11 +64,11 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.10.36 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.10.37 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210512 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 28 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 581.2 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
+-less: 581.2 to 586 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libblockdev: 2.25 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.5 https://github.com/rhinstaller/libbytesize
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.10.36
+-kernel-headers: 5.10.37
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.0 http://llvm.org/
 -m4: 1.4.18 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.10.36
+-kernel : 5.10.37
 --------------------
 kde series :
 --------------------
@@ -785,7 +785,7 @@ n series:
 -epic5: 2.1.4 http://www.epicsol.org/
 -ethtool: 5.12 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
--getmail: 6.15 http://pyropus.ca/software/getmail/
+-getmail: 6.16 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.27 to 2.3. https://www.gnupg.org/download/index.html
 -gnutls: 3.6.15 to 3.7.1 ftp://ftp.gnutls.org/gcrypt/gnutls/
@@ -1149,7 +1149,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--linux-5.12.x: 5.12.3
+-linux-5.12.x: 5.12.4
 -mariadb: 10.6.0
 -php8: 8.0.6
 /-----------------------------------------------------------------------------------/
