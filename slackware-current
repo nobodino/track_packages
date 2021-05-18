@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210324 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210509 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -552,7 +552,7 @@ l series:
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
 -libical: 3.0.10 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
--libidn: 1.36 http://ftp.gnu.org/gnu/libidn/
+-libidn: 1.37 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.1 http://ftp.gnu.org/gnu/libidn2/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20200615 http://www.libimobiledevice.org/
@@ -606,7 +606,7 @@ l series:
 -libunistring: 0.9.10 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.5.0 http://www.nongnu.org/libunwind
 -libusb: 1.0.24 ftp://download.sourceforge.net/pub/sourceforge/libusb/
--libusb-compat: 0.1.5 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
+-libusb-compat: 0.1.7 http://sourceforge.net/projects/libusb/files/libusb-compat-0.1/
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
 -libuv: 1.41.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://wiki.documentfoundation.org/DLP/Libraries/libvisio
@@ -622,7 +622,7 @@ l series:
 -libwpd: 0.10.3 http://libwpd.sourceforge.net/
 -libwpg: 0.3.3 http://libwpg.sourceforge.net/
 -libxklavier: 5.4 http://ftp.gnome.org/pub/gnome/sources/libxklavier/
--libxml2: 2.9.10 http://xmlsoft.org/sources/
+-libxml2: 2.9.12 http://xmlsoft.org/sources/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.3.0 http://xkbcommon.org/
 -libxslt: 1.1.34 ftp://xmlsoft.org/
@@ -635,14 +635,14 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 6.26.1 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.64 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.64 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.65 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.65 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.30 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.10.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
--netpbm: 10.94.03 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.94.04 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.0 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
@@ -748,7 +748,7 @@ l series:
 -xapian-core: 1.4.18 http://www.xapian.org/
 -xxHash: 0.8.0 https://github.com/Cyan4973/xxHash
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.4.9 http://zstd.net/
+-zstd: 1.5.0 http://zstd.net/
 --------------------
 n series:
 --------------------
@@ -821,7 +821,7 @@ n series:
 -libnetfilter_queue: 1.0.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.1.9 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libqmi: 1.28.0 to 1.28.2 http://www.freedesktop.org/software/libqmi/
+-libqmi: 1.28.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.21 to 2.22 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
@@ -1060,7 +1060,7 @@ xap series:
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 88.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.10.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.10.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1068,7 +1068,7 @@ xap series:
 	-pidgin: 2.14.4 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
--rxvt-unicode: 9.22 http://software.schmorp.de/pkg/rxvt-unicode.html
+-rxvt-unicode: 9.26 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
@@ -1135,7 +1135,7 @@ extra:
 -bittornado: 0.3.18 
 -brltty: 6.3 http://mielke.cc/brltty/
 -emacspeak: 53.0
--fltk: 1.3.5 http://www.fltk.org
+-fltk: 1.3.6 http://www.fltk.org
 -getty-ps: 2.1.0b
 -google-chrome:
 -java: (jdk and jre) 8u281 http://www.oracle.com/technetwork/java/javase/downloads/index.html
