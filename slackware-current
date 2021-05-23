@@ -312,17 +312,17 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.14 
-	- IO-Socket-SSL: 2.069 to 2.070
+	- IO-Socket-SSL: 2.070
 	- MIME-Base64: 3.16
 	- Module-Runtime: 0.016
-	- Moo: 2.004004
+	- Moo: 2.005004
 	- Net-SSLeay: 1.90
 	- Parse-Yapp: 1.21
-	- Path-Tiny: 0.116
+	- Path-Tiny: 0.118
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.009
 	- TermReadKey: 2.38
-	- URI: 5.06 to 5.09 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.09 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
