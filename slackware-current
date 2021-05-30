@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2876 to 2882 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.2876
+-vim: 8.2.2891 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.2891
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -312,7 +312,7 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.14 
-	- IO-Socket-SSL: 2.070
+	- IO-Socket-SSL: 2.070 to 2.071
 	- MIME-Base64: 3.16
 	- Module-Runtime: 0.016
 	- Moo: 2.005004
@@ -484,7 +484,7 @@ l series:
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.29 (to 4.2.0)) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.24.3 to 3.24.5 (to 4.0.0) https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.24.3 to 3.24.5 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
@@ -637,12 +637,12 @@ l series:
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.66 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.66 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.30 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+	- nspr: 4.30 to 4.31 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.10.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
--netpbm: 10.94.04 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.94.05 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.0 https://forge.imag.fr/projects/ocl-icd/
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
@@ -657,7 +657,7 @@ l series:
 -pangomm: 2.42.2 to 2.46.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
--pcre2: 10.36 http://www.pcre.org/
+-pcre2: 10.37 http://www.pcre.org/
 -pcre: 8.44 http://pcre.sourceforge.net/src/
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
@@ -789,11 +789,11 @@ n series:
 -getmail: 6.16 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.27 to 2.3. https://www.gnupg.org/download/index.html
--gnutls: 3.6.16 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.15.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.46 http://www.apache.org/dist/httpd/
+-httpd: 2.4.46 to 2.4.48 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -1057,7 +1057,7 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2876 to 2882
+-gvim: 8.2.2891
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 88.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
