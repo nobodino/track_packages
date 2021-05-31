@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210509 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210509 to 20210530 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -42,7 +42,7 @@ A series :
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.27 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.28 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -392,7 +392,7 @@ l series:
 -accountsservice: 0.6.55 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 40.1.1 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
--alsa-lib: 1.2.4  ftp://ftp.alsa-project.org/pub/lib
+-alsa-lib: 1.2.4 to 1.2.5 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.2.2 ftp://ftp.alsa-project.org/pub/plugins/
 -apr: 1.7.0 http://apr.apache.org/download.cgi
