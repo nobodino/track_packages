@@ -666,11 +666,11 @@ l series:
 -polkit: 0.118 to 0.119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.05.0 to 21.06.0 http://poppler.freedesktop.org/
+-poppler: 21.05.0 to 21.06.1 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.2 http://www.freedesktop.org/software/pulseaudio/releases/
--pycairo: 1.20.0 http://cairographics.org/releases/
+-pycairo: 1.20.0 to 1.20.1 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.6 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -868,7 +868,7 @@ n series:
 -openssh: 8.6p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1k ftp://ftp.openssl.org/source/
 -openvpn: 2.5.2 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.23.22 http://p11-glue.freedesktop.org/releases/
+-p11-kit: 0.23.22 to 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
 -php: 7.4.17 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
@@ -1061,7 +1061,7 @@ xap series:
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 89.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.10.2 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.10.2 to 78.11.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
