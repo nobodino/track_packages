@@ -50,7 +50,7 @@ A series :
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.7 http://www.rodsbooks.com/gdisk/
 -grep: 3.6 ftp://ftp.gnu.org/pub/gnu/grep
--grub: 2.04 ftp://ftp.gnu.org/gnu/grub/
+-grub: 2.04 to 2.06 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.14 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.62 https://sourceforge.net/projects/hdparm/files/hdparm/
@@ -1021,7 +1021,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
--xterm: 364 ftp://invisible-island.net/xterm/
+-xterm: 364 to 368 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
