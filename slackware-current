@@ -245,7 +245,7 @@ Ap series :
 -sqlite: 3.35.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.7 http://www.courtesan.com/sudo/current.html
--sysstat: 12.5.3 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.5.3 to 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.2 https://tmux.github.io/
@@ -557,7 +557,7 @@ l series:
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20200615 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
--libiodbc: 3.52.14 http://sourceforge.net/projects/iodbc/files/iodbc/
+-libiodbc: 3.52.14 to 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
 -libjpeg-turbo: 2.1.0 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
@@ -1113,7 +1113,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-screensaver: 0.1.11
 -xfce4-screenshooter: 1.9.9
 -xfce4-session: 4.16.0
--xfce4-settings: 4.16.1
+-xfce4-settings: 4.16.1 to 4.16.2
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 0.8.10
