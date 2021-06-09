@@ -443,7 +443,7 @@ l series:
 -frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.10.3 https://github.com/libfuse/libfuse
+-fuse3: 3.10.3 to 3.10.4 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
