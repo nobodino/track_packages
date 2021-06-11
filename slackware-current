@@ -48,7 +48,7 @@ A series :
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2021a
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
--gptfdisk: 1.0.7 http://www.rodsbooks.com/gdisk/
+-gptfdisk: 1.0.8 http://www.rodsbooks.com/gdisk/
 -grep: 3.6 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.12.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.12.10 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210609 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -245,15 +245,15 @@ Ap series :
 -sqlite: 3.35.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
 -sudo: 1.9.7 http://www.courtesan.com/sudo/current.html
--sysstat: 12.5.3 to 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.2 to 3.2a https://tmux.github.io/
+-tmux: 3.2a https://tmux.github.io/
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2891 to 2968 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.2891
+-vim: 8.2.2971 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.2971
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.12.9
+-kernel-headers: 5.12.10
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.0 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.12.9
+-kernel : 5.12.10
 --------------------
 kde series :
 --------------------
@@ -443,7 +443,7 @@ l series:
 -frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.10.3 to 3.10.4 https://github.com/libfuse/libfuse
+-fuse3: 3.10.4 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -579,7 +579,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org
--libpcap: 1.10.0 to 1.10.1 http://www.tcpdump.org/release/
+-libpcap: 1.10.1 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.17 https://code.google.com/p/libproxy/
@@ -662,7 +662,7 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.29 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.30 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.113 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -808,7 +808,7 @@ n series:
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.9.3 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.42 https://www.gnupg.org/download/index.html
--libksba: 1.5.1 https://www.gnupg.org/download/index.html
+-libksba: 1.6.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.24.8 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.16.1 (??)
 -libmnl: 1.0.4 ftp://ftp.netfilter.org/pub/conntrack-tools/
@@ -893,7 +893,7 @@ n series:
 -sshfs: 3.7.2 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.59 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
--tcpdump: 4.99.0 to 4.99.1 http://www.tcpdump.org/releases
+-tcpdump: 4.99.1 http://www.tcpdump.org/releases
 -telnet:
 	-netkit-telnet:  0.17 to 0.17_36.diff.gz (ipv6: telnet from redhat)
 	-telnet-OpenBSD: 20020321
@@ -1056,7 +1056,7 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2891 to 2968
+-gvim: 8.2.2971
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 89.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1087,7 +1087,7 @@ xap series:
 -xpaint: 3.1.3 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.00 to 6.01 http://www.jwz.org/xscreensaver/
+-xscreensaver: 6.01 http://www.jwz.org/xscreensaver/
 -xsnow: 3.3.0
 --------------------
 xfce: 4.16.x http://archive.xfce.org/src/xfce/
