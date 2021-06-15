@@ -130,11 +130,11 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 013 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.36.2 to 2.37
+-util-linux: 2.37
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz ftp://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 20181103 or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.36.2 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.37 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
@@ -149,7 +149,7 @@ Ap series :
 	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 1.23 ftp://drocklinux.dyndns.org/software/psutils/ or http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
--alsa-utils: 1.2.5 ftp://ftp.alsa-project.org/pub/utils
+-alsa-utils: 1.2.5.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 to 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 3.3.4 ftp://ftp.gnu.org/pub/gnu/bc/
@@ -244,7 +244,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.35.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.4 http://squashfs.sourceforge.net/
--sudo: 1.9.7 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.7p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.20.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.20.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -371,7 +371,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.22.0 (plasma) https://download.kde.org/stable/
--kde: 5.82.0 (framework) https://download.kde.org/stable/
+-kde: 5.83.0 (framework) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -392,7 +392,7 @@ l series:
 -accountsservice: 0.6.55 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 40.1.1 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
--alsa-lib: 1.2.5 ftp://ftp.alsa-project.org/pub/lib
+-alsa-lib: 1.2.5.1 ftp://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 ftp://ftp.alsa-project.org/pub/oss-lib
 -alsa-plugin: 1.2.4 ftp://ftp.alsa-project.org/pub/plugins/
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -457,7 +457,7 @@ l series:
 -gjs: 1.68.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.68.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.68.2 http://tp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.68.3 http://tp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.68.1 http://www.gtkmm.org/
 -glibc: 2.33
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -495,7 +495,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.0.11_14 http://www.imagemagick.org/
+-imagemagick: 7.1.0_0 http://www.imagemagick.org/
 -imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -635,8 +635,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 6.26.1 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.66 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.66 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.67 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.67 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.30 to 4.31 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.11.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -708,6 +708,7 @@ l series:
 -readline: 8.1.001 ftp://ftp.cwru.edu/pub/bash/
 -rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
+-rubygem-asciidoctor: 2.0.15
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
 -sg3_utils: 1.46 http://sg.danny.cz/sg/sg3_utils.html
@@ -760,7 +761,7 @@ n series:
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.16.15 ftp://ftp.isc.org/isc/bind9/
--bluez: 5.58 http://www.bluez.org/download/
+-bluez: 5.59 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
@@ -787,7 +788,7 @@ n series:
 -fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.16 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.27 to 2.3. https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.28 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.15.1 https://www.gnupg.org/download/index.html
@@ -829,7 +830,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.0.7 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.1.0 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -873,7 +874,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.6.0 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.6.1 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
