@@ -11,7 +11,7 @@ A series :
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.32 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
--bash: 5.1.008 ftp://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.1.008 to 5.1.8 ftp://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.12.10 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.12.11 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210609 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -163,7 +163,7 @@ Ap series :
 	- cups: 2.3.3 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.8 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.9 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.3 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -222,7 +222,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.28.0 http://sourceforge.net/projects/mpg123/files/
--nano: 5.7 http://www.nano-editor.org/download.php
+-nano: 5.8 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.14 https://github.com/linux-nvme/nvme-cli
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2971 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.2971 to 3008 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.2971
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.12.10
+-kernel-headers: 5.12.11
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.0 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -302,7 +302,7 @@ d series:
 -meson: 0.58.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
--opencl-headers: 2.2 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
+-opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
 -parallel: 20210422 to 20210522 https://www.gnu.org/software/parallel/
@@ -366,18 +366,18 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.12.10
+-kernel : 5.12.11
 --------------------
 kde series :
 --------------------
--kde: 5.22.0 (plasma) https://download.kde.org/stable/
+-kde: 5.22.1 (plasma) https://download.kde.org/stable/
 -kde: 5.83.0 (framework) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -LibRaw: 0.20.2 http://www.libraw.org/
--M2Crypto: 0.37.1 http://chandlerproject.org/Projects/MeTooCrypto
+-M2Crypto: 0.38.0 http://chandlerproject.org/Projects/MeTooCrypto
 -PyQT5: 5.15.2 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20200910 https://github.com/wang-bin/QtAV
@@ -432,7 +432,7 @@ l series:
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
 -enchant: 1.6.1 to 2.2.13 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
--exiv2: 0.27.3 http://www.exiv2.org/
+-exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
@@ -528,7 +528,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.1 http://ftp.gnu.org/gnu/libcdio/
--libclc: 11.0.1 http://libclc.llvm.org/
+-libclc: 12.0.0 http://libclc.llvm.org/
 -libcroco: 0.6.13 http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
@@ -657,8 +657,8 @@ l series:
 -pangomm: 2.42.2 to 2.46.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
--pcre2: 10.37 http://www.pcre.org/
--pcre: 8.44 http://pcre.sourceforge.net/src/
+-pcre2: 8.45 http://www.pcre.org/
+-pcre: 10.37 http://pcre.sourceforge.net/src/
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
@@ -727,6 +727,7 @@ l series:
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.10.2 https://github.com/brailcom/speechd
 -speexdsp: 1.2.0 http://www.speex.org/
+-spirv-llvm-translator: 12.0.0
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.14 http://cyberelk.net/tim/data/system-config-printer/
@@ -786,7 +787,7 @@ n series:
 -epic5: 2.1.5 http://www.epicsol.org/
 -ethtool: 5.12 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
--getmail: 6.16 http://pyropus.ca/software/getmail/
+-getmail: 6.17 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.28 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
@@ -854,7 +855,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
--nfs-utils: 2.5.3 http://sourceforge.net/projects/nfs/ (need krb5)
+-nfs-utils: 2.5.4 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.9 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.43.0 https://nghttp2.org/
 -nmap: 7.91 http://download.insecure.org/nmap/dist/
@@ -880,7 +881,7 @@ n series:
 	-pppsetup: 1.98
 	-freeradius-client: 1.1.7
 -procmail: 3.22_5.diff.gz to 3.22_25.debian.tar.gz http://www.procmail.org/ or http://www.ring.gr.jp/archives/net/mail
--proftpd: 1.3.7a ftp://ftp.proftpd.org/distrib/source/
+-proftpd: 1.3.7b ftp://ftp.proftpd.org/distrib/source/
 -pssh: 2.3.4 https://code.google.com/p/parallel-ssh/
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
@@ -992,7 +993,7 @@ x series: (main packages)
 -liberation-fonts-ttf: 2.1.4
 -skkdic: 20200128
 -twm: 1.0.11
--vulkan-sdk: 1.2.162.0 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.2.176.1 https://www.khronos.org/vulkan/
 -wayland: 1.19.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.21 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
@@ -1057,10 +1058,10 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2971
+-gvim: 8.2.2971 to 3008
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 89.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 89.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 78.11.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
