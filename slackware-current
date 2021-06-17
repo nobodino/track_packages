@@ -755,13 +755,13 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.14.10 to 1.16.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.28.0 to 1.30.4 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.28.0 to 1.32.0 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.24
 	-alpine: 2.24 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.15 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.15 to 9.16.17 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.59 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
