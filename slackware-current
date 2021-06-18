@@ -42,7 +42,7 @@ A series :
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.28 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.30 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -339,7 +339,7 @@ d series:
 -re2c: 2.1.1 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.1 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.52.1 https://rust-lang.org
+-rust: 1.52.1 to 1.53.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.1.0  http://www.scons.org/
 -slacktrack: 2.20 http://www.slackware.com/~mozes
@@ -450,7 +450,7 @@ l series:
 -gd: 2.3.2 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.42.6 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 
--gdbm: 1.19 ftp://ftp.gnu.org/gnu/gdbm/
+-gdbm: 1.19 to 1.20 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.30 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.2 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
@@ -669,7 +669,7 @@ l series:
 -poppler: 21.06.1 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
--pulseaudio: 14.2 http://www.freedesktop.org/software/pulseaudio/releases/
+-pulseaudio: 14.2 to 14.99.2 http://www.freedesktop.org/software/pulseaudio/releases/
 -pycairo: 1.20.1 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.43.0.6 http://pycurl.sourceforge.net/
@@ -868,7 +868,7 @@ n series:
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openssh: 8.6p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1k ftp://ftp.openssl.org/source/
--openvpn: 2.5.2 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.2 to 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
 -php: 7.4.20 http://www.php.net/distributions/ (need krb5)
