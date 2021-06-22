@@ -216,7 +216,7 @@ Ap series :
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
--man-pages: 5.11 https://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 5.11 to 5.12 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.5.10 to 10.6.2 http://mariadb.org/
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.20.4 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.20.4 to 3.20.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -648,7 +648,7 @@ l series:
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.2 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
--openexr: 2.5.5 http://www.openexr.com/downloads.html
+-openexr: 2.5.7 http://www.openexr.com/downloads.html
 -openjpeg: 2.4.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
@@ -781,7 +781,7 @@ n series:
 -dhcp: 4.4.2p1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 8.1.9 to 9.3.2 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.85 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.14 http://www.dovecot.org/releases/
+-dovecot: 2.3.15 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.5 http://www.epicsol.org/
@@ -966,7 +966,7 @@ x series: (main packages)
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
 -ibpinyin: 2.3.0
--libva: 2.11.0 https://01.org/linuxmedia/vaapi
+-libva: 2.12.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.11.1 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
 -libwacom: 1.10 https://github.com/linuxwacom
