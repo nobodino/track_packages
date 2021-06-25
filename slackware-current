@@ -793,7 +793,7 @@ n series:
 -gnupg2: 2.2.28 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.15.1 https://www.gnupg.org/download/index.html
+-gpgme: 1.15.1 to 1.16.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.48 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 
