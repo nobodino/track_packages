@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210530 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210623 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.12.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.12.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210609 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -217,7 +217,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.3 to 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.12 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.10 to 10.6.2 http://mariadb.org/
+-mariadb: 10.5.11 to 10.6.2 http://mariadb.org/
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.2971 to 3020 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.2971
+-vim: 8.2.3028 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.3028
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.12.12
+-kernel-headers: 5.12.13
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.0 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,11 +366,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.12.12
+-kernel : 5.12.13
 --------------------
 kde series :
 --------------------
--kde: 5.22.1 (plasma) https://download.kde.org/stable/
+-kde: 5.22.2.1 (plasma) https://download.kde.org/stable/
 -kde: 5.83.0 (framework) https://download.kde.org/stable/
 --------------------
 l series:
@@ -573,6 +573,7 @@ l series:
 -libnl3: 3.5.0 http://www.carisma.slowglass.com/~tgr/libnl/files/
 -libnotify: 0.7.9 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libnsl: 1.3.0 https://github.com/thkukuk/libnsl
+
 -libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis
 -libodfgen: 0.1.8 http://sourceforge.net/p/libwpd/wiki/libodfgen/
 -libogg: 1.3.5 https://www.xiph.org/downloads/
@@ -789,7 +790,7 @@ n series:
 -fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.17 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.3.1 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.28 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.15.1 https://www.gnupg.org/download/index.html
@@ -1004,7 +1005,7 @@ x series: (main packages)
 -xorgproto: 2021.4 
 -xorg-server: 1.20.11 ftp://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.1 
--xf86-input-libinput: 1.0.1
+-xf86-input-libinput: 1.1.0
 -xf86-input-wacom: 0.40.0
 -xf86-video-amdgpu: 19.1.0
 -xf86-video-apm: 1.3.0
@@ -1058,10 +1059,10 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.2971 to 3020
+-gvim: 8.2.3028
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 89.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 89.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 78.11.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
