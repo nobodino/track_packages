@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.12.13 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210609 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210629 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 589 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -159,8 +159,8 @@ Ap series :
 -cdrtools: 3.01 to 3.02a9
 	- cdrtools: 3.01 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.3.3
-	- cups: 2.3.3 http://www.cups.org/software.php
+-cups: 2.3.3op2
+	- cups: 2.3.3op2 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
 -cups-filters: 1.28.9 https://www.openprinting.org/download/cups-filters/
@@ -430,7 +430,7 @@ l series:
 -eigen3: 3.3.9 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.184 http://fedorahosted.org/releases/e/l/elfutils
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
--enchant: 1.6.1 to 2.2.13 http://www.abisource.com/downloads/enchant/
+-enchant: 2.3.0 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
@@ -490,7 +490,7 @@ l series:
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 2.8.1 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
--hunspell: 1.6.2 to 1.7.0 http://hunspell.sourceforge.net/
+-hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
@@ -872,7 +872,7 @@ n series:
 -openvpn: 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
--php: 7.4.20 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.21 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1076,7 +1076,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.7.1 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.7.1 to 2.53.8 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
@@ -1154,7 +1154,7 @@ extra:
 --------------------
 testing :
 -kerne: 5.13.0
--php8: 8.0.7
+-php8: 8.0.8
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
