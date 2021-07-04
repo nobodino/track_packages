@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.12.13 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.12.14 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210629 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -247,7 +247,7 @@ Ap series :
 -sudo: 1.9.7p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
--texinfo: 6.7 ftp://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 6.7 to 6.8 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.2a https://tmux.github.io/
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.12.13
+-kernel-headers: 5.12.14
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.0 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.12.13
+-kernel : 5.12.14
 --------------------
 kde series :
 --------------------
@@ -406,7 +406,7 @@ l series:
 -atkmm: 2.28.1 to 2.28.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
--babl: 0.1.86 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.88 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.76.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
@@ -643,9 +643,9 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
--netpbm: 10.94.05 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.95.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
--ocl-icd: 2.3.0 https://forge.imag.fr/projects/ocl-icd/
+-ocl-icd: 2.3.0 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.2 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
@@ -654,7 +654,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
--pango: 1.48.5 to 1.48.6 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.6 to 1.48.7 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
@@ -663,11 +663,11 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.30 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.31 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.06.1 http://poppler.freedesktop.org/
+-poppler: 21.06.1 to 21.07.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.2 to 14.99.2 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -691,7 +691,7 @@ l series:
 -python-markdown: 3.3.4 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 20.9 https://github.com/pypa/packaging
--python-pillow: 8.2.0 https://python-pillow.github.io/
+-python-pillow: 8.3.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.9.0 https://pypi.org/project/Pygments
 -python-pysol_cards: 0.10.1 https://pypi.org/project/pysol-cards
@@ -756,7 +756,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.14.10 to 1.16.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.28.0 to 1.32.0 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.28.0 to 1.32.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.24
 	-alpine: 2.24 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -799,7 +799,7 @@ n series:
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.12.0 to 5.13.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.13.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.11 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
@@ -982,7 +982,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 21.1.3 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.1.4 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1056,6 +1056,7 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
+
 -gnuplot: 5.4.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
