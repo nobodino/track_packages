@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.14 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.62 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.348 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.349 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -221,7 +221,7 @@ Ap series :
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.28.0 to 1.28.1 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.28.1 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.8 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3028 to 3.125 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3028 to 3.134 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3028
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -295,10 +295,10 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 5.12.15
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
--llvm: 12.0.0 to 12.0.1 http://llvm.org/
+-llvm: 12.0.1 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.7.1 to 5.8.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.8.1 https://mercurial.selenic.com/downloads
 -meson: 0.58.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -401,7 +401,7 @@ l series:
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2019.10.06 to 2020.12.07
 -at-spi2-atk: 2.38.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.40.2 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.40.3 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.36.0 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.1 to 2.28.2 ftp://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
@@ -482,13 +482,13 @@ l series:
 -gstreamer: 1.18.4 to 1.19.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.29 (to 4.2.0)) http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.29 to 3.24.30 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.3 to 3.24.5 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.8.1 to 2.8.2 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.8.2 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -786,11 +786,11 @@ n series:
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.5 http://www.epicsol.org/
--ethtool: 5.12 to 5.13 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.13 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.19 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.3 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.28 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.28 to 2.2.29 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.16.0 https://www.gnupg.org/download/index.html
@@ -1004,8 +1004,8 @@ x series: (main packages)
 -xinit: 1.4.1
 -xkeyboard-config: 2.33
 -xorgproto: 2021.4 
--xorg-server: 1.20.11 to 1.20.12 ftp://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.1 
+-xorg-server: 1.20.12 ftp://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 21.1.2
 -xf86-input-libinput: 1.1.0
 -xf86-input-wacom: 0.40.0
 -xf86-video-amdgpu: 19.1.0
@@ -1032,7 +1032,7 @@ xap series:
 -MPlayer: 20210418 https://mplayerhq.hu/design7/news.html
 	-Mplayer: 20210418
 	-Blue: 1.10 (skin)
--NetworkManager-openvpn: 1.8.12
+-NetworkManager-openvpn: 1.8.14
 -audacious: 4.1 http://audacious-media-player.org/release/
 -audacious-plugins: 4.1 
 -blackbox:
@@ -1059,9 +1059,9 @@ xap series:
 
 -gnuplot: 5.4.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.3.0 http://gparted.sourceforge.net/
--gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap/3.14/
+-gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3028 to 3125
+-gvim: 8.2.3028 to 3134
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 89.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1069,8 +1069,8 @@ xap series:
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.5 to 2.14.6
-	-pidgin: 2.14.5 https://www.pidgin.im/download/source/
+-pidgin: 2.14.6
+	-pidgin: 2.14.6 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.26 http://software.schmorp.de/pkg/rxvt-unicode.html
