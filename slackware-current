@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.12.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.13 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -221,7 +221,7 @@ Ap series :
 -mc: 4.8.26 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.28.1 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.28.2 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.8 http://www.nano-editor.org/download.php
 -neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -371,7 +371,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.22.3 (plasma) https://download.kde.org/stable/
--kde: 5.83.0 (framework) https://download.kde.org/stable/
+-kde: 5.84.0 (framework) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -437,7 +437,7 @@ l series:
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
 -fftw : 3.3.9 http://www.fftw.org/download.html
--fluidsynth: 1.1.11 to 2.1.0 http://www.fluidsynth.org/
+-fluidsynth: 2.2.2 http://www.fluidsynth.org/
 -freecell-solver: 6.2.0 https://fc-solve.shlomifish.org/downloads/fc-solve/
 -freetype: 2.10.4 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
@@ -639,7 +639,7 @@ l series:
 -mozilla-nss: 3.67 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.67 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.30 to 4.31 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.11.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -680,6 +680,7 @@ l series:
 -pyparsing: 2.4.7 http://pyparsing.wikispaces.com/
 -python2-module-collection: 2.7.18 
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs
+-python-charset-normalizer: 2.0.1
 -python-certifi: 2021.5.30 http://certifi.io/
 -python-chardet: 4.0.0 https://chardet.readthedocs.io
 -python-distro: 1.5.0 https://github.com/nir0s/distro
@@ -687,7 +688,7 @@ l series:
 -python-docutils: 0.17.1 http://docutils.sourceforge.net/
 -pyhton-distro: 1.4.0 https://github.com/nir0s/distro
 -python-future: 0.18.2 https://pypi.org/project/future/
--python-idna: 2.10 to 3.1 https://github.com/kjd/idna
+-python-idna: 3.2 https://github.com/kjd/idna
 -python-markdown: 3.3.4 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 20.9 https://github.com/pypa/packaging
@@ -696,7 +697,7 @@ l series:
 -python-pygments: 2.9.0 https://pypi.org/project/Pygments
 -python-pysol_cards: 0.10.1 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
--python-requests: 2.25.1 http://docs.python-requests.org/en/master/
+-python-requests: 2.26.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane
 -python-six: 1.16.0 http://pypi.python.org/pypi/six/
 -python-urllib3: 1.26.6 https://urllib3.readthedocs.io/
@@ -712,6 +713,7 @@ l series:
 -rubygem-asciidoctor: 2.0.15
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
+
 -sg3_utils: 1.46 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
@@ -832,7 +834,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.1.0 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.1.1 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -889,7 +891,7 @@ n series:
 -rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.14.5 https://ftp.samba.org/pub/samba/
+-samba: 4.14.6 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.8 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -1056,7 +1058,6 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 ftp://ftp.gnu.org/pub/gnu/xboard/
-
 -gnuplot: 5.4.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
@@ -1064,8 +1065,8 @@ xap series:
 -gvim: 8.2.3028 to 3134
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 89.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.11.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 90.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 78.11.0 to 78.12.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
