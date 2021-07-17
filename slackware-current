@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3028 to 3.134 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3028 to 3.171 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3028
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -262,7 +262,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.23 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.24 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.4 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2021.02.19 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.20.5 to 3.21.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.21.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -334,7 +334,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.6 https://www.python.org/downloads/
 -python-pip: 21.1.3 https://pip.pypa.io/
--python-setuptools: 57.1.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 57.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.1.1 http://re2c.org
 -rinutils: 0.8.0 https://github.com/shlomif/rinutils
@@ -426,6 +426,7 @@ l series:
 -dotconf: 1.3 http://live.gnome.org/dconf
 -dvdauthor: 0.7.2 https://github.com/ldo/dvdauthor
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
+-editorconfig-core-c: 0.12.5
 -eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.3.9 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.184 http://fedorahosted.org/releases/e/l/elfutils
@@ -537,7 +538,7 @@ l series:
 -libdmtx: 0.7.5 https://github.com/dmtx/libdmtx
 -libdvdnav: 6.1.1 http://www.mplayerhq.hu/design7/news.html
 -libdvdread: 6.1.2 http://download.videolan.org/videolan/libdvdread/
--libedit: 20210522_3.1 http://www.thrysoee.dk/editline/
+-libedit: 20210714_3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.22 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
@@ -680,7 +681,7 @@ l series:
 -pyparsing: 2.4.7 http://pyparsing.wikispaces.com/
 -python2-module-collection: 2.7.18 
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs
--python-charset-normalizer: 2.0.1
+-python-charset-normalizer: 2.0.2
 -python-certifi: 2021.5.30 http://certifi.io/
 -python-chardet: 4.0.0 https://chardet.readthedocs.io
 -python-distro: 1.5.0 https://github.com/nir0s/distro
@@ -736,11 +737,11 @@ l series:
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.12 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
--talloc: 2.3.2 https://talloc.samba.org
+-talloc: 2.3.3 https://talloc.samba.org
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
--tdb: 1.4.3 https://tdb.samba.org
--tevent: 0.10.2 https://tevent.samba.org
+-tdb: 1.4.4 https://tdb.samba.org
+-tevent: 0.11.0 https://tevent.samba.org
 -tidy-html5: 5.6.0 https://github.com/htacg/tidy-html5
 -urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.6.1 https://github.com/JuliaStrings/utf8proc
@@ -972,7 +973,7 @@ x series: (main packages)
 -libva: 2.12.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.12.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.10 https://github.com/linuxwacom
+-libwacom: 1.11 https://github.com/linuxwacom
 -libXaw: 1.0.14 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
@@ -983,7 +984,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6
--mesa: 21.1.4 to 21.1.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.1.5 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1061,7 +1062,7 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3028 to 3134
+-gvim: 8.2.3028 to 3171
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 90.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
