@@ -4,7 +4,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 /-----------------------------------------------------------------------------------/
 A series :
 --------------------
--aaa_base: 14.2
+-aaa_base: 15.0
 -aaa_glibc-solibs: 2.32
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.2_20201219
@@ -42,7 +42,7 @@ A series :
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.30 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.33 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.13.2 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210629 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210716 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 589 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3028 to 3.171 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3028 to 3.177 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3028
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.8.1 https://mercurial.selenic.com/downloads
--meson: 0.58.1 http://mesonbuild.com/
+-meson: 0.58.1 to 0.59.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -1062,7 +1062,7 @@ xap series:
 -gparted: 1.3.0 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3028 to 3171
+-gvim: 8.2.3028 to 3177
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 90.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
