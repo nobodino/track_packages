@@ -130,11 +130,11 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch/#download
 -usbutils: 013 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 (libutempter) ftp://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.37
+-util-linux: 2.37.1
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz ftp://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 20181103 or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz ftp://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.37 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.37.1 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
@@ -553,7 +553,7 @@ l series:
 -libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
 -libical: 3.0.10 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
--libidn: 1.37 http://ftp.gnu.org/gnu/libidn/
+-libidn: 1.38 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.2 http://ftp.gnu.org/gnu/libidn2/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20200615 http://www.libimobiledevice.org/
@@ -763,7 +763,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.18 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.19 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.60 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1064,7 +1064,7 @@ xap series:
 -gvim: 8.2.3028 to 3177
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 90.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 90.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 78.12.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
@@ -1077,7 +1077,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.7.1 to 2.53.8 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.8.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
