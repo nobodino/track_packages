@@ -756,8 +756,8 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.14.10 to 1.16.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.28.2 to 1.32.2 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-ModemManager: 1.14.10 to 1.16.8 http://www.freedesktop.org/software/ModemManager/
+-NetworkManager: 1.28.2 to 1.32.4 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.24
 	-alpine: 2.24 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
