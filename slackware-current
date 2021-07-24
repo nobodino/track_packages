@@ -42,7 +42,7 @@ A series :
 -findutils: 4.8.0 ftp://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.33 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.34 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
@@ -68,7 +68,7 @@ A series :
 -kernel-firmware: 20210719 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 581.2 to 589 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
+-less: 581.2 to 590 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libblockdev: 2.25 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.6 https://github.com/rhinstaller/libbytesize
@@ -109,7 +109,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.8 ftp://ftp.gnu.org/pub/gnu/sed
--shadow: 4.8.1 http://pkg-shadow.alioth.debian.org/
+-shadow: 4.8.1 to 4.9 http://pkg-shadow.alioth.debian.org/
 -sharutils: 4.15.2 ftp://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.2 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.5.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 to 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 3.3.4 ftp://ftp.gnu.org/pub/gnu/bc/
+-bc: 1.07.1 to 4.0.2 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -267,7 +267,7 @@ d series:
 -autoconf-archive: 2021.02.19 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.36.1 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.36.1 to 2.37 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.3 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -305,7 +305,7 @@ d series:
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20210622 https://www.gnu.org/software/parallel/
+-parallel: 20210622 to 20210722 https://www.gnu.org/software/parallel/
 -patchelf: 0.12 http://nixos.org/patchelf.html
 -perl: 5.34.0
 	- Authen-SASL: 2.16
