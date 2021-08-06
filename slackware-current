@@ -124,7 +124,7 @@ A series :
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
--udisks2: 2.9.2 http://udisks.freedesktop.org/releases/
+-udisks2: 2.9.2 to 2.9.3 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.99.12 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch/#download
