@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3238 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3238 to 3318 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3238
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -289,7 +289,7 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.7 ftp://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20200512 https://gyp.gsrc.io/
--help2man: 1.48.3 http://ftp.gnu.org/gnu/help2man/
+-help2man: 1.48.3 to 1.48.4 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
@@ -861,7 +861,7 @@ n series:
 -nfs-utils: 2.5.4 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 0.9.9 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.44.0 https://nghttp2.org/
--nmap: 7.91 http://download.insecure.org/nmap/dist/
+-nmap: 7.91 to 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
@@ -1063,7 +1063,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3238
+-gvim: 8.2.3238 to 3318
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 90.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
