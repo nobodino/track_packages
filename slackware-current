@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3238 to 3318 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3238 to 3326 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3238
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -381,7 +381,7 @@ l series:
 -PyQT5: 5.15.2 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20200910 https://github.com/wang-bin/QtAV
--SDL2: 2.0.14 https://www.libsdl.org/projects/
+-SDL2: 2.0.14 to 2.0.16 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
@@ -435,6 +435,8 @@ l series:
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
+
+
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
 -fftw : 3.3.9 http://www.fftw.org/download.html
@@ -542,7 +544,7 @@ l series:
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.22 http://sourceforge.net/projects/libexif
 -libfakekey: 0.3 https://www.yoctoproject.org/tools-resources/projects/matchbox
--libffi: 3.3 ftp://sourceware.org/pub/libffi
+-libffi: 3.3 to 3.4.2 ftp://sourceware.org/pub/libffi
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.27 http://www.gphoto.org/
@@ -559,7 +561,7 @@ l series:
 -libimobiledevice: 20200615 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.1.0 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.1.0 to 2.1.1 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://de-mirror.org/gentoo/distfiles/
 -libmad: 0.15.1b ftp://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -757,8 +759,8 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.14.10 to 1.16.8 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.28.2 to 1.32.6 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-ModemManager: 1.14.10 to 1.16.10 http://www.freedesktop.org/software/ModemManager/
+-NetworkManager: 1.28.2 to 1.32.8 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.24
 	-alpine: 2.24 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -789,7 +791,7 @@ n series:
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.5 http://www.epicsol.org/
 -ethtool: 5.13 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.20 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.20 to 6.4.21 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.3 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.28 to 2.2.29 https://www.gnupg.org/download/index.html
@@ -838,7 +840,7 @@ n series:
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
--net-tools: 20170208_479bb4a
+-net-tools: 20170208_479bb4a to 2.10 https://sourceforge.net/projects/net-tools/files/
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
 -netdate: diff2.gz to 1.2 (gentoo)
 -netkit-xxx: 0.17 to inetutils-1.9.4
@@ -1063,10 +1065,10 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3238 to 3318
+-gvim: 8.2.3238 to 3326
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 90.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 90.0.2 to 91.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 78.12.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
