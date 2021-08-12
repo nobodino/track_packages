@@ -642,7 +642,7 @@ l series:
 -mozilla-nss: 3.67 to 3.69 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.67 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.30 to 4.31 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.12.0esr to 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.31.2 http://www.webdav.org/neon/
@@ -1069,7 +1069,7 @@ xap series:
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 90.0.2 to 91.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 78.12.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 78.12.0 to 91.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.20.0 to 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
