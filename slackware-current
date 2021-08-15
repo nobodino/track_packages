@@ -49,7 +49,7 @@ A series :
 -glibc-zoneinfo: 2021a
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.8 http://www.rodsbooks.com/gdisk/
--grep: 3.6 ftp://ftp.gnu.org/pub/gnu/grep
+-grep: 3.6 to 3.7 ftp://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 ftp://ftp.gnu.org/gnu/grub/
 -gzip: 1.10 ftp://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.14 https://github.com/jirka-h/haveged/releases
@@ -72,7 +72,7 @@ A series :
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libblockdev: 2.26 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.6 https://github.com/rhinstaller/libbytesize
--libgudev: 236 http://wiki.gnome.org/Projects/libgudev
+-libgudev: 236 to 237 http://wiki.gnome.org/Projects/libgudev
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.18.1 http://ftp.debian.org/debian/pool/main/l/logrotate/ or https://fedorahosted.org/logrotate/
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.5.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.1 to 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 4.0.2 https://git.yzena.com/gavin/bc
+-bc: 1.07.1 to 5.0.0 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3238 to 3331 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3238 to 3346 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3238
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -333,7 +333,7 @@ d series:
 -poke: 1.3 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.6 https://www.python.org/downloads/
--python-pip: 21.2.2 https://pip.pypa.io/
+-python-pip: 21.2.2 to 21.2.4 https://pip.pypa.io/
 -python-setuptools: 57.4.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.2 http://re2c.org
@@ -407,7 +407,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -babl: 0.1.88 http://download.gimp.org/pub/babl/0.1/
--boost: 1.76.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.76.0 to 1.77.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 to 1.16.0 http://cairographics.org/cairomm/
@@ -431,12 +431,10 @@ l series:
 -eigen3: 3.3.9 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.184 http://fedorahosted.org/releases/e/l/elfutils
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
--enchant: 2.3.0 http://www.abisource.com/downloads/enchant/
+-enchant: 2.3.0 to 2.3.1 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
-
-
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
 -fftw : 3.3.9 http://www.fftw.org/download.html
@@ -457,7 +455,7 @@ l series:
 -gegl: 0.4.30 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.12.2 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.68.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.68.1 to 1.68.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.68.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.68.3 to 2.69.0 http://tp.acc.umu.se/pub/gnome/sources/glib/
@@ -499,7 +497,7 @@ l series:
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -imagemagick: 7.1.0_4 http://www.imagemagick.org/
--imlib: 1.9.15  http://de-mirror.org/gentoo/distfiles/
+-imlib: 1.9.15 http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.13.1 http://www.digip.org/jansson/
@@ -619,7 +617,7 @@ l series:
 -libvncserver: 0.9.13 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.10.0 http://www.webmproject.org/
--libwebp: 1.2.0 https://developers.google.com/speed/webp/
+-libwebp: 1.2.0 to 1.2.1 https://developers.google.com/speed/webp/
 -libwmf: 0.2.12 http://sourceforge.net/projects/wvware/
 -libwnck3: 3.6.4 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.3.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/3.14/
@@ -657,7 +655,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
--pango: 1.48.6 to 1.48.7 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.6 to 1.48.8 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
@@ -963,7 +961,7 @@ x series: (main packages)
 -libdmx: 1.1.4
 -libpciaccess: 0.16
 -libdrm: 2.4.106 http://dri.freedesktop.org/libdrm/
--libepoxy: 1.5.8
+-libepoxy: 1.5.8 to 1.5.9 
 -libevdev: 1.10.1
 -libgee: 0.20.3
 -libglvnd: 1.3.3
@@ -1065,7 +1063,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3238 to 3331
+-gvim: 8.2.3238 to 3346
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 90.0.2 to 91.0 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
