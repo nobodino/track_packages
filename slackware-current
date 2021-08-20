@@ -21,13 +21,13 @@ A series :
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
--cryptsetup: 2.3.6 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.4.0 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20210623 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
--e2fsprogs: 1.46.3 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.46.3 to 1.46.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 http://linux.dell.com/efibootmgr
 -efivar: 20191015 https://github.com/rhboot/efivar
@@ -85,7 +85,7 @@ A series :
 	- minicom: 2.8 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.32.1 to 1.33.1 http://www.busybox.net/
+	- busybox: 1.32.1 to 1.34.0 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
@@ -164,7 +164,7 @@ Ap series :
 	- cups: 2.3.3op2 http://www.cups.org/software.php
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.9 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.10 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.4 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3352 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3352 to 3360 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3352
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -280,7 +280,7 @@ d series:
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
 -distcc: 3.4 http://distcc.samba.org/
--doxygen: 1.9.1 to 1.9.2 http://www.doxygen.org/download.html
+-doxygen: 1.9.2 http://www.doxygen.org/download.html
 -flex: 2.6.4 ftp://ftp.gnu.org/pub/gnu/flex/
 -gcc: 11.2.0 ftp://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 10.1 ftp://ftp.gnu.org/pub/gnu/gdb/
@@ -299,7 +299,7 @@ d series:
 -llvm: 12.0.1 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.8.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.8.1 to 5.9 https://mercurial.selenic.com/downloads
 -meson: 0.58.2 to 0.59.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -357,7 +357,7 @@ e series:
 --------------------
 Installer:
 --------------------
--busybox: 1.32.1 to 1.33.1
+-busybox: 1.32.1 to 1.34.0
 -dropbear: 2020.81 http://matt.ucc.asn.au/dropbear/dropbear.html
 -nano: 5.5
 --------------------
@@ -461,7 +461,7 @@ l series:
 -gjs: 1.68.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.68.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.68.3 to 2.69.0 http://tp.acc.umu.se/pub/gnome/sources/glib/
+-glib2: 2.68.3 to 2.68.4 http://tp.acc.umu.se/pub/gnome/sources/glib/
 -glibmm: 2.64.5 to 2.68.1 http://www.gtkmm.org/
 -glibc: 2.33 to 2.34
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
@@ -493,7 +493,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.8.2 to 2.9.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.9.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -509,7 +509,7 @@ l series:
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
--json-glib: 1.6.2 https://gitlab.gnome.org/GNOME/json-glib/
+-json-glib: 1.6.4 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
 -kdsoap: 2.0.0 https://github.com/KDAB/KDSoap
 -keybinder3: 0.3.3 http://pkgs.fedoraproject.org/repo/pkgs/keybinder/
@@ -650,7 +650,7 @@ l series:
 -neon: 0.31.2 http://www.webdav.org/neon/
 -netpbm: 10.95.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
--ocl-icd: 2.3.0 https://github.com/OCL-dev/ocl-icd
+-ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.3 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
@@ -659,7 +659,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
--pango: 1.48.8 to 1.48.9 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.9 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
@@ -678,7 +678,7 @@ l series:
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
 -pycairo: 1.20.1 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
--pycurl: 7.43.0.6 http://pycurl.sourceforge.net/
+-pycurl: 7.44.1 http://pycurl.sourceforge.net/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.40.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 http://ftp.gnome.org/pub/GNOME/sources/pygtk/2.24/
@@ -762,7 +762,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.16.10 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.32.8 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.32.10 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.24
 	-alpine: 2.24 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -874,7 +874,7 @@ n series:
 -openldap: 2.4.59 to 2.5.7 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openresolv: 3.12.0
--openssh: 8.6p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 8.6p1 to 8.7p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1k ftp://ftp.openssl.org/source/
 -openvpn: 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
@@ -1068,7 +1068,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3352
+-gvim: 8.2.3352 to 3360
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1154,7 +1154,7 @@ extra:
 -java: (jdk and jre) 8u281 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
 -php8: 8.0.9
--sendmail: 8.15.2 to 8.17.1
+-sendmail: 8.17.1
 -tigervnc: 1.10.1 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
 -xf86-video-nouveau-blacklist: 
