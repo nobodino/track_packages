@@ -139,7 +139,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
--xfsprogs: 5.12.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.12.0 to 5.13.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou ftp://ftp.kiarchive.ru/pub/unix/arcers/
@@ -487,7 +487,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.30 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.2.1
+-gtk4: 4.2.1 to 4.4.0
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
@@ -863,7 +863,7 @@ n series:
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.5.4 http://sourceforge.net/projects/nfs/ (need krb5)
--nftables: 0.9.9 http://www.netfilter.org/projects/nftables/
+-nftables: 0.9.9 to 1.0 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.44.0 https://nghttp2.org/
 -nmap: 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -1072,7 +1072,7 @@ xap series:
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.30 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.0.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 91.0.1 to 91.0.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.22.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
