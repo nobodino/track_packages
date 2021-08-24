@@ -305,7 +305,7 @@ d series:
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20210722 to 20210822 https://www.gnu.org/software/parallel/
+-parallel: 20210822 https://www.gnu.org/software/parallel/
 -patchelf: 0.12 http://nixos.org/patchelf.html
 -perl: 5.34.0
 	- Authen-SASL: 2.16
@@ -499,7 +499,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_4 http://www.imagemagick.org/
+-imagemagick: 7.1.0_5 http://www.imagemagick.org/
 -imlib: 1.9.15 http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.6.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -814,7 +814,7 @@ n series:
 -krb5: 1.19.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
--libgcrypt: 1.9.3to 1.9.4 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.9.4 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.42 https://www.gnupg.org/download/index.html
 -libksba: 1.6.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.26.0 http://www.freedesktop.org/software/libmbim/
@@ -932,9 +932,9 @@ n firmware:
 --------------------
 t series:
 --------------------
--fig2dev: 3.2.8ato 3.2.8b https://sourceforge.net/projects/mcj/files/
+-fig2dev: 3.2.8b https://sourceforge.net/projects/mcj/files/
 -texlive: 2021.210418 https://ctan.net/systems/texlive/Source/
--xfig: 3.2.8a to 3.2.8b https://sourceforge.net/projects/mcj/files/
+-xfig: 3.2.8b https://sourceforge.net/projects/mcj/files/
 --------------------
 tcl/tk series:
 --------------------
