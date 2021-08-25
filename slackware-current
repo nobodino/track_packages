@@ -93,7 +93,7 @@ A series :
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2017.03.23 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1k to 1.1.1i http://www.openssl.org/
+-openssl-solibs: 1.1.1i http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -pam: 1.5.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3352 to 3367 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3352 to 3371 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3352
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -508,7 +508,7 @@ l series:
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
--json-glib: 1.6.4 https://gitlab.gnome.org/GNOME/json-glib/
+-json-glib: 1.6.6 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
 -kdsoap: 2.0.0 https://github.com/KDAB/KDSoap
 -keybinder3: 0.3.3 http://pkgs.fedoraproject.org/repo/pkgs/keybinder/
@@ -520,7 +520,7 @@ l series:
 -libaio: 0.3.111 http://de-mirror.org/gentoo/distfiles/
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.5.1 http://www.libarchive.org/downloads/
+-libarchive: 3.5.2 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluray: 1.3.0 http://www.videolan.org/developers/libbluray.html
@@ -768,7 +768,7 @@ n series:
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.16.20 ftp://ftp.isc.org/isc/bind9/
--bluez: 5.60 http://www.bluez.org/download/
+-bluez: 5.61 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
@@ -837,7 +837,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.1.1 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.1.2 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -874,7 +874,7 @@ n series:
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openresolv: 3.12.0
 -openssh: 8.7p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1k ftp://ftp.openssl.org/source/
+-openssl: 1.1.1i ftp://ftp.openssl.org/source/
 -openvpn: 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
@@ -895,7 +895,7 @@ n series:
 -rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.14.6 https://ftp.samba.org/pub/samba/
+-samba: 4.14.7 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.8 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -1067,10 +1067,10 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3352 to 3367
+-gvim: 8.2.3352 to 3371
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 91.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.0.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.22.0 to 1.24.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
