@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3352 to 3371 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3352 to 3376 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3352
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.21.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.21.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 http://cscope.sourceforge.net/index.html
 -cvs: 1.11.23 to 1.12.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 http://de-mirror.org/gentoo/distfiles/
@@ -878,7 +878,7 @@ n series:
 -openvpn: 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
--php: 7.4.22 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.23 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -968,7 +968,7 @@ x series: (main packages)
 -libepoxy: 1.5.9 
 -libevdev: 1.10.1
 -libgee: 0.20.3
--libglvnd: 1.3.3
+-libglvnd: 1.3.4
 -libinput: 1.18.1
 -libkkc: 0.3.5
 -libkkc-data: 0.2.7
@@ -1067,7 +1067,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3352 to 3371
+-gvim: 8.2.3352 to 3376
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1083,7 +1083,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.8.1 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.8.1 to 2.53.9 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.2 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
@@ -1152,7 +1152,7 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u281 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
--php8: 8.0.9
+-php8: 8.0.10
 -sendmail: 8.17.1
 -tigervnc: 1.10.1 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
@@ -1161,8 +1161,6 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--kernel: 5.13.0
--php8: 8.0.9
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
