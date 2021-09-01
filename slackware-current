@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.14.0 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 2021081 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20210830 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 590 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -91,7 +91,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 5.0 http://ftp.debian.org/debian/pool/main/n/ncompress/
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
--ntfs-3g: 2017.03.23 to 2021.08.22 http://www.tuxera.com/community/ntfs-3g-download/
+-ntfs-3g: 2021.08.22 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
 -openssl-solibs: 1.1.1i http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3352 to 3376 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3352 to 3391 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3352
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -298,7 +298,7 @@ d series:
 -llvm: 12.0.1 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.9 to 5.9.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.9.1 https://mercurial.selenic.com/downloads
 -meson: 0.58.2 to 0.59.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -332,7 +332,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.3 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.6 https://www.python.org/downloads/
+-python3: 3.9.7 https://www.python.org/downloads/
 -python-pip: 21.2.4 https://pip.pypa.io/
 -python-setuptools: 57.4.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -370,7 +370,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.22.4 (plasma) https://download.kde.org/stable/
+-kde: 5.22.5 (plasma) https://download.kde.org/stable/
 -kde: 5.85.0 (framework) https://download.kde.org/stable/
 --------------------
 l series:
@@ -638,8 +638,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.0.1 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.69 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.69 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.69.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.69.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.30 to 4.31 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -802,7 +802,7 @@ n series:
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.13.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.13.0 to 5.14.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
@@ -1065,7 +1065,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3352 to 3376
+-gvim: 8.2.3352 to 3391
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1092,7 +1092,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.11 http://dl.sourceforge.net/xine/
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
--xlockmore: 5.66 to 5.67 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+-xlockmore: 5.67 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 3.1.3 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
