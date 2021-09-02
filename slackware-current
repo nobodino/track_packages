@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3352 to 3391 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.3352
+-vim: 8.2.3394 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.3394
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -343,7 +343,7 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.2.0  http://www.scons.org/
 -slacktrack: 2.21 http://www.slackware.com/~mozes
--strace: 5.13 https://github.com/strace/strace/releases/download/
+-strace: 5.13 to 5.14 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
 -vala: 0.52.5 https://wiki.gnome.org/Projects/Vala
@@ -414,7 +414,7 @@ l series:
 -cfitsio: 3.49 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.cofftwm/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
--cryfs: 0.10.3 https://github.com/cryfs/cryfs
+-cryfs: 0.10.3 to 0.11 (pb) https://github.com/cryfs/cryfs
 -cryptopp: 8.2.0 to 8.4.0 (pb with cryfs) https://www.cryptopp.com/
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
@@ -669,7 +669,7 @@ l series:
 -polkit: 119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.08.0 http://poppler.freedesktop.org/
+-poppler: 21.08.0to 21.09.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -802,7 +802,7 @@ n series:
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.13.0 to 5.14.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.14.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
@@ -975,7 +975,7 @@ x series: (main packages)
 -libva: 2.12.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.12.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.11 https://github.com/linuxwacom
+-libwacom: 1.12 https://github.com/linuxwacom
 -libXaw: 1.0.14 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
@@ -1002,7 +1002,7 @@ x series: (main packages)
 -twm: 1.0.11
 -vulkan-sdk: 1.2.176.1 https://www.khronos.org/vulkan/
 -wayland: 1.19.0 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.21 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.22 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
 -xdg-utils: 1.1.3
 -xdm 1.1.11
@@ -1065,7 +1065,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3352 to 3391
+-gvim: 8.2.3394
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
