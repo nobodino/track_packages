@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.14.1 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.14.2 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210830 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -182,7 +182,7 @@ Ap series :
 -htop: 3.0.5 http://htop.sourceforge.net
 -hplip: 3.20.5 to 3.20.6 http://hplipopensource.com
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 20210329 https://github.com/smxi/inxi
+-inxi: 20210824 https://github.com/smxi/inxi
 -itstool: 2.0.5 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -221,9 +221,9 @@ Ap series :
 -mc: 4.8.27 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.28.2 to 1.29.0 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.29.0 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.8 http://www.nano-editor.org/download.php
--neofetch: 20201126 https://github.com/dylanaraps/neofetch/wiki
+-neofetch: 20210904 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.15 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3394 to 3408 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3394 to 3419 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3394
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -268,7 +268,7 @@ d series:
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.37 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.7.6 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.8 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.4 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.14.1
+-kernel-headers: 5.14.2
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.1 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -334,12 +334,12 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.7 https://www.python.org/downloads/
 -python-pip: 21.2.4 https://pip.pypa.io/
--python-setuptools: 58.0.1 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 58.0.4 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.2 http://re2c.org
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.2 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.54.0 https://rust-lang.org
+-rust: 1.55.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.0.1 to 4.2.0  http://www.scons.org/
 -slacktrack: 2.21 http://www.slackware.com/~mozes
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.14.1
+-kernel : 5.14.2
 --------------------
 kde series :
 --------------------
@@ -444,7 +444,7 @@ l series:
 -frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 http://fribidi.org/download
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.10.4 to 3.10.5 https://github.com/libfuse/libfuse
+-fuse3: 3.10.5 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/sources/
 -gc: 8.0.4 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -477,10 +477,10 @@ l series:
 -grantlee: 5.2.0 http://downloads.grantlee.org/
 -gsettings-desktop-schemas: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.18.4 to 1.19.1 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.18.4 to 1.19.1 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.18.4 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.18.4 to 1.19.1 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.18.5 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.18.5 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.18.5 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.18.5 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.32 to 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.30 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -490,7 +490,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.9.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 2.9.1 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -665,12 +665,12 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.34 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.35 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 21.09.0 http://poppler.freedesktop.org/
--poppler-data: 0.4.10 http://de-mirror.org/gentoo/distfiles/
+-poppler-data: 0.4.11 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
 -pycairo: 1.20.1 http://cairographics.org/releases/
@@ -784,7 +784,7 @@ n series:
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2p1 ftp://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.0 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
--dnsmasq: 2.85 http://www.thekelleys.org.uk/dnsmasq/doc.html
+-dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.16 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
@@ -827,7 +827,7 @@ n series:
 -libnetfilter_queue: 1.0.5 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.1 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.2.0 ftp://ftp.netfilter.org/pub/conntrack-tools/
--libqmi: 1.28.6 http://www.freedesktop.org/software/libqmi/
+-libqmi: 1.30.1 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.23 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.8.9rel1 http://lynx.isc.org/release/
@@ -911,7 +911,7 @@ n series:
 -uucp: 1.07 to 1.07_20.diff.gz ftp://ftp.gnu.org/gnu/uucp/
 -vlan: 1.9 to 2.0 (debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
--wget: 1.21.1 http://ftp.gnu.org/gnu/wget/
+-wget: 1.21.2 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.10 ftp://ftp.debian.org/debian/pool/main/w/whois/
 -wireguard-tools: 1.0.20210315 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
@@ -1065,11 +1065,11 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 13.0.8 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3394 to 3408
+-gvim: 8.2.3394 to 3419
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.0.2 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 91.1.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.22.0 to 1.24.0
 -pan: 0.146 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
