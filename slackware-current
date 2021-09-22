@@ -180,7 +180,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 3.1.0 http://htop.sourceforge.net
--hplip: 3.20.5 to 3.20.6 http://hplipopensource.com
+-hplip: 3.20.6 http://hplipopensource.com
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -inxi: 20210824 https://github.com/smxi/inxi
 -itstool: 2.0.5 http://itstool.org/download/
@@ -266,7 +266,7 @@ d series:
 -Mako: 1.1.4 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2021.02.19 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
--automake: 1.16.2 to 1.16.3 (pb) ftp://ftp.gnu.org/pub/gnu/automake/
+-automake: 1.16.2 to 1.16.4 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.37 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.1 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.4.1 https://ftp.samba.org/pub/ccache/
@@ -1032,7 +1032,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
--xterm: 368 ftp://invisible-island.net/xterm/
+-xterm: 368 to 369 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
