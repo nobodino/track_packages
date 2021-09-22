@@ -1002,7 +1002,7 @@ x series: (main packages)
 -liberation-fonts-ttf: 2.1.4
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.11
--vulkan-sdk: 1.2.176.1 https://www.khronos.org/vulkan/
+-vulkan-sdk: 1.2.176.1 to 1.2.128.0 https://www.khronos.org/vulkan/
 -wayland: 1.19.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.23 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
