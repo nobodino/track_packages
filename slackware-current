@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.14.6 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20210919 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.14.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20210922 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 590 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -244,7 +244,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.36.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5 http://squashfs.sourceforge.net/
--sudo: 1.9.8p1 to p2 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.8p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
 -texinfo: 6.7 to 6.8 ftp://ftp.gnu.org/pub/gnu/texinfo/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3435 to 3451 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3435 to 3455 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3435
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.14.6
+-kernel-headers: 5.14.7
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.1 http://llvm.org/
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -305,7 +305,7 @@ d series:
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
--parallel: 20210822 https://www.gnu.org/software/parallel/
+-parallel: 20210922 https://www.gnu.org/software/parallel/
 -patchelf: 0.12 http://nixos.org/patchelf.html
 -perl: 5.34.0
 	- Authen-SASL: 2.16
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.14.6
+-kernel : 5.14.7
 --------------------
 kde series :
 --------------------
@@ -435,6 +435,7 @@ l series:
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
+
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -644,7 +645,7 @@ l series:
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
--neon: 0.32.0 http://www.webdav.org/neon/
+-neon: 0.32.1 http://www.webdav.org/neon/
 -netpbm: 10.95.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
@@ -665,7 +666,7 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.36 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.37 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -702,7 +703,7 @@ l series:
 -python-requests: 2.26.0 http://docs.python-requests.org/en/master/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane
 -python-six: 1.16.0 http://pypi.python.org/pypi/six/
--python-urllib3: 1.26.6 https://urllib3.readthedocs.io/
+-python-urllib3: 1.26.7 https://urllib3.readthedocs.io/
 -qca: 2.3.4 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.3_20210826 https://download.qt.io/official_releases/qt/
@@ -759,7 +760,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.16.10 to 1.18.2 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.32.10 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
+-NetworkManager: 1.32.10 to 1.32.12 ftp://ftp.gnome.org/pub/GNOME/sources/NetworkManager
 -alpine: 2.25
 	-alpine: 2.25 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -771,14 +772,14 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20210526 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20210922 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.17.2 https://c-ares.haxx.se/
 -cifs-utils: 6.13 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.79.0 http://curl.haxx.se/download/
+-curl: 7.79.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -861,7 +862,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.5.4 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 1.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.45.0 https://nghttp2.org/
+-nghttp2: 1.45.1 https://nghttp2.org/
 -nmap: 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
@@ -1032,7 +1033,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
--xterm: 368 to 369 ftp://invisible-island.net/xterm/
+-xterm: 369 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1051,6 +1052,7 @@ xap series:
 -easytag: 2.4.3 http://easytag.sourceforge.net
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
+-freerdp: 2.4.0
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.7.0b http://gftp.seul.org/
@@ -1067,10 +1069,10 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3435 to 3451
+-gvim: 8.2.3435 to 3455
 -hexchat: 2.14.3 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 91.1.0esr to 92.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.1.1 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.24.0
 -pan: 0.147 http://pan.rebelbase.com/download/releases/
@@ -1096,7 +1098,7 @@ xap series:
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
 -xlockmore: 5.67 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
--xpaint: 3.1.3 https://sourceforge.net/projects/sf-xpaint/
+-xpaint: 3.1.3 to 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.01 http://www.jwz.org/xscreensaver/
@@ -1110,7 +1112,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -garcon: 4.16.1
 -libxfce4ui: 4.16.1
 -libxfce4util: 4.16.0
--mousepad: 0.5.6
+-mousepad: 0.5.7
 -thunar: 4.16.10
 -thunar-volman: 4.16.0
 -tumbler: 4.16.0
