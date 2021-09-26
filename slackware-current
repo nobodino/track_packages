@@ -17,7 +17,7 @@ A series :
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
 -btrfs-progs: 5.14.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
--coreutils: 8.32 ftp://ftp.gnu.org/pub/gnu/coreutils/
+-coreutils: 9.0 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
@@ -268,7 +268,7 @@ d series:
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.2 to 1.16.4 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.37 https://www.kernel.org/pub/linux/devel/binutils/
--bison: 3.8.1 ftp://ftp.gnu.org/pub/gnu/bison/
+-bison: 3.8.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.4.1 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.9.1 https://mercurial.selenic.com/downloads
--meson: 0.58.2 to 0.59.1 http://mesonbuild.com/
+-meson: 0.59.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -436,6 +436,7 @@ l series:
 -exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
 
+
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -479,13 +480,14 @@ l series:
 -gsettings-desktop-schemas: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7 http://www.gnu.org/software/gsl/
 -gst-plugins-base: 1.18.5 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.18.5 https://gstreamer.freedesktop.org/src/
 -gst-plugins-good: 1.18.5 https://gstreamer.freedesktop.org/src/
 -gst-plugins-libav: 1.18.5 http://gstreamer.freedesktop.org/modules/gst-libav.html
 -gstreamer: 1.18.5 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.30 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.2.1 to 4.4.0
+-gtk4: 4.4.0
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
@@ -602,7 +604,7 @@ l series:
 -libsoup: 2.72.0 to 2.74.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.9 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.9.6 https://red.libssh.org/projects/libssh/files
--libssh2: 1.9.2 http://www.libssh2.org/
+-libssh2: 1.10.0 http://www.libssh2.org/
 -libtasn1: 4.17.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.3.0 ftp://ftp.remotesensing.org/pub/libtiff/
@@ -772,9 +774,9 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20210922 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20210924 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.17.2 https://c-ares.haxx.se/
--cifs-utils: 6.13 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 6.14 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
@@ -831,7 +833,7 @@ n series:
 -libqmi: 1.30.1 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.24 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
--lynx: 2.8.9rel1 http://lynx.isc.org/release/
+-lynx: 2.9.0dev.9 http://lynx.isc.org/release/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
@@ -1052,7 +1054,7 @@ xap series:
 -easytag: 2.4.3 http://easytag.sourceforge.net
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
--freerdp: 2.4.0
+-freerdp: 2.4.0 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.7.0b http://gftp.seul.org/
@@ -1090,7 +1092,7 @@ xap series:
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
--x3270: 3.3.12ga7 to 4.0ga14 http://x3270.bgp.nu/download.html
+-x3270: 4.0ga14 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 http://xaos.sf.net
 -xeyes: 1.2.0
 -xgames: 0.2
