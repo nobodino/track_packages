@@ -464,8 +464,8 @@ l series:
 -glibmm: 2.64.5 to 2.68.1 http://www.gtkmm.org/
 -glibc: 2.33 to 2.34
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2021a https://www.iana.org/time-zones
-	-tzdata: 2021a  https://www.iana.org/time-zones
+	-tzcode: 2021a to 2021b https://www.iana.org/time-zones
+	-tzdata: 2021a to 2021b https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/
