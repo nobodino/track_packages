@@ -44,7 +44,7 @@ A series :
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.35 https://www.gnu.org/software/mtools/
 -gawk: 5.1.0 ftp://ftp.gnu.org/pub/gnu/gawk/
--genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
+-genpower: 1.0.5 https://github.com/quinot/genpower
 -gettext: 0.21 ftp://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2021a
 -gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
@@ -63,7 +63,7 @@ A series :
 -inotify-tools: 3.20.11.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+-kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.14.7 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210922 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -124,7 +124,7 @@ A series :
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
--udisks2: 2.9.2 to 2.9.3 http://udisks.freedesktop.org/releases/
+-udisks2: 2.9.3 http://udisks.freedesktop.org/releases/
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.99.13 http://upower.freedesktop.org/releases/
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch/#download
@@ -151,7 +151,7 @@ Ap series :
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
 -alsa-utils: 1.2.5.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
--at: 3.2.1 to 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
+-at: 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 5.0.2 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
@@ -217,7 +217,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.12 to 10.6.4 (pb) http://mariadb.org/
+-mariadb: 10.5.12 http://mariadb.org/
 -mc: 4.8.27 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -247,7 +247,7 @@ Ap series :
 -sudo: 1.9.8p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 (ttf: 4.60) http://terminus-font.sourceforge.net
--texinfo: 6.7 to 6.8 ftp://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 6.8 ftp://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.2a https://tmux.github.io/
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
@@ -296,8 +296,8 @@ d series:
 -kernel-headers: 5.14.7
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.1 http://llvm.org/
--m4: 1.4.18 to 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
--make: 4.2.1 to 4.3 (pb) ftp://ftp.gnu.org/pub/gnu/make/
+-m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
+-make: 4.3 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.9.1 https://mercurial.selenic.com/downloads
 -meson: 0.59.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
@@ -435,8 +435,6 @@ l series:
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.4 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
-
-
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -493,7 +491,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 2.9.1 to 3.0.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 3.0.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -554,7 +552,7 @@ l series:
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.47 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://download.gnome.org/sources/libgtop/
--libid3tag: 0.15.1b to 0.15.1b_10.diff.gz ftp://ftp.mars.org/pub/mpeg/
+-libid3tag: 0.15.1b ftp://ftp.mars.org/pub/mpeg/
 -libical: 3.0.10 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.38 http://ftp.gnu.org/gnu/libidn/
@@ -643,7 +641,7 @@ l series:
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.70 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.70 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.30 to 4.31 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+	- nspr: 4.32 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
@@ -747,7 +745,6 @@ l series:
 -tdb: 1.4.5 https://tdb.samba.org
 -tevent: 0.11.0 https://tevent.samba.org
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5
--urwid: 1.0.3 to 2.0.1 http://excess.org/urwid/wiki/ChangeLog
 -utf8proc: 2.6.1 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.20.0 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20200916 https://github.com/georgmartius/vid.stab.git
@@ -810,6 +807,8 @@ n series:
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
 -iputils: s20210722 http://www.skbuff.net/iputils/
+-ipw2100-fw: 1.3 http://intellinuxwireless.org/
+-ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 http://www.irssi.org/files/
 -iw: 5.9 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.19.2 http://web.mit.edu/kerberos/dist/krb5/
@@ -874,14 +873,14 @@ n series:
 -openldap: 2.4.59 to 2.5.7 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
--openssh: 8.7p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 8.7p1 to 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1i ftp://ftp.openssl.org/source/
 -openvpn: 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
 -php: 7.4.23 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
--pinentry: 1.1.0 to 1.1.1 https://www.gnupg.org/download/index.html#pinentry
+-pinentry: 1.1.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.6.2 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
@@ -925,11 +924,6 @@ n series:
 	- ypbind-mt: 2.7.2 http://www.linux-nis.org/nis/ypbind-mt/
 	- ypserv: 4.1 htt//www.linux-nis.org/download/ypserv/
 -ytalk: 3.3.0 http://www.iagora.com/~espel/ytalk/ytalk.html or ftp://ftp.debian.org/debian/pool/main/y/ytalk/
---------------------
-n firmware:
---------------------
--ipw2100-fw: 1.3 http://intellinuxwireless.org/
--ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -zd1211-firmware: 1.5 http://zd1211.wiki.sourceforge.net/VendorDriver
 --------------------
 t series:
@@ -993,7 +987,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
 -mesa: 21.2.2 ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
--motif: 2.3.8 http://motif.ics.com
+-motif: 2.3.8 (pb with autoconf-2.71) http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
@@ -1156,7 +1150,7 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u281 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55 https://launchpad.net/wicd
--php8: 8.0.10 to 8.0.11
+-php8: 8.0.11
 -sendmail: 8.17.1
 -tigervnc: 1.10.1 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
