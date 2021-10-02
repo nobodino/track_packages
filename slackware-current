@@ -462,8 +462,8 @@ l series:
 -glibmm: 2.64.5 to 2.68.1 http://www.gtkmm.org/
 -glibc: 2.33 to 2.34
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2021a to 2021b https://www.iana.org/time-zones
-	-tzdata: 2021a to 2021b https://www.iana.org/time-zones
+	-tzcode: 2021a to 2021c https://www.iana.org/time-zones
+	-tzdata: 2021a to 2021c https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/
@@ -670,7 +670,7 @@ l series:
 -polkit: 119 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.09.0 http://poppler.freedesktop.org/
+-poppler: 21.10.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
