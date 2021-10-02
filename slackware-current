@@ -1066,7 +1066,7 @@ xap series:
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.2.3458
--hexchat: 2.14.3 https://hexchat.github.io/
+-hexchat: 2.14.3 to 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.1.0esr to 92.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.1.2 http://www.mozilla.org/projects/thunderbird/
