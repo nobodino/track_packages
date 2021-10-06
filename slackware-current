@@ -222,7 +222,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.29.0 http://sourceforge.net/projects/mpg123/files/
--nano: 5.8 http://www.nano-editor.org/download.php
+-nano: 5.8 to 5.9 http://www.nano-editor.org/download.php
 -neofetch: 20210904 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.15 https://github.com/linux-nvme/nvme-cli
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3458 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3458 to 3484 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3458
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -332,7 +332,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.3 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.7 https://www.python.org/downloads/
+-python3: 3.9.7 to 3.10.0 https://www.python.org/downloads/
 -python-pip: 21.2.4 https://pip.pypa.io/
 -python-setuptools: 58.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -346,7 +346,7 @@ d series:
 -strace: 5.14 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.54.1 https://wiki.gnome.org/Projects/Vala
+-vala: 0.54.2 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -358,7 +358,7 @@ Installer:
 --------------------
 -busybox: 1.32.1 to 1.34.1
 -dropbear: 2020.81 http://matt.ucc.asn.au/dropbear/dropbear.html
--nano: 5.5
+-nano: 5.5 to 5.9
 --------------------
 f series:
 --------------------
@@ -427,7 +427,6 @@ l series:
 -dvdauthor: 0.7.2 https://github.com/ldo/dvdauthor
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -editorconfig-core-c: 0.12.5 https://github.com/editorconfig/editorconfig-core-c
--eigen2: 2.0.17 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.184 http://fedorahosted.org/releases/e/l/elfutils
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
@@ -459,11 +458,11 @@ l series:
 -glib: 1.2.10_17.diff.gz ftp://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.70.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.70.0 http://tp.acc.umu.se/pub/gnome/sources/glib/
--glibmm: 2.64.5 to 2.68.1 http://www.gtkmm.org/
+-glibmm: 2.64.5 to 2.68.2 http://www.gtkmm.org/
 -glibc: 2.33 to 2.34
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2021a to 2021c https://www.iana.org/time-zones
-	-tzdata: 2021a to 2021c https://www.iana.org/time-zones
+	-tzcode: 2021c https://www.iana.org/time-zones
+	-tzdata: 2021c https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/
@@ -498,7 +497,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_8 http://www.imagemagick.org/
+-imagemagick: 7.1.0_9 http://www.imagemagick.org/
 -imlib: 1.9.15 http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.7.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -667,7 +666,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
 -pipewire: 0.3.38 https://gitlab.freedesktop.org/pipewire/pipewire
--polkit: 119 http://www.freedesktop.org/software/polkit/releases/
+-polkit: 0.119 to 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 21.10.0 http://poppler.freedesktop.org/
@@ -773,7 +772,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20210924 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20211005 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.17.2 https://c-ares.haxx.se/
 -cifs-utils: 6.14 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
@@ -800,7 +799,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.16.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.49 http://www.apache.org/dist/httpd/
+-httpd: 2.4.50 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -865,6 +864,7 @@ n series:
 -nfacct: 1.0.2 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -nfs-utils: 2.5.4 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 1.0 http://www.netfilter.org/projects/nftables/
+
 -nghttp2: 1.45.1 https://nghttp2.org/
 -nmap: 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -877,7 +877,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1i ftp://ftp.openssl.org/source/
--openvpn: 2.5.3 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.3 to 2.5.4 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
 -php: 7.4.23 http://www.php.net/distributions/ (need krb5)
@@ -1067,10 +1067,10 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3458
+-gvim: 8.2.3458 to 3484
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.1.0esr to 92.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 93.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.1.2 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.24.0
 -pan: 0.147 http://pan.rebelbase.com/download/releases/
