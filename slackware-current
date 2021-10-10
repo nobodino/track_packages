@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.14.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.14.1 to 5.14.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 9.0 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.15 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.62 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.351 https://git.fedorahosted.org/git/hwdata.git
+-hwdata: 0.352 https://git.fedorahosted.org/git/hwdata.git
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.14.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.14.11 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20210929 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -222,7 +222,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.29.0 http://sourceforge.net/projects/mpg123/files/
--nano: 5.8 to 5.9 http://www.nano-editor.org/download.php
+-nano: 5.9 http://www.nano-editor.org/download.php
 -neofetch: 20210904 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.15 https://github.com/linux-nvme/nvme-cli
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20201024 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3458 to 3484 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3458 to 3491 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3458
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -266,7 +266,7 @@ d series:
 -Mako: 1.1.4 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2021.02.19 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 ftp://ftp.gnu.org/pub/gnu/autoconf/
--automake: 1.16.2 to 1.16.5 ftp://ftp.gnu.org/pub/gnu/automake/
+-automake: 1.16.5 ftp://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.37 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.4.2 https://ftp.samba.org/pub/ccache/
@@ -293,12 +293,12 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.14.9
+-kernel-headers: 5.14.11
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 12.0.1 to 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 ftp://ftp.gnu.org/pub/gnu/make/
--mercurial: 5.9.1 https://mercurial.selenic.com/downloads
+-mercurial: 5.9.2 https://mercurial.selenic.com/downloads
 -meson: 0.59.2 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -332,7 +332,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.3 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.7 to 3.10.0 https://www.python.org/downloads/
+-python3: 3.10.0 https://www.python.org/downloads/
 -python-pip: 21.2.4 https://pip.pypa.io/
 -python-setuptools: 58.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -366,12 +366,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.14.9
+-kernel : 5.14.11
 --------------------
 kde series :
 --------------------
 -kde: 5.22.5 (plasma) https://download.kde.org/stable/
 -kde: 5.86.0 (framework) https://download.kde.org/stable/
+-kde: 21.08.2 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -547,7 +548,7 @@ l series:
 -libglade: 2.6.4 ftp://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 ftp://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.27 http://www.gphoto.org/
--libgnt: 2.14.2 https://downloads.sourceforge.net/pidgin/libgnt/
+-libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.47 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://download.gnome.org/sources/libgtop/
@@ -589,7 +590,7 @@ l series:
 -libqalculate: 3.20.1 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.52.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.52.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 http://www.mega-nerd.com/SRC/download.html
 -libsass: 3.6.4 https://github.com/sass/libsass
 -libsigc++: 2.10.7 https://github.com/libsigcplusplus/libsigcplusplus
@@ -645,12 +646,12 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.2_20201219 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.32.1 http://www.webdav.org/neon/
--netpbm: 10.96.00 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.96.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
--opencv: 4.5.3 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
+-opencv: 4.5.3 to 4.5.4 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
 -openexr: 2.5.7 http://www.openexr.com/downloads.html
 -openjpeg: 2.4.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
@@ -666,7 +667,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
 -pipewire: 0.3.38 https://gitlab.freedesktop.org/pipewire/pipewire
--polkit: 0.119 to 0.120 http://www.freedesktop.org/software/polkit/releases/
+-polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 21.10.0 http://poppler.freedesktop.org/
@@ -789,17 +790,17 @@ n series:
 -dovecot: 2.3.16 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
--epic5: 2.1.5 http://www.epicsol.org/
+-epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.14 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.22 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.4 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.31 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.32 https://www.gnupg.org/download/index.html
 -gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.16.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.50 http://www.apache.org/dist/httpd/
+-httpd: 2.4.51 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -877,7 +878,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1i ftp://ftp.openssl.org/source/
--openvpn: 2.5.3 to 2.5.4 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.4 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.10 https://archives.eyrie.org/software/kerberos
 -php: 7.4.23 http://www.php.net/distributions/ (need krb5)
@@ -1008,7 +1009,7 @@ x series: (main packages)
 -xdg-utils: 1.1.3
 -xdm 1.1.11
 -xinit: 1.4.1
--xkeyboard-config: 2.33
+-xkeyboard-config: 2.34
 -xorgproto: 2021.5
 -xorg-server: 1.20.13 ftp://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.2
@@ -1067,11 +1068,11 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3458 to 3484
+-gvim: 8.2.3458 to 3491
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 93.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.1.2 http://www.mozilla.org/projects/thunderbird/
+-mozilla-thunderbird: 91.2.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.24.0
 -pan: 0.147 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1096,7 +1097,7 @@ xap series:
 -xine-ui: 0.99.12 http://dl.sourceforge.net/xine/
 -xlockmore: 5.67 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
--xpaint: 3.1.3 to 3.1.4 https://sourceforge.net/projects/sf-xpaint/
+-xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.01 http://www.jwz.org/xscreensaver/
@@ -1147,7 +1148,7 @@ extra:
 -bittornado: 0.3.18 
 -brltty: 6.4 http://mielke.cc/brltty/
 -emacspeak: 53.0
--fltk: 1.3.6 http://www.fltk.org
+-fltk: 1.3.7 http://www.fltk.org
 -getty-ps: 2.1.0b
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
