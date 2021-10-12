@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3458 to 3491 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3458 to 3498 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3458
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -333,7 +333,7 @@ d series:
 -poke: 1.3 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.10.0 https://www.python.org/downloads/
--python-pip: 21.2.4 https://pip.pypa.io/
+-python-pip: 21.3 https://pip.pypa.io/
 -python-setuptools: 58.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.2 http://re2c.org
@@ -400,7 +400,7 @@ l series:
 -apr-util: 1.6.1 http://apr.apache.org/download.cgi
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8 ftp://ftp.gnu.org/gnu/aspell/
--aspell-en: 2019.10.06 to 2020.12.07
+-aspell-en: 2020.12.07
 -at-spi2-atk: 2.38.0 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
 -at-spi2-core: 2.40.3 ftp://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.36.0 ftp://ftp.gnome.org/pub/GNOME/sources/atk/
@@ -708,7 +708,7 @@ l series:
 -python-urllib3: 1.26.7 https://urllib3.readthedocs.io/
 -qca: 2.3.4 http://delta.affinix.com/download/qca/2.0/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.3_20210826 https://download.qt.io/official_releases/qt/
+-qt5: 5.15.3_20211006 https://download.qt.io/official_releases/qt/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.12.0 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
@@ -796,7 +796,7 @@ n series:
 -getmail: 6.18.4 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.32 https://www.gnupg.org/download/index.html
--gnutls: 3.6.16to 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
+-gnutls: 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.16.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -873,7 +873,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.59 to 2.5.7 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.59 to 2.5.8 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
@@ -1068,7 +1068,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3458 to 3491
+-gvim: 8.2.3458 to 3498
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 93.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
