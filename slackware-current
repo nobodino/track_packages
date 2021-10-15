@@ -370,7 +370,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.22.5 (plasma) https://download.kde.org/stable/
+-kde: 5.23.0 (plasma) https://download.kde.org/stable/
 -kde: 5.87.0 (framework) https://download.kde.org/stable/
 -kde: 21.08.2 https://download.kde.org/stable/
 --------------------
@@ -768,7 +768,7 @@ n series:
 -autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.16.21 ftp://ftp.isc.org/isc/bind9/
--bluez: 5.61 http://www.bluez.org/download/
+-bluez: 5.62 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
@@ -1131,7 +1131,7 @@ xfce: 4.16.x http://archive.xfce.org/src/xfce/
 -xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 0.8.10
 -xfce4-weather-plugin: 0.10.2
--xfce4-whiskermenu-plugin: 2.6.0
+-xfce4-whiskermenu-plugin: 2.6.1
 -xfconf: 4.16.0
 -xfdesktop: 4.16.0
 -xfwm4: 4.16.1
