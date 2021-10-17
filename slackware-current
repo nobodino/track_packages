@@ -180,7 +180,7 @@ Ap series :
 -groff: 1.22.4 ftp://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -htop: 3.1.1 http://htop.sourceforge.net
--hplip: 3.20.6 http://hplipopensource.com
+-hplip: 3.20.6 to 3.21.8 http://hplipopensource.com
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -inxi: 20210824 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
@@ -227,7 +227,7 @@ Ap series :
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.15 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
--pamixer: 1.4 https://github.com/cdemoulins/pamixer
+-pamixer: 1.5 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 http://ftp.debian.org/debian/pool/main/p/powertop/
 -qpdf: 10.3.2 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://ftp.debian.org/debian/pool/main/r/radeontool/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3458 to 3515 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3458 to 3526 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3458
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -590,7 +590,7 @@ l series:
 -libqalculate: 3.21.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.52.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.52.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 http://www.mega-nerd.com/SRC/download.html
 -libsass: 3.6.4 https://github.com/sass/libsass
 -libsigc++: 2.10.7 https://github.com/libsigcplusplus/libsigcplusplus
@@ -734,7 +734,7 @@ l series:
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.10.2 https://github.com/brailcom/speechd
 -speexdsp: 1.2.0 http://www.speex.org/
--spirv-llvm-translator: 20210920 https://github.com/KhronosGroup/SPIRV-LLVM-Translator
+-spirv-llvm-translator: 13.0.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.14 http://cyberelk.net/tim/data/system-config-printer/
@@ -1068,7 +1068,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3458 to 3555
+-gvim: 8.2.3458 to 3526
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 93.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
