@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.14.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.14.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211012 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.5.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 5.0.2 https://git.yzena.com/gavin/bc
+-bc: 1.07.1 to 5.1.1 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -221,7 +221,7 @@ Ap series :
 -mc: 4.8.27 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.29.0 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.29.0 to 1.29.1 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.9 http://www.nano-editor.org/download.php
 -neofetch: 20210904 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3458 to 3526 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3458 to 3533 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3458
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.14.12
+-kernel-headers: 5.14.13
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.14.12
+-kernel : 5.14.13
 --------------------
 kde series :
 --------------------
@@ -462,8 +462,8 @@ l series:
 -glibmm: 2.64.5 to 2.68.2 http://www.gtkmm.org/
 -glibc: 2.33 to 2.34
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2021c to 2021d https://www.iana.org/time-zones
-	-tzdata: 2021c to 2021d https://www.iana.org/time-zones
+	-tzcode: 2021d https://www.iana.org/time-zones
+	-tzdata: 2021d https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/
@@ -1068,7 +1068,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3458 to 3526
+-gvim: 8.2.3458 to 3533
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 93.1.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
