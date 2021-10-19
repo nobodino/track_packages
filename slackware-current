@@ -370,7 +370,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.23.0 (plasma) https://download.kde.org/stable/
+-kde: 5.23.0 to 5.23.1 (plasma) https://download.kde.org/stable/
 -kde: 5.87.0 (framework) https://download.kde.org/stable/
 -kde: 21.08.2 https://download.kde.org/stable/
 --------------------
@@ -451,7 +451,7 @@ l series:
 -gd: 2.3.3 http://libgd.bitbucket.org/
 -gdk-pixbuf2: 2.42.6 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 
--gdbm: 1.21 ftp://ftp.gnu.org/gnu/gdbm/
+-gdbm: 1.21 to 1.22 ftp://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.32 http://ftp.acc.umu.se/pub/gnome/sources/gegl
 -gexiv2: 0.14.0 http://www.exiv2.org/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
@@ -765,7 +765,7 @@ n series:
 -alpine: 2.25
 	-alpine: 2.25 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
--autofs: 5.1.7 https://www.kernel.org/pub/linux/daemons/autofs/v5/
+-autofs: 5.1.7 to 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.16.21 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.62 http://www.bluez.org/download/
