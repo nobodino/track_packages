@@ -433,7 +433,7 @@ l series:
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
 -enchant: 2.3.1 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
--exiv2: 0.27.4 http://www.exiv2.org/
+-exiv2: 0.27.4 to 0.27.5 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4 https://ffmpeg.org/
@@ -462,8 +462,8 @@ l series:
 -glibmm: 2.64.5 to 2.68.2 http://www.gtkmm.org/
 -glibc: 2.33 to 2.34
 	-glibc: 2.33 ftp://ftp.gnu.org/pub/gnu/glibc/
-	-tzcode: 2021d https://www.iana.org/time-zones
-	-tzdata: 2021d https://www.iana.org/time-zones
+	-tzcode: 2021d to 2021e https://www.iana.org/time-zones
+	-tzdata: 2021d to 2021e https://www.iana.org/time-zones
 -gmime: 3.2.7 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download.gna.org/getfem/stable/
 -gmp: 6.2.1 ftp://ftp.gnu.org/gnu/gmp/
@@ -644,7 +644,7 @@ l series:
 	- nspr: 4.32 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.2_20211009 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
+-ncurses: 6.2_20211009 to 6.3 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.32.1 http://www.webdav.org/neon/
 -netpbm: 10.96.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
