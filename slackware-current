@@ -239,7 +239,7 @@ Ap series :
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
--slackpkg: 15.0.7 http://www.slackpkg.org/
+-slackpkg: 15.0.8 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.36.0 http://www.sqlite.org/download.html
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.9.2 https://mercurial.selenic.com/downloads
--meson: 0.59.3 http://mesonbuild.com/
+-meson: 0.60.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -436,7 +436,7 @@ l series:
 -exiv2: 0.27.5 http://www.exiv2.org/
 -expat: 2.3.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 4.4 https://ffmpeg.org/
+-ffmpeg: 4.4.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.3 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/downloads/fc-solve/
@@ -498,7 +498,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_10 http://www.imagemagick.org/
+-imagemagick: 7.1.0_11 http://www.imagemagick.org/
 -imlib: 1.9.15 http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.7.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -526,7 +526,7 @@ l series:
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.59 http://sites.google.com/site/fullycapable/
+-libcap: 2.60 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.2 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -599,7 +599,7 @@ l series:
 -libsigsegv: 2.13 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.31 http://www.mega-nerd.com/libsndfile/files/
 -libsodium: 1.0.17 https://libsodium.org
--libsoup: 2.74.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.74.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.9 http://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.9.6 https://red.libssh.org/projects/libssh/files
 -libssh2: 1.10.0 http://www.libssh2.org/
@@ -618,7 +618,7 @@ l series:
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvncserver: 0.9.13 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
--libvpx: 1.10.0 http://www.webmproject.org/
+-libvpx: 1.10.0 to 1.11.0 http://www.webmproject.org/
 -libwebp: 1.2.1 https://developers.google.com/speed/webp/
 -libwmf: 0.2.12 http://sourceforge.net/projects/wvware/
 -libwnck3: 3.6.4 https://ftp.gnome.org/pub/gnome/sources/libwnck/
@@ -785,7 +785,7 @@ n series:
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.2p1 ftp://ftp.isc.org/isc/dhcp/
--dhcpcd: 9.4.0 to 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.16 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
@@ -873,7 +873,7 @@ n series:
 -nss-pam-ldapd: 0.9.11 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexftp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.59 to 2.5.8 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
+-openldap: 2.4.59 to 2.6.0 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
