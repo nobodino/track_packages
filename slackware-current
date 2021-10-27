@@ -898,7 +898,7 @@ n series:
 -rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.15.0 https://ftp.samba.org/pub/samba/
+-samba: 4.15.0 to 4.15.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
@@ -1011,7 +1011,7 @@ x series: (main packages)
 -xinit: 1.4.1
 -xkeyboard-config: 2.34
 -xorgproto: 2021.5
--xorg-server: 1.20.13 ftp://ftp.x.org/pub/individual/xserver/
+-xorg-server: 1.20.13 to 21.1.0 ftp://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.2
 -xf86-input-libinput: 1.2.0
 -xf86-input-wacom: 0.40.0
