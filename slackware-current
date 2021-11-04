@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.14.15 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20211028 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.15.0 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20211102 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 590 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
@@ -137,6 +137,7 @@ A series :
 	- util-linux: 2.37.2 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
+
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
@@ -252,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3536 to 3575 ftp://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.3536
+-vim: 8.2.3570 to 3579 ftp://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.3570
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,13 +294,13 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.14.15
+-kernel-headers: 5.15.0
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 ftp://ftp.gnu.org/pub/gnu/make/
 -mercurial: 5.9.2 to 5.9.3 https://mercurial.selenic.com/downloads
--meson: 0.59.3 to 0.59.4/0.60.1 http://mesonbuild.com/
+-meson: 0.59.4 to 0.60.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2021.04.29 https://www.khronos.org/opencl/ or https://github.com/KhronosGroup/OpenCL-Headers/tree/master/opencl22/CL
@@ -339,14 +340,14 @@ d series:
 -re2c: 2.2 http://re2c.org
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.2 ftp://ftp.ruby-lang.org/pub/ruby
--rust: 1.56.0 to 1.56.1 https://rust-lang.org
+-rust: 1.56.1 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0  http://www.scons.org/
 -slacktrack: 2.21 http://www.slackware.com/~mozes
 -strace: 5.14 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.54.2 to 0.54.3 https://wiki.gnome.org/Projects/Vala
+-vala: 0.54.3 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://www.tortall.net/projects/yasm/wiki/Download
 --------------------
 e series:
@@ -366,7 +367,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.14.15
+-kernel : 5.15.0
 --------------------
 kde series :
 --------------------
@@ -485,13 +486,13 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.30 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.4.0 to 4.4.1 (4.5.0)
+-gtk4: 4.4.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 3.0.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 3.0.0 to 3.1.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -646,7 +647,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.32.1 http://www.webdav.org/neon/
--netpbm: 10.96.01 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.96.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
@@ -670,7 +671,7 @@ l series:
 -polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.10.0 to 21.11.0 http://poppler.freedesktop.org/
+-poppler: 21.11.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -803,7 +804,7 @@ n series:
 -icmpinfo: 1.11 
 -iftop: 1.0pre4 to 1.0 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.14.0 to 5.15.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.15.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 ftp://ftp.netfilter.org/pub/conntrack-tools/
 -iptables: 1.8.7 http://www.netfilter.org/files/
 -iptraf-ng: 1.2.1 https://fedorahosted.org/iptraf-ng/
@@ -899,7 +900,7 @@ n series:
 -samba: 4.15.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.9 https://github.com/kouya/snownews
--socat: 1.7.4.1 http://www.dest-unreach.org/socat/download/
+-socat: 1.7.4.2 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.2 https://github.com/lib~/fuse/sshfs
 -stunnel: 5.60 http://www.stunnel.org/download/stunnel/src/
 -tcp_wrappers: 7.6 ftp://ftp.porcupine.org/pub/security/
@@ -1066,11 +1067,11 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3536 to 3575
+-gvim: 8.2.3570 to 3579
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.2.0esr to 91.3.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.2.1 to 91.3.0 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 91.3.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 91.3.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.24.0
 -pan: 0.147 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1159,7 +1160,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--kernel: 5.14.15 PREEMPT
+-kernel: 5.15.0 PREEMPT
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
