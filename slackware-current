@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.14.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.14.2 to 5.15 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 9.0 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -138,6 +138,8 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 
+
+
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
@@ -253,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3570 to 3579 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3570 to 3582 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3570
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -333,7 +335,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.3 https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.0 to 3.10.0 https://www.python.org/downloads/
+-python3: 3.9.7 to 3.9.8 https://www.python.org/downloads/
 -python-pip: 21.4 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
@@ -373,7 +375,7 @@ kde series :
 --------------------
 -kde: 5.23.2 (plasma) https://download.kde.org/stable/
 -kde: 5.87.0 (framework) https://download.kde.org/stable/
--kde: 21.08.2 https://download.kde.org/stable/
+-kde: 21.08.3 https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -492,7 +494,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 3.0.0 to 3.1.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 3.1.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -502,7 +504,7 @@ l series:
 -imagemagick: 7.1.0_13 http://www.imagemagick.org/
 -imlib: 1.9.15 http://de-mirror.org/gentoo/distfiles/
 -isl: 0.24 http://isl.gforge.inria.fr
--iso-codes: 4.7.0 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.8.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 http://www.digip.org/jansson/
 -jasper: 2.0.33 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 http://www.canonware.com/jemalloc/
@@ -638,7 +640,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
--mlt: 7.0.1 https://github.com/mltframework/mlt
+-mlt: 7.2.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.72 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.72 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -817,7 +819,7 @@ n series:
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.9.4 https://www.gnupg.org/download/index.html
--libgpg-error: 1.42 https://www.gnupg.org/download/index.html
+-libgpg-error: 1.43 https://www.gnupg.org/download/index.html
 -libksba: 1.6.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.26.0 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.17.1 (sendmail)
@@ -938,7 +940,7 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
--tcl: 8.6.11 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.11 to 5.6.12 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
 -tk: 8.6.11.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
@@ -1067,7 +1069,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3570 to 3579
+-gvim: 8.2.3570 to 3582
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.3.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
