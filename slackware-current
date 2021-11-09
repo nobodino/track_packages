@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210623 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20210623 to 1.3_20211107 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.0 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.1 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211102 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -190,7 +190,7 @@ Ap series :
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 20200131 http://www.kornshell.com/
+-ksh93: 20211105 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.0.1 http://www.methods.co.nz/asciidoc/
@@ -220,7 +220,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.12 http://mariadb.org/
+-mariadb: 10.5.12 to 10.5.13 http://mariadb.org/
 -mc: 4.8.27 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.0
+-kernel-headers: 5.15.1
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -369,7 +369,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.0
+-kernel : 5.15.1
 --------------------
 kde series :
 --------------------
@@ -494,7 +494,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 3.1.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 3.1.1 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -649,7 +649,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.32.1 http://www.webdav.org/neon/
--netpbm: 10.96.02 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.96.03 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
@@ -701,7 +701,7 @@ l series:
 -python-pillow: 8.4.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.10.0 https://pypi.org/project/Pygments
--python-pycparser: 2.20 https://pypi.python.org/pypi/pycparser
+-python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pysol_cards: 0.12.0 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
 -python-requests: 2.26.0 http://docs.python-requests.org/en/master/
@@ -712,7 +712,7 @@ l series:
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.3_20211024 https://download.qt.io/official_releases/qt/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
--qtkeychain: 0.12.0 https://github.com/frankosterfeld/qtkeychain
+-qtkeychain: 0.13.1 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
 -readline: 8.1.001 ftp://ftp.cwru.edu/pub/bash/
 -rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
@@ -752,7 +752,7 @@ l series:
 -utf8proc: 2.6.1 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 https://github.com/georgmartius/vid.stab.git
--vte: 0.66.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.66.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.4.0 http://www.wavpack.com/
 -woff2: 20180531 https://github.com/google/woff2
 -xapian-core: 1.4.18 http://www.xapian.org/
@@ -814,7 +814,7 @@ n series:
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 http://www.irssi.org/files/
--iw: 5.9 https://www.kernel.org/pub/software/network/iw/
+-iw: 5.16 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.19.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 http://ftp.yars.free.net/pub/source/lftp/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
@@ -886,7 +886,7 @@ n series:
 -pidentd: 3.0.19 http://www.lysator.liu.se/~pen/pidentd/
 -pinentry: 1.2.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.6.2 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.6.3 ftp://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -940,10 +940,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 ftp://ftp.mars.org/pub/hfs/
--tcl: 8.6.11 to 5.6.12 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.12 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.11.1 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.12 ftp://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
@@ -1012,8 +1012,8 @@ x series: (main packages)
 -xinit: 1.4.1
 -xkeyboard-config: 2.34
 -xorgproto: 2021.5
--xorg-server: 1.20.13 to 21.1.0 ftp://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.2
+-xorg-server: 1.20.13 to 21.1.1 ftp://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 21.1.2 to 21.1.3
 -xf86-input-libinput: 1.2.0
 -xf86-input-wacom: 0.40.0
 -xf86-video-amdgpu: 19.1.0
@@ -1075,7 +1075,7 @@ xap series:
 -mozilla-firefox: 91.3.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.3.0 http://www.mozilla.org/projects/thunderbird/
 -network-manager-applet: 1.24.0
--pan: 0.147 http://pan.rebelbase.com/download/releases/
+-pan: 0.148 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.8
 	-pidgin: 2.14.8 https://www.pidgin.im/download/source/
@@ -1162,7 +1162,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--kernel: 5.15.0 PREEMPT
+-
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
