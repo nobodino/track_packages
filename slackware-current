@@ -782,7 +782,7 @@ n series:
 -crda: 4.14 http://wireless.kernel.org/download/crda/
 	- crda: 4.14
 	- wireless-regdb: 2019.06.03
--curl: 7.79.1 http://curl.haxx.se/download/
+-curl: 7.79.1 to 7.80.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://cyrusimap.org/
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -793,7 +793,7 @@ n series:
 -ebtables: 2.0.11 ftp://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 ftp://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
--ethtool: 5.14 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.14 to 5.15 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.22 to 6.4.23 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.5 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -899,7 +899,7 @@ n series:
 -rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.22 http://www.sdaoden.eu/downloads
--samba: 4.15.1 https://ftp.samba.org/pub/samba/
+-samba: 4.15.1 to 4.15.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.2 http://www.dest-unreach.org/socat/download/
