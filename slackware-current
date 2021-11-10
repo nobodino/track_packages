@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.14.2 to 5.15 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.14.2 to 5.15  http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 9.0 ftp://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 ftp://ftp.gnu.org/pub/gnu/cpio/
@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20210623 to 1.3_20211107 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20211107 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -220,7 +220,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.5.12 to 10.5.13 http://mariadb.org/
+-mariadb: 10.5.13 http://mariadb.org/
 -mc: 4.8.27 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
@@ -373,7 +373,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.23.2 (plasma) https://download.kde.org/stable/
+-kde: 5.23.3 (plasma) https://download.kde.org/stable/
 -kde: 5.87.0 (framework) https://download.kde.org/stable/
 -kde: 21.08.3 https://download.kde.org/stable/
 --------------------
@@ -964,9 +964,9 @@ x series: (main packages)
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.106 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.108 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.9 https://github.com/anholt/libepoxy/releases/download/
--libevdev: 1.10.1 http://www.freedesktop.org/software/libevdev/
+-libevdev: 1.12.0 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.3 https://download.gnome.org/sources/libgee/
 -libglvnd: 1.3.3 to 1.3.4 (pb) https://github.com/NVIDIA/libglvnd/releases
 -libinput: 1.19.2 http://www.freedesktop.org/software/libinput/
@@ -1102,7 +1102,7 @@ xap series:
 -xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.02 http://www.jwz.org/xscreensaver/
--xsnow: 3.3.1
+-xsnow: 3.3.2
 --------------------
 xfce: 4.16.x http://archive.xfce.org/src/xfce/
 --------------------
@@ -1156,7 +1156,7 @@ extra:
 -mplayerplug-in: 3.55
 -php8: 8.0.12
 -sendmail: 8.17.1
--tigervnc: 1.10.1 to 1.11.0 http://tigervnc.org
+-tigervnc: 1.10.1 to 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
 -xv: 3.10a
