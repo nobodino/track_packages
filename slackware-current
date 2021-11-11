@@ -212,7 +212,6 @@ Ap series :
 	- perl-XML-SAX-Base: 1.09-15.fc35 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
 	- sgml-common: 0.6.3-57.fc35 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
--lm_sensors: 3.6.0 https://github.com/groeck/lm-sensors
 -lsof: 4.94.0 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.10 to 4.0.11 https://linuxcontainers.org
@@ -720,7 +719,7 @@ l series:
 -rubygem-asciidoctor: 2.0.15 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
--sg3_utils: 1.46 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.46 to 1.47 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
