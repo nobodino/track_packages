@@ -120,7 +120,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
--tcsh: 6.22.04 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.22.04 to 6.23.0 ftp://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 ftp://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0  http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://www.freedesktop.org/wiki/Software/udisks
@@ -137,9 +137,6 @@ A series :
 	- util-linux: 2.37.2 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
-
-
-
 -which: 2.21 ftp://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
@@ -214,7 +211,7 @@ Ap series :
 	- xmlto: 0.0.28-16.fc35 ftp://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lsof: 4.94.0 ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/ or http://de-mirror.org/gentoo/distfiles/
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 4.0.10 to 4.0.11 https://linuxcontainers.org
+-lxc: 4.0.11 https://linuxcontainers.org
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.4 http://www.nongnu.org/man-db/
@@ -324,7 +321,7 @@ d series:
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.009
 	- TermReadKey: 2.38
-	- URI: 5.09 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.09 to 5.10 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -431,7 +428,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -editorconfig-core-c: 0.12.5 https://github.com/editorconfig/editorconfig-core-c
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.184 http://fedorahosted.org/releases/e/l/elfutils
+-elfutils: 0.185 http://fedorahosted.org/releases/e/l/elfutils
 -espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
 -enchant: 2.3.1 http://www.abisource.com/downloads/enchant/
 -esound: 0.2.41 ftp://ftp.gnome.org/pub/GNOME/sources/esound/
@@ -597,6 +594,7 @@ l series:
 -libsass: 3.6.4 https://github.com/sass/libsass
 -libsigc++: 2.10.7 https://github.com/libsigcplusplus/libsigcplusplus
 -libsigc++3: 3.0.7 https://github.com/libsigcplusplus/libsigcplusplus
+-libseccomp: 2.5.3 https://github.com/seccomp/libseccomp
 -libsecret: 0.20.4 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.13 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.31 http://www.mega-nerd.com/libsndfile/files/
@@ -719,7 +717,7 @@ l series:
 -rubygem-asciidoctor: 2.0.15 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
--sg3_utils: 1.46 to 1.47 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.47 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -897,7 +895,7 @@ n series:
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.22 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.22 to 14.9.23 http://www.sdaoden.eu/downloads
 -samba: 4.15.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.9 https://github.com/kouya/snownews
