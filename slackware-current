@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.1 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.2 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211102 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -187,7 +187,7 @@ Ap series :
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 20211105 http://www.kornshell.com/
+-ksh93: 20211112 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.0.1 http://www.methods.co.nz/asciidoc/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3570 to 3582 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3570 to 3588 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3570
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.1
+-kernel-headers: 5.15.2
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -365,7 +365,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.1
+-kernel : 5.15.2
 --------------------
 kde series :
 --------------------
@@ -666,7 +666,7 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.39 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.40 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -711,6 +711,7 @@ l series:
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.1 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
+
 -readline: 8.1.001 ftp://ftp.cwru.edu/pub/bash/
 -rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
@@ -895,7 +896,7 @@ n series:
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 http://www.roaringpenguin.com/products/pppoe
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.22 to 14.9.23 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.23 http://www.sdaoden.eu/downloads
 -samba: 4.15.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a http://slrn.sourceforge.net/
 -snownews: 1.9 https://github.com/kouya/snownews
@@ -1066,7 +1067,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3570 to 3582
+-gvim: 8.2.3570 to 3588
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.3.0esr ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
