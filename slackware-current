@@ -270,6 +270,7 @@ d series:
 -bison: 3.8.2 ftp://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.5 https://ftp.samba.org/pub/ccache/
 -check: 0.15.2 https://github.com/libcheck/check/releases
+
 -clisp: 2.50.20191103 http://hg.code.sf.net/p/clisp/clisp
 	- clisp: 2.50 ftp://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
@@ -712,6 +713,7 @@ l series:
 -qtkeychain: 0.13.1 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 https://github.com/stachenov/quazip
 
+
 -readline: 8.1.001 ftp://ftp.cwru.edu/pub/bash/
 -rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
@@ -1031,7 +1033,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
--xterm: 369 ftp://invisible-island.net/xterm/
+-xterm: 369 to 370 ftp://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1053,7 +1055,7 @@ xap series:
 -freerdp: 2.4.1 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
--gftp: 2.7.1b http://gftp.seul.org/
+-gftp: 2.7.1b to 2.8.0b http://gftp.seul.org/
 -gimp: 2.10.28 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
