@@ -337,7 +337,7 @@ d series:
 -rcs: 5.10.0 ftp://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.2 http://re2c.org
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
--ruby: 3.0.2 ftp://ftp.ruby-lang.org/pub/ruby
+-ruby: 3.0.2 to 3.0.3 ftp://ftp.ruby-lang.org/pub/ruby
 -rust: 1.56.1 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
@@ -802,7 +802,7 @@ n series:
 -fetchmail: 6.4.24 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.5 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.32 to 2.2.33 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.32 to  2.2.33 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.2 ftp://ftp.gnutls.org/gcrypt/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.16.0 https://www.gnupg.org/download/index.html
