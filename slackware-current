@@ -182,7 +182,7 @@ Ap series :
 -htop: 3.1.1 http://htop.sourceforge.net
 -hplip: 3.20.6 to 3.21.8 http://hplipopensource.com
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 20210824 https://github.com/smxi/inxi
+-inxi: 20211122 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -222,7 +222,7 @@ Ap series :
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.29.2 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.9 http://www.nano-editor.org/download.php
--neofetch: 20210904 https://github.com/dylanaraps/neofetch/wiki
+-neofetch: 20211127 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
@@ -241,7 +241,7 @@ Ap series :
 -slackpkg: 15.0.8 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.36.0 to 3.37.0 http://www.sqlite.org/download.html
+-sqlite: 3.37.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5 http://squashfs.sourceforge.net/
 -sudo: 1.9.8p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.4 http://sebastien.godard.pagesperso-orange.fr/download.html
