@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.5.1 ftp://ftp.alsa-project.org/pub/utils
 -amp: 0.7.6 ftp://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.2 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 5.1.1 https://git.yzena.com/gavin/bc
+-bc: 1.07.1 to 5.2.1 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
