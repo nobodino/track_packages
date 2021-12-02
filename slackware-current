@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.4 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.6 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211123 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.4
+-kernel-headers: 5.15.6
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -342,7 +342,7 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
--strace: 5.14 https://github.com/strace/strace/releases/download/
+-strace: 5.14 to 5.15 https://github.com/strace/strace/releases/download/
 -subversion: 1.14.1 http://mir2.ovh.net/ftp.apache.org/dist/subversion/
 -swig: 4.0.2 http://www.swig.org/download.html
 -vala: 0.54.4 https://wiki.gnome.org/Projects/Vala
@@ -365,7 +365,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.4
+-kernel : 5.15.6
 --------------------
 kde series :
 --------------------
@@ -381,7 +381,7 @@ l series:
 -PyQT5: 5.15.2 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20210414 https://github.com/wang-bin/QtAV
--SDL2: 2.0.16 to 2.0.18 https://www.libsdl.org/projects/
+-SDL2: 2.0.18 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
@@ -586,7 +586,7 @@ l series:
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.17 https://code.google.com/p/libproxy/
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
--libqalculate: 3.21.0 https://github.com/Qalculate/libqalculate
+-libqalculate: 3.22.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.52.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -639,7 +639,7 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.2.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.72 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.72 to 3.73 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.72 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.32 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -670,7 +670,7 @@ l series:
 -polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.11.0 http://poppler.freedesktop.org/
+-poppler: 21.11.0 to 21.12.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://de-mirror.org/gentoo/distfiles/
 -popt: 1.18 ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.4.x/
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -995,7 +995,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.2.6 to 21.3.0 (new API) ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.2.6 to 21.3.1 (new API) ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
