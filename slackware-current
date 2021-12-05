@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.15 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.62 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.353 https://github.com/vcrhonek/hwdata
+-hwdata: 0.354 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 ftp://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -114,7 +114,7 @@ A series :
 -smartmontools: 7.2 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.2.3 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
+-sysklogd: 2.3.0 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
 -sysvinit: 3.00 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
@@ -646,7 +646,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 ftp://dickey.his.com/ncurses/ or ftp://invisible-island.net/ncurses/current/
 -neon: 0.32.1 http://www.webdav.org/neon/
--netpbm: 10.96.03 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
+-netpbm: 10.96.04 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7 https://github.com/kkos/oniguruma
@@ -686,7 +686,7 @@ l series:
 -python-MarkupSafe: 2.0.1 https://pypi.org/project/Markupsafe
 -python-PyYAML: 6.0 https://pypi.org/project/pyyaml
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs
--python-charset-normalizer: 2.0.8 https://pypi.org/project/charset-normalizer
+-python-charset-normalizer: 2.0.9 https://pypi.org/project/charset-normalizer
 -python-certifi: 2021.10.8 http://certifi.io/
 -python-cffi: 1.15.0 https://pypi.python.org/pypi/cffi
 -python-chardet: 4.0.0 https://chardet.readthedocs.io
