@@ -68,7 +68,7 @@ A series :
 -kernel-firmware: 20211123 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 581.2 to 590 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
+-less: 581.2 to 598 ftp://ftp.gnu.org/pub/gnu/less or http://www.greetknwoodsoftware.com/less/
 -lhasa: 0.3.1 http://fragglet.github.com/lhasa/
 -libblockdev: 2.26 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.6 https://github.com/rhinstaller/libbytesize
@@ -407,7 +407,7 @@ l series:
 -attica: 0.4.2 ftp://ftp.kde.org/pub/kde/stable/attica/
 -audiofile: 0.3.6 ftp://oss.sgi.com/projects/audiofile/download/
 -babl: 0.1.88 http://download.gimp.org/pub/babl/0.1/
--boost: 1.77.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.77.0 to 1.78.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 to 1.16.0 http://cairographics.org/cairomm/
@@ -416,7 +416,7 @@ l series:
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -cryfs: 0.10.3 to 0.11 (pb) https://github.com/cryfs/cryfs
 -cryptopp: 8.2.0 to 8.4.0 (pb with cryfs) https://www.cryptopp.com/
-db48: 4.8.30 http://download.oracle.com/berkeley-db/
+-db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.18 http://dbus.freedesktop.org/releases/dbus-glib/
 -dconf: 0.40.0 http://download.gnome.org/sources/dconf/
@@ -658,7 +658,7 @@ db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 http://code.entropywave.com/projects/orc/
 -pango: 1.48.10 to 1.50.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
--pangomm: 2.42.2 to 2.46.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
+-pangomm: 2.42.2 to 2.46.2 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 ftp://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1https://github.com/espeak-ng/pcaudiolib
 -pcre2: 10.39 http://www.pcre.org/
@@ -1000,7 +1000,7 @@ x series: (main packages)
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
--mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
+-mypaint-brushes: 1.3.0 to 1.3.1 https://github.com/Jehan/mypaint-brushes
 -noto-cjk-fonts-ttf: 2.001 https://github.com/googlefonts/noto-cjk
 -noto-fonts-ttf: 20171024 https://github.com/googlefonts/noto-fonts/
 -pixman: 0.40.0 http://cairographics.org/releases/
