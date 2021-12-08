@@ -1187,6 +1187,7 @@ nvidia-smi --query-gpu=driver_version --format=csv,noheader
 /-----------------------------------------------------------------------------------/
 cumulative archive packages for slackware64 (no delete rsync)
 http://slackware.uk/cumulative/slackware64-current/slackware64/
+https://slackware.uk/cumulative/slackware-current/slackware/
 /-----------------------------------------------------------------------------------/
 microcode intel:
 --------------------
