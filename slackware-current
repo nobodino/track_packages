@@ -220,7 +220,7 @@ Ap series :
 -mc: 4.8.27 ftp://ftp.lip6.fr/pub/linux/sunsite/utils/file/managers/mc/snapshots or http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
--mpg123: 1.29.2 to 1.29.3 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.29.3 http://sourceforge.net/projects/mpg123/files/
 -nano: 5.9 http://www.nano-editor.org/download.php
 -neofetch: 20211127 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3754 to 3786 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3754 to 3783 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3754
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -370,7 +370,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.23.4 (plasma) https://download.kde.org/stable/
--kde: 5.88.0 (framework) https://download.kde.org/stable/
+-kde: 5.89.0 (framework) https://download.kde.org/stable/
 -kde: 21.12.0 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -490,7 +490,7 @@ l series:
 -gtksourceview3: 3.24.11 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.6) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 3.1.2 to 3.2.0 http://www.freedesktop.org/software/harfbuzz/release/
+-harfbuzz: 3.2.0 http://www.freedesktop.org/software/harfbuzz/release/
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.sourceforge.net/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -525,7 +525,7 @@ l series:
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
--libcap: 2.61 http://sites.google.com/site/fullycapable/
+-libcap: 2.62 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.2 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 ftp://ftp.gnu.org/gnu/libcdio/
@@ -846,7 +846,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz ftp://thumper.bellcore.com/pub/nsb/ ???
 -mobile-broadband-provider-info: 20201225 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 ftp://ftp.bitwizard.nl/mtr/
--mutt: 2.1.3 to 2.1.4 http://sourceforge.net/projects/mutt/files/mutt/
+-mutt: 2.1.4 http://sourceforge.net/projects/mutt/files/mutt/
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -1075,7 +1075,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3754 to 3786
+-gvim: 8.2.3754 to 3793
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.0esr to 94.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1091,7 +1091,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.10 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.10 to 2.53.10.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
