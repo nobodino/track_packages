@@ -25,7 +25,7 @@ A series :
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20211107 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20211114 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
 -e2fsprogs: 1.46.4 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 ftp://ftp.gnu.org/pub/gnu/ed/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.8 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211123 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -93,7 +93,7 @@ A series :
 -ndctl: 71.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2021.08.22 http://www.tuxera.com/community/ntfs-3g-download/
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1i http://www.openssl.org/
+-openssl-solibs: 1.1.1l to 1.1.1m http://www.openssl.org/
 -os-prober: 1.77 https://packages.debian.org/testing/utils/os-prober
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 ftp://ftp.gnu.org/pub/gnu/patch/
@@ -116,7 +116,7 @@ A series :
 -sysfsutils: 2.1.0 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.3.0 http://www.infodrom.org/projects/sysklogd/ (syslog-ng: 3.6.4)
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 3.00 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 3.01 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 ftp://ftp.gnu.org/pub/gnu/tar/ ou ftp://alpha.gnu.org/gnu/tar/
@@ -238,7 +238,7 @@ Ap series :
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 ftp://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
--slackpkg: 15.0.8 http://www.slackpkg.org/
+-slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.37.0 http://www.sqlite.org/download.html
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3754 to 3783 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3754 to 3802 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3754
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.7
+-kernel-headers: 5.15.8
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -305,7 +305,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c
 -parallel: 20211122 https://www.gnu.org/software/parallel/
--patchelf: 0.12 http://nixos.org/patchelf.html
+-patchelf: 0.14.3 http://nixos.org/patchelf.html
 -perl: 5.34.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
@@ -365,7 +365,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.7
+-kernel : 5.15.8
 --------------------
 kde series :
 --------------------
@@ -649,7 +649,7 @@ l series:
 -netpbm: 10.96.04 http://sourceforge.net/projects/netpbm/files/super_stable/ or http://de-mirror.org/gentoo/distfiles/
 -newt: 0.52.20 https://fedorahosted.org/newt/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
--oniguruma: 6.9.7 https://github.com/kkos/oniguruma
+-oniguruma: 6.9.7.1 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
 -opencv: 4.5.4 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
 -openexr: 2.5.7 http://www.openexr.com/downloads.html
@@ -666,7 +666,7 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.40 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.41 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 to 0.106 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -883,7 +883,7 @@ n series:
 -openobex: 1.7.2 http://sourceforge.net/projects/openobex/files/
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1i ftp://ftp.openssl.org/source/
+-openssl: 1.1.1l to 1.1.1m ftp://ftp.openssl.org/source/
 -openvpn: 2.5.4 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -974,7 +974,7 @@ x series: (main packages)
 -libevdev: 1.12.0 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.3 https://download.gnome.org/sources/libgee/
 -libglvnd: 1.3.3 to 1.3.4 (pb) https://github.com/NVIDIA/libglvnd/releases
--libinput: 1.19.2 http://www.freedesktop.org/software/libinput/
+-libinput: 1.19.3 http://www.freedesktop.org/software/libinput/
 -libkkc: 0.3.5 https://github.com/ueno/libkkc
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
@@ -1018,7 +1018,7 @@ x series: (main packages)
 -xkeyboard-config: 2.34
 -xorgproto: 2021.5
 -xorg-server: 1.20.13 to 21.1.1 ftp://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.3
+-xorg-server-xwayland: 21.1.3 to 21.1.4
 -xf86-input-libinput: 1.2.0
 -xf86-input-wacom: 0.40.0
 -xf86-video-amdgpu: 19.1.0
@@ -1075,7 +1075,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3754 to 3793
+-gvim: 8.2.3754 to 3802
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.0esr to 94.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1091,7 +1091,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz ftp://ftp.mostang.com/pub/sane
--seamonkey: 2.53.10 to 2.53.10.1 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.10.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 ftp://windowmaker.org/pub/source/release/
@@ -1108,7 +1108,7 @@ xap series:
 -xpdf: 4.03 ftp://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.02 http://www.jwz.org/xscreensaver/
--xsnow: 3.3.6
+-xsnow: 3.4.1 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.16.x http://archive.xfce.org/src/xfce/
 --------------------
