@@ -221,7 +221,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.29.3 http://sourceforge.net/projects/mpg123/files/
--nano: 5.9 http://www.nano-editor.org/download.php
+-nano: 6.0 http://www.nano-editor.org/download.php
 -neofetch: 20211127 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 https://github.com/linux-nvme/nvme-cli
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3754 to 3802 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3754 to 3821 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3754
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -523,7 +523,7 @@ l series:
 -libatasmart: 0.19 http://pkgs.fedoraproject.org/repo/pkgs/libatasmart/
 -libbluray: 1.3.0 http://www.videolan.org/developers/libbluray.html
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
--libcaca: 0.99beta19 http://de-mirror.org/gentoo/distfiles/
+-libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca.git
 -libcanberra: 0.30 http://de-mirror.org/gentoo/distfiles/
 -libcap: 2.62 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.2 https://people.redhat.com/sgrubb/libcap-ng/
@@ -774,7 +774,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.23 ftp://ftp.isc.org/isc/bind9/
+-bind: 9.16.24 ftp://ftp.isc.org/isc/bind9/
 -bluez: 5.62 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -884,7 +884,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1l to 1.1.1m ftp://ftp.openssl.org/source/
--openvpn: 2.5.4 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.5 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.0 http://p11-glue.freedesktop.org/releases/
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.26 http://www.php.net/distributions/ (need krb5)
@@ -1017,7 +1017,7 @@ x series: (main packages)
 -xinit: 1.4.1
 -xkeyboard-config: 2.34
 -xorgproto: 2021.5
--xorg-server: 1.20.13 to 21.1.1 ftp://ftp.x.org/pub/individual/xserver/
+-xorg-server: 1.20.13 to 21.1.2 ftp://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.3 to 21.1.4
 -xf86-input-libinput: 1.2.0
 -xf86-input-wacom: 0.40.0
@@ -1075,7 +1075,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3754 to 3802
+-gvim: 8.2.3754 to 3821
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.0esr to 94.0.2 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
