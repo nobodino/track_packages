@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.10 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211216 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -182,12 +182,12 @@ Ap series :
 -htop: 3.1.2 http://htop.sourceforge.net
 -hplip: 3.20.6 to 3.21.12 http://hplipopensource.com
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 3.3.10_1 https://github.com/smxi/inxi
+-inxi: 3.3.11_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 ftp://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 ftp://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20211125 http://www.kornshell.com/
+-ksh93: 1.0_20211217 http://www.kornshell.com/
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.0.2 http://www.methods.co.nz/asciidoc/
@@ -222,7 +222,7 @@ Ap series :
 -most: 5.0.0a ftp://space.mit.edu/pub/davis/most/
 -mpg123: 1.29.3 http://sourceforge.net/projects/mpg123/files/
 -nano: 6.0 http://www.nano-editor.org/download.php
--neofetch: 20211127 https://github.com/dylanaraps/neofetch/wiki
+-neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3754 to 3832 ftp://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3754 to 3843 ftp://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3754
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -261,7 +261,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.25 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.26 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.6 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2021.02.19 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.69 to 2.71 (pb with oprofile/binutils) ftp://ftp.gnu.org/pub/gnu/autoconf/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.9
+-kernel-headers: 5.15.10
 -libtool: 2.4.6 ftp://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 ftp://ftp.gnu.org/pub/gnu/m4/
@@ -365,7 +365,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.9
+-kernel : 5.15.10
 --------------------
 kde series :
 --------------------
@@ -754,7 +754,7 @@ l series:
 -tdb: 1.4.5 https://tdb.samba.org
 -tevent: 0.11.0 https://tevent.samba.org
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5
--utf8proc: 2.6.1 https://github.com/JuliaStrings/utf8proc
+-utf8proc: 2.7.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 https://github.com/georgmartius/vid.stab.git
 -vte: 0.66.2 http://ftp.gnome.org/pub/gnome/sources/vte/
@@ -780,7 +780,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 http://sourceforge.net/projects/bridge/files/bridge/
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20211005 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20211216 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.18.1 https://c-ares.haxx.se/
 -cifs-utils: 6.14 ftp://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 ftp://ftp.netfilter.org/pub/conntrack-tools/
@@ -850,6 +850,7 @@ n series:
 -nc: 110_21.diff.gz to 1.10-39.debian.tar.bz2 (netcat debian) or http://www.atstake.com/research/tools/network_utilities/ or http://farm9.org/Cryptcat/
 -ncftp: 3.2.6 ftp://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
+
 -net-tools: 20170208_479bb4a to 2.10 https://sourceforge.net/projects/net-tools/files/
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
 -netdate: diff2.gz to 1.2 (gentoo)
@@ -995,7 +996,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.2.6 to 21.3.1 (new API) ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.2.6 to 21.3.2 (new API) ftp://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1075,7 +1076,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 ftp://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3754 to 3832
+-gvim: 8.2.3754 to 3843
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 ftp://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1101,7 +1102,7 @@ xap series:
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.11 http://dl.sourceforge.net/xine/
--xine-ui: 0.99.12 to 0.99.13 http://dl.sourceforge.net/xine/
+-xine-ui: 0.99.13 http://dl.sourceforge.net/xine/
 -xlockmore: 5.67 ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
