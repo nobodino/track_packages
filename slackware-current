@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 (20200615 <==> 1.1.1) http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3868 to 3891 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3868 to 3908 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3868
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -798,7 +798,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.15 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.25 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.25 to 6.4.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.5 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.33 to 2.2.34 https://www.gnupg.org/download/index.html
@@ -915,7 +915,7 @@ n series:
 	-netkit-telnet:  0.17 to 0.17_36.diff.gz (ipv6: telnet from redhat)
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
--tin: 2.6.0 http://www.tin.org/
+-tin: 2.6.0 to 2.6.1 http://www.tin.org/
 -traceroute: 2.1.0 http://traceroute.sourceforge.net/
 -ulogd: 2.0.7 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tar.xz http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
@@ -1073,7 +1073,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3868 to 3891
+-gvim: 8.2.3868 to 3908
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
