@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 (20200615 <==> 1.1.1) http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3868 to 3908 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3868 to 3918 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3868
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -497,7 +497,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 69.1 http://site.icu-project.org/download
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_18 to 19 http://www.imagemagick.org/
+-imagemagick: 7.1.0_19 http://www.imagemagick.org/
 -isl: 0.24 http://isl.gforge.inria.fr
 -iso-codes: 4.8.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 http://www.digip.org/jansson/
@@ -636,7 +636,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
--mlt: 7.2.0 to 7.4.0 https://github.com/mltframework/mlt
+-mlt: 7.4.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.73.1 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.73.1 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -650,7 +650,7 @@ l series:
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7.1 https://github.com/kkos/oniguruma
 -openal-soft: 1.21.1 https://openal-soft.org/openal-releases
--opencv: 4.5.4 to 4.5.5 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
+-opencv: 4.5.5 https://github.com/Itseez/opencv and https://github.com/Itseez/opencv_contrib
 -openexr: 2.5.7 to 3.1.3 https://github.com/AcademySoftwareFoundation/openexr
 -openjpeg: 2.4.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
@@ -669,7 +669,7 @@ l series:
 -polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.11.0 to 21.12.0 http://poppler.freedesktop.org/
+-poppler: 21.12.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 http://ftp.rpm.org/pub/rpm/popt/releases
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -798,7 +798,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.15 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.25 to 6.4.26 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.5 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.33 to 2.2.34 https://www.gnupg.org/download/index.html
@@ -915,7 +915,7 @@ n series:
 	-netkit-telnet:  0.17 to 0.17_36.diff.gz (ipv6: telnet from redhat)
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
--tin: 2.6.0 to 2.6.1 http://www.tin.org/
+-tin: 2.6.1 http://www.tin.org/
 -traceroute: 2.1.0 http://traceroute.sourceforge.net/
 -ulogd: 2.0.7 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tar.xz http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
@@ -1073,7 +1073,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3868 to 3908
+-gvim: 8.2.3868 to 3918
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1089,7 +1089,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz http://ftp.mostang.com/pub/sane
--seamonkey: 2.53.10.1 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.10.1 to 2.53.10.2 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
@@ -1147,6 +1147,7 @@ y series:
 -nethack: 3.6.6 https://www.nethack.org
 --------------------
 extra:
+-rust-for-mozilla: rust-1.54.0
 --------------------
 -aspell-word-list: 0.50.4
 -bash-completion: 2.11 https://github.com/scop/bash-completion
