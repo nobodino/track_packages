@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 (20200615 <==> 1.1.1) http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3868 to 3918 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3868 to 3930 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3868
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -548,7 +548,7 @@ l series:
 -libgphoto2: 2.5.27 http://www.gphoto.org/
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
--libgsf: 1.14.47 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
+-libgsf: 1.14.48 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://download.gnome.org/sources/libgtop/
 -libid3tag: 0.15.1b http://ftp.mars.org/pub/mpeg/
 -libical: 3.0.12 https://libical.github.io/libical/
@@ -645,7 +645,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
 -neon: 0.32.1 https://notroj.github.io/neon/
--netpbm: 10.96.06 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 10.97.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.20 to 0.52.21 https://releases.pagure.org/newt
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7.1 https://github.com/kkos/oniguruma
@@ -1073,7 +1073,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3868 to 3918
+-gvim: 8.2.3868 to 3930
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1089,7 +1089,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0xmms.14_4.diff.gz http://ftp.mostang.com/pub/sane
--seamonkey: 2.53.10.1 to 2.53.10.2 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.10.2 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
