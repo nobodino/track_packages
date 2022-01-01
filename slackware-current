@@ -27,7 +27,7 @@ A series :
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20211114 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 http://fossies.org/linux/misc/
--e2fsprogs: 1.46.4 to 1.46.5 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.17 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 to 17 http://linux.dell.com/efibootmgr
 -efivar: 20201015 https://github.com/rhboot/efivar
@@ -241,7 +241,7 @@ Ap series :
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.37.0 to 3.37.1 http://www.sqlite.org/download.html
+-sqlite: 3.37.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5 http://squashfs.sourceforge.net/
 -sudo: 1.9.8p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.5 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200615 (20200615 <==> 1.1.1) http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3868 to 3951 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3868 to 3963 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3868
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -845,7 +845,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20201225 to 20210805 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.94 http://ftp.bitwizard.nl/mtr/
--mutt: 2.1.4 to 2.1.5 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.1.5 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -nchttp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -1073,7 +1073,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3868 to 3951
+-gvim: 8.2.3868 to 3963
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
