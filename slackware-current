@@ -35,7 +35,7 @@ A series :
 -elogind: 246.10.0 https://github.com/elogind/elogind
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
--eudev: 3.2.10 https://dev.gentoo.org/~blueness/eudev/
+-eudev: 3.2.10 to 3.2.11 https://dev.gentoo.org/~blueness/eudev/
 -exfatprogs: 1.1.2 to 1.1.3 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.41 https://www.darwinsys.com/file/ or http://ftp.astron.com/pub/file/
@@ -80,7 +80,7 @@ A series :
 -lvm2: 2.02.13 to 2.03.14 (pb) https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.12 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 180 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
--mdadm: 4.1 https://www.kernel.org/pub/linux/utils/raid/mdadm/
+-mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://alioth.debian.org/
 	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
@@ -249,9 +249,9 @@ Ap series :
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.2a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
--usbmuxd: 20200615 (20200615 <==> 1.1.1) http://www.libimobiledevice.org/
+-usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3868 to 3963 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3868 to 3978 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3868
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -556,7 +556,8 @@ l series:
 -libidn: 1.38 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.2 http://ftp.gnu.org/gnu/libidn2/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
--libimobiledevice: 20200615 http://www.libimobiledevice.org/
+-libimobiledevice: 20211124 http://www.libimobiledevice.org/
+-libimobiledevice-glue: 20211125 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
 -libjpeg-turbo: 2.1.2 http://sourceforge.net/projects/libjpeg-turbo/files/
@@ -702,7 +703,7 @@ l series:
 -python-pbr: 5.8.0 https://pypi.org/project/pbr
 -python-pillow: 8.4.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.10.0 https://pypi.org/project/Pygments
+-python-pygments: 2.10.0 to 2.11.0 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pysol_cards: 0.12.0 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
@@ -994,7 +995,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.2.6 to 21.3.3 (new API) http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.3.3 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1073,7 +1074,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3868 to 3963
+-gvim: 8.2.3868 to 3978
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
