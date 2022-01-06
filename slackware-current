@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20211229 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.3868 to 4005 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.3868 to 4014 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.3868
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,12 +292,12 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.12 http://wwww.kernel.org
+-kernel-headers: 5.15.13 http://wwww.kernel.org
 -libtool: 2.4.6 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.0 https://mercurial.selenic.com/downloads
+-mercurial: 6.0 to 6.0.1 https://mercurial.selenic.com/downloads
 -meson: 0.59.4 to 0.60.3 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.12
+-kernel : 5.15.13
 --------------------
 kde series :
 --------------------
@@ -612,7 +612,7 @@ l series:
 -libusb: 1.0.24 https://github.com/libusb/libusb
 -libusb-compat: 0.1.7 http://libusb.info
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
--libuv: 1.41.2 https://dist.libuv.org/dist
+-libuv: 1.43.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
@@ -666,11 +666,11 @@ l series:
 -phonon: 4.11.1 http://download.kde.org/stable/phonon/
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.42 to 0.3.43 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.43 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 http://www.freedesktop.org/software/polkit/releases/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.12.0 http://poppler.freedesktop.org/
+-poppler: 21.12.0 to 22.0.1 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 http://ftp.rpm.org/pub/rpm/popt/releases
 -pulseaudio: 14.5 http://www.freedesktop.org/software/pulseaudio/releases/
@@ -719,7 +719,7 @@ l series:
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.1 to 1.2 https://github.com/stachenov/quazip
--readline: 8.1.001 https://ftp.gnu.org/gnu/readline
+-readline: 8.1.001 to 8.1.2 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.2 https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.15 to 2.0.16 https://rubygems.org/gems/asciidoctor
@@ -775,7 +775,7 @@ n series:
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.16.24 http://ftp.isc.org/isc/bind9/
--bluez: 5.62 http://www.bluez.org/download/
+-bluez: 5.62 to 5.63 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -787,7 +787,7 @@ n series:
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2021.08.28 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.80.0 to 7.81.0 http://curl.haxx.se/download/
+-curl: 7.81.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://www.cyrusimap.org/sasl/
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -958,6 +958,7 @@ x series: (main packages)
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
 -fcitx: 4.2.9.8 https://fcitx-im.org/wiki/Fcitx
 -fcitx-configtool: 0.4.10 https://download.fcitx-im.org/fcitx-configtool
+-fcitx-qt5: 1.2.7 https://fcitx-im.org/wiki/Fcitx
 -fontconfig: 2.13.92 to 93 (pb) http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.1 http://freeglut.sourceforge.net/
 -glew: 2.2.0 http://glew.sourceforge.net
@@ -1075,7 +1076,7 @@ xap series:
 -gparted: 1.3.1 http://gparted.sourceforge.net/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.3868 to 4005
+-gvim: 8.2.3868 to 4014
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
