@@ -42,7 +42,7 @@ A series :
 -findutils: 4.8.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.36 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.37 https://www.gnu.org/software/mtools/
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
@@ -68,7 +68,7 @@ A series :
 -kernel-firmware: 20220106 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 581.2 to 590 https://ftp.gnu.org/gnu/less/
+-less: 581.2 to 600 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.26 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.6 https://github.com/rhinstaller/libbytesize
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4018 to 4023 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4018 to 4036 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4018
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -342,7 +342,7 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
--strace: 5.15 https://github.com/strace/strace/releases
+-strace: 5.15 to 5.16 https://github.com/strace/strace/releases
 -subversion: 1.14.1 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
 -vala: 0.54.5 https://wiki.gnome.org/Projects/Vala
@@ -1008,6 +1008,7 @@ x series: (main packages)
 -sessreg: 1.1.2
 -liberation-fonts-ttf: 2.1.5
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
+
 -twm: 1.0.11
 -vulkan-sdk: 1.2.176.1 to 1.2.198.0 https://www.vulkan.org/
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
@@ -1072,15 +1073,15 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.4.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.4.2 to 5.4.3 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4018 to 4023
+-gvim: 8.2.4018 to 4036
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.4.1esr to 95.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.4.1 http://www.mozilla.org/projects/thunderbird/
+-mozilla-firefox: 91.4.1esr to 91.5.0esr or 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 91.4.1 https://www.thunderbird.net/
 -network-manager-applet: 1.24.0
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
