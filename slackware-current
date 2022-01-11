@@ -808,10 +808,10 @@ n series:
 -gpgme: 1.16.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.52 http://www.apache.org/dist/httpd/
--icmpinfo: 1.11 
+-icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.15.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.15.0 to 5.16.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.7 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -845,7 +845,7 @@ n series:
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20201225 to 20210805 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
--mtr: 0.94 http://ftp.bitwizard.nl/mtr/
+-mtr: 0.94 to 0.95 http://ftp.bitwizard.nl/mtr/
 -mutt: 2.1.5 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -nchttp: 3.2.6 http://ftp.ncftp.com/ncftp/
@@ -1081,7 +1081,7 @@ xap series:
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.4.1esr to 91.5.0esr or 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.4.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 91.4.1 to 91.5.0 https://www.thunderbird.net/
 -network-manager-applet: 1.24.0
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
