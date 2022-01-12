@@ -387,7 +387,7 @@ l series:
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
--SDL2_ttf: 2.0.15 https://www.libsdl.org/projects/SDL2_ttf/
+-SDL2_ttf: 2.0.15 to 2.0.18 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 0.6.55 https://www.freedesktop.org/software/accountsservice
