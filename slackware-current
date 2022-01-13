@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4065 to 4071 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4065 to 4077 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4065
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -338,7 +338,7 @@ d series:
 -re2c: 2.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.3 to 3.1.0 http://www.ruby-lang.org/
--rust: 1.57.0 https://rust-lang.org
+-rust: 1.57.0 to 1.58.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -768,7 +768,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.4 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.32.12 to 1.35.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.32.12 to 1.34.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.25
 	-alpine: 2.25 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -1077,7 +1077,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4065 to 4071
+-gvim: 8.2.4065 to 4077
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.5.0esr to 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
