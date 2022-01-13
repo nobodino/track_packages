@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.15.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.15.1 to 5.16 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 9.0 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -35,7 +35,7 @@ A series :
 -elogind: 246.10.0 https://github.com/elogind/elogind
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
--eudev: 3.2.10 to 3.2.11 https://dev.gentoo.org/~blueness/eudev/
+-eudev: 3.2.11 https://dev.gentoo.org/~blueness/eudev/
 -exfatprogs: 1.1.2 to 1.1.3 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.41 https://www.darwinsys.com/file/ or http://ftp.astron.com/pub/file/
@@ -52,8 +52,8 @@ A series :
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.11 http://ftp.gnu.org/pub/gnu/gzip/
--haveged: 1.9.16 https://github.com/jirka-h/haveged/releases
--hdparm: 9.62 to 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
+-haveged: 1.9.17 https://github.com/jirka-h/haveged/releases
+-hdparm: 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
 -hwdata: 0.355 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.13 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220106 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.15.14 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220111 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 600 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -251,8 +251,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4018 to 4065 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.4018
+-vim: 8.2.4065 to 4071 http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.4065
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.13 http://wwww.kernel.org
+-kernel-headers: 5.15.14 http://wwww.kernel.org
 -libtool: 2.4.6 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -342,10 +342,10 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
--strace: 5.15 to 5.16 https://github.com/strace/strace/releases
+-strace: 5.16 https://github.com/strace/strace/releases
 -subversion: 1.14.1 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.54.5 https://wiki.gnome.org/Projects/Vala
+-vala: 0.54.6 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -366,12 +366,12 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.13
+-kernel : 5.15.14
 --------------------
 kde series :
 --------------------
 -kde: 5.23.5 (plasma) https://download.kde.org/stable/
--kde: 5.89.0 to 5.90 (framework) https://download.kde.org/stable/
+-kde: 5.90 (framework) https://download.kde.org/stable/
 -kde: 21.12.1 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -382,12 +382,12 @@ l series:
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.0 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20210414 https://github.com/wang-bin/QtAV
--SDL2: 2.0.18 to 2.0.20 https://www.libsdl.org/projects/
+-SDL2: 2.0.20 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
--SDL2_ttf: 2.0.15 to 2.0.18 https://www.libsdl.org/projects/SDL2_ttf/
+-SDL2_ttf: 2.0.18 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 0.6.55 https://www.freedesktop.org/software/accountsservice
@@ -596,7 +596,7 @@ l series:
 -libsigc++3: 3.0.7 https://github.com/libsigcplusplus/libsigcplusplus
 -libseccomp: 2.5.3 https://github.com/seccomp/libseccomp
 -libsecret: 0.20.4 http://ftp.gnome.org/pub/gnome/sources/libsecret/
--libsigsegv: 2.13 to 2.14 https://ftp.gnu.org/gnu/libsigsegv/
+-libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.0.31 https://github.com/erikd/libsndfile/
 -libsodium: 1.0.17 to 1.0.18 https://libsodium.org
 -libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
@@ -657,7 +657,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.48.10 to 1.50.3 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.11 to 1.50.3 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.50.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
@@ -712,7 +712,7 @@ l series:
 -python-setuptools_scm: 6.3.2 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-tomli: 1.2.2 https://pypi.org/project/tomli
--python-urllib3: 1.26.7 https://urllib3.readthedocs.io/
+-python-urllib3: 1.26.8 https://urllib3.readthedocs.io/
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.3_20211130 https://invent.kde.org/qt/qt/qt5.git
@@ -768,7 +768,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.4 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.32.12 to 1.35.3 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.32.12 to 1.35.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.25
 	-alpine: 2.25 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -800,7 +800,7 @@ n series:
 -epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.15 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.26 http://www.catb.org/~esr/fetchmail/
--getmail: 6.18.5 http://pyropus.ca/software/getmail/
+-getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.33 to 2.2.34 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.2 http://www.gnu.org/software/gnutls/
@@ -811,7 +811,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.15.0 to 5.16.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.16.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.7 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -845,7 +845,7 @@ n series:
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20201225 to 20210805 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
--mtr: 0.94 to 0.95 http://ftp.bitwizard.nl/mtr/
+-mtr: 0.95 http://ftp.bitwizard.nl/mtr/
 -mutt: 2.1.5 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -nchttp: 3.2.6 http://ftp.ncftp.com/ncftp/
@@ -907,7 +907,7 @@ n series:
 -samba: 4.15.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
--socat: 1.7.4.2 http://www.dest-unreach.org/socat/download/
+-socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.2 https://github.com/libfuse/sshfs
 -stunnel: 5.61 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
@@ -996,7 +996,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.3 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.3.3 to 21.3.4 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1060,7 +1060,7 @@ xap series:
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
--freerdp: 2.4.1 https://pub.freerdp.com/releases
+-freerdp: 2.5.0 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
 -ghttp: 2.8.0b http://gftp.seul.org/
@@ -1077,11 +1077,11 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4018 to 4065
+-gvim: 8.2.4065 to 4071
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.4.1esr to 91.5.0esr or 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.4.1 to 91.5.0 https://www.thunderbird.net/
+-mozilla-firefox: 91.5.0esr to 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 91.5.0 https://www.thunderbird.net/
 -network-manager-applet: 1.24.0
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
