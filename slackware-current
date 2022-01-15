@@ -21,7 +21,7 @@ A series :
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
--cryptsetup: 2.4.2 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.4.3 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4065 to 4077 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4065 to 4087 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4065
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -331,7 +331,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.9 to 3.10.1 (new API) https://www.python.org/downloads/
+-python3: 3.9.9 to 3.10.2 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 http://ftp.gnu.org/pub/gnu/rcs/
@@ -435,7 +435,7 @@ l series:
 -exiv2: 0.27.5 http://www.exiv2.org/
 -expat: 2.4.2 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 4.4.1 https://ffmpeg.org/
+-ffmpeg: 4.4.1 to 5.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.4 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
@@ -891,7 +891,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.6.3 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.6.3 to 3.6.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -1077,7 +1077,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4065 to 4077
+-gvim: 8.2.4065 to 4087
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.5.0esr to 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
