@@ -163,7 +163,7 @@ Ap series :
 	- cups: 2.3.3op2
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.10 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.10 to 1.28.11 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.4 to 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.25 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4065 to 4087 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4065 to 4100 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4065
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -1075,9 +1075,9 @@ xap series:
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.2 to 5.4.3 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.3.1 https://gparted.org/
--gucharmap: 12.0.1 to 14.0.0 https://download.gnome.org/sources/gucharmap/3.14/
+-gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4065 to 4087
+-gvim: 8.2.4065 to 4100
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.5.0esr to 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
