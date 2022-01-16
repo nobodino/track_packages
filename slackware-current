@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.15.1 to 5.16 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.16 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 http://www.bzip.org/downloads.html
 -coreutils: 9.0 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -331,14 +331,14 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 1.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.9 to 3.10.2 (new API) https://www.python.org/downloads/
+-python3: 3.9.10 to 3.10.2 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.0 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.3 to 3.1.0 http://www.ruby-lang.org/
--rust: 1.57.0 to 1.58.0 https://rust-lang.org
+-rust: 1.58.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -645,8 +645,8 @@ l series:
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
--neon: 0.32.1 https://notroj.github.io/neon/
--netpbm: 10.97.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-neon: 0.32.2 https://notroj.github.io/neon/
+-netpbm: 10.97.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.20 to 0.52.21 https://releases.pagure.org/newt
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7.1 https://github.com/kkos/oniguruma
@@ -891,7 +891,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.6.3 to 3.6.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.6.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -996,7 +996,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.3 to 21.3.4 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.3.4 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1008,7 +1008,6 @@ x series: (main packages)
 -sessreg: 1.1.2
 -liberation-fonts-ttf: 2.1.5
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
-
 -twm: 1.0.11
 -vulkan-sdk: 1.2.176.1 to 1.2.198.0 https://www.vulkan.org/
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
