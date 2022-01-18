@@ -551,7 +551,7 @@ l series:
 -libgsf: 1.14.48 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://gitlab.gnome.org/GNOME/libgtop
 -libid3tag: 0.15.1b http://ftp.mars.org/pub/mpeg/
--libical: 3.0.12 https://libical.github.io/libical/
+-libical: 3.0.13 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.38 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.2 http://ftp.gnu.org/gnu/libidn2/
@@ -885,7 +885,7 @@ n series:
 -openssh: 8.8p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1m to 3.0.1 http://ftp.openssl.org/source/
 -openvpn: 2.5.5 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.24.0 https://p11-glue.github.io/p11-glue/p11-kit.html
+-p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.27 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
@@ -909,7 +909,7 @@ n series:
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.2 https://github.com/libfuse/sshfs
--stunnel: 5.61 https://www.stunnel.org/downloads.html
+-stunnel: 5.62 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1061,7 +1061,7 @@ xap series:
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -freerdp: 2.5.0 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
--geeqie: 1.6 http://sourceforge.net/projects/geeqie/files/geeqie/
+-geeqie: 1.6.1 http://sourceforge.net/projects/geeqie/files/geeqie/
 -ghttp: 2.8.0b http://gftp.seul.org/
 -gimp: 2.10.30 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
