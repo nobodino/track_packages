@@ -182,7 +182,7 @@ Ap series :
 -hplip: 3.20.6 to 3.21.12 https://developers.hp.com/hp-linux-i...-and-printing/
 -htop: 3.1.2 https://htop.dev/
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 3.3.11_1 https://github.com/smxi/inxi
+-inxi: 3.3.12_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4115 to 4141 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4115 to 4147 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4115
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -774,7 +774,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.16.24 http://ftp.isc.org/isc/bind9/
+-bind: 9.16.25 http://ftp.isc.org/isc/bind9/
 -bluez: 5.63 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -798,7 +798,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
--ethtool: 5.15 to 5.16 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.16 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.26 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -904,7 +904,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.23 http://www.sdaoden.eu/downloads
--samba: 4.15.3 https://ftp.samba.org/pub/samba/
+-samba: 4.15.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -927,7 +927,7 @@ n series:
 -whois: 5.5.11 https://github.com/rfc1036/whois
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
--wpa_supplicant: 2.9 http://hostap.epitest.fi/wpa_supplicant/
+-wpa_supplicant: 2.10 http://hostap.epitest.fi/wpa_supplicant/
 -yptools:
 	- yp-tools: 4.2.3 https://github.com/thkukuk/yp-tools/
 	- ypbind-mt: 2.7.2 https://github.com/thkukuk/ypbind-mt/
@@ -1076,7 +1076,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4115 to 4141
+-gvim: 8.2.4115 to 4147
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.5.0esr to 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
