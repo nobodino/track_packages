@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.15 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220111 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.15.16 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220119 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 600 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -251,8 +251,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4115 to 4147 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.4115
+-vim: 8.2.4166 http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.4166
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.15 http://wwww.kernel.org
+-kernel-headers: 5.15.16 http://wwww.kernel.org
 -libtool: 2.4.6 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -338,7 +338,7 @@ d series:
 -re2c: 2.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.3 to 3.1.0 http://www.ruby-lang.org/
--rust: 1.58.0 https://rust-lang.org
+-rust: 1.58.1 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.2.0 to 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.15
+-kernel : 5.15.16
 --------------------
 kde series :
 --------------------
@@ -763,7 +763,7 @@ l series:
 -xapian-core: 1.4.18 http://www.xapian.org/
 -xxHash: 0.8.1 https://github.com/Cyan4973/xxHash
 -zlib: 1.2.11 http://www.gzip.org/zlib/
--zstd: 1.5.1 https://facebook.github.io/zstd/
+-zstd: 1.5.2 https://facebook.github.io/zstd/
 --------------------
 n series:
 --------------------
@@ -879,7 +879,7 @@ n series:
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.4.59 to 2.6.0 https://ftp.openldap.org/software/download/
+-openldap: 2.4.59 to 2.6.1 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.8p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
@@ -1076,7 +1076,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4115 to 4147
+-gvim: 8.2.4166
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.5.0esr to 96.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1162,8 +1162,8 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.14
--php81: 8.1.1 to 8.1.2
+-php80: 8.0.15
+-php81: 8.1.2
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
