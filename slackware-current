@@ -982,7 +982,7 @@ x series: (main packages)
 -libva: 2.13.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.13.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.4 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 1.12 https://github.com/linuxwacom
+-libwacom: 1.12 to 2.0.0 https://github.com/linuxwacom
 -libXaw: 1.0.14 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
