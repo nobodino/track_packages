@@ -39,7 +39,7 @@ A series :
 -exfatprogs: 1.1.2 to 1.1.3 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.41 https://www.darwinsys.com/file/ or http://ftp.astron.com/pub/file/
--findutils: 4.8.0 http://ftp.gnu.org/gnu/findutils/
+-findutils: 4.8.0 to 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.37 https://www.gnu.org/software/mtools/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.15.18 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.15.19 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220124 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -211,7 +211,7 @@ Ap series :
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lsof: 4.94.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 4.0.11 https://linuxcontainers.org/lxc/downloads/
+-lxc: 4.0.11 to 4.0.12 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.4 http://www.nongnu.org/man-db/
@@ -234,7 +234,7 @@ Ap series :
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
 -sc-im: 20210927 https://github.com/andmarti1424/sc-im
--screen: 4.8.0 https://ftp.gnu.org/gnu/screen/
+-screen: 4.9.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 http://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.3.1 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.15.18 http://wwww.kernel.org
+-kernel-headers: 5.15.19 http://wwww.kernel.org
 -libtool: 2.4.6 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.15.18
+-kernel : 5.15.19
 --------------------
 kde series :
 --------------------
@@ -607,7 +607,7 @@ l series:
 -libunistring: 0.9.10 to 1.0 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.6.2 http://www.nongnu.org/libunwind
 -liburing: 2.1 https://git.kernel.dk/cgit/liburing/
--libusb: 1.0.24 https://github.com/libusb/libusb
+-libusb: 1.0.24 to 1.0.25 https://github.com/libusb/libusb
 -libusb-compat: 0.1.7 http://libusb.info
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
 -libuv: 1.43.0 https://dist.libuv.org/dist
@@ -821,7 +821,7 @@ n series:
 -krb5: 1.19.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
--libgcrypt: 1.9.4 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.9.4 to 1.10.0 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.44 https://www.gnupg.org/download/index.html
 -libksba: 1.6.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.26.2 http://www.freedesktop.org/software/libmbim/
@@ -1009,6 +1009,7 @@ x series: (main packages)
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.11
 -vulkan-sdk: 1.2.176.1 to 1.2.198.0 https://www.vulkan.org/
+
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
@@ -1170,19 +1171,19 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--kernel-5.16.4-configs
+-kernel-5.16.5-configs
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
 /sys/devices/system/cpu/vulnerabilities/itlb_multihit:KVM: Mitigation: VMX disabled
 /sys/devices/system/cpu/vulnerabilities/l1tf:Mitigation: PTE Inversion; VMX: conditional cache flushes, SMT vulnerable
-/sys/devices/system/cpu/vulnerabilities/mds:Vulnerable: Clear CPU buffers attempted, no microcode; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/mds:Mitigation: Clear CPU buffers; SMT vulnerable
 /sys/devices/system/cpu/vulnerabilities/meltdown:Mitigation: PTI
-/sys/devices/system/cpu/vulnerabilities/spec_store_bypass:Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+/sys/devices/system/cpu/vulnerabilities/spec_store_bypass:Mitigation: Speculative Store Bypass disabled via prctl
 /sys/devices/system/cpu/vulnerabilities/spectre_v1:Mitigation: usercopy/swapgs barriers and __user pointer sanitization
 /sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: Full generic retpoline, IBPB: conditional, IBRS_FW, STIBP: conditional, RSB filling
-/sys/devices/system/cpu/vulnerabilities/srbds:Vulnerable: No microcode
-/sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Vulnerable: Clear CPU buffers attempted, no microcode; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/srbds:Mitigation: Microcode
+/sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Mitigation: TSX disabled
 /-----------------------------------------------------------------------------------/
 nvidia-smi --query-gpu=driver_version --format=csv,noheader
 /-----------------------------------------------------------------------------------/
