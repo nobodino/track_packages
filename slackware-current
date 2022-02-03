@@ -332,9 +332,9 @@ d series:
 -poke: 2.0 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.10 to 3.10.2 (new API) https://www.python.org/downloads/
--python-pip: 21.4 to 22.0.2 https://pip.pypa.io/
+-python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
--rcs: 5.10.0 http://ftp.gnu.org/pub/gnu/rcs/
+-rcs: 5.10.0 to 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 2.2 to 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.3 to 3.1.0 http://www.ruby-lang.org/
@@ -460,7 +460,7 @@ l series:
 -glib-networking: 2.70.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.70.3 to 2.71.0 https://www.gtk.org
 -glibmm: 2.64.5 to 2.70.0 http://www.gtkmm.org/
--glibc: 2.33 to 2.34
+-glibc: 2.33 to 2.35
 	-glibc: 2.33 http://ftp.gnu.org/pub/gnu/glibc/
 	-tzcode: 2021e https://www.iana.org/time-zones
 	-tzdata: 2021e https://www.iana.org/time-zones
@@ -668,7 +668,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.12.0 to 22.0.1 http://poppler.freedesktop.org/
+-poppler: 21.12.0 to 22.0.2 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 http://ftp.rpm.org/pub/rpm/popt/releases
 -pulseaudio: 14.5 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -699,7 +699,7 @@ l series:
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 21.3 https://github.com/pypa/packaging
 -python-pbr: 5.8.0 https://pypi.org/project/pbr
--python-pillow: 8.4.0 https://python-pillow.github.io/
+-python-pillow: 8.4.0 to 9.0.1 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.10.0 to 2.11.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
