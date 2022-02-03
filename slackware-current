@@ -120,7 +120,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.23.2 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.23.2 to 6.24.0 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0 to 2.0.1 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -212,7 +212,7 @@ Ap series :
 -lsof: 4.94.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.11 to 4.0.12 https://linuxcontainers.org/lxc/downloads/
--lzip: 1.21 http://download.savannah.gnu.org/releases/lzip/
+-lzip: 1.21 to 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.9.4 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
@@ -294,10 +294,10 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 5.15.19 http://wwww.kernel.org
 -libtool: 2.4.6 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 13.0.0 http://llvm.org/
+-llvm: 13.0.0 to 13.0.1 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.0.1 https://mercurial.selenic.com/downloads
+-mercurial: 6.0.1 to 6.0.2 https://mercurial.selenic.com/downloads
 -meson: 0.59.4 to 0.61.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -476,11 +476,11 @@ l series:
 -grantlee: 5.2.0 https://github.com/steveire/grantlee
 -gsettings-desktop-schemas: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7 to 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.18.5 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.18.5 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.18.5 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.18.5 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.18.5 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.18.5 to 1.85.6 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.18.5 to 1.85.6 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.18.5  to 1.85.6https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.18.5 to 1.85.6 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.18.5 to 1.18.6 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
