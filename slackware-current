@@ -1,4 +1,4 @@
-Slackware-14.2 (02/07/2016) to Slackware-15.0
+Slackware-15.0 (02/02/2022) to Slackware-15.1
 
 http://www.slackware.com/changelog/current.php?cpu=x86_64
 /-----------------------------------------------------------------------------------/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4256 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4256 to 4293 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4256
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -480,7 +480,7 @@ l series:
 -gst-plugins-bad-free: 1.18.5 to 1.85.6 https://gstreamer.freedesktop.org/src/
 -gst-plugins-good: 1.18.5  to 1.85.6https://gstreamer.freedesktop.org/src/
 -gst-plugins-libav: 1.18.5 to 1.85.6 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.18.5 to 1.18.6 http://gstreamer.freedesktop.org/src/gstreamer
+-gstreamer: 1.18.5 to 1.18.6/1.20.0 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -792,7 +792,7 @@ n series:
 -dhcp: 4.4.2p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.17.1 http://www.dovecot.org/releases/
+-dovecot: 2.3.17.1 to 2.3.18 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
@@ -1008,8 +1008,7 @@ x series: (main packages)
 -liberation-fonts-ttf: 2.1.5
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.11
--vulkan-sdk: 1.2.176.1 to 1.2.198.0 https://www.vulkan.org/
-
+-vulkan-sdk: 1.2.176.1 to 1.3 https://www.vulkan.org/
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
@@ -1076,7 +1075,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4256
+-gvim: 8.2.4256 to 4293
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 to 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 91.5.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
