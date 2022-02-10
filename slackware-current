@@ -958,7 +958,7 @@ x series: (main packages)
 -fcitx-configtool: 0.4.10 https://download.fcitx-im.org/fcitx-configtool
 -fcitx-qt5: 1.2.7 https://fcitx-im.org/wiki/Fcitx
 -fontconfig: 2.13.92 to 93 (pb) http://freedesktop.org/software/fontconfig
--freeglut: 3.2.1 http://freeglut.sourceforge.net/
+-freeglut: 3.2.2 http://freeglut.sourceforge.net/
 -glew: 2.2.0 http://glew.sourceforge.net
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/chrissimpkins/Hack
@@ -1077,8 +1077,8 @@ xap series:
 -gvim: 8.2.4256 to 4323
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 to 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 91.5.1esr to 91.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.5.1 to 91.6.0 https://www.thunderbird.net/
+-mozilla-firefox: 97.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 91.6.0 https://www.thunderbird.net/
 -network-manager-applet: 1.24.0
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1169,7 +1169,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--kernel-5.16.6-configs
+-
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
@@ -1193,7 +1193,7 @@ microcode intel:
 --------------------
 iucode_tool -S -l /lib/firmware/intel-ucode/*
 selected microcodes:
-  079/001: sig 0x000506e3, pf_mask 0x36, 2020-07-14, rev 0x00e2, size 105472
+ 080/001: sig 0x000506e3, pf_mask 0x36, 2021-04-29, rev 0x00ec, size 108544
 --------------------
 # to reload microcode
 echo 1 > /sys/devices/system/cpu/microcode/reload
