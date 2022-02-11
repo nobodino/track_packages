@@ -211,10 +211,10 @@ Ap series :
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lsof: 4.94.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 4.0.11 to 4.0.12 https://linuxcontainers.org/lxc/downloads/
--lzip: 1.21 to 1.23 http://download.savannah.gnu.org/releases/lzip/
+-lxc: 4.0.12 https://linuxcontainers.org/lxc/downloads/
+-lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.10.0 http://www.nongnu.org/man-db/
+-man-db: 2.10.1 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.5.13 to 10.5.14 http://mariadb.org/
 -mc: 4.8.27 http://www.midnight-commander.org/downloads/
@@ -228,7 +228,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
--qpdf: 10.5.0 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 10.6.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rpm: 4.16.1.3 to 4.17.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4256 to 4323 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4256 to 4341 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4256
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -517,7 +517,7 @@ l series:
 -libaio: 0.3.111 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.5.2 http://www.libarchive.org/downloads/
+-libarchive: 3.6.0 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
 -libbluray: 1.3.0 http://www.videolan.org/developers/libbluray.html
@@ -655,7 +655,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.48.11 to 1.50.3 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.11 to 1.50.4 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.50.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
@@ -971,7 +971,7 @@ x series: (main packages)
 -libdrm: 2.4.109 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.9 https://github.com/anholt/libepoxy/releases/download/
 -libevdev: 1.12.0 http://www.freedesktop.org/software/libevdev/
--libgee: 0.20.3 https://gitlab.gnome.org/GNOME/libgee
+-libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
 -libglvnd: 1.3.3 to 1.3.4 (pb) https://github.com/NVIDIA/libglvnd/releases
 -libinput: 1.19.3 http://www.freedesktop.org/software/libinput/
 -libkkc: 0.3.5 https://github.com/ueno/libkkc
@@ -994,7 +994,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.5 to 21.3.6 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.3.6 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1007,7 +1007,7 @@ x series: (main packages)
 -liberation-fonts-ttf: 2.1.5
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.11
--vulkan-sdk: 1.2.176.1 to 1.3 https://www.vulkan.org/
+-vulkan-sdk: 1.2.176.1 to 1.2.198.1 https://www.vulkan.org/
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.14.1
@@ -1051,7 +1051,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.2.3 http://blueman-project.org
+-blueman: 2.2.4 http://blueman-project.org
 -ddd: 3.3.12 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
@@ -1060,7 +1060,7 @@ xap series:
 -freerdp: 2.5.0 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 1.7.2 http://sourceforge.net/projects/geeqie/files/geeqie/
--ghttp: 2.8.0b to 2.9.0b http://gftp.seul.org/
+-gftp: 2.9.0b http://gftp.seul.org/
 -gimp: 2.10.30 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4256 to 4323
+-gvim: 8.2.4256 to 4341
 -hexchat: 2.16.0 https://hexchat.github.io/
 -libnma: 1.8.32 to 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 97.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
