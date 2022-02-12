@@ -255,7 +255,7 @@ Ap series :
 	- vim: 8.2.4256
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
--xfsdump: 3.1.9 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
+-xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.4.pl2 https://www.gnu.org/software/xorriso
 -zsh: 5.8 http://ftp.fu-berlin.de/pub/unix/shells/zsh/
 ------------------
@@ -484,7 +484,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.4.1 to 4.6.0 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk4: 4.4.1 to 4.6.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 5.3.0 https://projects.gnome.org/gtksourceview/ 
