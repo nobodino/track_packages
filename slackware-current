@@ -221,7 +221,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
 -mpg123: 1.29.3 http://sourceforge.net/projects/mpg123/files/
--nano: 6.1 to 6.2 http://www.nano-editor.org/download.php
+-nano: 6.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 https://github.com/linux-nvme/nvme-cli
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4256 to 4417 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4256 to 4424 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4256
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -297,7 +297,7 @@ d series:
 -llvm: 13.0.1 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.0.2 to 6.0.3 https://mercurial.selenic.com/downloads
+-mercurial: 6.0.3 https://mercurial.selenic.com/downloads
 -meson: 0.59.4 to 0.61. http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
@@ -433,7 +433,7 @@ l series:
 -enchant: 2.3.2 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
--expat: 2.4.4 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.4.5 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4.1 to 5.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -664,7 +664,7 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.46 to 0.3.47 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.47 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -829,7 +829,7 @@ n series:
 -libmnl: 1.0.4 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
--libnetfilter_conntrack: 1.0.8 http://ftp.netfilter.org/pub/conntrack-tools/
+-libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cthelper: 1.0.0 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cttimeout: 1.0.0 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -844,7 +844,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20201225 to 20210805 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 http://ftp.bitwizard.nl/mtr/
--mutt: 2.2.0 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.1 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -nchttp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4256 to 4417
+-gvim: 8.2.4256 to 4424
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 97.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
