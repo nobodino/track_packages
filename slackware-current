@@ -22,7 +22,7 @@ A series :
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
 -cryptsetup: 2.4.3 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.12.20 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.12.20 to 1.12.22 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20220117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -76,7 +76,7 @@ A series :
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.18.1 to 3.19.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
--lrzip: 0.641 http://ck.kolivas.org/apps/lrzip/
+-lrzip: 0.641 to 0.650 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.15 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.23 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 180 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
@@ -179,7 +179,7 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.21.12 https://developers.hp.com/hp-linux-i...-and-printing/
+-hplip: 3.20.6 to 3.22.2 https://developers.hp.com/hp-linux-i...-and-printing/
 -htop: 3.1.2 https://htop.dev/
 -ispell: 3.4.04 http://ficus-www.cs.ucla.edu/geoff/ispell.html
 -inxi: 3.3.13_1 https://github.com/smxi/inxi
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4428 to 4464 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4428 to 4478 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4428
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -559,7 +559,7 @@ l series:
 -libimobiledevice-glue: 20211125 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.1.2 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.1.2 to 2.1.3 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -624,7 +624,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd
 -libwpg: 0.3.3 http://libwpg.sourceforge.net/
 -libxklavier: 5.4 http://www.freedesktop.org/wiki/Software/LibXklavier
--libxml2: 2.9.12 http://xmlsoft.org/sources/
+-libxml2: 2.9.12 to 2.9.13 http://xmlsoft.org/sources/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.4.0 http://xkbcommon.org/
 -libxslt: 1.1.34 http://xmlsoft.org/
@@ -1042,7 +1042,7 @@ x series: (main packages)
 --------------------
 xap series:
 --------------------
--MPlayer: 20210418 https://mplayerhq.hu/design7/news.html
+-MPlayer: 20210418 to 1.5 https://mplayerhq.hu/design7/news.html
 	-Mplayer: 20210418
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.8.16
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4428 to 4464
+-gvim: 8.2.4428 to 4478
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 97.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
