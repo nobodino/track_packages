@@ -22,7 +22,7 @@ A series :
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
 -cryptsetup: 2.4.3 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.12.20 to 1.12.22 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.12.22 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20220117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -65,7 +65,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.16.11 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220218 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220228 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
 -less: 581.2 to 600 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -244,14 +244,14 @@ Ap series :
 -sqlite: 3.38.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5 http://squashfs.sourceforge.net/
 -sudo: 1.9.9 http://www.courtesan.com/sudo/current.html
--sysstat: 12.5.5 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.5.6 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.2a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4428 to 4478 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4428 to 4485 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4428
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -268,7 +268,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.38 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.5.1 https://ccache.dev/download.html
+-ccache: 4.6 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -334,7 +334,7 @@ d series:
 -python3: 3.9.10 to 3.10.2 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
--rcs: 5.10.0 to 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
+-rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.0.3 to 3.1.1 http://www.ruby-lang.org/
@@ -513,7 +513,7 @@ l series:
 -lame: 3.100 http://lame.sourceforge.net
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
 -lcms2: 2.13.1 http://sourceforge.net/projects/lcms/files/lcms/
--lensfun: 0.3.95 https://lensfun.github.io/
+-lensfun: 0.3.95 to 0.3.3 https://lensfun.github.io/
 -libaio: 0.3.111 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
@@ -559,7 +559,7 @@ l series:
 -libimobiledevice-glue: 20211125 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.1.2 to 2.1.3 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.1.3 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -624,10 +624,10 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd
 -libwpg: 0.3.3 http://libwpg.sourceforge.net/
 -libxklavier: 5.4 http://www.freedesktop.org/wiki/Software/LibXklavier
--libxml2: 2.9.12 to 2.9.13 http://xmlsoft.org/sources/
+-libxml2: 2.9.13 http://xmlsoft.org/sources/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.4.0 http://xkbcommon.org/
--libxslt: 1.1.34 http://xmlsoft.org/
+-libxslt: 1.1.35 http://xmlsoft.org/
 -libzip: 1.8.0 http://www.nih.at/libzip/
 -lmdb: 0.9.29 https://git.openldap.org/openldap/openldap/-/archive/
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth
@@ -920,7 +920,7 @@ n series:
 -uucp: 1.07 to 1.07-27.debian.tar.xz http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
--wget: 1.21.2 http://ftp.gnu.org/gnu/wget/
+-wget: 1.21.3 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.0.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.12 https://github.com/rfc1036/whois
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
@@ -1038,7 +1038,7 @@ x series: (main packages)
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
--xterm: 370 to 371 http://invisible-island.net/xterm/
+-xterm: 371 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4428 to 4478
+-gvim: 8.2.4428 to 4485
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 97.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1106,7 +1106,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.03 http://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.02 http://www.jwz.org/xscreensaver/
+-xscreensaver: 6.03 http://www.jwz.org/xscreensaver/
 -xsnow: 3.4.3 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.16.x https://gitlab.xfce.org/xfce/
