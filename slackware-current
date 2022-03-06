@@ -190,7 +190,7 @@ Ap series :
 -ksh93: 1.0_20220219 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
-	- asciidoc: 9.10.1-3.fc35 to 10.1.0 http://www.methods.co.nz/asciidoc/
+	- asciidoc: 9.10.1-3.fc35 to 10.1.14 http://www.methods.co.nz/asciidoc/
 	- docbook-dsssl: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-dsssl-doc: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-style-xsl: 1.79.2-15.fc35 http://downloads.sourceforge.net/project/docbook/docbook-xsl/
@@ -243,7 +243,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.38.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5 http://squashfs.sourceforge.net/
--sudo: 1.9.9 to 1.9.10 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.10 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.6 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -251,8 +251,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4428 to 4488 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.4428
+-vim: 8.2.4507 to 4516 http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.4507
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -273,7 +273,7 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.22.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.22.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -289,7 +289,7 @@ d series:
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 https://gyp.gsrc.io/
 -help2man: 1.49.1 http://ftp.gnu.org/gnu/help2man/
--icecream: 1.3.1 https://github.com/icecc/icecream
+-icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 5.16.12 http://wwww.kernel.org
@@ -433,7 +433,7 @@ l series:
 -enchant: 2.3.2 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
--expat: 2.4.6 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.4.7 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4.1 to 5.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -544,7 +544,7 @@ l series:
 -libffi: 3.3 http://sourceware.org/pub/libffi
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.28 http://www.gphoto.org/
+-libgphoto2: 2.5.29 http://www.gphoto.org/
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.48 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
@@ -644,7 +644,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
 -neon: 0.32.2 https://notroj.github.io/neon/
--netpbm: 10.97.04 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 10.97.05 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.20 to 0.52.21 https://releases.pagure.org/newt
 -nodejs: 16.14.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
@@ -656,7 +656,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.48.11 to 1.50.4 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.11 to 1.50.5 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.50.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
@@ -714,7 +714,7 @@ l series:
 -python-urllib3: 1.26.8 https://urllib3.readthedocs.io/
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.3_20220222 https://invent.kde.org/qt/qt/qt5.git
+-qt5: 5.15.3_20220304 https://invent.kde.org/qt/qt/qt5.git
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.2 https://github.com/stachenov/quazip
@@ -786,7 +786,7 @@ n series:
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2021.08.28 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.81.0 http://curl.haxx.se/download/
+-curl: 7.82.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 http://www.cyrusimap.org/sasl/
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -798,7 +798,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.16 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.27 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.27 to 6.4.28 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.34 https://www.gnupg.org/download/index.html
@@ -1075,11 +1075,11 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4428 to 4488
+-gvim: 8.2.4507 to 4516
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 97.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.6.1 https://www.thunderbird.net/
+-mozilla-firefox: 97.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 91.6.2 https://www.thunderbird.net/
 -network-manager-applet: 1.24.0
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
