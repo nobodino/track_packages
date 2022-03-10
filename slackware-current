@@ -610,7 +610,7 @@ l series:
 -libusb: 1.0.24 to 1.0.25 https://github.com/libusb/libusb
 -libusb-compat: 0.1.7 http://libusb.info
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
--libuv: 1.44.0 https://dist.libuv.org/dist
+-libuv: 1.44.0 to 1.44.1 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.0 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 http://sourceforge.net/projects/libvisual/
@@ -995,7 +995,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.7 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.3.7 to 22.0.0 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
