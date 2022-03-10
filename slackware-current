@@ -483,7 +483,7 @@ l series:
 -gstreamer: 1.20.0 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.31 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.31 to 3.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.4.1 to 4.6.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 https://download.gnome.org/sources/gtkmm/
@@ -804,7 +804,7 @@ n series:
 -gnupg2: 2.2.34 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.3 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.17.0 https://www.gnupg.org/download/index.html
+-gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.52 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
