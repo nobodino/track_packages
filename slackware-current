@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.16..13 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.16.14 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220309 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -228,7 +228,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
--qpdf: 10.6.2 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 10.6.3 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rpm: 4.16.1.3 to 4.17.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -241,7 +241,7 @@ Ap series :
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.38.0 http://www.sqlite.org/download.html
+-sqlite: 3.38.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5 http://squashfs.sourceforge.net/
 -sudo: 1.9.10 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.6 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4522 to 4542 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4522 to 4554 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4522
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.16..13 http://wwww.kernel.org
+-kernel-headers: 5.16.14 http://wwww.kernel.org
 -libtool: 2.4.6 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -366,7 +366,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.16..13
+-kernel : 5.16.14
 --------------------
 kde series :
 --------------------
@@ -490,7 +490,7 @@ l series:
 -gtksourceview3: 3.24.11 to 5.3.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 4.0.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 4.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -587,7 +587,7 @@ l series:
 -libqalculate:https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.52.6 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.52.7 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate
 -libsass: 3.6.4 https://github.com/sass/libsass
 -libsigc++: 2.10.7 to 2.10.8 https://github.com/libsigcplusplus/libsigcplusplus
@@ -819,7 +819,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 https://github.com/irssi/irssi
 -iw: 5.16 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.19.2 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.19.2 to 1.19.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.0 https://www.gnupg.org/download/index.html
@@ -1046,7 +1046,7 @@ xap series:
 -MPlayer: 20210418 to 1.5 https://mplayerhq.hu/design7/news.html
 	-Mplayer: 20210418
 	-Blue: 1.10 (skin)
--NetworkManager-openvpn: 1.8.16
+-NetworkManager-openvpn: 1.8.18
 -audacious: 4.1 http://audacious-media-player.org/release/
 -audacious-plugins: 4.1 
 -blackbox:
@@ -1075,7 +1075,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4522 to 4542
+-gvim: 8.2.4522 to 4554
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1102,7 +1102,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.11 to 1.2.12 https://sourceforge.net/projects/xine/
 -xine-ui: 0.99.13 https://sourceforge.net/projects/xine/
--xlockmore: 5.68 http://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+-xlockmore: 5.69 http://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.03 http://ftp.foolabs.com/pub/xpdf
@@ -1131,7 +1131,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-power-manager: 4.16.0
 -xfce4-pulseaudio-plugin: 0.4.3
 -xfce4-screensaver: 0.1.11
--xfce4-screenshooter: 1.9.9
+-xfce4-screenshooter: 1.9.10
 -xfce4-session: 4.16.0
 -xfce4-settings: 4.16.2
 -xfce4-systemload-plugin: 1.2.4
