@@ -331,7 +331,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.10 to 3.10.2 (new API) https://www.python.org/downloads/
+-python3: 3.9.10 to 3.10.3 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
