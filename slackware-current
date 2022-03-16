@@ -93,7 +93,7 @@ A series :
 -ndctl: 71.1 to 72 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2021.08.22 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 https://sites.google.com/a/bostic.com/keithbostic/vi/
--openssl-solibs: 1.1.1m http://www.openssl.org/
+-openssl-solibs: 1.1.1m to 1.1.1n http://www.openssl.org/
 -os-prober: 1.77 to 1.79 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4522 to 4563 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4522 to 4567 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4522
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -501,7 +501,7 @@ l series:
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.9.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
--jasper: 3.0.2 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 3.0.3 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 https://github.com/jemalloc/jemalloc
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.15_20200726 https://github.com/json-c/json-c
@@ -714,7 +714,7 @@ l series:
 -python-urllib3: 1.26.8 https://urllib3.readthedocs.io/
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.3_20220304 https://invent.kde.org/qt/qt/qt5.git
+-qt5: 5.15.3_20220312 https://invent.kde.org/qt/qt/qt5.git
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.2 https://github.com/stachenov/quazip
@@ -819,7 +819,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 https://github.com/irssi/irssi
 -iw: 5.16 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.19.2 to 1.19.3 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.19.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.0 https://www.gnupg.org/download/index.html
@@ -882,7 +882,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 8.9p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1m to 3.0.1 http://ftp.openssl.org/source/
+-openssl: 1.1.1m to 1.1.1n/3.0.2 http://ftp.openssl.org/source/
 -openvpn: 2.5.5 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -903,12 +903,12 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.23 http://www.sdaoden.eu/downloads
--samba: 4.15.5 https://ftp.samba.org/pub/samba/
+-samba: 4.15.6 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.2 https://github.com/libfuse/sshfs
--stunnel: 5.62 https://www.stunnel.org/downloads.html
+-stunnel: 5.63 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1076,7 +1076,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4522 to 4563
+-gvim: 8.2.4522 to 4567
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0 to 98.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1163,7 +1163,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -php80: 8.0.16
--php81: 8.1.3
+-php81: 8.1.3 to 8.1.4
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
