@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.6 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.3 to 3.2.4 (pb) http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 5.2.2 https://git.yzena.com/gavin/bc
+-bc: 1.07.1 to 5.2.3 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.4 http://sourceforge.net/projects/cdrdao/files/cdrdao/
@@ -214,7 +214,7 @@ Ap series :
 -lxc: 4.0.12 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.10.1 http://www.nongnu.org/man-db/
+-man-db: 2.10.1 to 2.10.2 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.6.7 http://mariadb.org/
 -mc: 4.8.27 http://www.midnight-commander.org/downloads/
