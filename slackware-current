@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4522 to 4586 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4522 to 4602 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4522
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -448,7 +448,7 @@ l series:
 -gc: 8.0.6 to 8.2.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
--gdk-pixbuf2: 2.42.6 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.6 to 2.42.8 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.36 https://download.gimp.org/pub/gegl/
@@ -497,7 +497,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 70.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_27 http://www.imagemagick.org/
+-imagemagick: 7.1.0_27 to 28 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.9.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -798,7 +798,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.16 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.28 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.28 to 6.4.29 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.34 https://www.gnupg.org/download/index.html
@@ -1011,7 +1011,6 @@ x series: (main packages)
 -vulkan-sdk: 1.3.204.0 https://www.vulkan.org/
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
-
 -xcb-proto. 1.14.1
 -xdg-desktop-portal: 1.12.1
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
@@ -1076,7 +1075,7 @@ xap series:
 -gparted: 1.3.1 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4522 to 4586
+-gvim: 8.2.4522 to 4602
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0 to 98.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
