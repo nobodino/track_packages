@@ -103,7 +103,7 @@ A series :
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 http://www.nongnu.org/lzip/plzip.html
--procps-ng: 3.3.17
+-procps-ng: 3.3.17 to 4.0.0
 	-procps-ng: 3.3.17 http://sourceforge.net/projects/procps-ng/files/Production/
 	-psmisc: 23.3 to 23.4
 -quota: 4.06 http://www.sf.net/projects/linuxquota/
@@ -166,7 +166,7 @@ Ap series :
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
 -cups-filters: 1.28.12 https://www.openprinting.org/download/cups-filters/
--dash: 0.5.11.4 to 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
+-dash: 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.26 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.64 http://invisible-island.net/diffstat/diffstat.html
@@ -306,7 +306,7 @@ d series:
 -opencl-headers: 2021.04.29 to 2021.06.30 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
--parallel: 20220222 to 20220322 https://www.gnu.org/software/parallel/
+-parallel: 20220322 https://www.gnu.org/software/parallel/
 -patchelf: 0.14.5 https://github.com/NixOS/patchelf
 -perl: 5.34.1
 	- Authen-SASL: 2.16
@@ -333,7 +333,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.10 to 3.9.11/3.10.3 (new API) https://www.python.org/downloads/
+-python3: 3.9.11 to 3.9.12/3.10.4 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -393,7 +393,7 @@ l series:
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 41.0 http://braumeister.org/formula/gnome-icon-theme
+-adwaita-icon-theme: 42.0 http://braumeister.org/formula/gnome-icon-theme
 -akonadi: 1.13.0 http://community.kde.org/KDE_PIM/Akonadi
 -alsa-lib: 1.2.6.1 http://ftp.alsa-project.org/pub/lib
 -alsa-oss: 1.1.9 http://ftp.alsa-project.org/pub/oss-lib
@@ -473,7 +473,7 @@ l series:
 -graphene: 1.10.8 https://github.com/ebassi/graphene
 -graphite2: 1.3.14 https://scripts.sil.org/cms/scripts/...graphite_fonts
 -grantlee: 5.2.0 https://github.com/steveire/grantlee
--gsettings-desktop-schemas: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
+-gsettings-desktop-schemas: 42.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7 to 2.7.1 http://www.gnu.org/software/gsl/
 -gst-plugins-base: 1.20.0 to 1.20.1  https://gstreamer.freedesktop.org/src/
 -gst-plugins-bad-free: 1.20.0 to 1.20.1  https://gstreamer.freedesktop.org/src/
@@ -489,7 +489,7 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 4.0.1 to 4.1.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 4.1.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -583,7 +583,7 @@ l series:
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.17 https://github.com/libproxy/libproxy
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
--libqalculate:https://github.com/Qalculate/libqalculate
+-libqalculate:4.1.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.52.7 to 2.54.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -720,7 +720,7 @@ l series:
 -readline: 8.1.002 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4. https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
--rubygem-asciidoctor: 2.0.15 to 2.0.16 https://rubygems.org/gems/asciidoctor
+-rubygem-asciidoctor: 2.0.17 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
 -sg3_utils: 1.47 http://sg.danny.cz/sg/sg3_utils.html
@@ -766,7 +766,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.36.2 to 1.36.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.36.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.25
 	-alpine: 2.25 http://patches.freeiz.com/alpine
 	-pinepgp: 0.18.0
@@ -797,7 +797,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.6 http://www.epicsol.org/
 -ethtool: 5.16 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.28 to 6.4.29 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.29 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.34 https://www.gnupg.org/download/index.html
@@ -809,7 +809,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.16.0 to 5.17.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.17.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.7 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -902,7 +902,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.23 http://www.sdaoden.eu/downloads
--samba: 4.15.6 to 4.16.0 https://ftp.samba.org/pub/samba/
+-samba: 4.16.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1078,9 +1078,9 @@ xap series:
 -gvim: 8.2.4522 to 4611
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 98.0.1 to 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.7.0 https://www.thunderbird.net/
--network-manager-applet: 1.24.0
+-network-manager-applet: 1.26.0
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.8
