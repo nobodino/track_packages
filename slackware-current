@@ -333,7 +333,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.11 to 3.9.12/3.10.4 (new API) https://www.python.org/downloads/
+-python3: 3.9.12 to 3.10.4 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
 -python-setuptools: 58.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -405,13 +405,13 @@ l series:
 -aspell-en: 2020.12.07
 -at-spi2-atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
 -at-spi2-core: 2.42.0 to 2.44.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
--atk: 2.36.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
+-atk: 2.36.0 to 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.2 to 2.36.1 http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 http://oss.sgi.com/projects/audiofile/download/
 -babl: 0.1.90 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.78.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
--cairo: 1.16.0 http://cairographics.org/releases/
+-cairo: 1.16.0 to 1.17.6 http://cairographics.org/releases/
 -cairomm: 1.12.2 to 1.16.1 http://cairographics.org/cairomm/
 -cfitsio: 3.49 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
@@ -546,7 +546,7 @@ l series:
 -libgphoto2: 2.5.29 http://www.gphoto.org/
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
--libgsf: 1.14.48 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
+-libgsf: 1.14.48 to 1.14.49 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://gitlab.gnome.org/GNOME/libgtop
 -libid3tag: 0.15.1b http://ftp.mars.org/pub/mpeg/
 -libical: 3.0.14 https://libical.github.io/libical/
@@ -566,6 +566,7 @@ l series:
 -libmpc: 1.2.1 http://www.multiprecision.org
 -libmtp: 1.1.19 http://libmtp.sourceforge.net/
 -libnice: 0.1.18 https://libnice.freedesktop.org/#download
+
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
@@ -1091,7 +1092,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 to 1.1.1 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0.14_4.diff.gz http://ftp.mostang.com/pub/sane
--seamonkey: 2.53.11 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.11 to 2.53.11.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
