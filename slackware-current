@@ -184,7 +184,7 @@ Ap series :
 -hplip: 3.20.6 to 3.22.2 https://developers.hp.com/hp-linux-i...-and-printing/
 -htop: 3.1.2 https://htop.dev/
 -ispell: 3.4.05 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 3.3.13_1 https://github.com/smxi/inxi
+-inxi: 3.3.1_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -644,7 +644,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
 -neon: 0.32.2 https://notroj.github.io/neon/
--netpbm: 10.97.05 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 10.97.06 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.20 to 0.52.21 https://releases.pagure.org/newt
 -nodejs: 16.14.1 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
@@ -845,12 +845,12 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20220316 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 http://ftp.bitwizard.nl/mtr/
--mutt: 2.2.1 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.1 to 2.2.2 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -nchttp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
 -net-tools: 20170208_479bb4a to 2.10 (07012021) https://github.com/ecki/net-tools
--netatalk: 3.1.12 to 3.1.13 http://netatalk.sourceforge.net/
+-netatalk: 3.1.13 http://netatalk.sourceforge.net/
 -netdate: diff2.gz to 1.2 (gentoo)
 -netkit-xxx: 0.17 to inetutils-1.9.4
 	- netkit-bootparamd
@@ -971,7 +971,7 @@ x series: (main packages)
 -libpciaccess: 0.16
 -libdrm: 2.4.110 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases/download/
--libevdev: 1.12.0 http://www.freedesktop.org/software/libevdev/
+-libevdev: 1.12.1 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
 -libglvnd: 1.3.3 to 1.3.4 (pb) https://github.com/NVIDIA/libglvnd/releases
 -libinput: 1.20.0 http://www.freedesktop.org/software/libinput/
@@ -1011,9 +1011,7 @@ x series: (main packages)
 -vulkan-sdk: 1.3.204.0 https://www.vulkan.org/
 -wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
-
 -xcb-proto. 1.14.1
--xdg-desktop-portal: 1.12.1
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.11
 -xinit: 1.4.1
@@ -1092,7 +1090,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 to 1.1.1 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0.14_4.diff.gz http://ftp.mostang.com/pub/sane
--seamonkey: 2.53.11 to 2.53.11.1 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.11.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
