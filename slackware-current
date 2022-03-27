@@ -61,7 +61,7 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inih: r53 https://github.com/benhoyt/inih
+-inih: r53 to r55 https://github.com/benhoyt/inih
 -inotify-tools: 3.20.11.0 to 3.21.9.6 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
@@ -243,7 +243,7 @@ Ap series :
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.38.1 http://www.sqlite.org/download.html
+-sqlite: 3.38.1 to 3.38.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.10 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.6 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -408,7 +408,7 @@ l series:
 -atk: 2.36.0 to 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.2 to 2.36.1 http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 http://oss.sgi.com/projects/audiofile/download/
--babl: 0.1.90 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.90 to 0.1.92 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.78.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 to 1.17.6 http://cairographics.org/releases/
@@ -459,7 +459,7 @@ l series:
 -gjs: 1.70.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.70.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.70.1 to 2.72.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.70.4 to 2.70.5/2.72.0 https://www.gtk.org
 -glibmm: 2.64.5 to 2.70.0 http://www.gtkmm.org/
 -glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
@@ -902,7 +902,7 @@ n series:
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.23 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.23 to 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.16.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
@@ -1079,7 +1079,7 @@ xap series:
 -libnma: 1.8.34 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.7.0 https://www.thunderbird.net/
--network-manager-applet: 1.26.0
+-network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.8
