@@ -344,7 +344,7 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
--strace: 5.16 https://github.com/strace/strace/releases
+-strace: 5.16 to 5.17 https://github.com/strace/strace/releases
 -subversion: 1.14.1 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
 -vala: 0.54.0 to 0.56.0 https://wiki.gnome.org/Projects/Vala
@@ -1095,7 +1095,7 @@ xap series:
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
--x3270: 4.0ga14 to 4.1ga12 http://x3270.bgp.nu/download.html
+-x3270: 4.0ga14 to 4.1ga13 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 http://xaos.sf.net
 -xeyes: 1.2.0
 -xgames: 0.2
