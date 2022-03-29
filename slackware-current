@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.0 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.17.1 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220318 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
@@ -118,7 +118,7 @@ A series :
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.3.0 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 3.01 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 3.01 to 3.02 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -132,11 +132,11 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch
 -usbutils: 014 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 (libutempter) https://github.com/altlinux/libutempter or http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.37.4 to 2.38.0
+-util-linux: 2.38
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz http://ibiblio.org/pub/linux/system/admin/time/
 	- net-tools: 20181103 or git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz http://tsx-11.mit.edu/pub/linux/sources/sbin/
-	- util-linux: 2.37.4 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.38 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
@@ -165,7 +165,7 @@ Ap series :
 	- cups: 2.4.1
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.12 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.13 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.26 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.0 http://wwww.kernel.org
+-kernel-headers: 5.17.1 http://wwww.kernel.org
 -libtool: 2.4.6 to 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.0
+-kernel : 5.17.1
 --------------------
 kde series :
 --------------------
@@ -733,7 +733,7 @@ l series:
 	-SDL_sound: 1.0.3 https://www.libsdl.org/projects/SDL_sound/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
--shared-mime-info: 2.1 http://freedesktop.org/wiki/Software/shared-mime-info/
+-shared-mime-info: 2.2 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.25 to 6.5.0 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.2 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
@@ -761,7 +761,7 @@ l series:
 -woff2: 20180531 https://github.com/google/woff2
 -xapian-core: 1.4.18 http://www.xapian.org/
 -xxHash: 0.8.1 https://github.com/Cyan4973/xxHash
--zlib: 1.2.11 http://www.gzip.org/zlib/
+-zlib: 1.2.12 http://www.gzip.org/zlib/
 -zstd: 1.5.2 https://facebook.github.io/zstd/
 --------------------
 n series:
@@ -796,7 +796,7 @@ n series:
 -dovecot: 2.3.18 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 2.1.6 http://www.epicsol.org/
+-epic5: 2.1.7 http://www.epicsol.org/
 -ethtool: 5.16 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.29 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
@@ -822,7 +822,7 @@ n series:
 -krb5: 1.19.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
--libgcrypt: 1.10.0 to 1.10.1 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.44 https://www.gnupg.org/download/index.html
 -libksba: 1.6.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.26.2 http://www.freedesktop.org/software/libmbim/
@@ -902,7 +902,7 @@ n series:
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.23 to 14.9.24 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.16.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
@@ -982,7 +982,7 @@ x series: (main packages)
 -libva: 2.14.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.14.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.5 http://people.freedesktop.org/~aplattner/vdpau/
--libwacom: 2.1.0 https://github.com/linuxwacom
+-libwacom: 2.2.0 https://github.com/linuxwacom
 -libXaw: 1.0.14 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.14
@@ -1071,7 +1071,7 @@ xap series:
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.2 to 5.4.3 http://sourceforge.net/projects/gnuplot/files/gnuplot/
--gparted: 1.3.1 https://gparted.org/
+-gparted: 1.3.1 to 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.2.4639
