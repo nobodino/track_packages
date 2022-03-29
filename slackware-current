@@ -372,7 +372,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.24.3 (plasma) https://download.kde.org/stable/
+-kde: 5.24.3 to 5.24.4 (plasma) https://download.kde.org/stable/
 -kde: 5.92.0 (framework) https://download.kde.org/stable/
 -kde: 21.12.3 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -435,7 +435,7 @@ l series:
 -enchant: 2.3.2 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
--expat: 2.4.7 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.4.7 to 2.4.8 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4.1 to 5.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -665,7 +665,7 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.48 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.48 to 0.3.48 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -756,7 +756,7 @@ l series:
 -utf8proc: 2.7.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 https://github.com/georgmartius/vid.stab.git
--vte: 0.66.2 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.66.2 to 0.68.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.4.0 http://www.wavpack.com/
 -woff2: 20180531 https://github.com/google/woff2
 -xapian-core: 1.4.18 http://www.xapian.org/
