@@ -61,8 +61,8 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inih: r53 to r55 https://github.com/benhoyt/inih
--inotify-tools: 3.20.11.0 to 3.21.9.6 https://github.com/rvoicilas/inotify-tools/releases
+-inih: r55 https://github.com/benhoyt/inih
+-inotify-tools: 3.22.1.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
@@ -118,7 +118,7 @@ A series :
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.3.0 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 3.01 to 3.02 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 3.02 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -153,7 +153,7 @@ Ap series :
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
 -alsa-utils: 1.2.6 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
--at: 3.2.3 to 3.2.4 (pb) http://ftp.debian.org/debian/pool/main/a/at/
+-at: 3.2.3 to 3.2.5 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 5.2.3 https://git.yzena.com/gavin/bc
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
@@ -177,7 +177,7 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.3.4 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.55.0 https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 9.55.0 to 9.56.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4639 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4639 to 4647 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4639
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -275,7 +275,7 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.22.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.22.3 to 3.23.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -372,7 +372,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.24.3 to 5.24.4 (plasma) https://download.kde.org/stable/
+-kde: 5.24.4 (plasma) https://download.kde.org/stable/
 -kde: 5.92.0 (framework) https://download.kde.org/stable/
 -kde: 21.12.3 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -435,14 +435,14 @@ l series:
 -enchant: 2.3.2 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
--expat: 2.4.7 to 2.4.8 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.4.8 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4.1 to 5.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.6 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.11.1 http://sourceforge.net/projects/freetype/files/freetype2/
--frei0r-plugins: 1.7.0 https://files.dyne.org/frei0r
+-frei0r-plugins: 1.7.0 to 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 to 1.0.11 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.10.5 https://github.com/libfuse/libfuse
@@ -595,7 +595,7 @@ l series:
 -libseccomp: 2.5.3 https://github.com/seccomp/libseccomp
 -libsecret: 0.20.5 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
--libsndfile: 1.0.31 https://github.com/erikd/libsndfile/
+-libsndfile: 1.0.31 to 1.1.0 https://github.com/erikd/libsndfile/
 -libsodium: 1.0.17 to 1.0.18 https://libsodium.org
 -libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
@@ -637,8 +637,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.4.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.76 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.76 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.76.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.76.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.32 to 4.33 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -665,7 +665,7 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 http://www.pilot-link.org/source/
--pipewire: 0.3.48 to 0.3.48 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.49 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -995,7 +995,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 22.0.0 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
+-mesa: 21.3.8 to 22.0.1 http://ftp.freedesktop.org/pub/mesa/ (mesa-demo: 8.2.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1071,10 +1071,10 @@ xap series:
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.2 to 5.4.3 http://sourceforge.net/projects/gnuplot/files/gnuplot/
--gparted: 1.3.1 to 1.4.0 https://gparted.org/
+-gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4639
+-gvim: 8.2.4639 to 4647
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.36 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
