@@ -331,7 +331,7 @@ d series:
 	- perl: 5.34.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
--poke: 2.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 2.1 to 2.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.12 to 3.10.4 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
