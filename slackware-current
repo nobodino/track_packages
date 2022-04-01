@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4659 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -441,7 +441,7 @@ l series:
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.6 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
--freetype: 2.11.1 http://sourceforge.net/projects/freetype/files/freetype2/
+-freetype: 2.11.1 to 2.12.0 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.7.0 to 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 to 1.0.11 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
@@ -637,7 +637,7 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.6.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.76.1 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.76.1 to 3.77 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.76.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.32 to 4.33 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649
+-gvim: 8.2.4649 to 4659
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.36 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
