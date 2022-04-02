@@ -669,7 +669,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.12.0 to 22.0.3 http://poppler.freedesktop.org/
+-poppler: 21.12.0 to 22.0.4 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 http://ftp.rpm.org/pub/rpm/popt/releases
 -pulseaudio: 14.5 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
