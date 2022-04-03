@@ -177,7 +177,7 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.3.4 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.55.0 to 9.56.0 https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 9.56.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4659 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4669 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -331,7 +331,7 @@ d series:
 	- perl: 5.34.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
--poke: 2.1 to 2.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 2.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.12 to 3.10.4 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.0.3 https://pip.pypa.io/
@@ -441,8 +441,8 @@ l series:
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.6 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
--freetype: 2.11.1 to 2.12.0 http://sourceforge.net/projects/freetype/files/freetype2/
--frei0r-plugins: 1.7.0 to 1.8.0 https://files.dyne.org/frei0r
+-freetype: 2.12.0 http://sourceforge.net/projects/freetype/files/freetype2/
+-frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.10 to 1.0.11 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.10.5 https://github.com/libfuse/libfuse
@@ -595,7 +595,7 @@ l series:
 -libseccomp: 2.5.3 https://github.com/seccomp/libseccomp
 -libsecret: 0.20.5 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
--libsndfile: 1.0.31 to 1.1.0 https://github.com/erikd/libsndfile/
+-libsndfile: 1.1.0 https://github.com/erikd/libsndfile/
 -libsodium: 1.0.17 to 1.0.18 https://libsodium.org
 -libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
@@ -637,8 +637,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.6.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.76.1 to 3.77 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.76.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.77 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.77 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.32 to 4.33 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -958,7 +958,7 @@ x series: (main packages)
 -fcitx: 4.2.9.8 https://fcitx-im.org/wiki/Fcitx
 -fcitx-configtool: 0.4.10 https://download.fcitx-im.org/fcitx-configtool
 -fcitx-qt5: 1.2.7 https://fcitx-im.org/wiki/Fcitx
--fontconfig: 2.13.92 to 93 (pb) http://freedesktop.org/software/fontconfig
+-fontconfig: 2.13.92 to 2.14.0 http://freedesktop.org/software/fontconfig
 -freeglut: 3.2.2 http://freeglut.sourceforge.net/
 -glew: 2.2.0 http://glew.sourceforge.net
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
@@ -991,7 +991,7 @@ x series: (main packages)
 -libXpm: 3.5.13
 -libXft: 2.3.4
 -libXi: 1.8
--libX11: 1.7.3.1
+-libX11: 1.7.4
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
@@ -1018,7 +1018,7 @@ x series: (main packages)
 -xkeyboard-config: 2.34
 -xorgproto: 2021.5
 -xorg-server: 1.20.14 to 21.1.3 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.3 to 22.1.0
+-xorg-server-xwayland: 21.1.3 to 22.1.1
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.0.0
 -xf86-video-amdgpu: 22.0.0
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4659
+-gvim: 8.2.4649 to 4669
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.36 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1117,7 +1117,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -garcon: 4.16.1
 -libxfce4ui: 4.16.1
 -libxfce4util: 4.16.0
--mousepad: 0.5.8
+-mousepad: 0.5.9
 -thunar: 4.16.10 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.16.0
 -tumbler: 4.16.0
