@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4669 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4681 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -431,7 +431,7 @@ l series:
 -editorconfig-core-c: 0.12.5 https://github.com/editorconfig/editorconfig-core-c
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.186 http://sourceware.org/pub/elfutils/
--espeak-ng: 1.50.0 https://github.com/espeak-ng/espeak-ng
+-espeak-ng: 1.51 https://github.com/espeak-ng/espeak-ng
 -enchant: 2.3.2 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
@@ -779,7 +779,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20220309 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20220403 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.18.1 https://c-ares.org/
 -cifs-utils: 6.14 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -991,7 +991,7 @@ x series: (main packages)
 -libXpm: 3.5.13
 -libXft: 2.3.4
 -libXi: 1.8
--libX11: 1.7.4
+-libX11: 1.7.5
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4669
+-gvim: 8.2.4649 to 4681
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.36 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1118,7 +1118,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -libxfce4ui: 4.16.1
 -libxfce4util: 4.16.0
 -mousepad: 0.5.9
--thunar: 4.16.10 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.16.11 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.16.0
 -tumbler: 4.16.0
 -xfce4-appfinder: 4.16.1
@@ -1135,7 +1135,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-settings: 4.16.2
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
--xfce4-terminal: 0.8.10
+-xfce4-terminal: 0.8.10 to 1.0.0
 -xfce4-weather-plugin: 0.10.2
 -xfce4-whiskermenu-plugin: 2.6.2
 -xfconf: 4.16.0
