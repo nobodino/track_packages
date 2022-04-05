@@ -165,7 +165,7 @@ Ap series :
 	- cups: 2.4.1
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.13 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.13 to 1.28.14 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.26 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4681 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4691 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -437,7 +437,7 @@ l series:
 -exiv2: 0.27.5 http://www.exiv2.org/
 -expat: 2.4.8 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 4.4.1 to 5.0 https://ffmpeg.org/
+-ffmpeg: 4.4.1 to 5.0.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.6 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
@@ -1074,7 +1074,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4681
+-gvim: 8.2.4649 to 4691
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.36 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 98.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
