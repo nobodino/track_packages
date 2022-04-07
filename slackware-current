@@ -140,7 +140,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 5.13.0 (to 5.14.2 needs liburcu (userspace-rcu) and inh-r53) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.13.0 (to 5.15.0 needs liburcu (userspace-rcu) and inh-r53) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://www.netsw.org/system/tools/fileutils/archive/zoo/ ou http://ftp.kiarchive.ru/pub/unix/arcers/
@@ -340,7 +340,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.1.1 http://www.ruby-lang.org/
--rust: 1.59.0 https://rust-lang.org
+-rust: 1.59.0 to 1.60.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -494,7 +494,7 @@ l series:
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 70.1 https://icu.unicode.org/
+-icu4c: 70.1 to 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -imagemagick: 7.1.0_29 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
@@ -826,7 +826,7 @@ n series:
 -libksba: 1.6.0 https://www.gnupg.org/download/index.html
 -libmbim: 1.26.2 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.17.1 (sendmail)
--libmnl: 1.0.4 http://www.netfilter.org/projects/libmnl/
+-libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -834,7 +834,7 @@ n series:
 -libnetfilter_cttimeout: 1.0.0 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
--libnfnetlink: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
+-libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnftnl: 1.2.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.30.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
@@ -1077,7 +1077,7 @@ xap series:
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.36 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.7.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 91.8.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
