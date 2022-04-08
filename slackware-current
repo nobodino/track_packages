@@ -5,7 +5,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 A series :
 --------------------
 -aaa_base: 15.0
--aaa_glibc-solibs: 2.33
+-aaa_glibc-solibs: 2.35
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.3
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
@@ -14,9 +14,9 @@ A series :
 -bash: 5.1.016 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
-	- fbset: 2.1 to 2.1_29.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
+	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
 -btrfs-progs: 5.16.2 http://btrfs.wiki.kernel.org
--bzip2: 1.0.8 http://www.bzip.org/downloads.html
+-bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.0 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
@@ -24,33 +24,33 @@ A series :
 -cryptsetup: 2.4.3 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.14.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
--devs: 2.3.1_46.2.diff to 2.3.1_94.diff.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
+-devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20220117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.18 http://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 20191011 to 17 http://linux.dell.com/efibootmgr
--efivar: 20201015 to 38 https://github.com/rhboot/efivar
+-efibootmgr: 20191011 to 17 (08/09/2021) https://github.com/rhboot/efibootmgr
+-efivar: 20201015 to 38 (14/01/2022) https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elogind: 246.10.0 https://github.com/elogind/elogind
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
--eudev: 3.2.11 https://dev.gentoo.org/~blueness/eudev/
+-eudev: 3.2.11 https://github.com/eudev-project/eudev
 -exfatprogs: 1.1.2 to 1.1.3 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.14.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.41 https://www.darwinsys.com/file/ or http://ftp.astron.com/pub/file/
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
-	- fdutils: 5.5-20081027 http://fdutils.linux.lu/
+	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.38 https://www.gnu.org/software/mtools/
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
--genpower: 1.0.5 https://github.com/quinot/genpower
+-genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2022a
-	-tzcode: 2023a https://www.iana.org/time-zones
-	-tzdata: 2023a https://www.iana.org/time-zones
--gpm: 1.20.7 (gpm2-1.99.7) http://www.nico.schottelius.org/software/gpm/
--gptfdisk: 1.0.8 http://www.rodsbooks.com/gdisk/
+	-tzcode: 2022a https://www.iana.org/time-zones
+	-tzdata: 2022a https://www.iana.org/time-zones
+-gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
+-gptfdisk: 1.0.8 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.12 http://ftp.gnu.org/pub/gnu/gzip/
@@ -70,13 +70,13 @@ A series :
 -kernel-firmware: 20220318 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download
--less: 581.2 to 600 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.26 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.6 https://github.com/rhinstaller/libbytesize
--libgudev: 237 http://wiki.gnome.org/Projects/libgudev
+-libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
--lilo: 24.2 http://alioth.debian.org/projects/lilo/
+-lilo: 24.2 to 24.2-5.1.debian.tar.xz http://alioth.debian.org/projects/lilo/
 -logrotate: 3.19.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.15 https://mirrors.kernel.org/sourceware/lvm2/
@@ -85,22 +85,22 @@ A series :
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://alioth.debian.org/
-	- lrzsz: 0.12.21_5.diff.gz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
+	- lrzsz: 0.12.21 to 0.12.21_10.debian.tar.xz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
 	- busybox: 1.32.1 to 1.34.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 5.0 https://github.com/vapier/ncompress
--ndctl: 71.1 to 72 https://github.com/pmem/ndctl/releases
+-ndctl: 71.1 to 73 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2021.08.22 https://github.com/tuxera/ntfs-3g
--nvi: 1.81.6 https://sites.google.com/a/bostic.com/keithbostic/vi/
+-nvi: 1.81.6 http://www.bostic.com/vi/
 -openssl-solibs: 1.1.1n http://www.openssl.org/
 -os-prober: 1.77 to 1.79 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.7.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
--pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
+-pcmciautils: 018 to 0.18-13.debian.tar.xz http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 http://www.nongnu.org/lzip/plzip.html
 -procps-ng: 3.3.17 to 4.0.0
@@ -128,13 +128,13 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.3 to 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.99.13 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 0.99.13 to 0.99.17 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch
 -usbutils: 014 https://www.kernel.org/pub/linux/utils/usb/usbutils/
--utempter: 1.2.0 (libutempter) https://github.com/altlinux/libutempter or http://ftp.altlinux.org/pub/people/ldv/utempter/
+-utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
 -util-linux: 2.38
 	- adjtimex: 1.23_1.diff.gz to 1.29-5.debian.tar.xz http://ibiblio.org/pub/linux/system/admin/time/
-	- net-tools: 20181103 or git://git.code.sf.net/p/net-tools/code net-tools-code
+	- net-tools: 20181103 git://git.code.sf.net/p/net-tools/code net-tools-code
 	- setserial: 2.17 to 2.17-48.debian.tar.gz http://tsx-11.mit.edu/pub/linux/sources/sbin/
 	- util-linux: 2.38 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
@@ -181,10 +181,10 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.22.2 https://developers.hp.com/hp-linux-i...-and-printing/
+-hplip: 3.20.6 to 3.22.2 http://hplipopensource.com
 -htop: 3.1.2 https://htop.dev/
--ispell: 3.4.05 http://ficus-www.cs.ucla.edu/geoff/ispell.html
--inxi: 3.3.1_1 https://github.com/smxi/inxi
+-ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
+-inxi: 3.3.14_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -226,7 +226,7 @@ Ap series :
 -nano: 6.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
--nvme-cli: 1.16 https://github.com/linux-nvme/nvme-cli
+-nvme-cli: 1.16 2.0-rc8 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
@@ -235,7 +235,7 @@ Ap series :
 -rpm: 4.16.1.3 to 4.17.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
--sc-im: 20210927 https://github.com/andmarti1424/sc-im
+-sc-im: 20210927 to 20220120 https://github.com/andmarti1424/sc-im
 -screen: 4.9.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a to 6b-patches-1.1 (gentoo) http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
@@ -251,7 +251,7 @@ Ap series :
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.2a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
--usbmuxd: 20200925 http://www.libimobiledevice.org/
+-usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
 -vim: 8.2.4649 to 4710 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
