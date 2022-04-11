@@ -42,7 +42,7 @@ A series :
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.38 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.39 https://www.gnu.org/software/mtools/
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4726 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4732 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -267,6 +267,7 @@ d series:
 -Mako: 1.1.6 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2022.02.11 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
+
 
 
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
@@ -840,7 +841,7 @@ n series:
 -libnftnl: 1.2.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.30.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
--links: 2.25 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.25 to 2.26 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
@@ -1076,7 +1077,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4726
+-gvim: 8.2.4649 to 4732
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.86 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
