@@ -184,7 +184,7 @@ Ap series :
 -hplip: 3.20.6 to 3.22.2 http://hplipopensource.com
 -htop: 3.1.2 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.14_1 https://github.com/smxi/inxi
+-inxi: 3.3.15_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -270,6 +270,7 @@ d series:
 
 
 
+
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.38 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
@@ -293,7 +294,7 @@ d series:
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 https://gyp.gsrc.io/
--help2man: 1.49.1 http://ftp.gnu.org/gnu/help2man/
+-help2man: 1.49.2 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
@@ -376,7 +377,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.24.4 (plasma) https://download.kde.org/stable/
--kde: 5.92.0 to 5.93.0 (framework) https://download.kde.org/stable/
+-kde: 5.93.0 (framework) https://download.kde.org/stable/
 -kde: 21.12.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -497,7 +498,7 @@ l series:
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 70.1 to 71.1 https://icu.unicode.org/
+-icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -imagemagick: 7.1.0_29 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
@@ -526,7 +527,7 @@ l series:
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca.git
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
--libcap: 2.63 http://sites.google.com/site/fullycapable/
+-libcap: 2.64 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.3 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
@@ -716,7 +717,7 @@ l series:
 -python-urllib3: 1.26.8 https://urllib3.readthedocs.io/
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.3_20220312 https://invent.kde.org/qt/qt/qt5.git
+-qt5: 5.15.3_20220407 https://invent.kde.org/qt/qt/qt5.git
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.2 https://github.com/stachenov/quazip
@@ -841,7 +842,7 @@ n series:
 -libnftnl: 1.2.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libqmi: 1.30.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
--links: 2.25 to 2.26 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.26 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
@@ -883,7 +884,7 @@ n series:
 -openldap: 2.6.1 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
--openssh: 8.9p1 to 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1n to 3.0.2 http://ftp.openssl.org/source/
 -openvpn: 2.5.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
