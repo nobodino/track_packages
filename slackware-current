@@ -165,7 +165,7 @@ Ap series :
 	- cups: 2.4.1
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
--cups-filters: 1.28.14 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.14 to 1.28.15 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.26 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -267,10 +267,6 @@ d series:
 -Mako: 1.1.6 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2022.02.11 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
-
-
-
-
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.38 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
@@ -279,7 +275,7 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.23.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.23.0 to 3.23.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -343,7 +339,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
--ruby: 3.1.1 http://www.ruby-lang.org/
+-ruby: 3.1.1 to 3.1.2 http://www.ruby-lang.org/
 -rust: 1.60.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
@@ -1081,7 +1077,7 @@ xap series:
 -gvim: 8.2.4649 to 4732
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.86 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 99.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 99.0 to 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.8.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
