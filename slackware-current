@@ -553,7 +553,7 @@ l series:
 -libidn: 1.38 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.2 http://ftp.gnu.org/gnu/libidn/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
--libimobiledevice: 20211124http://www.libimobiledevice.org/
+-libimobiledevice: 20211124 http://www.libimobiledevice.org/
 -libimobiledevice-glue: 20211125 to 20220413 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
@@ -767,7 +767,7 @@ n series:
 -ModemManager: 1.18.6 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.36.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.25
-	-alpine: 2.25 http://patches.freeiz.com/alpine
+	-alpine: 2.25 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
@@ -783,9 +783,9 @@ n series:
 -conntrack-tools: 1.4.6 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
-	- wireless-regdb: 2019.06.03 to 2021.08.28 http://kernel.org/pub/software/network/wireless-regdb/
+	- wireless-regdb: 2019.06.03 to 2022.04.08 http://kernel.org/pub/software/network/wireless-regdb/
 -curl: 7.82.0 http://curl.haxx.se/download/
--cyrus-sasl: 2.1.27 http://www.cyrusimap.org/sasl/
+-cyrus-sasl: 2.1.27 to 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3 http://ftp.isc.org/isc/dhcp/
@@ -804,7 +804,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.52 to 2.4.53 http://www.apache.org/dist/httpd/
+-httpd: 2.4.53 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -812,7 +812,7 @@ n series:
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.7 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
--iputils: 20211215 http://www.skbuff.net/iputils/
+-iputils: 20211215 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 https://github.com/irssi/irssi
@@ -833,8 +833,8 @@ n series:
 -libnetfilter_cttimeout: 1.0.0 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
--libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/conntrack-tools/
--libnftnl: 1.2.1 http://ftp.netfilter.org/pub/conntrack-tools/
+-libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
+-libnftnl: 1.2.1 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.30.4 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.26 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
@@ -842,10 +842,10 @@ n series:
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20220316 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
--mtr: 0.95 http://ftp.bitwizard.nl/mtr/
+-mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.2 to 2.2.3 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
--nchttp: 3.2.6 http://ftp.ncftp.com/ncftp/
+-ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
 -net-tools: 20170208_479bb4a to 2.10 (07012021) https://github.com/ecki/net-tools
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
@@ -866,7 +866,7 @@ n series:
 -network-scripts: 15.0
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
--nfacct: 1.0.2 http://ftp.netfilter.org/pub/conntrack-tools/
+-nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.1 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 1.0.2 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.47.0 https://nghttp2.org/
@@ -894,7 +894,7 @@ n series:
 	-pppsetup: 1.98
 	-freeradius-client: 1.1.7
 -procmail: 3.24 http://www.procmail.org/ or http://archive.debian.org/debian-security/pool/updates/main/p/procmail/
--proftpd: 1.3.7c http://ftp.proftpd.org/distrib/source/
+-proftpd: 1.3.7c http://www.proftpd.org
 -pssh: 2.3.4 https://github.com/lilydjwg/pssh/releases
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
