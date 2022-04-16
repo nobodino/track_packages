@@ -17,7 +17,7 @@ A series :
 	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
 -btrfs-progs: 5.16.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
--coreutils: 9.0 http://ftp.gnu.org/pub/gnu/coreutils/
+-coreutils: 9.0 to 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
@@ -25,7 +25,7 @@ A series :
 -dbus: 1.14.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20220117 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20220414 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.18 http://ftp.gnu.org/pub/gnu/ed/
@@ -50,7 +50,7 @@ A series :
 	-tzcode: 2022a https://www.iana.org/time-zones
 	-tzdata: 2022a https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
--gptfdisk: 1.0.8 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
+-gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.12 http://ftp.gnu.org/pub/gnu/gzip/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4751 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4754 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -408,11 +408,11 @@ l series:
 -atkmm: 2.28.2 to 2.36.1 http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 http://oss.sgi.com/projects/audiofile/download/
 -babl: 0.1.92 http://download.gimp.org/pub/babl/0.1/
--boost: 1.78.0 to 1.79.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.79.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 to 1.16.1 http://cairographics.org/cairomm/
--cfitsio: 3.49 to 4.1.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
+-cfitsio: 4.1.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -cryfs: 0.10.3 to 0.11.2 https://github.com/cryfs/cryfs
@@ -459,7 +459,7 @@ l series:
 -glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.70.1 to 2.72.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.70.4 to 2.70.5/2.72.0 https://www.gtk.org
+-glib2: 2.70.4 to 2.70.5/2.72.1 https://www.gtk.org
 -glibmm: 2.64.5 to 2.72.0 http://www.gtkmm.org/
 -glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.11 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -502,7 +502,7 @@ l series:
 -jasper: 3.0.3 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 https://github.com/jemalloc/jemalloc
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
--json-c: 0.15_20200726 https://github.com/json-c/json-c
+-json-c: 0.15_20200726 to 0.16 https://github.com/json-c/json-c
 -json-glib: 1.6.6 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
 -kdsoap: 2.0.0 https://github.com/KDAB/KDSoap
@@ -654,11 +654,11 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.48.11 to 1.50.6 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.48.11 to 1.50.7 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.50.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.4 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
--pcre2: 10.39 https://github.com/PhilipHazel/pcre2/releases
+-pcre2: 10.39 to 10.40 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
@@ -899,7 +899,7 @@ n series:
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
--rsync: 3.2.3 https://ftp.samba.org/pub/rsync/
+-rsync: 3.2.3 to 3.2.4 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.16.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
@@ -1072,7 +1072,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4751
+-gvim: 8.2.4649 to 4754
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1133,7 +1133,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-settings: 4.16.2
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
--xfce4-terminal: 0.8.10 to 1.0.0
+-xfce4-terminal: 0.8.10 to 1.0.1
 -xfce4-weather-plugin: 0.10.2
 -xfce4-whiskermenu-plugin: 2.6.2
 -xfconf: 4.16.0
@@ -1158,7 +1158,7 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.17
+-php80: 8.0.18
 -php81: 8.1.4 to 8.1.5
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
