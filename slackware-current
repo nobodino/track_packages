@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4787 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4801 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -distcc: 3.4 http://distcc.samba.org/
 -doxygen: 1.9.3 http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
--gcc: 11.2.0 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 11.2.0 to 11.3.0 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 11.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.35.3 to 2.36.0 http://git-scm.com/download
@@ -374,7 +374,7 @@ kde series :
 --------------------
 -kde: 5.24.4 (plasma) https://download.kde.org/stable/
 -kde: 5.93.0 (framework) https://download.kde.org/stable/
--kde: 21.12.3 (kde gear) https://download.kde.org/stable/
+-kde: 21.12.3 to 22.0.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -771,7 +771,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.1 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.1 to 9.18.2 http://ftp.isc.org/isc/bind9/
 -bluez: 5.64 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1072,7 +1072,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4787
+-gvim: 8.2.4649 to 4801
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
