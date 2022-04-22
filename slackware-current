@@ -66,8 +66,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.2 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220413 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.17.4 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220419 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -81,7 +81,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.15 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.23 http://www.nongnu.org/lzip/lzlib.html
--mcelog: 180 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 181 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
@@ -99,7 +99,7 @@ A series :
 -os-prober: 1.77 to 1.79 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
--pciutils: 3.7.0 to 3.8.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
+-pciutils: 3.8.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 to 0.18-13.debian.tar.xz http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 http://www.nongnu.org/lzip/plzip.html
@@ -285,7 +285,7 @@ d series:
 -gcc: 11.2.0 to 11.3.0 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 11.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.35.3 to 2.36.0 http://git-scm.com/download
+-git: 2.36.0 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.2 http://wwww.kernel.org
+-kernel-headers: 5.17.4 http://wwww.kernel.org
 -libtool: 2.4.6 to 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.1 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.2
+-kernel : 5.17.4
 --------------------
 kde series :
 --------------------
@@ -442,7 +442,7 @@ l series:
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.12.0 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
--fribidi: 1.0.10 to 1.0.11 https://github.com/fribidi/fribidi
+-fribidi: 1.0.12 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.10.5 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
@@ -656,7 +656,7 @@ l series:
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.48.11 to 1.50.7 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.50.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
--parted: 3.4 to 3.5 http://ftp.gnu.org/pub/parted/
+-parted: 3.5 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
 -pcre2: 10.40 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
@@ -771,7 +771,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.1 to 9.18.2 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.2 http://ftp.isc.org/isc/bind9/
 -bluez: 5.64 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -799,7 +799,7 @@ n series:
 -fetchmail: 6.4.29 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.34 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.34 to 2.2.35 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.3 to 3.7.4 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
@@ -888,7 +888,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.7.0 to 3.7.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.7.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -973,7 +973,7 @@ x series: (main packages)
 -libevdev: 1.12.1 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
 -libglvnd: 1.3.3 to 1.4.0 (1.3.4 pb) https://github.com/NVIDIA/libglvnd/releases
--libinput: 1.20.0 http://www.freedesktop.org/software/libinput/
+-libinput: 1.20.1 http://www.freedesktop.org/software/libinput/
 -libkkc: 0.3.5 https://github.com/ueno/libkkc
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
@@ -1076,7 +1076,7 @@ xap series:
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.8.0 to 91.8.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 91.8.1 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1133,7 +1133,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-settings: 4.16.2
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
--xfce4-terminal: 0.8.10 to 1.0.1
+-xfce4-terminal: 0.8.10 to 1.0.2
 -xfce4-weather-plugin: 0.10.2
 -xfce4-whiskermenu-plugin: 2.6.2
 -xfconf: 4.16.0
