@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.17.4 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220419 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220421 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4649 to 4801 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4649 to 4809 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4649
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -300,7 +300,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.1.1 https://www.mercurial-scm.org/release
--meson: 0.62.0 http://mesonbuild.com/
+-meson: 0.62.0 to 0.62.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.10.2 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.01.04 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -374,7 +374,7 @@ kde series :
 --------------------
 -kde: 5.24.4 (plasma) https://download.kde.org/stable/
 -kde: 5.93.0 (framework) https://download.kde.org/stable/
--kde: 21.12.3 to 22.0.4 (kde gear) https://download.kde.org/stable/
+-kde: 22.0.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -1072,7 +1072,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4649 to 4801
+-gvim: 8.2.4649 to 4809
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1123,7 +1123,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.2
 -xfce4-dev-tools: 4.16.0
 -xfce4-notifyd: 0.6.3
--xfce4-panel: 4.16.3 to 4.16.4
+-xfce4-panel: 4.16.4
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.16.0
 -xfce4-pulseaudio-plugin: 0.4.3
