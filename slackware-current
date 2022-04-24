@@ -347,7 +347,7 @@ d series:
 -strace: 5.17 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.54.0 to 0.56.0 https://wiki.gnome.org/Projects/Vala
+-vala: 0.54.0 to 0.56.1 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -488,7 +488,7 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 to 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 4.2.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 4.2.0 to 4.2.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
