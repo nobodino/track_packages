@@ -384,7 +384,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20210414 to 20220226 https://github.com/wang-bin/QtAV
--SDL2: 2.0.20 https://www.libsdl.org/projects/
+-SDL2: 2.0.20 to 2.0.22 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
@@ -700,7 +700,7 @@ l series:
 -python-pbr: 5.8.0 to 5.8.1 https://pypi.org/project/pbr
 -python-pillow: 8.4.0 to 9.1.0 https://python-pillow.github.io/
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.10.0 to 2.11.2 https://pypi.org/project/Pygments
+-python-pygments: 2.10.0 to 2.12.0 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pysol_cards: 0.12.0 to 0.14.2 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
