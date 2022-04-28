@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.4 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.17.5 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220425 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
@@ -118,7 +118,7 @@ A series :
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.3.0 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 3.03 to 3.04 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 3.04 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -211,7 +211,7 @@ Ap series :
 	- perl-XML-SAX-Base: 1.09-15.fc35 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
--lsof: 4.94.0 https://github.com/lsof-org/lsof/releases
+-lsof: 4.94.0 to 4.95.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
@@ -243,7 +243,7 @@ Ap series :
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.38.2 http://www.sqlite.org/download.html
+-sqlite: 3.38.3 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.10 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.6 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4830 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4830 to 4835 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4830
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -distcc: 3.4 http://distcc.samba.org/
 -doxygen: 1.9.3 http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
--gcc: 11.2.0 to 11.3.0 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 11.3.0 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 11.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.36.0 http://git-scm.com/download
@@ -294,8 +294,8 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.4 http://wwww.kernel.org
--libtool: 2.4.6 to 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
+-kernel-headers: 5.17.5 http://wwww.kernel.org
+-libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.2 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.4
+-kernel : 5.17.5
 --------------------
 kde series :
 --------------------
@@ -642,9 +642,9 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
 -neon: 0.32.2 https://notroj.github.io/neon/
--netpbm: 10.98.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 10.98.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.20 to 0.52.21 https://releases.pagure.org/newt
--nodejs: 16.14.1 to 16.14.2 https://nodejs.org/
+-nodejs: 16.15.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.7.1 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.0 https://openal-soft.org/openal-releases
@@ -784,7 +784,7 @@ n series:
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.04.08 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.82.0 to 7.83.0 http://curl.haxx.se/download/
+-curl: 7.83.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 to 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -796,7 +796,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.7 http://www.epicsol.org/
 -ethtool: 5.17 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.29 to 6.4.30 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.6 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.35 to 2.2.36 https://www.gnupg.org/download/index.html
@@ -888,7 +888,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.7.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.7.1 to 3.7.2 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp
 	-pppsetup: 1.98
@@ -1073,7 +1073,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4830
+-gvim: 8.2.4830 to 4835
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1168,7 +1168,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--gcc: 11.3.0
+-
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
@@ -1186,6 +1186,7 @@ nvidia-smi --query-gpu=driver_version --format=csv,noheader
 /-----------------------------------------------------------------------------------/
 cumulative archive packages for slackware64 (no delete rsync)
 https://slackware.uk/cumulative/slackware64-current/slackware64/
+
 https://slackware.uk/cumulative/slackware-current/slackware/
 /-----------------------------------------------------------------------------------/
 microcode intel:
