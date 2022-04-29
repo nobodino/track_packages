@@ -296,7 +296,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 5.17.5 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 13.0.1 to 14.0.2 http://llvm.org/
+-llvm: 13.0.1 to 14.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.1.1 https://www.mercurial-scm.org/release
@@ -527,7 +527,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.1 http://ftp.gnu.org/gnu/libcdio/
--libclc: 13.0.0 to 14.0.2 http://libclc.llvm.org/
+-libclc: 13.0.0 to 14.0.3 http://libclc.llvm.org/
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
@@ -1081,7 +1081,7 @@ xap series:
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.8
+-pidgin: 2.14.8 to 2.14.9
 	-pidgin: 2.14.8 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
