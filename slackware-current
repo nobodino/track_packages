@@ -440,7 +440,7 @@ l series:
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.7 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
--freetype: 2.12.0 http://sourceforge.net/projects/freetype/files/freetype2/
+-freetype: 2.12.0 to 2.12.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
