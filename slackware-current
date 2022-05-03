@@ -57,7 +57,7 @@ A series :
 -haveged: 1.9.17 to 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.358 https://github.com/vcrhonek/hwdata
+-hwdata: 0.359 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.17.5 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220425 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220502 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -182,7 +182,7 @@ Ap series :
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.20.6 to 3.22.4 http://hplipopensource.com
--htop: 3.1.2 to 3.2.0 https://htop.dev/
+-htop: 3.2.0 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.15_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4830 to 4853 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4830 to 4858 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4830
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -283,7 +283,7 @@ d series:
 -doxygen: 1.9.3 http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
 -gcc: 11.3.0 http://ftp.gnu.org/pub/gnu/gcc/
--gdb: 11.2 to 12.1 http://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.36.0 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
@@ -445,7 +445,7 @@ l series:
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.10.5 https://github.com/libfuse/libfuse
+-fuse3: 3.11.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
 -gc: 8.0.6 to 8.2.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -475,17 +475,17 @@ l series:
 -grantlee: 5.2.0 https://github.com/steveire/grantlee
 -gsettings-desktop-schemas: 42.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7 to 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.20.1  https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.20.1  https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.20.1  https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.20.1  http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.20.1 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.20.1 to 1.20.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.20.1 to 1.20.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.20.1 to 1.20.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.20.1 to 1.20.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.20.1 to 1.20.2 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 to 3.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.4.1 to 4.6.3 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.24.5 https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.24.5 to 3.24.6 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.48.1 to 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
@@ -623,7 +623,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd
 -libwpg: 0.3.3 http://libwpg.sourceforge.net/
 -libxklavier: 5.4 http://www.freedesktop.org/wiki/Software/LibXklavier
--libxml2: 2.9.13 http://xmlsoft.org/sources/
+-libxml2: 2.9.14 http://xmlsoft.org/sources/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.4.0 http://xkbcommon.org/
 -libxslt: 1.1.35 http://xmlsoft.org/
@@ -668,7 +668,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 21.12.0 to 22.0.4 http://poppler.freedesktop.org/
+-poppler: 22.0.4 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 14.5 to 15.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -910,7 +910,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.4 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.16.0 https://ftp.samba.org/pub/samba/
+-samba: 4.16.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1081,10 +1081,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4830 to 4853
+-gvim: 8.2.4830 to 4858
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 99.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.8.1 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
