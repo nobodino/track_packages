@@ -95,7 +95,7 @@ A series :
 -ndctl: 71.1 to 73 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2021.08.22 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1n http://www.openssl.org/
+-openssl-solibs: 1.1.1n to 1.1.1o http://www.openssl.org/
 -os-prober: 1.77 to 1.79 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4830 to 4858 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.4830
+-vim: 8.2.4859 http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.4859
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -372,7 +372,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.24.4 to 5.24.5 (plasma) https://download.kde.org/stable/
+-kde: 5.24.5 (plasma) https://download.kde.org/stable/
 -kde: 5.93.0 (framework) https://download.kde.org/stable/
 -kde: 22.0.4 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -475,11 +475,11 @@ l series:
 -grantlee: 5.2.0 https://github.com/steveire/grantlee
 -gsettings-desktop-schemas: 42.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7 to 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.20.1 to 1.20.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.20.1 to 1.20.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.20.1 to 1.20.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.20.1 to 1.20.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.20.1 to 1.20.2 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.20.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.20.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.20.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.20.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.20.2 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 to 3.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -889,7 +889,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1n to 3.0.3 http://ftp.openssl.org/source/
+-openssl: 1.1.1n to 1.1.1o/3.0.3 http://ftp.openssl.org/source/
 -openvpn: 2.5.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -1081,11 +1081,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4830 to 4858
+-gvim: 8.2.4859
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.8.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 91.8.1 to 91.9.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
