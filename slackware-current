@@ -280,7 +280,7 @@ d series:
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
 -distcc: 3.4 http://distcc.samba.org/
--doxygen: 1.9.3 http://www.doxygen.org/download.html
+-doxygen: 1.9.4 http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
 -gcc: 11.3.0 to 12.1 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
@@ -570,7 +570,7 @@ l series:
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
 -libnl3: 3.6.0 https://github.com/thom311/libnl
--libnotify: 0.7.11 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
+-libnotify: 0.7.12 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libnsl: 1.3.0 to 2.0.0 https://github.com/thkukuk/libnsl
 -libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis
 -libodfgen: 0.1.8 http://sourceforge.net/p/libwpd/wiki/libodfgen/
@@ -668,7 +668,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.04.0 to 22.05.0 http://poppler.freedesktop.org/
+-poppler: 22.05.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 14.5 to 15.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -838,8 +838,8 @@ n series:
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
--libnetfilter_cthelper: 1.0.0 http://ftp.netfilter.org/pub/conntrack-tools/
--libnetfilter_cttimeout: 1.0.0 http://ftp.netfilter.org/pub/conntrack-tools/
+-libnetfilter_cthelper: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
+-libnetfilter_cttimeout: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
@@ -885,7 +885,7 @@ n series:
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.6.1 https://ftp.openldap.org/software/download/
+-openldap: 2.6.2 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
