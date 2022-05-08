@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.17.5 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220502 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220503 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -243,7 +243,7 @@ Ap series :
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.38.4 to 3.38.5 http://www.sqlite.org/download.html
+-sqlite: 3.38.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.10 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.5.6 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4859 to 4897 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4859 to 4912 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4859
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -285,7 +285,7 @@ d series:
 -gcc: 11.3.0 to 12.1 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.36.0 to 2.36.1 http://git-scm.com/download
+-git: 2.36.1 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
@@ -496,7 +496,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_32 http://www.imagemagick.org/
+-imagemagick: 7.1.0_32 to 33 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.9.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -915,7 +915,7 @@ n series:
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.2 https://github.com/libfuse/sshfs
--stunnel: 5.63 to 5.64 https://www.stunnel.org/downloads.html
+-stunnel: 5.64 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1081,7 +1081,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4859 to 4897
+-gvim: 8.2.4859 to 4912
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1176,7 +1176,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--
+-gcc: 12.1
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
