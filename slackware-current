@@ -66,8 +66,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.5 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220503 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.17.6 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220509 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -105,7 +105,7 @@ A series :
 -plzip: 1.10 http://www.nongnu.org/lzip/plzip.html
 -procps-ng: 3.3.17 to 4.0.0
 	-procps-ng: 3.3.17 http://sourceforge.net/projects/procps-ng/files/Production/
-	-psmisc: 23.3 to 23.4
+	-psmisc: 23.3 to 23.5
 -quota: 4.06 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4859 to 4912 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4859 to 4937 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4859
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.5 http://wwww.kernel.org
+-kernel-headers: 5.17.6 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.5
+-kernel : 5.17.6
 --------------------
 kde series :
 --------------------
@@ -450,7 +450,7 @@ l series:
 -gc: 8.0.6 to 8.2.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
--gdk-pixbuf2: 2.42.6 to 2.42.8 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.8 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.36 https://download.gimp.org/pub/gegl/
@@ -496,7 +496,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_32 to 33 http://www.imagemagick.org/
+-imagemagick: 7.1.0_33 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.9.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -590,7 +590,7 @@ l series:
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate
 -libsass: 3.6.4 to 3.6.5 https://github.com/sass/libsass
 -libsigc++: 2.10.8 https://github.com/libsigcplusplus/libsigcplusplus
--libsigc++3: 3.0.7 to 3.2.0 https://github.com/libsigcplusplus/libsigcplusplus
+-libsigc++3: 3.2.0 https://github.com/libsigcplusplus/libsigcplusplus
 -libseccomp: 2.5.4 https://github.com/seccomp/libseccomp
 -libsecret: 0.20.5 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
@@ -800,13 +800,13 @@ n series:
 -dhcp: 4.4.3 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.18 http://www.dovecot.org/releases/
+-dovecot: 2.3.19 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.7 http://www.epicsol.org/
 -ethtool: 5.17 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
--getmail: 6.18.6 http://pyropus.ca/software/getmail/
+-getmail: 6.18.8 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.35 to 2.2.36 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.3 to 3.7.4 http://www.gnu.org/software/gnutls/
@@ -1081,7 +1081,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4859 to 4912
+-gvim: 8.2.4859 to 4937
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1102,7 +1102,7 @@ xap series:
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
 -x11-ssh-askpass: 1.2.4.1 http://ftp.debian.org/debian/pool/main/s/ssh-askpass/
--x3270: 4.0ga14 to 4.1ga13 http://x3270.bgp.nu/download.html
+-x3270: 4.0ga14 to 4.2ga4 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 http://xaos.sf.net
 -xeyes: 1.2.0
 -xgames: 0.2
