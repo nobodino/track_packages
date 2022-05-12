@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4859 to 4937 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4859 to 4939 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4859
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -334,7 +334,7 @@ d series:
 -poke: 2.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.12 to 3.10.4 (new API) https://www.python.org/downloads/
--python-pip: 21.4 to 22.0.4 https://pip.pypa.io/
+-python-pip: 21.4 to 22.1 https://pip.pypa.io/
 -python-setuptools: 58.3.0 to 62.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -374,7 +374,7 @@ kde series :
 --------------------
 -kde: 5.24.5 (plasma) https://download.kde.org/stable/
 -kde: 5.93.0 (framework) https://download.kde.org/stable/
--kde: 22.0.4 (kde gear) https://download.kde.org/stable/
+-kde: 22.04.0 to 22.04.1 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -793,7 +793,7 @@ n series:
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.04.08 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.83.0 http://curl.haxx.se/download/
+-curl: 7.83.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.27 to 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -803,7 +803,7 @@ n series:
 -dovecot: 2.3.19 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 2.1.7 http://www.epicsol.org/
+-epic5: 2.1.9 http://www.epicsol.org/
 -ethtool: 5.17 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.8 http://pyropus.ca/software/getmail/
@@ -850,7 +850,7 @@ n series:
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
--mobile-broadband-provider-info: 20220316 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mobile-broadband-provider-info: 20220511 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.4 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
@@ -1081,7 +1081,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4859 to 4937
+-gvim: 8.2.4859 to 4939
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
