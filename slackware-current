@@ -54,7 +54,7 @@ A series :
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.12 http://ftp.gnu.org/pub/gnu/gzip/
--haveged: 1.9.17 to 1.9.18 https://github.com/jirka-h/haveged/releases
+-haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
 -hwdata: 0.359 https://github.com/vcrhonek/hwdata
@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.6 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.17.7 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220509 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
@@ -122,7 +122,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.0 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.24.0 to 6.24.1 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0 to 2.0.2 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4859 to 4939 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4859 to 4946 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4859
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.6 http://wwww.kernel.org
+-kernel-headers: 5.17.7 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -347,7 +347,7 @@ d series:
 -strace: 5.17 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
--vala: 0.54.0 to 0.56.1 https://wiki.gnome.org/Projects/Vala
+-vala: 0.54.7 to 0.56.1 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -368,13 +368,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.6
+-kernel : 5.17.7
 --------------------
 kde series :
 --------------------
 -kde: 5.24.5 (plasma) https://download.kde.org/stable/
 -kde: 5.93.0 (framework) https://download.kde.org/stable/
--kde: 22.04.0 to 22.04.1 (kde gear) https://download.kde.org/stable/
+-kde: 22.04.1 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -794,7 +794,7 @@ n series:
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.04.08 http://kernel.org/pub/software/network/wireless-regdb/
 -curl: 7.83.1 http://curl.haxx.se/download/
--cyrus-sasl: 2.1.27 to 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
+-cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3 http://ftp.isc.org/isc/dhcp/
@@ -806,10 +806,10 @@ n series:
 -epic5: 2.1.9 http://www.epicsol.org/
 -ethtool: 5.17 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
--getmail: 6.18.8 http://pyropus.ca/software/getmail/
+-getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.35 to 2.2.36 https://www.gnupg.org/download/index.html
--gnutls: 3.7.3 to 3.7.4 http://www.gnu.org/software/gnutls/
+-gnutls: 3.7.4 to 3.7.5 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1081,7 +1081,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4859 to 4939
+-gvim: 8.2.4859 to 4946
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1168,7 +1168,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -php80: 8.0.18
--php81: 8.1.4 to 8.1.5
+-php81: 8.1.5 to 8.1.6
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
