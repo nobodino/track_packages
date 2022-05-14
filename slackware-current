@@ -122,7 +122,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.0 to 6.24.1 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.24.1 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 1.8.0 to 2.0.2 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4859 to 4946 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4859 to 4950 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4859
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -483,7 +483,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 to 3.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.4.1 to 4.6.3 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk4: 4.4.1 to 4.6.4 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 to 3.24.6 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
@@ -651,7 +651,7 @@ l series:
 -openal-soft: 1.22.0 https://openal-soft.org/openal-releases
 -opencv: 4.5.5 https://opencv.org/
 -openexr: 3.1.5 https://github.com/AcademySoftwareFoundation/openexr
--openjpeg: 2.4.0 http://www.openjpeg.org
+-openjpeg: 2.4.0 to 2.5.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
@@ -774,7 +774,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.8 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.36.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.36.4 to 1.38.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.25
 	-alpine: 2.25 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -809,7 +809,7 @@ n series:
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.35 to 2.2.36 https://www.gnupg.org/download/index.html
--gnutls: 3.7.4 to 3.7.5 http://www.gnu.org/software/gnutls/
+-gnutls: 3.7.5 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -819,7 +819,7 @@ n series:
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 5.17.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
--iptables: 1.8.7 https://www.netfilter.org/projects/iptables/downloads.html
+-iptables: 1.8.7 to 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
 -iputils: 20211215 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
@@ -1081,7 +1081,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4859 to 4946
+-gvim: 8.2.4859 to 4950
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1167,8 +1167,8 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.18
--php81: 8.1.5 to 8.1.6
+-php80: 8.0.19
+-php81: 8.1.6
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
