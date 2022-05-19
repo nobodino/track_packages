@@ -128,7 +128,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.3 to 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.99.13 to 0.99.17 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 0.99.13 to 0.99.18 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 014 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -340,7 +340,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.0 https://github.com/shlomif/rinutils
 -ruby: 3.1.2 http://www.ruby-lang.org/
--rust: 1.60.0 https://rust-lang.org
+-rust: 1.60.0 to 1.61.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
