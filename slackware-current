@@ -338,9 +338,9 @@ d series:
 -python-setuptools: 58.3.0 to 62.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
--rinutils: 0.10.0 https://github.com/shlomif/rinutils
+-rinutils: 0.10.1 https://github.com/shlomif/rinutils
 -ruby: 3.1.2 http://www.ruby-lang.org/
--rust: 1.60.0 to 1.61.0 https://rust-lang.org
+-rust: 1.61.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -482,7 +482,7 @@ l series:
 -gstreamer: 1.20.2 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.31 to 3.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.31 to 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.4.1 to 4.6.4 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 to 3.24.6 https://download.gnome.org/sources/gtkmm/
@@ -774,13 +774,13 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.8 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.36.4 to 1.38.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.36.4 to 1.36.6/1.38.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.25
 	-alpine: 2.25 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.2 to 9.18.3 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.3 http://ftp.isc.org/isc/bind9/
 -bluez: 5.64 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1003,7 +1003,7 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 22.1.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 21.3.8 to 22.0.4/22.1.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
