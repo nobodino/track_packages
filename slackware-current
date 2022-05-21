@@ -218,7 +218,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.10.2 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.6.7 http://mariadb.org/
+-mariadb: 10.6.7 to 10.6.8/10.8.3 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -263,7 +263,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.28 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.28 to 0.29.30 https://pypi.python.org/pypi/Cython/
 -Mako: 1.1.6 to 1.2.0 http://www.python.org/pypi/Mako/
 -autoconf-archive: 2022.02.11 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
