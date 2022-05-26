@@ -93,7 +93,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 5.0 https://github.com/vapier/ncompress
 -ndctl: 71.1 to 73 https://github.com/pmem/ndctl/releases
--ntfs-3g: 2021.08.22 https://github.com/tuxera/ntfs-3g
+-ntfs-3g: 2021.08.22 to 2022.05.17 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/
 -openssl-solibs: 1.1.10 to 3.0.3 http://www.openssl.org/
 -os-prober: 1.77 to 1.79 http://ftp.debian.org/debian/pool/main/o/os-prober/
@@ -161,7 +161,7 @@ Ap series :
 -cdrtools: 3.02a9
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.4.1 https://github.com/openprinting/cups/releases
+-cups: 2.4.1 to 2.4.2 https://github.com/openprinting/cups/releases
 	- cups: 2.4.1
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
@@ -192,7 +192,7 @@ Ap series :
 -ksh93: 1.0_20220219 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
-	- asciidoc: 9.10.1-3.fc35 to 10.1.14 http://www.methods.co.nz/asciidoc/
+	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
 	- docbook-dsssl: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-dsssl-doc: 1.79 http://sourceforge.net/projects/docbook/files/
 	- docbook-style-xsl: 1.79.2-15.fc35 http://downloads.sourceforge.net/project/docbook/docbook-xsl/
@@ -838,6 +838,7 @@ n series:
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
+
 -libnetfilter_cthelper: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cttimeout: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
