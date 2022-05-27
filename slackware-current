@@ -25,7 +25,7 @@ A series :
 -dbus: 1.14.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20220414 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20220414 to 1.3_20220526 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.18 http://ftp.gnu.org/pub/gnu/ed/
@@ -638,7 +638,7 @@ l series:
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.78 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.78 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.32 to 4.33 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+	- nspr: 4.32 to 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
@@ -817,7 +817,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.17.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.17.0 to 5.18.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -1016,7 +1016,7 @@ x series: (main packages)
 -skkdic: 20200128 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
 -vulkan-sdk: 1.3.204.0 to 1.3.204.1 https://vulkan.lunarg.com/sdk/home
--wayland: 1.20.0 https://wayland.freedesktop.org/releases.html
+-wayland: 1.20.0 to 1.20.91 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
 -xcb-proto. 1.15
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
