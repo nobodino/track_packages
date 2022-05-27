@@ -73,11 +73,11 @@ A series :
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.26 https://github.com/rhinstaller/libblockdev
--libbytesize: 2.6 https://github.com/rhinstaller/libbytesize
+-libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 to 24.2-5.1.debian.tar.xz http://alioth.debian.org/projects/lilo/
--logrotate: 3.19.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
+-logrotate: 3.19.1 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.16 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.23 http://www.nongnu.org/lzip/lzlib.html
@@ -93,7 +93,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/
 -ncompress: 5.0 https://github.com/vapier/ncompress
 -ndctl: 71.1 to 73 https://github.com/pmem/ndctl/releases
--ntfs-3g: 2021.08.22 to 2022.05.17 https://github.com/tuxera/ntfs-3g
+-ntfs-3g: 2022.05.17 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/
 -openssl-solibs: 1.1.10 to 3.0.3 http://www.openssl.org/
 -os-prober: 1.77 to 1.79 http://ftp.debian.org/debian/pool/main/o/os-prober/
@@ -124,7 +124,7 @@ A series :
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
 -tcsh: 6.24.1 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
--tree: 1.8.0 to 2.0.2 http://mama.indstate.edu/users/ice/tree/
+-tree: 2.0.2 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.3 to 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
@@ -161,8 +161,8 @@ Ap series :
 -cdrtools: 3.02a9
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.4.1 to 2.4.2 https://github.com/openprinting/cups/releases
-	- cups: 2.4.1
+-cups: 2.4.2 https://github.com/openprinting/cups/releases
+	- cups: 2.4.2
 	- cups-samba: 5.0rc3libx11
 	- cups-windows: 6.0
 -cups-filters: 1.28.15 https://www.openprinting.org/download/cups-filters/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4955 to 5018 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4955 to 5026 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4955
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -275,7 +275,7 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.23.1 to 3.23.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.23.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -583,7 +583,7 @@ l series:
 -libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.17 https://github.com/libproxy/libproxy
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
--libqalculate: 4.1.1 https://github.com/Qalculate/libqalculate
+-libqalculate: 4.2.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
 -librsvg: 2.52.7 to 2.54.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -803,7 +803,7 @@ n series:
 -dovecot: 2.3.19 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 2.1.9 http://www.epicsol.org/
+-epic5: 2.1.10 http://www.epicsol.org/
 -ethtool: 5.17 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
@@ -826,7 +826,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 https://github.com/irssi/irssi
 -iw: 5.16 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.19.3 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.19.3 to 1.20 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
@@ -838,7 +838,6 @@ n series:
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
-
 -libnetfilter_cthelper: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cttimeout: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -1083,7 +1082,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4955 to 5018
+-gvim: 8.2.4955 to 5026
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
