@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4955 to 5026 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4955 to 5034 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4955
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -437,7 +437,7 @@ l series:
 -exiv2: 0.27.5 http://www.exiv2.org/
 -expat: 2.4.8 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 4.4.1 to 5.0.1 https://ffmpeg.org/
+-ffmpeg: 4.4.2 to 5.0.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2.7 http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
@@ -809,7 +809,7 @@ n series:
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.35 to 2.2.36 https://www.gnupg.org/download/index.html
--gnutls: 3.7.5 http://www.gnu.org/software/gnutls/
+-gnutls: 3.7.5 to 3.7.6 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -817,7 +817,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.17.0 to 5.18.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.18.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -825,8 +825,8 @@ n series:
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.2.3 https://github.com/irssi/irssi
--iw: 5.16 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.19.3 to 1.20 http://web.mit.edu/kerberos/dist/krb5/
+-iw: 5.19 https://www.kernel.org/pub/software/network/iw/
+-krb5: 1.20 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
@@ -914,7 +914,7 @@ n series:
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
--sshfs: 3.7.2 https://github.com/libfuse/sshfs
+-sshfs: 3.7.3 https://github.com/libfuse/sshfs
 -stunnel: 5.64 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
@@ -1082,7 +1082,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4955 to 5026
+-gvim: 8.2.4955 to 5034
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
