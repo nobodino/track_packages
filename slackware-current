@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4955 to 5034 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4955 to 5037 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4955
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -308,7 +308,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -parallel: 20220522 https://www.gnu.org/software/parallel/
 -patchelf: 0.14.5 https://github.com/NixOS/patchelf
--perl: 5.34.1
+-perl: 5.34.1 to 5.36.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
@@ -602,7 +602,7 @@ l series:
 -libssh2: 1.10.0 http://www.libssh2.org/
 -libtasn1: 4.18.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.3.0 https://download.osgeo.org/libtiff/
+-libtiff: 4.3.0 to 4.4.0 https://download.osgeo.org/libtiff/
 -libunistring: 0.9.10 to 1.0 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.6.2 http://www.nongnu.org/libunwind
 -liburing: 2.1 https://git.kernel.dk/cgit/liburing/
@@ -671,7 +671,7 @@ l series:
 -poppler: 22.05.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
--pulseaudio: 14.5 to 15.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
+-pulseaudio: 14.5 to 16.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
 -pycairo: 1.20.1 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.1 http://pycurl.io/
@@ -1082,7 +1082,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4955 to 5034
+-gvim: 8.2.4955 to 5037
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
