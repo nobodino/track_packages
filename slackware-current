@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.3 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.3.0 https://github.com/troglobit/sysklogd
+-sysklogd: 2.3.0 to 2.4.0 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
 -sysvinit: 3.04 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4955 to 5037 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4955 to 5040 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4955
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -846,7 +846,7 @@ n series:
 -libnftnl: 1.2.1 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.30.6 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
--links: 2.26 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
+-links: 2.26 to 2.27 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
@@ -1082,7 +1082,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4955 to 5037
+-gvim: 8.2.4955 to 5040
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 100.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
