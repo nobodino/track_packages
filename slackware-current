@@ -249,7 +249,7 @@ Ap series :
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.2a https://tmux.github.io/
+-tmux: 3.2a to 3.3 https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
@@ -637,7 +637,7 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.6.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.78 (nss) http://de-mirror.org/gentoo/distfiles/
+-mozilla-nss: 3.78 to 3.79 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.78 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.32 to 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
