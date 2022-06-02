@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4955 to 5048 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.4955 to 5052 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.4955
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -669,7 +669,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.05.0 http://poppler.freedesktop.org/
+-poppler: 22.05.0 to 22.06.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 14.5 to 16.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -1005,7 +1005,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 22.0.4/22.1.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 21.3.8 to 22.0.4/22.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1083,7 +1083,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4955 to 5048
+-gvim: 8.2.4955 to 5052
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
