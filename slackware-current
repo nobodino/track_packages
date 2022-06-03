@@ -57,7 +57,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.359 https://github.com/vcrhonek/hwdata
+-hwdata: 0.360 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -67,12 +67,12 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.17.12 to 5.18.1 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220509 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220531 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 581.2 to 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
--libblockdev: 2.26 https://github.com/rhinstaller/libblockdev
+-libblockdev: 2.27 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
@@ -151,7 +151,7 @@ Ap series :
 	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 2.08 http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
--alsa-utils: 1.2.6 to 1.2.7 https://www.alsa-project.org/files/files/pub/utils/
+-alsa-utils: 1.2.7 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.3 to 3.2.5 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 5.2.4 https://git.yzena.com/gavin/bc
@@ -182,7 +182,7 @@ Ap series :
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.20.6 to 3.22.4 http://hplipopensource.com
--htop: 3.2.0 https://htop.dev/
+-htop: 3.2.0 to 3.2.1 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.16_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
@@ -249,7 +249,7 @@ Ap series :
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.2a to 3.3 https://tmux.github.io/
+-tmux: 3.3 https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
@@ -300,8 +300,8 @@ d series:
 -llvm: 13.0.1 to 14.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.1.2 https://www.mercurial-scm.org/release
--meson: 0.62.1 http://mesonbuild.com/
+-mercurial: 6.1.3 https://www.mercurial-scm.org/release
+-meson: 0.62.1 to 0.62.2 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.0 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.01.04 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -396,7 +396,7 @@ l series:
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 42.0 http://braumeister.org/formula/gnome-icon-theme
--alsa-lib: 1.2.6.1 to 1.2.7 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.7 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.6 to 1.2.7 https://github.com/alsa-project/alsa-plugins
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -484,7 +484,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 to 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.4.1 to 4.6.4 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk4: 4.4.1 to 4.6.5 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.5 to 3.24.6 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
@@ -499,7 +499,7 @@ l series:
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -imagemagick: 7.1.0_35 to 36 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
--iso-codes: 4.9.0 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
 -jasper: 3.0.3 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 https://github.com/jemalloc/jemalloc
@@ -637,8 +637,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.6.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.78 to 3.79 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.78 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.79 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.79 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.32 to 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -646,7 +646,7 @@ l series:
 -neon: 0.32.2 https://notroj.github.io/neon/
 -netpbm: 10.98.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.20 to 0.52.21 https://releases.pagure.org/newt
--nodejs: 16.15.0 https://nodejs.org/
+-nodejs: 16.15.1 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.0 https://openal-soft.org/openal-releases
@@ -672,7 +672,7 @@ l series:
 -poppler: 22.05.0 to 22.06.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
--pulseaudio: 14.5 to 16.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
+-pulseaudio: 16.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
 -pycairo: 1.20.1 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.1 http://pycurl.io/
@@ -878,7 +878,7 @@ n series:
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.1 http://sourceforge.net/projects/nfs/ (need krb5)
--nftables: 1.0.2 http://www.netfilter.org/projects/nftables/
+-nftables: 1.0.3 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.47.0 https://nghttp2.org/
 -nmap: 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -1005,7 +1005,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 22.0.4/22.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 21.3.8 to 22.0.5/22.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1087,11 +1087,11 @@ xap series:
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 91.9.1 to 91.10.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 91.10.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.9
+-pidgin: 2.14.9 to 2.14.10
 	-pidgin: 2.14.9 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
