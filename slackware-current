@@ -65,7 +65,7 @@ A series :
 -inotify-tools: 3.22.1.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5 or 2.4.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+-kbd: 1.15.3 to 1.15.5/2.5.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.17.12 to 5.18.1 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220531 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -140,7 +140,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 5.13.0 (to 5.16.0 needs liburcu (userspace-rcu) and inh-r53) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.13.0 (to 5.18.0 needs liburcu (userspace-rcu) and inh-r53) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.5 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.xz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.4955 to 5052 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 8.2.4955
+-vim: 8.2.5052 to 5054 http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 8.2.5052
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -301,7 +301,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.1.3 https://www.mercurial-scm.org/release
--meson: 0.62.1 to 0.62.2 http://mesonbuild.com/
+-meson: 0.62.2 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.0 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.01.04 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -309,11 +309,11 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -parallel: 20220522 https://www.gnu.org/software/parallel/
 -patchelf: 0.14.5 https://github.com/NixOS/patchelf
--perl: 5.34.1 to 5.36.0
+-perl: 5.36.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
-	- Devel-Checklib: 1.14 
+	- Devel-Checklib: 1.16 
 	- IO-Socket-SSL: 2.074
 	- MIME-Base64: 3.16
 	- Module-Runtime: 0.016
@@ -322,13 +322,13 @@ d series:
 	- Parse-Yapp: 1.21
 	- Path-Tiny: 0.122
 	- Sub-Quote: 2.006006
-	- Template-Toolkit: 3.010
+	- Template-Toolkit: 3.100
 	- TermReadKey: 2.38
 	- URI: 5.10 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
-	- libnet: 3.13
+	- libnet: 3.14
 	- perl: 5.34.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
@@ -669,7 +669,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.05.0 to 22.06.0 http://poppler.freedesktop.org/
+-poppler: 22.06.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -871,7 +871,7 @@ n series:
 	- netkit-rwho
 	- netkit-timed
 -netpipes: 4.2 to 4.2-7.debian.gz http://web.purplefrog.com/ftp/netpipes/
--nettle: 3.7.3 https://ftp.gnu.org/gnu/nettle/
+-nettle: 3.8 https://ftp.gnu.org/gnu/nettle/
 -netwatch: 1.3.1_2 http://www.slctech.org/~mackay/netwatch.html#FTP%20SITE%20ACCESS
 -network-scripts: 15.0
 -netwrite: 0.17
@@ -891,7 +891,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1o to 3.0.3 http://ftp.openssl.org/source/
--openvpn: 2.5.6 to 2.5.7 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.29 http://www.php.net/distributions/ (need krb5)
@@ -1083,7 +1083,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.4955 to 5052
+-gvim: 8.2.5052 to 5054
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
