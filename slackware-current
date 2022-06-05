@@ -42,7 +42,7 @@ A series :
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.39 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.4 https://www.gnu.org/software/mtools/
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
@@ -182,7 +182,7 @@ Ap series :
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.20.6 to 3.22.4 http://hplipopensource.com
--htop: 3.2.0 to 3.2.1 https://htop.dev/
+-htop: 3.2.1 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.16_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
@@ -497,11 +497,11 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_35 to 36 http://www.imagemagick.org/
+-imagemagick: 7.1.0_36 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
--jasper: 3.0.3 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 3.0.4 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 https://github.com/jemalloc/jemalloc
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.16_20220414 https://github.com/json-c/json-c
@@ -959,7 +959,7 @@ tcl/tk series:
 --------------------
 x series: (main packages)
 --------------------
--OpenCC: 1.1.3 https://github.com/BYVoid/OpenCC
+-OpenCC: 1.1.4 https://github.com/BYVoid/OpenCC
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
 -egl-wayland: 1.1.7 to 1.1.9 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
@@ -1023,7 +1023,7 @@ x series: (main packages)
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.11
 -xinit: 1.4.1
--xkeyboard-config: 2.34
+-xkeyboard-config: 2.36
 -xorgproto: 2021.5
 -xorg-server: 1.20.14 to 21.1.3 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.3 to 22.1.2
@@ -1091,8 +1091,8 @@ xap series:
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.9 to 2.14.10
-	-pidgin: 2.14.9 https://www.pidgin.im/download/source/
+-pidgin: 2.14.10
+	-pidgin: 2.14.10 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.26 http://software.schmorp.de/pkg/rxvt-unicode.html
@@ -1115,7 +1115,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 http://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.03 to 6.04 http://www.jwz.org/xscreensaver/
+-xscreensaver: 6.04 http://www.jwz.org/xscreensaver/
 -xsnow: 3.5.0 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.16.x https://gitlab.xfce.org/xfce/
