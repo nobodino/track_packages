@@ -497,7 +497,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_36 http://www.imagemagick.org/
+-imagemagick: 7.1.0_36 to 37 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -978,7 +978,7 @@ x series: (main packages)
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.110 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.110 to 2.4.111 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.12.1 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
