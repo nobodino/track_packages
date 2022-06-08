@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.18.0 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.18.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.12 to 5.18.2 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.17.13 to 5.18.2 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220531 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.5052 to 5062 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.5052 to 5065 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.5052
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.12 to 5.18.2 http://wwww.kernel.org
+-kernel-headers: 5.17.13 to 5.18.2 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -305,6 +305,7 @@ d series:
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
+-pahole: 1.23 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20220522 https://www.gnu.org/software/parallel/
 -patchelf: 0.14.5 https://github.com/NixOS/patchelf
 -perl: 5.36.0
@@ -332,7 +333,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.13 to 3.10.4 (new API) https://www.python.org/downloads/
+-python3: 3.9.13 to 3.10.5 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.1.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 58.3.0 to 62.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -367,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.12 to 5.18.2
+-kernel : 5.17.13 to 5.18.2
 --------------------
 kde series :
 --------------------
@@ -463,7 +464,7 @@ l series:
 -glib2: 2.70.4 to 2.70.5/2.72.2 https://www.gtk.org
 -glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
 -glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
--gmime: 3.2.11 http://ftp.acc.umu.se/pub/gnome/sources/gmime
+-gmime: 3.2.12 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
 -gnome-keyring: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
@@ -496,7 +497,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_36 to 37 http://www.imagemagick.org/
+-imagemagick: 7.1.0_37 http://www.imagemagick.org/
 -isl: 0.24 https://libisl.sourceforge.io/
 -iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -712,7 +713,7 @@ l series:
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
 -python-requests: 2.26.0 to 2.27.1 http://docs.python-requests.org/en/master/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane
--python-setuptools_scm: 6.3.2 to 6.4.2 https://pypi.org/project/setuptools_scm
+-python-setuptools_scm: 6.4.2 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
 -python-sphinx: 4.5.0 https://pypi.org/project/sphinx
@@ -775,8 +776,8 @@ n series:
 --------------------
 -ModemManager: 1.18.8 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.36.4 to 1.36.6/1.38.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
--alpine: 2.25
-	-alpine: 2.25 http://alpine.x10host.com/alpine/release/
+-alpine: 2.26
+	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
@@ -852,7 +853,7 @@ n series:
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20220511 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
--mutt: 2.2.5 to 2.2.6 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.6 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.1 http://www.net-snmp.org/download.html
@@ -987,7 +988,6 @@ x series: (main packages)
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
 -libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin
-
 -libva: 2.14.0 https://01.org/linuxmedia/vaapi
 -libva-utils: 2.14.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
@@ -1083,7 +1083,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.5052 to 5062
+-gvim: 8.2.5052 to 5065
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1178,7 +1178,8 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--gcc: 12.1
+-gcc: 12.1.0
+-kernel: 5.18.2
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
