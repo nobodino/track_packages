@@ -249,7 +249,7 @@ Ap series :
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.3 https://tmux.github.io/
+-tmux: 3.3 to 3.3a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
@@ -1005,7 +1005,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 22.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 21.3.8 to 21.3.9/22.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
