@@ -245,7 +245,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.38.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
--sudo: 1.9.10 to 1.9.11 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.11p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -650,7 +650,7 @@ l series:
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.0 https://openal-soft.org/openal-releases
--opencv: 4.5.5 to 4.6.0 https://opencv.org/
+-opencv: 4.6.0 https://opencv.org/
 -openexr: 3.1.5 https://github.com/AcademySoftwareFoundation/openexr
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
@@ -775,7 +775,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.8 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.36.4 to 1.36.6/1.38.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.36.6 to 1.38.0 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -804,7 +804,7 @@ n series:
 -dovecot: 2.3.19 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 2.1.10 http://www.epicsol.org/
+-epic5: 2.1.11 http://www.epicsol.org/
 -ethtool: 5.17 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
@@ -814,7 +814,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.53 http://www.apache.org/dist/httpd/
+-httpd: 2.4.54 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
@@ -844,7 +844,7 @@ n series:
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
--libnftnl: 1.2.1 http://ftp.netfilter.org/pub/libnftnl/
+-libnftnl: 1.2.2 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.30.6 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.27 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
@@ -878,7 +878,7 @@ n series:
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.1 http://sourceforge.net/projects/nfs/ (need krb5)
--nftables: 1.0.3 http://www.netfilter.org/projects/nftables/
+-nftables: 1.0.4 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.47.0 https://nghttp2.org/
 -nmap: 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -1086,7 +1086,7 @@ xap series:
 -gvim: 8.2.5052 to 5065
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 101.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 101.0 to 101.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.10.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
