@@ -66,8 +66,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.17.13 to 5.18.2 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220531 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.18.3 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220610 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.5052 to 5074 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.5052 to 5076 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.5052
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.17.13 to 5.18.2 http://wwww.kernel.org
+-kernel-headers: 5.18.3 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.17.13 to 5.18.2
+-kernel : 5.18.3
 --------------------
 kde series :
 --------------------
@@ -1000,7 +1000,7 @@ x series: (main packages)
 -libXpm: 3.5.13
 -libXft: 2.3.4
 -libXi: 1.8
--libX11: 1.8 to 1.8.1
+-libX11: 1.8.1
 -libXres: 1.2.1
 -libXt: 1.2.1
 -libxcvt: 0.1.1
@@ -1060,7 +1060,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.2.4 http://blueman-project.org
+-blueman: 2.2.5 http://blueman-project.org
 -ddd: 3.3.12 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
@@ -1083,7 +1083,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.5052 to 5074
+-gvim: 8.2.5052 to 5076
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0 to 101.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1178,8 +1178,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--gcc: 12.1.0
--kernel: 5.18.2
+-
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
