@@ -587,7 +587,7 @@ l series:
 -libqalculate: 4.2.0 https://github.com/Qalculate/libqalculate
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 http://sourceforge.net/p/libwpd/wiki/librevenge/
--librsvg: 2.52.7 to 2.54.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.52.7 to 2.54.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate
 -libsass: 3.6.4 to 3.6.5 https://github.com/sass/libsass
 -libsigc++: 2.10.8 https://github.com/libsigcplusplus/libsigcplusplus
@@ -1122,7 +1122,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 --------------------
 -Greybird: 3.22.15
 -elementary-xfce: 0.15.1
--exo: 4.16.3
+-exo: 4.16.3 to 4.16.4
 -garcon: 4.16.1
 -libxfce4ui: 4.16.1
 -libxfce4util: 4.16.0
