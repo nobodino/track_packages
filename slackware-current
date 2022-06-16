@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.18.3 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.18.4 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220610 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
@@ -184,7 +184,7 @@ Ap series :
 -hplip: 3.20.6 to 3.22.4 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.1 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.17_1 https://github.com/smxi/inxi
+-inxi: 3.3.18_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -245,15 +245,15 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.38.5 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
--sudo: 1.9.11p1 to p2 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.11p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.3 to 3.3a https://tmux.github.io/
+-tmux: 3.3a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 8.2.5052 to 5085 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 8.2.5052 to 5096 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 8.2.5052
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.18.3 http://wwww.kernel.org
+-kernel-headers: 5.18.4 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 13.0.1 to 14.0.5 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,11 +368,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.18.3
+-kernel : 5.18.4
 --------------------
 kde series :
 --------------------
--kde: 5.24.5 to 5.25.0 (plasma) https://download.kde.org/stable/
+-kde: 5.25.0 (plasma) https://download.kde.org/stable/
 -kde: 5.95.0 (framework) https://download.kde.org/stable/
 -kde: 22.04.2 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -476,11 +476,11 @@ l series:
 -grantlee: 5.2.0 https://github.com/steveire/grantlee
 -gsettings-desktop-schemas: 42.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.20.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.20.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.20.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.20.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.20.2 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.20.2 to 1.20.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.20.2 to 1.20.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.20.2 to 1.20.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.20.2 to 1.20.3 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.20.2 to 1.20.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.31 to 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
@@ -628,7 +628,7 @@ l series:
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.4.1 http://xkbcommon.org/
 -libxslt: 1.1.35 http://xmlsoft.org/
--libzip: 1.8.0 to 1.9.0 http://www.nih.at/libzip/
+-libzip: 1.9.0 http://www.nih.at/libzip/
 -lmdb: 0.9.29 https://github.com/LMDB/lmdb
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth
 -lz4: 1.9.3 https://lz4.github.io/lz4
@@ -665,7 +665,7 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
--pipewire: 0.3.51 to 0.3.52 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.52 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -722,7 +722,7 @@ l series:
 -python-zipp: 3.8.0 https://pypi.org/project/zipp
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.3_20220407 to qt5-5.15.4_20220525 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.4_202200611 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.3 https://github.com/stachenov/quazip
@@ -755,11 +755,11 @@ l series:
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.12 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
--talloc: 2.3.3 to 2.3.4 https://talloc.samba.org
+-talloc: 2.3.4 https://talloc.samba.org
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/
--tdb: 1.4.6 https://tdb.samba.org
--tevent: 0.12.0 https://tevent.samba.org
+-tdb: 1.4.7 https://tdb.samba.org
+-tevent: 0.12.1 https://tevent.samba.org
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5
 -utf8proc: 2.7.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
@@ -781,7 +781,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.3 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.4 http://ftp.isc.org/isc/bind9/
 -bluez: 5.64 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -801,11 +801,11 @@ n series:
 -dhcp: 4.4.3 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.19 to 2.3.19.1 http://www.dovecot.org/releases/
+-dovecot: 2.3.19.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 http://www.epicsol.org/
--ethtool: 5.17 to 5.18 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.18 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -911,7 +911,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.4 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.16.1 to 4.16.2 https://ftp.samba.org/pub/samba/
+-samba: 4.16.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1083,7 +1083,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 8.2.5052 to 5085
+-gvim: 8.2.5052 to 5096
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
