@@ -65,7 +65,7 @@ A series :
 -inotify-tools: 3.22.6.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.5.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+-kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.18.5 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220610 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 29 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -213,7 +213,7 @@ Ap series :
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lsof: 4.95.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 4.0.12 https://linuxcontainers.org/lxc/downloads/
+-lxc: 4.0.12 to 5.0.0 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.10.2 http://www.nongnu.org/man-db/
@@ -1019,7 +1019,7 @@ x series: (main packages)
 -vulkan-sdk: 1.3.204.0 to 1.3.204.1 https://vulkan.lunarg.com/sdk/home
 -wayland: 1.20.0 to 1.20.91 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.25 https://wayland.freedesktop.org/releases.html
--xcb-proto. 1.15
+-xcb-proto. 1.15 to 1.15.1
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.11
 -xinit: 1.4.1
@@ -1085,7 +1085,7 @@ xap series:
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 8.2.5052 to 5114
 -hexchat: 2.16.1 https://hexchat.github.io/
--libnma: 1.8.38 https://wiki.gnome.org/Projects/NetworkManager/
+-libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 101.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 91.10.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
