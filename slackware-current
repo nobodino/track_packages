@@ -232,7 +232,7 @@ Ap series :
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
 -qpdf: 10.6.3 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
--rpm: 4.16.1.3 to 4.17.0 http://ftp.rpm.org/releases
+-rpm: 4.16.1.3 to 4.17.1 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
 -sc-im: 20210927 to 20220120 https://github.com/andmarti1424/sc-im
@@ -461,7 +461,7 @@ l series:
 -glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.70.1 to 2.72.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.70.4 to 2.70.5/2.72.2 https://www.gtk.org
+-glib2: 2.70.4 to 2.70.5/2.72.3 https://www.gtk.org
 -glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
 -glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.12 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -858,7 +858,7 @@ n series:
 -mutt: 2.2.6 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
--net-snmp: 5.9.1 http://www.net-snmp.org/download.html
+-net-snmp: 5.9.1 to 5.9.2 http://www.net-snmp.org/download.html
 -net-tools: 20170208_479bb4a to 2.10 (07012021) https://github.com/ecki/net-tools
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
 -netdate: diff2.gz to 1.2 (gentoo)
