@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0009 to 0014 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0009 to 0020 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0009
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -381,7 +381,7 @@ l series:
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.5 https://github.com/AcademySoftwareFoundation/Imath
 -LibRaw: 0.20.2 http://www.libraw.org/
--Mako: 1.1.6 to 1.2.0 http://www.python.org/pypi/Mako/
+-Mako: 1.1.6 to 1.2.1 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
@@ -460,7 +460,7 @@ l series:
 -gjs: 1.70.1 to 1.72.0 (nok, need mozjs91) https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.70.1 to 2.72.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.70.1 to 2.72.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.70.4 to 2.70.5/2.72.3 https://www.gtk.org
 -glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
 -glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
@@ -1085,7 +1085,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0009 to 0014
+-gvim: 9.0.0009 to 0020
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 102.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
