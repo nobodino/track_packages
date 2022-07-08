@@ -29,7 +29,7 @@ A series :
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.18 http://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 20191011 to 20211125 https://github.com/rhboot/efibootmgr
+-efibootmgr: 20191011 to 18 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20220418 (nok) https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elogind: 246.10 https://github.com/elogind/elogind
@@ -57,7 +57,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.360 https://github.com/vcrhonek/hwdata
+-hwdata: 0.361 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -66,9 +66,9 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.18.9 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220622 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 29 to 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kernel-ide: 5.18.10 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220705 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
@@ -81,7 +81,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.16 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 http://www.nongnu.org/lzip/lzlib.html
--mcelog: 182 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 184 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
@@ -95,7 +95,7 @@ A series :
 -ndctl: 71.1 to 73 (nok) https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.05.17 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/
--openssl-solibs: 1.1.1p to 3.0.4 http://www.openssl.org/
+-openssl-solibs: 1.1.1q to 3.0.5 http://www.openssl.org/
 -os-prober: 1.79 to 1.80 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0009 to 0032 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 9.0.0009
+-vim: 9.0.0041 to 00xx http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 9.0.0041
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,13 +293,13 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.18.9 http://wwww.kernel.org
+-kernel-headers: 5.18.10 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.1.3 to 6.1.4 https://www.mercurial-scm.org/release
--meson: 0.62.2 to 0.63.0 http://mesonbuild.com/
+-meson: 0.63.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.0 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -340,7 +340,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils
 -ruby: 3.1.2 http://www.ruby-lang.org/
--rust: 1.61.0 to 1.62.0 https://rust-lang.org
+-rust: 1.62.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -368,13 +368,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.18.9
+-kernel : 5.18.10
 --------------------
 kde series :
 --------------------
 -kde: 5.25.2 (plasma) https://download.kde.org/stable/
 -kde: 5.95.0 (framework) https://download.kde.org/stable/
--kde: 22.04.2 (kde gear) https://download.kde.org/stable/
+-kde: 22.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -391,7 +391,7 @@ l series:
 -SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
--SDL2_ttf: 2.0.18 https://www.libsdl.org/projects/SDL2_ttf/
+-SDL2_ttf: 2.20.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
@@ -497,8 +497,8 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_39 to 40 http://www.imagemagick.org/
--isl: 0.24 https://libisl.sourceforge.io/
+-imagemagick: 7.1.0_40 http://www.imagemagick.org/
+-isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
 -jasper: 3.0.5 http://www.ece.uvic.ca/~frodo/jasper/#download
@@ -534,7 +534,7 @@ l series:
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
 -libdiscid: 0.6.2 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
--libdmtx: 0.7.5 https://github.com/dmtx/libdmtx
+-libdmtx: 0.7.7 https://github.com/dmtx/libdmtx
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
 -libdvdread: 6.1.3 http://download.videolan.org/videolan/libdvdread/
 -libedit: 20210910_3.1 http://www.thrysoee.dk/editline/
@@ -544,7 +544,7 @@ l series:
 -libffi: 3.3 http://sourceware.org/pub/libffi
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.29 http://www.gphoto.org/
+-libgphoto2: 2.5.30 http://www.gphoto.org/
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.49 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
@@ -565,7 +565,7 @@ l series:
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
 -libmpc: 1.2.1 http://www.multiprecision.org
--libmtp: 1.1.19 http://libmtp.sourceforge.net/
+-libmtp: 1.1.20 http://libmtp.sourceforge.net/
 -libnice: 0.1.19 https://libnice.freedesktop.org/#download
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
@@ -665,11 +665,11 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
--pipewire: 0.3.52 to 0.3.53 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.54 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.06.0 http://poppler.freedesktop.org/
+-poppler: 22.07.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -769,7 +769,7 @@ l series:
 -vte: 0.66.2 to 0.68.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.4.0 http://www.wavpack.com/
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
--xapian-core: 1.4.18 to 1.4.19 http://www.xapian.org/
+-xapian-core: 1.4.20 http://www.xapian.org/
 -xxHash: 0.8.1 https://github.com/Cyan4973/xxHash
 -zlib: 1.2.12 http://www.gzip.org/zlib/
 -zstd: 1.5.2 https://facebook.github.io/zstd/
@@ -811,7 +811,7 @@ n series:
 -fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.35 to 2.2.36 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.36 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.6 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
@@ -892,7 +892,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1p to 3.0.4 http://ftp.openssl.org/source/
+-openssl: 1.1.1q to 3.0.5 http://ftp.openssl.org/source/
 -openvpn: 2.5.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -932,7 +932,7 @@ n series:
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.3 http://ftp.gnu.org/gnu/wget/
--wget2: 2.0.0 to 2.0.1 http://ftp.gnu.org/gnu/wget/
+-wget2: 2.0.1 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.13 https://github.com/rfc1036/whois
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
@@ -990,8 +990,8 @@ x series: (main packages)
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
 -libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin
--libva: 2.14.0 https://01.org/linuxmedia/vaapi
--libva-utils: 2.14.0 https://01.org/linuxmedia/vaapi
+-libva: 2.15.0 https://01.org/linuxmedia/vaapi
+-libva-utils: 2.15.0 https://01.org/linuxmedia/vaapi
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.3.0 https://github.com/linuxwacom
 -libXaw: 1.0.14 
@@ -1085,11 +1085,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0009 to 0032
+-gvim: 9.0.0041 to 00xx
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 102.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.0 https://www.thunderbird.net/
+-mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.0.1 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1143,7 +1143,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-screensaver: 0.1.11
 -xfce4-screenshooter: 1.9.10
 -xfce4-session: 4.16.0
--xfce4-settings: 4.16.2
+-xfce4-settings: 4.16.2 to 4.16.3
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 0.8.10 to 1.0.4
@@ -1159,7 +1159,7 @@ y series:
 -nethack: 3.6.6 https://www.nethack.org
 --------------------
 extra:
--rust-for-mozilla: rust-1.59.0
+-rust-for-mozilla: rust-1.60.0
 --------------------
 -aspell-word-list: 0.50.4
 -bash-completion: 2.11 https://github.com/scop/bash-completion
@@ -1171,8 +1171,8 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.20
--php81: 8.1.7
+-php80: 8.0.21
+-php81: 8.1.8
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
