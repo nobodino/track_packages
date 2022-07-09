@@ -55,7 +55,7 @@ A series :
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.12 http://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
--hdparm: 9.63 https://sourceforge.net/projects/hdparm/files/hdparm/
+-hdparm: 9.63 to 9.64 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
 -hwdata: 0.361 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0041 to 00xx http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0041 to 0048 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0041
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -396,7 +396,7 @@ l series:
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 42.0 http://braumeister.org/formula/gnome-icon-theme
--alsa-lib: 1.2.7 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.7 to 1.2.7.2 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -1085,7 +1085,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0041 to 00xx
+-gvim: 9.0.0041 to 0048
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
