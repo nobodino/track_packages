@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.18.10 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220705 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220708 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://web.archive.org/web/20201001211017/https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0041 to 0048 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0041 to 0049 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0041
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -373,7 +373,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.25.2 (plasma) https://download.kde.org/stable/
--kde: 5.95.0 (framework) https://download.kde.org/stable/
+-kde: 5.96.0 (framework) https://download.kde.org/stable/
 -kde: 22.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -388,15 +388,15 @@ l series:
 -QtAV: 20210414 to 20220226 https://github.com/wang-bin/QtAV
 -SDL2: 2.0.22 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.0.5 https://www.libsdl.org/projects/SDL2_image/
--SDL2_mixer: 2.0.4 https://www.libsdl.org/projects/SDL2_mixer/
+-SDL2_image: 2.6.0 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_mixer: 2.6.0 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.20.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 to 1.4p5_39.diff.gz http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 42.0 http://braumeister.org/formula/gnome-icon-theme
--alsa-lib: 1.2.7 to 1.2.7.2 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.7.2 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -497,7 +497,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_40 http://www.imagemagick.org/
+-imagemagick: 7.1.0_41 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -646,7 +646,7 @@ l series:
 -neon: 0.32.2 https://notroj.github.io/neon/
 -netpbm: 10.99.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
--nodejs: 16.15.1 https://nodejs.org/
+-nodejs: 16.16.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.2 https://openal-soft.org/openal-releases
@@ -1085,7 +1085,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0041 to 0048
+-gvim: 9.0.0041 to 0049
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
