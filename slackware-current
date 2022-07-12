@@ -1031,21 +1031,24 @@ x series: (main packages)
 -xorg-server-xwayland: 21.1.3 to 22.1.2
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.0.0
--xf86-video-amdgpu: 22.0.0
+-xf86-video-amdgpu: 22.0.0 to 20220420
 -xf86-video-apm: 1.3.0
--xf86-video-ati: 19.1.0
+-xf86-video-ati: 19.1.0 to 20220410
 -xf86-video-dummy: 0.4.0
 -xf86-video-i128: 1.4.0
 -xf86-video-i740: 1.4.0
--xf86-video-intel: 20201215 to 20210222
+-xf86-video-intel: 20201215 to 20210115
+-xf86-video-mach: 6.9.6 to 20220710
 -xf86-video-mga: 2.0.0
 -xf86-video-nv: 2.1.21
--xf86-video-nouveau: 1.0.17
+-xf86-video-nouveau: 1.0.17 to 20220125
 -xf86-video-r128: 6.12.0b
--xf86-video-s3: 0.7.0
--xf86-video-s3virge: 1.11.0
--xf86-video-savage: 20190128
+-xf86-video-s3: 0.7.0 to 20220127
+-xf86-video-s3virge: 1.11.0 to 20220130
+-xf86-video-savage: 20190128 
 -xf86-video-sis: 0.12.0
+-xf86-video-tga: 1.2.1 to 20220129
+-xf86-video-trident: 1.3.8 to 20220129
 -xf86-video-v4l: 0.3.0
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
