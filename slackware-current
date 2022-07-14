@@ -189,7 +189,7 @@ Ap series :
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20220219 https://github.com/ksh93/ksh
+-ksh93: 1.0_20220219 (pb with gcc-12.1.0) https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -913,7 +913,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.4 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.16.2 https://ftp.samba.org/pub/samba/
+-samba: 4.16.2 (pb with gcc-12.1.0) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1028,7 +1028,7 @@ x series: (main packages)
 -xkeyboard-config: 2.36
 -xorgproto: 2021.5
 -xorg-server: 1.20.14 to 21.1.4 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.3 to 22.1.3
+-xorg-server-xwayland: 21.1.3 (pb with gcc-12.1.0) to 22.1.3
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.0.0
 -xf86-video-amdgpu: 22.0.0 to 20220420
