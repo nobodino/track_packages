@@ -323,7 +323,7 @@ d series:
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.100
 	- TermReadKey: 2.38
-	- URI: 5.10 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.10 to 5.12 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -980,7 +980,7 @@ x series: (main packages)
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.110 to 2.4.111 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.110 to 2.4.112 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.12.1 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
