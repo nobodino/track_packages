@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.18.11 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.18.12 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220714 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -189,7 +189,7 @@ Ap series :
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20220219 (pb with gcc-12.1.0) https://github.com/ksh93/ksh
+-ksh93: 1.0_20220716 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0041 to 0053 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 9.0.0041
+-vim: 9.0.0053 to 0057 http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 9.0.0055
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.18.11 http://wwww.kernel.org
+-kernel-headers: 5.18.12 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -307,7 +307,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.23 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20220622 https://www.gnu.org/software/parallel/
--patchelf: 0.14.5 https://github.com/NixOS/patchelf
+-patchelf: 0.15.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.18.11
+-kernel : 5.18.12
 --------------------
 kde series :
 --------------------
@@ -457,7 +457,7 @@ l series:
 -gegl: 0.4.38 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.0 https://wiki.gnome.org/gexiv2
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.70.1 to 1.72.0 (nok, need mozjs91) https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.70.2 to 1.72.1 (nok, need mozjs91) https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.72.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
@@ -465,7 +465,7 @@ l series:
 -glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
 -glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.12 http://ftp.acc.umu.se/pub/gnome/sources/gmime
--gmm: 5.4 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
+-gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
 -gnome-keyring: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
@@ -547,7 +547,7 @@ l series:
 -libgphoto2: 2.5.30 http://www.gphoto.org/
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
--libgsf: 1.14.49 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
+-libgsf: 1.14.50 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://gitlab.gnome.org/GNOME/libgtop
 -libid3tag: 0.15.1b http://ftp.mars.org/pub/mpeg/
 -libical: 3.0.14 https://libical.github.io/libical/
@@ -570,8 +570,8 @@ l series:
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
--libnl3: 3.6.0 https://github.com/thom311/libnl
--libnotify: 0.7.12 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
+-libnl3: 3.6.0 to 3.7.0 https://github.com/thom311/libnl
+-libnotify: 0.8.1 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libnsl: 1.3.0 to 2.0.0 https://github.com/thkukuk/libnsl
 -libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis
 -libodfgen: 0.1.8 http://sourceforge.net/p/libwpd/wiki/libodfgen/
@@ -618,7 +618,7 @@ l series:
 -libvncserver: 0.9.13 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.11.0 http://www.webmproject.org/
--libwebp: 1.2.2 https://developers.google.com/speed/webp/
+-libwebp: 1.2.3 https://developers.google.com/speed/webp/
 -libwmf: 0.2.12 https://github.com/caolanm/libwmf
 -libwnck3: 3.6.4 to 40.1 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
@@ -808,7 +808,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 http://www.epicsol.org/
 -ethtool: 5.18 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.30 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.31 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.36 https://www.gnupg.org/download/index.html
@@ -827,7 +827,7 @@ n series:
 -iputils: 20211215 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
--irssi: 1.2.3 https://github.com/irssi/irssi
+-irssi: 1.4.2 https://github.com/irssi/irssi
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.20 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
@@ -888,7 +888,7 @@ n series:
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.6.2 to 2.6.3 https://ftp.openldap.org/software/download/
+-openldap: 2.6.3 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
@@ -913,12 +913,12 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.4 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.16.2 (pb with gcc-12.1.0) https://ftp.samba.org/pub/samba/
+-samba: 4.16.2 (pb with gcc-12.1.0) to 4.16.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 https://github.com/libfuse/sshfs
--stunnel: 5.64 https://www.stunnel.org/downloads.html
+-stunnel: 5.65 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1007,7 +1007,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.1
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 21.3.9/22.1.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 21.3.8 to 21.3.9/22.1.4 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1065,7 +1065,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.3 http://blueman-project.org
+-blueman: 2.3.1 http://blueman-project.org
 -ddd: 3.3.12 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
@@ -1084,11 +1084,11 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.4.2 to 5.4.3 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.4.2 to 5.4.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0041 to 0053
+-gvim: 9.0.0053 to 0057
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
