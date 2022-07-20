@@ -1092,8 +1092,8 @@ xap series:
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.0.2 https://www.thunderbird.net/
--network-manager-applet: 1.26.0 https://download.gnome.org/sources/network-manager-applet
+-mozilla-thunderbird: 102.0.2 to 102.0.3 https://www.thunderbird.net/
+-network-manager-applet: 1.26.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.10
