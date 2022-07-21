@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.18.12 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220714 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220719 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -128,7 +128,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.99.13 to 0.99.19 (need systemd for version > 0.99.13) https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 0.99.13 to 0.99.20 (need systemd for version > 0.99.13) https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 014 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -335,12 +335,12 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.13 to 3.10.5 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.1.2 https://pypi.python.org/pypi/pip
--python-setuptools: 58.3.0 to 62.2.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 63.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils
 -ruby: 3.1.2 http://www.ruby-lang.org/
--rust: 1.62.0 to 1.62.1 https://rust-lang.org
+-rust: 1.62.1 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.3.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
@@ -524,7 +524,7 @@ l series:
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca.git
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
--libcap: 2.64 http://sites.google.com/site/fullycapable/
+-libcap: 2.65 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.3 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
@@ -645,7 +645,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
 -neon: 0.32.2 https://notroj.github.io/neon/
--netpbm: 10.99.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 10.99.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
 -nodejs: 16.16.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
@@ -666,7 +666,7 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
--pipewire: 0.3.55 to 0.3.56 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.56 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -723,7 +723,7 @@ l series:
 -python-zipp: 3.8.0 https://pypi.org/project/zipp
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.4_202200611 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.4_20220705 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.3 https://github.com/stachenov/quazip
@@ -783,7 +783,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.4 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.5 http://ftp.isc.org/isc/bind9/
 -bluez: 5.64 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -829,7 +829,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.2 https://github.com/irssi/irssi
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.20 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.19.3 to 1.20 (pb with samba) http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
@@ -913,7 +913,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.4 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.16.2 (pb with gcc-12.1.0) to 4.16.3 https://ftp.samba.org/pub/samba/
+-samba: 4.16.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1030,7 +1030,7 @@ x series: (main packages)
 -xorg-server: 1.20.14 to 21.1.4 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 21.1.3 (pb with gcc-12.1.0) to 22.1.3
 -xf86-input-libinput: 1.2.1
--xf86-input-wacom: 1.0.0
+-xf86-input-wacom: 1.0.0 to 1.1.0
 -xf86-video-amdgpu: 22.0.0 to 20220420
 -xf86-video-apm: 1.3.0
 -xf86-video-ati: 19.1.0 to 20220410
@@ -1084,7 +1084,7 @@ xap series:
 	- eboard: 1.1.1 http://www.bergo.eng.br/eboard/index.php?p=2
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.4.2 to 5.4.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.4.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
