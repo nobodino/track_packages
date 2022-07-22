@@ -243,7 +243,7 @@ Ap series :
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.39.1 http://www.sqlite.org/download.html
+-sqlite: 3.39.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.11p2 to p3 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -334,7 +334,7 @@ d series:
 -poke: 2.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.13 to 3.10.5 (new API) https://www.python.org/downloads/
--python-pip: 21.4 to 22.1.2 https://pypi.python.org/pypi/pip
+-python-pip: 21.4 to 22.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 63.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -858,7 +858,7 @@ n series:
 -mutt: 2.2.6 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
--net-snmp: 5.9.1 to 5.9.3 http://www.net-snmp.org/download.html
+-net-snmp: 5.9.3 http://www.net-snmp.org/download.html
 -net-tools: 20170208_479bb4a to 2.10 (07012021) https://github.com/ecki/net-tools
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
 -netdate: diff2.gz to 1.2 (gentoo)
@@ -1005,7 +1005,7 @@ x series: (main packages)
 -libX11: 1.8.1
 -libXres: 1.2.1
 -libXt: 1.2.1
--libxcvt: 0.1.1
+-libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
 -mesa: 21.3.8 to 21.3.9/22.1.4 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
