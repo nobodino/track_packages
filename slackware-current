@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.18.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.18.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220719 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0053 to 0057 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0053 to 0063 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0055
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.18.12 http://wwww.kernel.org
+-kernel-headers: 5.18.13 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.18.12
+-kernel : 5.18.13
 --------------------
 kde series :
 --------------------
@@ -438,7 +438,7 @@ l series:
 -exiv2: 0.27.5 http://www.exiv2.org/
 -expat: 2.4.8 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 4.4.2 to 5.0.1 https://ffmpeg.org/
+-ffmpeg: 4.4.2 to 5.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2. http://www.fluidsynth.org/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
@@ -490,7 +490,7 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 4.4.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 4.4.1 to 5.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -638,9 +638,9 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.8.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.80 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.80 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.32 to 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+-mozilla-nss: 3.81 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.81 https://ftp.mozilla.org/pub/security/nss/releases/
+	- nspr: 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr to 91.11.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
@@ -906,7 +906,7 @@ n series:
 	-pppsetup: 1.98
 	-freeradius-client: 1.1.7
 -procmail: 3.24 http://www.procmail.org/ or http://archive.debian.org/debian-security/pool/updates/main/p/procmail/
--proftpd: 1.3.7d http://www.proftpd.org
+-proftpd: 1.3.7d to 1.3.7e http://www.proftpd.org
 -pssh: 2.3.4 https://github.com/lilydjwg/pssh/releases
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
@@ -936,7 +936,7 @@ n series:
 -whois: 5.5.13 https://github.com/rfc1036/whois
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
--wpa_supplicant: 2.10 http://hostap.epitest.fi/wpa_supplicant/
+-wpa_supplicant: 2.10 http://hostap.epitest.fi/wpa_supplicant/grep -r . /sys/devices/system/cpu/vulnerabilities
 -yptools:
 	- yp-tools: 4.2.3 https://github.com/thkukuk/yp-tools/
 	- ypbind-mt: 2.7.2 https://github.com/thkukuk/ypbind-mt/
@@ -1088,7 +1088,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0053 to 0057
+-gvim: 9.0.0053 to 0063
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1238,4 +1238,12 @@ cat /proc/sys/kernel/sched_autogroup_enabled
 boost performances on x86 slackware:
 
 echo 1 > /proc/sys/vm/highmem_is_dirtyable
+/-----------------------------------------------------------------------------------/
+Enable and disable retbleed:
+
+grep -r . /sys/devices/system/cpu/vulnerabilities
+
+cat /sys/devices/system/cpu/vulnerabilities/retbleed
+
+to turn off retbleed mitigations with the "retbleed=off" kernel command line
 /-----------------------------------------------------------------------------------/
