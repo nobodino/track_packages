@@ -66,8 +66,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.18.13 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220719 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.18.14 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20220725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0053 to 0063 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0053 to 0073 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0055
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.18.13 http://wwww.kernel.org
+-kernel-headers: 5.18.14 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -306,7 +306,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.23 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20220622 https://www.gnu.org/software/parallel/
+-parallel: 20220722 https://www.gnu.org/software/parallel/
 -patchelf: 0.15.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
@@ -323,7 +323,7 @@ d series:
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.100
 	- TermReadKey: 2.38
-	- URI: 5.10 to 5.12 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.12 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -331,7 +331,7 @@ d series:
 	- perl: 5.34.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
--poke: 2.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 2.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.13 to 3.10.5 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.2 https://pypi.python.org/pypi/pip
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.18.13
+-kernel : 5.18.14
 --------------------
 kde series :
 --------------------
@@ -467,7 +467,7 @@ l series:
 -gmime: 3.2.12 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
--gnome-keyring: 40.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
+-gnome-keyring: 42.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.14 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.72.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
@@ -490,16 +490,16 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 4.4.1 to 5.0.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 5.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_4 http://www.imagemagick.org/
+-imagemagick: 7.1.0_44 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
--iso-codes: 4.10.0 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.11.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
 -jasper: 3.0.6 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.2.1 https://github.com/jemalloc/jemalloc
@@ -784,7 +784,7 @@ n series:
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.5 http://ftp.isc.org/isc/bind9/
--bluez: 5.64 http://www.bluez.org/download/
+-bluez: 5.65 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -853,7 +853,7 @@ n series:
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
--mobile-broadband-provider-info: 20220511 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mobile-broadband-provider-info: 20220725 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.6 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
@@ -906,7 +906,7 @@ n series:
 	-pppsetup: 1.98
 	-freeradius-client: 1.1.7
 -procmail: 3.24 http://www.procmail.org/ or http://archive.debian.org/debian-security/pool/updates/main/p/procmail/
--proftpd: 1.3.7d to 1.3.7e http://www.proftpd.org
+-proftpd: 1.3.7e http://www.proftpd.org
 -pssh: 2.3.4 https://github.com/lilydjwg/pssh/releases
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
@@ -963,7 +963,7 @@ x series: (main packages)
 --------------------
 -OpenCC: 1.1.4 https://github.com/BYVoid/OpenCC
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
--egl-wayland: 1.1.7 to 1.1.9 https://github.com/NVIDIA/egl-wayland
+-egl-wayland: 1.1.7 to 1.1.9 cp -v initrd.gz initrd.orig.gz  && cat intel-ucode.cpio initrd.orig.gz > initrd.gzhttps://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
 -fcitx: 4.2.9.8 https://fcitx-im.org/wiki/Fcitx
 -fcitx-configtool: 0.4.10 https://download.fcitx-im.org/fcitx-configtool
@@ -1003,7 +1003,7 @@ x series: (main packages)
 -libXft: 2.3.4
 -libXi: 1.8
 -libX11: 1.8.1
--libXres: 1.2.1
+-libXres: 1.2.1cp -v initrd.gz initrd.orig.gz  && cat intel-ucode.cpio initrd.orig.gz > initrd.gz
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
@@ -1088,10 +1088,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0053 to 0063
+-gvim: 9.0.0053 to 0073
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 102.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 103.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.0.2 to 102.0.3 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
@@ -1191,9 +1191,11 @@ grep . /sys/devices/system/cpu/vulnerabilities/*
 /sys/devices/system/cpu/vulnerabilities/l1tf:Mitigation: PTE Inversion; VMX: conditional cache flushes, SMT vulnerable
 /sys/devices/system/cpu/vulnerabilities/mds:Mitigation: Clear CPU buffers; SMT vulnerable
 /sys/devices/system/cpu/vulnerabilities/meltdown:Mitigation: PTI
+/sys/devices/system/cpu/vulnerabilities/mmio_stale_data:Mitigation: Clear CPU buffers; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/retbleed:Mitigation: IBRS
 /sys/devices/system/cpu/vulnerabilities/spec_store_bypass:Mitigation: Speculative Store Bypass disabled via prctl
 /sys/devices/system/cpu/vulnerabilities/spectre_v1:Mitigation: usercopy/swapgs barriers and __user pointer sanitization
-/sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: Full generic retpoline, IBPB: conditional, IBRS_FW, STIBP: conditional, RSB filling
+/sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: IBRS, IBPB: conditional, RSB filling
 /sys/devices/system/cpu/vulnerabilities/srbds:Mitigation: Microcode
 /sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Mitigation: TSX disabled
 /-----------------------------------------------------------------------------------/
