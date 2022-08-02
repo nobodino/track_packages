@@ -21,7 +21,7 @@ A series :
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
--cryptsetup: 2.4.3 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.14.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.18.15 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.0 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -189,7 +189,7 @@ Ap series :
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20220716 https://github.com/ksh93/ksh
+-ksh93: 1.0_20220716 to 1.0 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.18.15 http://wwww.kernel.org
+-kernel-headers: 5.19.0 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -333,7 +333,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.13 to 3.10.5 (new API) https://www.python.org/downloads/
+-python3: 3.9.13 to 3.10.6 (new API) https://www.python.org/downloads/
 -python-pip: 21.4 to 22.2.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 63.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -342,7 +342,7 @@ d series:
 -ruby: 3.1.2 http://www.ruby-lang.org/
 -rust: 1.62.1 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
--scons: 4.3.0 http://www.scons.org/
+-scons: 4.4.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
 -strace: 5.18 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.18.15
+-kernel : 5.19.0
 --------------------
 kde series :
 --------------------
@@ -490,14 +490,14 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 5.0.1 to 5.1.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 5.1.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.0 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_44 to 45 http://www.imagemagick.org/
+-imagemagick: 7.1.0_45 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.11.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -520,7 +520,7 @@ l series:
 -libarchive: 3.6.1 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
--libbluray: 1.3.1 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.3.2 http://www.videolan.org/developers/libbluray.html
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca.git
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
@@ -671,7 +671,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.07.0 http://poppler.freedesktop.org/
+-poppler: 22.07.0 to 22.08.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -809,7 +809,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 http://www.epicsol.org/
 -ethtool: 5.18 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.31 to 6.4.32 http://www.catb.org/~esr/fetchmail/
+-fetchmail: 6.4.32 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.36 https://www.gnupg.org/download/index.html
@@ -1092,7 +1092,7 @@ xap series:
 -gvim: 9.0.0107 to 01xx
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 103.0 to 103.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 103.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.1.0 https://www.thunderbird.net/
 -network-manager-applet: 1.26.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
