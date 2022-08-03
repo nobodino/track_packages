@@ -659,7 +659,7 @@ l series:
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.50.8 http://ftp.gnome.org/pub/GNOME/sources/pango/
--pangomm: 2.42.2 to 2.50.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
+-pangomm: 2.42.2 to 2.46.2 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
 -pcre2: 10.40 https://github.com/PhilipHazel/pcre2/releases
