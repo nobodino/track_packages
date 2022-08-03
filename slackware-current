@@ -223,7 +223,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
 -mpg123: 1.30.1 http://sourceforge.net/projects/mpg123/files/
--nano: 6.3 http://www.nano-editor.org/download.php
+-nano: 6.3 to 6.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 to 2.0 https://github.com/linux-nvme/nvme-cli
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0107 to 01xx http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0107 to 0135 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0107
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -372,7 +372,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.25.3 (plasma) https://download.kde.org/stable/
+-kde: 5.25.3 to 5.23.4 (plasma) https://download.kde.org/stable/
 -kde: 5.96.0 (framework) https://download.kde.org/stable/
 -kde: 22.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -388,7 +388,7 @@ l series:
 -QtAV: 20210414 to 20220226 https://github.com/wang-bin/QtAV
 -SDL2: 2.0.22 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.6.0 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_image: 2.6.0 to 2.6.1 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.1 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.20.0 https://www.libsdl.org/projects/SDL2_ttf/
@@ -821,7 +821,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.18.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.18.0 to 5.19.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -1089,7 +1089,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0107 to 01xx
+-gvim: 9.0.0107 to 0135
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
