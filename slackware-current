@@ -5,7 +5,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 A series :
 --------------------
 -aaa_base: 15.0
--aaa_glibc-solibs: 2.35
+-aaa_glibc-solibs: 2.36
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.3
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
@@ -21,7 +21,7 @@ A series :
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.7 https://github.com/cracklib/cracklib
--cryptsetup: 2.https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.5.0 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.14.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.0 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.118.16 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -223,7 +223,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
 -mpg123: 1.30.1 http://sourceforge.net/projects/mpg123/files/
--nano: 6.3 to 6.4 http://www.nano-editor.org/download.php
+-nano: 6.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 to 2.0 https://github.com/linux-nvme/nvme-cli
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.0 http://wwww.kernel.org
+-kernel-headers: 5.118.16 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -334,7 +334,7 @@ d series:
 -poke: 2.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.13 to 3.10.6 (new API) https://www.python.org/downloads/
--python-pip: 21.4 to 22.2.1 https://pypi.python.org/pypi/pip
+-python-pip: 21.4 to 22.2.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 63.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -368,11 +368,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.0
+-kernel : 5.118.16
 --------------------
 kde series :
 --------------------
--kde: 5.25.3 to 5.23.4 (plasma) https://download.kde.org/stable/
+-kde: 5.23.4 (plasma) https://download.kde.org/stable/
 -kde: 5.96.0 (framework) https://download.kde.org/stable/
 -kde: 22.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -388,7 +388,7 @@ l series:
 -QtAV: 20210414 to 20220226 https://github.com/wang-bin/QtAV
 -SDL2: 2.0.22 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.6.0 to 2.6.1 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_image: 2.6.1 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.1 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.20.0 https://www.libsdl.org/projects/SDL2_ttf/
@@ -463,7 +463,7 @@ l series:
 -glib-networking: 2.72.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.72.3 https://www.gtk.org
 -glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
--glibc: 2.35 http://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.12 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
@@ -671,7 +671,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.07.0 to 22.08.0 http://poppler.freedesktop.org/
+-poppler: 22.08.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -821,7 +821,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.18.0 to 5.19.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 5.19.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -948,7 +948,7 @@ n series:
 t series:
 --------------------
 -fig2dev: 3.2.8b https://sourceforge.net/projects/mcj/files/
--texlive: 2022.220522 https://ctan.net/systems/texlive/Source/
+-texlive: 2022.220801 https://ctan.net/systems/texlive/Source/
 -xfig: 3.2.8b https://sourceforge.net/projects/mcj/files/
 --------------------
 tcl/tk series:
@@ -983,7 +983,7 @@ x series: (main packages)
 -libpciaccess: 0.16
 -libdrm: 2.4.110 to 2.4.112 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
--libevdev: 1.12.1 http://www.freedesktop.org/software/libevdev/
+-libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
 -libglvnd: 1.3.3 to 1.4.0 (1.3.4 pb) https://github.com/NVIDIA/libglvnd/releases
 -libinput: 1.21.0 http://www.freedesktop.org/software/libinput/
@@ -1008,7 +1008,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 21.3.9/22.1.4 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 21.3.8 to 21.3.9/22.1.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1023,6 +1023,8 @@ x series: (main packages)
 -wayland: 1.21.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.26 https://wayland.freedesktop.org/releases.html
 -xcb-proto: 1.15 to 1.15.1
+-xdg-desktop-portal: 1.14.6
+-xdg-user-dirs: 0.18
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.11
 -xinit: 1.4.1
@@ -1066,7 +1068,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.3.1 http://blueman-project.org
+-blueman: 2.3.2 http://blueman-project.org
 -ddd: 3.3.12 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
