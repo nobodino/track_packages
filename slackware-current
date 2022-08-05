@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.118.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220804 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -132,11 +132,11 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 014 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.38
+-util-linux: 2.38.1
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 to 2.17-53.debian.tar.gz http://ftp.debian.org/debian/pool/main/s/setserial/
-	- util-linux: 2.38 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.38.1 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
@@ -222,7 +222,7 @@ Ap series :
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
--mpg123: 1.30.1 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.30.2 http://sourceforge.net/projects/mpg123/files/
 -nano: 6.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.23.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.23.3 to 3.24.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -778,7 +778,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.10 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.36.6 to 1.36.8/1.38.2 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.38.2 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -1093,10 +1093,10 @@ xap series:
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
 -gvim: 9.0.0107 to 0135
 -hexchat: 2.16.1 https://hexchat.github.io/
--libnma: 1.8.38 to 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
+-libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.1.0 https://www.thunderbird.net/
--network-manager-applet: 1.26.0 https://download.gnome.org/soues/network-manager-applet
+-network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.10
@@ -1178,7 +1178,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -php80: 8.0.21
--php81: 8.1.8
+-php81: 8.1.9
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
