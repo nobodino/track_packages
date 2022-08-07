@@ -460,7 +460,7 @@ l series:
 -gjs: 1.70.2 to 1.72.1 (nok, need mozjs91) https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.72.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.72.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.72.3 https://www.gtk.org
 -glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
@@ -486,7 +486,7 @@ l series:
 -gtk+3: 3.24.31 to 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.6.6 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.24.5 to 3.24.6 https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.24.6 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
@@ -541,7 +541,7 @@ l series:
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.24 https://github.com/libexif/libexif/
 -libfakekey: 0.3 https://git.yoctoproject.org/libfakekey/
--libffi: 3.3 http://sourceware.org/pub/libffi
+-libffi: 3.4.2 http://sourceware.org/pub/libffi
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.30 http://www.gphoto.org/
@@ -562,7 +562,6 @@ l series:
 -libjpeg-turbo: 2.1.3 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
-
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
 -libmpc: 1.2.1 http://www.multiprecision.org
@@ -619,7 +618,7 @@ l series:
 -libvncserver: 0.9.13 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.11.0 http://www.webmproject.org/
--libwebp: 1.2.3 https://developers.google.com/speed/webp/
+-libwebp: 1.2.4 https://developers.google.com/speed/webp/
 -libwmf: 0.2.12 https://github.com/caolanm/libwmf
 -libwnck3: 3.6.4 to 40.1 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
@@ -1095,7 +1094,7 @@ xap series:
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.1.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.1.1 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
