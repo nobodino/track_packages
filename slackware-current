@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.118.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220804 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220808 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -189,7 +189,7 @@ Ap series :
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20220716 to 1.0 https://github.com/ksh93/ksh
+-ksh93: 1.0_20220716 to 1.0.2 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0107 to 0135 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 9.0.0107
+-vim: 9.0.0174 to 01xx http://ftp.vim.org/pub/vim/patches/8.2/
+	- vim: 9.0.0174
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -469,7 +469,7 @@ l series:
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
 -gnome-keyring: 42.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
--gnu-efi: 3.0.14 http://sourceforge.net/projects/gnu-efi/
+-gnu-efi: 3.0.15 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.72.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite or http://graphite.sil.org/
@@ -848,14 +848,14 @@ n series:
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
 -libnftnl: 1.2.2 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.30.8 http://www.freedesktop.org/software/libqmi/
--libtirpc: 1.3.2 http://sourceforge.net/projects/libtirpc/ (need krb5)
+-libtirpc: 1.3.3 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.27 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20220725 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
--mutt: 2.2.6 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.7 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.3 http://www.net-snmp.org/download.html
@@ -963,7 +963,7 @@ x series: (main packages)
 --------------------
 -OpenCC: 1.1.4 https://github.com/BYVoid/OpenCC
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
--egl-wayland: 1.1.7 to 1.1.9 cp -v initrd.gz initrd.orig.gz  && cat intel-ucode.cpio initrd.orig.gz > initrd.gzhttps://github.com/NVIDIA/egl-wayland
+-egl-wayland: 1.1.10 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
 -fcitx: 4.2.9.8 https://fcitx-im.org/wiki/Fcitx
 -fcitx-configtool: 0.4.10 https://download.fcitx-im.org/fcitx-configtool
@@ -980,7 +980,7 @@ x series: (main packages)
 -libXau: 1.0.9
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.110 to 2.4.112 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.112 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
@@ -1003,11 +1003,11 @@ x series: (main packages)
 -libXft: 2.3.4
 -libXi: 1.8
 -libX11: 1.8.1
--libXres: 1.2.1cp -v initrd.gz initrd.orig.gz  && cat intel-ucode.cpio initrd.orig.gz > initrd.gz
+-libXres: 1.2.1
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 21.3.8 to 21.3.9/22.1.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.1.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1021,37 +1021,23 @@ x series: (main packages)
 -vulkan-sdk: 1.3.204.0 to 1.3.204.1 https://vulkan.lunarg.com/sdk/home
 -wayland: 1.21.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.26 https://wayland.freedesktop.org/releases.html
--xcb-proto: 1.15 to 1.15.1
+-xcb-proto: 1.15.2
 -xdg-desktop-portal: 1.14.6
 -xdg-user-dirs: 0.18
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.11
 -xinit: 1.4.1
 -xkeyboard-config: 2.36
--xorgproto: 2021.5
--xorg-server: 1.20.14 to 21.1.4 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.3 (pb with gcc-12.1.0) to 22.1.3
+-xorgproto: 2022.1
+-xorg-server: 21.1.4 http://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 22.1.3
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.0.0 to 1.1.0
--xf86-video-amdgpu: 22.0.0 to 20220420
--xf86-video-apm: 1.3.0
--xf86-video-ati: 19.1.0 to 20220410
+-xf86-video-amdgpu: 22.0.0
+-xf86-video-ati: 20220730
 -xf86-video-dummy: 0.4.0
--xf86-video-i128: 1.4.0
--xf86-video-i740: 1.4.0
--xf86-video-intel: 20201215 to 20210115
--xf86-video-mach: 6.9.6 to 20220710
--xf86-video-mga: 2.0.0
--xf86-video-nv: 2.1.21
--xf86-video-nouveau: 1.0.17 to 20220125
--xf86-video-r128: 6.12.0b
--xf86-video-s3: 0.7.0 to 20220127
--xf86-video-s3virge: 1.11.0 to 20220130
--xf86-video-savage: 20190128 
--xf86-video-sis: 0.12.0
--xf86-video-tga: 1.2.1 to 20220129
--xf86-video-trident: 1.3.8 to 20220129
--xf86-video-v4l: 0.3.0
+-xf86-video-intel: 20210115
+-xf86-video-nouveau: 20220125
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
 -xterm: 372 http://invisible-island.net/xterm/
@@ -1075,7 +1061,7 @@ xap series:
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -freerdp: 2.8.0 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
--geeqie: 1.7.3 http://sourceforge.net/projects/geeqie/files/geeqie/
+-geeqie: 2.0 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b http://gftp.seul.org/
 -gimp: 2.10.32 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
@@ -1090,10 +1076,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0107 to 0135
+-gvim: 9.0.0174 to 01xx
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 103.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 103.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.1.1 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
