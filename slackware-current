@@ -46,9 +46,9 @@ A series :
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2022a
-	-tzcode: 2022a https://www.iana.org/time-zones
-	-tzdata: 2022a https://www.iana.org/time-zones
+-glibc-zoneinfo: 2022a to 2022b
+	-tzcode: 2022a to 2022b https://www.iana.org/time-zones
+	-tzdata: 2022a to 2022b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.118.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220808 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220810 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -226,7 +226,7 @@ Ap series :
 -nano: 6.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
--nvme-cli: 1.16 to 2.0 https://github.com/linux-nvme/nvme-cli
+-nvme-cli: 1.16 to 2.1.1 https://github.com/linux-nvme/nvme-cli
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
@@ -267,7 +267,7 @@ d series:
 -autoconf-archive: 2022.02.11 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.38 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.39 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.6.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -451,7 +451,7 @@ l series:
 -gc: 8.0.6 to 8.2.0 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
--gdk-pixbuf2: 2.42.8 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.9 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.38 https://download.gimp.org/pub/gegl/
@@ -647,7 +647,7 @@ l series:
 -neon: 0.32.2 https://notroj.github.io/neon/
 -netpbm: 10.99.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
--nodejs: 16.16.0 https://nodejs.org/
+-nodejs: 18.7.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.2 https://openal-soft.org/openal-releases
@@ -814,7 +814,7 @@ n series:
 -gnupg2: 2.2.36 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.7 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.17.0 to 1.17.1 https://www.gnupg.org/download/index.html
+-gpgme: 1.18.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.54 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
@@ -846,7 +846,7 @@ n series:
 -libnetfilter_log: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
--libnftnl: 1.2.2 http://ftp.netfilter.org/pub/libnftnl/
+-libnftnl: 1.2.3 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.30.8 http://www.freedesktop.org/software/libqmi/
 -libtirpc: 1.3.3 http://sourceforge.net/projects/libtirpc/ (need krb5)
 -links: 2.27 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
@@ -879,8 +879,8 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.6.1 to 2.6.2 http://sourceforge.net/projects/nfs/ (need krb5)
--nftables: 1.0.4 http://www.netfilter.org/projects/nftables/
+-nfs-utils: 2.6.2 http://sourceforge.net/projects/nfs/ (need krb5)
+-nftables: 1.0.5 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.48.0 https://nghttp2.org/
 -nmap: 7.92 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -1007,7 +1007,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 22.1.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.1.5 to 22.1.6 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
