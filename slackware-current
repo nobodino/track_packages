@@ -274,14 +274,14 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.23.3 to 3.24.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.24.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
 -distcc: 3.4 http://distcc.samba.org/
 -doxygen: 1.9.4 (pb with gcc-12.1.0 )http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
--gcc: 11.3.0 to 12.1 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 12.1 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.37.2 http://git-scm.com/download
@@ -373,7 +373,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.23.4 (plasma) https://download.kde.org/stable/
--kde: 5.96.0 (framework) https://download.kde.org/stable/
+-kde: 5.96.0 to 5.97.0 (framework) https://download.kde.org/stable/
 -kde: 22.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -965,7 +965,7 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
 -egl-wayland: 1.1.10 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
--fcitx: 4.2.9.8 https://fcitx-im.org/wiki/Fcitx
+-fcitx: 4.2.9.8 to 4.2.9.9 https://fcitx-im.org/wiki/Fcitx
 -fcitx-configtool: 0.4.10 https://download.fcitx-im.org/fcitx-configtool
 -fcitx-qt5: 1.2.7 https://download.fcitx-im.org/fcitx-qt5/
 -fontconfig: 2.13.92 to 2.14.0 http://freedesktop.org/software/fontconfig
