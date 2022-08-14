@@ -46,9 +46,9 @@ A series :
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2022a to 2022b
-	-tzcode: 2022a to 2022b https://www.iana.org/time-zones
-	-tzdata: 2022a to 2022b https://www.iana.org/time-zones
+-glibc-zoneinfo: 2022b
+	-tzcode: 2022b https://www.iana.org/time-zones
+	-tzdata: 2022b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.3 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.4.0 https://github.com/troglobit/sysklogd
+-sysklogd: 2.4.0 to 2.4.4 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
 -sysvinit: 3.04 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
@@ -140,8 +140,8 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 5.13.0 (to 5.18.0 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.2.5 http://tukaani.org/xz/
+-xfsprogs: 5.13.0 (to 5.19.0 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xz: 5.2.6 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.xz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0174 to 0193 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0174 to 0203 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0174
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.2.1 https://www.mercurial-scm.org/release
--meson: 0.63.0 http://mesonbuild.com/
+-meson: 0.63.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.0 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -344,7 +344,7 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.4.0 http://www.scons.org/
 -slacktrack: 2.22 http://www.slackware.com/~mozes
--strace: 5.18 https://github.com/strace/strace/releases
+-strace: 5.19 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
 -vala: 0.56.2 https://wiki.gnome.org/Projects/Vala
@@ -559,7 +559,7 @@ l series:
 -libimobiledevice-glue: 20211125 to 20220523 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 2.1.3 to 2.1.4 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 2.1.4 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -570,7 +570,7 @@ l series:
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 http://libnjb.sourceforge.net/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
--libnl3: 3.6.0 to 3.7.0 https://github.com/thom311/libnl
+-libnl3: 3.7.0 https://github.com/thom311/libnl
 -libnotify: 0.8.1 http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/
 -libnsl: 1.3.0 to 2.0.0 https://github.com/thkukuk/libnsl
 -libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis
@@ -645,7 +645,7 @@ l series:
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
 -neon: 0.32.2 https://notroj.github.io/neon/
--netpbm: 10.99.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 10.99.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
 -nodejs: 18.7.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
@@ -791,7 +791,7 @@ n series:
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20220622 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.18.1 https://c-ares.org/
--cifs-utils: 6.15 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
@@ -1028,7 +1028,7 @@ x series: (main packages)
 -xdm 1.1.11
 -xinit: 1.4.1
 -xkeyboard-config: 2.36
--xorgproto: 2022.1
+-xorgproto: 2022.2
 -xorg-server: 21.1.4 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 22.1.3
 -xf86-input-libinput: 1.2.1
@@ -1061,7 +1061,7 @@ xap series:
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -freerdp: 2.8.0 https://pub.freerdp.com/releases
 -fvwm: 2.6.9 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
--geeqie: 2.0 http://sourceforge.net/projects/geeqie/files/geeqie/
+-geeqie: 2.0.1 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b http://gftp.seul.org/
 -gimp: 2.10.32 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 ttp://gkrellm.srcbox.net/	
@@ -1076,7 +1076,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0174 to 0193
+-gvim: 9.0.0174 to 0203
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1122,7 +1122,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -mousepad: 0.5.10
 -thunar: 4.16.11 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.16.0
--tumbler: 4.16.0
+-tumbler: 4.16.1
 -xfce4-appfinder: 4.16.1
 -xfce4-clipman-plugin: 1.6.2
 -xfce4-dev-tools: 4.16.0
@@ -1132,7 +1132,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-power-manager: 4.16.0
 -xfce4-pulseaudio-plugin: 0.4.3
 -xfce4-screensaver: 0.1.11
--xfce4-screenshooter: 1.9.10
+-xfce4-screenshooter: 1.9.11
 -xfce4-session: 4.16.0
 -xfce4-settings: 4.16.3
 -xfce4-systemload-plugin: 1.2.4
@@ -1171,7 +1171,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--
+-kernel: 5.19.1
 /-----------------------------------------------------------------------------------/
 grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
