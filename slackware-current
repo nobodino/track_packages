@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.3 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.4.0 to 2.4.4 https://github.com/troglobit/sysklogd
+-sysklogd: 2.4.4 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
 -sysvinit: 3.04 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0174 to 0203 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0174 to 0213 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0174
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -373,7 +373,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.23.4 (plasma) https://download.kde.org/stable/
--kde: 5.96.0 to 5.97.0 (framework) https://download.kde.org/stable/
+-kde: 5.97.0 (framework) https://download.kde.org/stable/
 -kde: 22.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -911,7 +911,7 @@ n series:
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
--rsync: 3.2.4 https://ftp.samba.org/pub/rsync/
+-rsync: 3.2.4 to 3.2.5 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.16.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
@@ -1037,7 +1037,10 @@ x series: (main packages)
 -xf86-video-ati: 20220730
 -xf86-video-dummy: 0.4.0
 -xf86-video-intel: 20210115
+-xf86-video-mach64: 6.9.7
+-xf86-video-mga: 2.0.1
 -xf86-video-nouveau: 20220125
+-xf86-video-r128: 20220127
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 1
 -xterm: 372 http://invisible-island.net/xterm/
@@ -1076,7 +1079,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0174 to 0203
+-gvim: 9.0.0174 to 0213
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
