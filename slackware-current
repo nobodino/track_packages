@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 5.18.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 5.19 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.18.17 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20220810 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20220815 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -218,7 +218,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.10.2 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.6.8 to 10.6.9 http://mariadb.org/
+-mariadb: 10.6.9 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0174 to 0217 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0174 to 0222 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0174
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -459,7 +459,7 @@ l series:
 -gexiv2: 0.14.0 https://wiki.gnome.org/gexiv2
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.70.2 to 1.72.1 (nok, need mozjs91) https://ftp.gnome.org/pub/GNOME/sources/gjs
--glade: 3.38.2 https://ftp.gnome.org/pub/GNOME/sources/glade/
+-glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.72.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.72.3 https://www.gtk.org
@@ -633,7 +633,7 @@ l series:
 -libzip: 1.9.1 http://www.nih.at/libzip/
 -lmdb: 0.9.29 https://github.com/LMDB/lmdb
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth
--lz4: 1.9.3 https://lz4.github.io/lz4
+-lz4: 1.9.4 https://lz4.github.io/lz4
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
@@ -1092,7 +1092,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0174 to 0217
+-gvim: 9.0.0174 to 0222
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
