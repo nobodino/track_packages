@@ -1203,6 +1203,20 @@ Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 /sys/devices/system/cpu/vulnerabilities/srbds:Not affected
 /sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Not affected
 /-----------------------------------------------------------------------------------/
+Intel i6700: grep . /sys/devices/system/cpu/vulnerabilities/*
+--------------------
+/sys/devices/system/cpu/vulnerabilities/itlb_multihit:KVM: Mitigation: VMX disabled
+/sys/devices/system/cpu/vulnerabilities/l1tf:Mitigation: PTE Inversion; VMX: conditional cache flushes, SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/mds:Mitigation: Clear CPU buffers; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/meltdown:Mitigation: PTI
+/sys/devices/system/cpu/vulnerabilities/mmio_stale_data:Mitigation: Clear CPU buffers; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/retbleed:Mitigation: IBRS
+/sys/devices/system/cpu/vulnerabilities/spec_store_bypass:Mitigation: Speculative Store Bypass disabled via prctl
+/sys/devices/system/cpu/vulnerabilities/spectre_v1:Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+/sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: IBRS, IBPB: conditional, RSB filling, PBRSB-eIBRS: Not affected
+/sys/devices/system/cpu/vulnerabilities/srbds:Mitigation: Microcode
+/sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Mitigation: TSX disabled
+/-----------------------------------------------------------------------------------/
 nvidia-smi --query-gpu=driver_version --format=csv,noheader
 /-----------------------------------------------------------------------------------/
 cumulative archive packages for slackware64 (no delete rsync)
