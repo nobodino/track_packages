@@ -111,7 +111,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.8 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.8.1 to 4.12.1 https://shadow-maint.github.io/shadow/
+-shadow: 4.8.1 to 4.12.2 https://shadow-maint.github.io/shadow/
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.3 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -281,7 +281,7 @@ d series:
 -distcc: 3.4 http://distcc.samba.org/
 -doxygen: 1.9.4 (pb with gcc-12.1.0 )http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
--gcc: 12.1 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 12.1 to 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.37.2 http://git-scm.com/download
