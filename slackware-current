@@ -46,9 +46,9 @@ A series :
 -gawk: 5.1.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2022b
-	-tzcode: 2022b https://www.iana.org/time-zones
-	-tzdata: 2022b https://www.iana.org/time-zones
+-glibc-zoneinfo: 2022c
+	-tzcode: 2022c https://www.iana.org/time-zones
+	-tzdata: 2022c https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.7 http://ftp.gnu.org/pub/gnu/grep
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0223 to 02xx http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0223 to 0226 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0223
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.24.0 to 3.24.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.24.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -374,7 +374,7 @@ kde series :
 --------------------
 -kde: 5.23.4 (plasma) https://download.kde.org/stable/
 -kde: 5.97.0 (framework) https://download.kde.org/stable/
--kde: 22.04.3 (kde gear) https://download.kde.org/stable/
+-kde: 22.08.0 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -498,7 +498,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_45 http://www.imagemagick.org/
+-imagemagick: 7.1.0_46 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.11.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -639,8 +639,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.8.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.81 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.81 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.82 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.82 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr to 91.11.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -784,7 +784,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.5 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.6 http://ftp.isc.org/isc/bind9/
 -bluez: 5.65 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -815,7 +815,7 @@ n series:
 -gnupg2: 2.2.36 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.7 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.18.0 https://www.gnupg.org/download/index.html
+-gpgme: 1.7.1 to 1.18.0 (pb) https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.54 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
@@ -1019,7 +1019,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 22.1.6 to 22.1.7 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.1.7 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1092,7 +1092,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0223 to 02xx
+-gvim: 9.0.0223 to 0226
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1119,7 +1119,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.12 https://sourceforge.net/projects/xine/
 -xine-ui: 0.99.13 https://sourceforge.net/projects/xine/
--xlockmore: 5.70 http://ftp.tux.org/pub/tux/bagleyd/xlockmore/
+-xlockmore: 5.71 http://ftp.tux.org/pub/tux/bagleyd/xlockmore/
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 http://ftp.foolabs.com/pub/xpdf
