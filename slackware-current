@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0223 to 0226 http://ftp.vim.org/pub/vim/patches/8.2/
+-vim: 9.0.0223 to 0228 http://ftp.vim.org/pub/vim/patches/8.2/
 	- vim: 9.0.0223
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -386,12 +386,12 @@ l series:
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20210414 to 20220226 https://github.com/wang-bin/QtAV
--SDL2: 2.0.22 https://www.libsdl.org/projects/
+-SDL2: 2.0.22 to 2.24.0 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.1 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.1 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.0.1 https://www.libsdl.org/projects/SDL2_net/
--SDL2_ttf: 2.20.0 https://www.libsdl.org/projects/SDL2_ttf/
+-SDL2_ttf: 2.20.0 to 2.20.1 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
@@ -1092,7 +1092,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0223 to 0226
+-gvim: 9.0.0223 to 0228
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 103.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
