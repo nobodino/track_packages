@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.3 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.4 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220815 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -81,7 +81,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.16 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 http://www.nongnu.org/lzip/lzlib.html
--mcelog: 188 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 189 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
@@ -165,7 +165,7 @@ Ap series :
 	- cups: 2.4.2
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
--cups-filters: 1.28.15 https://www.openprinting.org/download/cups-filters/
+-cups-filters: 1.28.16 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.5 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.26 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
@@ -189,7 +189,7 @@ Ap series :
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20220716 to 1.0.2 https://github.com/ksh93/ksh
+-ksh93: 1.0_20220716 to 1.0.3 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0231 to 0250 http://ftp.vim.org/pub/vim/patches/8.2/
-	- vim: 9.0.0231
+-vim: 9.0.0270 to 02xx http://ftp.vim.org/pub/vim/patches/9.0/
+	- vim: 9.0.0270
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.3 http://wwww.kernel.org
+-kernel-headers: 5.19.4 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -305,7 +305,7 @@ d series:
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
--pahole: 1.23 https://git.kernel.org/cgit/devel/pahole/pahole.git
+-pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20220822 https://www.gnu.org/software/parallel/
 -patchelf: 0.15.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.3
+-kernel : 5.19.4
 --------------------
 kde series :
 --------------------
@@ -409,7 +409,7 @@ l series:
 -atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.2 to 2.36.1 (need mm-common-1.0.4 but nok) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 http://oss.sgi.com/projects/audiofile/download/
--babl: 0.1.94 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.96 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.79.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
@@ -603,7 +603,7 @@ l series:
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.9.6 https://www.libssh.org/files
 -libssh2: 1.10.0 http://www.libssh2.org/
--libtasn1: 4.18.0 http://ftp.gnu.org/gnu/libtasn1/
+-libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.4.0 https://download.osgeo.org/libtiff/
 -libunistring: 0.9.10 to 1.0 http://ftp.gnu.org/gnu/libunistring/
@@ -648,7 +648,7 @@ l series:
 -neon: 0.32.2 https://notroj.github.io/neon/
 -netpbm: 10.99.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
--nodejs: 18.7.0 https://nodejs.org/
+-nodejs: 18.8.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.2 https://openal-soft.org/openal-releases
@@ -812,7 +812,7 @@ n series:
 -fetchmail: 6.4.32 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.36 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.37 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.7 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
@@ -899,7 +899,7 @@ n series:
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.30 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
--pinentry: 1.2.0 https://www.gnupg.org/download/index.html#pinentry
+-pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.7.2 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
@@ -1056,7 +1056,7 @@ x series: (main packages)
 -xf86-video-nouveau: 20220125
 -xf86-video-r128: 20220127
 -xf86-video-vesa: 2.5.0
--xisxwayland: 1
+-xisxwayland: 2
 -xterm: 372 http://invisible-island.net/xterm/
 --------------------
 xap series:
@@ -1093,7 +1093,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0231 to 0250
+-gvim: 9.0.0270 to 02xx
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 104.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1126,7 +1126,7 @@ xap series:
 -xpdf: 4.04 http://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.04 http://www.jwz.org/xscreensaver/
--xsnow: 3.5.1 https://sourceforge.net/projects/xsnow/files/
+-xsnow: 3.5.2 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.16.x https://gitlab.xfce.org/xfce/
 --------------------
