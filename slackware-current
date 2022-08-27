@@ -257,7 +257,7 @@ Ap series :
 	- vim: 9.0.0270
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
--xfsdump: 3.1.9 to 3.1.10 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
+-xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.4.pl2 https://www.gnu.org/software/xorriso
 -zsh: 5.9 http://ftp.fu-berlin.de/pub/unix/shells/zsh/
 ------------------
@@ -279,7 +279,7 @@ d series:
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
 -distcc: 3.4 http://distcc.samba.org/
--doxygen: 1.9.4 (pb with gcc-12.1.0 )http://www.doxygen.org/download.html
+-doxygen: 1.9.4 to 1.9.5 http://www.doxygen.org/download.html
 -flex: 2.6.4 http://ftp.gnu.org/pub/gnu/flex/
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
@@ -754,7 +754,7 @@ l series:
 -spirv-llvm-translator: 14.0.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
--system-config-printer: 1.5.16 https://github.com/OpenPrinting/system-config-printer
+-system-config-printer: 1.5.16 to 1.5.17 https://github.com/OpenPrinting/system-config-printer
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.12 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
@@ -778,7 +778,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.10 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.38.4 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.38.4 to 1.40 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
