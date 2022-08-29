@@ -269,7 +269,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.39 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.6.2 https://ccache.dev/download.html
+-ccache: 4.6.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50.20191103 to 2.50_20210628 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -441,7 +441,7 @@ l series:
 -ffmpeg: 4.4.2 to 5.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.2. http://www.fluidsynth.org/
--fmt: 9.0.0 to 9.1.0 https://github.com/fmtlib/fmt/releases/
+-fmt: 9.1.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.12.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
@@ -498,7 +498,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 71.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_46 to 47 http://www.imagemagick.org/
+-imagemagick: 7.1.0_47 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.11.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
