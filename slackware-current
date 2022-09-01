@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.4 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.6 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220815 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -118,7 +118,7 @@ A series :
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.4.4 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 3.04 to 3.05 http://download.savannah.nongnu.org/releases/sysvinit
+-sysvinit: 3.05 http://download.savannah.nongnu.org/releases/sysvinit
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0270 to 0288 http://ftp.vim.org/pub/vim/patches/9.0/
-	- vim: 9.0.0270
+-vim: 9.0.0334 to 0343 http://ftp.vim.org/pub/vim/patches/9.0/
+	- vim: 9.0.0334
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -284,7 +284,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.37.2 http://git-scm.com/download
+-git: 2.37.3 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.4 http://wwww.kernel.org
+-kernel-headers: 5.19.6 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -301,7 +301,7 @@ d series:
 -mercurial: 6.2.1 https://www.mercurial-scm.org/release
 -meson: 0.63.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
--ninja: 1.11.0 https://ninja-build.org/
+-ninja: 1.11.1 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.4
+-kernel : 5.19.6
 --------------------
 kde series :
 --------------------
@@ -601,7 +601,7 @@ l series:
 -libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libsoup3: 3.0.7 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
--libssh: 0.10.0 https://www.libssh.org/files
+-libssh: 0.10.1 https://www.libssh.org/files
 -libssh2: 1.10.0 http://www.libssh2.org/
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
@@ -797,7 +797,7 @@ n series:
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.04.08 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.84.0 http://curl.haxx.se/download/
+-curl: 7.85.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -967,14 +967,14 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
 -egl-wayland: 1.1.10 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
--fcitx5: 5.0.18 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.0.19 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-chinese-addons: 5.0.14 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-gtk: 5.0.17 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-chinese-addons: 5.0.15 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-gtk: 5.0.18 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-hangul: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-kkc: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-m17n: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-qt: 5.0.14 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-qt: 5.0.15 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-sayura: 5.0.8 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-extra: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
@@ -986,19 +986,20 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/chrissimpkins/Hack
 -ibus: 1.5.27 https://github.com/ibus/ibus/releases/
 -ibus-libpinyin: 1.13.0 https://github.com/libpinyin/ibus-libpinyin
+-ico: 1.0.6
 -igt-gpu-tools: 1.26 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.1 https://01.org/linuxmedia/vaapi
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts
 -libFS: 1.0.9
--libime: 1.0.13 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.0.14 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.4
 -libdmx: 1.1.4
 -libpciaccess: 0.16
--libdrm: 2.4.112 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.113 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
--libfontenc: 1.1.5
+-libfontenc: 1.1.6
 -libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
 -libglvnd: 1.5.0 https://github.com/NVIDIA/libglvnd/releases
 -libinput: 1.21.0 http://www.freedesktop.org/software/libinput/
@@ -1067,7 +1068,7 @@ xap series:
 -MPlayer: 20210418 to 1.5 https://mplayerhq.hu/design7/news.html
 	-Mplayer: 20210418
 	-Blue: 1.10 (skin)
--NetworkManager-openvpn: 1.8.18
+-NetworkManager-openvpn: 1.10.0
 -audacious: 4.2  http://www.audacious-media-player.org
 -audacious-plugins: 4.2 
 -blackbox:
@@ -1096,10 +1097,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0270 to 0288
+-gvim: 9.0.0334 to 0343
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 104.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 104.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.2 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
