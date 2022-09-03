@@ -232,7 +232,7 @@ Ap series :
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
 -qpdf: 10.6.3 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
--rpm: 4.16.1.3 to 4.17.1 http://ftp.rpm.org/releases
+-rpm: 4.16.1.3 to 4.17.1.1 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
 -sc-im: 20210927 to 20220120 https://github.com/andmarti1424/sc-im
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0334 to 0343 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0334 to 0362 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0334
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -298,7 +298,7 @@ d series:
 -llvm: 14.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.2.1 https://www.mercurial-scm.org/release
+-mercurial: 6.2.2 https://www.mercurial-scm.org/release
 -meson: 0.63.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.1 https://ninja-build.org/
@@ -644,7 +644,7 @@ l series:
 	- nspr: 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr to 91.11.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.3 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/
+-ncurses: 6.3 to 6.3-20020827 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.2 https://notroj.github.io/neon/
 -netpbm: 10.99.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
@@ -667,11 +667,11 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
--pipewire: 0.3.56 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.57 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.08.0 to 22.09.0 http://poppler.freedesktop.org/
+-poppler: 22.09.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.18 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -812,7 +812,7 @@ n series:
 -fetchmail: 6.4.33 http://www.catb.org/~esr/fetchmail/
 -getmail: 6.18.9 http://pyropus.ca/software/getmail/
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.37 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.39 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.7 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
@@ -883,7 +883,7 @@ n series:
 -nfs-utils: 2.6.2 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 1.0.5 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.49.0 https://nghttp2.org/
--nmap: 7.92 http://download.insecure.org/nmap/dist/
+-nmap: 7.92 to 7.93 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
@@ -965,7 +965,7 @@ x series: (main packages)
 -anthy-unicode: 1.0.0.20211224
 -OpenCC: 1.1.4 https://github.com/BYVoid/OpenCC
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
--egl-wayland: 1.1.10 https://github.com/NVIDIA/egl-wayland
+-egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
 -fcitx5: 5.0.19 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
@@ -1097,11 +1097,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0334 to 0343
+-gvim: 9.0.0334 to 0362
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 104.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.2 to 102.2.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.2.1 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1147,7 +1147,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-appfinder: 4.16.1
 -xfce4-clipman-plugin: 1.6.2
 -xfce4-dev-tools: 4.16.0
--xfce4-notifyd: 0.6.3
+-xfce4-notifyd: 0.6.4
 -xfce4-panel: 4.16.5
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.16.0
@@ -1183,8 +1183,8 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.21
--php81: 8.1.9 to 8.1.10
+-php80: 8.0.22
+-php81: 8.1.10
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
