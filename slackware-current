@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0334 to 0362 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0334 to 0372 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0334
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -299,7 +299,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.2.2 https://www.mercurial-scm.org/release
--meson: 0.63.1 http://mesonbuild.com/
+-meson: 0.63.1 to 0.63.2 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.1 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -449,7 +449,7 @@ l series:
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.11.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
--gc: 8.0.6 to 8.2.0 http://www.hboehm.info/gc/gc_source/
+-gc: 8.0.6 to 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
 -gdk-pixbuf2: 2.42.9 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
@@ -642,7 +642,7 @@ l series:
 -mozilla-nss: 3.82 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.82 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.13.0esr to 91.11.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.13.0esr to 91.13.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 to 6.3-20020827 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.2 https://notroj.github.io/neon/
@@ -883,7 +883,7 @@ n series:
 -nfs-utils: 2.6.2 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 1.0.5 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.49.0 https://nghttp2.org/
--nmap: 7.92 to 7.93 http://download.insecure.org/nmap/dist/
+-nmap: 7.92 to 7.93 (pb with openssl-1.1.x) http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
@@ -1097,7 +1097,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0334 to 0362
+-gvim: 9.0.0334 to 0372
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 104.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
