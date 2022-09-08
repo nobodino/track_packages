@@ -55,9 +55,9 @@ A series :
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.12 http://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
--hdparm: 9.64 https://sourceforge.net/projects/hdparm/files/hdparm/
+-hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.361 https://github.com/vcrhonek/hwdata
+-hwdata: 0.362 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0396 to 0399 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0396 to 0412 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0396
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -333,7 +333,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.13 to 3.9.14/3.10.7 (new API) https://www.python.org/downloads/
+-python3: 3.9.14 to 3.10.7 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -343,7 +343,7 @@ d series:
 -rust: 1.63.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.4.0 http://www.scons.org/
--slacktrack: 2.22 http://www.slackware.com/~mozes
+-slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 5.19 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 http://www.swig.org/download.html
@@ -421,7 +421,7 @@ l series:
 -cryptopp: 8.2.0 to 8.6.0 (pb with cryfs-0.11) https://www.cryptopp.com/
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
--dbus-python: 1.2.18 http://dbus.freedesktop.org/releases/dbus-python/
+-dbus-python: 1.2.18 to 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
 -dconf: 0.40.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 3.38.3 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.26 http://freedesktop.org/software/desktop-file-utils/releases/
@@ -447,7 +447,7 @@ l series:
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.11.0 https://github.com/libfuse/libfuse
+-fuse3: 3.11.0 to 3.12.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
 -gc: 8.0.6 to 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -601,7 +601,7 @@ l series:
 -libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libsoup3: 3.0.8 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
--libssh: 0.10.3 https://www.libssh.org/files
+-libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 http://www.libssh2.org/
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
@@ -914,7 +914,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.5 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.16.4 https://ftp.samba.org/pub/samba/
+-samba: 4.16.5 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1097,11 +1097,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0396 to 0399
+-gvim: 9.0.0396 to 0412
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 104.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.2.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.2.2 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
