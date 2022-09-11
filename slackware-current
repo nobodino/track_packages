@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.8 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220902 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -175,7 +175,7 @@ Ap series :
 -dmidecode: 3.4 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
--flac: 1.3.4 http://downloads.xiph.org/releases/flac/
+-flac: 1.3.4 to 1.4.0 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.56.1 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0396 to 0412 http://ftp.vim.org/pub/vim/patches/9.0/
-	- vim: 9.0.0396
+-vim: 9.0.0417 to 0432 http://ftp.vim.org/pub/vim/patches/9.0/
+	- vim: 9.0.0417
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.7 http://wwww.kernel.org
+-kernel-headers: 5.19.8 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -368,13 +368,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.7
+-kernel : 5.19.8
 --------------------
 kde series :
 --------------------
 -kde: 5.23.5 (plasma) https://download.kde.org/stable/
 -kde: 5.97.0 (framework) https://download.kde.org/stable/
--kde: 22.08.0 (kde gear) https://download.kde.org/stable/
+-kde: 22.08.1 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -447,7 +447,7 @@ l series:
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.11.0 to 3.12.0 https://github.com/libfuse/libfuse
+-fuse3: 3.12.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
 -gc: 8.0.6 to 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -648,7 +648,7 @@ l series:
 -neon: 0.32.3 https://notroj.github.io/neon/
 -netpbm: 10.99.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.21 https://releases.pagure.org/newt
--nodejs: 18.8.0 https://nodejs.org/
+-nodejs: 18.9.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
 -openal-soft: 1.22.2 https://openal-soft.org/openal-releases
@@ -724,7 +724,7 @@ l series:
 -python-zipp: 3.8.0 https://pypi.org/project/zipp
 -qca: 2.3.4 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.4_20220705 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.6_20220909 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.3 https://github.com/stachenov/quazip
@@ -777,8 +777,8 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.18.10 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.40.0 to 1.41.1 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
+-NetworkManager: 1.40.0 to 1.41.2 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -912,7 +912,7 @@ n series:
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
--rsync: 3.2.5 https://ftp.samba.org/pub/rsync/
+-rsync: 3.2.6 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.16.5 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
@@ -1017,7 +1017,7 @@ x series: (main packages)
 -libXcm: 0.5.4
 -libXfont2: 2.0.6
 -libXpm: 3.5.13
--libXft: 2.3.5
+-libXft: 2.3.6
 -libXi: 1.8
 -libX11: 1.8.1
 -libXres: 1.2.1
@@ -1097,9 +1097,9 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0396 to 0412
+-gvim: 9.0.0417 to 0432
 -hexchat: 2.16.1 https://hexchat.github.io/
--libnma: 1.8.40 https://wiki.gnome.org/Projects/NetworkManager/
+-libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 104.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.2.2 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
@@ -1129,7 +1129,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 http://ftp.foolabs.com/pub/xpdf
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.04 http://www.jwz.org/xscreensaver/
+-xscreensaver: 6.05 to 6.05.1 http://www.jwz.org/xscreensaver/
 -xsnow: 3.5.2 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.16.x https://gitlab.xfce.org/xfce/
