@@ -9,7 +9,7 @@ A series :
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.3
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
--acpid: 2.0.33 http://sourceforge.net/projects/acpid2/
+-acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
 -bash: 5.1.016 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
@@ -72,7 +72,7 @@ A series :
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 590 to 608 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
--libblockdev: 2.27 https://github.com/rhinstaller/libblockdev
+-libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
@@ -211,14 +211,14 @@ Ap series :
 	- perl-XML-SAX-Base: 1.09-15.fc35 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
--lsof: 4.95.0 https://github.com/lsof-org/lsof/releases
+-lsof: 4.96.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.1 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.10.2 http://www.nongnu.org/man-db/
 -man-pages: 5.13 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.6.9 http://mariadb.org/
+-mariadb: 10.6.10 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0435 to 0475 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0435 to 0494 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0435
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -485,13 +485,13 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.6.7 to 4.8.0 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk4: 4.6.7 to 4.8.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.6 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 5.1.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 5.2.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.1 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -508,7 +508,7 @@ l series:
 -json-c: 0.16_20220414 https://github.com/json-c/json-c
 -json-glib: 1.6.6 https://gitlab.gnome.org/GNOME/json-glib/
 -judy: 1.0.5 http://judy.sourceforge.net
--kdsoap: 2.0.0 https://github.com/KDAB/KDSoap
+-kdsoap: 2.1.1 https://github.com/KDAB/KDSoap
 -keybinder3: 0.3.3 https://github.com/engla/keybinder
 -keyutils: 1.6.3 https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/
 -lame: 3.100 http://lame.sourceforge.net
@@ -599,7 +599,7 @@ l series:
 -libsndfile: 1.1.0 https://github.com/erikd/libsndfile/
 -libsodium: 1.0.18 https://libsodium.org
 -libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
--libsoup3: 3.0.8 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.0.8 to 3.2.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 http://www.libssh2.org/
@@ -639,9 +639,9 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.8.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.82 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.82 https://ftp.mozilla.org/pub/security/nss/releases/
-	- nspr: 4.34 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+-mozilla-nss: 3.83 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.83 https://ftp.mozilla.org/pub/security/nss/releases/
+	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr to 91.13.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 to 6.3-20020827 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
@@ -658,7 +658,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.50.9 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.50.10 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.2 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
@@ -673,7 +673,7 @@ l series:
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 22.09.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
--popt: 1.18 https://github.com/rpm-software-management/popt
+-popt: 1.19 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
 -pycairo: 1.20.1 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
@@ -835,7 +835,7 @@ n series:
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.45 https://www.gnupg.org/download/index.html
--libksba: 1.6.0 https://www.gnupg.org/download/index.html
+-libksba: 1.6.1 https://www.gnupg.org/download/index.html
 -libmbim: 1.26.4 http://www.freedesktop.org/software/libmbim/
 -libmilter: 8.17.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
@@ -985,7 +985,7 @@ x series: (main packages)
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/chrissimpkins/Hack
 -ibus: 1.5.27 https://github.com/ibus/ibus/releases/
--ibus-libpinyin: 1.13.0 https://github.com/libpinyin/ibus-libpinyin
+-ibus-libpinyin: 1.13.1 https://github.com/libpinyin/ibus-libpinyin
 -ico: 1.0.6
 -igt-gpu-tools: 1.26 https://cgit.freedesktop.org/drm/igt-gpu-tools
 -intel-vaapi-driver: 2.4.1 https://01.org/linuxmedia/vaapi
@@ -1000,7 +1000,7 @@ x series: (main packages)
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
--libgee: 0.20.5 https://gitlab.gnome.org/GNOME/libgee
+-libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee
 -libglvnd: 1.5.0 https://github.com/NVIDIA/libglvnd/releases
 -libinput: 1.21.0 http://www.freedesktop.org/software/libinput/
 -libkkc: 0.3.5 https://github.com/ueno/libkkc
@@ -1097,8 +1097,8 @@ xap series:
 -gnuplot: 5.4.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
--gv: 3.7.4 http://ftpthep.physik.uni-mainz.de/pub/gv/unix/
--gvim: 9.0.0435 to 0475
+-gv: 3.7.4 http://ftpthep.physik.uni-mafile:///root/Documents/scolarité/Yael/Descartes/MP*/Synthèse-résultats-concours-Descartes-2022.pdfinz.de/pub/gv/unix/
+-gvim: 9.0.0435 to 0494
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 104.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1152,7 +1152,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-panel: 4.16.5
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.16.0
--xfce4-pulseaudio-plugin: 0.4.4
+-xfce4-pulseaudio-plugin: 0.4.5
 -xfce4-screensaver: 0.1.11
 -xfce4-screenshooter: 1.9.11
 -xfce4-session: 4.16.0
