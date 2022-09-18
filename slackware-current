@@ -106,7 +106,7 @@ A series :
 -procps-ng: 3.3.17 to 4.0.0
 	-procps-ng: 3.3.17 http://sourceforge.net/projects/procps-ng/files/Production/
 	-psmisc: 23.3 to 23.5 https://fossies.org/linux/misc/
--quota: 4.06 http://www.sf.net/projects/linuxquota/
+-quota: 4.06 to 4.07 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
