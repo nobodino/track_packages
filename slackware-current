@@ -463,7 +463,7 @@ l series:
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.72.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.72.3 to 2.74.0 https://www.gtk.org
--glibmm: 2.64.5 to 2.74.0 http://www.gtkmm.org/
+-glibmm: 2.64.5 to 2.66.5/2.74.0 http://www.gtkmm.org/
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
@@ -471,7 +471,7 @@ l series:
 -gnome-keyring: 42.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.15 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.72.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.72.0 to 1.74.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite or http://graphite.sil.org/
 -grantlee: 5.3.0 https://github.com/steveire/grantlee
@@ -487,7 +487,7 @@ l series:
 -gtk+3: 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.6.7 to 4.8.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
--gtkmm3: 3.24.6 https://download.gnome.org/sources/gtkmm/
+-gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
@@ -1030,7 +1030,7 @@ x series: (main packages)
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
 -motif: 2.3.8 http://sourceforge.net/projects/motif/
--mypaint-brushes: 1.3.0 to 1.3.1 https://github.com/Jehan/mypaint-brushes
+-mypaint-brushes: 1.3.0 to 2.0.2 https://github.com/Jehan/mypaint-brushes
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/googlefonts/noto-fonts/
 -pixman: 0.40.0 http://cairographics.org/releases/
@@ -1101,7 +1101,7 @@ xap series:
 -gvim: 9.0.0500 to 0553
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 105.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 105.0 to 105.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.3.0 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
