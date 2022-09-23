@@ -22,7 +22,7 @@ A series :
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.8 https://github.com/cracklib/cracklib
 -cryptsetup: 2.5.0 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.14.0 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.14.0 to 1.15.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20220728 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -66,7 +66,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.10 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220913 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -106,7 +106,7 @@ A series :
 -procps-ng: 3.3.17 to 4.0.0
 	-procps-ng: 3.3.17 http://sourceforge.net/projects/procps-ng/files/Production/
 	-psmisc: 23.3 to 23.5 https://fossies.org/linux/misc/
--quota: 4.06 to 4.07 http://www.sf.net/projects/linuxquota/
+-quota: 4.09 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0435 to 0494 http://ftp.vim.org/pub/vim/patches/9.0/
-	- vim: 9.0.0435
+-vim: 9.0.0500 to 0553 http://ftp.vim.org/pub/vim/patches/9.0/
+	- vim: 9.0.0500
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.9 http://wwww.kernel.org
+-kernel-headers: 5.19.10 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -306,7 +306,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20220822 https://www.gnu.org/software/parallel/
+-parallel: 20220922 https://www.gnu.org/software/parallel/
 -patchelf: 0.15.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
@@ -340,7 +340,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils
 -ruby: 3.1.2 http://www.ruby-lang.org/
--rust: 1.63.0 https://rust-lang.org
+-rust: 1.63.0 to 1.64.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.4.0 http://www.scons.org/
 -slacktrack: 2.23 http://www.slackware.com/~mozes
@@ -368,7 +368,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.9
+-kernel : 5.19.10
 --------------------
 kde series :
 --------------------
@@ -436,7 +436,7 @@ l series:
 -enchant: 2.3.3 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
--expat: 2.4.8 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.4.9 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 4.4.2 to 5.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -462,8 +462,8 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.72.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.72.3 https://www.gtk.org
--glibmm: 2.64.5 to 2.72.1 http://www.gtkmm.org/
+-glib2: 2.72.3 to 2.74.0 https://www.gtk.org
+-glibmm: 2.64.5 to 2.74.0 http://www.gtkmm.org/
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
@@ -521,7 +521,7 @@ l series:
 -libarchive: 3.6.1 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
--libbluray: 1.3.2 http://www.videolan.org/developers/libbluray.html
+-libbluray: 1.3.3 http://www.videolan.org/developers/libbluray.html
 -libburn: 1.5.4 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca.git
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
@@ -542,7 +542,7 @@ l series:
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.24 https://github.com/libexif/libexif/
 -libfakekey: 0.3 https://git.yoctoproject.org/libfakekey/
--libffi: 3.4.2 http://sourceware.org/pub/libffi
+-libffi: 3.4.3 http://sourceware.org/pub/libffi
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.30 http://www.gphoto.org/
@@ -754,7 +754,7 @@ l series:
 -spirv-llvm-translator: 14.0.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
--system-config-printer: 1.5.16 to 1.5.18 https://github.com/OpenPrinting/system-config-printer
+-system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.12 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
@@ -784,13 +784,13 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.6 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.7 http://ftp.isc.org/isc/bind9/
 -bluez: 5.65 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20220622 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20220922 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.18.1 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.6 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -882,7 +882,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.2 http://sourceforge.net/projects/nfs/ (need krb5)
 -nftables: 1.0.5 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.49.0 https://nghttp2.org/
+-nghttp2: 1.50.0 https://nghttp2.org/
 -nmap: 7.93 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/releases
@@ -1098,11 +1098,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mafile:///root/Documents/scolarité/Yael/Descartes/MP*/Synthèse-résultats-concours-Descartes-2022.pdfinz.de/pub/gv/unix/
--gvim: 9.0.0435 to 0494
+-gvim: 9.0.0500 to 0553
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 104.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.2.2 https://www.thunderbird.net/
+-mozilla-firefox: 105.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.3.0 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1172,7 +1172,7 @@ y series:
 -nethack: 3.6.6 https://www.nethack.org
 --------------------
 extra:
--rust-for-mozilla: rust-1.60.0
+-rust-for-mozilla: rust-1.64.0
 --------------------
 -aspell-word-list: 0.50.4
 -bash-completion: 2.11 https://github.com/scop/bash-completion
