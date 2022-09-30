@@ -1102,7 +1102,7 @@ xap series:
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 105.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.3.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.3.0 to 102.3.1 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1114,7 +1114,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 to 1.1.1 https://alioth.debian.org/frs/?group_id=30186
 	- sane-frontend: 1.0.14 to 1.0.14_4.diff.gz http://ftp.mostang.com/pub/sane
--seamonkey: 2.53.13 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.13 to 2.53.174 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_29.diff.gz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.3 https://github.com/MaartenBaert/ssr
 -windowmaker: 0.95.8 http://windowmaker.org/pub/source/release/
