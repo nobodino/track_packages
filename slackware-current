@@ -11,7 +11,7 @@ A series :
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
--bash: 5.2.000 http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.002 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -22,7 +22,7 @@ A series :
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.8 https://github.com/cracklib/cracklib
 -cryptsetup: 2.5.0 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.14.2 to 1.15.0 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.14.4 to 1.15.2 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20220728 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -66,11 +66,11 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.13 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.14 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20220930 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
--less: 590 to 608 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 608 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
@@ -211,6 +211,7 @@ Ap series :
 	- perl-XML-SAX-Base: 1.09-15.fc35 https://dl.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/p/
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
+-lm_sensors: 3.6.0
 -lsof: 4.96.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.1 https://linuxcontainers.org/lxc/downloads/
@@ -253,7 +254,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0623 to 0661 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0623 to 0681 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0623
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,13 +294,13 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.13 http://wwww.kernel.org
+-kernel-headers: 5.19.14 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.2 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.3 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.2.3 https://www.mercurial-scm.org/release
--meson: 0.63.2 http://mesonbuild.com/
+-meson: 0.63.3 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.1 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -368,7 +369,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.13
+-kernel : 5.19.14
 --------------------
 kde series :
 --------------------
@@ -728,7 +729,7 @@ l series:
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.3 https://github.com/stachenov/quazip
--readline: 8.2.000 https://ftp.gnu.org/gnu/readline
+-readline: 8.2.001 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.3 https://github.com/thkukuk/rpcsvc-proto
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.17 https://rubygems.org/gems/asciidoctor
@@ -801,7 +802,7 @@ n series:
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
--dhcp: 4.4.3 http://ftp.isc.org/isc/dhcp/
+-dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
 -dovecot: 2.3.19.1 http://www.dovecot.org/releases/
@@ -821,7 +822,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
--iproute2: 5.19.0 to 6.0.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.0.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
@@ -892,7 +893,7 @@ n series:
 -openldap: 2.6.3 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
--openssh: 9.0p1 to 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1q to 3.0.5 http://ftp.openssl.org/source/
 -openvpn: 2.5.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
@@ -1046,7 +1047,7 @@ x series: (main packages)
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.11 to 20220430
 -xinit: 1.4.1
--xkeyboard-config: 2.36
+-xkeyboard-config: 2.37
 -xorgproto: 2022.2
 -xorg-server: 21.1.4 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 22.1.3
@@ -1098,11 +1099,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4 http://ftpthep.physik.uni-mafile:///root/Documents/scolarité/Yael/Descartes/MP*/Synthèse-résultats-concours-Descartes-2022.pdfinz.de/pub/gv/unix/
--gvim: 9.0.0623 to 0661
+-gvim: 9.0.0623 to 0681
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 105.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.3.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.3.1 to 102.3.2 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
