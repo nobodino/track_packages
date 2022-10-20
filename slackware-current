@@ -213,13 +213,13 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0
--lsof: 4.96.3 to 4.96.4 https://github.com/lsof-org/lsof/releases
+-lsof: 4.96.4 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.1 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.0 http://www.nongnu.org/man-db/
--man-pages: 6.00 to 6.01 https://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.01 https://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.6.10 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0790 to 0798 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0790 to 0805 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0790
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -273,7 +273,7 @@ d series:
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -ccache: 4.6.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
--clisp: 2.50.20191103 to 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
+-clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
 -cmake: 3.24.2 http://www.cmake.org/cmake/resources/software.html
@@ -493,7 +493,7 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 5.3.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 5.3.0 to 5.3.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.1 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -608,7 +608,7 @@ l series:
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.4.0 https://download.osgeo.org/libtiff/
--libunistring: 0.9.10 to 1.0 http://ftp.gnu.org/gnu/libunistring/
+-libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.6.2 http://www.nongnu.org/libunwind
 -liburing: 2.2 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.26 https://github.com/libusb/libusb
@@ -786,7 +786,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.7 to 9.18.8 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.8 http://ftp.isc.org/isc/bind9/
 -bluez: 5.65 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -916,7 +916,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.6 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.17.0 to 4.17.1 https://ftp.samba.org/pub/samba/
+-samba: 4.17.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -1027,7 +1027,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 22.2.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.2.1 to 22.2.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1099,12 +1099,12 @@ xap series:
 -gnuplot: 5.4.5 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
--gv: 3.7.4 http://ftpthep.physik.uni-mafile:///root/Documents/scolarité/Yael/Descartes/MP*/Synthèse-résultats-concours-Descartes-2022.pdfinz.de/pub/gv/unix/
--gvim: 9.0.0790 to 0798
+-gv: 3.7.4
+-gvim: 9.0.0790 to 0805
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 106.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.3.3 https://www.thunderbird.net/
+-mozilla-firefox: 106.0 to 106.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.3.3 to 102.4.0 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
