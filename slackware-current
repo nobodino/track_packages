@@ -125,7 +125,7 @@ A series :
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
 -tcsh: 6.24.1 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
--tree: 2.0.2 to 2.0.4 http://mama.indstate.edu/users/ice/tree/
+-tree: 2.0.4 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
@@ -444,7 +444,7 @@ l series:
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.0 http://www.fluidsynth.org/
 -fmt: 9.1.0 https://github.com/fmtlib/fmt/releases/
--freecell-solver: 6.6.0 https://fc-solve.shlomifish.org/download.html
+-freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.12.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi
@@ -750,7 +750,7 @@ l series:
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
--speech-dispatcher: 0.11.1 https://freebsoft.org/speechd/
+-speech-dispatcher: 0.11.3 https://freebsoft.org/speechd/
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
 -spirv-llvm-translator: 14.0.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator
@@ -914,7 +914,7 @@ n series:
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
--rsync: 3.2.6 to 3.2.7 https://ftp.samba.org/pub/rsync/
+-rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.17.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
