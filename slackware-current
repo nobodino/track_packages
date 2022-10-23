@@ -42,7 +42,7 @@ A series :
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.41 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.42 https://www.gnu.org/software/mtools/
 -gawk: 5.2.0 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
@@ -190,7 +190,7 @@ Ap series :
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0_20220825 https://github.com/ksh93/ksh
+-ksh93: 1.0_20220825 to 1.0.4 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -308,7 +308,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20220922 https://www.gnu.org/software/parallel/
+-parallel: 20221022 https://www.gnu.org/software/parallel/
 -patchelf: 0.15.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
@@ -451,7 +451,7 @@ l series:
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.12.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
--gc: 8.0.6 to 8.2.2 http://www.hboehm.info/gc/gc_source/
+-gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
 -gdk-pixbuf2: 2.42.9 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
