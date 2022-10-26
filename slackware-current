@@ -67,8 +67,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20221013 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 5.19.17 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20221017 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
 -less: 608 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -152,7 +152,7 @@ Ap series :
 	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 2.08 http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 http://sv.gnu.org/projects/acct/
--alsa-utils: 1.2.7 https://www.alsa-project.org/files/files/pub/utils/
+-alsa-utils: 1.2.8 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.3 to 3.2.5 http://ftp.debian.org/debian/pool/main/a/at/
 -bc: 1.07.1 to 6.0.4 https://git.yzena.com/gavin/bc
@@ -176,7 +176,7 @@ Ap series :
 -dmidecode: 3.4 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
--flac: 1.3.4 to 1.4.1 http://downloads.xiph.org/releases/flac/
+-flac: 1.3.4 to 1.4.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.56.1 to 10.0.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
@@ -247,7 +247,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.39.4 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
--sudo: 1.9.11p2 to p3 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.12 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -271,7 +271,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.39 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.6.3 https://ccache.dev/download.html
+-ccache: 4.7.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.16 http://wwww.kernel.org
+-kernel-headers: 5.19.17 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -335,7 +335,7 @@ d series:
 -pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
 -poke: 2.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.15 to 3.10.8 (new API) https://www.python.org/downloads/
+-python3: 3.9.15 to 3.10.8/3.11.0 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 22.3 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -348,7 +348,7 @@ d series:
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 5.19 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
--swig: 4.0.2 http://www.swig.org/download.html
+-swig: 4.0.2 to 4.1.0 http://www.swig.org/download.html
 -vala: 0.56.3 https://wiki.gnome.org/Projects/Vala
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
@@ -370,11 +370,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.16
+-kernel : 5.19.17
 --------------------
 kde series :
 --------------------
--kde: 5.26.1 (plasma) https://download.kde.org/stable/
+-kde: 5.26.1 to 5.26.2 (plasma) https://download.kde.org/stable/
 -kde: 5.99.0 (framework) https://download.kde.org/stable/
 -kde: 22.08.2 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -398,7 +398,7 @@ l series:
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 42.0 http://braumeister.org/formula/gnome-icon-theme
--alsa-lib: 1.2.7.2 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.8 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins
 -apr: 1.7.0 http://apr.apache.org/download.cgi
@@ -438,7 +438,7 @@ l series:
 -enchant: 2.3.3 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
 -exiv2: 0.27.5 http://www.exiv2.org/
--expat: 2.4.9 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 5.1.2 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -487,7 +487,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
--gtk4: 4.6.7 to 4.8.1 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk4: 4.6.7 to 4.8.2 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 to 4.8.3/5.4.0 https://projects.gnome.org/gtksourceview/ 
@@ -544,7 +544,7 @@ l series:
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.24 https://github.com/libexif/libexif/
 -libfakekey: 0.3 https://git.yoctoproject.org/libfakekey/
--libffi: 3.4.3 http://sourceware.org/pub/libffi
+-libffi: 3.4.4 http://sourceware.org/pub/libffi
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.30 http://www.gphoto.org/
@@ -556,7 +556,7 @@ l series:
 -libical: 3.0.16 https://libical.github.io/libical/
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.41 http://ftp.gnu.org/gnu/libidn/
--libidn2: 2.3.3 http://ftp.gnu.org/gnu/libidn/
+-libidn2: 2.3.4 http://ftp.gnu.org/gnu/libidn/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20211124 to 20220531 (nok) http://www.libimobiledevice.org/
 -libimobiledevice-glue: 20211125 to 20220824 http://www.libimobiledevice.org/
@@ -799,7 +799,7 @@ n series:
 -crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.04.08 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.85.0 http://curl.haxx.se/download/
+-curl: 7.85.0 to 7.86.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
@@ -916,7 +916,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.17.1 https://ftp.samba.org/pub/samba/
+-samba: 4.17.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
@@ -981,7 +981,7 @@ x series: (main packages)
 -fcitx5-table-extra: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-unikey: 5.0.11  https://fcitx-im.org/wiki/Fcitx_5
--fontconfig: 2.13.92 to 2.14.0 http://freedesktop.org/software/fontconfig
+-fontconfig: 2.13.92 to 2.14.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
@@ -1064,7 +1064,7 @@ x series: (main packages)
 -xf86-video-r128: 20220127
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 2
--xterm: 374 http://invisible-island.net/xterm/
+-xterm: 375 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1103,7 +1103,7 @@ xap series:
 -gvim: 9.0.0790 to 0814
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 106.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 106.0.1 to 106.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.4.0 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
