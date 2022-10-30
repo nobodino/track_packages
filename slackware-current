@@ -47,8 +47,8 @@ A series :
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2022e
-	-tzcode: 2022e to 2022f https://www.iana.org/time-zones
-	-tzdata: 2022e to 2022f  https://www.iana.org/time-zones
+	-tzcode: 2022e https://www.iana.org/time-zones
+	-tzdata: 2022e  https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.8 http://ftp.gnu.org/pub/gnu/grep
@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.17 to 6.0.6 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.17 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20221017 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.17 to 6.0.6 http://wwww.kernel.org
+-kernel-headers: 5.19.17 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -370,7 +370,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.17 to 6.0.6
+-kernel : 5.19.17
 --------------------
 kde series :
 --------------------
@@ -454,7 +454,7 @@ l series:
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
--gdk-pixbuf2: 2.42.9 to 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.9 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.38 https://download.gimp.org/pub/gegl/
@@ -758,7 +758,7 @@ l series:
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.12 to 1.13 https://taglib.github.io/
+-taglib: 1.12 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
 -talloc: 2.3.4 https://talloc.samba.org
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
@@ -896,7 +896,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1q to 3.0.5 http://ftp.openssl.org/source/
--openvpn: 2.5.7 to 2.5.8 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.32 http://www.php.net/distributions/ (need krb5)
