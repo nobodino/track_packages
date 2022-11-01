@@ -94,7 +94,7 @@ A series :
 -mtx: 1.3.12 http://mtx.opensource-sw.net/ or http://ftp.debian.org/debian/pool/main/m/mtx/
 -ncompress: 5.0 https://github.com/vapier/ncompress
 -ndctl: 74 https://github.com/pmem/ndctl/releases
--ntfs-3g: 2022.05.17 https://github.com/tuxera/ntfs-3g
+-ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl-solibs: 1.1.1q to 3.0.5 http://www.openssl.org/
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
@@ -224,7 +224,7 @@ Ap series :
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
--mpg123: 1.30.2 to 1.31.0 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.31.0 to 1.31.1 http://sourceforge.net/projects/mpg123/files/
 -nano: 6.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -255,8 +255,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0790 to 0814 http://ftp.vim.org/pub/vim/patches/9.0/
-	- vim: 9.0.0790
+-vim: 9.0.0814 to 0823 http://ftp.vim.org/pub/vim/patches/9.0/
+	- vim: 9.0.0817
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -271,7 +271,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.39 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.7.1 https://ccache.dev/download.html
+-ccache: 4.7.2 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -299,7 +299,7 @@ d series:
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
--make: 4.3 http://ftp.gnu.org/pub/gnu/make/
+-make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.2.3 https://www.mercurial-scm.org/release
 -meson: 0.63.3 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
@@ -309,7 +309,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20221022 https://www.gnu.org/software/parallel/
--patchelf: 0.15.0 https://github.com/NixOS/patchelf
+-patchelf: 0.16.1 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
@@ -346,7 +346,7 @@ d series:
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.4.0 http://www.scons.org/
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 5.19 to 6.0 https://github.com/strace/strace/releases
+-strace: 6.0 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.0 http://www.swig.org/download.html
 -vala: 0.56.3 https://wiki.gnome.org/Projects/Vala
@@ -540,7 +540,7 @@ l series:
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
 -libdvdread: 6.1.3 http://download.videolan.org/videolan/libdvdread/
--libedit: 20221009_3.1 http://www.thrysoee.dk/editline/
+-libedit: 20221030_3.1 http://www.thrysoee.dk/editline/
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.24 https://github.com/libexif/libexif/
 -libfakekey: 0.3 https://git.yoctoproject.org/libfakekey/
@@ -703,7 +703,7 @@ l series:
 -python-future: 0.18.2 https://pypi.org/project/future/
 -python-idna: 3.3 https://github.com/kjd/idna
 -python-imagesize: 1.3.0 https://pypi.org/project/imagesize
--python-importlib_metadata: 4.11.3 https://pypi.org/project/importlib-metadata
+-python-importlib_metadata: 5.0.0 https://pypi.org/project/importlib-metadata
 -python-markdown: 3.3.5 to 3.3.6 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 21.3 https://github.com/pypa/packaging
@@ -758,7 +758,7 @@ l series:
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.12 https://taglib.github.io/
+-taglib: 1.13 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
 -talloc: 2.3.4 https://talloc.samba.org
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
@@ -766,7 +766,7 @@ l series:
 -tdb: 1.4.7 https://tdb.samba.org
 -tevent: 0.13.0 https://tevent.samba.org
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5
--utf8proc: 2.7.0 https://github.com/JuliaStrings/utf8proc
+-utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 https://github.com/georgmartius/vid.stab.git
 -vte: 0.68.0 http://ftp.gnome.org/pub/gnome/sources/vte/
@@ -896,7 +896,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1q to 3.0.5 http://ftp.openssl.org/source/
--openvpn: 2.5.7 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.32 http://www.php.net/distributions/ (need krb5)
@@ -919,7 +919,7 @@ n series:
 -samba: 4.17.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
--socat: 1.7.4.3 http://www.dest-unreach.org/socat/download/
+-socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 https://github.com/libfuse/sshfs
 -stunnel: 5.66 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
@@ -1017,10 +1017,11 @@ x series: (main packages)
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.15
 -libXcm: 0.5.4
+-libXext: 1.3.5
 -libXfont2: 2.0.6
+-libXft: 2.3.6
 -libXp: 1.0.6
 -libXpm: 3.5.13
--libXft: 2.3.6
 -libXi: 1.8
 -libX11: 1.8.1
 -libXres: 1.2.1
@@ -1100,11 +1101,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0790 to 0814
+-gvim: 9.0.0814 to 0823
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 106.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.4.0 to 102.4.1 https://www.thunderbird.net/
+-mozilla-firefox: 106.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.4.1 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1186,8 +1187,8 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.24
--php81: 8.1.11
+-php80: 8.0.25
+-php81: 8.1.12
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 http://tigervnc.org
 -xf86-video-fbdev: 0.4.3
