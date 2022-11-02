@@ -96,7 +96,7 @@ A series :
 -ndctl: 74 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl-solibs: 1.1.1q to 3.0.5 http://www.openssl.org/
+-openssl-solibs: 1.1.1q to 1.1.1s/3.0.7 http://www.openssl.org/
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -182,7 +182,7 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.22.6 (need libdaemon and avahi) http://hplipopensource.com
+-hplip: 3.20.6 to 3.22.10 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.1 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.22_1 https://github.com/smxi/inxi
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.24.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.24.2 to 3.24.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -297,7 +297,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 5.19.17 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 14.0.6 to 15.0.3 http://llvm.org/
+-llvm: 14.0.6 to 15.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.2.3 https://www.mercurial-scm.org/release
@@ -388,7 +388,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 0220226 https://github.com/wang-bin/QtAV
--SDL2: 2.24.0 to 2.24.1 https://www.libsdl.org/projects/
+-SDL2: 2.24.0 to 2.24.2 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.2 https://www.libsdl.org/projects/SDL2_mixer/
@@ -673,7 +673,7 @@ l series:
 -polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.10.0 http://poppler.freedesktop.org/
+-poppler: 22.10.0 to 22.11.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -895,7 +895,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1q to 3.0.5 http://ftp.openssl.org/source/
+-openssl: 1.1.1q to 1.1.1s/3.0.7 http://ftp.openssl.org/source/
 -openvpn: 2.5.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -921,7 +921,7 @@ n series:
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 https://github.com/libfuse/sshfs
--stunnel: 5.66 https://www.stunnel.org/downloads.html
+-stunnel: 5.66 to 5.67 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0814 to 0823
+-gvim: 9.0.0814 to 0827
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 106.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
