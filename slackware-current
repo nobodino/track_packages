@@ -407,7 +407,7 @@ l series:
 -aspell: 0.60.8 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
 -at-spi2-atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.44.1 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.44.1 to 2.46.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.2 to 2.36.1 (need mm-common-1.0.4 but nok) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 http://oss.sgi.com/projects/audiofile/download/
@@ -425,7 +425,7 @@ l series:
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.18 to 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
 -dconf: 0.40.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 3.38.3 https://download.gnome.org/sources/dconf-editor/
+-dconf-editor: 3.38.3 to 43.0 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.26 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.28 http://djvu.sourceforge.net
 -dotconf: 1.3 https://github.com/williamh/dotconf/
@@ -452,7 +452,7 @@ l series:
 -fuse3: 3.12.0 https://github.com/libfuse/libfuse
 -gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
--gcr: 3.40.0 to 3.41.0 (nok) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.40.0 to 3.41.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
 -gdk-pixbuf2: 2.42.9 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
@@ -460,11 +460,11 @@ l series:
 -gegl: 0.4.38 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.0 https://wiki.gnome.org/gexiv2
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.70.2 to 1.72.1 (nok, need mozjs91) https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.70.2 to 1.74.1  https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.72.2 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.72.4 to 2.74.0 https://www.gtk.org
+-glib-networking: 2.72.2 to 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: 2.72.4 to 2.74.1 https://www.gtk.org
 -glibmm: 2.64.5 to 2.66.5/2.74.0 http://www.gtkmm.org/
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -477,7 +477,7 @@ l series:
 -graphene: 1.10.8 https://github.com/ebassi/graphene 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite or http://graphite.sil.org/
 -grantlee: 5.3.0 https://github.com/steveire/grantlee
--gsettings-desktop-schemas: 42.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
+-gsettings-desktop-schemas: 42.0 to 43.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
 -gst-plugins-base: 1.20.4 https://gstreamer.freedesktop.org/src/
 -gst-plugins-bad-free: 1.20.4 https://gstreamer.freedesktop.org/src/
@@ -600,8 +600,8 @@ l series:
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.1.0 https://github.com/erikd/libsndfile/
 -libsodium: 1.0.18 https://libsodium.org
--libsoup: 2.74.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
--libsoup3: 3.0.8 to 3.2.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup: 2.74.2 to 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup3: 3.0.8 to 3.2.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 http://www.libssh2.org/
@@ -644,7 +644,7 @@ l series:
 -mozilla-nss: 3.84 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.84 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs78: 78.13.0esr to 91.13.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs78: 78.13.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 to 6.3-20020827 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.4 https://notroj.github.io/neon/
@@ -661,7 +661,7 @@ l series:
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.50.11 http://ftp.gnome.org/pub/GNOME/sources/pango/
--pangomm: 2.42.2 to 2.46.2 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
+-pangomm: 2.42.2 to 2.46.3 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
 -pcre2: 10.40 https://github.com/PhilipHazel/pcre2/releases
@@ -670,7 +670,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
 -pipewire: 0.3.59 https://gitlab.freedesktop.org/pipewire/pipewire
--polkit: 0.120 https://gitlab.freedesktop.org/polkit/polkit/
+-polkit: 0.120 to 0.122 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
 -poppler: 22.10.0 to 22.11.0 http://poppler.freedesktop.org/
@@ -769,7 +769,7 @@ l series:
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 https://github.com/georgmartius/vid.stab.git
--vte: 0.68.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.68.0 to 0.70.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.5.0 http://www.wavpack.com/
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
 -xapian-core: 1.4.21 http://www.xapian.org/
