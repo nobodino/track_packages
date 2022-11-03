@@ -57,7 +57,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.363 https://github.com/vcrhonek/hwdata
+-hwdata: 0.364 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -185,7 +185,7 @@ Ap series :
 -hplip: 3.20.6 to 3.22.10 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.1 https://htop.dev/
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.22_1 https://github.com/smxi/inxi
+-inxi: 3.3.23_1 https://github.com/smxi/inxi
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 http://space.mit.edu/pub/davis/jed/v0.99/pre-0.99-18/ + jed-extra: 2.4 (debian)
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -224,7 +224,7 @@ Ap series :
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
--mpg123: 1.31.0 to 1.31.1 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.31.1 http://sourceforge.net/projects/mpg123/files/
 -nano: 6.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0814 to 0823 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0814 to 0828 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0817
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.24.2 to 3.24.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.24.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -388,7 +388,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 0220226 https://github.com/wang-bin/QtAV
--SDL2: 2.24.0 to 2.24.2 https://www.libsdl.org/projects/
+-SDL2: 2.24.2 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.2 https://www.libsdl.org/projects/SDL2_mixer/
@@ -610,7 +610,7 @@ l series:
 -libtiff: 4.4.0 https://download.osgeo.org/libtiff/
 -libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/
 -libunwind: 1.6.2 http://www.nongnu.org/libunwind
--liburing: 2.2 https://git.kernel.dk/cgit/liburing/
+-liburing: 2.3 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.26 https://github.com/libusb/libusb
 -libusb-compat: 0.1.7 http://libusb.info
 -libusbmuxd: 20200615 http://www.libimobiledevice.org/
@@ -750,7 +750,7 @@ l series:
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
--speech-dispatcher: 0.11.3 https://freebsoft.org/speechd/
+-speech-dispatcher: 0.11.4 https://freebsoft.org/speechd/
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
 -spirv-llvm-translator: 14.0.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator
@@ -830,7 +830,7 @@ n series:
 -iputils: 20211215 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
--irssi: 1.4.2 https://github.com/irssi/irssi
+-irssi: 1.4.3 https://github.com/irssi/irssi
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.19.3 to 1.20 (pb with samba) http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/
@@ -921,7 +921,7 @@ n series:
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 https://github.com/libfuse/sshfs
--stunnel: 5.66 to 5.67 https://www.stunnel.org/downloads.html
+-stunnel: 5.67 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1036,7 +1036,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.0 to 1.3.1 https://github.com/Jehan/mypaint-brushes
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/googlefonts/noto-fonts/
--pixman: 0.42.0 http://cairographics.org/releases/
+-pixman: 0.42.2 http://cairographics.org/releases/
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
 -vulkan-sdk: 1.3.204.0 to 1.3.204.1 https://vulkan.lunarg.com/sdk/home
@@ -1052,7 +1052,7 @@ x series: (main packages)
 -xkeyboard-config: 2.37
 -xorgproto: 2022.2
 -xorg-server: 21.1.4 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 22.1.4
+-xorg-server-xwayland: 22.1.5
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.1.0
 -xf86-video-amdgpu: 22.0.0
@@ -1101,10 +1101,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0814 to 0827
+-gvim: 9.0.0814 to 0828
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 106.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 106.0.3 to 106.0.4 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.4.1 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
