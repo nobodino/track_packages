@@ -342,7 +342,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils
 -ruby: 3.1.2 http://www.ruby-lang.org/
--rust: 1.63.0 to 1.64.0 https://rust-lang.org
+-rust: 1.63.0 to 1.65.0 https://rust-lang.org
 -sassc: 3.6.5 https://github.com/sass/sassc
 -scons: 4.4.0 http://www.scons.org/
 -slacktrack: 2.23 http://www.slackware.com/~mozes
@@ -376,7 +376,7 @@ kde series :
 --------------------
 -kde: 5.26.2 (plasma) https://download.kde.org/stable/
 -kde: 5.99.0 (framework) https://download.kde.org/stable/
--kde: 22.08.2 (kde gear) https://download.kde.org/stable/
+-kde: 22.08.2 to 22.08.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
