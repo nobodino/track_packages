@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.17 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.17 to 6.0.7 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20221017 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -82,7 +82,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.16 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 http://www.nongnu.org/lzip/lzlib.html
--mcelog: 189 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
+-mcelog: 190 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.17 http://wwww.kernel.org
+-kernel-headers: 5.19.17 to 6.0.7 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -325,8 +325,8 @@ d series:
 	- Sub-Quote: 2.006006
 	- Template-Toolkit: 3.100
 	- TermReadKey: 2.38
-	- URI: 5.12 to 5.16 http://www.cpan.org/modules/by-module/URI/
-	- XML-Parser: 2.46 to 3.79 http://www.cpan.org/modules/by-module/XML/
+	- URI: 5.12 to 5.17 http://www.cpan.org/modules/by-module/URI/
+	- XML-Parser: 2.46 to 3.80 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- libnet: 3.14
@@ -370,13 +370,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.17
+-kernel : 5.19.17 to 6.0.7
 --------------------
 kde series :
 --------------------
 -kde: 5.26.2 (plasma) https://download.kde.org/stable/
 -kde: 5.99.0 (framework) https://download.kde.org/stable/
--kde: 22.08.2 to 22.08.3 (kde gear) https://download.kde.org/stable/
+-kde: 22.08.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -433,7 +433,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/ (ebook-convert file.pdf file.epub --enable-heuristics)
 -editorconfig-core-c: 0.12.5 https://github.com/editorconfig/editorconfig-core-c
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.187 http://sourceware.org/pub/elfutils/
+-elfutils: 0.188 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng
 -enchant: 2.3.3 https://github.com/AbiWord/enchant
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/
@@ -639,7 +639,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
--mlt: 7.8.0 https://github.com/mltframework/mlt
+-mlt: 7.10.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.84 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.84 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -673,7 +673,7 @@ l series:
 -polkit: 0.120 to 0.122 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
--poppler: 22.10.0 to 22.11.0 http://poppler.freedesktop.org/
+-poppler: 22.11.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
@@ -802,7 +802,7 @@ n series:
 -curl: 7.86.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
--dehydrated: 0.7.0 https://github.com/dehydrated-io/dehydrated/releases
+-dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://download.berlios.de/dhcpcd/ or http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.86 http://www.thekelleys.org.uk/dnsmasq/doc.html
@@ -930,7 +930,7 @@ n series:
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -tin: 2.6.1 http://www.tin.org/
 -traceroute: 2.1.0 http://traceroute.sourceforge.net/
--ulogd: 2.0.7 http://ftp.netfilter.org/pub/ulogd/
+-ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tar.xz http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
@@ -998,7 +998,7 @@ x series: (main packages)
 -libXaw3d: 1.6.4
 -libdmx: 1.1.4
 -libpciaccess: 0.17
--libdrm: 2.4.113 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.114 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
@@ -1104,8 +1104,8 @@ xap series:
 -gvim: 9.0.0814 to 0828
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 106.0.3 to 106.0.4 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.4.1 https://www.thunderbird.net/
+-mozilla-firefox: 106.0.4 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.4.1 to 102.4.2 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
