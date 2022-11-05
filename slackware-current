@@ -36,7 +36,7 @@ A series :
 -elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.11 https://github.com/eudev-project/eudev
--exfatprogs: 1.1.3 to 1.2.0 https://github.com/exfatprogs/exfatprogs
+-exfatprogs: 1.2.0 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.15.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.43 https://www.darwinsys.com/file/ or http://ftp.astron.com/pub/file/
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
@@ -96,7 +96,7 @@ A series :
 -ndctl: 74 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl-solibs: 1.1.1q to 1.1.1s/3.0.7 http://www.openssl.org/
+-openssl-solibs: 1.1.1s to 3.0.7 http://www.openssl.org/
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0814 to 0828 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0814 to 0831 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0817
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -895,7 +895,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1q to 1.1.1s/3.0.7 http://ftp.openssl.org/source/
+-openssl: 1.1.1s to 3.0.7 http://ftp.openssl.org/source/
 -openvpn: 2.5.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -1085,7 +1085,7 @@ xap series:
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -freerdp: 2.8.1 https://pub.freerdp.com/releases
--fvwm: 2.6.9 to 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
+-fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.0.1 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b http://gftp.seul.org/
 -gimp: 2.10.32 http://download.gimp.org/pub/gimp/
@@ -1101,11 +1101,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0814 to 0828
+-gvim: 9.0.0814 to 0831
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
--mozilla-firefox: 106.0.4 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.4.1 to 102.4.2 https://www.thunderbird.net/
+-mozilla-firefox: 106.0.4 to 106.0.5 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.4.2 https://www.thunderbird.net/
 -network-manager-applet: 1.28.0 https://download.gnome.org/soues/network-manager-applet
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
