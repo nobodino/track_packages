@@ -11,11 +11,11 @@ A series :
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
--bash: 5.2.002 http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.009 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.0 to 6.0.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.0.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -46,9 +46,9 @@ A series :
 -gawk: 5.2.0 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2022e
-	-tzcode: 2022e https://www.iana.org/time-zones
-	-tzdata: 2022e  https://www.iana.org/time-zones
+-glibc-zoneinfo: 2022f
+	-tzcode: 2022f https://www.iana.org/time-zones
+	-tzdata: 2022f  https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.8 http://ftp.gnu.org/pub/gnu/grep
@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.17 to 6.0.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.17 to 6.0.8 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20221017 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -80,7 +80,7 @@ A series :
 -lilo: 24.2 to 24.2-5.1.debian.tar.xz http://alioth.debian.org/projects/lilo/
 -logrotate: 3.20.1 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.02.13 to 2.03.16 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.02.13 to 2.03.17 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 http://www.nongnu.org/lzip/lzlib.html
 -mcelog: 190 http://www.mcelog.org/installation.html or git clone or https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/snapshot/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -111,7 +111,7 @@ A series :
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
--sed: 4.8 http://ftp.gnu.org/pub/gnu/sed
+-sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
 -shadow: 4.8.1 to 4.12.3 https://shadow-maint.github.io/shadow/
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.3 http://sourceforge.net/projects/smartmontools/files/smartmontools/
@@ -220,7 +220,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.0 http://www.nongnu.org/man-db/
 -man-pages: 6.01 https://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.6.10 http://mariadb.org/
+-mariadb: 10.6.11 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -248,14 +248,14 @@ Ap series :
 -sqlite: 3.39.4 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.12p1 http://www.courtesan.com/sudo/current.html
--sysstat: 12.6.0 http://sebastien.godard.pagesperso-orange.fr/download.html
+-sysstat: 12.7.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
--texinfo: 6.8 http://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 7.0 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.3a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0814 to 0831 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0814 to 0856 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0817
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -271,7 +271,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.39 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.7.2 https://ccache.dev/download.html
+-ccache: 4.7.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -295,13 +295,13 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.17 to 6.0.7 http://wwww.kernel.org
+-kernel-headers: 5.19.17 to 6.0.8 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.2.3 https://www.mercurial-scm.org/release
--meson: 0.63.3 http://mesonbuild.com/
+-meson: 0.64.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.1 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -309,7 +309,7 @@ d series:
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20221022 https://www.gnu.org/software/parallel/
--patchelf: 0.16.1 https://github.com/NixOS/patchelf
+-patchelf: 0.17.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
@@ -370,18 +370,18 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.17 to 6.0.7
+-kernel : 5.19.17 to 6.0.8
 --------------------
 kde series :
 --------------------
--kde: 5.26.2 (plasma) https://download.kde.org/stable/
+-kde: 5.26.3 (plasma) https://download.kde.org/stable/
 -kde: 5.99.0 (framework) https://download.kde.org/stable/
 -kde: 22.08.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--Imath: 3.1.5 https://github.com/AcademySoftwareFoundation/Imath
+-Imath: 3.1.6 https://github.com/AcademySoftwareFoundation/Imath
 -LibRaw: 0.20.2 http://www.libraw.org/
 -Mako: 1.1.6 to 1.2.3 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 http://pypi.python.org/pypi/M2Crypto/
@@ -454,7 +454,7 @@ l series:
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
--gdk-pixbuf2: 2.42.9 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.38 https://download.gimp.org/pub/gegl/
@@ -500,11 +500,11 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_51 http://www.imagemagick.org/
+-imagemagick: 7.1.0_52 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
--iso-codes: 4.11.0 https://salsa.debian.org/iso-codes-team/iso-codes
+-iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
--jasper: 3.0.6 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 3.0.6 to 4.0.0 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.3. https://github.com/jemalloc/jemalloc
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.16_20220414 https://github.com/json-c/json-c
@@ -515,7 +515,7 @@ l series:
 -keyutils: 1.6.3 https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/
 -lame: 3.100 http://lame.sourceforge.net
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
--lcms2: 2.13.1 http://sourceforge.net/projects/lcms/files/lcms/
+-lcms2: 2.14 http://sourceforge.net/projects/lcms/files/lcms/
 -lensfun: 0.3.3 https://lensfun.github.io/
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
@@ -602,7 +602,7 @@ l series:
 -libsodium: 1.0.18 https://libsodium.org
 -libsoup: 2.74.2 to 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libsoup3: 3.0.8 to 3.2.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
--libspectre: 0.2.10 https://www.freedesktop.org/wiki/Software/libspectre/
+-libspectre: 0.2.11 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 http://www.libssh2.org/
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
@@ -641,8 +641,8 @@ l series:
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
 -mlt: 7.10.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.84 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.84 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.85 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.85 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -659,7 +659,7 @@ l series:
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
--orc: 0.4.32 https://gstreamer.freedesktop.org/src/orc/
+-orc: 0.4.33 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.50.11 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.3 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 http://ftp.gnu.org/pub/parted/
@@ -669,7 +669,7 @@ l series:
 -phonon: 4.11.1 https://community.kde.org/Phonon
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
--pipewire: 0.3.59 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.60 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 to 0.122 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 http://download.kde.org/stable/apps/KDE4.x/admin/
@@ -856,9 +856,9 @@ n series:
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
 -metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
--mobile-broadband-provider-info: 20220725 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mobile-broadband-provider-info: 20221107 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
--mutt: 2.2.7 to 2.2.8 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.8 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.3 http://www.net-snmp.org/download.html
@@ -899,7 +899,7 @@ n series:
 -openvpn: 2.5.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://p11-glue.github.io/p11-glue/p11-kit.html
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 7.4.32 http://www.php.net/distributions/ (need krb5)
+-php: 7.4.33 http://www.php.net/distributions/ (need krb5)
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1028,7 +1028,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie
--mesa: 22.2.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.2.3 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 http://motif.ics.com
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1041,7 +1041,7 @@ x series: (main packages)
 -twm: 1.0.12
 -vulkan-sdk: 1.3.204.0 to 1.3.204.1 https://vulkan.lunarg.com/sdk/home
 -wayland: 1.21.0 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.27 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.28 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
 -xcb-proto: 1.15.2
 -xdg-desktop-portal: 1.14.6
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0814 to 0831
+-gvim: 9.0.0814 to 0856
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 106.0.5 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1159,7 +1159,7 @@ xfce: 4.16.x https://gitlab.xfce.org/xfce/
 -xfce4-screensaver: 0.1.11
 -xfce4-screenshooter: 1.9.11
 -xfce4-session: 4.16.0
--xfce4-settings: 4.16.3
+-xfce4-settings: 4.16.4
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 1.0.4
