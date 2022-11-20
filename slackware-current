@@ -450,7 +450,6 @@ l series:
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.12.0 https://github.com/libfuse/libfuse
--gamin: 0.1.10 https://people.gnome.org/~veillard/gamin/
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 3.41.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd
