@@ -176,7 +176,7 @@ Ap series :
 -dmidecode: 3.4 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
--flac: 1.3.4 to 1.4.2 http://downloads.xiph.org/releases/flac/
+-flac: 1.4.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 9.56.1 to 10.0.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
@@ -300,7 +300,7 @@ d series:
 -llvm: 14.0.6 to 15.0.5 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.3.0 https://www.mercurial-scm.org/release
+-mercurial: 6.3.0 to 6.3.1 https://www.mercurial-scm.org/release
 -meson: 0.64.0 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.1 https://ninja-build.org/
@@ -407,7 +407,7 @@ l series:
 -aspell: 0.60.8 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
 -at-spi2-atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.44.1 to 2.46.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.46.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.2 to 2.36.1 (need mm-common-1.0.4 but nok) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 http://oss.sgi.com/projects/audiofile/download/
@@ -463,8 +463,8 @@ l series:
 -gjs: 1.70.2 to 1.74.1  https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.72.2 to 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.72.4 to 2.74.1 https://www.gtk.org
+-glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: 2.74.1 https://www.gtk.org
 -glibmm: 2.64.5 to 2.66.5/2.74.0 http://www.gtkmm.org/
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -473,7 +473,7 @@ l series:
 -gnome-keyring: 42.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.15 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.72.0 to 1.74.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.74.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite or http://graphite.sil.org/
 -grantlee: 5.3.1 https://github.com/steveire/grantlee
@@ -504,7 +504,7 @@ l series:
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
--jasper: 3.0.6 to 4.0.0 http://www.ece.uvic.ca/~frodo/jasper/#download
+-jasper: 4.0.0 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.3. https://github.com/jemalloc/jemalloc
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs
 -json-c: 0.16_20220414 https://github.com/json-c/json-c
@@ -600,7 +600,7 @@ l series:
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.1.0 https://github.com/erikd/libsndfile/
 -libsodium: 1.0.18 https://libsodium.org
--libsoup: 2.74.2 to 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
+-libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.49/
 -libsoup3: 3.0.8 to 3.2.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.11 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
@@ -660,7 +660,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.33 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.50.11 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.50.12 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.42.2 to 2.46.3 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 http://ftp.gnu.org/pub/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
@@ -681,7 +681,7 @@ l series:
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.1 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.42.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.42.2 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 https://pygobject.readthedocs.io/en/latest/
 -pyparsing: 2.4.7 to 3.0.8 https://pypi.org/project/pyparsing/
 -python-alabaster: 0.7.12 https://pypi.org/project/alabaster
@@ -726,7 +726,7 @@ l series:
 -python-zipp: 3.8.0 https://pypi.org/project/zipp
 -qca: 2.3.5 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.6_20221026 to 5.15.7 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.7_20221116 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain
 -quazip: 1.3 https://github.com/stachenov/quazip
@@ -769,7 +769,7 @@ l series:
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 https://github.com/georgmartius/vid.stab.git
--vte: 0.68.0 to 0.70.1 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.70.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.5.0 http://www.wavpack.com/
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
 -xapian-core: 1.4.21 http://www.xapian.org/
