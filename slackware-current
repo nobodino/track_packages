@@ -43,7 +43,7 @@ A series :
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.42 https://www.gnu.org/software/mtools/
--gawk: 5.2.0 http://ftp.gnu.org/pub/gnu/gawk/
+-gawk: 5.2.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2022f
@@ -76,7 +76,7 @@ A series :
 -libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
--libpwquality: 1.4.4 https://github.com/libpwquality/libpwquality
+-libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 to 24.2-5.1.debian.tar.xz http://alioth.debian.org/projects/lilo/
 -logrotate: 3.20.1 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
@@ -100,7 +100,7 @@ A series :
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
--pciutils: 3.8.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
+-pciutils: 3.9.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 to 0.18-13.debian.tar.xz http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 http://www.nongnu.org/lzip/plzip.html
@@ -123,7 +123,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.1 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.24.01 to 6.24.02 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 2.0.4 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -232,7 +232,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 https://github.com/cdemoulins/pamixer
 -powertop: 2.13 to 2.14 https://github.com/fenrus75/powertop
--qpdf: 11.1.1 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 11.2.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rpm: 4.16.1.3 to 4.17.1.1 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0814 to 0905 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0814 to 0933 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0817
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -271,7 +271,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.39 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--ccache: 4.7.3 https://ccache.dev/download.html
+-ccache: 4.7.4 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clisp: 2.50_20220927 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -300,15 +300,15 @@ d series:
 -llvm: 14.0.6 to 15.0.5 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.3.0 to 6.3.1 https://www.mercurial-scm.org/release
--meson: 0.64.0 http://mesonbuild.com/
+-mercurial: 6.3.1 https://www.mercurial-scm.org/release
+-meson: 0.64.1 http://mesonbuild.com/
 -nasm: 2.15.05 http://www.nasm.us/
 -ninja: 1.11.1 https://ninja-build.org/
 -opencl-headers: 2021.04.29 to 2022.05.18 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.01 https://alum.mit.edu/www/toms/p2c/p2c-2.01.tar.gz
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20221022 https://www.gnu.org/software/parallel/
+-parallel: 20221122 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.0 https://github.com/NixOS/patchelf
 -perl: 5.36.0
 	- Authen-SASL: 2.16
@@ -388,7 +388,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.6 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.2 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 0220226 https://github.com/wang-bin/QtAV
--SDL2: 2.24.2 https://www.libsdl.org/projects/
+-SDL2: 2.26.0 https://www.libsdl.org/projects/
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.2 https://www.libsdl.org/projects/SDL2_mixer/
@@ -485,7 +485,7 @@ l series:
 -gstreamer: 1.20.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.34 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.34 to 3.24.35 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.6.7 to 4.8.2 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/
@@ -583,7 +583,7 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
 -libpcap: 1.10.1 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
--libpng: 1.6.37 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy
 -libpsl: 0.21.1 https://github.com/rockdaboot/libpsl
 -libqalculate: 4.4.0 https://github.com/Qalculate/libqalculate
@@ -638,7 +638,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 http://mhash.sourceforge.net/
--mlt: 7.10.0 https://github.com/mltframework/mlt
+-mlt: 7.12.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.85 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.85 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -648,7 +648,7 @@ l series:
 -ncurses: 6.3 to 6.3-20020827 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.4 https://notroj.github.io/neon/
 -netpbm: 11.00.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
--newt: 0.52.21 https://releases.pagure.org/newt
+-newt: 0.52.22 https://releases.pagure.org/newt
 -nodejs: 19.1.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma
@@ -823,7 +823,7 @@ n series:
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
 -iproute2: 6.0.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.14 to 7.15 http://ftp.netfilter.org/pub/ipset/
+-ipset: 7.14 to 7.16 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
 -iputils: 20211215 https://github.com/iputils/iputils/releases
@@ -956,10 +956,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 http://ftp.mars.org/pub/hfs/
--tcl: 8.6.12 http://tcl.activestate.com/pub/tcl/tcl8_4/
+-tcl: 8.6.13 http://tcl.activestate.com/pub/tcl/tcl8_4/
 -tclx: 8.4.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.12 http://tcl.activestate.com/pub/tcl/tcl8_4/
+-tk: 8.6.13 http://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
 x series: (main packages)
 --------------------
@@ -968,18 +968,18 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.13.0 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz/0.9.13/0.9.13.0
 -egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
--fcitx5: 5.0.19 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-anthy: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-chinese-addons: 5.0.15 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-gtk: 5.0.19 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-hangul: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-kkc: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-m17n: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-qt: 5.0.15 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.0.20 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-anthy: 5.0.13 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-chinese-addons: 5.0.16 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-gtk: 5.0.20 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-hangul: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-kkc: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-m17n: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-qt: 5.0.16 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-sayura: 5.0.8 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-extra: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-other: 5.0.10 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-unikey: 5.0.11  https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-extra: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-other: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-unikey: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
 -fontconfig: 2.13.92 to 2.14.1 http://freedesktop.org/software/fontconfig
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew
@@ -992,7 +992,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.4.1 https://01.org/linuxmedia/vaapi
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts
 -libFS: 1.0.9
--libime: 1.0.14 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.0.15 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.4
 -libdmx: 1.1.4
@@ -1002,8 +1002,8 @@ x series: (main packages)
 -libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee
--libglvnd: 1.5.0 https://github.com/NVIDIA/libglvnd/releases
--libinput: 1.21.0 http://www.freedesktop.org/software/libinput/
+-libglvnd: 1.6.0 https://github.com/NVIDIA/libglvnd/releases
+-libinput: 1.22.0 http://www.freedesktop.org/software/libinput/
 -libkkc: 0.3.5 https://github.com/ueno/libkkc
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 http://mypaint.org
@@ -1020,7 +1020,7 @@ x series: (main packages)
 -libXfont2: 2.0.6
 -libXft: 2.3.7
 -libXp: 1.0.6
--libXpm: 3.5.13
+-libXpm: 3.5.14
 -libXi: 1.8
 -libX11: 1.8.2
 -libXres: 1.2.1
@@ -1040,7 +1040,7 @@ x series: (main packages)
 -twm: 1.0.12
 -vulkan-sdk: 1.3.204.0 to 1.3.204.1 https://vulkan.lunarg.com/sdk/home
 -wayland: 1.21.0 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.29 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.30 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
 -xcb-proto: 1.15.2
 -xdg-desktop-portal: 1.14.6
@@ -1077,7 +1077,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.76.0 http://blackboxwm.sourceforge.net/DownloadBlackbox
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.3.4 http://blueman-project.org
+-blueman: 2.3.5 http://blueman-project.org
 -ddd: 3.3.12 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0814 to 0905
+-gvim: 9.0.0814 to 0933
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 107.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
