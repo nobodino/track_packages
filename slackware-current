@@ -13,8 +13,8 @@ A series :
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.012 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
-	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
-	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
+	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
+	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
 -btrfs-progs: 6.0.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
@@ -24,7 +24,7 @@ A series :
 -cryptsetup: 2.5.0 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.14.4 to 1.15.2 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
--devs: 2.3.1_46.2.diff to 2.3.1_95.debian.gz (debian) http://ftp.debian.org/debian/pool/main/m/makedev/
+-devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20220728 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
@@ -33,7 +33,7 @@ A series :
 -efivar: 20201015 to 20220418 (nok) https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elogind: 246.10 https://github.com/elogind/elogind
--elvis: 2.2_0 to 2.2_11.1.diff.gz or 2.2.1 (almost) http://ftp.cs.pdx.edu/pub/elvis/
+-elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.11 https://github.com/eudev-project/eudev
 -exfatprogs: 1.2.0 https://github.com/exfatprogs/exfatprogs
@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.17 to 6.0.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.17 to 6.0.10 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20221017 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -77,7 +77,7 @@ A series :
 -libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
--lilo: 24.2 to 24.2-5.1.debian.tar.xz http://alioth.debian.org/projects/lilo/
+-lilo: 24.2 http://alioth.debian.org/projects/lilo/
 -logrotate: 3.20.1 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.17 https://mirrors.kernel.org/sourceware/lvm2/
@@ -86,7 +86,7 @@ A series :
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
-	- lrzsz: 0.12.21 to 0.12.21_10.debian.tar.xz http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
+	- lrzsz: 0.12.21 http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
 	- busybox: 1.32.1 to 1.34.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate or http://ftp.debian.org/debian/pool/main/m/mlocate/
@@ -101,7 +101,7 @@ A series :
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.9.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
--pcmciautils: 018 to 0.18-13.debian.tar.xz http://ftp.debian.org/debian/pool/main/p/pcmciautils/
+-pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 http://www.nongnu.org/lzip/plzip.html
 -procps-ng: 3.3.17 to 4.0.1
@@ -136,7 +136,7 @@ A series :
 -util-linux: 2.38.1
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
-	- setserial: 2.17 to 2.17-53.debian.tar.gz http://ftp.debian.org/debian/pool/main/s/setserial/
+	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
 	- util-linux: 2.38.1 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
@@ -144,7 +144,7 @@ A series :
 -xfsprogs: 5.13.0 (to 6.0.0 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.2.8 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
--zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.xz http://ftp.debian.org/debian/pool/main/z/zoo/
+-zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
 Ap series :
 --------------------
@@ -240,7 +240,7 @@ Ap series :
 -sc-im: 20210927 to 20221016 https://github.com/andmarti1424/sc-im
 -screen: 4.9.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
-	- libjpeg: 6a to 6b-patches-1.1 (gentoo) http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
+	- libjpeg: 6a http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 http://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
 -slackpkg: 15.0.9 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
@@ -257,7 +257,7 @@ Ap series :
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
 -vim: 9.0.0942 to 0950 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0942
-	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
+	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.4.pl2 https://www.gnu.org/software/xorriso
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.17 to 6.0.9 http://wwww.kernel.org
+-kernel-headers: 5.19.17 to 6.0.10 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.5 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -332,7 +332,7 @@ d series:
 	- libnet: 3.14
 	- perl: 5.34.1 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
--pmake: 1.111_1.diff.gz to 1.111-3.3.debian.tar.gz
+-pmake: 1.111_1.diff.gz
 -poke: 2.4 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.15 to 3.10.8/3.11.0 (new API) https://www.python.org/downloads/
@@ -370,7 +370,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.17 to 6.0.9
+-kernel : 5.19.17 to 6.0.10
 --------------------
 kde series :
 --------------------
@@ -459,7 +459,7 @@ l series:
 -gegl: 0.4.40 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.0 https://wiki.gnome.org/gexiv2
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.70.2 to 1.74.1  https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.70.2 to 1.74.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
@@ -788,9 +788,9 @@ n series:
 -bind: 9.18.9 http://ftp.isc.org/isc/bind9/
 -bluez: 5.66 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
--bootp: 2.4.3_15.diff.gz to 2.4.3_18.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
+-bootp: 2.4.3_15.diff.gz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
--bsd-finger: 0.17 to 0.17-15.1.debian.tar.bz2 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
+-bsd-finger: 0.17 http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20220922 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.18.1 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
@@ -821,7 +821,7 @@ n series:
 -httpd: 2.4.54 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
--inetd-OpenBSD or openBSD-inetd (debian) : 1.79 to 0.20091229.orig.tar.gz (debian)
+-inetd-OpenBSD: 1.79
 -iproute2: 6.0.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.16 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
@@ -854,17 +854,17 @@ n series:
 -links: 2.28 http://atrey.karlin.mff.cuni.cz/~clock/twibright/links/download/
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 http://mcabber.com/
--metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
+-metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20221107 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.9 http://ftp.mutt.org/pub/mutt/
--nc: 110_21.diff.gz to 1.10-47.debian.tar.bz2 (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
+-nc: 110_21.diff.gz (netcat traditional) http://ftp.debian.org/debian/pool/main/n/netcat/ or http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/
 -ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
 -net-snmp: 5.9.3 http://www.net-snmp.org/download.html
--net-tools: 20170208_479bb4a to 2.10 (07012021) https://github.com/ecki/net-tools
+-net-tools: 20170208_479bb4a https://github.com/ecki/net-tools
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
--netdate: diff2.gz to 1.2 (gentoo)
--netkit-xxx: 0.17 to inetutils-1.9.4
+-netdate: diff2.gz
+-netkit-xxx: 0.17
 	- netkit-bootparamd
 	- netkit-ftp
 	- netkit-netalk
@@ -874,7 +874,7 @@ n series:
 	- netkit-rwall
 	- netkit-rwho
 	- netkit-timed
--netpipes: 4.2 to 4.2-7.debian.gz http://web.purplefrog.com/ftp/netpipes/
+-netpipes: 4.2 http://web.purplefrog.com/ftp/netpipes/
 -nettle: 3.8.1 https://ftp.gnu.org/gnu/nettle/
 -netwatch: 1.3.1_2 http://www.slctech.org/~mackay/netwatch.html#FTP%20SITE%20ACCESS
 -network-scripts: 15.0
@@ -921,16 +921,16 @@ n series:
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 https://github.com/libfuse/sshfs
 -stunnel: 5.67 https://www.stunnel.org/downloads.html
--tcp_wrappers: 7.6 to 7.6q-31.debian.tar.xz https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
+-tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
-	-netkit-telnet:  0.17 to 0.17_36.diff.gz (ipv6: telnet from redhat)
+	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -tin: 2.6.1 http://www.tin.org/
 -traceroute: 2.1.0 http://traceroute.sourceforge.net/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
--uucp: 1.07 to 1.07-27.debian.tar.xz http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
+-uucp: 1.07  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.3 http://ftp.gnu.org/gnu/wget/
@@ -943,7 +943,7 @@ n series:
 	- yp-tools: 4.2.3 https://github.com/thkukuk/yp-tools/
 	- ypbind-mt: 2.7.2 https://github.com/thkukuk/ypbind-mt/
 	- ypserv: 4.1 to 4.2 https://github.com/thkukuk/ypserv
--ytalk: 3.3.0 to 3.3.0-9.debian.tar.xz http://ftp.debian.org/debian/pool/main/y/ytalk/
+-ytalk: 3.3.0 http://ftp.debian.org/debian/pool/main/y/ytalk/
 -zd1211-firmware: 1.5 http://zd1211.wiki.sourceforge.net/VendorDriver
 --------------------
 t series:
