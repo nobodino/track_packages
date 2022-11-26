@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 to 2.15.7 (2.16 drop mktemp) http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 to 2.1_32.debian.tar.gz  http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.0.1 to 6.0.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.0.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0942 to 0946 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0942 to 0950 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0942
 	- ctags: 5.8 to 20170704 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -463,7 +463,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.74.1 https://www.gtk.org
+-glib2: 2.74.2 https://www.gtk.org
 -glibmm: 2.64.5 to 2.66.5/2.74.0 http://www.gtkmm.org/
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -971,7 +971,7 @@ x series: (main packages)
 -fcitx5: 5.0.21 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.13 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.0.16 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-gtk: 5.0.20 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-gtk: 5.0.21 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-hangul: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-kkc: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-m17n: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0942 to 0946
+-gvim: 9.0.0942 to 0950
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 107.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
