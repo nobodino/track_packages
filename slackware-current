@@ -131,7 +131,7 @@ A series :
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.99.13 to 0.99.20/1.90.0 (need systemd for version > 0.99.13) https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
--usbutils: 014 https://www.kernel.org/pub/linux/utils/usb/usbutils/
+-usbutils: 014 to 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
 -util-linux: 2.38.1
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.0942 to 0950 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.0942 to 0954 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.0942
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -315,7 +315,7 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 
-	- IO-Socket-SSL: 2.074 to 2.076
+	- IO-Socket-SSL: 2.074 to 2.077
 	- MIME-Base64: 3.16
 	- Module-Runtime: 0.016
 	- Moo: 2.005004
@@ -676,7 +676,7 @@ l series:
 -poppler-data: 0.4.11 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/
--pycairo: 1.20.1 http://cairographics.org/releases/
+-pycairo: 1.20.1 to 1.22.0 http://cairographics.org/releases/
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.1 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -1064,7 +1064,7 @@ x series: (main packages)
 -xf86-video-r128: 20220127
 -xf86-video-vesa: 2.5.0
 -xisxwayland: 2
--xterm: 376 http://invisible-island.net/xterm/
+-xterm: 376 to 377 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 14.0.1 https://download.gnome.org/sources/gucharmap/3.14/
 -gv: 3.7.4
--gvim: 9.0.0942 to 0950
+-gvim: 9.0.0942 to 0954
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.2 https://wiki.gnome.org/Projects/NetworkManager/
 -mozilla-firefox: 107.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
