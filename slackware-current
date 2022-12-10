@@ -131,7 +131,7 @@ A series :
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 0.99.13 to 0.99.20/1.90.0 (need systemd for version > 0.99.13) https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
--usbutils: 014 to 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
+-usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
 -util-linux: 2.38.1
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1037 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1042 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -400,7 +400,7 @@ l series:
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 42.0 to 43.0 https://github.com/GNOME/adwaita-icon-theme/tags
+-adwaita-icon-theme: 43.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -alsa-lib: 1.2.8 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins
@@ -488,7 +488,7 @@ l series:
 -gstreamer: 1.20.4 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.34 to 3.24.35 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
+-gtk+3: 3.24.35 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/
 -gtk4: 4.6.7 to 4.8.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/
@@ -522,7 +522,7 @@ l series:
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.6.1 http://www.libarchive.org/downloads/
+-libarchive: 3.6.2 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
 -libbluray: 1.3.4 http://www.videolan.org/developers/libbluray.html
@@ -643,8 +643,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.12.0 https://github.com/mltframework/mlt
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.85 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.85 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.86 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.86 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.13.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -671,7 +671,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link
--pipewire: 0.3.61 https://gitlab.freedesktop.org/pipewire/pipewire
+-pipewire: 0.3.62 https://gitlab.freedesktop.org/pipewire/pipewire
 -polkit: 0.120 to 0.122 https://gitlab.freedesktop.org/polkit/polkit/
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 hhttps://download.kde.org/stable/polkit-qt-1/
@@ -967,7 +967,7 @@ tcl/tk series:
 x series: (main packages)
 --------------------
 -anthy-unicode: 1.0.0.20211224 https://github.com/fujiwarat/anthy-unicode/releases
--OpenCC: 1.1.5 https://github.com/BYVoid/OpenCC
+-OpenCC: 1.1.6 https://github.com/BYVoid/OpenCC
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1037
+-gvim: 9.0.1034 to 1042
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 107.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1187,7 +1187,7 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.26
+-php80: 8.0.26 to 8.2.0
 -php81: 8.1.13
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 https://github.com/TigerVNC/tigervnc/releases
