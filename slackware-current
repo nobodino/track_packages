@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1042 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1046 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -288,7 +288,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.38.1 http://git-scm.com/download
+-git: 2.38.1 to 2.38.2 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
@@ -378,7 +378,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.26.4 (plasma) https://download.kde.org/stable/
--kde: 5.100.0 (framework) https://download.kde.org/stable/
+-kde: 5.101.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.0 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -502,7 +502,7 @@ l series:
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_53 http://www.imagemagick.org/
+-imagemagick: 7.1.0_53 to 54 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -1063,7 +1063,7 @@ x series: (main packages)
 -xf86-video-mga: 2.0.1
 -xf86-video-nouveau: 20220125
 -xf86-video-r128: 20220127
--xf86-video-vesa: 2.5.0
+-xf86-video-vesa: 2.6.0
 -xisxwayland: 2
 -xterm: 377 http://invisible-island.net/xterm/
 --------------------
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1042
+-gvim: 9.0.1034 to 1046
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 107.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
