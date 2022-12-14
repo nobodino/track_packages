@@ -11,7 +11,7 @@ A series :
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
--bash: 5.2.012 http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.012 to 5.2.015 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.17 to 6.0.11 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 5.19.17 to 6.1.0 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20221123 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/releases
@@ -106,7 +106,7 @@ A series :
 -plzip: 1.10 https://download.savannah.gnu.org/releases/lzip/plzip/
 -procps-ng: 3.3.17 to 4.0.1/4.0.2_rc1
 	-procps-ng: 3.3.17 https://gitlab.com/procps-ng/procps/-/tags
-	-psmisc: 23.3 to 23.5 https://sourceforge.net/projects/psmisc/files/psmisc/
+	-psmisc: 23.3 to 23.6 https://sourceforge.net/projects/psmisc/files/psmisc/
 -quota: 4.09 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
@@ -123,7 +123,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.05 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.24.05 to 6.24.06 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or http://git.savannah.gnu.org/cgit/time.git/snapshot/
 -tree: 2.0.4 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -142,7 +142,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 (to 6.0.0 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.2.9 http://tukaani.org/xz/
+-xz: 5.2.9 to 5.2.10/5.4.0 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1046 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1054 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -288,7 +288,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.38.1 to 2.38.2 http://git-scm.com/download
+-git: 2.38.1 to 2.39.0 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.17 to 6.0.11 http://wwww.kernel.org
+-kernel-headers: 5.19.17 to 6.1.0 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -349,7 +349,7 @@ d series:
 -sassc: 3.6.2 https://github.com/sass/sassc
 -scons: 4.4.0 http://www.scons.org/
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.0 https://github.com/strace/strace/releases
+-strace: 6.0 to 6.1 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.3 https://wiki.gnome.org/Projects/Vala
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.17 to 6.0.11
+-kernel : 5.19.17 to 6.1.0
 --------------------
 kde series :
 --------------------
@@ -666,7 +666,7 @@ l series:
 -pangomm: 2.42.2 to 2.46.3/2.50.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib
--pcre2: 10.41 https://github.com/PhilipHazel/pcre2/releases
+-pcre2: 10.41 to 10.42 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
@@ -1051,8 +1051,8 @@ x series: (main packages)
 -xinit: 1.4.2
 -xkeyboard-config: 2.37
 -xorgproto: 2022.2
--xorg-server: 21.1.4 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 22.1.5
+-xorg-server: 21.1.4 to 21.1.5 http://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 22.1.5 to 21.1.6
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.1.0
 -xf86-video-amdgpu: 22.0.0
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1046
+-gvim: 9.0.1034 to 1054
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 107.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1133,7 +1133,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.05.1 http://www.jwz.org/xscreensaver/
+-xscreensaver: 6.05.1 to 6.06 http://www.jwz.org/xscreensaver/
 -xsnow: 3.6.0 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.16.x to 4.18 (release: 13/12/2022) https://gitlab.xfce.org/xfce/
