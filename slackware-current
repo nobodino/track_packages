@@ -1104,8 +1104,8 @@ xap series:
 -gvim: 9.0.1034 to 1054
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 107.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.5.1 https://www.thunderbird.net/
+-mozilla-firefox: 107.0.1 to 108.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 102.5.1 to 102.6.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
