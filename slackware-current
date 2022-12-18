@@ -119,7 +119,7 @@ A series :
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.4.4 https://github.com/troglobit/sysklogd
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/ (5.10 ok, 6.03 nok slackbuild)
--sysvinit: 3.05 https://github.com/slicer69/sysvinit/releases
+-sysvinit: 3.05 to 3.06 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -142,7 +142,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 (to 6.0.0 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.2.9 to 5.2.10/5.4.0 http://tukaani.org/xz/
+-xz: 5.4.0 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz to 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -255,11 +255,11 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1060 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1071 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
--xfsdump: 3.1.9 to 3.1.11 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
+-xfsdump: 3.1.9 to 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xorriso: 1.5.4.pl2 https://www.gnu.org/software/xorriso
 -zsh: 5.9 http://ftp.fu-berlin.de/pub/unix/shells/zsh/
 ------------------
@@ -415,7 +415,7 @@ l series:
 -atkmm: 2.28.2 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.98 http://download.gimp.org/pub/babl/0.1/
--boost: 1.80.0 to 1.81.0 http://sourceforge.net/projects/boost/files/boost/
+-boost: 1.81.0 http://sourceforge.net/projects/boost/files/boost/
 -brotli: 1.0.9 https://github.com/google/brotli/
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.12.2 to 1.16.2 http://cairographics.org/cairomm/
@@ -495,14 +495,14 @@ l series:
 -gtksourceview3: 3.24.11 to 4.8.4/5.6.1 https://projects.gnome.org/gtksourceview/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.1 to 1.50.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 5.3.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 6.0.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.1 http://hunspell.github.io/
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
 -id3lib: 3.8.3 http://id3lib.sourceforge.net/
--imagemagick: 7.1.0_54 http://www.imagemagick.org/
+-imagemagick: 7.1.0_54 to 55 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson
@@ -569,7 +569,7 @@ l series:
 -libmad: 0.15.1b http://ftp.mars.org/pub/mpeg/ or http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
--libmpc: 1.2.1 to 1.3.0 http://www.multiprecision.org
+-libmpc: 1.3.1 http://www.multiprecision.org
 -libmtp: 1.1.20 http://libmtp.sourceforge.net/
 -libnice: 0.1.19 https://libnice.freedesktop.org/#download
 -libnih: 1.0.3 https://launchpad.net/libnih
@@ -782,7 +782,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.40.6 https://gitlab.freedesktop.org/Netwo...NetworkManager
+-NetworkManager: 1.40.8 https://gitlab.freedesktop.org/Netwo...NetworkManager
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -918,7 +918,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.17.3 to 4.17.4 https://ftp.samba.org/pub/samba/
+-samba: 4.17.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/kouya/snownews
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1101,10 +1101,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1060
+-gvim: 9.0.1034 to 1071
 -hexchat: 2.16.1 https://hexchat.github.io/
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 108.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.6.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
@@ -1136,38 +1136,38 @@ xap series:
 -xscreensaver: 6.06 http://www.jwz.org/xscreensaver/
 -xsnow: 3.6.0 https://sourceforge.net/projects/xsnow/files/
 --------------------
-xfce: 4.16.x to 4.18 https://gitlab.xfce.org/xfce/
+xfce: 4.18 https://gitlab.xfce.org/xfce/
 --------------------
 -Greybird: 3.22.15
--elementary-xfce: 0.15.1
--exo: 4.16.4
--garcon: 4.16.1
--libxfce4ui: 4.16.1
--libxfce4util: 4.16.0
+-elementary-xfce: 0.17.0
+-exo: 4.18.0
+-garcon: 4.18.0
+-libxfce4ui: 4.18.0
+-libxfce4util: 4.18.0
 -mousepad: 0.5.10
--thunar: 4.16.11 https://gitlab.xfce.org/xfce/thunar
--thunar-volman: 4.16.0
--tumbler: 4.16.1
--xfce4-appfinder: 4.16.1
+-thunar: 4.18.0 https://gitlab.xfce.org/xfce/thunar
+-thunar-volman: 4.18.0
+-tumbler: 4.18.0
+-xfce4-appfinder: 4.18.0
 -xfce4-clipman-plugin: 1.6.2
--xfce4-dev-tools: 4.16.0
--xfce4-notifyd: 0.6.4
--xfce4-panel: 4.16.5
+-xfce4-dev-tools: 4.18.0
+-xfce4-notifyd: 0.6.5
+-xfce4-panel: 4.18.0
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
--xfce4-power-manager: 4.16.0
+-xfce4-power-manager: 4.18.0
 -xfce4-pulseaudio-plugin: 0.4.5
 -xfce4-screensaver: 0.1.11
 -xfce4-screenshooter: 1.9.11
--xfce4-session: 4.16.0
--xfce4-settings: 4.16.5
+-xfce4-session: 4.18.0
+-xfce4-settings: 4.18.0
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 1.0.4
--xfce4-weather-plugin: 0.10.2
+-xfce4-weather-plugin: 0.11.0
 -xfce4-whiskermenu-plugin: 2.6.2
--xfconf: 4.16.0
--xfdesktop: 4.16.1
--xfwm4: 4.16.1
+-xfconf: 4.18.0
+-xfdesktop: 4.18.0
+-xfwm4: 4.18.0
 --------------------
 y series:
 --------------------
