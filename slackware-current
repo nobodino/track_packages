@@ -80,7 +80,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.02.13 to 2.03.17 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.02.13 to 2.03.18 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 190 https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/log/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -123,7 +123,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.06 to 6.24.07 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.24.07 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or https://git.savannah.gnu.org/cgit/time.git/log/
 -tree: 2.0.4 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -219,7 +219,7 @@ Ap series :
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.1 http://www.nongnu.org/man-db/
--man-pages: 6.01 https://gitlab.com/man-db/man-db/-/tags
+-man-pages: 6.01 to 6.02 https://gitlab.com/man-db/man-db/-/tags
 -mariadb: 10.6.11 to 10.10.2 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1085 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1088 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -304,7 +304,7 @@ d series:
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.1 https://www.mercurial-scm.org/release
 -meson: 0.64.1 to 1.0.0rc2 https://github.com/mesonbuild/meson/releases
--nasm: 2.16 to 2.16.01 http://www.nasm.us/
+-nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2022.09.30 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
@@ -488,8 +488,8 @@ l series:
 -gstreamer: 1.20.5 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.35 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk+3: 3.24.35 to 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk4: 4.8.2 to 4.8.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -807,16 +807,16 @@ n series:
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://roy.marples.name/downloads/dhcpcd
--dnsmasq: 2.88 http://www.thekelleys.org.uk/dnsmasq/doc.html
--dovecot: 2.3.19.1 http://www.dovecot.org/releases/
+-dnsmasq: 2.88 https://thekelleys.org.uk/dnsmasq/
+-dovecot: 2.3.20 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
 -ethtool: 5.19 to 6.1 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.34 http://www.catb.org/~esr/fetchmail/
--getmail: 6.18.10 http://pyropus.ca/software/getmail/
+-fetchmail: 6.4.34 to 6.5.0beta8 https://www.fetchmail.info/
+-getmail: 6.18.10 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.41 (TLS) to 2.3.8 https://www.gnupg.org/download/index.html
+-gnupg2: 2.2.41 (LTS) to 2.4.0 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.8 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
@@ -828,19 +828,19 @@ n series:
 -iproute2: 6.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.16 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
--iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng
+-iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20221126 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
--irssi: 1.4.3 https://github.com/irssi/irssi
+-irssi: 1.4.3 https://github.com/irssi/irssi/releases
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.20.1 http://web.mit.edu/kerberos/dist/krb5/
--lftp: 4.9.2 https://lftp.yar.ru/
+-lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.46 https://www.gnupg.org/download/index.html
 -libksba: 1.6.3 https://www.gnupg.org/download/index.html
--libmbim: 1.28.2 http://www.freedesktop.org/software/libmbim/
+-libmbim: 1.28.2 to 1.29.2 (beta:new API) https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.17.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
@@ -852,19 +852,19 @@ n series:
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
 -libnftnl: 1.2.4 http://ftp.netfilter.org/pub/libnftnl/
--libqmi: 1.32.2 http://www.freedesktop.org/software/libqmi/
--libtirpc: 1.3.3 http://sourceforge.net/projects/libtirpc/
+-libqmi: 1.32.2 to 1.33.2 (beta:new API) https://github.com/freedesktop/libqmi/tags
+-libtirpc: 1.3.3 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.28 http://links.twibright.com/download.php
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
--mcabber: 1.1.2 http://mcabber.com/
--metamail: 2.7_52.diff.gz to 2.7_54.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
+-mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
+-metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20221107 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.9 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
--ncftp: 3.2.6 http://ftp.ncftp.com/ncftp/
+-ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.3 https://sourceforge.net/projects/net-snmp/files/net-snmp/
--net-tools: 20170208_479bb4a https://github.com/ecki/net-tools
+-net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 3.1.13 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
@@ -884,9 +884,9 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.6.2 http://sourceforge.net/projects/nfs/
--nftables: 1.0.5 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.51.0 https://nghttp2.org/
+-nfs-utils: 2.6.2 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nftables: 1.0.6 http://www.netfilter.org/projects/nftables/
+-nghttp2: 1.51.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.93 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
@@ -894,11 +894,11 @@ n series:
 -ntp: 4.2.8p15 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.3 https://ftp.openldap.org/software/download/
--openobex: 1.7.2 https://gitlab.com/openobex/mainline
+-openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1s to 3.0.7 http://ftp.openssl.org/source/
--openvpn: 2.5.8 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.8 (to 2.6.0beta) http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.33 http://www.php.net/distributions/
@@ -907,10 +907,10 @@ n series:
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.7.3 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
-	-ppp: 2.4.9 https://github.com/paulusmack/ppp
+	-ppp: 2.4.9 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
 	-freeradius-client: 1.1.7
--procmail: 3.24 http://www.procmail.org/ or http://archive.debian.org/debian-security/pool/updates/main/p/procmail/
+-procmail: 3.24 https://github.com/BuGlessRB/procmail/releases
 -proftpd: 1.3.8 http://www.proftpd.org
 -pssh: 2.3.4 https://github.com/lilydjwg/pssh/tags
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
@@ -920,9 +920,9 @@ n series:
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.17.4 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
--snownews: 1.9 https://github.com/kouya/snownews
+-snownews: 1.9 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
--sshfs: 3.7.3 https://github.com/libfuse/sshfs
+-sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.67 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
@@ -943,10 +943,10 @@ n series:
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.10 https://w1.fi/wpa_supplicant/
 -yptools:
-	- yp-tools: 4.2.3 https://github.com/thkukuk/yp-tools/
-	- ypbind-mt: 2.7.2 https://github.com/thkukuk/ypbind-mt/
-	- ypserv: 4.1 to 4.2 https://github.com/thkukuk/ypserv
--ytalk: 3.3.0 http://ftp.debian.org/debian/pool/main/y/ytalk/
+	- yp-tools: 4.2.3 https://github.com/thkukuk/yp-tools/releases
+	- ypbind-mt: 2.7.2 https://github.com/thkukuk/ypbind-mt/releases
+	- ypserv: 4.1 to 4.2 https://github.com/thkukuk/ypserv/releases
+-ytalk: 3.3.0 http://ftp.debian.org/debian/pool/main/y/ytalk
 -zd1211-firmware: 1.5 http://zd1211.wiki.sourceforge.net/VendorDriver
 --------------------
 t series:
@@ -967,10 +967,10 @@ tcl/tk series:
 x series: (main packages)
 --------------------
 -anthy-unicode: 1.0.0.20211224 https://github.com/fujiwarat/anthy-unicode/releases
--OpenCC: 1.1.6 https://github.com/BYVoid/OpenCC
+-OpenCC: 1.1.6 https://github.com/BYVoid/OpenCC/releases
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
--egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland
--eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform
+-egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland/releases
+-eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
 -fcitx5: 5.0.21 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.13 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.0.16 https://fcitx-im.org/wiki/Fcitx_5
@@ -983,15 +983,15 @@ x series: (main packages)
 -fcitx5-table-extra: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-unikey: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
--fontconfig: 2.13.92 to 2.13.96/2.14.1 http://freedesktop.org/software/fontconfig
+-fontconfig: 2.13.92 to 2.14.1 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
--glew: 2.2.0 https://github.com/nigels-com/glew
+-glew: 2.2.0 https://github.com/nigels-com/glew/releases
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
--hack-fonts-ttf: 3.003 https://github.com/chrissimpkins/Hack
+-hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.27 https://github.com/ibus/ibus/releases/
--ibus-libpinyin: 1.13.1 https://github.com/libpinyin/ibus-libpinyin
--intel-vaapi-driver: 2.4.1 https://01.org/linuxmedia/vaapi
--liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts
+-ibus-libpinyin: 1.13.1 https://github.com/libpinyin/ibus-libpinyin/releases
+-intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
+-liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
 -libime: 1.0.16 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
@@ -1002,15 +1002,15 @@ x series: (main packages)
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.0 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
--libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee
+-libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.6.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.22.0 http://www.freedesktop.org/software/libinput/
--libkkc: 0.3.5 https://github.com/ueno/libkkc
+-libinput: 1.22.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
--libmypaint: 1.6.1 http://mypaint.org
--libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin
--libva: 2.16.0 https://01.org/linuxmedia/vaapi
--libva-utils: 2.16.0 https://01.org/linuxmedia/vaapi
+-libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
+-libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin/releases
+-libva: 2.16.0 https://github.com/intel/libva/releases
+-libva-utils: 2.16.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.5.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.14 
@@ -1027,15 +1027,14 @@ x series: (main packages)
 -libXres: 1.2.1
 -libXt: 1.2.1
 -libxcvt: 0.1.2
--marisa: 0.2.6 https://github.com/s-yata/marisa-trie
+-marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
 -mesa: 22.3.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
--motif: 2.3.8 http://sourceforge.net/projects/motif/
--mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes
+-mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
--noto-fonts-ttf: 20171024 to 20201206 https://github.com/googlefonts/noto-fonts/
+-noto-fonts-ttf: 20171024 to 20201206 https://github.com/notofonts/noto-fonts/releases
 -pixman: 0.42.2 http://cairographics.org/releases/
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
@@ -1073,10 +1072,10 @@ xap series:
 	-Mplayer: 20221009
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.10.2
--audacious: 4.2  http://www.audacious-media-player.org
+-audacious: 4.2 http://www.audacious-media-player.org
 -audacious-plugins: 4.2 
 -blackbox:
-	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases/tag
+	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
 -blueman: 2.3.5 http://blueman-project.org
 -ddd: 3.3.12 http://ftp.gnu.org/gnu/ddd
@@ -1087,7 +1086,7 @@ xap series:
 -freerdp: 2.9.0 https://pub.freerdp.com/releases
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.0.1 http://sourceforge.net/projects/geeqie/files/geeqie/
--gftp: 2.9.0b to 2.9.1b http://gftp.seul.org/
+-gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
 -gimp: 2.10.32 to 2.99.14 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 http://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
@@ -1101,8 +1100,8 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1085
--hexchat: 2.16.1 https://hexchat.github.io/
+-gvim: 9.0.1034 to 1088
+-hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.6.1 https://www.thunderbird.net/
@@ -1145,7 +1144,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -libxfce4ui: 4.18.0
 -libxfce4util: 4.18.0
 -mousepad: 0.5.10
--thunar: 4.18.0 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.18.1 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.0
 -xfce4-appfinder: 4.18.0
@@ -1178,7 +1177,7 @@ extra:
 -rust-for-mozilla: rust-1.64.0
 --------------------
 -aspell-word-list: 0.50.4
--bash-completion: 2.11 https://github.com/scop/bash-completion
+-bash-completion: 2.11 https://github.com/scop/bash-completion/releases
 -bittornado: 0.3.18 
 -brltty: 6.4 to 6.5 http://mielke.cc/brltty/
 -emacspeak: 53.0
