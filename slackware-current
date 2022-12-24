@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.0.2 to 6.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -68,7 +68,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 5.19.17 to 6.1.1 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20221123 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20221216 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -219,7 +219,7 @@ Ap series :
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.1 http://www.nongnu.org/man-db/
--man-pages: 6.01 to 6.02 https://gitlab.com/man-db/man-db/-/tags
+-man-pages: 6.02 https://gitlab.com/man-db/man-db/-/tags
 -mariadb: 10.6.11 to 10.10.2 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1088 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1092 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -303,7 +303,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.1 https://www.mercurial-scm.org/release
--meson: 0.64.1 to 1.0.0rc2 https://github.com/mesonbuild/meson/releases
+-meson: 0.64.1 to 1.0.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2022.09.30 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -489,7 +489,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.35 to 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.2 to 4.8.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.8.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1088
+-gvim: 9.0.1034 to 1092
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1156,9 +1156,9 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-power-manager: 4.18.0
 -xfce4-pulseaudio-plugin: 0.4.5
 -xfce4-screensaver: 0.1.11
--xfce4-screenshooter: 1.10.0
+-xfce4-screenshooter: 1.10.1
 -xfce4-session: 4.18.0
--xfce4-settings: 4.18.0
+-xfce4-settings: 4.18.1
 -xfce4-systemload-plugin: 1.2.4
 -xfce4-taskmanager: 1.4.2
 -xfce4-terminal: 1.0.4
