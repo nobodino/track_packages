@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1092 http://ftp.vim.org/pub/vim/patches/9.0/
+-vim: 9.0.1034 to 1093 http://ftp.vim.org/pub/vim/patches/9.0/
 	- vim: 9.0.1034
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -930,7 +930,7 @@ n series:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
--tin: 2.6.1 http://www.tin.org/
+-tin: 2.6.1 to 2.6.2 http://www.tin.org/
 -traceroute: 2.1.0 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1092
+-gvim: 9.0.1034 to 1093
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
