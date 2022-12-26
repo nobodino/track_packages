@@ -255,8 +255,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1034 to 1093 http://ftp.vim.org/pub/vim/patches/9.0/
-	- vim: 9.0.1034
+-vim: 9.0.1091 to 1097 http://ftp.vim.org/pub/vim/patches/9.0/ or https://github.com/vim/vim/commits/master
+	- vim: 9.0.1091
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -303,7 +303,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.1 https://www.mercurial-scm.org/release
--meson: 0.64.1 to 1.0.0 https://github.com/mesonbuild/meson/releases
+-meson: 1.0.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2022.09.30 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -343,7 +343,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils/releases
--ruby: 3.1.3 to 3.2.0rc1 http://www.ruby-lang.org/
+-ruby: 3.2.0 http://www.ruby-lang.org/
 -rust: 1.65.0 to 1.66.0 https://rust-lang.org
 -rust-bindgen: 0.63.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
@@ -466,7 +466,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.74.3 to 2.74.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
+-glib2: 2.74.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.64.5 to 2.74.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -650,7 +650,7 @@ l series:
 -mpfr: 4.1.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 to 6.3-20221217 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.4 https://github.com/notroj/neon/tags
--netpbm: 11.00.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.00.03 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 19.3.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
@@ -735,7 +735,7 @@ l series:
 -readline: 8.2.001 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.3 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
--rubygem-asciidoctor: 2.0.17 to 2.0.18 https://rubygems.org/gems/asciidoctor
+-rubygem-asciidoctor: 2.0.18 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 to 2.0 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.9 http://serf.apache.org/
 -sg3_utils: 1.47 http://sg.danny.cz/sg/sg3_utils.html
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1034 to 1093
+-gvim: 9.0.1091 to 1097
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1196,6 +1196,7 @@ extra:
 --------------------
 testing :
 -rust: 1.66
+-linux-6.1.x: 6.1.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
