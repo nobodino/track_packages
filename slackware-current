@@ -931,7 +931,7 @@ n series:
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -tin: 2.6.1 to 2.6.2 http://www.tin.org/
--traceroute: 2.1.0 https://sourceforge.net/projects/traceroute/files/traceroute/
+-traceroute: 2.1.0 to 2.1.1 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
