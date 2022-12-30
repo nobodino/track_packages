@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1091 to 1107 https://github.com/vim/vim/commits/master
+-vim: 9.0.1091 to 1108 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1091
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -497,7 +497,7 @@ l series:
 -gvfs: 1.50.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 6.0.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
--hunspell: 1.7.1 https://github.com/hunspell/hunspell/releases
+-hunspell: 1.7.1 to 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
@@ -588,7 +588,7 @@ l series:
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
--libpsl: 0.21.1 https://github.com/rockdaboot/libpsl/releases
+-libpsl: 0.21.1 to 0.21.2 https://github.com/rockdaboot/libpsl/releases
 -libqalculate: 4.5.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.4 https://sourceforge.net/projects/libwpd/files/librevenge/
@@ -600,7 +600,7 @@ l series:
 -libseccomp: 2.5.4 https://github.com/seccomp/libseccomp/releases
 -libsecret: 0.20.5 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
--libsndfile: 1.1.0 https://github.com/libsndfile/libsndfile/releases
+-libsndfile: 1.1.0 to 1.2.0 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
 -libsoup3: 3.0.8 to 3.2.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
@@ -1028,7 +1028,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.1 to 22.3.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1091 to 1107 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1091 to 1108 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
