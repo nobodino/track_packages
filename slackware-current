@@ -584,7 +584,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpcap: 1.10.1 http://www.tcpdump.org/release/
+-libpcap: 1.10.1 to 1.10.2 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
