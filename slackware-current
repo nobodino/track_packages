@@ -25,7 +25,7 @@ A series :
 -dbus: 1.14.4 to 1.15.2 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20220728 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20221229 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.18 http://ftp.gnu.org/pub/gnu/ed/
@@ -38,7 +38,7 @@ A series :
 -eudev: 3.2.11 https://github.com/eudev-project/eudev
 -exfatprogs: 1.2.0 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.15.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
--file: 5.43 to 5.44 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
+-file: 5.44 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1091 to 1117 https://github.com/vim/vim/commits/master
+-vim: 9.0.1091 to 1122 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1091
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -648,7 +648,7 @@ l series:
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.15.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.1.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.3 to 6.3-20221217 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
+-ncurses: 6.3 to 6.4 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.4 https://github.com/notroj/neon/tags
 -netpbm: 11.00.03 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
@@ -826,7 +826,7 @@ n series:
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
 -iproute2: 6.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.16 to 7.17 http://ftp.netfilter.org/pub/ipset/
+-ipset: 7.17 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20221126 https://github.com/iputils/iputils/releases
@@ -925,7 +925,7 @@ n series:
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.67 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.1 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.1 to 4.99.2 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1009,8 +1009,8 @@ x series: (main packages)
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
 -libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin/releases
--libva: 2.16.0 https://github.com/intel/libva/releases
--libva-utils: 2.16.0 https://github.com/intel/libva-utils/releases
+-libva: 2.17.0 https://github.com/intel/libva/releases
+-libva-utils: 2.17.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.5.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.14 
@@ -1028,7 +1028,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.1 to 22.3.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1091 to 1117 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1091 to 1122 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1108,7 +1108,7 @@ xap series:
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.10
+-pidgin: 2.14.10 to 2.14.11
 	-pidgin: 2.14.10 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
@@ -1196,7 +1196,7 @@ extra:
 --------------------
 testing :
 -rust: 1.66
--linux-6.1.x: 6.1.1
+-linux-6.1.x: 6.1.2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
