@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1091 to 1140 https://github.com/vim/vim/commits/master
+-vim: 9.0.1091 to 1141 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1091
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -632,7 +632,7 @@ l series:
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
 -libxml2: 2.9.14 to 2.10.3 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
--libxkbcommon: 1.4.1 https://github.com/xkbcommon/libxkbcommon/releases
+-libxkbcommon: 1.4.1 to 1.5.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.36 to 1.1.37 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.9.1 to 1.9.2 https://libzip.org/download/
 -lmdb: 0.9.29 https://github.com/LMDB/lmdb/tags
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1091 to 1140 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1091 to 1141 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1112,7 +1112,7 @@ xap series:
 	-pidgin: 2.14.12 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
--rxvt-unicode: 9.26 http://software.schmorp.de/pkg/rxvt-unicode.html
+-rxvt-unicode: 9.26 to 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.0.32
 	- sane-backend : 1.0.32 to 1.1.1 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
