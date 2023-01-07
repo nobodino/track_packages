@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.1.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.1.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1149 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1153 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -379,13 +379,13 @@ kde series :
 --------------------
 -kde: 5.26.5 (plasma) https://download.kde.org/stable/
 -kde: 5.101.0 (framework) https://download.kde.org/stable/
--kde: 22.12.0 (kde gear) https://download.kde.org/stable/
+-kde: 22.12.1 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.6 https://github.com/AcademySoftwareFoundation/Imath/releases
--LibRaw: 0.20.2 to 0.21.0 http://www.libraw.org/
+-LibRaw: 0.20.2 to 0.21.1 http://www.libraw.org/
 -Mako: 1.1.6 to 1.2.4 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.2 to 5.15.7 https://pypi.org/project/PyQt5
@@ -589,7 +589,7 @@ l series:
 -libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.2 https://github.com/rockdaboot/libpsl/releases
--libqalculate: 4.5.0 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 4.5.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.54.5 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -643,16 +643,16 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.12.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.86 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.86 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.87 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.87 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.15.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
--mpfr: 4.1.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
+-mpfr: 4.1.1 to 4.2.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.3 to 6.4 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.4 https://github.com/notroj/neon/tags
 -netpbm: 11.01.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 19.3.0 https://nodejs.org/
+-nodejs: 19.4.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.22.2 https://openal-soft.org/openal-releases
@@ -728,7 +728,7 @@ l series:
 -python-zipp: 3.8.0 to 3.11.0 https://pypi.org/project/zipp
 -qca: 2.3.5 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.7_20221116 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.7_20221116 to 5.15.8 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.3 https://github.com/stachenov/quazip/releases
@@ -931,7 +931,7 @@ n series:
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -tin: 2.6.1 to 2.6.2 http://www.tin.org/
--traceroute: 2.1.0 to 2.1.1 https://sourceforge.net/projects/traceroute/files/traceroute/
+-traceroute: 2.1.1 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
@@ -1100,10 +1100,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1149 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1153 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 108.0.1 to 108.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 108.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.6.1 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 http://pan.rebelbase.com/download/releases/
@@ -1141,7 +1141,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -elementary-xfce: 0.17.0
 -exo: 4.18.0
 -garcon: 4.18.0
--libxfce4ui: 4.18.0
+-libxfce4ui: 4.18.1
 -libxfce4util: 4.18.0
 -mousepad: 0.5.10
 -thunar: 4.18.1 https://gitlab.xfce.org/xfce/thunar
@@ -1156,11 +1156,11 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-power-manager: 4.18.0
 -xfce4-pulseaudio-plugin: 0.4.5
 -xfce4-screensaver: 0.1.11
--xfce4-screenshooter: 1.10.1
+-xfce4-screenshooter: 1.10.2
 -xfce4-session: 4.18.0
 -xfce4-settings: 4.18.1
--xfce4-systemload-plugin: 1.2.4
--xfce4-taskmanager: 1.4.2
+-xfce4-systemload-plugin: 1.3.2
+-xfce4-taskmanager: 1.5.5
 -xfce4-terminal: 1.0.4
 -xfce4-weather-plugin: 0.11.0
 -xfce4-whiskermenu-plugin: 2.6.2
@@ -1174,7 +1174,6 @@ y series:
 -nethack: 3.6.6 https://www.nethack.org
 --------------------
 extra:
--rust-for-mozilla: rust-1.64.0
 --------------------
 -aspell-word-list: 0.50.4
 -bash-completion: 2.11 https://github.com/scop/bash-completion/releases
@@ -1186,8 +1185,9 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.26 to 8.2.1
--php81: 8.1.13
+-php80: 8.0.27
+-php81: 8.1.14
+-rust-for-mozilla: rust-1.64.0
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
