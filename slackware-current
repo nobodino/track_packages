@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1153 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1157 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -777,7 +777,7 @@ l series:
 -xapian-core: 1.4.21 http://www.xapian.org/
 -xxHash: 0.8.1 https://github.com/Cyan4973/xxHash/releases
 -zlib: 1.2.13 https://zlib.net/
--zstd: 1.5.2 https://github.com/facebook/zstd/releases
+-zstd: 1.5.2 to 1.5.2.6 https://github.com/facebook/zstd/releases
 --------------------
 n series:
 --------------------
@@ -1100,7 +1100,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1153 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1157 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
