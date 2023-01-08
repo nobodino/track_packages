@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 5.19.17 to 6.1.1 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.4 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230104 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -125,7 +125,7 @@ A series :
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
 -tcsh: 6.24.07 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or https://git.savannah.gnu.org/cgit/time.git/log/
--tree: 2.0.4 to 2.1.0 http://mama.indstate.edu/users/ice/tree/
+-tree: 2.1.0 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 5.19.17 to 6.1.1 http://wwww.kernel.org
+-kernel-headers: 6.1.4 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 5.19.17 to 6.1.2
+-kernel : 6.1.4
 --------------------
 kde series :
 --------------------
@@ -494,10 +494,10 @@ l series:
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
--gvfs: 1.50.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.50.3 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 6.0.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
--hunspell: 1.7.1 to 1.7.2 https://github.com/hunspell/hunspell/releases
+-hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
@@ -571,7 +571,7 @@ l series:
 -libmng: 2.0.3 http://sourceforge.net/projects/libmng/files/libmng-devel/
 -libmpc: 1.3.1 http://www.multiprecision.org
 -libmtp: 1.1.20 http://libmtp.sourceforge.net/
--libnice: 0.1.19 https://libnice.freedesktop.org/#download
+-libnice: 0.1.21 https://libnice.freedesktop.org/#download
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 https://sourceforge.net/projects/libnjb/files/libnjb/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
@@ -930,7 +930,7 @@ n series:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
--tin: 2.6.1 to 2.6.2 http://www.tin.org/
+-tin: 2.6.2 http://www.tin.org/
 -traceroute: 2.1.1 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
@@ -1126,7 +1126,7 @@ xap series:
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.12 https://sourceforge.net/projects/xine/
--xine-ui: 0.99.13 https://sourceforge.net/projects/xine/
+-xine-ui: 0.99.13 to 0.9.14 https://sourceforge.net/projects/xine/
 -xlockmore: 5.71 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
@@ -1196,7 +1196,6 @@ extra:
 --------------------
 testing :
 -rust: 1.66
--linux-6.1.x: 6.1.3
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
