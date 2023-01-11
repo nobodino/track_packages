@@ -7,7 +7,7 @@ A series :
 -aaa_base: 15.0
 -aaa_glibc-solibs: 2.36
 -aaa_libraries: 15.0
--aaa_terminfo: 6.3
+-aaa_terminfo: 6.4
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
@@ -68,7 +68,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 6.1.4 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230104 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 202301 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -218,7 +218,7 @@ Ap series :
 -lxc: 4.0.12 to 5.0.1 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.11.1 http://www.nongnu.org/man-db/
+-man-db: 2.11.2 http://www.nongnu.org/man-db/
 -man-pages: 6.02 https://gitlab.com/man-db/man-db/-/tags
 -mariadb: 10.6.11 to 10.10.2 http://mariadb.org/
 -mc: 4.8.28 http://www.midnight-commander.org/downloads/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1157 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1174 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -344,7 +344,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.0 http://www.ruby-lang.org/
--rust: 1.65.0 to 1.66.0 https://rust-lang.org
+-rust: 1.65.0 to 1.66.1 https://rust-lang.org
 -rust-bindgen: 0.63.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.4.0 https://github.com/SCons/scons/releases
@@ -501,7 +501,6 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--id3lib: 3.8.3 http://id3lib.sourceforge.net/
 -imagemagick: 7.1.0_55 to 57 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
@@ -604,13 +603,13 @@ l series:
 -libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
 -libsoup3: 3.0.8 to 3.2.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
--libspectre: 0.2.11 https://www.freedesktop.org/wiki/Software/libspectre/
+-libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.4.0 to 4.5.0 https://download.osgeo.org/libtiff/
--libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/
+-libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
 -liburing: 2.3 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.26 https://github.com/libusb/libusb/releases
@@ -647,8 +646,8 @@ l series:
 	- nss: 3.87 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs78: 78.15.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
--mpfr: 4.1.1 to 4.2.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
--ncurses: 6.3 to 6.4 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
+-mpfr: 4.2.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
+-ncurses: 6.4 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.4 https://github.com/notroj/neon/tags
 -netpbm: 11.01.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
@@ -1064,7 +1063,7 @@ x series: (main packages)
 -xf86-video-r128: 20220127
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 377 http://invisible-island.net/xterm/
+-xterm: 378 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1100,9 +1099,9 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1157 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1174 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
--libnma: 1.10.4 https://download.gnome.org/sources/libnma/1.10/
+-libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.6.1 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
@@ -1132,7 +1131,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.06 http://www.jwz.org/xscreensaver/
+-xscreensaver: 6.06 http://www.jwz.org/xscreensaver/python*
 -xsnow: 3.6.0 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.18 https://gitlab.xfce.org/xfce/
@@ -1142,9 +1141,9 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -exo: 4.18.0
 -garcon: 4.18.0
 -libxfce4ui: 4.18.1
--libxfce4util: 4.18.0
+-libxfce4util: 4.18.1
 -mousepad: 0.5.10
--thunar: 4.18.1 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.18.2 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.0
 -xfce4-appfinder: 4.18.0
