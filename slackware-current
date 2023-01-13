@@ -28,7 +28,7 @@ A series :
 -dialog: 1.3_20221229 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
--ed: 1.18 http://ftp.gnu.org/pub/gnu/ed/
+-ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 to 20221005 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20220418 (nok) https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
@@ -67,8 +67,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.4 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 202301 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.5 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230110 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -142,7 +142,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 (to 6.1.0 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.4.0 http://tukaani.org/xz/
+-xz: 5.4.1 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1174 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1188 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -297,9 +297,9 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.4 http://wwww.kernel.org
+-kernel-headers: 6.1.5 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 14.0.6 to 15.0.6 http://llvm.org/
+-llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.2 https://www.mercurial-scm.org/release
@@ -311,7 +311,7 @@ d series:
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20221222 https://www.gnu.org/software/parallel/
--patchelf: 0.17.0 https://github.com/NixOS/patchelf/releases
+-patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
 -perl: 5.36.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.4
+-kernel : 6.1.5
 --------------------
 kde series :
 --------------------
@@ -670,7 +670,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.63 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.64 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: 0.120 to 0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -781,7 +781,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.40.8 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.40.10 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -826,7 +826,7 @@ n series:
 -inetd-OpenBSD: 1.79
 -iproute2: 6.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.17 http://ftp.netfilter.org/pub/ipset/
--iptables: 1.8.8 https://www.netfilter.org/projects/iptables/downloads.html
+-iptables: 1.8.9 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20221126 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
@@ -897,7 +897,7 @@ n series:
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1s to 3.0.7 http://ftp.openssl.org/source/
--openvpn: 2.5.8 (to 2.6.0rc1) http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.5.8 (to 2.6.0rc2) http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 7.4.33 http://www.php.net/distributions/
@@ -924,7 +924,7 @@ n series:
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.67 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.2 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.2 to 4.99.3 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1009,7 +1009,7 @@ x series: (main packages)
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
 -libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin/releases
 -libva: 2.17.0 https://github.com/intel/libva/releases
--libva-utils: 2.17.0 https://github.com/intel/libva-utils/releases
+-libva-utils: 2.17.1 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.5.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.14 
@@ -1027,7 +1027,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.3 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1099,7 +1099,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1174 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1188 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 108.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1125,7 +1125,7 @@ xap series:
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.12 https://sourceforge.net/projects/xine/
--xine-ui: 0.99.13 to 0.9.14 https://sourceforge.net/projects/xine/
+-xine-ui: 0.9.14 https://sourceforge.net/projects/xine/
 -xlockmore: 5.71 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
@@ -1150,7 +1150,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.2
 -xfce4-dev-tools: 4.18.0
 -xfce4-notifyd: 0.6.5
--xfce4-panel: 4.18.0
+-xfce4-panel: 4.18.1
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.0
 -xfce4-pulseaudio-plugin: 0.4.5
@@ -1194,7 +1194,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--rust: 1.66
+-rust: 1.66.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
