@@ -67,8 +67,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.6 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230110 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230117 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -171,7 +171,7 @@ Ap series :
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.26 to 1.27rc1 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
--diffutils: 3.8 http://ftp.gnu.org/pub/gnu/diffutils/
+-diffutils: 3.9 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
 -dmidecode: 3.4 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
@@ -213,9 +213,9 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
--lsof: 4.96.5 https://github.com/lsof-org/lsof/releases
+-lsof: 4.96.5 to 4.97.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 4.0.12 to 5.0.1 https://linuxcontainers.org/lxc/downloads/
+-lxc: 4.0.12 to 5.0.2 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 http://www.nongnu.org/man-db/
@@ -225,7 +225,7 @@ Ap series :
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
 -mpg123: 1.31.1 to 1.31.2 http://sourceforge.net/projects/mpg123/files/
--nano: 7.1 http://www.nano-editor.org/download.php
+-nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 to 2.2.1 https://github.com/linux-nvme/nvme-cli/releases
@@ -247,7 +247,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.40.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
--sudo: 1.9.12p1 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.12p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.1 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1199 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1221 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -265,16 +265,16 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.28 to 0.29.32 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.28 to 0.29.33 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2022.09.03 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.39 to 2.40 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.40 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.7 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.24.3 https://github.com/eqrion/cbindgen
 -ccache: 4.7.4 https://ccache.dev/download.html
--check: 0.15.2 https://github.com/libcheck/check/releases
+-check: 0.15.2 https://github.com/libcheck/check/release
 -clisp: 2.50_20220927 to 2.50_20221021 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
@@ -288,7 +288,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.39.0 http://git-scm.com/download
+-git: 2.39.1 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.8 http://ftp.gnu.org/pub/gnu/guile/
@@ -297,11 +297,11 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.6 http://wwww.kernel.org
+-kernel-headers: 6.1.7 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
--make: 4.4 http://ftp.gnu.org/pub/gnu/make/
+-make: 4.4 (to 4.4.090) http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.2 https://www.mercurial-scm.org/release
 -meson: 1.0.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
@@ -317,7 +317,7 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
-	- IO-Socket-SSL: 2.074 to 2.078 https://www.cpan.org/modules/by-module/IO/
+	- IO-Socket-SSL: 2.074 to 2.079 https://www.cpan.org/modules/by-module/IO/
 	- MIME-Base64: 3.16 https://www.cpan.org/modules/by-module/MIME/
 	- Module-Runtime: 0.016 https://www.cpan.org/modules/01modules.index.html
 	- Moo: 2.005004 
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.6
+-kernel : 6.1.7
 --------------------
 kde series :
 --------------------
@@ -787,7 +787,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.10 http://ftp.isc.org/isc/bind9/
+-bind: 9.18.10 http://ftp.isc.org/isc/bind9
 -bluez: 5.66 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -820,7 +820,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.54 http://www.apache.org/dist/httpd/
+-httpd: 2.4.55 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
@@ -988,7 +988,7 @@ x series: (main packages)
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.27 https://github.com/ibus/ibus/releases/
--ibus-libpinyin: 1.13.1 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.15.0 https://github.com/libpinyin/ibus-libpinyin/releases
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
@@ -1003,11 +1003,11 @@ x series: (main packages)
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.6.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.22.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.22.1 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
--libpinyin: 2.6.2 https://github.com/libpinyin/libpinyin/releases
+-libpinyin: 2.8.1 https://github.com/libpinyin/libpinyin/releases
 -libva: 2.17.0 https://github.com/intel/libva/releases
 -libva-utils: 2.17.1 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
@@ -1020,7 +1020,7 @@ x series: (main packages)
 -libXfont2: 2.0.6
 -libXft: 2.3.7
 -libXp: 1.0.6
--libXpm: 3.5.14
+-libXpm: 3.5.15
 -libXi: 1.8
 -libX11: 1.8.3
 -libXres: 1.2.1
@@ -1099,13 +1099,13 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1198 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1221 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 108.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 109.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.6.1 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
--pan: 0.149 http://pan.rebelbase.com/download/releases/
+-pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.12
 	-pidgin: 2.14.12 https://www.pidgin.im/download/source/
