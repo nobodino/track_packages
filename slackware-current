@@ -221,7 +221,7 @@ Ap series :
 -man-db: 2.11.2 http://www.nongnu.org/man-db/
 -man-pages: 6.02 https://gitlab.com/man-db/man-db/-/tags
 -mariadb: 10.6.11 to 10.10.2 http://mariadb.org/
--mc: 4.8.28 to 4.8.29 http://www.midnight-commander.org/downloads/
+-mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
 -mpg123: 1.31.1 to 1.31.2 http://sourceforge.net/projects/mpg123/files/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1222 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1224 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -278,7 +278,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20221021 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.25.1 to 3.25.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.25.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -434,7 +434,7 @@ l series:
 -dotconf: 1.3 https://github.com/williamh/dotconf/tags
 -dvdauthor: 0.7.2 https://github.com/ldo/dvdauthor/tags
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/
--editorconfig-core-c: 0.12.5 https://github.com/editorconfig/editorconfig-core-c/releases
+-editorconfig-core-c: 0.12.6 https://github.com/editorconfig/editorconfig-core-c/releases
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.188 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
@@ -466,7 +466,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.74.4 to 2.74.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
+-glib2: 2.74.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.64.5 to 2.74.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -488,7 +488,7 @@ l series:
 -gstreamer: 1.20.5 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.35 to 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.8.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
@@ -761,11 +761,11 @@ l series:
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.13 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
--talloc: 2.3.4 https://www.samba.org/ftp/talloc/
+-talloc: 2.4.0 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
--tdb: 1.4.8 https://www.samba.org/ftp/tdb/
--tevent: 0.13.0 https://www.samba.org/ftp/tevent/
+-tdb: 1.4.9 https://www.samba.org/ftp/tdb/
+-tevent: 0.14.0 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
@@ -1099,11 +1099,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1222 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1224 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.6.1 to 102.7.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.7.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1115,7 +1115,7 @@ xap series:
 -sane: 1.0.32
 	- sane-backend : 1.0.32 to 1.1.1 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
--seamonkey: 2.53.14 to 2.53.15 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.15 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.95.8 to 0.95.9 https://github.com/window-maker/wmaker/releases/
