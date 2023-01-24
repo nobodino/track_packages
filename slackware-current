@@ -169,7 +169,7 @@ Ap series :
 -cups-filters: 1.28.16 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.11.5 to 0.5.12 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
--ddrescue: 1.26 to 1.27rc1 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
+-ddrescue: 1.27 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.9 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
@@ -213,7 +213,7 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
--lsof: 4.96.5 to 4.97.0 https://github.com/lsof-org/lsof/releases
+-lsof: 4.98.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.2 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
@@ -250,12 +250,12 @@ Ap series :
 -sudo: 1.9.12p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.1 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
--texinfo: 7.0.1 http://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 7.0.1 to 7.0.2 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.3a https://tmux.github.io/
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1146 to 1224 https://github.com/vim/vim/commits/master
+-vim: 9.0.1146 to 1237 https://github.com/vim/vim/commits/master
 	- vim: 9.0.11146
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -310,14 +310,14 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20221222 https://www.gnu.org/software/parallel/
+-parallel: 20230122 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
 -perl: 5.36.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
-	- IO-Socket-SSL: 2.074 to 2.079 https://www.cpan.org/modules/by-module/IO/
+	- IO-Socket-SSL: 2.074 to 2.080 https://www.cpan.org/modules/by-module/IO/
 	- MIME-Base64: 3.16 https://www.cpan.org/modules/by-module/MIME/
 	- Module-Runtime: 0.016 https://www.cpan.org/modules/01modules.index.html
 	- Moo: 2.005004 
@@ -481,11 +481,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 43.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.20.5 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.20.5 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.20.5 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.20.5 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.20.5 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.22.0 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.22.0 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -501,7 +501,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.0_55 to 57 http://www.imagemagick.org/
+-imagemagick: 7.1.0_58 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -648,7 +648,7 @@ l series:
 -mozjs78: 78.15.0esr to 102.4.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
--neon: 0.32.4 https://github.com/notroj/neon/tags
+-neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.01.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 19.4.0 https://nodejs.org/
@@ -730,7 +730,7 @@ l series:
 -qt5: 5.15.8_20230110 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain/releases
--quazip: 1.3 https://github.com/stachenov/quazip/releases
+-quazip: 1.4 https://github.com/stachenov/quazip/releases
 -readline: 8.2.001 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.3 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
@@ -813,7 +813,7 @@ n series:
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
 -ethtool: 5.19 to 6.1 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.35 to 6.5.0beta8 https://www.fetchmail.info/
--getmail: 6.18.11 https://github.com/getmail6/getmail6/releases
+-getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.41 (LTS) to 2.4.0 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.8 http://www.gnu.org/software/gnutls/
@@ -904,7 +904,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.7.3 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.7.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -1011,7 +1011,7 @@ x series: (main packages)
 -libva: 2.17.0 https://github.com/intel/libva/releases
 -libva-utils: 2.17.1 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
--libwacom: 2.5.0 https://github.com/linuxwacom/libwacom/releases
+-libwacom: 2.6.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.14 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.15
@@ -1099,7 +1099,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1146 to 1224 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1146 to 1237 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1143,7 +1143,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -libxfce4ui: 4.18.1
 -libxfce4util: 4.18.1
 -mousepad: 0.5.10
--thunar: 4.18.2 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.18.3 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.0
 -xfce4-appfinder: 4.18.0
@@ -1164,7 +1164,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-weather-plugin: 0.11.0
 -xfce4-whiskermenu-plugin: 2.6.2
 -xfconf: 4.18.0
--xfdesktop: 4.18.0
+-xfdesktop: 4.18.1
 -xfwm4: 4.18.0
 --------------------
 y series:
