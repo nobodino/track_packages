@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1253 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1259 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -501,7 +501,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.0_58 http://www.imagemagick.org/
+-imagemagick: 7.1.0_58 to 59 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -982,7 +982,7 @@ x series: (main packages)
 -fcitx5-table-extra: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-unikey: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
--fontconfig: 2.13.92 to 2.14.1 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
+-fontconfig: 2.13.92 to 2.14.2 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
@@ -1099,7 +1099,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1253 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1256 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
