@@ -5,7 +5,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 A series :
 --------------------
 -aaa_base: 15.0
--aaa_glibc-solibs: 2.36
+-aaa_glibc-solibs: 2.36 to 2.36
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.4
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
@@ -67,8 +67,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.8 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230117 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.9 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230125 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1270 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1275 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.8 http://wwww.kernel.org
+-kernel-headers: 6.1.9 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -374,13 +374,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.8
+-kernel : 6.1.9
 --------------------
 kde series :
 --------------------
 -kde: 5.26.5 (plasma) https://download.kde.org/stable/
 -kde: 5.102.0 (framework) https://download.kde.org/stable/
--kde: 22.12.1 (kde gear) https://download.kde.org/stable/
+-kde: 22.12.1 to 22.12.2 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -405,8 +405,8 @@ l series:
 -alsa-lib: 1.2.8 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
--apr: 1.7.0 http://apr.apache.org/download.cgi
--apr-util: 1.6.1 http://apr.apache.org/download.cgi
+-apr: 1.7.1 http://apr.apache.org/download.cgi
+-apr-util: 1.6.3 http://apr.apache.org/download.cgi
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
@@ -469,7 +469,7 @@ l series:
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.74.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.64.5 to 2.74.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
--glibc: 2.36 http://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.36 to 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
@@ -554,7 +554,7 @@ l series:
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.50 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 https://gitlab.gnome.org/GNOME/libgtop/-/tags
--libhandy: 1.8.0
+-libhandy: 1.8.1
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
 -libical: 3.0.16 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
@@ -676,8 +676,8 @@ l series:
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.01.0 http://poppler.freedesktop.org/
--poppler-data: 0.4.11 http://poppler.freedesktop.org
+-poppler: 23.01.0 to 23.02.0 http://poppler.freedesktop.org/
+-poppler-data: 0.4.11 to 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.20.1 to 1.23.0 https://github.com/pygobject/pycairo/releases
@@ -897,7 +897,7 @@ n series:
 -openldap: 2.6.3 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
--openssh: 9.1p1  http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 9.1p1 to 9.2p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1s to 3.0.7 http://ftp.openssl.org/source/
 -openvpn: 2.6.0 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
@@ -1101,11 +1101,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1270 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1275 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.7.0 to 102.7.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.7.1 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
