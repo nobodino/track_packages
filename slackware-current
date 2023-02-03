@@ -5,7 +5,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 A series :
 --------------------
 -aaa_base: 15.0
--aaa_glibc-solibs: 2.36 to 2.36
+-aaa_glibc-solibs: 2.37
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.4
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
@@ -27,7 +27,7 @@ A series :
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20221229 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
--e2fsprogs: 1.46.5 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.46.5 to 1.46.6 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 to 20221005 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20220418 (nok) https://github.com/rhboot/efivar
@@ -278,7 +278,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20221021 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.25.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.25.2 (to 3.26.0rc1) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -380,7 +380,7 @@ kde series :
 --------------------
 -kde: 5.26.5 (plasma) https://download.kde.org/stable/
 -kde: 5.102.0 (framework) https://download.kde.org/stable/
--kde: 22.12.1 to 22.12.2 (kde gear) https://download.kde.org/stable/
+-kde: 22.12.2 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -405,7 +405,7 @@ l series:
 -alsa-lib: 1.2.8 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
--apr: 1.7.1 http://apr.apache.org/download.cgi
+-apr: 1.7.1 to 1.7.2 http://apr.apache.org/download.cgi
 -apr-util: 1.6.3 http://apr.apache.org/download.cgi
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8 http://ftp.gnu.org/gnu/aspell/
@@ -469,7 +469,7 @@ l series:
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.74.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.64.5 to 2.74.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
--glibc: 2.36 to 2.37 http://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.2.1 http://ftp.gnu.org/gnu/gmp/
@@ -653,7 +653,7 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.01.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 19.5.0 https://nodejs.org/
+-nodejs: 19.6.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.22.2 https://openal-soft.org/openal-releases
@@ -676,8 +676,8 @@ l series:
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.01.0 to 23.02.0 http://poppler.freedesktop.org/
--poppler-data: 0.4.11 to 0.4.12 http://poppler.freedesktop.org
+-poppler: 23.02.0 http://poppler.freedesktop.org/
+-poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.20.1 to 1.23.0 https://github.com/pygobject/pycairo/releases
@@ -775,7 +775,7 @@ l series:
 -vte: 0.70.2 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
--xapian-core: 1.4.21 http://www.xapian.org/
+-xapian-core: 1.4.22 http://www.xapian.org/
 -xxHash: 0.8.1 https://github.com/Cyan4973/xxHash/releases
 -zlib: 1.2.13 https://zlib.net/
 -zstd: 1.5.2 to 1.5.2.6 https://github.com/facebook/zstd/releases
@@ -897,7 +897,7 @@ n series:
 -openldap: 2.6.3 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
--openssh: 9.1p1 to 9.2p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 9.2p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 1.1.1s to 3.0.7 http://ftp.openssl.org/source/
 -openvpn: 2.6.0 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
@@ -919,7 +919,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.17.5 https://ftp.samba.org/pub/samba/
+-samba: 4.17.5 (to 4.18.0rc2) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
