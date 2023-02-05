@@ -183,7 +183,7 @@ Ap series :
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.20.6 to 3.22.10 (need libdaemon and avahi) http://hplipopensource.com
--htop: 3.2.1 https://github.com/htop-dev/htop/releases
+-htop: 3.2.1 to 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.24_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1277 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1280 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -453,7 +453,7 @@ l series:
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.13.0 https://github.com/libfuse/libfuse/releases
+-fuse3: 3.13.0 to 3.13.1 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 4.0.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
@@ -490,7 +490,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.8.3 to 4.9.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.6 to 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1277 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1280 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
