@@ -183,7 +183,7 @@ Ap series :
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.20.6 to 3.22.10 (need libdaemon and avahi) http://hplipopensource.com
--htop: 3.2.1 to 3.2.2 https://github.com/htop-dev/htop/releases
+-htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.24_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1280 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1285 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -453,7 +453,7 @@ l series:
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.12 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.13.0 to 3.13.1 https://github.com/libfuse/libfuse/releases
+-fuse3: 3.13.1 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
 -gcr: 3.40.0 to 4.0.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
@@ -502,7 +502,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.0_59 http://www.imagemagick.org/
+-imagemagick: 7.1.0_59 to 61 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -664,7 +664,7 @@ l series:
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.33 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.50.12 http://ftp.gnome.org/pub/GNOME/sources/pango/
--pangomm: 2.42.2 to 2.46.3/2.50.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
+-pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.42 https://github.com/PhilipHazel/pcre2/releases
@@ -767,7 +767,7 @@ l series:
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
 -tdb: 1.4.9 https://www.samba.org/ftp/tdb/
--tevent: 0.14.0 https://www.samba.org/ftp/tevent/
+-tevent: 0.14.1 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
@@ -808,7 +808,7 @@ n series:
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 9.4.1 http://roy.marples.name/downloads/dhcpcd
--dnsmasq: 2.88 https://thekelleys.org.uk/dnsmasq/
+-dnsmasq: 2.89 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.20 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
@@ -1024,7 +1024,7 @@ x series: (main packages)
 -libXp: 1.0.6
 -libXpm: 3.5.15
 -libXi: 1.8
--libX11: 1.8.3
+-libX11: 1.8.4
 -libXres: 1.2.1
 -libXt: 1.2.1
 -libxcvt: 0.1.2
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1280 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1285 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
