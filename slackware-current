@@ -228,7 +228,7 @@ Ap series :
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
--nvme-cli: 1.16 to 2.2.1 https://github.com/linux-nvme/nvme-cli/releases
+-nvme-cli: 1.16 to 2.3 https://github.com/linux-nvme/nvme-cli/releases
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 to 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
@@ -237,7 +237,7 @@ Ap series :
 -rpm: 4.16.1.3 to 4.18.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
--sc-im: 20210927 to 20221021 https://github.com/andmarti1424/sc-im
+-sc-im: 20210927 to 20230112 https://github.com/andmarti1424/sc-im
 -screen: 4.9.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
@@ -275,7 +275,7 @@ d series:
 -cbindgen: 0.24.3 https://github.com/eqrion/cbindgen
 -ccache: 4.7.4 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/release
--clisp: 2.50_20220927 to 2.50_20221021 https://gitlab.com/gnu-clisp/clisp
+-clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
 -cmake: 3.25.2 (to 3.26.0rc1) http://www.cmake.org/cmake/resources/software.html
@@ -306,7 +306,7 @@ d series:
 -meson: 1.0.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
--opencl-headers: 2021.04.29 to 2022.09.30 https://github.com/KhronosGroup/OpenCL-Headers/releases
+-opencl-headers: 2021.04.29 to 2023.02.06 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
@@ -339,8 +339,8 @@ d series:
 -poke: 3.0 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.16 to 3.10.9/3.11.1 (new API) https://www.python.org/downloads/
--python-pip: 22.2.2 to 22.3.1/23.0 https://pypi.python.org/pypi/pip
--python-setuptools: 65.1.1 to 65.6.3 https://pypi.python.org/pypi/setuptools
+-python-pip: 22.2.2 to 23.0 https://pypi.python.org/pypi/pip
+-python-setuptools: 65.1.1 to 67.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils/releases
@@ -562,7 +562,7 @@ l series:
 -libidn2: 2.3.4 http://ftp.gnu.org/gnu/libidn/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20211124 to 20221210 (nok) http://www.libimobiledevice.org/
--libimobiledevice-glue: 20211125 to 20220824 http://www.libimobiledevice.org/
+-libimobiledevice-glue: 20211125 to 20230109 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.15 http://sourceforge.net/projects/iodbc/files/iodbc/
 -libjpeg-turbo: 2.1.4 to 2.1.5 http://sourceforge.net/projects/libjpeg-turbo/files/
@@ -1061,7 +1061,7 @@ x series: (main packages)
 -xf86-video-intel: 20210115
 -xf86-video-mach64: 6.9.7
 -xf86-video-mga: 2.0.1
--xf86-video-nouveau: 20220125
+-xf86-video-nouveau: 20220125 to 20230201
 -xf86-video-r128: 20220127
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
