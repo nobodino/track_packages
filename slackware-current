@@ -96,7 +96,7 @@ A series :
 -ndctl: 74 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl-solibs: 1.1.1s to 3.0.7 https://github.com/openssl/openssl/tags
+-openssl-solibs: 1.1.1t to 3.0.8 https://github.com/openssl/openssl/tags
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -220,7 +220,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 http://www.nongnu.org/man-db/
 -man-pages: 6.02 https://gitlab.com/man-db/man-db/-/tags
--mariadb: 10.6.11 to 10.10.3 http://mariadb.org/
+-mariadb: 10.6.12 to 10.10.3 http://mariadb.org/
 -mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1290 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1291 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -338,7 +338,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 3.0 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.16 to 3.10.9/3.11.1 (new API) https://www.python.org/downloads/
+-python3: 3.9.16 to 3.10.9/3.11.2 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.0 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 67.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -392,10 +392,10 @@ l series:
 -PyQT5: 5.15.2 to 5.15.7 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.3 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20220226 https://github.com/wang-bin/QtAV
--SDL2: 2.26.2 to 2.26.3 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.26.3 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.6.2 https://www.libsdl.org/projects/SDL2_image/
--SDL2_mixer: 2.6.2 https://www.libsdl.org/projects/SDL2_mixer/
+-SDL2_image: 2.6.3 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_mixer: 2.6.3 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.2.0 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.20.1 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.7.4 http://liba52.sourceforge.net/
@@ -924,7 +924,7 @@ n series:
 -snownews: 1.9 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
--stunnel: 5.67 https://www.stunnel.org/downloads.html
+-stunnel: 5.67 to 5.68 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.3 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1051,8 +1051,8 @@ x series: (main packages)
 -xinit: 1.4.2
 -xkeyboard-config: 2.37
 -xorgproto: 2022.2
--xorg-server: 21.1.6 to 21.1.7 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.7
+-xorg-server: 21.1.7 http://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 21.1.8
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.1.0
 -xf86-video-amdgpu: 22.0.0
@@ -1101,11 +1101,11 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1290 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1291 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.7.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.7.1 to 102.7.2 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
