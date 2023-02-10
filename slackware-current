@@ -25,7 +25,7 @@ A series :
 -dbus: 1.14.6 to 1.15.4 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20221229 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20221229 to 20230209 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
@@ -778,12 +778,12 @@ l series:
 -xapian-core: 1.4.22 http://www.xapian.org/
 -xxHash: 0.8.1 https://github.com/Cyan4973/xxHash/releases
 -zlib: 1.2.13 https://zlib.net/
--zstd: 1.5.2 to 1.5.2.6 https://github.com/facebook/zstd/releases
+-zstd: 1.5.2 to 1.5.4 https://github.com/facebook/zstd/releases
 --------------------
 n series:
 --------------------
 -ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.40.12 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.40.12 to 1.42.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
