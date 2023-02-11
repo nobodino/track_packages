@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1298 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1301 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -818,7 +818,7 @@ n series:
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.41 (LTS) to 2.4.0 https://www.gnupg.org/download/index.html
--gnutls: 3.7.9 http://www.gnu.org/software/gnutls/
+-gnutls: 3.7.9 to 3.8.0 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1097,11 +1097,11 @@ xap series:
 	- eboard: 1.1.1 to 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.4.5 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.4.5 to 5.4.6 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1298 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1301 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
