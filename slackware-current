@@ -21,11 +21,11 @@ A series :
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.8 https://github.com/cracklib/cracklib
--cryptsetup: 2.6.0 to 2.6.1 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.14.6 to 1.15.4 http://dbus.freedesktop.org/releases/dbus/
+-cryptsetup: 2.6.1 https://gitlab.com/cryptsetup/cryptsetup
+-dbus: 1.14.6 (to 1.15.4 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20221229 to 20230209 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20230209 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
@@ -644,8 +644,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.12.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.87 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.87 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.87.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.87.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.4.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -783,7 +783,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.40.12 to 1.42.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.42.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -818,7 +818,7 @@ n series:
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.2.41 (LTS) to 2.4.0 https://www.gnupg.org/download/index.html
--gnutls: 3.7.8 http://www.gnu.org/software/gnutls/
+-gnutls: 3.7.9 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1144,7 +1144,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -garcon: 4.18.0
 -libxfce4ui: 4.18.2
 -libxfce4util: 4.18.
--mousepad: 0.5.10
+-mousepad: 0.6.0
 -thunar: 4.18.3 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.0
@@ -1154,11 +1154,11 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-notifyd: 0.6.5
 -xfce4-panel: 4.18.2
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
--xfce4-power-manager: 4.18.0
+-xfce4-power-manager: 4.18.1
 -xfce4-pulseaudio-plugin: 0.4.5
 -xfce4-screensaver: 0.1.11
 -xfce4-screenshooter: 1.10.3
--xfce4-session: 4.18.0
+-xfce4-session: 4.18.1
 -xfce4-settings: 4.18.1
 -xfce4-systemload-plugin: 1.3.2
 -xfce4-taskmanager: 1.5.5
