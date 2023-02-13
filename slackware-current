@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1306 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1307 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -490,7 +490,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.36 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.3 to 4.9.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.8.3 to 4.9.4 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1306 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1307 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
