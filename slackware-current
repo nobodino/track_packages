@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1241 to 1307 https://github.com/vim/vim/commits/master
+-vim: 9.0.1241 to 1308 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1241
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -378,7 +378,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.26.5 (plasma) https://download.kde.org/stable/
+-kde: 5.26.5 to 5.27.0 (plasma) https://download.kde.org/stable/
 -kde: 5.103.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.2 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -1101,10 +1101,10 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1241 to 1307 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1241 to 1308 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 109.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 109.0.1 to 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.7.2 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
