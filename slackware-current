@@ -141,7 +141,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 5.13.0 (to 6.1.1 needs liburcu, userspace-rcu-0.13.1) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.13.0 (to 6.1.1 needs liburcu, userspace-rcu-0.14.00) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.4.1 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -247,7 +247,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.40.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
--sudo: 1.9.13 to 1.9.13p1 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.13p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.2 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.2 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -255,8 +255,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1314 to 1334 https://github.com/vim/vim/commits/master
-	- vim: 9.0.1314
+-vim: 9.0.1333 to 13xx https://github.com/vim/vim/commits/master
+	- vim: 9.0.1333
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -286,7 +286,7 @@ d series:
 -doxygen: 1.9.5 to 1.9.6 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
--gdb: 12.1 http://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 13.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.39.2 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
@@ -439,7 +439,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.188 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.3.3 https://github.com/AbiWord/enchant/releases
+-enchant: 2.3.4 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.27.6 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
@@ -496,7 +496,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.3 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 6.0.0 to 7.0.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 7.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -577,7 +577,7 @@ l series:
 -libnjb: 2.2.7 https://sourceforge.net/projects/libnjb/files/libnjb/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
 -libnl3: 3.7.0 https://github.com/thom311/libnl
--libnotify: 0.8.1 https://download.gnome.org/sources/libnotify/0.8/
+-libnotify: 0.8.2 https://download.gnome.org/sources/libnotify/0.8/
 -libnsl: 1.3.0 to 2.0.0 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.1 https://github.com/thkukuk/libnss_nis/releases
 -libodfgen: 0.1.8 https://sourceforge.net/projects/libwpd/files/libodfgen/
@@ -663,7 +663,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.33 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.50.12 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.50.13 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
@@ -802,7 +802,7 @@ n series:
 -crda: 4.14 to 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.08.12 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 7.88.0 http://curl.haxx.se/download/
+-curl: 7.88.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -817,7 +817,7 @@ n series:
 -fetchmail: 6.4.36 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.2.41 (LTS) to 2.4.0 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.0 https://www.gnupg.org/download/index.html
 -gnutls: 3.7.9 to 3.8.0 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
@@ -826,7 +826,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.2.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.17 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -932,7 +932,7 @@ n series:
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -tin: 2.6.2 http://www.tin.org/
--traceroute: 2.1.1 to 2.1.2 https://sourceforge.net/projects/traceroute/files/traceroute/
+-traceroute: 2.1.2 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.4.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1314 to 1334 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1333 to 13xx https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1174,7 +1174,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 y series:
 --------------------
 -bsd-games: 2.17 http://metalab.unc.edu/pub/Linux/games/
--nethack: 3.6.6 https://www.nethack.org
+-nethack: 3.6.7 https://www.nethack.org
 --------------------
 extra:
 --------------------
