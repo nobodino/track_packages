@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1337 to 1341 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1337 to 1346 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1337
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -310,7 +310,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20230122 https://www.gnu.org/software/parallel/
+-parallel: 20230122 to 20230222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
 -perl: 5.36.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
@@ -783,7 +783,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.42.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.42.0 to 1.42.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -1029,7 +1029,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.5 to 23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.5 to 22.3.6/23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.4.0 to 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1337 to 1341 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1337 to 1346 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
