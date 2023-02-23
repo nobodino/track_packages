@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.13 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230215 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.12 http://wwww.kernel.org
+-kernel-headers: 6.1.13 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -374,11 +374,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.12
+-kernel : 6.1.13
 --------------------
 kde series :
 --------------------
--kde: 5.27.0 (plasma) https://download.kde.org/stable/
+-kde: 5.27.1 (plasma) https://download.kde.org/stable/
 -kde: 5.103.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.2 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -1029,7 +1029,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.5 to 23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
