@@ -245,7 +245,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.40.1 to 3.41.0 http://www.sqlite.org/download.html
+-sqlite: 3.41.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.13p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.2 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1337 to 1346 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1337 to 1349 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1337
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -303,14 +303,14 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4 (to 4.4.090) http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.2 https://www.mercurial-scm.org/release
--meson: 1.0.0 https://github.com/mesonbuild/meson/releases
+-meson: 1.0.0 to 1.0.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2023.02.06 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.24 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20230122 to 20230222 https://www.gnu.org/software/parallel/
+-parallel: 20230222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
 -perl: 5.36.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
@@ -467,7 +467,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.74.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
+-glib2: 2.74.6 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.66.5 to 2.74.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -653,7 +653,7 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.01.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 19.6.1 https://nodejs.org/
+-nodejs: 19.7.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.0 https://openal-soft.org/openal-releases
@@ -770,7 +770,7 @@ l series:
 -tevent: 0.14.1 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
--v4l-utils: 1.22.1 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.24.0 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 to 20220530 https://github.com/georgmartius/vid.stab.git
 -vte: 0.70.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
@@ -783,7 +783,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.42.0 to 1.42.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.42.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -1029,7 +1029,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.5 to 22.3.6/23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.6 to 23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1055,7 +1055,7 @@ x series: (main packages)
 -xorg-server-xwayland: 21.1.8
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.1.0
--xf86-video-amdgpu: 22.0.0
+-xf86-video-amdgpu: 23.0.0
 -xf86-video-ati: 20220730
 -xf86-video-dummy: 0.4.0
 -xf86-video-intel: 20210115
@@ -1090,7 +1090,7 @@ xap series:
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.0.1 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
--gimp: 2.10.32 to 2.10.34 (2.99.14) http://download.gimp.org/pub/gimp/
+-gimp: 2.10.34 (beta: 2.99.14) http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 http://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
 	- gkrellm-countdown: 0.1.2
@@ -1100,10 +1100,10 @@ xap series:
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.6 http://sourceforge.net/projects/gnuplot/files/gnuplot/
--gparted: 1.4.0 to 1.5.0 https://gparted.org/
+-gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1337 to 1346 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1337 to 1349 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
