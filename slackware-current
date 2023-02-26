@@ -67,7 +67,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.13 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.14 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230215 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1337 to 1352 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1337 to 1355 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1337
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.13 http://wwww.kernel.org
+-kernel-headers: 6.1.14 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -374,7 +374,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.13
+-kernel : 6.1.14
 --------------------
 kde series :
 --------------------
@@ -770,7 +770,7 @@ l series:
 -tevent: 0.14.1 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
--v4l-utils: 1.24.0 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 to 20220530 https://github.com/georgmartius/vid.stab.git
 -vte: 0.70.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
@@ -1058,7 +1058,7 @@ x series: (main packages)
 -xf86-video-amdgpu: 23.0.0
 -xf86-video-ati: 20220730
 -xf86-video-dummy: 0.4.0
--xf86-video-intel: 20210115
+-xf86-video-intel: 20210115 to 20230223
 -xf86-video-mach64: 6.9.7
 -xf86-video-mga: 2.0.1
 -xf86-video-nouveau: 20220125 to 20230201
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1337 to 1352 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1337 to 1355 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1147,7 +1147,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -libxfce4ui: 4.18.2
 -libxfce4util: 4.18.
 -mousepad: 0.6.0
--thunar: 4.18.3 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.18.3 to 4.18.4 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.0
 -xfce4-appfinder: 4.18.0
