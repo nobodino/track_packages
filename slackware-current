@@ -232,7 +232,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 to 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 11.2.0 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 11.3.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rpm: 4.16.1.3 to 4.18.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1337 to 1355 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1337 to 1357 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1337
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -301,7 +301,7 @@ d series:
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
--make: 4.4 (to 4.4.090) http://ftp.gnu.org/pub/gnu/make/
+-make: 4.4 to 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.2 https://www.mercurial-scm.org/release
 -meson: 1.0.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
@@ -350,7 +350,7 @@ d series:
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.4.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.1 https://github.com/strace/strace/releases
+-strace: 6.1 to 6.2 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.4 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -415,7 +415,7 @@ l series:
 -atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.3 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
--babl: 0.1.10 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.102 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.81.0 https://github.com/boostorg/boost
 -brotli: 1.0.9 https://github.com/google/brotli/releases
 -cairo: 1.16.0 http://cairographics.org/releases/
@@ -814,7 +814,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
 -ethtool: 5.19 to 6.2 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.36 (to 6.5.0beta9) https://www.fetchmail.info/
+-fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.0 https://www.gnupg.org/download/index.html
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1337 to 1355 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1337 to 1357 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
