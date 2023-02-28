@@ -247,7 +247,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.41.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.5.1 http://squashfs.sourceforge.net/
--sudo: 1.9.13p1 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.13p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.2 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.2 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1337 to 1357 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1337 to 1363 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1337
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -301,7 +301,7 @@ d series:
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
--make: 4.4 to 4.4.1 http://ftp.gnu.org/pub/gnu/make/
+-make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.3.2 https://www.mercurial-scm.org/release
 -meson: 1.0.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
@@ -350,7 +350,7 @@ d series:
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.4.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.1 to 6.2 https://github.com/strace/strace/releases
+-strace: 6.2 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.4 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -444,7 +444,7 @@ l series:
 -exiv2: 0.27.6 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 5.1.2 https://ffmpeg.org/
+-ffmpeg: 5.1.2 to 6.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.1 http://www.fluidsynth.org/
 -fmt: 9.1.0 https://github.com/fmtlib/fmt/releases/
@@ -1103,10 +1103,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1337 to 1357 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1337 to 1363 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 110.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 110.0 to 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.8.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
