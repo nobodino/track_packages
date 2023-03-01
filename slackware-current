@@ -255,8 +255,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1337 to 1365 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
-	- vim: 9.0.1337
+-vim: 9.0.1362 to 1365 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -378,7 +378,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.27.1  to 5.27.2 (plasma) https://download.kde.org/stable/
+-kde: 5.27.2 (plasma) https://download.kde.org/stable/
 -kde: 5.103.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.2 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -504,7 +504,7 @@ l series:
 -icu4c: 72.1 https://icu.unicode.org/
 -imagemagick: 7.1.0_62 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
--iso-codes: 4.12.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
+-iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
 -jasper: 4.0.0 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
@@ -1103,10 +1103,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1337 to 1365 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1365 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 110.0 to 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.8.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
