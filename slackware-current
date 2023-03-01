@@ -1039,7 +1039,7 @@ x series: (main packages)
 -pixman: 0.42.2 http://cairographics.org/releases/
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.204.0 to 1.3.236.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.204.0 to 1.3.242.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.21.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.31 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
