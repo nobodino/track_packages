@@ -15,7 +15,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.2 to 6.2.1 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.1 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
@@ -67,8 +67,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.14 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230215 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.15 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230227 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -167,7 +167,7 @@ Ap series :
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
 -cups-filters: 1.28.17 https://www.openprinting.org/download/cups-filters/
--dash: 0.5.11.5 to 0.5.12 http://gondor.apana.org.au/~herbert/dash
+-dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash
 -dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.27 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1362 to 1373 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1362 to 1376 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.14 http://wwww.kernel.org
+-kernel-headers: 6.1.15 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -374,7 +374,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.14
+-kernel : 6.1.15
 --------------------
 kde series :
 --------------------
@@ -437,7 +437,7 @@ l series:
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/
 -editorconfig-core-c: 0.12.6 https://github.com/editorconfig/editorconfig-core-c/releases
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
--elfutils: 0.188 http://sourceware.org/pub/elfutils/
+-elfutils: 0.189 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
 -enchant: 2.3.4 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
@@ -489,14 +489,14 @@ l series:
 -gstreamer: 1.22.0 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.36 to 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.3 to 4.9.4 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk+3: 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk4: 4.8.3 (to 4.9.4) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.3 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 7.0.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 7.1.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -517,7 +517,7 @@ l series:
 -keyutils: 1.6.3 https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/
 -lame: 3.100 https://sourceforge.net/projects/lame/files/lame/3.100/
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
--lcms2: 2.14 http://sourceforge.net/projects/lcms/files/lcms/
+-lcms2: 2.15 http://sourceforge.net/projects/lcms/files/lcms/
 -lensfun: 0.3.3 https://github.com/lensfun/lensfun/releases
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
@@ -538,7 +538,7 @@ l series:
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
--libdiscid: 0.6.3 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
+-libdiscid: 0.6.4 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
 -libdvdread: 6.1.3 http://download.videolan.org/videolan/libdvdread/
@@ -663,7 +663,7 @@ l series:
 -opus: 1.3.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.33 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.50.13 to 1.50.14 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.50.14 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.5 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
@@ -841,7 +841,7 @@ n series:
 -libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.46 https://www.gnupg.org/download/index.html
 -libksba: 1.6.3 https://www.gnupg.org/download/index.html
--libmbim: 1.28.2 to 1.29.2 (beta:new API) https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
+-libmbim: 1.28.4 to 1.29.2 (beta:new API) https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.17.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
@@ -853,7 +853,7 @@ n series:
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
 -libnftnl: 1.2.4 http://ftp.netfilter.org/pub/libnftnl/
--libqmi: 1.32.2 to 1.33.2 (beta:new API) https://github.com/freedesktop/libqmi/tags
+-libqmi: 1.32.4 to 1.33.2 (beta:new API) https://github.com/freedesktop/libqmi/tags
 -libtirpc: 1.3.3 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.28 http://links.twibright.com/download.php
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1362 to 1373 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1376 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
