@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1362 to 1385 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1362 to 1391 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -348,7 +348,7 @@ d series:
 -rust: 1.66.1 to 1.67.1 https://rust-lang.org
 -rust-bindgen: 0.64.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
--scons: 4.5.0 https://github.com/SCons/scons/releases
+-scons: 4.5.0 to 4.5.1 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.2 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
@@ -392,7 +392,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.7 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.13.3 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20220226 https://github.com/wang-bin/QtAV
--SDL2: 2.26.3 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.26.3 to 2.26.4 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.3 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.3 https://www.libsdl.org/projects/SDL2_mixer/
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1362 to 1385 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1391 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1124,7 +1124,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.95.8 to 0.95.9 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.0ga14 to 4.2ga7 http://x3270.bgp.nu/download.html
+-x3270: 4.0ga14 to 4.2ga9 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 https://github.com/xaos-project/XaoS/releases
 -xeyes: 1.2.0
 -xgames: 0.2
