@@ -96,7 +96,8 @@ A series :
 -ndctl: 74 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl-solibs: 1.1.1t to 3.0.8 https://github.com/openssl/openssl/tags
+-openssl11-solibs: 1.1.1t https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.0.8 https://github.com/openssl/openssl/tags
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -149,7 +150,7 @@ A series :
 Ap series :
 --------------------
 -a2ps:
-	- a2ps: 4.14 http://ftp.gnu.org/gnu/a2ps/
+	- a2ps: 4.14 to 4.15 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 2.08 http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
 -alsa-utils: 1.2.8 https://www.alsa-project.org/files/files/pub/utils/
@@ -255,7 +256,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1362 to 1391 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1362 to 1395 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -278,7 +279,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.25.2 (to 3.26.0rc5) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.25.2 to 3.25.3 (to 3.26.0rc6) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -288,7 +289,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.39.2 to 2.40.0rc1 http://git-scm.com/download
+-git: 2.39.2 (to 2.40.0rc2) http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -455,7 +456,7 @@ l series:
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.14.0 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
--gcr: 3.40.0 to 4.0.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.40.0 (to gcr4-4.1.0) http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
@@ -502,7 +503,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.0_62 http://www.imagemagick.org/
+-imagemagick: 7.1.0_62 to 7.1.1_0 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -642,7 +643,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
--mlt: 7.12.0 https://github.com/mltframework/mlt/releases
+-mlt: 7.12.0 to 7.14.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.88.1 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.88.1 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -729,7 +730,7 @@ l series:
 -python-zipp: 3.8.0 to 3.11.0 https://pypi.org/project/zipp
 -qca: 2.3.5 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.8_20230110 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.8_20230304 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -822,7 +823,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.18.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.55 http://www.apache.org/dist/httpd/
+-httpd: 2.4.56 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
@@ -898,11 +899,12 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.2p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 1.1.1s to 3.0.7 http://ftp.openssl.org/source/
--openvpn: 2.6.0 http://www.openvpn.net/index.php/open-source/downloads.html
+-openssl11: 1.1.1t http://ftp.openssl.org/source/
+-openssl: 3.0.8 http://ftp.openssl.org/source/
+-openvpn: 2.6.0 to 2.6.1 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 7.4.33 http://www.php.net/distributions/
+-php: 8.2.3 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -919,7 +921,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.17.5 (to 4.18.0rc3) https://ftp.samba.org/pub/samba/
+-samba: 4.18.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1103,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1362 to 1391 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1395 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1188,8 +1190,6 @@ extra:
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
--php80: 8.0.28
--php81: 8.1.16
 -rust-for-mozilla: rust-1.64.0
 -sendmail: 8.17.1
 -tigervnc: 1.12.0 to 1.13.1 https://github.com/TigerVNC/tigervnc/releases
@@ -1199,7 +1199,6 @@ extra:
 --------------------
 testing :
 -rust: 1.67.1
--samba: 4.17.5 (HEIMDAL)
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
