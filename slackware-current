@@ -169,7 +169,7 @@ Ap series :
 	- cups-windows: 6.0
 -cups-filters: 1.28.17 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash
--dc3dd: 7.2.646 http://sourceforge.net/projects/dc3dd/
+-dc3dd: 7.3.0 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.27 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.9 http://ftp.gnu.org/pub/gnu/diffutils/
@@ -221,7 +221,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 http://www.nongnu.org/man-db/
 -man-pages: 6.03 https://gitlab.com/man-db/man-db/-/tags
--mariadb: 10.6.12 to 10.11.2 http://mariadb.org/
+-mariadb: 10.11.2 http://mariadb.org/
 -mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -256,7 +256,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1362 to 1395 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1362 to 1396 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -279,7 +279,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.25.2 to 3.25.3 (to 3.26.0rc6) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.25.3 (to 3.26.0rc6) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -346,7 +346,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.1 http://www.ruby-lang.org/
--rust: 1.66.1 to 1.67.1 https://rust-lang.org
+-rust: 1.66.1 to 1.68.0 https://rust-lang.org
 -rust-bindgen: 0.64.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.0 to 4.5.1 https://github.com/SCons/scons/releases
@@ -503,7 +503,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.0_62 to 7.1.1_0 http://www.imagemagick.org/
+-imagemagick: 7.1.1_1 to 2 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -673,7 +673,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.66 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.67 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -783,8 +783,8 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.18.12 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.42.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
+-NetworkManager: 1.42.4 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -901,7 +901,7 @@ n series:
 -openssh: 9.2p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1t http://ftp.openssl.org/source/
 -openssl: 3.0.8 http://ftp.openssl.org/source/
--openvpn: 2.6.0 to 2.6.1 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.1 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.3 http://www.php.net/distributions/
@@ -992,7 +992,7 @@ x series: (main packages)
 -glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.28 https://github.com/ibus/ibus/releases/
--ibus-libpinyin: 1.15.1 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.15.2 https://github.com/libpinyin/ibus-libpinyin/releases
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
@@ -1031,7 +1031,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 22.3.6 to 23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 22.3.7 to 23.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1105,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1362 to 1395 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1396 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
