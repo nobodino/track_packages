@@ -150,7 +150,7 @@ A series :
 Ap series :
 --------------------
 -a2ps:
-	- a2ps: 4.14 to 4.15 http://ftp.gnu.org/gnu/a2ps/
+	- a2ps: 4.14 to 4.15.1 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 2.08 http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
 -alsa-utils: 1.2.8 https://www.alsa-project.org/files/files/pub/utils/
@@ -256,7 +256,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1362 to 1402 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1362 to 1403 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -1105,10 +1105,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1362 to 1402 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1403 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 110.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 110.0.1 to 111.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.8.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
