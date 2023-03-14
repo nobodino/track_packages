@@ -67,8 +67,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230310 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.20 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230313 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -82,7 +82,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.19 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 https://download.savannah.nongnu.org/releases/lzip/lzlib/
--mcelog: 191 https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/log/
+-mcelog: 192 https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/log/
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
@@ -274,7 +274,7 @@ d series:
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.7 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.24.3 https://github.com/eqrion/cbindgen
--ccache: 4.7.4 https://ccache.dev/download.html
+-ccache: 4.8 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/release
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -289,7 +289,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.39.2 (to 2.40.0rc2) http://git-scm.com/download
+-git: 2.39.2 to 2.40.0 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -298,7 +298,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.16 http://wwww.kernel.org
+-kernel-headers: 6.1.19 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -346,7 +346,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.1 http://www.ruby-lang.org/
--rust: 1.66.1 to 1.68.0 https://rust-lang.org
+-rust: 1.67.1 https://rust-lang.org
 -rust-bindgen: 0.64.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.0 to 4.5.1 https://github.com/SCons/scons/releases
@@ -375,7 +375,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.16
+-kernel : 6.1.19
 --------------------
 kde series :
 --------------------
@@ -469,7 +469,7 @@ l series:
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.74.6 to 2.76.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
--glibmm: 2.66.5 to 2.74.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
+-glibmm: 2.66.5 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
@@ -503,7 +503,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.1_2 to 3 http://www.imagemagick.org/
+-imagemagick: 7.1.1_3 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -1198,7 +1198,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
--rust: 1.67.1
+-rust: 1.68.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
