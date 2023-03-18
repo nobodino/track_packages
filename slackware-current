@@ -972,7 +972,7 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.0.22 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.0.22 to 5.0.23 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.14 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.0.17 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.0.22 https://fcitx-im.org/wiki/Fcitx_5
