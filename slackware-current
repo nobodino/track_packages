@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1362 to 1411 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1362 to 1413 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1362
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.12 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.19 http://wwww.kernel.org
+-kernel-headers: 6.1.20 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 14.0.6 to 15.0.7 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.19
+-kernel : 6.1.20
 --------------------
 kde series :
 --------------------
@@ -465,7 +465,7 @@ l series:
 -gjs: 1.74.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.74.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.74.0 to 2.76.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.74.6 to 2.76.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.66.5 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
@@ -475,7 +475,7 @@ l series:
 -gnome-keyring: 42.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.15 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.74.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.74.0 to 1.76.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
@@ -492,9 +492,9 @@ l series:
 -gtk4: 4.8.3 to 4.10.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
--gtksourceview3: 3.24.11 (to 4.8.4/5.6.1) https://projects.gnome.org/gtksourceview/3.24/ 
+-gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
--gvfs: 1.50.3 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.50.3 to 1.50.4 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 7.1.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -592,7 +592,7 @@ l series:
 -libqalculate: 4.6.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.54.5 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.54.5 to 2.56.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.10.8 to 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -603,7 +603,7 @@ l series:
 -libsndfile: 1.2.0 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.0.8 to 3.2.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.0.8 to 3.4.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 https://github.com/libssh2/libssh2/releases
@@ -1014,7 +1014,7 @@ x series: (main packages)
 -libva-utils: 2.17.1 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.6.0 https://github.com/linuxwacom/libwacom/releases
--libXaw: 1.0.14 
+-libXaw: 1.0.15 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.15
 -libXcm: 0.5.4
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1362 to 1411 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1362 to 1413 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 111.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
