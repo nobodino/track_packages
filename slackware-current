@@ -141,7 +141,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 5.13.0 (to 6.1.1 needs liburcu, userspace-rcu-0.14.00) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.4.1 http://tukaani.org/xz/
+-xz: 5.4.1 to 5.4.2 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -467,7 +467,7 @@ l series:
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.74.0 to 2.76.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.74.6 to 2.76.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
--glibmm: 2.66.5 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
+-glibmm: 2.66.6 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
@@ -501,7 +501,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.1_3 http://www.imagemagick.org/
+-imagemagick: 7.1.1_3 to 4 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -972,7 +972,7 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.0.22 to 5.0.23 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.0.23 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.14 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.0.17 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.0.22 https://fcitx-im.org/wiki/Fcitx_5
