@@ -44,9 +44,9 @@ A series :
 -gawk: 5.2.1 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2022g
-	-tzcode: 2002g https://www.iana.org/time-zones
-	-tzdata: 2022g https://www.iana.org/time-zones
+-glibc-zoneinfo: 2023b
+	-tzcode: 2003b https://www.iana.org/time-zones
+	-tzdata: 2023b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.10 http://ftp.gnu.org/pub/gnu/grep
@@ -72,7 +72,7 @@ A series :
 -less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
--libbytesize: 2.7 https://github.com/rhinstaller/libbytesize
+-libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
@@ -244,7 +244,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.24.1 to 3.24.2 http://www.sqlite.org/download.html
+-sqlite: 3.24.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6 http://squashfs.sourceforge.net/
 -sudo: 1.9.13p3 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.2 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -301,7 +301,7 @@ d series:
 -llvm: 14.0.6 to 16.0.0 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.3.3 https://www.mercurial-scm.org/release
+-mercurial: 6.4 https://www.mercurial-scm.org/release
 -meson: 1.0.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
@@ -899,7 +899,7 @@ n series:
 -openssh: 9.3p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1t http://ftp.openssl.org/source/
 -openssl: 3.1.0 http://ftp.openssl.org/source/
--openvpn: 2.6.1 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.2 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.4 http://www.php.net/distributions/
@@ -1052,7 +1052,7 @@ x series: (main packages)
 -xkeyboard-config: 2.38
 -xorgproto: 2022.2
 -xorg-server: 21.1.7 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 21.1.8
+-xorg-server-xwayland: 23.1.0
 -xf86-input-libinput: 1.2.1
 -xf86-input-wacom: 1.1.0
 -xf86-video-amdgpu: 23.0.0
