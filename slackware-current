@@ -140,7 +140,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 5.13.0 (to 6.1.1 needs liburcu, userspace-rcu-0.14.00) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.13.0 (to 6.2.0 needs liburcu, userspace-rcu-0.14.00) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.4.2 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1418 to 1425 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1418 to 1428 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -860,7 +860,7 @@ n series:
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20221107 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
--mutt: 2.2.9 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.9 to 2.2.10 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.3 https://sourceforge.net/projects/net-snmp/files/net-snmp/
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1418 to 1425 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1418 to 1428 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 111.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
