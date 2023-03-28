@@ -148,7 +148,7 @@ A series :
 Ap series :
 --------------------
 -a2ps:
-	- a2ps: 4.14 to 4.15.2 http://ftp.gnu.org/gnu/a2ps/
+	- a2ps: 4.14 to 4.15.3 http://ftp.gnu.org/gnu/a2ps/
 	- psutils: 1.17 to 2.08 http://pkgs.fedoraproject.org/repo/pkgs/psutils/
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
 -alsa-utils: 1.2.8 https://www.alsa-project.org/files/files/pub/utils/
@@ -177,7 +177,7 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.4.2 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 9.56.1 to 10.01.0 https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 9.56.1 to 10.01.1 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
