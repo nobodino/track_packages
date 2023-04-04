@@ -18,7 +18,7 @@ A series :
 -coreutils: 9.2 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.13 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
--cracklib: 2.9.10 https://github.com/cracklib/cracklib
+-cracklib: 2.9.11 https://github.com/cracklib/cracklib
 -cryptsetup: 2.6.1 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.14.6 (to 1.15.4 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.368 https://github.com/vcrhonek/hwdata
+-hwdata: 0.369 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -181,7 +181,7 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.22.10 (need libdaemon and avahi) http://hplipopensource.com
+-hplip: 3.20.6 to 3.23.03 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.26_1 https://github.com/smxi/inxi/tags
@@ -218,7 +218,7 @@ Ap series :
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 http://www.nongnu.org/man-db/
--man-pages: 6.03 https://gitlab.com/man-db/man-db/-/tags
+-man-pages: 6.04 https://gitlab.com/man-db/man-db/-/tags
 -mariadb: 10.11.2 http://mariadb.org/
 -mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1418 to 1437 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1418 to 1439 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -404,7 +404,7 @@ l series:
 -alsa-lib: 1.2.8 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
--apr: 1.7.1 to 1.7.3 http://apr.apache.org/download.cgi
+-apr: 1.7.3 http://apr.apache.org/download.cgi
 -apr-util: 1.6.3 http://apr.apache.org/download.cgi
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8 http://ftp.gnu.org/gnu/aspell/
@@ -445,7 +445,7 @@ l series:
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 5.1.2 to 6.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
--fluidsynth: 2.3.1 http://www.fluidsynth.org/
+-fluidsynth: 2.3.2 http://www.fluidsynth.org/
 -fmt: 9.1.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.0 http://sourceforge.net/projects/freetype/files/freetype2/
@@ -489,7 +489,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.3 to 4.10.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.8.3 to 4.10.1/4.11.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -501,7 +501,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 72.1 https://icu.unicode.org/
--imagemagick: 7.1.1_5 http://www.imagemagick.org/
+-imagemagick: 7.1.1_5 to 6 http://www.imagemagick.org/
 -isl: 0.25 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -675,7 +675,7 @@ l series:
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.03.0 http://poppler.freedesktop.org/
+-poppler: 23.04.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -832,7 +832,7 @@ n series:
 -iputils: 20221126 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
--irssi: 1.4.3 https://github.com/irssi/irssi/releases
+-irssi: 1.4.4 https://github.com/irssi/irssi/releases
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.20.1 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
@@ -907,7 +907,7 @@ n series:
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.7.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
--ppp: 2.4.9
+-ppp: 2.4.9 to 2.5.0
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
 	-freeradius-client: 1.1.7
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1418 to 1437 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1418 to 1439 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 111.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1136,7 +1136,7 @@ xap series:
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.06 http://www.jwz.org/xscreensaver/python*
--xsnow: 3.7.1 https://sourceforge.net/projects/xsnow/files/
+-xsnow: 3.7.4 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.18 https://gitlab.xfce.org/xfce/
 --------------------
