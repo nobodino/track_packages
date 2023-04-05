@@ -264,7 +264,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.28 to 0.29.33 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.28 to 0.29.34 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
