@@ -27,10 +27,10 @@ A series :
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 20191011 to 20221005 https://github.com/rhboot/efibootmgr
--efivar: 20201015 to 20220418 (nok) https://github.com/rhboot/efivar
+-efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
+-efivar: 20201015 to 20230307 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
--elogind: 246.10 https://github.com/elogind/elogind
+-elogind: 246.10 (to 252_rc3) https://github.com/elogind/elogind
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.11 https://github.com/eudev-project/eudev
@@ -69,7 +69,7 @@ A series :
 -kernel-firmware: 20230406 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 612 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 612 (to 632 beta) https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
@@ -80,7 +80,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.02.13 to 2.03.20 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 https://download.savannah.nongnu.org/releases/lzip/lzlib/
--mcelog: 193 https://git.kernel.org/pub/scm/utils/cpu/mce/mcelog.git/log/
+-mcelog: 193 to 194 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
@@ -91,7 +91,7 @@ A series :
 -mt-st: 1.4 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/ or http://ftp.debian.org/debian/pool/main/m/mtx/
 -ncompress: 5.0 https://github.com/vapier/ncompress/releases
--ndctl: 74 https://github.com/pmem/ndctl/releases
+-ndctl: 74 to 76.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1t https://github.com/openssl/openssl/tags
@@ -128,7 +128,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.99.13 to 0.99.20/1.90.0 (need systemd for version > 0.99.13) https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 0.99.13 to 0.99.20/1.90.0 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -147,14 +147,12 @@ A series :
 --------------------
 Ap series :
 --------------------
--a2ps:
-	- a2ps: 4.14 to 4.15.3 http://ftp.gnu.org/gnu/a2ps/
-	- psutils: 1.17 to 2.08 http://pkgs.fedoraproject.org/repo/pkgs/psutils/
+-a2ps: 4.14 to 4.15.3 (need libpaper) http://ftp.gnu.org/gnu/a2ps/ 
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
 -alsa-utils: 1.2.8 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.3 to 3.2.5 http://ftp.debian.org/debian/pool/main/a/at/
--bc: 1.07.1 to 6.1.1 https://git.yzena.com/gavin/bc/tags
+-bc: 1.07.1 to 6.5.0 https://git.yzena.com/gavin/bc/tags
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.5 http://sourceforge.net/projects/cdrdao/files/cdrdao/ or http://ftp.debian.org/debian/pool/main/c/cdrdao/
