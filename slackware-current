@@ -184,7 +184,7 @@ Ap series :
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.26_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
--jed: 0.99_19 to pre0.99-20-172 https://github.com/jedsoft/jed
+-jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
 -ksh93: 1.0_20220825 to 1.0.4 https://github.com/ksh93/ksh
@@ -215,8 +215,8 @@ Ap series :
 -lxc: 4.0.12 to 5.0.2 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.11.2 http://www.nongnu.org/man-db/
--man-pages: 6.04 https://gitlab.com/man-db/man-db/-/tags
+-man-db: 2.11.2 https://gitlab.com/man-db/man-db/-/tags
+-man-pages: 6.04 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.2 http://mariadb.org/
 -mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -225,7 +225,7 @@ Ap series :
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
--nvme-cli: 1.16 to 2.3 https://github.com/linux-nvme/nvme-cli/releases
+-nvme-cli: 1.16 to 2.4 https://github.com/linux-nvme/nvme-cli/releases
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 to 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
