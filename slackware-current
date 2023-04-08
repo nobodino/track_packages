@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1418 to 1441 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1418 to 1442 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -584,7 +584,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpcap: 1.10.3 http://www.tcpdump.org/release/
+-libpcap: 1.10.3 to 1.10.4 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
@@ -671,7 +671,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.67 to 0.3.68 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.68 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -821,7 +821,7 @@ n series:
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.19.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.56 to 2.4.57 http://www.apache.org/dist/httpd/
+-httpd: 2.4.57 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
@@ -837,8 +837,8 @@ n series:
 -krb5: 1.20.1 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
--libgcrypt: 1.10.1 https://www.gnupg.org/download/index.html
--libgpg-error: 1.46 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.10.2 https://www.gnupg.org/download/index.html
+-libgpg-error: 1.47 https://www.gnupg.org/download/index.html
 -libksba: 1.6.3 https://www.gnupg.org/download/index.html
 -libmbim: 1.28.4 to 1.29.2 (beta:new API) https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.17.1 (sendmail)
@@ -926,7 +926,7 @@ n series:
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.69 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.3 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.3 to 4.99.4 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1029,7 +1029,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.0.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.0.1 to 23.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1418 to 1441 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1418 to 1442 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 111.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
