@@ -376,7 +376,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.27.4 (plasma) https://download.kde.org/stable/
--kde: 5.104.0 (framework) https://download.kde.org/stable/
+-kde: 5.105.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -582,7 +582,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpcap: 1.10.3 to 1.10.4 http://www.tcpdump.org/release/
+-libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
@@ -924,7 +924,7 @@ n series:
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.69 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.3 to 4.99.4 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.4 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1027,7 +1027,7 @@ x series: (main packages)
 -libXt: 1.2.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.0.1 to 23.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
