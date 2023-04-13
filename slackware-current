@@ -35,7 +35,7 @@ A series :
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.11 https://github.com/eudev-project/eudev
 -exfatprogs: 1.2.0 https://github.com/exfatprogs/exfatprogs
--f2fs-tools: 1.15.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
+-f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.44 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
@@ -128,7 +128,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.4 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 0.99.13 to 0.99.20/1.90.0 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 1.90.0 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
@@ -252,7 +252,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1418 to 1443 https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1418 to 1447
+ https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -408,7 +409,7 @@ l series:
 -aspell: 0.60.8 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
 -at-spi2-atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/
--at-spi2-core: 2.46.0 to 2.48.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.48.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atk: 2.38.0 http://ftp.gnome.org/pub/GNOME/sources/atk/
 -atkmm: 2.28.3 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
@@ -460,11 +461,11 @@ l series:
 -gegl: 0.4.44 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.0 https://download.gnome.org/sources/gexiv2/0.14/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.74.2 to 1.76.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.76.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.74.0 to 2.76.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.74.6 to 2.76.1 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
+-glib-networking: 2.76.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: 2.76.1 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.66.6 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -479,11 +480,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 44.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.22.1 to 1.22.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.22.1 to 1.22.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.22.1 to 1.22.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.22.1 to 1.22.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.22.1 to 1.2.2 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.22.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer:1.22.2 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -590,7 +591,7 @@ l series:
 -libqalculate: 4.6.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.54.5 to 2.56.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -601,7 +602,7 @@ l series:
 -libsndfile: 1.2.0 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.0.8 to 3.4.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.4.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 https://github.com/libssh2/libssh2/releases
@@ -623,7 +624,7 @@ l series:
 -libvpx: 1.13.0 https://github.com/webmproject/libvpx/tags
 -libwebp: 1.3.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
 -libwmf: 0.2.12 https://github.com/caolanm/libwmf/releases
--libwnck3: 3.6.4 to 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
+-libwnck3: 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.3 https://sourceforge.net/projects/libwpg/files/libwpg/
@@ -653,7 +654,7 @@ l series:
 -nodejs: 19.9.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
--openal-soft: 1.23.0 https://openal-soft.org/openal-releases
+-openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.7.0 https://github.com/opencv/opencv/releases
 -openexr: 3.1.7 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.0 http://www.openjpeg.org
@@ -681,7 +682,7 @@ l series:
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.2 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.42.2 to 3.44.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.44.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 2.4.7 to 3.0.9 https://pypi.org/project/pyparsing/
 -python-alabaster: 0.7.12 https://pypi.org/project/alabaster
@@ -769,7 +770,7 @@ l series:
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 to 20220530 or 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.70.3 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.72.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
 -xapian-core: 1.4.22 http://www.xapian.org/
@@ -804,7 +805,7 @@ n series:
 -daemon: 0.8.2 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 9.4.1 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 9.5.0 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.89 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.20 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -904,7 +905,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.7.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.7.4 (to 3.8.0rc1) http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9 to 2.5.0
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -1101,11 +1102,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1418 to 1443 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1418 to 1447 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.9.1 to 102.10.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.10.0 https://www.thunderbird.net/
 -network-manager-applet: 1.30.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
