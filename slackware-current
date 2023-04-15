@@ -122,7 +122,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.34 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.09 http://ftp.funet.fi/pub/unix/shells/tcsh/
+-tcsh: 6.24.10 http://ftp.funet.fi/pub/unix/shells/tcsh/
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or https://git.savannah.gnu.org/cgit/time.git/log/
 -tree: 2.1.0 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1450 to 1452
+-vim: 9.0.1450 to 1453
  https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
@@ -414,7 +414,7 @@ l series:
 -atkmm: 2.28.3 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.102 http://download.gimp.org/pub/babl/0.1/
--boost: 1.81.0 to 1.82.0 https://github.com/boostorg/boost
+-boost: 1.82.0 https://github.com/boostorg/boost
 -brotli: 1.0.9 https://github.com/google/brotli/releases
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2 http://cairographics.org/cairomm/
@@ -499,7 +499,7 @@ l series:
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 72.1 https://icu.unicode.org/
+-icu4c: 73.1 https://icu.unicode.org/
 -imagemagick: 7.1.1_6 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
@@ -727,7 +727,7 @@ l series:
 -python-zipp: 3.8.0 to 3.11.0 https://pypi.org/project/zipp
 -qca: 2.3.5 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.8_20230325 to 5.15.9 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.9_20230412 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -894,7 +894,7 @@ n series:
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.4 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
--openresolv: 3.12.0 https://roy.marples.name/downloads/openresolv/
+-openresolv: 3.13.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.3p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1t http://ftp.openssl.org/source/
 -openssl: 3.1.0 to 3.1.1 http://ftp.openssl.org/source/
@@ -1102,7 +1102,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1450 to 1452 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1450 to 1453 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
