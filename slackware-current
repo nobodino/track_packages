@@ -132,7 +132,7 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.38.1 (to 2.39-rc2)
+-util-linux: 2.38.1 (to 2.39-rc3)
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
@@ -252,8 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1450 to 1464
- https://githuhttps://www.bbc.com/news/business-64514573imb.com/vim/vim/commits/master
+-vim: 9.0.1450 to 1471 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -269,7 +268,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.40 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--cargo-vendor-filterer: 0.5.7 https://github.com/coreos/cargo-vendor-filterer
+-cargo-vendor-filterer: 0.5.9 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.24.3 https://github.com/eqrion/cbindgen
 -ccache: 4.8 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/release
@@ -297,7 +296,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.24 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 16.0.1 http://llvm.org/
+-llvm: 16.0.1 to 16.0.2 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.4.2 https://www.mercurial-scm.org/release
@@ -588,7 +587,7 @@ l series:
 -libpng: 1.6.39 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.2 https://github.com/rockdaboot/libpsl/releases
--libqalculate: 4.6.0 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 4.6.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.56.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -623,7 +622,7 @@ l series:
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.13.0 https://github.com/webmproject/libvpx/tags
 -libwebp: 1.3.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
--libwmf: 0.2.12 https://github.com/caolanm/libwmf/releases
+-libwmf: 0.2.13 https://github.com/caolanm/libwmf/releases
 -libwnck3: 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
@@ -651,7 +650,7 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.02.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 19.9.0 https://nodejs.org/
+-nodejs: 20.0.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -711,7 +710,7 @@ l series:
 -python-pbr: 5.8.0 to 5.11.1 https://pypi.org/project/pbr
 -python-pillow: 8.4.0 to 9.5.0 https://github.com/python-pillow/Pillow/releases
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.10.0 to 2.15.0 https://pypi.org/project/Pygments
+-python-pygments: 2.10.0 to 2.15.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pysol_cards: 0.12.0 to 0.14.3 https://pypi.org/project/pysol-cards
 -python-pytz: 2022.1 to 2023.3 https://pypi.org/project/pytz
@@ -781,13 +780,13 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.42.4 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.42.4 to 1.42.6 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.13 http://ftp.isc.org/isc/bind9
+-bind: 9.18.14 http://ftp.isc.org/isc/bind9
 -bluez: 5.66 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -883,7 +882,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.6.2 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nfs-utils: 2.6.2 to 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.7 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.52.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.93 http://download.insecure.org/nmap/dist/
@@ -918,7 +917,7 @@ n series:
 -rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.1 https://ftp.samba.org/pub/samba/
+-samba: 4.18.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.9 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1102,7 +1101,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1450 to 1464 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1450 to 1471 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
