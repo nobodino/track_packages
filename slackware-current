@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.24 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230406 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.25 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230418 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 612 (to 632 beta) https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1450 to 1471 https://github.com/vim/vim/commits/master
+-vim: 9.0.1450 to 1472 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -294,9 +294,9 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.24 http://wwww.kernel.org
+-kernel-headers: 6.1.25 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 16.0.1 to 16.0.2 http://llvm.org/
+-llvm: 16.0.2 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.4.2 https://www.mercurial-scm.org/release
@@ -342,7 +342,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.1 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.2 http://www.ruby-lang.org/
--rust: 1.67.1 https://rust-lang.org
+-rust: 1.67.1 to 1.69.0 https://rust-lang.org
 -rust-bindgen: 0.65.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
@@ -371,13 +371,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.24
+-kernel : 6.1.25
 --------------------
 kde series :
 --------------------
 -kde: 5.27.4 (plasma) https://download.kde.org/stable/
 -kde: 5.105.0 (framework) https://download.kde.org/stable/
--kde: 22.12.3 (kde gear) https://download.kde.org/stable/
+-kde: 22.12.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -669,7 +669,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.69 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.701 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -780,7 +780,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.42.4 to 1.42.6 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.42.6 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -804,7 +804,7 @@ n series:
 -daemon: 0.8.2 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.0.0 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.0.0 to 10.0.1 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.89 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.20 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -817,7 +817,7 @@ n series:
 -gnupg2: 2.4.0 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.0 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.19.0 https://www.gnupg.org/download/index.html
+-gpgme: 1.20.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.57 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
@@ -856,7 +856,7 @@ n series:
 -lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
--mobile-broadband-provider-info: 20221107 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mobile-broadband-provider-info: 20230416 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.10 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
@@ -882,7 +882,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.6.2 to 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.7 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.52.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.93 http://download.insecure.org/nmap/dist/
@@ -1027,7 +1027,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.0.2 to 23.0.3 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.0  http://m17n.nongnu.org
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1450 to 1471 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1450 to 1472 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
