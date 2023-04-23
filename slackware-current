@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1450 to 1474 https://github.com/vim/vim/commits/master
+-vim: 9.0.1450 to 1479 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -499,7 +499,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 73.1 https://icu.unicode.org/
--imagemagick: 7.1.1_7 http://www.imagemagick.org/
+-imagemagick: 7.1.1_7 to 8 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1450 to 1474 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1450 to 1479 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
