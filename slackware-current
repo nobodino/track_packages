@@ -65,7 +65,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.25 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.26 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230418 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -165,7 +165,7 @@ Ap series :
 	- cups-windows: 6.0
 -cups-filters: 1.28.17 https://www.openprinting.org/download/cups-filters/
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash
--dc3dd: 7.3.0 http://sourceforge.net/projects/dc3dd/
+-dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.27 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.9 http://ftp.gnu.org/pub/gnu/diffutils/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1450 to 1488 https://github.com/vim/vim/commits/master
+-vim: 9.0.1450 to 1491 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1418
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.25 http://wwww.kernel.org
+-kernel-headers: 6.1.26 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.2 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.25
+-kernel : 6.1.26
 --------------------
 kde series :
 --------------------
@@ -493,7 +493,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.4 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 7.1.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 7.2.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -914,7 +914,7 @@ n series:
 -pssh: 2.3.5 https://github.com/lilydjwg/pssh/tags
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
--rp-pppoe: 3.15 https://dianne.skoll.ca/projects/rp-pppoe/
+-rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.18.2 https://ftp.samba.org/pub/samba/
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1450 to 1488 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1450 to 1491 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1194,6 +1194,7 @@ extra:
 -xv: 3.10a
 --------------------
 testing :
+-gcc: 13.1
 -rust: 1.68.2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
