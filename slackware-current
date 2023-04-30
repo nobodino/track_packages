@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1494 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1499 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -501,7 +501,7 @@ l series:
 -icu4c: 73.1 https://icu.unicode.org/
 -imagemagick: 7.1.1_8 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
--iso-codes: 4.13.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
+-iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
 -jasper: 4.0.0 http://www.ece.uvic.ca/~frodo/jasper/#download
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
@@ -628,7 +628,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.3 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.9.14 to 2.10.4 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.9.14 to 2.11.0 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.5.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.36 to 1.1.37 https://download.gnome.org/sources/libxslt/1.1/
@@ -814,7 +814,7 @@ n series:
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.0 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.0 to 2.4.1 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.0 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.20.0 https://www.gnupg.org/download/index.html
@@ -853,7 +853,7 @@ n series:
 -libqmi: 1.32.4 to 1.33.2 (beta:new API) https://github.com/freedesktop/libqmi/tags
 -libtirpc: 1.3.3 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.29 http://links.twibright.com/download.php
--lynx: 2.9.0dev.10 http://ftp.invisible-island.net/lynx/tarballs/
+-lynx: 2.9.0dev.12 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20230416 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
@@ -863,7 +863,7 @@ n series:
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.3 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.1.14 http://netatalk.sourceforge.net/
+-netatalk: 3.1.14 to 3.1.15 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -915,7 +915,7 @@ n series:
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
--rsync: 3.2.7 https://ftp.samba.org/pub/rsync/
+-rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
 -samba: 4.18.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
@@ -1073,8 +1073,8 @@ xap series:
 	-Mplayer: 20221009
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.10.2
--audacious: 4.3 http://www.audacious-media-player.org
--audacious-plugins: 4.3 http://www.audacious-media-player.org
+-audacious: 4.3 to 4.3.1 http://www.audacious-media-player.org
+-audacious-plugins: 4.3 to 4.3.1 http://www.audacious-media-player.org
 -blackbox:
 	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
@@ -1101,7 +1101,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1494 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1499 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1145,7 +1145,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -libxfce4ui: 4.18.2
 -libxfce4util: 4.18.3
 -mousepad: 0.6.0
--thunar: 4.18.3 to 4.18.4 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.18.3 to 4.18.5 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.1
 -xfce4-appfinder: 4.18.0
