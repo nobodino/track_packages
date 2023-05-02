@@ -65,7 +65,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.26 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.27 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230427 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -99,7 +99,7 @@ A series :
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
--pciutils: 3.9.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
+-pciutils: 3.10.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 https://download.savannah.gnu.org/releases/lzip/plzip/
@@ -131,7 +131,7 @@ A series :
 -upower: 1.90.0 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
--utempter: 1.2.0 to 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
+-utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
 -util-linux: 2.38.1 (to 2.39-rc3)
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.26 http://wwww.kernel.org
+-kernel-headers: 6.1.27 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.2 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.26
+-kernel : 6.1.27
 --------------------
 kde series :
 --------------------
@@ -601,7 +601,7 @@ l series:
 -libsndfile: 1.2.0 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.4.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.4.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.4 https://www.libssh.org/files
 -libssh2: 1.10.0 https://github.com/libssh2/libssh2/releases
@@ -626,7 +626,7 @@ l series:
 -libwnck3: 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
--libwpg: 0.3.3 https://sourceforge.net/projects/libwpg/files/libwpg/
+-libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
 -libxml2: 2.9.14 to 2.11.0 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
@@ -724,7 +724,7 @@ l series:
 -python-tomli: 1.2.2 to 2.0.1 https://pypi.org/project/tomli
 -python-urllib3: 1.26.8 to 1.26.15 (2.0.0a2) https://github.com/urllib3/urllib3/releases
 -python-zipp: 3.8.0 to 3.15.0 https://pypi.org/project/zipp
--qca: 2.3.5 https://download.kde.org/stable/qca/
+-qca: 2.3.6 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.9_20230412 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
@@ -814,7 +814,7 @@ n series:
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.0 to 2.4.1 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.1 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.0 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.20.0 https://www.gnupg.org/download/index.html
@@ -863,7 +863,7 @@ n series:
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.3 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.1.14 to 3.1.15 http://netatalk.sourceforge.net/
+-netatalk: 3.1.15 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1073,8 +1073,8 @@ xap series:
 	-Mplayer: 20221009
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.10.2
--audacious: 4.3 to 4.3.1 http://www.audacious-media-player.org
--audacious-plugins: 4.3 to 4.3.1 http://www.audacious-media-player.org
+-audacious: 4.3.1 http://www.audacious-media-player.org
+-audacious-plugins: 4.3.1 http://www.audacious-media-player.org
 -blackbox:
 	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
@@ -1145,7 +1145,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -libxfce4ui: 4.18.2
 -libxfce4util: 4.18.3
 -mousepad: 0.6.0
--thunar: 4.18.3 to 4.18.6 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.18.6 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.1
 -xfce4-appfinder: 4.18.0
