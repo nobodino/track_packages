@@ -69,7 +69,7 @@ A series :
 -kernel-firmware: 20230427 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 612 (to 632 beta) https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 612 to 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
@@ -296,7 +296,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.27 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 16.0.2 to 16.0.3 http://llvm.org/
+-llvm: 16.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.4.2 https://www.mercurial-scm.org/release
@@ -673,7 +673,7 @@ l series:
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.04.0 to 23.05.0 http://poppler.freedesktop.org/
+-poppler: 23.05.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -749,6 +749,7 @@ l series:
 -sip: 4.19.25 to 6.7.5 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
+-sof-firmware: 2.2.4 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.11.4 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
@@ -937,7 +938,7 @@ n series:
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.3 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.0.1 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.15 https://github.com/rfc1036/whois/tags
+-whois: 5.5.17 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.10 https://w1.fi/wpa_supplicant/
