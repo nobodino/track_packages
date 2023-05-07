@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1510 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1520 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -458,7 +458,7 @@ l series:
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.44 https://download.gimp.org/pub/gegl/
--gexiv2: 0.14.0 https://download.gnome.org/sources/gexiv2/0.14/
+-gexiv2: 0.14.1 https://download.gnome.org/sources/gexiv2/0.14/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.76.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
@@ -641,8 +641,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.12.0 to 7.14.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.89 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.89 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.89.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.89.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.10.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0p4 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -715,7 +715,7 @@ l series:
 -python-pysol_cards: 0.12.0 to 0.14.3 https://pypi.org/project/pysol-cards
 -python-pytz: 2022.1 to 2023.3 https://pypi.org/project/pytz
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
--python-requests: 2.26.0 to 2.28.2 https://pypi.org/project/requests/
+-python-requests: 2.26.0 to 2.30.0 https://pypi.org/project/requests/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
 -python-setuptools_scm: 6.4.2 to 7.1.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
@@ -793,7 +793,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20221205 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20230506 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.18.0 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.7 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -1103,7 +1103,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1510 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1520 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 112.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
