@@ -64,12 +64,12 @@ A series :
 -inotify-tools: 3.22.6.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.5.1 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
+-kbd: 1.15.3 to 1.15.5/2.5.1 (2.6rc1) https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
 -kernel-ide: 6.1.27 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230427 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 612 to 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.3.1 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
@@ -182,7 +182,7 @@ Ap series :
 -hplip: 3.20.6 to 3.23.03 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.26_1 https://github.com/smxi/inxi/tags
+-inxi: 3.3.27_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1523 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1528 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -342,12 +342,12 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.2 http://www.ruby-lang.org/
--rust: 1.67.1 to 1.69.0 https://rust-lang.org
+-rust: 1.62.2 https://rust-lang.org
 -rust-bindgen: 0.65.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.2 https://github.com/strace/strace/releases
+-strace: 6.2 to 6.3 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.7 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -376,7 +376,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.27.4 (plasma) https://download.kde.org/stable/
--kde: 5.105.0 (framework) https://download.kde.org/stable/
+-kde: 5.105.0 to 5.106.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -631,7 +631,7 @@ l series:
 -libxml2: 2.9.14 to 2.11.2 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.5.0 https://github.com/xkbcommon/libxkbcommon/releases
--libxslt: 1.1.36 to 1.1.37 https://download.gnome.org/sources/libxslt/1.1/
+-libxslt: 1.1.36 to 1.1.38 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.9.1 to 1.9.2 https://libzip.org/download/
 -lmdb: 0.9.30 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
@@ -639,7 +639,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
--mlt: 7.12.0 to 7.14.0 https://github.com/mltframework/mlt/releases
+-mlt: 7.16.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.89.1 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.89.1 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -811,7 +811,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
--ethtool: 5.19 to 6.2 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.19 to 6.3 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -1032,7 +1032,7 @@ x series: (main packages)
 -mesa: 23.0.3 (to 23.1.0-rc3) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
--m17n-lib: 1.8.0  http://m17n.nongnu.org
+-m17n-lib: 1.8.1 http://m17n.nongnu.org
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/notofonts/noto-fonts/releases
@@ -1103,10 +1103,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1523 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1528 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 112.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 112.0.2 to 113.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.10.1 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
@@ -1197,7 +1197,7 @@ extra:
 --------------------
 testing :
 -gcc: 13.1
--rust: 1.68.2
+-rust: 1.69.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
