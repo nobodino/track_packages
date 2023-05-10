@@ -41,7 +41,7 @@ A series :
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.43 https://www.gnu.org/software/mtools/
--gawk: 5.2.1 http://ftp.gnu.org/pub/gnu/gawk/
+-gawk: 5.2.2 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2023c
@@ -97,7 +97,7 @@ A series :
 -openssl11-solibs: 1.1.1t https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.1.0 to 3.1.1 https://github.com/openssl/openssl/tags
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
--pam: 1.5.2 https://github.com/linux-pam/linux-pam/releases
+-pam: 1.5.2 to 1.5.3 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.10.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
@@ -217,7 +217,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.04 http://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.11.2 http://mariadb.org/
+-mariadb: 10.11.3 http://mariadb.org/
 -mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a http://space.mit.edu/pub/davis/most/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1528 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1536 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -347,7 +347,7 @@ d series:
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.2 to 6.3 https://github.com/strace/strace/releases
+-strace: 6.3 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.7 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -375,7 +375,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.27.4 (plasma) https://download.kde.org/stable/
+-kde: 5.27.5 (plasma) https://download.kde.org/stable/
 -kde: 5.105.0 to 5.106.0 (framework) https://download.kde.org/stable/
 -kde: 22.12.4 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -438,7 +438,7 @@ l series:
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
 -enchant: 2.3.4 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
--exiv2: 0.27.6 https://exiv2.org/download.html
+-exiv2: 0.27.6 to 0.28.0 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 5.1.2 to 6.0 https://ffmpeg.org/
@@ -487,13 +487,13 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.8.3 to 4.10.3/4.11.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.10.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 (gtkspell3: 3.0.10) http://gtkspell.sourceforge.net/
 -gvfs: 1.50.4 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 7.2.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 7.2.0 to 7.3.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -1103,10 +1103,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1528 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1536 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 112.0.2 to 113.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 113.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.10.1 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
