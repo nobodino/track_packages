@@ -886,7 +886,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.7 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.52.0 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.53.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.93 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
@@ -1056,10 +1056,10 @@ x series: (main packages)
 -xorg-server-xwayland: 23.1.0
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.0
--xf86-video-amdgpu: 23.0.0
--xf86-video-ati: 20220730
+-xf86-video-amdgpu: 23.0.0 to 20230222
+-xf86-video-ati: 20220730 to 20230425
 -xf86-video-dummy: 0.4.0
--xf86-video-intel: 20210115 to 20230223
+-xf86-video-intel: 20210115 to 20230201
 -xf86-video-mach64: 6.9.7
 -xf86-video-mga: 2.0.1
 -xf86-video-nouveau: 20220125 to 20230201
