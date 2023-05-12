@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 (2.6rc1) https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.27 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230427 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.28 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230508 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.27 http://wwww.kernel.org
+-kernel-headers: 6.1.28 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.3 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -371,13 +371,13 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.27
+-kernel : 6.1.28
 --------------------
 kde series :
 --------------------
 -kde: 5.27.5 (plasma) https://download.kde.org/stable/
 -kde: 5.105.0 to 5.106.0 (framework) https://download.kde.org/stable/
--kde: 22.12.4 (kde gear) https://download.kde.org/stable/
+-kde: 22.12.4 to 23.04.1 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -899,7 +899,7 @@ n series:
 -openssh: 9.3p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1t http://ftp.openssl.org/source/
 -openssl: 3.1.0 to 3.1.1 http://ftp.openssl.org/source/
--openvpn: 2.6.3 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.3 to 2.6.4 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.5 http://www.php.net/distributions/
