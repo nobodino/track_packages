@@ -49,7 +49,7 @@ A series :
 	-tzdata: 2023c https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
--grep: 3.10 http://ftp.gnu.org/pub/gnu/grep
+-grep: 3.10 to 3.11 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.12 http://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1539 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1553 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -333,7 +333,7 @@ d series:
 	- perl: 5.36.0 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz
--poke: 3.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 3.1 to 3.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.16 to 3.10.9/3.11.3 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.1.1 https://pypi.python.org/pypi/pip
@@ -732,7 +732,7 @@ l series:
 -qtkeychain: 0.13.2 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
 -readline: 8.2.001 https://ftp.gnu.org/gnu/readline
--rpcsvc-proto: 1.4.3 https://github.com/thkukuk/rpcsvc-proto/releases
+-rpcsvc-proto: 1.4.3 to 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.18 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 to 2.0 http://www.kernel.org/pub/linux/bluetooth
@@ -937,7 +937,7 @@ n series:
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
--wget: 1.21.3 http://ftp.gnu.org/gnu/wget/
+-wget: 1.21.3 to 1.21.4 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.0.1 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.17 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
@@ -1104,10 +1104,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1539 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1553 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 113.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 113.0 to 113.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.11.0 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
