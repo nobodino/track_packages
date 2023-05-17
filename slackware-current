@@ -30,10 +30,10 @@ A series :
 -efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
--elogind: 246.10 (to 252_rc3) https://github.com/elogind/elogind
+-elogind: 246.10 (to 252.9) https://github.com/elogind/elogind
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
--eudev: 3.2.11 https://github.com/eudev-project/eudev
+-eudev: 3.2.12 https://github.com/eudev-project/eudev
 -exfatprogs: 1.2.0 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.44 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
@@ -132,7 +132,7 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.38.1 (to 2.39-rc3)
+-util-linux: 2.38.1 to 2.39
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
@@ -242,7 +242,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://tty1.uk/slackbuilds/noversion/soma
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.24.2 to 3.42.0 http://www.sqlite.org/download.html
+-sqlite: 3.42.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.13p3 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.2 http://sebastien.godard.pagesperso-orange.fr/download.html
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1561 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1563 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -296,7 +296,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.28 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 16.0.3 http://llvm.org/
+-llvm: 16.0.3 to 16.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.4.3 https://www.mercurial-scm.org/release
@@ -438,7 +438,7 @@ l series:
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
 -enchant: 2.3.4 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
--exiv2: 0.28.0 https://exiv2.org/download.html
+-exiv2: 0.27.6 (to 0.28.0 nok) https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 5.1.2 to 6.0 https://ffmpeg.org/
@@ -651,7 +651,7 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.02.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 20.1.0 https://nodejs.org/
+-nodejs: 20.2.0 https://nodejs.org/
 -ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -670,7 +670,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.701 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.70 to 0.3.71 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -788,7 +788,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.14 http://ftp.isc.org/isc/bind9
+-bind: 9.18.14 to 9.18.15 http://ftp.isc.org/isc/bind9
 -bluez: 5.66 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -801,7 +801,7 @@ n series:
 -crda: 4.14 to 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.08.12 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.0.1 http://curl.haxx.se/download/
+-curl: 8.0.1 to 8.1.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.2 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -1104,7 +1104,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1561 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1563 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
