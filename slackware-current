@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 (2.6rc1) https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.28 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230508 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.29 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230517 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -294,9 +294,9 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.28 http://wwww.kernel.org
+-kernel-headers: 6.1.29 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 16.0.3 to 16.0.4 http://llvm.org/
+-llvm: 16.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.4.3 https://www.mercurial-scm.org/release
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.28
+-kernel : 6.1.29
 --------------------
 kde series :
 --------------------
@@ -448,7 +448,7 @@ l series:
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.0 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
--fribidi: 1.0.12 https://github.com/fribidi/fribidi/releases
+-fribidi: 1.0.13 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.14.1 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.2 http://www.hboehm.info/gc/gc_source/
@@ -670,7 +670,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.70 to 0.3.71 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.71 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -788,7 +788,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.14 to 9.18.15 http://ftp.isc.org/isc/bind9
+-bind: 9.18.15 http://ftp.isc.org/isc/bind9
 -bluez: 5.66 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -801,7 +801,7 @@ n series:
 -crda: 4.14 to 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.08.12 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.0.1 to 8.1.0 http://curl.haxx.se/download/
+-curl: 8.1.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.2 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -1014,7 +1014,7 @@ x series: (main packages)
 -libva: 2.18.0 https://github.com/intel/libva/releases
 -libva-utils: 2.18.2 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
--libwacom: 2.6.0 https://github.com/linuxwacom/libwacom/releases
+-libwacom: 2.7.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.15 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.15
