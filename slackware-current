@@ -86,7 +86,7 @@ A series :
 	- minicom: 2.8 http://ftp.debian.org/debian/pool/main/m/minicom/
 	- lrzsz: 0.12.21 http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
-	- busybox: 1.32.1 to 1.36.0 http://www.busybox.net/
+	- busybox: 1.32.1 to 1.36.1 http://www.busybox.net/
 -mlocate: 0.26 https://pagure.io/mlocate/releases or http://ftp.debian.org/debian/pool/main/m/mlocate/
 -mt-st: 1.7 http://ftp.debian.org/debian/pool/main/m/mt-st/
 -mtx: 1.3.12 http://mtx.opensource-sw.net/ or http://ftp.debian.org/debian/pool/main/m/mtx/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1563 https://github.com/vim/vim/commits/master
+-vim: 9.0.1493 to 1568 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1493
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -275,12 +275,12 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.26.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.26.3 to 3.26.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
 -distcc: 3.4 https://github.com/distcc/distcc/releases
--doxygen: 1.9.5 to 1.9.6 http://www.doxygen.org/download.html
+-doxygen: 1.9.5 to 1.9.7 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.1 http://ftp.gnu.org/pub/gnu/gdb/
@@ -360,7 +360,7 @@ e series:
 --------------------
 Installer:
 --------------------
--busybox: 1.32.1 to 1.36.0 http://www.busybox.net/
+-busybox: 1.32.1 to 1.36.1 http://www.busybox.net/
 -dropbear: 2020.81 to 2022.83 http://matt.ucc.asn.au/dropbear/dropbear.html
 -nano: 6.0 to 7.1 http://www.nano-editor.org/download.php
 --------------------
@@ -479,11 +479,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 44.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.22.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.22.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.22.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.22.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer:1.22.2 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.2 to 1.22.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.2 to 1.22.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.2 to 1.22.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.22.2 to 1.22.3 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer:1.22.2 to 1.22.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -615,7 +615,7 @@ l series:
 -libusb: 1.0.26 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20200615 to 20220605 (nok) http://www.libimobiledevice.org/
--libuv: 1.44.2 https://dist.libuv.org/dist
+-libuv: 1.44.2 to 1.45.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.0 to 0.4.1 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 to 0.4.1 http://sourceforge.net/projects/libvisual/
@@ -1105,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1563 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1493 to 1568 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
