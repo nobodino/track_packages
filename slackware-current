@@ -97,7 +97,7 @@ A series :
 -openssl11-solibs: 1.1.1t https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.1.0 to 3.1.1 https://github.com/openssl/openssl/tags
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
--pam: 1.5.2 to 1.5.3 https://github.com/linux-pam/linux-pam/releases
+-pam: 1.5.3 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.10.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1493 to 1568 https://github.com/vim/vim/commits/master
-	- vim: 9.0.1493
+-vim: 9.0.1569 to 1570 https://github.com/vim/vim/commits/master
+	- vim: 9.0.1569
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.9 to 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -285,7 +285,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.40.1 (to 2.41.0rc0) http://git-scm.com/download
+-git: 2.40.1 (to 2.41.0rc1) http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -314,7 +314,7 @@ d series:
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
-	- IO-Socket-SSL: 2.081 https://www.cpan.org/modules/by-module/IO/
+	- IO-Socket-SSL: 2.081 to 2.083 https://www.cpan.org/modules/by-module/IO/
 	- JSON: 4.10
 	- MIME-Base64: 3.16 https://www.cpan.org/modules/by-module/MIME/
 	- Module-Runtime: 0.016 https://www.cpan.org/modules/01modules.index.html
@@ -1105,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1493 to 1568 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1569 to 1570 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
