@@ -168,7 +168,7 @@ Ap series :
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.27 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
--diffutils: 3.9 http://ftp.gnu.org/pub/gnu/diffutils/
+-diffutils: 3.10 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
 -dmidecode: 3.5 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
@@ -270,7 +270,7 @@ d series:
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.9 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.24.3 https://github.com/eqrion/cbindgen
--ccache: 4.8 https://ccache.dev/download.html
+-ccache: 4.8.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/release
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
@@ -887,7 +887,7 @@ n series:
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.7 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.53.0 https://github.com/nghttp2/nghttp2/releases
--nmap: 7.93 to 7.94 http://download.insecure.org/nmap/dist/
+-nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
