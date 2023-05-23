@@ -140,7 +140,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 5.13.0 (to 6.2.0 needs liburcu, userspace-rcu-0.14.0) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 5.13.0 (to 6.3.0 needs liburcu, userspace-rcu-0.14.0) https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.4.3 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -229,7 +229,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 to 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 11.3.0 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 11.4.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rpm: 4.16.1.3 to 4.18.1 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -438,7 +438,7 @@ l series:
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
 -enchant: 2.3.4 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
--exiv2: 0.27.6 (to 0.28.0 nok) https://exiv2.org/download.html
+-exiv2: 0.27.7 (to 0.28.0 nok) https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 5.1.2 to 6.0 https://ffmpeg.org/
@@ -486,7 +486,7 @@ l series:
 -gstreamer:1.22.2 to 1.22.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.37 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.37 to 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.10.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
@@ -499,7 +499,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 73.1 https://icu.unicode.org/
--imagemagick: 7.1.1_9 http://www.imagemagick.org/
+-imagemagick: 7.1.1_9 to 10 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -795,7 +795,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20230506 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.18.0 https://c-ares.org/
+-c-ares: 1.19.1 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.7 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.14 to 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
@@ -937,7 +937,7 @@ n series:
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
--wget: 1.21.3 to 1.21.4 http://ftp.gnu.org/gnu/wget/
+-wget: 1.21.4 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.0.1 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.17 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
@@ -1101,7 +1101,7 @@ xap series:
 	- eboard: 1.1.1 to 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.4.6 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.4.7 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
