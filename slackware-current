@@ -1109,7 +1109,7 @@ xap series:
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.1 to 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.11.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 102.11.0 to 102.11.1 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1146,7 +1146,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -elementary-xfce: 0.17.0
 -exo: 4.18.0
 -garcon: 4.18.1
--libxfce4ui: 4.18.2
+-libxfce4ui: 4.18.2 to 4.18.4
 -libxfce4util: 4.18.3
 -mousepad: 0.6.1
 -thunar: 4.18.6 https://gitlab.xfce.org/xfce/thunar
@@ -1156,7 +1156,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.3
 -xfce4-dev-tools: 4.18.0
 -xfce4-notifyd: 0.8.1
--xfce4-panel: 4.18.3
+-xfce4-panel: 4.18.3 to 4.18.4
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.1
 -xfce4-pulseaudio-plugin: 0.4.6
