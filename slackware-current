@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 (2.6rc1) https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.29 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230517 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.30 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230523 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -234,7 +234,7 @@ Ap series :
 -rpm: 4.16.1.3 to 4.18.1 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 ibiblio.org/pub/Linux/apps/financial/spreadsheet
--sc-im: 20210927 to 20230112 https://github.com/andmarti1424/sc-im
+-sc-im: 0.8.3 https://github.com/andmarti1424/sc-im
 -screen: 4.9.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1569 to 1575 https://github.com/vim/vim/commits/master
+-vim: 9.0.1569 to 1576 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1569
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -285,7 +285,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.40.1 (to 2.41.0rc1) http://git-scm.com/download
+-git: 2.40.1 (to 2.41.0rc2) http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.29 http://wwww.kernel.org
+-kernel-headers: 6.1.30 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.4 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -307,7 +307,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20230422 to 20230522 https://www.gnu.org/software/parallel/
+-parallel: 20230522 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
 -perl: 5.36.1
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.29
+-kernel : 6.1.30
 --------------------
 kde series :
 --------------------
@@ -436,7 +436,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.189 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.3.4 https://github.com/AbiWord/enchant/releases
+-enchant: 2.4.0 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.27.7 (to 0.28.0 nok) https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
@@ -464,7 +464,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.76.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.76.2 to 2.76.3 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
+-glib2: 2.76.3 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.66.6 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 http://ftp.acc.umu.se/pub/gnome/sources/gmime
@@ -486,7 +486,7 @@ l series:
 -gstreamer:1.22.2 to 1.22.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.37 to 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.10.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
@@ -716,7 +716,7 @@ l series:
 -python-pysol_cards: 0.12.0 to 0.14.3 https://pypi.org/project/pysol-cards
 -python-pytz: 2022.1 to 2023.3 https://pypi.org/project/pytz
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
--python-requests: 2.26.0 to 2.30.0 https://pypi.org/project/requests/
+-python-requests: 2.26.0 to 2.31.0 https://pypi.org/project/requests/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
 -python-setuptools_scm: 6.4.2 to 7.1.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
@@ -727,7 +727,7 @@ l series:
 -python-zipp: 3.8.0 to 3.15.0 https://pypi.org/project/zipp
 -qca: 2.3.6 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.9_20230412 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.9_20230523 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.0 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -801,7 +801,7 @@ n series:
 -crda: 4.14 to 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.14 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2019.06.03 to 2022.08.12 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.1.0 to 8.1.1 http://curl.haxx.se/download/
+-curl: 8.1.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.2 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -1105,10 +1105,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1569 to 1575 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1569 to 1576 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 113.0.1 to 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.11.0 to 102.11.1 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
@@ -1146,7 +1146,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -elementary-xfce: 0.17.0
 -exo: 4.18.0
 -garcon: 4.18.1
--libxfce4ui: 4.18.2 to 4.18.4
+-libxfce4ui: 4.18.4
 -libxfce4util: 4.18.3
 -mousepad: 0.6.1
 -thunar: 4.18.6 https://gitlab.xfce.org/xfce/thunar
@@ -1156,7 +1156,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.3
 -xfce4-dev-tools: 4.18.0
 -xfce4-notifyd: 0.8.1
--xfce4-panel: 4.18.3 to 4.18.4
+-xfce4-panel: 4.18.4
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.1
 -xfce4-pulseaudio-plugin: 0.4.6
