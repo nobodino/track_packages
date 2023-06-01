@@ -94,7 +94,7 @@ A series :
 -ndctl: 74 to 76.1 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl11-solibs: 1.1.1t to 1.1.1u https://github.com/openssl/openssl/tags
+-openssl11-solibs: 1.1.1u https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.1.1 https://github.com/openssl/openssl/tags
 -os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.3 https://github.com/linux-pam/linux-pam/releases
@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.3 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.4.4 to 2.5.0 https://github.com/troglobit/sysklogd/releases
+-sysklogd: 2.5.0 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
 -sysvinit: 3.07 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1569 to 1592 https://github.com/vim/vim/commits/master
+-vim: 9.0.1569 to 1595 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1569
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -660,7 +660,7 @@ l series:
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
--orc: 0.4.33 https://gstreamer.freedesktop.org/src/orc/
+-orc: 0.4.34 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.50.14 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -816,7 +816,7 @@ n series:
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.1 to 2.4.2 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.2 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.0 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.20.0 https://www.gnupg.org/download/index.html
@@ -897,7 +897,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.1 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.3p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl11: 1.1.1t to 1.1.1u http://ftp.openssl.org/source/
+-openssl11: 1.1.1u http://ftp.openssl.org/source/
 -openssl: 3.1.1 http://ftp.openssl.org/source/
 -openvpn: 2.6.4 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
@@ -919,7 +919,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.2 https://ftp.samba.org/pub/samba/
+-samba: 4.18.2 to 4.18.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1069,7 +1069,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 381 http://invisible-island.net/xterm/
+-xterm: 382 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1105,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1569 to 1592 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1569 to 1595 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
