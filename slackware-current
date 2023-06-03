@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.370 https://github.com/vcrhonek/hwdata
+-hwdata: 0.371 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -159,8 +159,8 @@ Ap series :
 -cdrtools: 3.02a9
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.4.2 https://github.com/openprinting/cups/releases
-	- cups: 2.4.2
+-cups: 2.4.3 https://github.com/openprinting/cups/releases
+	- cups: 2.4.3
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
 -cups-filters: 1.28.17 https://www.openprinting.org/download/cups-filters/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1569 to 1596 https://github.com/vim/vim/commits/master
+-vim: 9.0.1569 to 1599 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1569
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -285,7 +285,7 @@ d series:
 -gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.40.1 to 2.41.0rc2 http://git-scm.com/download
+-git: 2.41.0 http://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -296,7 +296,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.31 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 16.0.4 http://llvm.org/
+-llvm: 16.0.5 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.4.3 https://www.mercurial-scm.org/release
@@ -382,7 +382,7 @@ kde series :
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--Imath: 3.1.8 https://github.com/AcademySoftwareFoundation/Imath/releases
+-Imath: 3.1.9 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.1 http://www.libraw.org/
 -Mako: 1.1.6 to 1.2.4 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 http://pypi.python.org/pypi/M2Crypto/
@@ -605,7 +605,7 @@ l series:
 -libsoup3: 3.4.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.5 https://www.libssh.org/files
--libssh2: 1.10.0 https://github.com/libssh2/libssh2/releases
+-libssh2: 1.10.0 to 1.11.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.4.0 to 4.5.0 https://download.osgeo.org/libtiff/
@@ -645,7 +645,7 @@ l series:
 -mozilla-nss: 3.89.1 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.89.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs102: 102.10.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs102: 102.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0p7 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
@@ -736,7 +736,7 @@ l series:
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.18 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 to 2.0 http://www.kernel.org/pub/linux/bluetooth
--serf: 1.3.9 http://serf.apache.org/
+-serf: 1.3.10 http://serf.apache.org/
 -sg3_utils: 1.47 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
@@ -878,7 +878,7 @@ n series:
 	- netkit-rwho
 	- netkit-timed
 -netpipes: 4.2 http://web.purplefrog.com/ftp/netpipes/
--nettle: 3.9 https://ftp.gnu.org/gnu/nettle/
+-nettle: 3.9.1 https://ftp.gnu.org/gnu/nettle/
 -netwatch: 1.3.1_2 http://www.slctech.org/~mackay/netwatch.html#FTP%20SITE%20ACCESS
 -network-scripts: 15.0
 -netwrite: 0.17
@@ -891,7 +891,7 @@ n series:
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
--ntp: 4.2.8p15 to p16 http://www.ntp.org/downloads.html
+-ntp: 4.2.8p16 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.4 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
@@ -919,7 +919,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.2 to 4.18.3 https://ftp.samba.org/pub/samba/
+-samba: 4.18.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -961,7 +961,7 @@ tcl/tk series:
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 http://ftp.mars.org/pub/hfs/
 -tcl: 8.6.13 http://tcl.activestate.com/pub/tcl/tcl8_4/
--tclx: 8.6.1 http://tclx.sourceforge.net/
+-tclx: 8.6.2 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
 -tk: 8.6.13 http://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
@@ -991,7 +991,7 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.28 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
--ibus-libpinyin: 1.15.2 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.15.3 https://github.com/libpinyin/ibus-libpinyin/releases
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
@@ -1025,7 +1025,7 @@ x series: (main packages)
 -libXp: 1.0.6
 -libXpm: 3.5.16
 -libXi: 1.8.1
--libX11: 1.8.4
+-libX11: 1.8.5
 -libXres: 1.2.1
 -libXt: 1.3.0
 -libxcvt: 0.1.2
@@ -1105,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1569 to 1596 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1569 to 1599 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1159,7 +1159,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-panel: 4.18.4
 -xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.2
--xfce4-pulseaudio-plugin: 0.4.6
+-xfce4-pulseaudio-plugin: 0.4.7
 -xfce4-screensaver: 4.18.2
 -xfce4-screenshooter: 1.10.4
 -xfce4-session: 4.18.3
@@ -1199,7 +1199,7 @@ extra:
 --------------------
 testing :
 -gcc: 13.1
--rust: 1.69.0
+-rust: 1.69.0 to 1.70.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
