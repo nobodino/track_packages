@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1569 to 1599 https://github.com/vim/vim/commits/master
+-vim: 9.0.1569 to 1603 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1569
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -1105,7 +1105,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1569 to 1599 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1569 to 1603 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1191,7 +1191,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -rust-for-mozilla: rust-1.64.0
--sendmail: 8.17.1
+-sendmail: 8.17.1 to 8.17.2
 -tigervnc: 1.13.1 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
