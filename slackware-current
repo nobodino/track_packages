@@ -652,7 +652,7 @@ l series:
 -netpbm: 11.02.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.2.0 https://nodejs.org/
--ocl-icd: 2.3.1 https://github.com/OCL-dev/ocl-icd/releases
+-ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.7.0 https://github.com/opencv/opencv/releases
@@ -841,7 +841,7 @@ n series:
 -libgpg-error: 1.47 https://www.gnupg.org/download/index.html
 -libksba: 1.6.3 https://www.gnupg.org/download/index.html
 -libmbim: 1.28.4 to 1.29.2 (beta:new API) https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
--libmilter: 8.17.1 (sendmail)
+-libmilter: 8.17.2 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -970,7 +970,7 @@ x series: (main packages)
 -anthy-unicode: 1.0.0.20211224 https://github.com/fujiwarat/anthy-unicode/releases
 -OpenCC: 1.1.6 https://github.com/BYVoid/OpenCC/releases
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
--egl-wayland: 1.1.11 https://github.com/NVIDIA/egl-wayland/releases
+-egl-wayland: 1.1.12 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
 -fcitx5: 5.0.23 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.0.14 https://fcitx-im.org/wiki/Fcitx_5
@@ -1108,7 +1108,7 @@ xap series:
 -gvim: 9.0.1569 to 1603 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 113.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 113.0.2 to 114.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.11.2 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
@@ -1191,7 +1191,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -rust-for-mozilla: rust-1.64.0
--sendmail: 8.17.1 to 8.17.2
+-sendmail: 8.17.2
 -tigervnc: 1.13.1 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
