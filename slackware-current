@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.5.1 (2.6rc1) https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.31 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230530 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.32 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230531 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -159,7 +159,7 @@ Ap series :
 -cdrtools: 3.02a9
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.4.3 https://github.com/openprinting/cups/releases
+-cups: 2.4.3 to 2.4.4 https://github.com/openprinting/cups/releases
 	- cups: 2.4.3
 	- cups-samba: 5.0rc3
 	- cups-windows: 6.0
@@ -179,7 +179,7 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.22.4 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.23.03 (need libdaemon and avahi) http://hplipopensource.com
+-hplip: 3.20.6 to 3.23.05 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.27_1 https://github.com/smxi/inxi/tags
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1569 to 1603 https://github.com/vim/vim/commits/master
+-vim: 9.0.1569 to 1614 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1569
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -distcc: 3.4 https://github.com/distcc/distcc/releases
 -doxygen: 1.9.5 to 1.9.7 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
--gcc: 12.2 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 13.1 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.21.1 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.41.0 http://git-scm.com/download
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.31 http://wwww.kernel.org
+-kernel-headers: 6.1.32 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.5 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -335,7 +335,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 3.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.16 to 3.10.9/3.11.3 (new API) https://www.python.org/downloads/
+-python3: 3.9.16 to 3.10.12/3.11.4 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.1.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 67.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.31
+-kernel : 6.1.32
 --------------------
 kde series :
 --------------------
@@ -436,7 +436,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.189 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.4.0 https://github.com/AbiWord/enchant/releases
+-enchant: 2.5.0 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.27.7 (to 0.28.0 nok) https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
@@ -487,7 +487,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.10.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.10.4 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -642,8 +642,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.16.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.89.1 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.89.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.90 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.90 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0p7 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -656,7 +656,7 @@ l series:
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.7.0 https://github.com/opencv/opencv/releases
--openexr: 3.1.7 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.1.8 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
@@ -674,7 +674,7 @@ l series:
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.05.0 http://poppler.freedesktop.org/
+-poppler: 23.06.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -729,7 +729,7 @@ l series:
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.9_20230523 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
--qtkeychain: 0.14.0 https://github.com/frankosterfeld/qtkeychain/releases
+-qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
 -readline: 8.2.001 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
@@ -834,7 +834,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.4 https://github.com/irssi/irssi/releases
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.20.1 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.21 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.5 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.2 https://www.gnupg.org/download/index.html
@@ -891,7 +891,7 @@ n series:
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
--ntp: 4.2.8p16 http://www.ntp.org/downloads.html
+-ntp: 4.2.8p17 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.4 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
@@ -902,11 +902,11 @@ n series:
 -openvpn: 2.6.4 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.2.6 http://www.php.net/distributions/
+-php: 8.2.6 to 8.2.7 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.8.0 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.8.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9 to 2.5.0
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -1052,9 +1052,9 @@ x series: (main packages)
 -xdm 1.1.14
 -xinit: 1.4.2
 -xkeyboard-config: 2.38
--xorgproto: 2022.2
+-xorgproto: 2023.1
 -xorg-server: 21.1.8 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 23.1.0
+-xorg-server-xwayland: 23.1.2
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.0
 -xf86-video-amdgpu: 23.0.0 to 20230222
@@ -1105,10 +1105,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1569 to 1603 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1569 to 1614 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 113.0.2 to 114.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 114.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.11.2 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.149 to 0.154 http://pan.rebelbase.com/download/releases/
@@ -1157,7 +1157,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-dev-tools: 4.18.0
 -xfce4-notifyd: 0.8.1
 -xfce4-panel: 4.18.4
--xfce4-panel-profiles: 1.0.13 https://gitlab.xfce.org/apps/xfce4-panel-profiles
+-xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.2
 -xfce4-pulseaudio-plugin: 0.4.7
 -xfce4-screensaver: 4.18.2
@@ -1198,7 +1198,6 @@ extra:
 -xv: 4.1.1
 --------------------
 testing :
--gcc: 13.1
 -rust: 1.69.0 to 1.70.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
