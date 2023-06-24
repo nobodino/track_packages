@@ -245,7 +245,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.42.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.13p3 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.13p3 (to 1.9.14rc1) http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.3 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -310,7 +310,7 @@ d series:
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20230622 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
--perl: 5.36.1 (to 5.38.0rc1)
+-perl: 5.36.1 (to 5.38.0rc2)
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
@@ -447,7 +447,7 @@ l series:
 -fluidsynth: 2.3.3 http://www.fluidsynth.org/
 -fmt: 10.0.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
--freetype: 2.13.0 http://sourceforge.net/projects/freetype/files/freetype2/
+-freetype: 2.13.0 to 2.13.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.13 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
