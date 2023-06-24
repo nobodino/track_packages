@@ -148,7 +148,7 @@ A series :
 --------------------
 Ap series :
 --------------------
--a2ps: 4.15.4 to 4.15.5 http://ftp.gnu.org/gnu/a2ps/ 
+-a2ps: 4.15.5 http://ftp.gnu.org/gnu/a2ps/ 
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
 -alsa-utils: 1.2.9 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
@@ -174,7 +174,7 @@ Ap series :
 -dmidecode: 3.5 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
--flac: 1.4.2 http://downloads.xiph.org/releases/flac/
+-flac: 1.4.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 10.01.2 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1627 to 1649 https://github.com/vim/vim/commits/master
+-vim: 9.0.1627 to 1657 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1627
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -635,7 +635,7 @@ l series:
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.5.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.36 to 1.1.38 https://download.gnome.org/sources/libxslt/1.1/
--libzip: 1.9.1 to 1.9.2 https://libzip.org/download/
+-libzip: 1.10.0 https://libzip.org/download/
 -lmdb: 0.9.30 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
 -lz4: 1.9.4 https://github.com/lz4/lz4/releases
@@ -680,7 +680,7 @@ l series:
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
--pycairo: 1.20.1 to 1.23.0 https://github.com/pygobject/pycairo/releases
+-pycairo: 1.20.1 to 1.24.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.2 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -729,7 +729,7 @@ l series:
 -python-zipp: 3.8.0 to 3.15.0 https://pypi.org/project/zipp
 -qca: 2.3.6 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.9_20230523 to 5.15.10 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.10_20230614 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -1107,7 +1107,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1627 to 1649 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1627 to 1657 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 114.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
