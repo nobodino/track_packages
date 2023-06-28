@@ -133,7 +133,7 @@ A series :
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.38.1 to 2.39
+-util-linux: 2.38.1 to 2.39.1
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1667 to 1668 https://github.com/vim/vim/commits/master
+-vim: 9.0.1667 to 1670 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1667
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -348,7 +348,7 @@ d series:
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.3 https://github.com/strace/strace/releases
+-strace: 6.3 to 6.4 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.8 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -1107,7 +1107,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1667 to 1668 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1667 to 1670 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 114.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
