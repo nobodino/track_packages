@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.35 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230620 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.36 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230625 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -133,11 +133,11 @@ A series :
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.38.1 to 2.39.1
+-util-linux: 2.39.1
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
-	- util-linux: 2.38.1 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.39.1 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
@@ -245,7 +245,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.42.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.13p3 (to 1.9.14rc1) http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.14 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.3 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1667 to 1670 https://github.com/vim/vim/commits/master
+-vim: 9.0.1667 to 1671 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1667
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.35 http://wwww.kernel.org
+-kernel-headers: 6.1.36 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -348,7 +348,7 @@ d series:
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.3 to 6.4 https://github.com/strace/strace/releases
+-strace: 6.4 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -vala: 0.56.8 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.35
+-kernel : 6.1.36
 --------------------
 kde series :
 --------------------
@@ -784,7 +784,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.42.6 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.42.8 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -827,7 +827,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.3.0 to 6.4.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.4.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.17 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -1071,7 +1071,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 382 http://invisible-island.net/xterm/
+-xterm: 383 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1107,7 +1107,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1667 to 1670 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1667 to 1671 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 114.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1140,7 +1140,7 @@ xap series:
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.06 http://www.jwz.org/xscreensaver/python*
--xsnow: 3.7.4 https://sourceforge.net/projects/xsnow/files/
+-xsnow: 3.7.5 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.18 https://gitlab.xfce.org/xfce/
 --------------------
