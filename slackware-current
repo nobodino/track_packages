@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.26.4 (to 3.27.0rc3) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.26.4 (to 3.27.0rc4) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -464,7 +464,7 @@ l series:
 -gjs: 1.76.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.76.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.76.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.76.3 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.74/
 -glibmm: 2.66.6 to 2.74.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 http://ftp.gnu.org/pub/gnu/glibc/
@@ -494,7 +494,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.50.4 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.50.5 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 7.3.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -584,7 +584,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpaper: 2.1.0 https://github.com/rrthomas/libpaper
+-libpaper: 2.1.1 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.40 http://sourceforge.net/projects/libpng/files/libpng16/
@@ -593,7 +593,7 @@ l series:
 -libqalculate: 4.6.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.1 to 2.56.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -624,7 +624,7 @@ l series:
 -libvncserver: 0.9.14 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.13.0 https://github.com/webmproject/libvpx/tags
--libwebp: 1.3.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
+-libwebp: 1.3.1 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
 -libwmf: 0.2.13 https://github.com/caolanm/libwmf/releases
 -libwnck3: 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
@@ -644,20 +644,20 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.16.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.90 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.90 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.91 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.91 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0p7 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.02.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.03.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.3.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
--opencv: 4.7.0 https://github.com/opencv/opencv/releases
+-opencv: 4.8.0 https://github.com/opencv/opencv/releases
 -openexr: 3.1.9 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
@@ -791,7 +791,7 @@ n series:
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.16 http://ftp.isc.org/isc/bind9
--bluez: 5.66 http://www.bluez.org/download/
+-bluez: 5.67 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -897,12 +897,12 @@ n series:
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.4 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
--openresolv: 3.13.1 https://roy.marples.name/downloads/openresolv/
+-openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.3p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1u http://ftp.openssl.org/source/
 -openssl: 3.1.1 http://ftp.openssl.org/source/
 -openvpn: 2.6.5 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.24.1 https://github.com/p11-glue/p11-kit/releases
+-p11-kit: 0.25.0 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.7 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
