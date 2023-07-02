@@ -64,14 +64,14 @@ A series :
 -inotify-tools: 3.22.6.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.6.0 https://www.kernel.org/pub/linux/utils/kbd/ (need "check-0.10.0" from SBo)
--kernel-ide: 6.1.36 https://www.kernel.org/pub/linux/kernel/
+-kbd: 1.15.3 to 1.15.5/2.6.1 https://github.com/legionus/kbd/releases
+-kernel-ide: 6.1.37 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230625 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
--libblockdev: 2.28 https://github.com/rhinstaller/libblockdev
+-libblockdev: 2.28 to 3.0 (need libnvme) https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
@@ -126,7 +126,7 @@ A series :
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or https://git.savannah.gnu.org/cgit/time.git/log/
 -tree: 2.1.1 http://mama.indstate.edu/users/ice/tree/
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
--udisks2: 2.9.4 https://github.com/storaged-project/udisks/releases
+-udisks2: 2.9.4 to 2.10.0 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 1.90.0 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1667 to 1671 https://github.com/vim/vim/commits/master
+-vim: 9.0.1667 to 1672 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1667
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.36 http://wwww.kernel.org
+-kernel-headers: 6.1.37 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.36
+-kernel : 6.1.37
 --------------------
 kde series :
 --------------------
@@ -593,7 +593,7 @@ l series:
 -libqalculate: 4.6.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.1 to 2.56.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -617,7 +617,7 @@ l series:
 -libusb: 1.0.26 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20200615 to 20220605 (nok) http://www.libimobiledevice.org/
--libuv: 1.44.2 to 1.45.0 https://dist.libuv.org/dist
+-libuv: 1.46.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.0 to 0.4.1 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.0 to 0.4.1 http://sourceforge.net/projects/libvisual/
@@ -762,7 +762,7 @@ l series:
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.13 https://taglib.github.io/
+-taglib: 1.13.1 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
 -talloc: 2.4.0 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
@@ -791,7 +791,7 @@ n series:
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.16 http://ftp.isc.org/isc/bind9
--bluez: 5.67 http://www.bluez.org/download/
+-bluez: 5.68 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -1107,7 +1107,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1667 to 1671 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1667 to 1672 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 114.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
