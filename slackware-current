@@ -73,7 +73,7 @@ A series :
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 to 3.0 (need libnvme) https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
--libgudev: 237 https://download.gnome.org/sources/libgudev/
+-libgudev: 237 to 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
@@ -128,7 +128,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.9.4 to 2.10.0 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 1.90.1 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 1.90.1 to 1.90.2 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
@@ -183,7 +183,7 @@ Ap series :
 -hplip: 3.20.6 to 3.23.05 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.27_1 https://github.com/smxi/inxi/tags
+-inxi: 3.3.28_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -245,7 +245,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.42.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.14 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.14p1 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.3 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -343,7 +343,7 @@ d series:
 -re2c: 3.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.2 http://www.ruby-lang.org/
--rust: 1.69.0 https://rust-lang.org
+-rust: 1.70.0 https://rust-lang.org
 -rust-bindgen: 0.66.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
@@ -495,7 +495,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.50.5 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.0.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -636,7 +636,7 @@ l series:
 -libxkbcommon: 1.5.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.36 to 1.1.38 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.10.0 https://libzip.org/download/
--lmdb: 0.9.30 https://github.com/LMDB/lmdb/tags
+-lmdb: 0.9.31 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
 -lz4: 1.9.4 https://github.com/lz4/lz4/releases
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
@@ -672,7 +672,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.73 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.74 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -836,7 +836,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.4 https://github.com/irssi/irssi/releases
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.21 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.21.1 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.6 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.2 https://www.gnupg.org/download/index.html
@@ -853,7 +853,7 @@ n series:
 -libnetfilter_log: 1.0.1 to 1.0.2 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
--libnftnl: 1.2.5 http://ftp.netfilter.org/pub/libnftnl/
+-libnftnl: 1.2.6 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.32.4 to 1.33.2 (beta:new API) https://github.com/freedesktop/libqmi/tags
 -libtirpc: 1.3.3 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.29 http://links.twibright.com/download.php
@@ -888,14 +888,14 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.7 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.54.0 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.55.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p17 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.6.4 https://ftp.openldap.org/software/download/
+-openldap: 2.6.5 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.3p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
@@ -904,7 +904,7 @@ n series:
 -openvpn: 2.6.5 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.0 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.2.5 http://www.php.net/distributions/
+-php: 8.2.8 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1071,7 +1071,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 383 http://invisible-island.net/xterm/
+-xterm: 384 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1110,7 +1110,7 @@ xap series:
 -gvim: 9.0.1672 to 1677 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 115.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 102.13.0 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
@@ -1200,7 +1200,7 @@ extra:
 -xv: 4.1.1
 --------------------
 testing :
--rust: 1.70.0
+-mozilla-thunderbird: 115.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
