@@ -517,7 +517,7 @@ l series:
 -lame: 3.100 https://sourceforge.net/projects/lame/files/lame/3.100/
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
 -lcms2: 2.15 http://sourceforge.net/projects/lcms/files/lcms/
--lensfun: 0.3.3 https://github.com/lensfun/lensfun/releases
+-lensfun: 0.3.4 https://github.com/lensfun/lensfun/releases
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
@@ -926,7 +926,7 @@ n series:
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
--stunnel: 5.69 https://www.stunnel.org/downloads.html
+-stunnel: 5.70 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.4 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
