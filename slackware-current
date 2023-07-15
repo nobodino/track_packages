@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1672 to 1677 https://github.com/vim/vim/commits/master
-	- vim: 9.0.1667
+-vim: 9.0.1677 to 167x https://github.com/vim/vim/commits/master
+	- vim: 9.0.1677
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.26.4 (to 3.27.0rc4) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.26.4 (to 3.27.0rc5) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -887,7 +887,7 @@ n series:
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
--nftables: 1.0.7 http://www.netfilter.org/projects/nftables/
+-nftables: 1.0.8 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.55.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -1107,7 +1107,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1672 to 1677 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1677 to 167x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1201,6 +1201,7 @@ extra:
 --------------------
 testing :
 -mozilla-thunderbird: 115.0
+-rust: 1.71.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
