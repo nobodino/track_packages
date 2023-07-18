@@ -245,7 +245,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.42.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.14p1 http://www.courtesan.com/sudo/current.html
+-sudo: 1.9.14p2 http://www.courtesan.com/sudo/current.html
 -sysstat: 12.7.4 http://sebastien.godard.pagesperso-orange.fr/download.html
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.0.3 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -301,7 +301,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.5 https://www.mercurial-scm.org/release
--meson: 1.1.1 https://github.com/mesonbuild/meson/releases
+-meson: 1.2.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2023.02.06 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -501,7 +501,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 73.2 https://icu.unicode.org/
--imagemagick: 7.1.1_12 http://www.imagemagick.org/
+-imagemagick: 7.1.1_13 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -888,7 +888,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.8 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.55.0 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.55.1 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
@@ -1120,8 +1120,8 @@ xap series:
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.26 to 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.0.32
-	- sane-backend : 1.0.32 to 1.2.1 https://gitlab.com/sane-project/backends/-/tags
+-sane: 1.1.1
+	- sane-backend : 1.2.1 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
 -seamonkey: 2.53.16 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
@@ -1134,7 +1134,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
 -xine-ui: 0.9.14 https://sourceforge.net/projects/xine/
--xlockmore: 5.71 https://www.tux.org/~bagleyd/xlockmore.html
+-xlockmore: 5.72 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
@@ -1197,7 +1197,7 @@ extra:
 -tigervnc: 1.13.1 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
--xv: 4.1.1
+-xv: 4.2.0
 --------------------
 testing :
 -mozilla-thunderbird: 115.0
