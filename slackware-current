@@ -65,13 +65,13 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.39 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230707 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.41 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230724 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
--libblockdev: 2.28 to 3.0 (need libnvme) https://github.com/rhinstaller/libblockdev
+-libblockdev: 2.28 to 3.0.2 (need libnvme) https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 to 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.39 http://wwww.kernel.org
+-kernel-headers: 6.1.41 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -308,7 +308,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20230622 https://www.gnu.org/software/parallel/
+-parallel: 20230722 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
@@ -337,7 +337,7 @@ d series:
 -poke: 3.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.17 to 3.10.12/3.11.4 (new API) https://www.python.org/downloads/
--python-pip: 22.2.2 to 23.1.1 https://pypi.python.org/pypi/pip
+-python-pip: 22.2.2 to 23.2.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 67.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.39
+-kernel : 6.1.41
 --------------------
 kde series :
 --------------------
@@ -501,7 +501,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 73.2 https://icu.unicode.org/
--imagemagick: 7.1.1_13 http://www.imagemagick.org/
+-imagemagick: 7.1.1_14 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -521,7 +521,7 @@ l series:
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.6.2 to 3.7.0 http://www.libarchive.org/downloads/
+-libarchive: 3.7.0 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
 -libbluray: 1.3.4 https://code.videolan.org/videolan/libbluray/-/tags
@@ -594,7 +594,7 @@ l series:
 -libqalculate: 4.7.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -654,7 +654,7 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.03.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 20.4.0 https://nodejs.org/dist
+-nodejs: 20.5.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -673,7 +673,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.74 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.75 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -765,11 +765,11 @@ l series:
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.13.1 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
--talloc: 2.4.0 https://www.samba.org/ftp/talloc/
+-talloc: 2.4.1 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
 -tdb: 1.4.9 https://www.samba.org/ftp/tdb/
--tevent: 0.14.1 https://www.samba.org/ftp/tevent/
+-tevent: 0.15.0 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
@@ -778,7 +778,7 @@ l series:
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
 -xapian-core: 1.4.23 http://www.xapian.org/
--xxHash: 0.8.1 https://github.com/Cyan4973/xxHash/releases
+-xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
 -zlib: 1.2.13 https://zlib.net/
 -zstd: 1.5.5 https://github.com/facebook/zstd/releases
 --------------------
@@ -797,7 +797,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20230506 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20230821 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.19.1 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.7 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -942,7 +942,7 @@ n series:
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.4 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.0.1 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.17 https://github.com/rfc1036/whois/tags
+-whois: 5.5.18 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.10 https://w1.fi/wpa_supplicant/
@@ -990,7 +990,7 @@ x series: (main packages)
 -fontconfig: 2.13.92 to 2.14.2 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
--glu: 9.0.2 http://cgit.freedesktop.org/mesa/glu/
+-glu: 9.0.3 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.28 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
@@ -1186,7 +1186,7 @@ extra:
 -aspell-word-list: 0.50.4
 -bash-completion: 2.11 https://github.com/scop/bash-completion/releases
 -bittornado: 0.3.18 
--brltty: 6.4 to 6.5 http://mielke.cc/brltty/
+-brltty: 6.6 http://mielke.cc/brltty/
 -emacspeak: 53.0
 -fltk: 1.3.8 http://www.fltk.org
 -getty-ps: 2.1.0b
