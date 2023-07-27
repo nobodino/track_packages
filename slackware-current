@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.0 to 3.27.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86
@@ -418,7 +418,7 @@ l series:
 -brotli: 1.0.9 https://github.com/google/brotli/releases
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2 http://cairographics.org/cairomm/
--cfitsio: 4.2.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
+-cfitsio: 4.3.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -cryfs: 0.10.3 to 0.11.3 https://github.com/cryfs/cryfs/releases
@@ -804,7 +804,7 @@ n series:
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2023.06.03 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.2.0 http://curl.haxx.se/download/
+-curl: 8.2.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.2 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -1036,7 +1036,7 @@ x series: (main packages)
 -mesa: 23.2.0_rc1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
--m17n-lib: 1.8.2 http://m17n.nongnu.org
+-m17n-lib: 1.8.3 http://m17n.nongnu.org
 -mypaint-brushes: 1.3.0 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/notofonts/noto-fonts/releases
