@@ -13,7 +13,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.3.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.3.3 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.3 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.14 http://ftp.gnu.org/pub/gnu/cpio/
@@ -36,7 +36,7 @@ A series :
 -eudev: 3.2.12 https://github.com/eudev-project/eudev
 -exfatprogs: 1.2.0 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
--file: 5.44 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
+-file: 5.45 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
@@ -65,7 +65,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.41 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.42 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -283,7 +283,7 @@ d series:
 -distcc: 3.4 https://github.com/distcc/distcc/releases
 -doxygen: 1.9.5 to 1.9.7 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
--gcc: 13.1 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.41.0 http://git-scm.com/download
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.41 http://wwww.kernel.org
+-kernel-headers: 6.1.42 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.41
+-kernel : 6.1.42
 --------------------
 kde series :
 --------------------
@@ -645,8 +645,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.16.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.91 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.91 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.92 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.92 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0p12 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -673,7 +673,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.75 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.76 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.122 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -724,7 +724,7 @@ l series:
 -python-setuptools_scm: 6.4.2 to 7.1.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
--python-sphinx: 4.5.0 to 7.1.0 https://pypi.org/project/sphinx
+-python-sphinx: 4.5.0 to 7.1.1 https://pypi.org/project/sphinx
 -python-tomli: 1.2.2 to 2.0.1 https://pypi.org/project/tomli
 -python-urllib3: 1.26.8 to 1.26.15 (2.0.0a2) https://github.com/urllib3/urllib3/releases
 -python-zipp: 3.8.0 to 3.15.0 https://pypi.org/project/zipp
@@ -922,7 +922,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.5 https://ftp.samba.org/pub/samba/
+-samba: 4.18.5 (to 4.19.0rc1) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
