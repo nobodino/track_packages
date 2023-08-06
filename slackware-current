@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.372 https://github.com/vcrhonek/hwdata
+-hwdata: 0.373 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.42 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.43 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230731 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.5.0 to 2.5.1 https://github.com/troglobit/sysklogd/releases
+-sysklogd: 2.5.1 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
 -sysvinit: 3.07 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
@@ -142,7 +142,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.4.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.4.3 to 5.4.4 http://tukaani.org/xz/
+-xz: 5.4.4 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -217,7 +217,7 @@ Ap series :
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 https://gitlab.com/man-db/man-db/-/tags
--man-pages: 6.05 to 6.05.01 http://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.05.01 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.4 http://mariadb.org/
 -mc: 4.8.29 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
@@ -286,7 +286,7 @@ d series:
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.41.0 http://git-scm.com/download
+-git: 2.41.0 (to 2.42.0.rc0) ttp://git-scm.com/download
 -gnucobol: 3.1.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.42 http://wwww.kernel.org
+-kernel-headers: 6.1.43 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.42
+-kernel : 6.1.43
 --------------------
 kde series :
 --------------------
@@ -391,7 +391,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.9 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.14.1 http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 -QtAV: 20220226 https://github.com/wang-bin/QtAV
--SDL2: 2.28.1 to 2.28.2 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.28.2 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.3 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.3 https://www.libsdl.org/projects/SDL2_mixer/
@@ -489,14 +489,14 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.10.4 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.10.4 to 4.10.5/4.12.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.50.5 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.1.0 to 8.1.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.1.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -649,11 +649,11 @@ l series:
 -mozilla-nss: 3.92 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.92 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs102: 102.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs102: 102.14.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.0p12 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.03.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.03.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.5.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -674,11 +674,11 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.76 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.77 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.07.0 to 23.08.0 http://poppler.freedesktop.org/
+-poppler: 23.08.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -741,7 +741,7 @@ l series:
 -rubygem-asciidoctor: 2.0.18 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 to 2.0 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.10 http://serf.apache.org/
--sg3_utils: 1.47 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.47 to 1.48 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -821,7 +821,7 @@ n series:
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.3 https://www.gnupg.org/download/index.html
--gnutls: 3.8.0 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.0 to 3.8.1 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.21.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1112,8 +1112,8 @@ xap series:
 -gvim: 9.0.1677 to 167x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.0.3esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 102.13.1 https://www.thunderbird.net/
+-mozilla-firefox: 115.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.1.0 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1202,8 +1202,7 @@ extra:
 -xv: 4.2.0
 --------------------
 testing :
--mozilla-thunderbird: 115.0 to 115.0.1
--rust: 1.71.0
+-rust: 1.71.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
