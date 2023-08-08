@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 http://www.libimobiledevice.org/
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1677 to 167x https://github.com/vim/vim/commits/master
-	- vim: 9.0.1677
+-vim: 9.0.1678 to 167x https://github.com/vim/vim/commits/master
+	- vim: 9.0.1678
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -300,7 +300,7 @@ d series:
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.5 https://www.mercurial-scm.org/release
+-mercurial: 6.5.1 https://www.mercurial-scm.org/release
 -meson: 1.2.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
@@ -352,7 +352,7 @@ d series:
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
--vala: 0.56.9 https://gitlab.gnome.org/GNOME/vala/-/tags
+-vala: 0.56.10 https://gitlab.gnome.org/GNOME/vala/-/tags
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -489,13 +489,13 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.10.4 to 4.10.5/4.12.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
+-gtk4: 4.10.5 to 4.12.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.8/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.50.5 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.50.6 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 8.1.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -653,7 +653,7 @@ l series:
 -mpfr: 4.2.0p12 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.03.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.03.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.5.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -741,7 +741,7 @@ l series:
 -rubygem-asciidoctor: 2.0.18 https://rubygems.org/gems/asciidoctor
 -sbc: 1.5 to 2.0 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.10 http://serf.apache.org/
--sg3_utils: 1.47 to 1.48 http://sg.danny.cz/sg/sg3_utils.html
+-sg3_utils: 1.48 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
 	-SDL: 1.2.15
 	-SDL_image: 1.2.12 https://www.libsdl.org/projects/SDL_image/
@@ -756,7 +756,7 @@ l series:
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
 -sof-firmware: 2.2.6 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
--speech-dispatcher: 0.11.4 https://github.com/brailcom/speechd/releases
+-speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
 -spirv-llvm-translator: 16.0.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
@@ -821,7 +821,7 @@ n series:
 -getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.3 https://www.gnupg.org/download/index.html
--gnutls: 3.8.0 to 3.8.1 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.1 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.21.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1109,10 +1109,10 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1677 to 167x https://github.com/vim/vim/commits/master
+-gvim: 9.0.1678 to 167x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 115.1.0esr to 116.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 115.1.0 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
@@ -1128,7 +1128,7 @@ xap series:
 -seamonkey: 2.53.17 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
--windowmaker: 0.95.8 to 0.95.9 https://github.com/window-maker/wmaker/releases/
+-windowmaker: 0.95.8 to 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
 -x3270: 4.0ga14 to 4.2ga10 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 https://github.com/xaos-project/XaoS/releases
