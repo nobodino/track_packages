@@ -65,11 +65,11 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.44 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230808 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.45 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 633 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 633 to 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 to 3.0.2 (need libnvme) https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 to 2.9 https://github.com/rhinstaller/libbytesize
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1683 to 168x https://github.com/vim/vim/commits/master
-	- vim: 9.0.1683
+-vim: 9.0.1697 to 1699 https://github.com/vim/vim/commits/master
+	- vim: 9.0.1697
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.1 to 3.27.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.44 http://wwww.kernel.org
+-kernel-headers: 6.1.45 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.44
+-kernel : 6.1.45
 --------------------
 kde series :
 --------------------
@@ -415,7 +415,7 @@ l series:
 -atkmm: 2.28.3 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
--boost: 1.82.0 (to 1.83.0.beta1) https://github.com/boostorg/boost
+-boost: 1.83.0 https://github.com/boostorg/boost
 -brotli: 1.0.9 https://github.com/google/brotli/releases
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2/1.17.1 http://cairographics.org/cairomm/
@@ -446,7 +446,7 @@ l series:
 -ffmpeg: 5.1.3 to 6.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.3 http://www.fluidsynth.org/
--fmt: 10.0.0 https://github.com/fmtlib/fmt/releases/
+-fmt: 10.1.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.1 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
@@ -504,7 +504,7 @@ l series:
 -icu4c: 73.2 https://icu.unicode.org/
 -imagemagick: 7.1.1_15 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
--iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes/-/tags
+-iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
 -jasper: 4.0.0 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
@@ -529,7 +529,7 @@ l series:
 -libburn: 1.5.6 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca/releases
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
--libcap: 2.6p http://sites.google.com/site/fullycapable/
+-libcap: 2.69 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.3 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
@@ -553,8 +553,8 @@ l series:
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.50 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
--libgtop: 2.40.0 https://gitlab.gnome.org/GNOME/libgtop/-/tags
--libhandy: 1.8.2
+-libgtop: 2.40.0 to 2.41.1 https://gitlab.gnome.org/GNOME/libgtop/-/tags
+-libhandy: 1.8.2 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
 -libical: 3.0.16 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
@@ -1117,7 +1117,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1683 to 168x https://github.com/vim/vim/commits/master
+-gvim: 9.0.1697 to 1699 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
