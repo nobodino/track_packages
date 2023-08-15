@@ -218,8 +218,8 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.11.2 (to 2.12.0-pre2) https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.05.01 http://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.11.4 http://mariadb.org/
--mc: 4.8.29 http://www.midnight-commander.org/downloads/
+-mariadb: 10.11.5 http://mariadb.org/
+-mc: 4.8.30 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.31.3 http://sourceforge.net/projects/mpg123/files/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1697 to 1699 https://github.com/vim/vim/commits/master
+-vim: 9.0.1697 to 1712 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1697
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -352,7 +352,7 @@ d series:
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
--vala: 0.56.10 https://gitlab.gnome.org/GNOME/vala/-/tags
+-vala: 0.56.11 https://gitlab.gnome.org/GNOME/vala/-/tags
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -509,7 +509,7 @@ l series:
 -jasper: 4.0.0 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
--json-c: 0.16_20220414 https://github.com/json-c/json-c/tags
+-json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
 -json-glib: 1.6.6 https://gitlab.gnome.org/GNOME/json-glib/-/tags
 -judy: 1.0.5 https://sourceforge.net/projects/judy/files/
 -kdsoap: 2.1.1 https://github.com/KDAB/KDSoap/releases
@@ -601,9 +601,9 @@ l series:
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libsigc++3: 3.4.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libseccomp: 2.5.4 https://github.com/seccomp/libseccomp/releases
--libsecret: 0.20.5 http://ftp.gnome.org/pub/gnome/sources/libsecret/
+-libsecret: 0.20.5 to 0.21.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
--libsndfile: 1.2.0 https://github.com/libsndfile/libsndfile/releases
+-libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
 -libsoup3: 3.4.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
@@ -660,12 +660,12 @@ l series:
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.8.0 https://github.com/opencv/opencv/releases
--openexr: 3.1.9 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.1.11 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.34 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.50.14 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.50.14 to 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
@@ -681,7 +681,7 @@ l series:
 -poppler: 23.08.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
--pulseaudio: 16.1 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
+-pulseaudio: 16.1 (to 16.99.1) https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.20.1 to 1.24.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.2 http://pycurl.io/
@@ -736,7 +736,7 @@ l series:
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-urllib3: 1.26.8 to 2.0.4 https://github.com/urllib3/urllib3/releases
 -python-wheel: 0.41.1 https://pypi.org/project/wheel/#files
--python-zipp: 3.8.0 to 3.15.0 https://pypi.org/project/zipp
+-python-zipp: 3.8.0 to 3.16.2 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.10_20230614 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
@@ -1117,7 +1117,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1697 to 1699 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1697 to 1712 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
