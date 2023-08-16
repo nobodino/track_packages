@@ -64,7 +64,7 @@ A series :
 -inotify-tools: 3.22.6.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.6.1 https://github.com/legionus/kbd/releases
+-kbd: 1.15.3 to 1.15.5/2.6.2 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.1.45 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -111,7 +111,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.13 (to 4.14.0rc2) https://github.com/shadow-maint/shadow/releases
+-shadow: 4.13 to 4.14.0 https://github.com/shadow-maint/shadow/releases
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1697 to 1712 https://github.com/vim/vim/commits/master
+-vim: 9.0.1697 to 1719 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1697
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -286,7 +286,7 @@ d series:
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.41.0 (to 2.42.0.rc0) https://git-scm.com/download
+-git: 2.41.0 (to 2.42.0.rc2) https://git-scm.com/download
 -gnucobol: 3.1.2 to 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -800,7 +800,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.17 http://ftp.isc.org/isc/bind9
+-bind: 9.18.17 to 9.18.18 http://ftp.isc.org/isc/bind9
 -bluez: 5.68 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -846,7 +846,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.4 https://github.com/irssi/irssi/releases
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.21.1 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.21.1 to 1.21.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.6 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.2 https://www.gnupg.org/download/index.html
@@ -875,7 +875,7 @@ n series:
 -mutt: 2.2.10 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
--net-snmp: 5.9.3 https://sourceforge.net/projects/net-snmp/files/net-snmp/
+-net-snmp: 5.9.3 to 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 3.1.15 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
@@ -911,7 +911,7 @@ n series:
 -openssh: 9.4p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1v http://ftp.openssl.org/source/
 -openssl: 3.1.2 http://ftp.openssl.org/source/
--openvpn: 2.6.5 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.5 to 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.0 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.8 http://www.php.net/distributions/
@@ -1117,11 +1117,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1697 to 1712 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1697 to 1719 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.1.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.1.0 to 115.1.1 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
