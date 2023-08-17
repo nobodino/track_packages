@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.2 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.45 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.46 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230814 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 633 to 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -183,7 +183,7 @@ Ap series :
 -hplip: 3.20.6 to 3.23.05 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.28_1 https://github.com/smxi/inxi/tags
+-inxi: 3.3.29_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1697 to 1719 https://github.com/vim/vim/commits/master
+-vim: 9.0.1697 to 1721 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1697
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.2 to 3.27.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.45 http://wwww.kernel.org
+-kernel-headers: 6.1.46 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.45
+-kernel : 6.1.46
 --------------------
 kde series :
 --------------------
@@ -800,7 +800,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.8 to 5.1.8 + /patches-5.1.9/ https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.17 to 9.18.18 http://ftp.isc.org/isc/bind9
+-bind: 9.18.18 http://ftp.isc.org/isc/bind9
 -bluez: 5.68 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -875,7 +875,7 @@ n series:
 -mutt: 2.2.10 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
--net-snmp: 5.9.3 to 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
+-net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 3.1.15 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
@@ -911,10 +911,10 @@ n series:
 -openssh: 9.4p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1v http://ftp.openssl.org/source/
 -openssl: 3.1.2 http://ftp.openssl.org/source/
--openvpn: 2.6.5 to 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.0 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.2.8 http://www.php.net/distributions/
+-php: 8.2.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -931,7 +931,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.5 (to 4.19.0rc2) https://ftp.samba.org/pub/samba/
+-samba: 4.18.5 to 4.18.6 (to 4.19.0rc2) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1066,7 +1066,7 @@ x series: (main packages)
 -xkeyboard-config: 2.39
 -xorgproto: 2023.2
 -xorg-server: 21.1.8 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 23.1.2
+-xorg-server-xwayland: 23.2.0
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.0
 -xf86-video-amdgpu: 23.0.0 to 20230222
@@ -1117,11 +1117,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1697 to 1719 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1697 to 1721 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.1.0esr to 116.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.1.0 to 115.1.1 https://www.thunderbird.net/
+-mozilla-firefox: 115.1.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.1.1 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
