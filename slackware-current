@@ -118,7 +118,7 @@ A series :
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
 -sysklogd: 2.5.1 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
--sysvinit: 3.07 https://github.com/slicer69/sysvinit/releases
+-sysvinit: 3.07 to 3.08 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.35 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -133,11 +133,11 @@ A series :
 -usbutils: 015 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.39.1
+-util-linux: 2.39.2
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
-	- util-linux: 2.39.1 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.39.2 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
@@ -236,7 +236,7 @@ Ap series :
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
 -sc-im: 0.8.3 https://github.com/andmarti1424/sc-im
--screen: 4.9.0 https://ftp.gnu.org/gnu/screen/
+-screen: 4.9.1 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 http://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1697 to 1721 https://github.com/vim/vim/commits/master
+-vim: 9.0.1697 to 1736 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1697
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.2 to 3.27.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -378,7 +378,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.27.7 (plasma) https://download.kde.org/stable/
--kde: 5.108.0 (framework) https://download.kde.org/stable/
+-kde: 5.109.0 (framework) https://download.kde.org/stable/
 -kde: 23.04.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -872,7 +872,7 @@ n series:
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20230416 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
--mutt: 2.2.10 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.10 to 2.2.11 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
@@ -931,7 +931,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.5 to 4.18.6 (to 4.19.0rc2) https://ftp.samba.org/pub/samba/
+-samba: 4.18.6 (to 4.19.0rc2) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1029,7 +1029,7 @@ x series: (main packages)
 -libwacom: 2.7.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.15 
 -libXaw3dXft: 1.6.2h
--libxcb: 1.15
+-libxcb: 1.16
 -libXcm: 0.5.4
 -libXext: 1.3.5
 -libXfont2: 2.0.6
@@ -1057,7 +1057,7 @@ x series: (main packages)
 -wayland: 1.22.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.32 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
--xcb-proto: 1.15.2
+-xcb-proto: 1.16.0
 -xdg-desktop-portal: 1.16.0
 -xdg-user-dirs: 0.18
 -xdg-utils: 1.1.3 https://freedesktop.org/wiki/Software/xdg-utils/
@@ -1117,7 +1117,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1697 to 1721 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1697 to 1736 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
