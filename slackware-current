@@ -51,7 +51,7 @@ A series :
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 (to 2.12-rc1) http://ftp.gnu.org/gnu/grub/
--gzip: 1.12 to 1.13 http://ftp.gnu.org/pub/gnu/gzip/
+-gzip: 1.13 http://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
@@ -69,7 +69,7 @@ A series :
 -kernel-firmware: 20230814 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 633 to 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 2.28 to 3.0.2 (need libnvme) https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 to 2.9 https://github.com/rhinstaller/libbytesize
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1736 to 1757 https://github.com/vim/vim/commits/master
-	- vim: 9.0.1736
+-vim: 9.0.1776 to 1778 https://github.com/vim/vim/commits/master
+	- vim: 9.0.1776
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -335,7 +335,7 @@ d series:
 	- perl: 5.38.0 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz
--poke: 3.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.17 to 3.10.12/3.11.4 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.2.1 https://pypi.python.org/pypi/pip
@@ -654,7 +654,7 @@ l series:
 -mpfr: 4.2.0p12 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.03.03 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.03.04 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.5.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -1118,7 +1118,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1736 to 1757 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1776 to 1778 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
