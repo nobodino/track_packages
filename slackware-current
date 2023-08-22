@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1776 to 1778 https://github.com/vim/vim/commits/master
-	- vim: 9.0.1776
+-vim: 9.0.1778 to 17xx https://github.com/vim/vim/commits/master
+	- vim: 9.0.1778
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -286,7 +286,7 @@ d series:
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.41.0 (to 2.42.0.rc2) https://git-scm.com/download
+-git: 2.42.0 https://git-scm.com/download
 -gnucobol: 3.1.2 to 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -453,7 +453,7 @@ l series:
 -frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.13 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.15.0 to 3.16.1 https://github.com/libfuse/libfuse/releases
+-fuse3: 3.16.1 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.4 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0 to gcr-4.1.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
@@ -816,7 +816,7 @@ n series:
 	- wireless-regdb: 2023.06.03 http://kernel.org/pub/software/network/wireless-regdb/
 -curl: 8.2.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
--daemon: 0.8.2 http://libslack.org/daemon/
+-daemon: 0.8.3 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 10.0.2 http://roy.marples.name/downloads/dhcpcd
@@ -832,7 +832,7 @@ n series:
 -gnupg2: 2.4.3 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.1 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
--gpgme: 1.21.0 https://www.gnupg.org/download/index.html
+-gpgme: 1.22.0 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.57 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
@@ -1118,7 +1118,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1776 to 1778 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1778 to 17xx https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
