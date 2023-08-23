@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1778 to 17xx https://github.com/vim/vim/commits/master
+-vim: 9.0.1778 to 1783 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1778
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -651,7 +651,7 @@ l series:
 	- nss: 3.92 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.14.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
--mpfr: 4.2.0p12 to 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
+-mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.03.04 https://sourceforge.net/p/netpbm/code/HEAD/tree/
@@ -675,7 +675,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.77 to 0.3.78 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.78 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -827,7 +827,7 @@ n series:
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
 -ethtool: 5.19 to 6.4 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
--getmail: 6.18.12 https://github.com/getmail6/getmail6/releases
+-getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.3 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.1 http://www.gnu.org/software/gnutls/
@@ -1008,7 +1008,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
--libime: 1.0.17 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.1.0 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.5
 -libdmx: 1.1.4
@@ -1118,7 +1118,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1778 to 17xx https://github.com/vim/vim/commits/master
+-gvim: 9.0.1778 to 1783 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1179,7 +1179,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-settings: 4.18.3
 -xfce4-systemload-plugin: 1.3.2
 -xfce4-taskmanager: 1.5.5
--xfce4-terminal: 1.0.4
+-xfce4-terminal: 1.1.0
 -xfce4-weather-plugin: 0.11.1
 -xfce4-whiskermenu-plugin: 2.7.3
 -xfconf: 4.18.1
