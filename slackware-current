@@ -65,7 +65,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.2 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.46 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.47 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230814 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1778 to 1783 https://github.com/vim/vim/commits/master
+-vim: 9.0.1778 to 1787 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1778
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.3 to 3.27.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.46 http://wwww.kernel.org
+-kernel-headers: 6.1.47 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -309,7 +309,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20230722 https://www.gnu.org/software/parallel/
+-parallel: 20230722 to 20230822 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
@@ -374,7 +374,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.46
+-kernel : 6.1.47
 --------------------
 kde series :
 --------------------
@@ -593,7 +593,7 @@ l series:
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.2 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 4.7.0 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 4.8.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.56.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -638,7 +638,7 @@ l series:
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.5.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.36 to 1.1.38 https://download.gnome.org/sources/libxslt/1.1/
--libzip: 1.10.0 https://libzip.org/download/
+-libzip: 1.10.1 https://libzip.org/download/
 -lmdb: 0.9.31 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
 -lz4: 1.9.4 https://github.com/lz4/lz4/releases
@@ -1008,12 +1008,12 @@ x series: (main packages)
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
--libime: 1.1.0 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.5
 -libdmx: 1.1.4
 -libpciaccess: 0.17
--libdrm: 2.4.115 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.116 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.1 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
@@ -1118,7 +1118,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1778 to 1783 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1778 to 1787 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.1.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1165,7 +1165,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -thunar: 4.18.6 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.1
--xfce4-appfinder: 4.18.0
+-xfce4-appfinder: 4.18.1
 -xfce4-clipman-plugin: 1.6.4
 -xfce4-dev-tools: 4.18.0
 -xfce4-notifyd: 0.8.1
