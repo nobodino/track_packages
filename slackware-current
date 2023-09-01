@@ -103,7 +103,7 @@ A series :
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.10 https://download.savannah.gnu.org/releases/lzip/plzip/
--procps-ng: 3.3.17 to 4.0.3
+-procps-ng: 3.3.17 to 4.0.4
 	-procps-ng: 3.3.17 https://gitlab.com/procps-ng/procps/-/tags
 	-psmisc: 23.3 to 23.6 https://sourceforge.net/projects/psmisc/files/psmisc/
 -quota: 4.09 http://www.sf.net/projects/linuxquota/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1778 to 1826 https://github.com/vim/vim/commits/master
+-vim: 9.0.1778 to 1833 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1778
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -418,7 +418,7 @@ l series:
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.83.0 https://github.com/boostorg/boost
--brotli: 1.0.9 https://github.com/google/brotli/releases
+-brotli: 1.0.9 to 1.1.0 https://github.com/google/brotli/releases
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2/1.17.1 http://cairographics.org/cairomm/
 -cfitsio: 4.3.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
@@ -468,7 +468,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.76.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.76.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.76.4 to 2.76.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.6 to 2.76.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 to 2.38 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 https://github.com/jstedfast/gmime/releases
@@ -952,7 +952,7 @@ n series:
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.4 http://ftp.gnu.org/gnu/wget/
--wget2: 2.0.1 http://ftp.gnu.org/gnu/wget/
+-wget2: 2.0.1 to 2.1.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.18 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
@@ -1119,7 +1119,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1778 to 1826 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1778 to 1833 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.2.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
