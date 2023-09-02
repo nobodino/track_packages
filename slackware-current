@@ -13,7 +13,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.3.3 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.5 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.4 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.14 http://ftp.gnu.org/pub/gnu/cpio/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1778 to 1833 https://github.com/vim/vim/commits/master
+-vim: 9.0.1778 to 1839 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1778
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -403,7 +403,7 @@ l series:
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 to 23.13.9 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 44.0 (to 45beta) https://github.com/GNOME/adwaita-icon-theme/tags
--alsa-lib: 1.2.9 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.9 to 1.2.10 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
 -apr: 1.7.4 http://apr.apache.org/download.cgi
@@ -418,7 +418,7 @@ l series:
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.83.0 https://github.com/boostorg/boost
--brotli: 1.0.9 to 1.1.0 https://github.com/google/brotli/releases
+-brotli: 1.1.0 https://github.com/google/brotli/releases
 -cairo: 1.16.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2/1.17.1 http://cairographics.org/cairomm/
 -cfitsio: 4.3.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
@@ -468,7 +468,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.76.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.76.4 to 2.76.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.76.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.6 to 2.76.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 to 2.38 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.13 https://github.com/jstedfast/gmime/releases
@@ -540,6 +540,7 @@ l series:
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
+-libdeflate: 1.18 https://github.com/ebiggers/libdeflate
 -libdiscid: 0.6.4 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
@@ -648,8 +649,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.18.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.92 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.92 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.93 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.93 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.15.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -662,7 +663,7 @@ l series:
 -oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.8.0 https://github.com/opencv/opencv/releases
--openexr: 3.1.11 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.2.0 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
@@ -916,11 +917,11 @@ n series:
 -openvpn: 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.0 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.2.9 to 8.2.10 http://www.php.net/distributions/
+-php: 8.2.10 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.8.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.8.1 to 3.8.2 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9 to 2.5.0
 	-ppp: 2.4.9 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -952,7 +953,7 @@ n series:
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.4 http://ftp.gnu.org/gnu/wget/
--wget2: 2.0.1 to 2.1.0 http://ftp.gnu.org/gnu/wget/
+-wget2: 2.1.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.18 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
@@ -1028,7 +1029,7 @@ x series: (main packages)
 -libva: 2.19.0 https://github.com/intel/libva/releases
 -libva-utils: 2.19.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
--libwacom: 2.7.0 https://github.com/linuxwacom/libwacom/releases
+-libwacom: 2.8.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.15 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.16
@@ -1119,7 +1120,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1778 to 1833 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1778 to 1839 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.2.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1151,7 +1152,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.06 to 6.07 http://www.jwz.org/xscreensaver/python*
+-xscreensaver: 6.07 http://www.jwz.org/xscreensaver/python*
 -xsnow: 3.7.5 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.18 https://gitlab.xfce.org/xfce/
