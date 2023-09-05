@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1778 to 1862 https://github.com/vim/vim/commits/master
-	- vim: 9.0.1778
+-vim: 9.0.1863 to 1868 https://github.com/vim/vim/commits/master
+	- vim: 9.0.1863
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -491,7 +491,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.10.5 to 4.12.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.12.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 to 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -734,7 +734,7 @@ l series:
 -python-setuptools_scm: 6.4.2 to 7.1.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
--python-sphinx: 4.5.0 to 7.2.5 https://pypi.org/project/sphinx
+-python-sphinx: 4.5.0 to 7.2.5 (need sphinxcontrib-serializinghtml) https://pypi.org/project/sphinx
 -python-tomli: 1.2.2 to 2.0.1 https://pypi.org/project/tomli
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-urllib3: 1.26.8 to 2.0.4 https://github.com/urllib3/urllib3/releases
@@ -901,7 +901,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.8 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.55.1 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.56.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
@@ -934,7 +934,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.18.6 (to 4.19.0rc4) https://ftp.samba.org/pub/samba/
+-samba: 4.19.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1103,7 +1103,7 @@ xap series:
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
--freerdp: 2.11.0 https://pub.freerdp.com/releases
+-freerdp: 2.11.1 https://pub.freerdp.com/releases
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.1 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
@@ -1120,7 +1120,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1778 to 1862 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1863 to 1868 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.2.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
