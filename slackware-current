@@ -346,7 +346,7 @@ d series:
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
 -ruby: 3.2.2 http://www.ruby-lang.org/
 -rust: 1.70.0 https://rust-lang.org
--rust-bindgen: 0.66.1 https://github.com/rust-lang/rust-bindgen/tags
+-rust-bindgen: 0.68.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
@@ -656,7 +656,7 @@ l series:
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.03.04 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.03.05 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.6.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
