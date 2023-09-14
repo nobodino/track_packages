@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.2 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.52 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20230906 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.53 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20230907 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 30 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -176,7 +176,7 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.4.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 10.01.2 (to 10.2.0rc2) https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 10.2.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -270,7 +270,7 @@ d series:
 -binutils: 2.41 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.9 to 0.5.11 https://github.com/coreos/cargo-vendor-filterer
--cbindgen: 0.25.0 https://github.com/mozilla/cbindgen/tags
+-cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.8.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.23 https://github.com/Oblomov/clinfo
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.52 http://wwww.kernel.org
+-kernel-headers: 6.1.53 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 16.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -375,11 +375,11 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.52
+-kernel : 6.1.53
 --------------------
 kde series :
 --------------------
--kde: 5.27.7 (plasma) https://download.kde.org/stable/
+-kde: 5.27.8 (plasma) https://download.kde.org/stable/
 -kde: 5.111.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.0 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -469,7 +469,7 @@ l series:
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.76.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.78.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
--glibmm: 2.66.6 to 2.76.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
+-glibmm: 2.66.6 to 2.78.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.37 to 2.38 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.14 https://github.com/jstedfast/gmime/releases
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
@@ -524,7 +524,7 @@ l series:
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.7.1 http://www.libarchive.org/downloads/
+-libarchive: 3.7.2 http://www.libarchive.org/downloads/
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
 -libbluray: 1.3.4 https://code.videolan.org/videolan/libbluray/-/tags
@@ -598,7 +598,7 @@ l series:
 -libqalculate: 4.8.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.3 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.3 to 2.56.4/2.57.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -607,7 +607,7 @@ l series:
 -libsecret: 0.20.5 to 0.21.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
--libsodium: 1.0.18 https://github.com/jedisct1/libsodium/tags
+-libsodium: 1.0.19 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
 -libsoup3: 3.4.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
@@ -615,7 +615,7 @@ l series:
 -libssh2: 1.10.0 to 1.11.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.4.0 to 4.5.1 (4.6.0rc1) https://download.osgeo.org/libtiff/
+-libtiff: 4.4.0 to 4.6.0 https://download.osgeo.org/libtiff/
 -libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
 -liburing: 2.4 https://git.kernel.dk/cgit/liburing/
@@ -816,7 +816,7 @@ n series:
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2023.06.03 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.2.1 http://curl.haxx.se/download/
+-curl: 8.3.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -880,7 +880,7 @@ n series:
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.1.15 http://netatalk.sourceforge.net/
+-netatalk: 3.1.16 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1020,7 +1020,7 @@ x series: (main packages)
 -libevdev: 1.13.1 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
--libglvnd: 1.6.0 https://github.com/NVIDIA/libglvnd/tags
+-libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
 -libinput: 1.24.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
@@ -1123,8 +1123,8 @@ xap series:
 -gvim: 9.0.1897 to 189x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.2.0esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.2.0 to 115.2.1 https://www.thunderbird.net/
+-mozilla-firefox: 115.2.1esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.2.2 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
