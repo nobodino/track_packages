@@ -188,7 +188,7 @@ Ap series :
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.16.0.74 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0.6 https://github.com/ksh93/ksh
+-ksh93: 1.0.7 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.82 to 0.9.83 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 9.10.1-3.fc35 to 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1897 to 189x https://github.com/vim/vim/commits/master
+-vim: 9.0.1897 to 1899 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1897
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -263,7 +263,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.28 to 0.29.35/3.0.0 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.28 to 0.29.35/3.0.2 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.4 to 3.27.5 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -338,7 +338,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.17 to 3.10.12/3.11.4 (new API) https://www.python.org/downloads/
+-python3: 3.9.18 to 3.10.12/3.11.4 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.2.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 68.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -497,7 +497,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.50.6 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.52.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 8.2.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -609,7 +609,7 @@ l series:
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.19 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.4.2 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.4.2 to 3.4.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.10.5 https://www.libssh.org/files
 -libssh2: 1.10.0 to 1.11.0 https://github.com/libssh2/libssh2/releases
@@ -652,7 +652,7 @@ l series:
 -mozilla-nss: 3.93 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.93 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs102: 102.15.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs102: 102.15.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
@@ -721,7 +721,7 @@ l series:
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 21.3 to 23.1 https://github.com/pypa/packaging/releases
 -python-pbr: 5.8.0 to 5.11.1 https://pypi.org/project/pbr
--python-pillow: 8.4.0 to 10.0.0 https://github.com/python-pillow/Pillow/releases
+-python-pillow: 8.4.0 to 10.0.1 https://github.com/python-pillow/Pillow/releases
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-pygments: 2.10.0 to 2.16.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
@@ -823,7 +823,7 @@ n series:
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 10.0.2 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.89 https://thekelleys.org.uk/dnsmasq/
--dovecot: 2.3.20 http://www.dovecot.org/releases/
+-dovecot: 2.3.21 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
@@ -1026,8 +1026,8 @@ x series: (main packages)
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
 -libpinyin: 2.8.1 https://github.com/libpinyin/libpinyin/releases
--libva: 2.19.0 https://github.com/intel/libva/releases
--libva-utils: 2.19.0 https://github.com/intel/libva-utils/releases
+-libva: 2.20.0 https://github.com/intel/libva/releases
+-libva-utils: 2.20.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.8.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.15 
@@ -1118,9 +1118,9 @@ xap series:
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.9 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.5.0 https://gparted.org/
--gucharmap: 12.0.1 to 15.0.2 https://download.gnome.org/sources/gucharmap
+-gucharmap: 12.0.1 to 15.1.0 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1897 to 189x https://github.com/vim/vim/commits/master
+-gvim: 9.0.1897 to 1899 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.2.1esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1158,7 +1158,7 @@ xap series:
 xfce: 4.18 https://gitlab.xfce.org/xfce/
 --------------------
 -Greybird: 3.22.15
--elementary-xfce: 0.17.0
+-elementary-xfce: 0.18.0
 -exo: 4.18.0
 -garcon: 4.18.1
 -libxfce4ui: 4.18.4
