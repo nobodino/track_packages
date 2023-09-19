@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 http://ftp.debian.org/debian/pool/main/s/sysfsutils/
--sysklogd: 2.5.1 to 2.5.2 https://github.com/troglobit/sysklogd/releases
+-sysklogd: 2.5.2 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
 -sysvinit: 3.08 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
@@ -180,7 +180,7 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.23.05 (need libdaemon and avahi) http://hplipopensource.com
+-hplip: 3.20.6 to 3.23.08 (need libdaemon and avahi) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.29_1 https://github.com/smxi/inxi/tags
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1903 to 1907 https://github.com/vim/vim/commits/master
+-vim: 9.0.1903 to 1910 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1903
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -269,7 +269,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.41 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--cargo-vendor-filterer: 0.5.9 to 0.5.11 https://github.com/coreos/cargo-vendor-filterer
+-cargo-vendor-filterer: 0.5.11 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.8.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -402,7 +402,7 @@ l series:
 -a52dec: 0.8.0 https://git.adelielinux.org/community/a52dec/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 to 23.13.9 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 44.0 (to 45beta) https://github.com/GNOME/adwaita-icon-theme/tags
+-adwaita-icon-theme: 45.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -alsa-lib: 1.2.9 to 1.2.10 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
@@ -428,7 +428,7 @@ l series:
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.18 to 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
 -dconf: 0.40.0 http://download.gnome.org/sources/dconf/
--dconf-editor: 43.0 https://download.gnome.org/sources/dconf-editor/
+-dconf-editor: 43.0 to 45.0 https://download.gnome.org/sources/dconf-editor/
 -desktop-file-utils: 0.26 http://freedesktop.org/software/desktop-file-utils/releases/
 -djvulibre: 3.5.28 http://djvu.sourceforge.net
 -dotconf: 1.3 https://github.com/williamh/dotconf/tags
@@ -462,7 +462,7 @@ l series:
 -gegl: 0.4.46 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.2 https://download.gnome.org/sources/gexiv2/0.14/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.76.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.76.2 to 1.78.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.78.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
@@ -479,7 +479,7 @@ l series:
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
--gsettings-desktop-schemas: 44.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
+-gsettings-desktop-schemas: 45.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
 -gst-plugins-base: 1.22.5 https://gstreamer.freedesktop.org/src/
 -gst-plugins-bad-free: 1.22.5 https://gstreamer.freedesktop.org/src/
@@ -496,13 +496,13 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.52.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.2.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.2.0 to 8.2.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 73.2 https://icu.unicode.org/
--imagemagick: 7.1.1_15 to 16 http://www.imagemagick.org/
+-imagemagick: 7.1.1_16 http://www.imagemagick.org/
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
@@ -538,7 +538,7 @@ l series:
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
--libdeflate: 1.18 https://github.com/ebiggers/libdeflate
+-libdeflate: 1.19 https://github.com/ebiggers/libdeflate
 -libdiscid: 0.6.4 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
@@ -593,7 +593,7 @@ l series:
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.2 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 4.8.0 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 4.8.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.56.3 to 2.56.4/2.57.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -784,7 +784,7 @@ l series:
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 to 20220530 or 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.72.1 to 0.74.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.74.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
 -xapian-core: 1.4.23 http://www.xapian.org/
@@ -878,7 +878,7 @@ n series:
 -ncftp: 3.2.6 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.1.16 http://netatalk.sourceforge.net/
+-netatalk: 3.1.17 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1118,7 +1118,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.0 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1903 to 1907 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1903 to 1910 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.2.1esr to 116.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
