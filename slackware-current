@@ -219,7 +219,7 @@ Ap series :
 -mc: 4.8.30 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 131.3 (to 1.32.1 nok) http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.32.2 http://sourceforge.net/projects/mpg123/files/
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1903 to 1946 https://github.com/vim/vim/commits/master
+-vim: 9.0.1903 to 1951 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1903
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -414,7 +414,7 @@ l series:
 -babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.83.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
--cairo: 1.17.6 to 1.18.0 http://cairographics.org/releases/
+-cairo: 1.18.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2/1.17.1 http://cairographics.org/cairomm/
 -cfitsio: 4.3.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
@@ -486,7 +486,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.12.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.12.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.7 to 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -680,7 +680,7 @@ l series:
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 (to 16.99.1) https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
--pycairo: 1.20.1 to 1.24.0 https://github.com/pygobject/pycairo/releases
+-pycairo: 1.20.1 to 1.25.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.2 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -1040,7 +1040,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.2.0rc4 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.2.0rc4 to 23.2.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1113,12 +1113,12 @@ xap series:
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 5.4.9 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.5.0 https://gparted.org/
--gucharmap: 12.0.1 to 15.1.0 https://download.gnome.org/sources/gucharmap
+-gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1903 to 1946 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1903 to 1951 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.3.0esr to 118.0.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 115.3.0 https://www.thunderbird.net/
 -network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
@@ -1166,7 +1166,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.4
 -xfce4-dev-tools: 4.18.0
 -xfce4-notifyd: 0.8.1 to 0.9.0
--xfce4-panel: 4.18.4
+-xfce4-panel: 4.18.5
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.2
 -xfce4-pulseaudio-plugin: 0.4.7
@@ -1208,6 +1208,7 @@ extra:
 -xv: 4.2.0
 --------------------
 testing :
+-glibc: 2.38
 -rust: 1.72.0 to 1.72.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
