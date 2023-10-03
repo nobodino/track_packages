@@ -64,7 +64,7 @@ A series :
 -inotify-tools: 4.23.8.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.6.2 https://github.com/legionus/kbd/releases
+-kbd: 1.15.3 to 1.15.5/2.6.3 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.1.55 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20230918 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -219,7 +219,7 @@ Ap series :
 -mc: 4.8.30 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.32.2 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.32.2 to 1.32.3 http://sourceforge.net/projects/mpg123/files/
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1903 to 1968 https://github.com/vim/vim/commits/master
+-vim: 9.0.1903 to 1976 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1903
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -335,7 +335,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.18 to 3.10.12/3.11.4 (new API) https://www.python.org/downloads/
+-python3: 3.9.18 to 3.10.12/3.12.0 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.2.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 68.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -390,7 +390,7 @@ l series:
 -PyQT5: 5.15.2 to 5.15.9 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -QtAV: 20220226 https://github.com/wang-bin/QtAV
--SDL2: 2.28.3 to 2.28.4 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.28.4 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.6.3 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.3 https://www.libsdl.org/projects/SDL2_mixer/
@@ -642,7 +642,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
--mlt: 7.18.0 https://github.com/mltframework/mlt/releases
+-mlt: 7.20.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.93 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.93 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -651,7 +651,7 @@ l series:
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.03.06 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.04.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
 -nodejs: 20.8.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -1079,7 +1079,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 384 to 385 http://invisible-island.net/xterm/
+-xterm: 385 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1115,7 +1115,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1903 to 1968 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1903 to 1976 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1169,7 +1169,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-panel: 4.18.5
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.2
--xfce4-pulseaudio-plugin: 0.4.7
+-xfce4-pulseaudio-plugin: 0.4.8
 -xfce4-screensaver: 4.18.2
 -xfce4-screenshooter: 1.10.4
 -xfce4-session: 4.18.3
