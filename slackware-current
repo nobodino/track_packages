@@ -13,7 +13,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.5.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.5.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.4 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.14 http://ftp.gnu.org/pub/gnu/cpio/
@@ -23,7 +23,7 @@ A series :
 -dbus: 1.14.10 (to 1.15.8 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20230209 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20231002 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
@@ -43,7 +43,7 @@ A series :
 	- mtools: 4.0.18 to 4.0.43 https://www.gnu.org/software/mtools/
 -gawk: 5.2.2 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
--gettext: 0.22.2 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.22.3 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2023c
 	-tzcode: 2003c https://www.iana.org/time-zones
 	-tzdata: 2023c https://www.iana.org/time-zones
@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.374 https://github.com/vcrhonek/hwdata
+-hwdata: 0.375 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -219,7 +219,7 @@ Ap series :
 -mc: 4.8.30 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.32.2 to 1.32.3 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.32.3 http://sourceforge.net/projects/mpg123/files/
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.1903 to 1976 https://github.com/vim/vim/commits/master
+-vim: 9.0.1903 to 1984 https://github.com/vim/vim/commits/master
 	- vim: 9.0.1903
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -283,9 +283,9 @@ d series:
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.22.2 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext-tools: 0.22.3 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.42.0 https://git-scm.com/download
--gnucobol: 3.1.2 to 3.2 http://ftp.gnu.org/gnu/gnucobol
+-gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 to 20220714 https://gyp.gsrc.io/
@@ -295,7 +295,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.55 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 17.0.1 http://llvm.org/
+-llvm: 17.0.2 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -644,8 +644,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.20.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.93 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.93 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.94 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.94 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.15.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -676,7 +676,7 @@ l series:
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.09.0 http://poppler.freedesktop.org/
+-poppler: 23.10.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 (to 16.99.1) https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -792,7 +792,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.44.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.44.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -842,7 +842,7 @@ n series:
 -iputils: 20221126 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
--irssi: 1.4.4 https://github.com/irssi/irssi/releases
+-irssi: 1.4.5 https://github.com/irssi/irssi/releases
 -iw: 5.19 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.21.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
@@ -906,7 +906,7 @@ n series:
 -openldap: 2.6.6 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
--openssh: 9.4p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 9.5p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
 -openssl: 3.1.3 http://ftp.openssl.org/source/
 -openvpn: 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
@@ -982,18 +982,18 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.12 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.0.23 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-anthy: 5.0.14 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-chinese-addons: 5.0.17 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-gtk: 5.0.23 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-hangul: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-kkc: 5.0.12 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-m17n: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-qt: 5.0.17 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-sayura: 5.0.8 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-extra: 5.0.13 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-other: 5.0.11 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-unikey: 5.0.13 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-anthy: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-chinese-addons: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-gtk: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-hangul: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-kkc: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-m17n: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-qt: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-sayura: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-extra: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-other: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-unikey: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -fontconfig: 2.13.92 to 2.14.2 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
@@ -1033,9 +1033,9 @@ x series: (main packages)
 -libXfont2: 2.0.6
 -libXft: 2.3.8
 -libXp: 1.0.6
--libXpm: 3.5.16
+-libXpm: 3.5.17
 -libXi: 1.8.1
--libX11: 1.8.6
+-libX11: 1.8.7
 -libXres: 1.2.1
 -libXt: 1.3.0
 -libxcvt: 0.1.2
@@ -1115,12 +1115,12 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.1903 to 1976 https://github.com/vim/vim/commits/master
+-gvim: 9.0.1903 to 1984 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 115.3.1 https://www.thunderbird.net/
--network-manager-applet: 1.32.0 https://download.gnome.org/sources/network-manager-applet/
+-network-manager-applet: 1.32.0 to 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.12
@@ -1175,7 +1175,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-session: 4.18.3
 -xfce4-settings: 4.18.3
 -xfce4-systemload-plugin: 1.3.2
--xfce4-taskmanager: 1.5.5
+-xfce4-taskmanager: 1.5.6
 -xfce4-terminal: 1.1.0
 -xfce4-weather-plugin: 0.11.1
 -xfce4-whiskermenu-plugin: 2.8.0
