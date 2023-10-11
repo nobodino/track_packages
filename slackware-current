@@ -65,7 +65,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.56 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.1.57 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20231006 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.56 http://wwww.kernel.org
+-kernel-headers: 6.1.57 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.2 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.56
+-kernel : 6.1.57
 --------------------
 kde series :
 --------------------
@@ -809,13 +809,13 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20230821 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.20.0 https://c-ares.org/
+-c-ares: 1.20.1 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2023.06.03 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.3.0 http://curl.haxx.se/download/
+-curl: 8.4.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -900,7 +900,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.8 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.56.0 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.57.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
@@ -933,7 +933,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.0 https://ftp.samba.org/pub/samba/
+-samba: 4.19.1 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1123,7 +1123,7 @@ xap series:
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.3.1 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.3.2 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1151,7 +1151,7 @@ xap series:
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
--xscreensaver: 6.07 http://www.jwz.org/xscreensaver/python*
+-xscreensaver: 6.07 to 6.08 http://www.jwz.org/xscreensaver/python*
 -xsnow: 3.7.5 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.18 https://gitlab.xfce.org/xfce/
