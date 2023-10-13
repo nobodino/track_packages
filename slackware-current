@@ -141,7 +141,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 6.4.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 6.4.0 to 6.5.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.4.4 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-22.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -240,7 +240,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.43.0 to 3.43.1 http://www.sqlite.org/download.html
+-sqlite: 3.43.1 to 3.43.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.14p3 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.4 https://github.com/sysstat/sysstat
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2009 to 20xx https://github.com/vim/vim/commits/master
+-vim: 9.0.2009 to 2018 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2009
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.6 to 3.27.7 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.7 (to 3.28.0rc1) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -378,7 +378,7 @@ kde series :
 --------------------
 -kde: 5.27.8 (plasma) https://download.kde.org/stable/
 -kde: 5.111.0 (framework) https://download.kde.org/stable/
--kde: 23.08.1 (kde gear) https://download.kde.org/stable/
+-kde: 23.08.2 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
@@ -577,7 +577,7 @@ l series:
 -libnjb: 2.2.7 https://sourceforge.net/projects/libnjb/files/libnjb/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
 -libnl3: 3.8.0 https://github.com/thom311/libnl
--libnotify: 0.8.2 https://download.gnome.org/sources/libnotify/0.8/
+-libnotify: 0.8.2 to 0.8.3 https://download.gnome.org/sources/libnotify/0.8/
 -libnsl: 2.0.0 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.2 https://github.com/thkukuk/libnss_nis/releases
 -libodfgen: 0.1.8 https://sourceforge.net/projects/libwpd/files/libodfgen/
@@ -675,7 +675,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.80 to 0.3.81 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.81 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -740,7 +740,7 @@ l series:
 -python-zipp: 3.8.0 to 3.16.2 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.10_20230923 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.10_20230923 to 5.15.11 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -854,7 +854,7 @@ n series:
 -libgcrypt: 1.10.2 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.47 https://www.gnupg.org/download/index.html
 -libksba: 1.6.4 https://www.gnupg.org/download/index.html
--libmbim: 1.28.4 to 1.29.2 (beta:new API) https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
+-libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.17.2 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
@@ -866,7 +866,7 @@ n series:
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
 -libnftnl: 1.2.6 http://ftp.netfilter.org/pub/libnftnl/
--libqmi: 1.32.4 to 1.33.2 (beta:new API) https://github.com/freedesktop/libqmi/tags
+-libqmi: 1.34.0 https://github.com/freedesktop/libqmi/tags
 -libtirpc: 1.3.4 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.29 http://links.twibright.com/download.php
 -lynx: 2.9.0dev.12 http://ftp.invisible-island.net/lynx/tarballs/
@@ -1119,7 +1119,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2009 to 20xx https://github.com/vim/vim/commits/master
+-gvim: 9.0.2009 to 2018 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
