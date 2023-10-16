@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2009 to 2026 https://github.com/vim/vim/commits/master
+-vim: 9.0.2009 to 2032 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2009
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -279,7 +279,7 @@ d series:
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
 -distcc: 3.4 https://github.com/distcc/distcc/releases
--doxygen: 1.9.8 http://www.doxygen.org/download.html
+-doxygen: 1.9.8 http://wwfile:///root/Documents/epub/L'art de la therapie - Irvin Yalom.epubw.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
@@ -336,7 +336,7 @@ d series:
 -poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.18 to 3.10.12/3.12.0 (new API) https://www.python.org/downloads/
--python-pip: 22.2.2 to 23.2.1 https://pypi.python.org/pypi/pip
+-python-pip: 22.2.2 to 23.3 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 68.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -1119,7 +1119,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2009 to 2026 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2009 to 2032 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1140,7 +1140,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.0ga14 to 4.3ga3 http://x3270.bgp.nu/download.html
+-x3270: 4.0ga14 to 4.3ga4 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 https://github.com/xaos-project/XaoS/releases
 -xeyes: 1.2.0
 -xgames: 0.2
