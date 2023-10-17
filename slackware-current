@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.57 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231006 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.58 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231013 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2009 to 2032 https://github.com/vim/vim/commits/master
+-vim: 9.0.2009 to 2034 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2009
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.57 http://wwww.kernel.org
+-kernel-headers: 6.1.58 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.2 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.57
+-kernel : 6.1.58
 --------------------
 kde series :
 --------------------
@@ -513,7 +513,7 @@ l series:
 -kdsoap: 2.1.1 https://github.com/KDAB/KDSoap/releases
 -keybinder3: 0.3.3 https://github.com/engla/keybinder
 -keyutils: 1.6.3 https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/
--lager: 0.1.0 https://github.com/arximboldi/lager
+-lager: 0.1.1 https://github.com/arximboldi/lager
 -lame: 3.100 https://sourceforge.net/projects/lame/files/lame/3.100/
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
 -lcms2: 2.15 http://sourceforge.net/projects/lcms/files/lcms/
@@ -556,7 +556,7 @@ l series:
 -libgtop: 2.40.0 to 2.41.1 https://gitlab.gnome.org/GNOME/libgtop/-/tags
 -libhandy: 1.8.2 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
--libical: 3.0.16 https://github.com/libical/libical/releases
+-libical: 3.0.17 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.41 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.4 http://ftp.gnu.org/gnu/libidn/
@@ -565,7 +565,7 @@ l series:
 -libimobiledevice-glue: 20211125 to 20230109 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.16 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 3.0.0 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 3.0.0 to 3.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -578,14 +578,14 @@ l series:
 -libnl: 1.1.4 https://github.com/thom311/libnl/
 -libnl3: 3.8.0 https://github.com/thom311/libnl
 -libnotify: 0.8.2 to 0.8.3 https://download.gnome.org/sources/libnotify/0.8/
--libnsl: 2.0.0 https://github.com/thkukuk/libnsl/releases
+-libnsl: 2.0.1 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.2 https://github.com/thkukuk/libnss_nis/releases
 -libodfgen: 0.1.8 https://sourceforge.net/projects/libwpd/files/libodfgen/
 -libogg: 1.3.5 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpaper: 2.1.1 https://github.com/rrthomas/libpaper
+-libpaper: 2.1.2 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplist: 2.2.0 http://www.libimobiledevice.org/
 -libpng: 1.6.40 http://sourceforge.net/projects/libpng/files/libpng16/
@@ -656,9 +656,9 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.04.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 20.8.0 https://nodejs.org/dist
+-nodejs: 20.8.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
--oniguruma: 6.9.8 https://github.com/kkos/oniguruma/releases
+-oniguruma: 6.9.9 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.8.1 https://github.com/opencv/opencv/releases
 -openexr: 3.2.1 https://github.com/AcademySoftwareFoundation/openexr/releases
@@ -740,7 +740,7 @@ l series:
 -python-zipp: 3.8.0 to 3.16.2 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.10_20230923 to 5.15.11 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.11_20231011 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -791,7 +791,7 @@ l series:
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
 -zlib: 1.3 https://zlib.net/
 -zstd: 1.5.5 https://github.com/facebook/zstd/releases
--zug: 0.1.0 https://github.com/arximboldi/zug
+-zug: 0.1.1 https://github.com/arximboldi/zug
 --------------------
 n series:
 --------------------
@@ -933,7 +933,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.1 https://ftp.samba.org/pub/samba/
+-samba: 4.19.1 to 4.19.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -1119,7 +1119,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2009 to 2032 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2009 to 2034 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
