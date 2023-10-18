@@ -177,7 +177,7 @@ Ap series :
 -gphoto2: 2.5.28 http://www.gphoto.org/
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.23.08 (need libdaemon and avahi) http://hplipopensource.com
+-hplip: 3.20.6 to 3.23.08 (need libdaemon) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.30_1 https://github.com/smxi/inxi/tags
@@ -227,7 +227,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.5 to 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 11.6.2 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 11.6.3 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rpm: 4.18.1 to 4.19.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2009 to 2034 https://github.com/vim/vim/commits/master
+-vim: 9.0.2009 to 2043 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2009
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -260,7 +260,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.36 to 3.0.3 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.36 to 3.0.4 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
@@ -295,7 +295,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.58 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 17.0.2 http://llvm.org/
+-llvm: 17.0.3 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -493,7 +493,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.52.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.2.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.2.1 to 8.2.2 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -565,7 +565,7 @@ l series:
 -libimobiledevice-glue: 20211125 to 20230109 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.16 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 3.0.0 to 3.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 3.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -779,7 +779,7 @@ l series:
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
 -tdb: 1.4.9 https://www.samba.org/ftp/tdb/
--tevent: 0.15.0 https://www.samba.org/ftp/tevent/
+-tevent: 0.16.0 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
@@ -933,7 +933,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.1 to 4.19.2 https://ftp.samba.org/pub/samba/
+-samba: 4.19.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.7.4.4 http://www.dest-unreach.org/socat/download/
@@ -982,7 +982,7 @@ tcl/tk series:
 x series: (main packages)
 --------------------
 -anthy-unicode: 1.0.0.20211224 https://github.com/fujiwarat/anthy-unicode/releases
--OpenCC: 1.1.6 https://github.com/BYVoid/OpenCC/releases
+-OpenCC: 1.1.7 https://github.com/BYVoid/OpenCC/releases
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.12 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
@@ -1083,7 +1083,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 386 http://invisible-island.net/xterm/
+-xterm: 386 to 387 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1119,7 +1119,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2009 to 2034 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2009 to 2043 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1183,7 +1183,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-terminal: 1.1.0
 -xfce4-weather-plugin: 0.11.1
 -xfce4-whiskermenu-plugin: 2.8.0
--xfconf: 4.18.1
+-xfconf: 4.18.2
 -xfdesktop: 4.18.1
 -xfwm4: 4.18.0
 --------------------
