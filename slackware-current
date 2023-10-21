@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 1.15.3 to 1.15.5/2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.58 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231013 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.59 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231019 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -96,7 +96,7 @@ A series :
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.1.3 https://github.com/openssl/openssl/tags
--os-prober: 1.79 to 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
+-os-prober: 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.3 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.10.0 http://atrey.karlin.mff.cuni.cz/pub/linux/pci/ or http://www.kernel.org/pub/software/utils/pciutils/
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2009 to 2053 https://github.com/vim/vim/commits/master
+-vim: 9.0.2009 to 2059 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2009
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,14 +293,14 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.58 http://wwww.kernel.org
+-kernel-headers: 6.1.59 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.3 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.5.2 https://www.mercurial-scm.org/release
--meson: 1.2.2 https://github.com/mesonbuild/meson/releases
+-meson: 1.2.2 to 1.2.3 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2023.04.17 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.58
+-kernel : 6.1.59
 --------------------
 kde series :
 --------------------
@@ -488,11 +488,11 @@ l series:
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.12.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
--gtkmm3: 3.24.7 to 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
+-gtkmm3: 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.52.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.52.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 8.2.2 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -784,7 +784,7 @@ l series:
 -utf8proc: 2.8.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 20201110 to 20220530 or 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.74.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.74.0 to 0.74.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
 -xapian-core: 1.4.23 http://www.xapian.org/
@@ -1014,7 +1014,7 @@ x series: (main packages)
 -libXaw3d: 1.6.5
 -libdmx: 1.1.4
 -libpciaccess: 0.17
--libdrm: 2.4.116 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.117 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.1 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
@@ -1115,11 +1115,11 @@ xap series:
 	- eboard: 1.1.1 to 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 5.4.9 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 5.4.9 to 5.4.10 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.5.0 https://gparted.org/
--gucharmap: 12.0.1 to 15.1.1 https://download.gnome.org/sources/gucharmap
+-gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2009 to 2053 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2009 to 2059 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
