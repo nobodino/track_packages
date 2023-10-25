@@ -95,7 +95,7 @@ A series :
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
--openssl-solibs: 3.1.3 https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.1.4 https://github.com/openssl/openssl/tags
 -os-prober: 1.81 http://ftp.debian.org/debian/pool/main/o/os-prober/
 -pam: 1.5.3 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -250,8 +250,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2009 to 2059 https://github.com/vim/vim/commits/master
-	- vim: 9.0.2009
+-vim: 9.0.2063 to 206x https://github.com/vim/vim/commits/master
+	- vim: 9.0.2063
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.7 (to 3.28.0rc2) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.7 (to 3.28.0rc3) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -307,11 +307,11 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20230922 https://www.gnu.org/software/parallel/
+-parallel: 20231022 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.0
 	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
-	- DBD-mysql: 4.050 http://www.cpan.org/modules/by-module/DBD/
+	- DBD-mysql: 4.050 to 5.002 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
 	- IO-Socket-SSL: 2.083 https://www.cpan.org/modules/by-module/IO/
@@ -376,7 +376,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.27.8 (plasma) https://download.kde.org/stable/
+-kde: 5.27.9 (plasma) https://download.kde.org/stable/
 -kde: 5.111.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.2 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -386,7 +386,7 @@ l series:
 -Imath: 3.1.9 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.1 http://www.libraw.org/
 -Mako: 1.1.6 to 1.2.4 http://www.python.org/pypi/Mako/
--M2Crypto: 0.38.0 to 0.39.0 http://pypi.python.org/pypi/M2Crypto/
+-M2Crypto: 0.38.0 to 0.40.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.2 to 5.15.10 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -QtAV: 20220226 https://github.com/wang-bin/QtAV
@@ -446,7 +446,7 @@ l series:
 -fmt: 10.1.1 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
--frei0r-plugins: 1.8.0 https://files.dyne.org/frei0r
+-frei0r-plugins: 2.3.1 https://files.dyne.org/frei0r
 -fribidi: 1.0.13 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.1 to 3.16.2 https://github.com/libfuse/libfuse/releases
@@ -657,7 +657,7 @@ l series:
 -neon: 0.32.5 https://github.com/notroj/neon/tags
 -netpbm: 11.04.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.23 https://releases.pagure.org/newt
--nodejs: 20.8.1 https://nodejs.org/dist
+-nodejs: 20.9.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.9 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -684,7 +684,7 @@ l series:
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 (to 16.99.1) https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
--pycairo: 1.20.1 to 1.25.0 https://github.com/pygobject/pycairo/releases
+-pycairo: 1.20.1 to 1.25.1 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.44.1 to 7.45.2 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -913,11 +913,11 @@ n series:
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.5p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
--openssl: 3.1.3 http://ftp.openssl.org/source/
+-openssl: 3.1.4 http://ftp.openssl.org/source/
 -openvpn: 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.0 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.2.11 http://www.php.net/distributions/
+-php: 8.2.11 to 8.2.12 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1068,7 +1068,7 @@ x series: (main packages)
 -xinit: 1.4.2
 -xkeyboard-config: 2.40
 -xorgproto: 2023.2
--xorg-server: 21.1.8 http://ftp.x.org/pub/individual/xserver/
+-xorg-server: 21.1.8 to 21.1.9 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 23.2.1
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.0
@@ -1084,7 +1084,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 386 to 387 http://invisible-island.net/xterm/
+-xterm: 388 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1120,11 +1120,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2009 to 2059 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2063 to 206x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.3.1esr to 118.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.3.3 https://www.thunderbird.net/
+-mozilla-firefox: 115.4.0esr to 119.0.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.4.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
