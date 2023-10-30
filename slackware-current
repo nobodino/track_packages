@@ -111,7 +111,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.14.1 https://github.com/shadow-maint/shadow/releases
+-shadow: 4.14.1 to 4.14.2 https://github.com/shadow-maint/shadow/releases
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2063 to 2077 https://github.com/vim/vim/commits/master
+-vim: 9.0.2063 to 2081 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2063
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -434,7 +434,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.189 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.1 https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.2 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.0 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
@@ -599,7 +599,7 @@ l series:
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
--libsigc++3: 3.4.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
+-libsigc++3: 3.6.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libseccomp: 2.5.4 https://github.com/seccomp/libseccomp/releases
 -libsecret: 0.20.5 to 0.21.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
@@ -783,7 +783,7 @@ l series:
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
--vid.stab: 20201110 to 20220530 or 1.1.1 https://github.com/georgmartius/vid.stab.git
+-vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.74.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20180531 to 20220330 https://github.com/google/woff2
@@ -1119,7 +1119,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2063 to 2077 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2063 to 2081 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.4.0esr to 119.0.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1212,7 +1212,7 @@ extra:
 -xv: 4.2.0
 --------------------
 testing :
--rust: 1.72.0 to 1.73.0
+-rust: 1.73.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
