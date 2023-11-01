@@ -179,7 +179,7 @@ Ap series :
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.20.6 to 3.23.08 (need libdaemon) http://hplipopensource.com
 -htop: 3.2.2 https://github.com/htop-dev/htop/releases
--ispell: 3.4.05 https://www.cs.hmc.edu/~geoff/ispell.html
+-ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.30_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
@@ -242,7 +242,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.43.1 to 3.43.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.14p3 https://github.com/sudo-project/sudo/releases
+-sudo: 1.9.14p3 (to 1.9.15rc2) https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.4 https://github.com/sysstat/sysstat
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.1 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -295,7 +295,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.60 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 17.0.3 http://llvm.org/
+-llvm: 17.0.4 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -337,7 +337,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.18 to 3.10.12/3.12.0 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 23.3 https://pypi.python.org/pypi/pip
--python-setuptools: 65.1.1 to 68.0.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 65.1.1 to 68.2.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
@@ -347,7 +347,7 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.5.2 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.5 https://github.com/strace/strace/releases
+-strace: 6.6 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
@@ -598,7 +598,7 @@ l series:
 -librsvg: 2.56.3 to 2.56.4/2.57.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
--libsigc++: 2.12.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
+-libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libsigc++3: 3.6.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libseccomp: 2.5.4 https://github.com/seccomp/libseccomp/releases
 -libsecret: 0.20.5 to 0.21.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
@@ -736,7 +736,7 @@ l series:
 -python-tomli: 1.2.2 to 2.0.1 https://pypi.org/project/tomli
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-urllib3: 1.26.8 to 2.0.7 https://github.com/urllib3/urllib3/releases
--python-wheel: 0.41.1 https://pypi.org/project/wheel/#files
+-python-wheel: 0.41.1 to 0.41.3 https://pypi.org/project/wheel/#files
 -python-zipp: 3.8.0 to 3.17.0 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
@@ -914,7 +914,7 @@ n series:
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
 -openssl: 3.1.4 (to 3.2.0rc1) http://ftp.openssl.org/source/
 -openvpn: 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
--p11-kit: 0.25.1 https://github.com/p11-glue/p11-kit/releases
+-p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.12 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
