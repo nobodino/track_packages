@@ -9,7 +9,7 @@ A series :
 -acl: 2.3.1 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.1 http://savannah.nongnu.org/projects/attr
--bash: 5.2.015 http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.021 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -64,9 +64,9 @@ A series :
 -inotify-tools: 4.23.8.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 1.15.3 to 1.15.5/2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.61 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231030 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kbd: 2.6.3 https://github.com/legionus/kbd/releases
+-kernel-ide: 6.1.62 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231107 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -208,7 +208,7 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
--lsof: 4.98.0 https://github.com/lsof-org/lsof/releases
+-lsof: 4.98.0 to 4.99.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.3 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
@@ -229,6 +229,7 @@ Ap series :
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
 -qpdf: 11.6.3 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
+-rfind: 1.6.0 https://github.com/pauldreik/rdfind
 -rpm: 4.18.1 to 4.19.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
@@ -242,7 +243,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.44.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.15 https://github.com/sudo-project/sudo/releases
+-sudo: 1.9.15p2 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.4 https://github.com/sysstat/sysstat
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.1 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -250,7 +251,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2092 to 209x https://github.com/vim/vim/commits/master
+-vim: 9.0.2092 to 2099 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2092
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.61 http://wwww.kernel.org
+-kernel-headers: 6.1.62 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.4 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -372,20 +373,20 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.61
+-kernel : 6.1.62
 --------------------
 kde series :
 --------------------
 -kde: 5.27.9 (plasma) https://download.kde.org/stable/
 -kde: 5.111.0 (framework) https://download.kde.org/stable/
--kde: 23.08.2 (kde gear) https://download.kde.org/stable/
+-kde: 23.08.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.9 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.1 http://www.libraw.org/
--Mako: 1.1.6 to 1.2.4 http://www.python.org/pypi/Mako/
+-Mako: 1.1.6 to 1.3.0 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 to 0.40.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.2 to 5.15.10 https://pypi.org/project/PyQt5
 -QScintilla: 2.11.6 to 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
@@ -439,7 +440,7 @@ l series:
 -exiv2: 0.28.1 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 5.1.3 to 6.0 https://ffmpeg.org/
+-ffmpeg: 5.1.4 to 6.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.4 http://www.fluidsynth.org/
 -fmt: 10.1.1 https://github.com/fmtlib/fmt/releases/
@@ -616,7 +617,7 @@ l series:
 -libunibreak: 5.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
--liburing: 2.4 https://git.kernel.dk/cgit/liburing/
+-liburing: 2.5 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.26 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20200615 to 20220605 (nok) http://www.libimobiledevice.org/
@@ -800,7 +801,7 @@ n series:
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
--autofs: 5.1.8 to 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
+-autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.19 http://ftp.isc.org/isc/bind9
 -bluez: 5.70 http://www.bluez.org/download/
@@ -820,7 +821,7 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.0.4 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.0.5 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.89 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -913,7 +914,7 @@ n series:
 -openssh: 9.5p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
 -openssl: 3.1.4 (to 3.2.0rc1) http://ftp.openssl.org/source/
--openvpn: 2.6.6 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.7 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.2.12 http://www.php.net/distributions/
@@ -953,7 +954,7 @@ n series:
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.21.4 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.1.0 http://ftp.gnu.org/gnu/wget/
--whois: 5.5.19 https://github.com/rfc1036/whois/tags
+-whois: 5.5.20 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.10 https://w1.fi/wpa_supplicant/
@@ -986,7 +987,7 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.13 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
@@ -1044,7 +1045,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.2.1 (to 23.3.0rc2) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.2.1 (to 23.3.0rc3) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1119,11 +1120,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2092 to 209x https://github.com/vim/vim/commits/master
+-gvim: 9.0.2092 to 2099 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.4.0esr to 119.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.4.1 to 115.4.2 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.4.2 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.154 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1146,7 +1147,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
 -xine-ui: 0.9.14 https://sourceforge.net/projects/xine/
--xlockmore: 5.73 https://www.tux.org/~bagleyd/xlockmore.html
+-xlockmore: 5.74 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
@@ -1182,7 +1183,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-taskmanager: 1.5.6
 -xfce4-terminal: 1.1.0
 -xfce4-weather-plugin: 0.11.1
--xfce4-whiskermenu-plugin: 2.8.0
+-xfce4-whiskermenu-plugin: 2.8.1
 -xfconf: 4.18.3
 -xfdesktop: 4.18.1
 -xfwm4: 4.18.0
