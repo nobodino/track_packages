@@ -130,7 +130,7 @@ A series :
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 1.90.1 to 1.90.2 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
--usbutils: 015 to 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
+-usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
 -util-linux: 2.39.2
@@ -208,7 +208,7 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
--lsof: 4.98.0 to 4.99.0 https://github.com/lsof-org/lsof/releases
+-lsof: 4.99.0 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.3 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2092 to 2099 https://github.com/vim/vim/commits/master
+-vim: 9.0.2092 to 2103 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2092
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -296,7 +296,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.1.62 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 17.0.4 http://llvm.org/
+-llvm: 17.0.4 to 17.0.5 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -352,7 +352,7 @@ d series:
 -subversion: 1.14.2 https://subversion.apache.org
 -swig: 4.0.2 to 4.1.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
--vala: 0.56.13 https://gitlab.gnome.org/GNOME/vala/-/tags
+-vala: 0.56.14 https://gitlab.gnome.org/GNOME/vala/-/tags
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -378,7 +378,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.27.9 (plasma) https://download.kde.org/stable/
--kde: 5.111.0 (framework) https://download.kde.org/stable/
+-kde: 5.112.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.3 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -478,11 +478,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 45.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.22.6 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.22.6 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.22.6 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.22.6 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer:1.22.6 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.7 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.7 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.7 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.227 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer:1.22.7 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.38 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -493,7 +493,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.52.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.2.2 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.3.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -667,7 +667,7 @@ l series:
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.34 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.50.14 to 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
@@ -760,7 +760,7 @@ l series:
 	-SDL_sound: 1.0.3 https://www.libsdl.org/projects/SDL_sound/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
--shared-mime-info: 2.3 http://freedesktop.org/wiki/Software/shared-mime-info/
+-shared-mime-info: 2.4 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 4.19.25 to 6.7.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
@@ -1007,6 +1007,8 @@ x series: (main packages)
 -ibus: 1.5.28 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.4 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-m17n: 1.4.24
+-ibus-table: 1.17.4
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
@@ -1120,7 +1122,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2092 to 2099 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2092 to 2103 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.4.0esr to 119.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
