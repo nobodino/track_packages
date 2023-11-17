@@ -504,7 +504,7 @@ l series:
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
--jasper: 4.0.1 https://github.com/mdadams/jasper/releases
+-jasper: 4.1.0 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
@@ -676,7 +676,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.84 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 0.3.85 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -764,7 +764,7 @@ l series:
 -sip: 4.19.25 to 6.7.12 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
--sof-firmware: 2023.09.1 https://github.com/thesofproject/sof-bin/releases
+-sof-firmware: 2023.09.2 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
@@ -832,7 +832,7 @@ n series:
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.3 https://www.gnupg.org/download/index.html
--gnutls: 3.8.1 to 3.8.2 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.2 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.23.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -854,7 +854,7 @@ n series:
 -libassuan: 2.5.6 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.3 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.47 https://www.gnupg.org/download/index.html
--libksba: 1.6.4 https://www.gnupg.org/download/index.html
+-libksba: 1.6.5 https://www.gnupg.org/download/index.html
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.17.2 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
@@ -1128,7 +1128,7 @@ xap series:
 -mozilla-firefox: 115.4.0esr to 119.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 115.4.3 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
--pan: 0.154 http://pan.rebelbase.com/download/releases/
+-pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.12
 	-pidgin: 2.14.12 https://www.pidgin.im/download/source/
@@ -1215,7 +1215,7 @@ extra:
 -xv: 4.2.0
 --------------------
 testing :
--rust: 1.73.0
+-rust: 1.74.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
