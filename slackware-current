@@ -43,7 +43,7 @@ A series :
 	- mtools: 4.0.18 to 4.0.43 https://www.gnu.org/software/mtools/
 -gawk: 5.3.0 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
--gettext: 0.22.3 to 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2023c
 	-tzcode: 2003c https://www.iana.org/time-zones
 	-tzdata: 2023c https://www.iana.org/time-zones
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.62 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231117 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.63 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231120 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -251,8 +251,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2092 to 2116 https://github.com/vim/vim/commits/master
-	- vim: 9.0.2092
+-vim: 9.0.2116 to 2120 https://github.com/vim/vim/commits/master
+	- vim: 9.0.2116
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -284,8 +284,8 @@ d series:
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.22.3 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.42.1 (to 2.43.0rc0) https://git-scm.com/download
+-gettext-tools: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
+-git: 2.43.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -294,14 +294,14 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.62 http://wwww.kernel.org
+-kernel-headers: 6.1.63 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.5 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.5.3 https://www.mercurial-scm.org/release
--meson: 1.2.3 to 1.3.0 https://github.com/mesonbuild/meson/releases
+-mercurial: 6.6 https://www.mercurial-scm.org/release
+-meson: 1.3.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -opencl-headers: 2021.04.29 to 2023.04.17 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -346,7 +346,7 @@ d series:
 -rust: 1.70.0 https://rust-lang.org
 -rust-bindgen: 0.69.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
--scons: 4.5.2 https://github.com/SCons/scons/releases
+-scons: 4.6.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.6 https://github.com/strace/strace/releases
 -subversion: 1.14.2 https://subversion.apache.org
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.62
+-kernel : 6.1.63
 --------------------
 kde series :
 --------------------
@@ -635,7 +635,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.9.14 to 2.11.2 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.9.14 to 2.12.0 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.6.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.36 to 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
@@ -722,7 +722,7 @@ l series:
 -python-pbr: 5.8.0 to 5.11.1 https://pypi.org/project/pbr
 -python-pillow: 8.4.0 to 10.1.0 https://github.com/python-pillow/Pillow/releases
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-pygments: 2.10.0 to 2.16.1 https://pypi.org/project/Pygments
+-python-pygments: 2.10.0 to 2.17.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.0.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.12.0 to 0.14.3 https://pypi.org/project/pysol-cards
@@ -745,7 +745,7 @@ l series:
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
--readline: 8.2.001 https://ftp.gnu.org/gnu/readline
+-readline: 8.2.007 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.18 https://rubygems.org/gems/asciidoctor
@@ -810,7 +810,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20231117 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.22.0 https://c-ares.org/
+-c-ares: 1.22.1 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
@@ -899,7 +899,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.6.3 to 2.6.4 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nfs-utils: 2.6.4 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.9 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.58.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
@@ -917,7 +917,7 @@ n series:
 -openvpn: 2.6.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.2.12 http://www.php.net/distributions/
+-php: 8.2.12 to 8.3.0 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1017,7 +1017,7 @@ x series: (main packages)
 -libXaw3d: 1.6.5
 -libdmx: 1.1.4
 -libpciaccess: 0.17
--libdrm: 2.4.117 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.118 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.1 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
@@ -1122,11 +1122,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2092 to 2116 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2116 to 2120 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.4.0esr to 119.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.4.3 https://www.thunderbird.net/
+-mozilla-firefox: 115.5.0esr to 120.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.4.3 to 115.05.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1155,7 +1155,7 @@ xap series:
 -xpdf: 4.04 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.07 to 6.08 http://www.jwz.org/xscreensaver/python*
--xsnow: 3.7.5 https://sourceforge.net/projects/xsnow/files/
+-xsnow: 3.7.6 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.18 https://gitlab.xfce.org/xfce/
 --------------------
