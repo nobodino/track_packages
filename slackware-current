@@ -78,7 +78,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.22 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.22 to 2.03.23 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.13 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 196 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -241,7 +241,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.44.0 http://www.sqlite.org/download.html
+-sqlite: 3.44.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.15p2 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.4 https://github.com/sysstat/sysstat
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2116 to 2120 https://github.com/vim/vim/commits/master
+-vim: 9.0.2116 to 2122 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2116
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -1122,11 +1122,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2116 to 2120 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2116 to 2122 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.5.0esr to 120.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.4.3 to 115.05.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.05.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1216,6 +1216,7 @@ extra:
 --------------------
 testing :
 -rust: 1.74.0
+-kernel: 6.6.2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
