@@ -261,7 +261,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 0.29.36 to 3.0.4 https://pypi.python.org/pypi/Cython/
+-Cython: 0.29.36 to 3.0.6 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.71 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
@@ -310,12 +310,12 @@ d series:
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20231122 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.38.0 to 5.38.1
-	- Authen-SASL: 2.16 https://www.cpan.org/modules/by-module/Authen/
+-perl: 5.38.1
+	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.050 to 5.002 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
-	- IO-Socket-SSL: 2.083 https://www.cpan.org/modules/by-module/IO/
+	- IO-Socket-SSL: 2.084 https://www.cpan.org/modules/by-module/IO/
 	- JSON: 4.10
 	- MIME-Base64: 3.16 https://www.cpan.org/modules/by-module/MIME/
 	- Module-Runtime: 0.016 https://www.cpan.org/modules/01modules.index.html
@@ -326,7 +326,7 @@ d series:
 	- Sub-Quote: 2.006008 https://www.cpan.org/modules/by-module/Sub/
 	- Template-Toolkit: 3.101 https://www.cpan.org/modules/by-module/Template/
 	- TermReadKey: 2.38 https://www.cpan.org/modules/by-module/Term/
-	- URI: 5.19 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.21 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 to 3.80 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -677,7 +677,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 0.3.85 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.0.0 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -736,7 +736,6 @@ l series:
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
 -python-sphinx: 4.5.0 to 7.2.6 (need sphinxcontrib-serializinghtml) https://pypi.org/project/sphinx
--python-toml: 0.10.2 https://pypi.org/project/toml/#files
 -python-tomli: 1.2.2 to 2.0.1 https://pypi.org/project/tomli
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
@@ -787,7 +786,7 @@ l series:
 -tevent: 0.16.0 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
--v4l-utils: 1.24.1 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.26.0 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.74.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
@@ -1189,7 +1188,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-taskmanager: 1.5.6
 -xfce4-terminal: 1.1.0
 -xfce4-weather-plugin: 0.11.1
--xfce4-whiskermenu-plugin: 2.8.1
+-xfce4-whiskermenu-plugin: 2.8.2
 -xfconf: 4.18.3
 -xfdesktop: 4.18.1
 -xfwm4: 4.18.0
