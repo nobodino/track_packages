@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.63 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231120 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.64 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231128 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -275,7 +275,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.27.8 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.27.9 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -294,9 +294,9 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.63 http://wwww.kernel.org
+-kernel-headers: 6.1.64 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 17.0.5 http://llvm.org/
+-llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.63
+-kernel : 6.1.64
 --------------------
 kde series :
 --------------------
@@ -1129,7 +1129,7 @@ xap series:
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.5.0esr to 120.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.05.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.05.1 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1218,7 +1218,7 @@ extra:
 -xv: 4.2.0
 --------------------
 testing :
--kernel: 6.6.2
+-kernel: 6.6.3
 -rust: 1.74.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
