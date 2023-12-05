@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.376 https://github.com/vcrhonek/hwdata
+-hwdata: 0.377_2 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.3 https://github.com/legionus/kbd/releases
--kernel-ide: 6.1.64 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231128 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.1.65 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231130 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -133,7 +133,7 @@ A series :
 -usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.39.2
+-util-linux: 2.39.2 to 2.39.3
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
@@ -249,9 +249,9 @@ Ap series :
 -texinfo: 7.1 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.3a https://github.com/tmux/tmux/releases
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
--usbmuxd: 20200925 to 20220404 https://github.com/libimobiledevice/usbmuxd/releases
+-usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2127 to 2138 https://github.com/vim/vim/commits/master
+-vim: 9.0.2127 to 2149 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2127
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -283,7 +283,7 @@ d series:
 -doxygen: 1.9.8 http://wwfile:///root/Documents/epub/L'art de la therapie - Irvin Yalom.epubw.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
--gdb: 13.2 http://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 14.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.43.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.1.64 http://wwww.kernel.org
+-kernel-headers: 6.1.65 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -312,7 +312,7 @@ d series:
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.2
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
-	- DBD-mysql: 4.050 to 5.002 http://www.cpan.org/modules/by-module/DBD/
+	- DBD-mysql: 4.050 to 5.003 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
 	- IO-Socket-SSL: 2.084 https://www.cpan.org/modules/by-module/IO/
@@ -373,7 +373,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.1.64
+-kernel : 6.1.65
 --------------------
 kde series :
 --------------------
@@ -435,7 +435,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.190 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.2 https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.3 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.1 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
@@ -460,7 +460,7 @@ l series:
 -gexiv2: 0.14.2 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2023.3 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
--gjs: 1.76.2 to 1.78.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.76.2 to 1.78.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.78.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
@@ -500,7 +500,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 73.2 to 74.1 https://icu.unicode.org/
--imagemagick: 7.1.1_21 http://www.imagemagick.org/
+-imagemagick: 7.1.1_22 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.15.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -517,7 +517,7 @@ l series:
 -lager: 0.1.1 https://github.com/arximboldi/lager
 -lame: 3.100 https://sourceforge.net/projects/lame/files/lame/3.100/
 -lcms: 1.19 http://sourceforge.net/projects/lcms/files/lcms/
--lcms2: 2.15 http://sourceforge.net/projects/lcms/files/lcms/
+-lcms2: 2.16 http://sourceforge.net/projects/lcms/files/lcms/
 -lensfun: 0.3.4 https://github.com/lensfun/lensfun/releases
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
@@ -563,8 +563,8 @@ l series:
 -libidn: 1.41 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.4 http://ftp.gnu.org/gnu/libidn/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
--libimobiledevice: 20211124 to 20221210 (nok) http://www.libimobiledevice.org/
--libimobiledevice-glue: 20211125 to 20230109 http://www.libimobiledevice.org/
+-libimobiledevice: 20231007 http://www.libimobiledevice.org/
+-libimobiledevice-glue: 20231110 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.16 http://sourceforge.net/projects/iodbc/files/iodbc/
 -libjpeg-turbo: 3.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
@@ -578,7 +578,7 @@ l series:
 -libnih: 1.0.3 https://launchpad.net/libnih
 -libnjb: 2.2.7 https://sourceforge.net/projects/libnjb/files/libnjb/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
--libnl3: 3.8.0 https://github.com/thom311/libnl
+-libnl3: 3.9.0 https://github.com/thom311/libnl
 -libnotify: 0.8.2 to 0.8.3 https://download.gnome.org/sources/libnotify/0.8/
 -libnsl: 2.0.1 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.2 https://github.com/thkukuk/libnss_nis/releases
@@ -589,7 +589,7 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
 -libpaper: 2.1.2 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
--libplist: 2.2.0 http://www.libimobiledevice.org/
+-libplist: 2.3.0 http://www.libimobiledevice.org/
 -libpng: 1.6.40 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.4.18 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.2 https://github.com/rockdaboot/libpsl/releases
@@ -602,7 +602,7 @@ l series:
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libsigc++3: 3.6.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
--libseccomp: 2.5.4 https://github.com/seccomp/libseccomp/releases
+-libseccomp: 2.5.5 https://github.com/seccomp/libseccomp/releases
 -libsecret: 0.20.5 to 0.21.0 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
@@ -621,7 +621,7 @@ l series:
 -liburing: 2.5 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.26 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
--libusbmuxd: 20200615 to 20220605 (nok) http://www.libimobiledevice.org/
+-libusbmuxd: 20230901 http://www.libimobiledevice.org/
 -libuv: 1.47.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.0 to 0.4.1 http://sourceforge.net/projects/libvisual/
@@ -652,7 +652,7 @@ l series:
 -mozilla-nss: 3.95 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.95 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs102: 102.15.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs102: 102.15.1esr to 115.5.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
@@ -681,7 +681,7 @@ l series:
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.11.0 http://poppler.freedesktop.org/
+-poppler: 23.12.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 (to 16.99.1) https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -1125,7 +1125,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2127 to 2138 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2127 to 2149 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.5.0esr to 120.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1171,7 +1171,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -mousepad: 0.6.1
 -thunar: 4.18.8 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
--tumbler: 4.18.1
+-tumbler: 4.18.2
 -xfce4-appfinder: 4.18.1
 -xfce4-clipman-plugin: 1.6.5
 -xfce4-dev-tools: 4.18.1
@@ -1218,7 +1218,7 @@ extra:
 -xv: 4.2.0
 --------------------
 testing :
--kernel: 6.6.3
+-kernel: 6.6.4
 -rust: 1.74.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
