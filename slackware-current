@@ -133,11 +133,11 @@ A series :
 -usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) http://ftp.altlinux.org/pub/people/ldv/utempter/
--util-linux: 2.39.2 to 2.39.3
+-util-linux: 2.39.3
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
-	- util-linux: 2.39.2 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.39.3 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
@@ -230,7 +230,7 @@ Ap series :
 -qpdf: 11.6.3 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rfind: 1.6.0 https://github.com/pauldreik/rdfind
--rpm: 4.18.1 to 4.19.0 http://ftp.rpm.org/releases
+-rpm: 4.19.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
 -sc-im: 0.8.3 https://github.com/andmarti1424/sc-im
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2127 to 2149 https://github.com/vim/vim/commits/master
+-vim: 9.0.2127 to 2153 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2127
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -377,7 +377,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.27.9 (plasma) https://download.kde.org/stable/
+-kde: 5.27.10 (plasma) https://download.kde.org/stable/
 -kde: 5.112.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.3 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -464,7 +464,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.78.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.78.1 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.78.2 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.6 to 2.78.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.38 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.14 https://github.com/jstedfast/gmime/releases
@@ -614,7 +614,7 @@ l series:
 -libssh2: 1.10.0 to 1.11.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.4.0 to 4.6.0 https://download.osgeo.org/libtiff/
+-libtiff: 4.6.0 https://download.osgeo.org/libtiff/
 -libunibreak: 5.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
@@ -744,7 +744,7 @@ l series:
 -python-zipp: 3.8.0 to 3.17.0 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.11_20231024 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.11_20231125 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
@@ -1125,7 +1125,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2127 to 2149 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2127 to 2153 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.5.0esr to 120.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
