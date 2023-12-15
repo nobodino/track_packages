@@ -13,7 +13,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.6.2 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.6.2 to 6.6.3 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.4 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.14 http://ftp.gnu.org/pub/gnu/cpio/
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.3 to 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.6 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231211 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20231212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -243,7 +243,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.44.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.15p2 https://github.com/sudo-project/sudo/releases
+-sudo: 1.9.15p3 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.4 https://github.com/sysstat/sysstat
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.1 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2127 to 2160 https://github.com/vim/vim/commits/master
+-vim: 9.0.2127 to 2167 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2127
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -275,7 +275,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.28.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.28.0 to 3.28.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.6 http://wwww.kernel.org
+-kernel-headers: 6.6.7 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -373,12 +373,12 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.6
+-kernel : 6.6.7
 --------------------
 kde series :
 --------------------
 -kde: 5.27.10 (plasma) https://download.kde.org/stable/
--kde: 5.112.0 (framework) https://download.kde.org/stable/
+-kde: 5.112.0 to 5.113.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -388,11 +388,13 @@ l series:
 -LibRaw: 0.21.1 http://www.libraw.org/
 -Mako: 1.1.6 to 1.3.0 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 to 0.40.1 http://pypi.python.org/pypi/M2Crypto/
--PyQT5: 5.15.2 to 5.15.10 https://pypi.org/project/PyQt5
--QScintilla: 2.11.6 to 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
+-PyQT5: 5.15.10 https://pypi.org/project/PyQt5
+-PyQt-builder: 1.15.4 https://pypi.org/project/PyQt-builder/
+-PyQt5_sip: 12.13.0 https://pypi.org/project/PyQt5-sip/
+-QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.28.5 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.8.0 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_image: 2.8.1 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.3 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.2.0 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.20.2 https://www.libsdl.org/projects/SDL2_ttf/
@@ -435,7 +437,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.190 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.3 https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.4 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.1 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
@@ -636,7 +638,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.12.2 to 2.12.3 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.12.3 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.6.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
@@ -765,7 +767,7 @@ l series:
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 2.4 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 4.19.25 to 6.8.1 (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 6.8.1 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
 -sof-firmware: 2023.09.2 https://github.com/thesofproject/sof-bin/releases
@@ -787,7 +789,7 @@ l series:
 -tevent: 0.16.0 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
--v4l-utils: 1.26.0 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.26.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.74.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
@@ -809,7 +811,7 @@ n series:
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.20 http://ftp.isc.org/isc/bind9
--bluez: 5.70 http://www.bluez.org/download/
+-bluez: 5.71 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -952,7 +954,7 @@ n series:
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -tin: 2.6.2 http://www.tin.org/
--traceroute: 2.1.2 to 2.1.3 https://sourceforge.net/projects/traceroute/files/traceroute/
+-traceroute: 2.1.4 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
@@ -1052,7 +1054,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.3.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.3.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1075,8 +1077,8 @@ x series: (main packages)
 -xinit: 1.4.2
 -xkeyboard-config: 2.40
 -xorgproto: 2023.2
--xorg-server: 21.1.9 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 23.2.2
+-xorg-server: 21.1.10 http://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 23.2.3
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.0
 -xf86-video-amdgpu: 23.0.0 to 20230222
@@ -1127,7 +1129,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2127 to 2160 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2127 to 2167 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.5.0esr to 120.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
