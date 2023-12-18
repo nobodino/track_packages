@@ -64,7 +64,7 @@ A series :
 -inotify-tools: 4.23.8.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 2.6.3 to 2.6.4 https://github.com/legionus/kbd/releases
+-kbd: 2.6.4 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.6.7 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20231212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -208,7 +208,7 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
--lsof: 4.99.0 https://github.com/lsof-org/lsof/releases
+-lsof: 4.99.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.3 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.23 http://download.savannah.gnu.org/releases/lzip/
@@ -243,16 +243,16 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.44.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--sudo: 1.9.15p3 https://github.com/sudo-project/sudo/releases
--sysstat: 12.7.4 https://github.com/sysstat/sysstat
+-sudo: 1.9.15p4 https://github.com/sudo-project/sudo/releases
+-sysstat: 12.7.5 https://github.com/sysstat/sysstat
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.1 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.3a https://github.com/tmux/tmux/releases
 -undervolt: 20210815 to 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2127 to 2167 https://github.com/vim/vim/commits/master
-	- vim: 9.0.2127
+-vim: 9.0.2167 to 2173 https://github.com/vim/vim/commits/master
+	- vim: 9.0.2167
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -275,7 +275,7 @@ d series:
 -clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.28.0 to 3.28.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.28.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -337,7 +337,7 @@ d series:
 -poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.9.18 to 3.10.12/3.12.1 (new API) https://www.python.org/downloads/
--python-pip: 22.2.2 to 23.3.1 https://pypi.python.org/pypi/pip
+-python-pip: 22.2.2 to 23.3.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 69.0.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -378,7 +378,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.27.10 (plasma) https://download.kde.org/stable/
--kde: 5.112.0 to 5.113.0 (framework) https://download.kde.org/stable/
+-kde: 5.113.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -414,7 +414,7 @@ l series:
 -atkmm: 2.28.3 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
--boost: 1.83.0 https://github.com/boostorg/boost
+-boost: 1.84.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
 -cairo: 1.18.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.16.2/1.17.1 http://cairographics.org/cairomm/
@@ -599,7 +599,7 @@ l series:
 -libqalculate: 4.9.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.3 to 2.56.4/2.57.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.4 to 2.57.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.5 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -651,8 +651,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.22.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.95 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.95 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.96 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.96 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.15.1esr to 115.5.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -749,7 +749,7 @@ l series:
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.11_20231125 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
--qtkeychain: 0.14.1 https://github.com/frankosterfeld/qtkeychain/releases
+-qtkeychain: 0.14.2 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
 -readline: 8.2.007 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
@@ -791,7 +791,7 @@ l series:
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.26.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.74.1 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.74.2 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.24 http://www.xapian.org/
@@ -1013,7 +1013,7 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.29 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
--ibus-libpinyin: 1.15.5 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.15.6 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.27
 -ibus-table: 1.17.4
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
@@ -1129,7 +1129,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2127 to 2167 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2167 to 2173 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.5.0esr to 120.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
