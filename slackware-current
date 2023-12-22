@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2167 to 2181 https://github.com/vim/vim/commits/master
+-vim: 9.0.2167 to 2184 https://github.com/vim/vim/commits/master
 	- vim: 9.0.2167
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -716,7 +716,7 @@ l series:
 -python-imagesize: 1.3.0 to 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 5.0.0 to 7.0.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 4.9.3 https://pypi.org/project/lxml/#files
+-python-lxml: 4.9.3 to 4.9.4 https://pypi.org/project/lxml/#files
 -python-markdown: 3.3.5 to 3.5.1 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 21.3 to 23.2 https://github.com/pypa/packaging/releases
@@ -853,7 +853,7 @@ n series:
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.6 https://github.com/irssi/irssi/releases
--iw: 5.19 https://www.kernel.org/pub/software/network/iw/
+-iw: 6.7 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.21.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.6 https://www.gnupg.org/download/index.html
@@ -922,7 +922,7 @@ n series:
 -openvpn: 2.6.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.0 http://www.php.net/distributions/
+-php: 8.3.1 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1022,7 +1022,7 @@ x series: (main packages)
 -libXaw3d: 1.6.5
 -libdmx: 1.1.4
 -libpciaccess: 0.17
--libdrm: 2.4.118 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.119 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.1 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
@@ -1127,7 +1127,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2167 to 2181 https://github.com/vim/vim/commits/master
+-gvim: 9.0.2167 to 2184 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.6.0esr to 121.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
