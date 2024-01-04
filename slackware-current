@@ -23,7 +23,7 @@ A series :
 -dbus: 1.14.10 (to 1.15.8 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20231002 to 1.3_20240101 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20240101 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.19 http://ftp.gnu.org/pub/gnu/ed/
@@ -249,8 +249,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.0.2189 to 2190 https://github.com/vim/vim/commits/master
-	- vim: 9.0.2189
+-vim: 9.1.0000 to 9.1.0004 https://github.com/vim/vim/commits/master
+	- vim: 9.1.0000
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -270,7 +270,7 @@ d series:
 -ccache: 4.9 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.23 https://github.com/Oblomov/clinfo
--clisp: 2.50_20220927 to 2.50_20230112 https://gitlab.com/gnu-clisp/clisp
+-clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
 -cmake: 3.28.1 http://www.cmake.org/cmake/resources/software.html
@@ -348,7 +348,7 @@ d series:
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.6 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
--swig: 4.0.2 to 4.2.0 http://www.swig.org/download.html
+-swig: 4.2.0 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.14 https://gitlab.gnome.org/GNOME/vala/-/tags
 -yasm: 1.3.0 http://yasm.tortall.net/
@@ -392,7 +392,7 @@ l series:
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.28.5 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.8.1 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_image: 2.8.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.6.3 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.2.0 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.20.2 https://www.libsdl.org/projects/SDL2_ttf/
@@ -443,7 +443,7 @@ l series:
 -ffmpeg: 5.1.4 to 6.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.4 http://www.fluidsynth.org/
--fmt: 10.1.1 https://github.com/fmtlib/fmt/releases/
+-fmt: 10.2.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.1 https://files.dyne.org/frei0r
@@ -681,7 +681,7 @@ l series:
 -polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 23.12.0 http://poppler.freedesktop.org/
+-poppler: 24.01.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 16.1 (to 16.99.1) https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -815,7 +815,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20231117 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.24.0 https://c-ares.org/
+-c-ares: 1.25.0 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
@@ -878,11 +878,11 @@ n series:
 -lynx: 2.9.0dev.12 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
--mobile-broadband-provider-info: 20230416 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mobile-broadband-provider-info: 20231023 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.12 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
--ncftp: 3.2.6 http://ftp.ncftp.com/download/
+-ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 3.1.18 http://netatalk.sourceforge.net/
@@ -1091,7 +1091,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 388 to 389 http://invisible-island.net/xterm/
+-xterm: 389 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1127,7 +1127,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.0.2189 to 2190 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0000 to 9.1.0004 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.6.0esr to 121.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
