@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.377_2 https://github.com/vcrhonek/hwdata
+-hwdata: 0.378 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.9 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20231226 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.10 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240105 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -249,8 +249,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0000 to 9.1.0004 https://github.com/vim/vim/commits/master
-	- vim: 9.1.0000
+-vim: 9.1.0015 to 9.1.00xx https://github.com/vim/vim/commits/master
+	- vim: 9.1.0015
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.9 http://wwww.kernel.org
+-kernel-headers: 6.6.10 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.9
+-kernel : 6.6.10
 --------------------
 kde series :
 --------------------
@@ -443,7 +443,7 @@ l series:
 -ffmpeg: 5.1.4 to 6.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.4 http://www.fluidsynth.org/
--fmt: 10.2.0 https://github.com/fmtlib/fmt/releases/
+-fmt: 10.2.1 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.1 https://files.dyne.org/frei0r
@@ -493,7 +493,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.52.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.52.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 8.3.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -992,18 +992,18 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.13 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-anthy: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-chinese-addons: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-anthy: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-chinese-addons: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-hangul: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-kkc: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-m17n: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-qt: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-qt: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-sayura: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-extra: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-extra: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-unikey: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-unikey: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
 -fontconfig: 2.13.92 to 2.15.0 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
@@ -1059,7 +1059,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.1 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/notofonts/noto-fonts/releases
--pixman: 0.42.2 http://cairographics.org/releases/
+-pixman: 0.43.0 http://cairographics.org/releases/
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
@@ -1127,7 +1127,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0000 to 9.1.0004 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0015 to 9.1.00xx https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.6.0esr to 121.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
