@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.11 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240110 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240115 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -109,7 +109,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.14.2 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.14.2 to 4.14.3 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -239,7 +239,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.44.2 http://www.sqlite.org/download.html
+-sqlite: 3.44.2 to 3.45.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.15p5 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.5 https://github.com/sysstat/sysstat/tags
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0027 to 9.1.0029 https://github.com/vim/vim/commits/master
+-vim: 9.1.0027 to 9.1.0031 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0027
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.11 http://wwww.kernel.org
+-kernel-headers: 6.6.12 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.11
+-kernel : 6.6.12
 --------------------
 kde series :
 --------------------
@@ -636,7 +636,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.12.3 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.12.4 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.6.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
@@ -749,7 +749,7 @@ l series:
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qtkeychain: 0.14.2 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
--readline: 8.2.007 https://ftp.gnu.org/gnu/readline
+-readline: 8.2.010 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.20 https://rubygems.org/gems/asciidoctor
@@ -1028,7 +1028,7 @@ x series: (main packages)
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.24.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.25.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
@@ -1127,7 +1127,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0027 to 9.1.0029 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0027 to 9.1.0031 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.6.0esr to 121.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
