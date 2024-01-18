@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0027 to 9.1.0035 https://github.com/vim/vim/commits/master
+-vim: 9.1.0027 to 9.1.0041 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0027
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -486,8 +486,8 @@ l series:
 -gstreamer:1.22.8 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.39 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.12.4 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk+3: 3.24.39 to 3.24.40 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk4: 4.12.4 to 4.12.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -849,7 +849,7 @@ n series:
 -ipset: 7.19 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
--iputils: 20231222 https://github.com/iputils/iputils/releases
+-iputils: 20240117 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.6 https://github.com/irssi/irssi/releases
@@ -992,7 +992,7 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.13 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.7 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
@@ -1001,7 +1001,7 @@ x series: (main packages)
 -fcitx5-m17n: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-qt: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-sayura: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-extra: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-extra: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-unikey: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
 -fontconfig: 2.13.92 to 2.15.0 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
@@ -1017,7 +1017,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
--libime: 1.1.3 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.1.5 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.5
 -libdmx: 1.1.4
@@ -1127,7 +1127,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0027 to 9.1.0035 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0027 to 9.1.0041 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.6.0esr to 121.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1143,7 +1143,7 @@ xap series:
 -sane: 1.2.1
 	- sane-backend : 1.2.1 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
--seamonkey: 2.53.18 to 2.53.18.1 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.18.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
