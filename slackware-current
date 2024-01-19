@@ -355,7 +355,7 @@ d series:
 --------------------
 e series:
 --------------------
--emacs: 29.1 http://www.gnu.org/software/emacs/
+-emacs: 29.2 http://www.gnu.org/software/emacs/
 -emacspeak: 53.0 to 58.0 https://github.com/tvraman/emacspeak/releases
 --------------------
 Installer:
@@ -451,7 +451,7 @@ l series:
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.4 https://github.com/ivmai/bdwgc/tags
--gcr: 3.40.0 to gcr-4.1.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.40.0 to 3.41.2/4.1.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
@@ -486,8 +486,8 @@ l series:
 -gstreamer:1.22.8 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.39 to 3.24.40 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.12.4 to 4.12.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk+3: 3.24.40 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk4: 4.12.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -678,7 +678,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
 -pipewire: 1.0.1 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
--polkit: v0.123 https://gitlab.freedesktop.org/polkit/polkit/-/tags
+-polkit: v0.123 to v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
 -poppler: 24.01.0 http://poppler.freedesktop.org/
@@ -712,6 +712,7 @@ l series:
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 0.18.2 to 0.18.3 https://pypi.org/project/future/
 -python-glad2: 2.0.4 https://pypi.org/project/glad2/#files
+-python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.3 to 3.6 https://github.com/kjd/idna/tags
 -python-imagesize: 1.3.0 to 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 5.0.0 to 7.0.0 https://pypi.org/project/importlib-metadata
@@ -741,6 +742,7 @@ l series:
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 1.26.8 to 2.1.0 https://github.com/urllib3/urllib3/releases
+-python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.41.1 to 0.42.0 https://pypi.org/project/wheel/#files
 -python-zipp: 3.8.0 to 3.17.0 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
@@ -922,7 +924,7 @@ n series:
 -openvpn: 2.6.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.1 http://www.php.net/distributions/
+-php: 8.3.1 to 8.3.2 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
