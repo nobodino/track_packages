@@ -13,7 +13,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.6.2 to 6.6.3 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.6.2 to 6.7 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.4 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
@@ -79,7 +79,7 @@ A series :
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.23 https://mirrors.kernel.org/sourceware/lvm2/
--lzlib: 1.13 to 1.3.1 https://download.savannah.nongnu.org/releases/lzip/lzlib/
+-lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 197 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.2 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
@@ -102,7 +102,7 @@ A series :
 -pciutils: 3.10.0 http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
--plzip: 1.10 https://download.savannah.gnu.org/releases/lzip/plzip/
+-plzip: 1.11 https://download.savannah.gnu.org/releases/lzip/plzip/
 -procps-ng: 3.3.17 to 4.0.4 https://gitlab.com/procps-ng/procps/-/tags
 -quota: 4.09 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
@@ -162,7 +162,7 @@ Ap series :
 -cups-filters: 1.28.17 to 2.0.0 https://github.com/OpenPrinting/cups-filters/tags
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
--ddrescue: 1.27 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
+-ddrescue: 1.28 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.65 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.10 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0041 to 9.1.0044 https://github.com/vim/vim/commits/master
+-vim: 9.1.0041 to 9.1.0050 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0041
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -486,7 +486,7 @@ l series:
 -gstreamer:1.22.8 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.40 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.12.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
@@ -587,7 +587,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpaper: 2.1.2 https://github.com/rrthomas/libpaper
+-libpaper: 2.1.3 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplist: 2.3.0 http://www.libimobiledevice.org/
 -libpng: 1.6.40 http://sourceforge.net/projects/libpng/files/libpng16/
@@ -667,7 +667,7 @@ l series:
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
--orc: 0.4.34 https://gstreamer.freedesktop.org/src/orc/
+-orc: 0.4.35 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -796,7 +796,7 @@ l series:
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.24 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
--zlib: 1.3 (to zlib-ng 2.1.4) https://zlib.net/
+-zlib: 1.3.1 (to zlib-ng 2.1.4) https://zlib.net/
 -zstd: 1.5.5 https://github.com/facebook/zstd/releases
 -zug: 0.1.1 https://github.com/arximboldi/zug
 -zxing-cpp: 2.2.1 https://github.com/zxing-cpp/zxing-cpp
@@ -1129,11 +1129,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0041 to 9.1.0044 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0041 to 9.1.0050 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.6.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.06.1 https://www.thunderbird.net/
+-mozilla-firefox: 115.7.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.07 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
