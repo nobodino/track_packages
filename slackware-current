@@ -6,20 +6,20 @@ A series :
 -aaa_glibc-solibs: 2.38
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.4_20230610
--acl: 2.3.1 http://savannah.nongnu.org/projects/acl
+-acl: 2.3.2 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.026 http://ftp.gnu.org/pub/gnu/bash/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.6.2 to 6.7 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.7 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.4 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.9.11 https://github.com/cracklib/cracklib
--cryptsetup: 2.6.1 (to 2.7.0-rc1) https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.7.0 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.14.10 (to 1.15.8 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
@@ -59,14 +59,14 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inih: r57 https://github.com/benhoyt/inih
+-inih: r58 https://github.com/benhoyt/inih
 -iniparser: 4.1 https://github.com/ndevilla/iniparser
 -inotify-tools: 4.23.8.0 to 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.13 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240117 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.14 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240124 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -97,7 +97,7 @@ A series :
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.2.0 https://github.com/openssl/openssl/tags
 -os-prober: 1.81 https://packages.debian.org/unstable/utils/os-prober
--pam: 1.5.3 to 1.6.0 https://github.com/linux-pam/linux-pam/releases
+-pam: 1.6.0 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.10.0 http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
@@ -140,7 +140,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.5.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.4.5 http://tukaani.org/xz/
+-xz: 5.4.6 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -214,7 +214,7 @@ Ap series :
 -man-db: 2.12.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.05.01 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.6 http://mariadb.org/
--mc: 4.8.30 http://www.midnight-commander.org/downloads/
+-mc: 4.8.31 http://www.midnight-commander.org/downloads/
 -moc: 2.5.2 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.32.4 http://sourceforge.net/projects/mpg123/files/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0041 to 9.1.0050 https://github.com/vim/vim/commits/master
+-vim: 9.1.0041 to 9.1.0059 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0041
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.13 http://wwww.kernel.org
+-kernel-headers: 6.6.14 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -306,7 +306,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20231222 https://www.gnu.org/software/parallel/
+-parallel: 20240122 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.2
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
@@ -371,7 +371,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.13
+-kernel : 6.6.14
 --------------------
 kde series :
 --------------------
@@ -479,11 +479,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 45.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.22.8 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.22.8 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.22.8 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.22.8 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer:1.22.8 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.9 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.9 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.9 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.22.9 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer:1.22.9 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -561,13 +561,13 @@ l series:
 -libical: 3.0.17 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.42 http://ftp.gnu.org/gnu/libidn/
--libidn2: 2.3.4 http://ftp.gnu.org/gnu/libidn/
+-libidn2: 2.3.7 http://ftp.gnu.org/gnu/libidn/
 -libieee1284: 0.2.11 http://sourceforge.net/projects/libieee1284/files/libieee1284/
 -libimobiledevice: 20231007 http://www.libimobiledevice.org/
 -libimobiledevice-glue: 20231110 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.16 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 3.0.1 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 3.0.2 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -590,7 +590,7 @@ l series:
 -libpaper: 2.1.3 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplist: 2.3.0 http://www.libimobiledevice.org/
--libpng: 1.6.40 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.41 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.5.3 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
@@ -667,7 +667,7 @@ l series:
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
--orc: 0.4.35 https://gstreamer.freedesktop.org/src/orc/
+-orc: 0.4.36 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -708,10 +708,12 @@ l series:
 -python-dnspython: 2.1.0 to 2.3.0 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.6 to 0.8.8.7 https://pypi.org/project/doxypypy
 -python-doxyqml: 0.5.1 to 0.5.3 https://pypi.org/project/doxyqml
--python-docutils: 0.17.1 to 0.20.1 https://pypi.org/project/docutils/#files
+-python-docutils: 0.20.1 https://pypi.org/project/docutils/#files
+-python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 0.18.2 to 0.18.3 https://pypi.org/project/future/
 -python-glad2: 2.0.4 https://pypi.org/project/glad2/#files
+-python-hatchling: 1.21.1 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.3 to 3.6 https://github.com/kjd/idna/tags
 -python-imagesize: 1.3.0 to 1.4.1 https://pypi.org/project/imagesize
@@ -721,11 +723,13 @@ l series:
 -python-markdown: 3.3.5 to 3.5.1 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 21.3 to 23.2 https://github.com/pypa/packaging/releases
+-python-pathspec: 0.12.1 https://pypi.org/project/pathspec
 -python-pbr: 5.8.0 to 6.0.0 https://pypi.org/project/pbr
 -python-pillow: 8.4.0 to 10.1.0 https://github.com/python-pillow/Pillow/releases
+-python-pluggy: 1.4.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-psutil: 5.9.6 https://pypi.org/project/psutil
--python-pygments: 2.10.0 to 2.17.2 https://pypi.org/project/Pygments
+-python-pygments: 2.17.2 https://pypi.org/project/Pygments
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.0.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.12.0 to 0.14.3 https://pypi.org/project/pysol-cards
@@ -737,9 +741,11 @@ l series:
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
--python-sphinx: 4.5.0 to 7.2.6 (need sphinxcontrib-serializinghtml) https://pypi.org/project/sphinx
+-python-sphinx: 7.2.6 https://pypi.org/project/sphinx
+-python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli: 1.2.2 to 2.0.1 https://pypi.org/project/tomli
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
+-python-trove-classifiers: 2024.1.8 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 1.26.8 to 2.1.0 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -817,7 +823,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20231117 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.25.0 https://c-ares.org/
+-c-ares: 1.26.0 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
@@ -838,7 +844,7 @@ n series:
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.3 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.4 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.3 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.23.2 https://www.gnupg.org/download/index.html
@@ -983,7 +989,7 @@ tcl/tk series:
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 http://ftp.mars.org/pub/hfs/
 -tcl: 8.6.13 http://tcl.activestate.com/pub/tcl/tcl8_4/
--tclx: 8.6.2 http://tclx.sourceforge.net/
+-tclx: 8.6.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
 -tk: 8.6.13 http://tcl.activestate.com/pub/tcl/tcl8_4/
 --------------------
@@ -1054,7 +1060,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.3.3 (to 24.0.0rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.3.4 (to 24.0.0rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1112,9 +1118,9 @@ xap series:
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
--freerdp: 2.11.1 https://pub.freerdp.com/releases
+-freerdp: 2.11.5 https://pub.freerdp.com/releases
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
--geeqie: 2.1 http://sourceforge.net/projects/geeqie/files/geeqie/
+-geeqie: 2.2 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
 -gimp: 2.10.36 (beta: 2.99.16) http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 http://gkrellm.srcbox.net/	
@@ -1129,7 +1135,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0041 to 9.1.0050 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0041 to 9.1.0059 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
