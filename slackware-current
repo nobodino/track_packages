@@ -163,7 +163,7 @@ Ap series :
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.28 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
--diffstat: 1.65 https://invisible-island.net/archives/diffstat/
+-diffstat: 1.66 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.10 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
 -dmidecode: 3.5 https://www.nongnu.org/dmidecode/
@@ -209,13 +209,13 @@ Ap series :
 -lsof: 4.99.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.3 https://linuxcontainers.org/lxc/downloads/
--lzip: 1.23 (to 1.24rc2) http://download.savannah.gnu.org/releases/lzip/
+-lzip: 1.23 to 1.24 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.12.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.05.01 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.6 http://mariadb.org/
 -mc: 4.8.31 http://www.midnight-commander.org/downloads/
--moc: 2.5.2 http://moc.daper.net/
+-moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.32.4 http://sourceforge.net/projects/mpg123/files/
 -nano: 7.2 http://www.nano-editor.org/download.php
@@ -249,8 +249,8 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0041 to 9.1.0059 https://github.com/vim/vim/commits/master
-	- vim: 9.1.0041
+-vim: 9.1.0061 to 9.1.0065 https://github.com/vim/vim/commits/master
+	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -263,7 +263,7 @@ d series:
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.41 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.41 to 2.42 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.12 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
@@ -273,7 +273,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.28.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.28.1 to 3.28.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -302,6 +302,7 @@ d series:
 -meson: 1.3.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
+-nv-codec-headers: 12.1.14.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
 -opencl-headers: 2021.04.29 to 2023.04.17 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
@@ -346,7 +347,7 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.6.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.6 https://github.com/strace/strace/releases
+-strace: 6.6 to 6.7 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.0 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
@@ -382,7 +383,7 @@ kde series :
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--Imath: 3.1.9 https://github.com/AcademySoftwareFoundation/Imath/releases
+-Imath: 3.1.10 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.2 http://www.libraw.org/
 -Mako: 1.1.6 to 1.3.0 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 to 0.40.1 http://pypi.python.org/pypi/M2Crypto/
@@ -440,7 +441,7 @@ l series:
 -exiv2: 0.28.1 https://exiv2.org/download.html
 -expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 5.1.4 to 6.1.1 https://ffmpeg.org/
+-ffmpeg: 6.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.4 http://www.fluidsynth.org/
 -fmt: 10.2.1 https://github.com/fmtlib/fmt/releases/
@@ -523,6 +524,7 @@ l series:
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
 -libarchive: 3.7.2 http://www.libarchive.org/downloads/
+-libass: 0.17.1 https://github.com/libass/libass
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
 -libbluray: 1.3.4 https://code.videolan.org/videolan/libbluray/-/tags
@@ -589,6 +591,7 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
 -libpaper: 2.1.3 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
+-libplacebo: 6.338.2 https://github.com/haasn/libplacebo
 -libplist: 2.3.0 http://www.libimobiledevice.org/
 -libpng: 1.6.41 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.5.3 https://github.com/libproxy/libproxy/releases
@@ -656,7 +659,7 @@ l series:
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.32.5 https://github.com/notroj/neon/tags
--netpbm: 11.05.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.05.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
 -nodejs: 20.11.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -840,7 +843,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
--ethtool: 5.19 to 6.6 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.19 to 6.7 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -921,7 +924,7 @@ n series:
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p17 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.6.6 https://ftp.openldap.org/software/download/
+-openldap: 2.6.6 to 2.6.7 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.6p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
@@ -947,7 +950,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.4 https://ftp.samba.org/pub/samba/
+-samba: 4.19.4 (to 4.20.0rc1) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1067,7 +1070,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.1 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/notofonts/noto-fonts/releases
--pixman: 0.43.0 http://cairographics.org/releases/
+-pixman: 0.43.2 http://cairographics.org/releases/
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
@@ -1103,8 +1106,8 @@ x series: (main packages)
 --------------------
 xap series:
 --------------------
--MPlayer: 20221009 https://mplayerhq.hu/design7/news.html
-	-Mplayer: 20221009
+-MPlayer: 20240127 https://mplayerhq.hu/design7/news.html
+	-Mplayer: 20240127
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.10.2
 -audacious: 4.3.1 http://www.audacious-media-player.org
@@ -1135,7 +1138,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0041 to 9.1.0059 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0061 to 9.1.0065 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
