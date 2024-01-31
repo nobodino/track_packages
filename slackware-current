@@ -95,7 +95,7 @@ A series :
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
--openssl-solibs: 3.2.0 https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.2.1 https://github.com/openssl/openssl/tags
 -os-prober: 1.81 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.6.0 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -148,7 +148,7 @@ Ap series :
 --------------------
 -a2ps: 4.15.5 http://ftp.gnu.org/gnu/a2ps/ 
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
--alsa-utils: 1.2.10 https://www.alsa-project.org/files/files/pub/utils/
+-alsa-utils: 1.2.11 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.5 http://software.calhariz.com/at/
 -bc: 1.07.1 to 6.7.4 https://git.yzena.com/gavin/bc/tags
@@ -209,7 +209,7 @@ Ap series :
 -lsof: 4.99.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 4.0.12 to 5.0.3 https://linuxcontainers.org/lxc/downloads/
--lzip: 1.23 to 1.24 http://download.savannah.gnu.org/releases/lzip/
+-lzip: 1.24 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.12.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.05.01 http://www.kernel.org/pub/linux/docs/man-pages/
@@ -239,7 +239,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.45.0 http://www.sqlite.org/download.html
+-sqlite: 3.45.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.15p5 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.5 https://github.com/sysstat/sysstat/tags
@@ -263,7 +263,7 @@ d series:
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.41 to 2.42 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.42 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.12 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
@@ -273,7 +273,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.28.1 to 3.28.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.28.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -325,7 +325,7 @@ d series:
 	- Sub-Quote: 2.006008 https://www.cpan.org/modules/by-module/Sub/
 	- Template-Toolkit: 3.101 https://www.cpan.org/modules/by-module/Template/
 	- TermReadKey: 2.38 https://www.cpan.org/modules/by-module/Term/
-	- URI: 5.21 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.21 to 5.25 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.46 to 2.47 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
@@ -347,7 +347,7 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.6.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.6 to 6.7 https://github.com/strace/strace/releases
+-strace: 6.7 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.0 http://www.swig.org/download.html
 -tree-sitter: 0.20.8 https://github.com/tree-sitter/tree-sitter
@@ -401,7 +401,7 @@ l series:
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -accountsservice: 22.08.8 to 23.13.9 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 45.0 https://github.com/GNOME/adwaita-icon-theme/tags
--alsa-lib: 1.2.9 to 1.2.10 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.11 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
 -apr: 1.7.4 http://apr.apache.org/download.cgi
@@ -410,7 +410,7 @@ l series:
 -aspell: 0.60.8.1 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
 -at-spi2-core: 2.50.1 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
--atkmm: 2.28.3 to 2.36.2 (need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
+-atkmm: 2.28.3 to 2.28.4 (or 2.36.2 need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.84.0 https://github.com/boostorg/boost
@@ -644,7 +644,7 @@ l series:
 -libxkbcommon: 1.6.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.10.1 https://libzip.org/download/
--lmdb: 0.9.31 https://github.com/LMDB/lmdb/tags
+-lmdb: 0.9.32 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
 -lz4: 1.9.4 https://github.com/lz4/lz4/releases
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
@@ -658,7 +658,7 @@ l series:
 -mozjs102: 102.15.1esr to 115.5.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
--neon: 0.32.5 https://github.com/notroj/neon/tags
+-neon: 0.33.0 https://github.com/notroj/neon/tags
 -netpbm: 11.05.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
 -nodejs: 20.11.0 https://nodejs.org/dist
@@ -672,7 +672,7 @@ l series:
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.36 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
--pangomm: 2.46.3 to 2.50.1 (nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
+-pangomm: 2.46.3 to 2.46.4 (or 2.50.1 nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.42 https://github.com/PhilipHazel/pcre2/releases
@@ -791,11 +791,11 @@ l series:
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.13.1 https://taglib.github.io/
 -taglib-extras: 1.0.1 https://taglib.github.io/
--talloc: 2.4.1 https://www.samba.org/ftp/talloc/
+-talloc: 2.4.2 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
--tdb: 1.4.9 https://www.samba.org/ftp/tdb/
--tevent: 0.16.0 https://www.samba.org/ftp/tevent/
+-tdb: 1.4.10 https://www.samba.org/ftp/tdb/
+-tevent: 0.16.1 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.26.1 http://linuxtv.org/downloads/v4l-utils/
@@ -924,12 +924,12 @@ n series:
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p17 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
--openldap: 2.6.6 to 2.6.7 https://ftp.openldap.org/software/download/
+-openldap: 2.6.7 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.6p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
--openssl: 3.2.0 http://ftp.openssl.org/source/
+-openssl: 3.2.1 http://ftp.openssl.org/source/
 -openvpn: 2.6.8 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -1106,8 +1106,8 @@ x series: (main packages)
 --------------------
 xap series:
 --------------------
--MPlayer: 20240127 https://mplayerhq.hu/design7/news.html
-	-Mplayer: 20240127
+-MPlayer: 20240130 https://mplayerhq.hu/design7/news.html
+	-Mplayer: 20240130
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.10.2
 -audacious: 4.3.1 http://www.audacious-media-player.org
