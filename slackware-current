@@ -71,7 +71,7 @@ A series :
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
--libblockdev: 2.28 to 3.1.0 (need libnvme) https://github.com/rhinstaller/libblockdev
+-libblockdev: 2.7.1 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.8 to 2.10 https://github.com/rhinstaller/libbytesize
 -libgudev: 237 to 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0061 to 9.1.0065 https://github.com/vim/vim/commits/master
+-vim: 9.1.0061 to 9.1.0067 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -467,7 +467,7 @@ l series:
 -glib-networking: 2.78.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.78.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.6 to 2.78.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
--glibc: 2.38 http://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.38 to 2.39 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.14 https://github.com/jstedfast/gmime/releases
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.3.0 http://ftp.gnu.org/gnu/gmp/
@@ -584,6 +584,7 @@ l series:
 -libnotify: 0.8.2 to 0.8.3 https://download.gnome.org/sources/libnotify/0.8/
 -libnsl: 2.0.1 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.2 https://github.com/thkukuk/libnss_nis/releases
+-libnvme: 1.7.1 https://github.com/linux-nvme/libnvme
 -libodfgen: 0.1.8 https://sourceforge.net/projects/libwpd/files/libodfgen/
 -libogg: 1.3.5 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
@@ -680,7 +681,7 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.0.1 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.0.2 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 to v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -832,7 +833,7 @@ n series:
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
 	- wireless-regdb: 2023.06.03 http://kernel.org/pub/software/network/wireless-regdb/
--curl: 8.5.0 http://curl.haxx.se/download/
+-curl: 8.6.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -872,7 +873,7 @@ n series:
 -libgpg-error: 1.47 https://www.gnupg.org/download/index.html
 -libksba: 1.6.5 https://www.gnupg.org/download/index.html
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
--libmilter: 8.17.2 (sendmail)
+-libmilter: 8.18.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.8 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -950,7 +951,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.4 (to 4.20.0rc1) https://ftp.samba.org/pub/samba/
+-samba: 4.19.4 to 4.20.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1063,7 +1064,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.3.4 (to 24.0.0rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 23.3.4 to 23.3.5/24.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1138,7 +1139,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0061 to 9.1.0065 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0061 to 9.1.0067 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1224,7 +1225,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -rust-for-mozilla: rust-1.64.0
--sendmail: 8.17.2
+-sendmail: 8.18.1
 -tigervnc: 1.13.1 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
