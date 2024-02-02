@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.14 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240124 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.15 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240201 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0061 to 9.1.0067 https://github.com/vim/vim/commits/master
+-vim: 9.1.0061 to 9.1.0071 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.14 http://wwww.kernel.org
+-kernel-headers: 6.6.15 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.14
+-kernel : 6.6.15
 --------------------
 kde series :
 --------------------
@@ -385,7 +385,7 @@ l series:
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.10 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.2 http://www.libraw.org/
--Mako: 1.1.6 to 1.3.0 http://www.python.org/pypi/Mako/
+-Mako: 1.1.6 to 1.3.2 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 to 0.40.1 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.10 https://pypi.org/project/PyQt5
 -PyQt-builder: 1.15.4 https://pypi.org/project/PyQt-builder/
@@ -623,7 +623,7 @@ l series:
 -libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
 -liburing: 2.5 https://git.kernel.dk/cgit/liburing/
--libusb: 1.0.26 https://github.com/libusb/libusb/releases
+-libusb: 1.0.27 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20230901 http://www.libimobiledevice.org/
 -libuv: 1.47.0 https://dist.libuv.org/dist
@@ -845,7 +845,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
 -ethtool: 5.19 to 6.7 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.37 (to 6.5.0beta9) https://www.fetchmail.info/
+-fetchmail: 6.4.38 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.4 https://www.gnupg.org/download/index.html
@@ -1064,7 +1064,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 23.3.4 to 23.3.5/24.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.0.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1139,7 +1139,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0061 to 9.1.0067 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0061 to 9.1.0071 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
