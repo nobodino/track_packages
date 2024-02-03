@@ -3,7 +3,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 A series :
 --------------------
 -aaa_base: 15.0
--aaa_glibc-solibs: 2.38
+-aaa_glibc-solibs: 2.39
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.4_20230610
 -acl: 2.3.2 http://savannah.nongnu.org/projects/acl
@@ -44,9 +44,9 @@ A series :
 -gawk: 5.3.0 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2023d
-	-tzcode: 2003d https://www.iana.org/time-zones
-	-tzdata: 2023d https://www.iana.org/time-zones
+-glibc-zoneinfo: 2023d to 2024a
+	-tzcode: 2003d to 2024a https://www.iana.org/time-zones
+	-tzdata: 2023d to 2024a https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
@@ -391,7 +391,7 @@ l series:
 -PyQt-builder: 1.15.4 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.13.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
--SDL2: 2.28.5 to 2.29.2 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.30.0 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
@@ -466,8 +466,8 @@ l series:
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.78.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.78.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
--glibmm: 2.66.6 to 2.78.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
--glibc: 2.38 to 2.39 http://ftp.gnu.org/pub/gnu/glibc/
+-glibmm: 2.66.6 to 2.78.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
+-glibc: 2.39 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.14 https://github.com/jstedfast/gmime/releases
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.3.0 http://ftp.gnu.org/gnu/gmp/
@@ -681,11 +681,11 @@ l series:
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.0.2 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.0.3 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.123 to v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 24.01.0 http://poppler.freedesktop.org/
+-poppler: 24.02.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
@@ -858,7 +858,7 @@ n series:
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
 -iproute2: 6.7.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.19 http://ftp.netfilter.org/pub/ipset/
+-ipset: 7.20 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20240117 https://github.com/iputils/iputils/releases
@@ -1075,7 +1075,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.268.0 to 1.3.274.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.268.0 to 1.3.277.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.22.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.32 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
