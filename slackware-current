@@ -223,7 +223,7 @@ Ap series :
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 1.16 to 2.7 https://github.com/linux-nvme/nvme-cli/tags
 -opus-tools: 0.2 https://opus-codec.org/
--pamixer: 1.5 to 1.6 https://github.com/cdemoulins/pamixer/tags
+-pamixer: 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
 -qpdf: 11.8.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0061 to 9.1.0075 https://github.com/vim/vim/commits/master
+-vim: 9.1.0061 to 9.1.0076 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -343,7 +343,7 @@ d series:
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
 -ruby: 3.3.0 http://www.ruby-lang.org/
 -rust: 1.70.0 https://rust-lang.org
--rust-bindgen: 0.69.1 https://github.com/rust-lang/rust-bindgen/tags
+-rust-bindgen: 0.69.4 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.6.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
@@ -422,6 +422,7 @@ l series:
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -cryfs: 0.10.3 to 0.11.4 https://github.com/cryfs/cryfs/releases
 -cryptopp: 8.2.0 to 8.8.0 https://www.cryptopp.com/
+-cxxopts: 3.1.1 https://github.com/jarro2783/cxxopts
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.18 to 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
@@ -451,7 +452,7 @@ l series:
 -fribidi: 1.0.13 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
--gc: 8.2.4 https://github.com/ivmai/bdwgc/tags
+-gc: 8.2.6 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0 to 3.41.2/4.1.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
@@ -640,7 +641,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.12.4 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.12.5 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.6.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
@@ -1139,7 +1140,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0061 to 9.1.0075 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0061 to 9.1.0076 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
