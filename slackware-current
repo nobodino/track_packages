@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.378 https://github.com/vcrhonek/hwdata
+-hwdata: 0.379 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.15 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240201 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.15 to 6.6.16 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240203 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -178,7 +178,7 @@ Ap series :
 -hplip: 3.20.6 to 3.23.12 http://hplipopensource.com
 -htop: 3.3.0 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.31_2 https://github.com/smxi/inxi/tags
+-inxi: 3.3.33_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -228,7 +228,7 @@ Ap series :
 -qpdf: 11.8.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rfind: 1.6.0 https://github.com/pauldreik/rdfind
--rpm: 4.19.1 http://ftp.rpm.org/releases
+-rpm: 4.19.1.1 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
 -sc-im: 0.8.3 https://github.com/andmarti1424/sc-im
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0061 to 9.1.0076 https://github.com/vim/vim/commits/master
+-vim: 9.1.0061 to 9.1.0080 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -267,7 +267,7 @@ d series:
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.12 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
--ccache: 4.9 https://ccache.dev/download.html
+-ccache: 4.9.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.23 https://github.com/Oblomov/clinfo
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.15 http://wwww.kernel.org
+-kernel-headers: 6.6.15 to 6.6.16 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -335,7 +335,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.18 to 3.10.12/3.12.1 (new API) https://www.python.org/downloads/
+-python3: 3.9.18 to 3.10.12/3.12.2 (new API) https://www.python.org/downloads/
 -python-pip: 22.2.2 to 24.0 https://pypi.python.org/pypi/pip
 -python-setuptools: 65.1.1 to 69.0.3 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.15
+-kernel : 6.6.15 to 6.6.16 
 --------------------
 kde series :
 --------------------
@@ -437,10 +437,10 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.190 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.6 https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.5 (to 2.6.6 nok) https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.1 https://exiv2.org/download.html
--expat: 2.5.0 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.6.0 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 6.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -481,11 +481,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 45.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.22.9 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.22.9 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.22.9 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.22.9 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer:1.22.9 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.9 to 1.23.1 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.9 to 1.23.1 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.9 to 1.23.1 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.22.9 to 1.23.1 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer:1.22.9 to 1.23.1 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -507,7 +507,7 @@ l series:
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
--jasper: 4.1.2 https://github.com/mdadams/jasper/releases
+-jasper: 4.1.2 to 4.2.0 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
@@ -672,7 +672,7 @@ l series:
 -openjpeg: 2.5.0 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
--orc: 0.4.36 https://gstreamer.freedesktop.org/src/orc/
+-orc: 0.4.37 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.51.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.3 to 2.46.4 (or 2.50.1 nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -1049,7 +1049,7 @@ x series: (main packages)
 -libva: 2.20.0 https://github.com/intel/libva/releases
 -libva-utils: 2.20.1 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
--libwacom: 2.9.0 https://github.com/linuxwacom/libwacom/releases
+-libwacom: 2.10.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.15 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.16
@@ -1140,8 +1140,8 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0061 to 9.1.0076 https://github.com/vim/vim/commits/master
--hexchat: 2.16.1 https://github.com/hexchat/hexchat/releases
+-gvim: 9.1.0061 to 9.1.0080 https://github.com/vim/vim/commits/master
+-hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 115.07 https://www.thunderbird.net/
@@ -1180,9 +1180,9 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -Greybird: 3.22.15
 -elementary-xfce: 0.18.0
 -exo: 4.18.0
--garcon: 4.18.1
--libxfce4ui: 4.18.4
--libxfce4util: 4.18.3
+-garcon: 4.18.1 to 4.18.2
+-libxfce4ui: 4.18.4 to 4.18.5
+-libxfce4util: 4.18.3 
 -mousepad: 0.6.2
 -thunar: 4.18.10 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
@@ -1230,7 +1230,7 @@ extra:
 -tigervnc: 1.13.1 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
--xv: 4.2.0
+-xv: 5.0.0
 --------------------
 testing :
 -grub: 2.12
