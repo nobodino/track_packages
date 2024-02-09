@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.15 to 6.6.16 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240203 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.16 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240208 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0061 to 9.1.0080 https://github.com/vim/vim/commits/master
+-vim: 9.1.0061 to 9.1.0083 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.15 to 6.6.16 http://wwww.kernel.org
+-kernel-headers: 6.6.16 http://wwww.kernel.org
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
@@ -372,7 +372,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.15 to 6.6.16 
+-kernel : 6.6.16 
 --------------------
 kde series :
 --------------------
@@ -437,7 +437,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.190 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.5 (to 2.6.6 nok) https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.7 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.1 https://exiv2.org/download.html
 -expat: 2.6.0 http://sourceforge.net/projects/expat/files/expat/
@@ -608,7 +608,7 @@ l series:
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libsigc++3: 3.6.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libseccomp: 2.5.5 https://github.com/seccomp/libseccomp/releases
--libsecret: 0.21.2 http://ftp.gnome.org/pub/gnome/sources/libsecret/
+-libsecret: 0.21.3 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.19 https://github.com/jedisct1/libsodium/tags
@@ -627,7 +627,7 @@ l series:
 -libusb: 1.0.27 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20230901 http://www.libimobiledevice.org/
--libuv: 1.47.0 https://dist.libuv.org/dist
+-libuv: 1.48.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.2 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.2 http://sourceforge.net/projects/libvisual/
@@ -738,7 +738,7 @@ l series:
 -python-pycparser: 2.21 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.0.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.12.0 to 0.14.3 https://pypi.org/project/pysol-cards
--python-pytz: 2022.1 to 2023.3.post1 https://pypi.org/project/pytz
+-python-pytz: 2022.1 to 2024.1 https://pypi.org/project/pytz
 -python-random2: 1.0.1 https://pypi.python.org/pypi/random2
 -python-requests: 2.26.0 to 2.31.0 https://pypi.org/project/requests/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
@@ -1140,7 +1140,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0061 to 9.1.0080 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0061 to 9.1.0083 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1234,7 +1234,7 @@ extra:
 --------------------
 testing :
 -grub: 2.12
--rust: 1.75.0
+-rust: 1.75.0 to 1.76.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
