@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0061 to 9.1.0083 https://github.com/vim/vim/commits/master
+-vim: 9.1.0061 to 9.1.0095 https://github.com/vim/vim/commits/master
 	- vim: 9.1.0061
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -283,7 +283,7 @@ d series:
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 14.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.43.0 https://git-scm.com/download
+-git: 2.43.1 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -377,7 +377,7 @@ f series:
 kde series :
 --------------------
 -kde: 5.27.10 (plasma) https://download.kde.org/stable/
--kde: 5.114.0 (framework) https://download.kde.org/stable/
+-kde: 5.115.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.4 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
@@ -412,7 +412,7 @@ l series:
 -at-spi2-core: 2.50.1 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atkmm: 2.28.3 to 2.28.4 (or 2.36.2 need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
--babl: 0.1.106 http://download.gimp.org/pub/babl/0.1/
+-babl: 0.1.108 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.84.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
 -cairo: 1.18.0 http://cairographics.org/releases/
@@ -559,7 +559,7 @@ l series:
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.52 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 to 2.41.1 https://gitlab.gnome.org/GNOME/libgtop/-/tags
--libhandy: 1.8.2 https://gitlab.gnome.org/GNOME/libhandy/
+-libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
 -libical: 3.0.17 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
@@ -596,7 +596,7 @@ l series:
 -libplacebo: 6.338.2 https://github.com/haasn/libplacebo
 -libplist: 2.3.0 http://www.libimobiledevice.org/
 -libpng: 1.6.41 http://sourceforge.net/projects/libpng/files/libpng16/
--libproxy: 0.5.3 https://github.com/libproxy/libproxy/releases
+-libproxy: 0.5.4 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
 -libqalculate: 4.9.0 https://github.com/Qalculate/libqalculate/releases
@@ -730,7 +730,7 @@ l series:
 -python-packaging: 21.3 to 23.2 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
 -python-pbr: 5.8.0 to 6.0.0 https://pypi.org/project/pbr
--python-pillow: 8.4.0 to 10.1.0 https://github.com/python-pillow/Pillow/releases
+-python-pillow: 8.4.0 to 10.2.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.4.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-psutil: 5.9.6 https://pypi.org/project/psutil
@@ -804,6 +804,7 @@ l series:
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.74.2 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.6.0 https://www.wavpack.com/downloads.html
+-wireplumber: 0.4.17 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.24 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
@@ -1140,7 +1141,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0061 to 9.1.0083 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0061 to 9.1.0095 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.7.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1170,7 +1171,7 @@ xap series:
 -xlockmore: 5.74 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
--xpdf: 4.04 https://www.xpdfreader.com/download.html
+-xpdf: 4.05 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.07 to 6.08 http://www.jwz.org/xscreensaver/python*
 -xsnow: 3.7.6 https://sourceforge.net/projects/xsnow/files/
