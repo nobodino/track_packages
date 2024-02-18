@@ -217,7 +217,7 @@ Ap series :
 -mc: 4.8.31 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.32.4 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.32.4 to 1.32.5 http://sourceforge.net/projects/mpg123/files/
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -666,7 +666,7 @@ l series:
 -neon: 0.33.0 https://github.com/notroj/neon/tags
 -netpbm: 11.05.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
--nodejs: 20.11.0 https://nodejs.org/dist
+-nodejs: 20.11.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.9 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -680,7 +680,7 @@ l series:
 -pangomm: 2.46.3 to 2.46.4 (or 2.50.1 nok) http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
--pcre2: 10.42 https://github.com/PhilipHazel/pcre2/releases
+-pcre2: 10.43 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
 -phonon: 4.11.1 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
@@ -1029,7 +1029,7 @@ x series: (main packages)
 -ibus: 1.5.29 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.7 https://github.com/libpinyin/ibus-libpinyin/releases
--ibus-m17n: 1.4.27
+-ibus-m17n: 1.4.28
 -ibus-table: 1.17.4
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
