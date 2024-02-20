@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0098 to 9.1.0115 https://github.com/vim/vim/commits/master
+-vim: 9.1.0098 to 9.1.0115 https://github.com/vim/commits/master
 	- vim: 9.1.0098
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -463,7 +463,7 @@ l series:
 -gegl: 0.4.48 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.2 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2023.3 https://download.gnome.org/sources/gi-docgen/
--giflib: 5.2.1 http://sourceforge.net/projects/giflib/files/
+-giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.76.3 to 1.78.4 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
@@ -956,7 +956,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.4 (to 4.20.0rc2) https://ftp.samba.org/pub/samba/
+-samba: 4.19.5 (to 4.20.0rc2) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1131,7 +1131,7 @@ xap series:
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.2 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
--gimp: 2.10.36 (beta: 2.99.16) http://download.gimp.org/pub/gimp/
+-gimp: 2.10.36 (beta: 2.99.18) http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 http://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
 	- gkrellm-countdown: 0.1.2
@@ -1165,7 +1165,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.3ga4 http://x3270.bgp.nu/download.html
+-x3270: 4.3ga4 to 4.3ga5 http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 https://github.com/xaos-project/XaoS/releases
 -xeyes: 1.2.0
 -xgames: 0.2
