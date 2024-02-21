@@ -48,7 +48,7 @@ A series :
 	-tzcode: 2024a https://www.iana.org/time-zones
 	-tzdata: 2024a https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
--gptfdisk: 1.0.9 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
+-gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.06 to 2.12 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.13 http://ftp.gnu.org/pub/gnu/gzip/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0098 to 9.1.0115 https://github.com/vim/commits/master
+-vim: 9.1.0098 to 9.1.0120 https://github.com/vim/commits/master
 	- vim: 9.1.0098
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -283,7 +283,7 @@ d series:
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 14.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.43.2 (to 2.44.0rc1) https://git-scm.com/download
+-git: 2.43.2 (to 2.44.0rc2) https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -424,7 +424,7 @@ l series:
 -colord: 1.4.7 https://www.freedesktop.org/software/colord/releases/
 -cryfs: 0.10.3 to 0.11.4 https://github.com/cryfs/cryfs/releases
 -cryptopp: 8.2.0 to 8.8.0 https://www.cryptopp.com/
--cxxopts: 3.2.0 https://github.com/jarro2783/cxxopts
+-cxxopts: 3.2.1 https://github.com/jarro2783/cxxopts
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.2.18 to 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
@@ -509,7 +509,7 @@ l series:
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
--jasper: 4.1.2 to 4.2.0 https://github.com/mdadams/jasper/releases
+-jasper: 4.2.1 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
@@ -1108,7 +1108,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 389 http://invisible-island.net/xterm/
+-xterm: 390 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1144,11 +1144,11 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0098 to 9.1.0115 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0098 to 9.1.0120 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.7.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.07 https://www.thunderbird.net/
+-mozilla-firefox: 115.8.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.07 to 115.08 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
