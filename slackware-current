@@ -28,7 +28,7 @@ A series :
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.20.1 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
--efivar: 20201015 to 20230307 https://github.com/rhboot/efivar
+-efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elogind: 252.9 https://github.com/elogind/elogind
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
@@ -43,7 +43,7 @@ A series :
 	- mtools: 4.0.18 to 4.0.43 https://www.gnu.org/software/mtools/
 -gawk: 5.3.0 http://ftp.gnu.org/pub/gnu/gawk/
 -genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
--gettext: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2024a
 	-tzcode: 2024a https://www.iana.org/time-zones
 	-tzdata: 2024a https://www.iana.org/time-zones
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.17 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240208 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.18 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 31 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -171,11 +171,11 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.4.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 10.02.1 https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 10.02.1 (to 10.03.0rc1) https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/ or https://github.com/gphoto
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
--hplip: 3.20.6 to 3.23.12 http://hplipopensource.com
+-hplip: 3.23.12 http://hplipopensource.com
 -htop: 3.3.0 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.33_1 https://github.com/smxi/inxi/tags
@@ -249,11 +249,12 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0098 to 9.1.0120 https://github.com/vim/commits/master
+-vim: 9.1.0098 to 9.1.0128 https://github.com/vim/commits/master
 	- vim: 9.1.0098
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
+-xmltoman: 0.6 https://github.com/atsb/xmltoman
 -xorriso: 1.5.6.pl2 (to 1.5.7 dev) https://www.gnu.org/software/xorriso
 -zsh: 5.9 https://zsh.sourceforge.io/Arc/source.html
 ------------------
@@ -273,7 +274,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.28.2 to 3.28.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.28.3 (to 3.29.0rc2) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -282,8 +283,8 @@ d series:
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 14.1 http://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.22.4 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.43.2 (to 2.44.0rc2) https://git-scm.com/download
+-gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
+-git: 2.43.2 to 2.44.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -292,14 +293,14 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.17 http://wwww.kernel.org
+-kernel-headers: 6.6.18 http://wwww.kernel.org
 -libgccjit: 13.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 17.0.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.6.3 https://www.mercurial-scm.org/release
+-mercurial: 6.6.3 (to 6.7rc0) https://www.mercurial-scm.org/release
 -meson: 1.3.2 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
@@ -373,7 +374,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.17 
+-kernel : 6.6.18 
 --------------------
 kde series :
 --------------------
@@ -413,6 +414,7 @@ l series:
 -at-spi2-core: 2.50.1 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atkmm: 2.28.3 to 2.28.4 (or 2.36.2 need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
+-avahi: 20240220 https://github.com/avahi/avahi
 -babl: 0.1.108 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.84.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
@@ -541,6 +543,7 @@ l series:
 -libcdio-paranoia: 10.2+2.0.1 http://ftp.gnu.org/gnu/libcdio/
 -libclc: 17.0.1 http://libclc.llvm.org/
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
+-libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
 -libdeflate: 1.19 https://github.com/ebiggers/libdeflate
@@ -597,8 +600,8 @@ l series:
 -libpaper: 2.1.3 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplacebo: 6.338.2 https://github.com/haasn/libplacebo
--libplist: 2.3.0 http://www.libimobiledevice.org/
--libpng: 1.6.41 http://sourceforge.net/projects/libpng/files/libpng16/
+-libplist: 2.4.0 http://www.libimobiledevice.org/
+-libpng: 1.6.41 to 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.5.4 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
@@ -611,7 +614,7 @@ l series:
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libsigc++3: 3.6.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libseccomp: 2.5.5 https://github.com/seccomp/libseccomp/releases
--libsecret: 0.21.3 http://ftp.gnome.org/pub/gnome/sources/libsecret/
+-libsecret: 0.21.4 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.19 https://github.com/jedisct1/libsodium/tags
@@ -819,7 +822,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.44.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.46.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -832,7 +835,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20240216 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.26.0 https://c-ares.org/
+-c-ares: 1.27.0 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
@@ -875,7 +878,7 @@ n series:
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.6 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.3 https://www.gnupg.org/download/index.html
--libgpg-error: 1.47 https://www.gnupg.org/download/index.html
+-libgpg-error: 1.48 https://www.gnupg.org/download/index.html
 -libksba: 1.6.5 https://www.gnupg.org/download/index.html
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.18.1 (sendmail)
@@ -927,6 +930,7 @@ n series:
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.6 https://github.com/gpg/npth/tags/
+-nss-mdns: 0.15.1 https://github.com/avahi/nss-mdns
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p17 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
@@ -1144,16 +1148,16 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0098 to 9.1.0120 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0098 to 9.1.0128 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.8.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.07 to 115.08 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.08 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
--pidgin: 2.14.12
-	-pidgin: 2.14.12 https://www.pidgin.im/download/source/
+-pidgin: 2.14.13
+	-pidgin: 2.14.13 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
@@ -1220,7 +1224,7 @@ y series:
 extra:
 --------------------
 -aspell-word-list: 0.50.4
--bash-completion: 2.11 https://github.com/scop/bash-completion/releases
+-bash-completion: 2.12.0 https://github.com/scop/bash-completion/releases
 -bittornado: 0.3.18 
 -brltty: 6.6 http://mielke.cc/brltty/
 -emacs-regular-build: 29.2
