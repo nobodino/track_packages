@@ -140,7 +140,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.6.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.4.6 http://tukaani.org/xz/
+-xz: 5.6 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0098 to 9.1.0128 https://github.com/vim/commits/master
+-vim: 9.1.0098 to 9.1.0135 https://github.com/vim/commits/master
 	- vim: 9.1.0098
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -284,7 +284,7 @@ d series:
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 14.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.43.2 to 2.44.0 https://git-scm.com/download
+-git: 2.44.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -351,7 +351,7 @@ d series:
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.7 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
--swig: 4.2.0 http://www.swig.org/download.html
+-swig: 4.2.0 to 4.2.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.9 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.14 https://gitlab.gnome.org/GNOME/vala/-/tags
 -yasm: 1.3.0 http://yasm.tortall.net/
@@ -485,11 +485,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 45.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.22.9 to 1.23.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.22.10 to 1.23.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.22.10 to 1.23.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.22.10 to 1.23.2 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer:1.22.10 to 1.23.2 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.22.9 (to 1.23.90) https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.22.10 (to 1.23.90) https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.22.10 (to 1.23.90) https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.22.10 (to 1.23.90) http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer:1.22.10 (to 1.23.90) http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -601,7 +601,7 @@ l series:
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplacebo: 6.338.2 https://github.com/haasn/libplacebo
 -libplist: 2.4.0 http://www.libimobiledevice.org/
--libpng: 1.6.41 to 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
 -libproxy: 0.5.4 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
@@ -627,7 +627,7 @@ l series:
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.6.0 https://download.osgeo.org/libtiff/
 -libunibreak: 5.1 https://github.com/adah1972/libunibreak
--libunistring: 1.1 http://ftp.gnu.org/gnu/libunistring/mpfr
+-libunistring: 1.2 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
 -liburing: 2.5 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.27 https://github.com/libusb/libusb/releases
@@ -879,7 +879,7 @@ n series:
 -libassuan: 2.5.6 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.3 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.48 https://www.gnupg.org/download/index.html
--libksba: 1.6.5 https://www.gnupg.org/download/index.html
+-libksba: 1.6.6 https://www.gnupg.org/download/index.html
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.18.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
@@ -929,7 +929,7 @@ n series:
 -nghttp2: 1.59.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
--npth: 1.6 https://github.com/gpg/npth/tags/
+-npth: 1.7 https://github.com/gpg/npth/tags/
 -nss-mdns: 0.15.1 https://github.com/avahi/nss-mdns
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p17 http://www.ntp.org/downloads.html
@@ -1148,7 +1148,7 @@ xap series:
 -gparted: 1.5.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0098 to 9.1.0128 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0098 to 9.1.0135 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.8.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
