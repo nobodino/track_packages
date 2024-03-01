@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0136 to 9.1.0143 https://github.com/vim/commits/master
+-vim: 9.1.0136 to 9.1.0145 https://github.com/vim/commits/master
 	- vim: 9.1.0136
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -308,7 +308,7 @@ d series:
 -opencl-headers: 2021.04.29 to 2023.04.17 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
--pahole: 1.25 https://git.kernel.org/cgit/devel/pahole/pahole.git
+-pahole: 1.26 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20240222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.2
@@ -385,7 +385,7 @@ kde series :
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--Imath: 3.1.10 https://github.com/AcademySoftwareFoundation/Imath/releases
+-Imath: 3.1.11 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.2 http://www.libraw.org/
 -Mako: 1.1.6 to 1.3.2 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.38.0 to 0.40.1 http://pypi.python.org/pypi/M2Crypto/
@@ -469,7 +469,7 @@ l series:
 -gjs: 1.76.3 to 1.78.4 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.78.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.78.0 to 2.78.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.78.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.6 to 2.78.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.39 http://ftp.gnu.org/pub/gnu/glibc/
@@ -675,7 +675,7 @@ l series:
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.9.0 https://github.com/opencv/opencv/releases
 -openexr: 3.2.2 https://github.com/AcademySoftwareFoundation/openexr/releases
--openjpeg: 2.5.1 to 2.5.2 http://www.openjpeg.org
+-openjpeg: 2.5.2 http://www.openjpeg.org
 -opus: 1.4 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.38 https://gstreamer.freedesktop.org/src/orc/
@@ -1074,14 +1074,14 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.0.1 to 24.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.6 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
 -mypaint-brushes: 1.3.1 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 20201206 https://github.com/notofonts/noto-fonts/releases
--pixman: 0.43.2 http://cairographics.org/releases/
+-pixman: 0.43.4 http://cairographics.org/releases/
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
@@ -1149,7 +1149,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0136 to 9.1.0143 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0136 to 9.1.0145 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.8.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1200,7 +1200,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.5
 -xfce4-dev-tools: 4.18.1
 -xfce4-notifyd: 0.8.1 to 0.9.0
--xfce4-panel: 4.18.5
+-xfce4-panel: 4.18.6
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.3
 -xfce4-pulseaudio-plugin: 0.4.8
@@ -1210,7 +1210,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-settings: 4.18.4
 -xfce4-systemload-plugin: 1.3.2
 -xfce4-taskmanager: 1.5.6
--xfce4-terminal: 1.1.2
+-xfce4-terminal: 1.1.3
 -xfce4-weather-plugin: 0.11.1
 -xfce4-whiskermenu-plugin: 2.8.3
 -xfconf: 4.18.3
