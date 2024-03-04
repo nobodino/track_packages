@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0136 to 9.1.0146 https://github.com/vim/commits/master
+-vim: 9.1.0136 to 9.1.0148 https://github.com/vim/commits/master
 	- vim: 9.1.0136
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -doxygen: 1.10.0 http://wwfile:///root/Documents/epub/L'art de la therapie - Irvin Yalom.epubw.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 13.2 http://ftp.gnu.org/pub/gnu/gcc/
--gdb: 14.1 to 14.2 http://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 14.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.44.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
@@ -1042,7 +1042,7 @@ x series: (main packages)
 -libFS: 1.0.9
 -libime: 1.1.6 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
--libXaw3d: 1.6.5
+-libXaw3d: 1.6.6
 -libdmx: 1.1.4
 -libpciaccess: 0.17
 -libdrm: 2.4.120 http://dri.freedesktop.org/libdrm/
@@ -1150,7 +1150,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0136 to 9.1.0146 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0136 to 9.1.0148 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.8.0esr to 122.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1171,7 +1171,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.3ga5 http://x3270.bgp.nu/download.html
+-x3270: 4.3ga5 to 4.3ga6  http://x3270.bgp.nu/download.html
 -xaos: 4.2.1 https://github.com/xaos-project/XaoS/releases
 -xeyes: 1.2.0
 -xgames: 0.2
