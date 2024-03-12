@@ -23,7 +23,7 @@ A series :
 -dbus: 1.14.10 (to 1.15.8 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20240101 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20240307 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.20.1 http://ftp.gnu.org/pub/gnu/ed/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0136 to 9.1.0161 https://github.com/vim/commits/master
+-vim: 9.1.0136 to 9.1.0168 https://github.com/vim/commits/master
 	- vim: 9.1.0136
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -479,7 +479,7 @@ l series:
 -gnome-keyring: 46.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.17 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.78.1 to 2.80.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.78.1 to 1.80.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
@@ -597,7 +597,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpaper: 2.1.3 https://github.com/rrthomas/libpaper
+-libpaper: 2.2.3 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplacebo: 6.338.2 https://github.com/haasn/libplacebo
 -libplist: 2.4.0 http://www.libimobiledevice.org/
@@ -605,7 +605,7 @@ l series:
 -libproxy: 0.5.4 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 4.9.0 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 5.0.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.56.4 to 2.57.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -700,9 +700,9 @@ l series:
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.3 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.46.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.46.0 to 3.48.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
--pyparsing: 3.1.1 https://pypi.org/project/pyparsing/
+-pyparsing: 3.1.2 https://pypi.org/project/pyparsing/
 -python2-module-collection: 2.7.18 
 -python-Jinja2: 3.1.3 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 2.1.5 https://pypi.org/project/Markupsafe
@@ -734,7 +734,7 @@ l series:
 -python-lxml: 5.0.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.5.2 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
--python-packaging: 23.2 https://github.com/pypa/packaging/releases
+-python-packaging: 24.0 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
 -python-pbr: 6.0.0 https://pypi.org/project/pbr
 -python-pillow: 10.2.0 https://github.com/python-pillow/Pillow/releases
@@ -800,7 +800,7 @@ l series:
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.13.1 https://taglib.github.io/
+-taglib: 1.13.1 to 2.0 https://taglib.github.io/
 -talloc: 2.4.2 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
@@ -867,7 +867,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.7.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.7.0 to 6.8.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.21 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -939,7 +939,7 @@ n series:
 -openldap: 2.6.7 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
--openssh: 9.6p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssh: 9.7p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
 -openssl: 3.2.1 http://ftp.openssl.org/source/
 -openvpn: 2.6.9 http://www.openvpn.net/index.php/open-source/downloads.html
@@ -962,7 +962,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.2.7 (to 3.3.0pre1) https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.19.5 (to 4.20.0rc3) https://ftp.samba.org/pub/samba/
+-samba: 4.19.5 (to 4.20.0rc4) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -980,7 +980,7 @@ n series:
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
--wget: 1.21.4 http://ftp.gnu.org/gnu/wget/
+-wget: 1.24.5 http://ftp.gnu.org/gnu/wget/
 -wget2: 2.1.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.21 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
@@ -1060,7 +1060,7 @@ x series: (main packages)
 -libva-utils: 2.20.1 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
 -libwacom: 2.10.0 https://github.com/linuxwacom/libwacom/releases
--libXaw: 1.0.15 
+-libXaw: 1.0.16 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.16
 -libXcm: 0.5.4
@@ -1150,7 +1150,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0136 to 9.1.0161 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0136 to 9.1.0168 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.8.0esr to 123.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1172,7 +1172,7 @@ xap series:
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
 -x3270: 4.3ga6 http://x3270.bgp.nu/download.html
--xaos: 4.2.1 https://github.com/xaos-project/XaoS/releases
+-xaos: 4.3.2 https://github.com/xaos-project/XaoS/releases
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
