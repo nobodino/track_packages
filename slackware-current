@@ -30,7 +30,7 @@ A series :
 -efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
--elogind: 252.9 https://github.com/elogind/elogind
+-elogind: 252.23 https://github.com/elogind/elogind
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.14 https://github.com/eudev-project/eudev
@@ -239,7 +239,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.45.1 http://www.sqlite.org/download.html
+-sqlite: 3.45.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.15p5 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.5 https://github.com/sysstat/sysstat/tags
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0136 to 9.1.0168 https://github.com/vim/commits/master
+-vim: 9.1.0136 to 9.1.0173 https://github.com/vim/commits/master
 	- vim: 9.1.0136
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -301,7 +301,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.6.3 (to 6.7rc0) https://www.mercurial-scm.org/release
--meson: 1.3.2 https://github.com/mesonbuild/meson/releases
+-meson: 1.3.2 to 1.4.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.1.14.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -493,7 +493,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.12.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.12.5 to 4.14.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
@@ -511,7 +511,7 @@ l series:
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
--jasper: 4.2.1 https://github.com/mdadams/jasper/releases
+-jasper: 4.2.2 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
@@ -597,7 +597,7 @@ l series:
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
--libpaper: 2.2.3 https://github.com/rrthomas/libpaper
+-libpaper: 2.2.5 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
 -libplacebo: 6.338.2 https://github.com/haasn/libplacebo
 -libplist: 2.4.0 http://www.libimobiledevice.org/
@@ -667,7 +667,7 @@ l series:
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.33.0 https://github.com/notroj/neon/tags
--netpbm: 11.05.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.05.03 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
 -nodejs: 20.11.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -762,7 +762,7 @@ l series:
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.1 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
--python-wheel: 0.42.0 https://pypi.org/project/wheel/#files
+-python-wheel: 0.43.0 https://pypi.org/project/wheel/#files
 -python-zipp: 3.17.0 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
@@ -867,7 +867,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.7.0 to 6.8.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.8.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.21 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -945,7 +945,7 @@ n series:
 -openvpn: 2.6.9 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.3 http://www.php.net/distributions/
+-php: 8.3.3 to 8.3.4 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1150,7 +1150,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0136 to 9.1.0168 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0136 to 9.1.0173 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.8.0esr to 123.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1163,8 +1163,8 @@ xap series:
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.2.1
-	- sane-backend : 1.2.1 to 1.3.0 https://gitlab.com/sane-project/backends/-/tags
+-sane: 1.3.0
+	- sane-backend : 1.3.0 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
 -seamonkey: 2.53.18.1 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
