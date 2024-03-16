@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.21 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240305 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.22 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240312 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -293,14 +293,14 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.21 http://wwww.kernel.org
+-kernel-headers: 6.6.22 http://wwww.kernel.org
 -libgccjit: 13.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.1 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.6.3 (to 6.7rc0) https://www.mercurial-scm.org/release
+-mercurial: 6.7) https://www.mercurial-scm.org/release
 -meson: 1.4.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.01 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
@@ -374,7 +374,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.21 
+-kernel : 6.6.22 
 --------------------
 kde series :
 --------------------
@@ -647,7 +647,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.12.5 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.12.6 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.6.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
@@ -945,7 +945,7 @@ n series:
 -openvpn: 2.6.9 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.3 to 8.3.4 http://www.php.net/distributions/
+-php: 8.3.4 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
