@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0136 to 9.1.0181 https://github.com/vim/commits/master
+-vim: 9.1.0136 to 9.1.0187 https://github.com/vim/commits/master
 	- vim: 9.1.0136
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -313,22 +313,23 @@ d series:
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.2
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
-	- DBD-mysql: 4.050 to 5.003 http://www.cpan.org/modules/by-module/DBD/
+	- DBD-mysql: 4.051 to 5.003 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
-	- IO-Socket-SSL: 2.084 https://www.cpan.org/modules/by-module/IO/
+	- IO-Socket-SSL: 2.085 https://www.cpan.org/modules/by-module/IO/
+	- IO-Tty: 1.20 https://metacpan.org/pod/IO::Tty 
 	- JSON: 4.10
 	- MIME-Base64: 3.16 https://www.cpan.org/modules/by-module/MIME/
 	- Module-Runtime: 0.016 https://www.cpan.org/modules/01modules.index.html
 	- Moo: 2.005005 
-	- Net-SSLeay: 1.92 https://www.cpan.org/modules/by-module/Net/
+	- Net-SSLeay: 1.94 https://www.cpan.org/modules/by-module/Net/
 	- Parse-Yapp: 1.21 https://www.cpan.org/modules/01modules.index.html
 	- Path-Tiny: 0.144
 	- Sub-Quote: 2.006008 https://www.cpan.org/modules/by-module/Sub/
 	- Template-Toolkit: 3.101 https://www.cpan.org/modules/by-module/Template/
 	- TermReadKey: 2.38 https://www.cpan.org/modules/by-module/Term/
-	- URI: 5.21 to 5.26 http://www.cpan.org/modules/by-module/URI/
-	- XML-Parser: 2.46 to 2.47 http://www.cpan.org/modules/by-module/XML/
+	- URI: 5.27 http://www.cpan.org/modules/by-module/URI/
+	- XML-Parser: 2.47 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- gettex: 1.07 http://www.cpan.org/modules/by-module/DBI
 	- libnet: 3.15 https://www.cpan.org/modules/01modules.index.html
@@ -347,7 +348,7 @@ d series:
 -rust: 1.76.0 https://rust-lang.org
 -rust-bindgen: 0.69.4 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
--scons: 4.6.0 https://github.com/SCons/scons/releases
+-scons: 4.6.0 to 4.7.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.7 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
@@ -401,8 +402,9 @@ l series:
 -SDL2_ttf: 2.22.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.8.0 https://git.adelielinux.org/community/a52dec/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
+-abseil-cpp: 20240116.1 https://github.com/abseil/abseil-cpp
 -accountsservice: 23.13.9 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 45.0 https://github.com/GNOME/adwaita-icon-theme/tags
+-adwaita-icon-theme: 45.0 to 46.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -alsa-lib: 1.2.11 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
@@ -411,7 +413,7 @@ l series:
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8.1 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
--at-spi2-core: 2.50.1 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.50.1 to 2.52.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atkmm: 2.28.3 to 2.28.4 (or 2.36.2 need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -avahi: 20240306 https://github.com/avahi/avahi
@@ -466,7 +468,7 @@ l series:
 -gexiv2: 0.14.2 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2023.3 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
--gjs: 1.76.3 to 1.78.4 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.76.3 to 1.80.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.78.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
@@ -493,14 +495,14 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.12.5 to 4.14.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.12.5 to 4.14.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
--gtkmm3: 3.24.8 https://download.gnome.org/sources/gtkmm/3.24/
+-gtkmm3: 3.24.8 to 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.52.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.3.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.3.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -608,7 +610,7 @@ l series:
 -libqalculate: 5.0.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.4 to 2.57.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.56.4 to 2.58.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -660,8 +662,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.22.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.98 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.98 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.99 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.99 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs102: 102.15.1esr to 115.5.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
@@ -695,6 +697,7 @@ l series:
 -poppler: 24.03.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
+-protobuf: 26.0 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.26.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
@@ -725,14 +728,14 @@ l series:
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.5 https://pypi.org/project/glad2/#files
--python-hatchling: 1.21.1 https://pypi.org/project/hatchling
+-python-hatchling: 1.22.2 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.6 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 7.0.2 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
 -python-lxml: 5.0.0 https://pypi.org/project/lxml/#files
--python-markdown: 3.5.2 https://pypi.org/project/Markdown
+-python-markdown: 3.6 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.0 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
@@ -763,10 +766,10 @@ l series:
 -python-urllib3: 2.2.1 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.43.0 https://pypi.org/project/wheel/#files
--python-zipp: 3.18.0 https://pypi.org/project/zipp
+-python-zipp: 3.18.1 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.12_20240103 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.12_20240314 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qt6: 6.6.2 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.14.2 https://github.com/frankosterfeld/qtkeychain/releases
@@ -810,9 +813,9 @@ l series:
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.26.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.74.2 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.74.2 to 0.76.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.7.0 https://www.wavpack.com/downloads.html
--wireplumber: 0.4.17 https://gitlab.freedesktop.org/pipewire/wireplumber
+-wireplumber: 0.4.17 to 0.5.0 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.25 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
@@ -901,6 +904,7 @@ n series:
 -mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20231023 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
+-mosh: 1.4.0 https://mosh.org
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.13 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
@@ -947,7 +951,7 @@ n series:
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.3.4 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
--pinentry: 1.2.1 https://www.gnupg.org/download/index.html#pinentry
+-pinentry: 1.3.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.9.0 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.4.9 to 2.5.0
@@ -1150,10 +1154,10 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0136 to 9.1.0181 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0136 to 9.1.0187 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.8.0esr to 123.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 115.8.0esr to 124.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 115.08.1 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
