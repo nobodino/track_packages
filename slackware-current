@@ -348,7 +348,7 @@ d series:
 -rust: 1.76.0 https://rust-lang.org
 -rust-bindgen: 0.69.4 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
--scons: 4.6.0 to 4.7.0 https://github.com/SCons/scons/releases
+-scons: 4.7.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.7 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
@@ -404,7 +404,7 @@ l series:
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -abseil-cpp: 20240116.1 https://github.com/abseil/abseil-cpp
 -accountsservice: 23.13.9 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 45.0 to 46.0 https://github.com/GNOME/adwaita-icon-theme/tags
+-adwaita-icon-theme: 46.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -alsa-lib: 1.2.11 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.7.1 https://github.com/alsa-project/alsa-plugins/tags
@@ -413,7 +413,7 @@ l series:
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8.1 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
--at-spi2-core: 2.50.1 to 2.52.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.52.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atkmm: 2.28.3 to 2.28.4 (or 2.36.2 need mm-common-1.0.5) http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -avahi: 20240306 https://github.com/avahi/avahi
@@ -459,7 +459,8 @@ l series:
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.6 https://github.com/ivmai/bdwgc/tags
--gcr: 3.40.0 to 4.2.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr4: 4.2.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
@@ -468,11 +469,11 @@ l series:
 -gexiv2: 0.14.2 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2023.3 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
--gjs: 1.76.3 to 1.80.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
+-gjs: 1.80.0 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.78.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.78.4 to 2.80.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib-networking: 2.80.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib2: 2.80.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.6 to 2.78.1 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/2.74//
 -glibc: 2.39 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.14 https://github.com/jstedfast/gmime/releases
@@ -481,11 +482,11 @@ l series:
 -gnome-keyring: 46.1 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.17 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.78.1 to 1.80.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.80.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
--gsettings-desktop-schemas: 45.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
+-gsettings-desktop-schemas: 46.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.7.1 http://www.gnu.org/software/gsl/
 -gst-plugins-base: 1.24.0 https://gstreamer.freedesktop.org/src/
 -gst-plugins-bad-free: 1.24.0 https://gstreamer.freedesktop.org/src/
@@ -495,13 +496,13 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.12.5 to 4.14.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.14.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.8 to 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.52.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.54.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 8.3.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -610,7 +611,7 @@ l series:
 -libqalculate: 5.0.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.56.4 to 2.58.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.58.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -665,7 +666,8 @@ l series:
 -mozilla-nss: 3.99 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.99 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs102: 102.15.1esr to 115.5.0 https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs102: 102.15.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs115: 115.9.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.33.0 https://github.com/notroj/neon/tags
@@ -703,7 +705,7 @@ l series:
 -pycups: 2.0.1 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.3 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.46.0 to 3.48.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.48.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 https://pypi.org/project/pyparsing/
 -python2-module-collection: 2.7.18 
@@ -727,8 +729,8 @@ l series:
 -python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
--python-glad2: 2.0.5 https://pypi.org/project/glad2/#files
--python-hatchling: 1.22.2 https://pypi.org/project/hatchling
+-python-glad2: 2.0.6 https://pypi.org/project/glad2/#files
+-python-hatchling: 1.22.3 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.6 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
@@ -813,9 +815,9 @@ l series:
 -utf8proc: 2.9.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.26.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.74.2 to 0.76.0 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.76.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.7.0 https://www.wavpack.com/downloads.html
--wireplumber: 0.4.17 to 0.5.0 https://gitlab.freedesktop.org/pipewire/wireplumber
+-wireplumber: 0.5.0 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.25 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
@@ -862,7 +864,7 @@ n series:
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.5 https://www.gnupg.org/download/index.html
--gnutls: 3.8.3 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.4 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.23.2 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1157,8 +1159,8 @@ xap series:
 -gvim: 9.1.0136 to 9.1.0187 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 115.8.0esr to 124.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.08.1 https://www.thunderbird.net/
+-mozilla-firefox: 115.9.0esr to 124.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 115.09.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.155 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
