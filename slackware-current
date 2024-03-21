@@ -212,7 +212,7 @@ Ap series :
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.12.0 https://gitlab.com/man-db/man-db/-/tags
--man-pages: 6.06 http://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.07 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.7 http://mariadb.org/
 -mc: 4.8.31 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 20210815 to 0.4.0 (29072023) https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0136 to 9.1.0187 https://github.com/vim/commits/master
+-vim: 9.1.0136 to 9.1.0192 https://github.com/vim/commits/master
 	- vim: 9.1.0136
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.28.3 (to 3.29.0rc4) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -296,7 +296,7 @@ d series:
 -kernel-headers: 6.6.22 http://wwww.kernel.org
 -libgccjit: 13.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 18.1.1 http://llvm.org/
+-llvm: 18.1.2 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -311,7 +311,7 @@ d series:
 -pahole: 1.26 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20240222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.38.2
+-perl: 5.38.2 (to 5.39.9)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.051 to 5.003 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
@@ -338,7 +338,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.9.18 to 3.10.12/3.12.2 (new API) https://www.python.org/downloads/
+-python3: 3.9.19 to 3.10.12/3.12.2 (new API) https://www.python.org/downloads/
 -python-pip: 24.0 https://pypi.python.org/pypi/pip
 -python-setuptools: 69.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -350,7 +350,7 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.7.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.7 https://github.com/strace/strace/releases
+-strace: 6.8 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.9 https://github.com/tree-sitter/tree-sitter
@@ -689,7 +689,7 @@ l series:
 -pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.43 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
--phonon: 4.11.1 https://github.com/KDE/phonon/tags
+-phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
 -pipewire: 1.0.4 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
@@ -708,7 +708,7 @@ l series:
 -pygobject3: 3.48.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 https://pypi.org/project/pyparsing/
--python2-module-collection: 2.7.18 
+-python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
 -python-Jinja2: 3.1.3 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 2.1.5 https://pypi.org/project/Markupsafe
 -python-PyYAML: 6.0.1 https://pypi.org/project/pyyaml
@@ -835,7 +835,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.22 http://ftp.isc.org/isc/bind9
+-bind: 9.18.25 http://ftp.isc.org/isc/bind9
 -bluez: 5.73 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -845,9 +845,6 @@ n series:
 -c-ares: 1.27.0 https://c-ares.org/
 -cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
--crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
-	- crda: 4.15 https://git.kernel.org/cgit/linux/kernel/git/mcgrof/crda.git/
-	- wireless-regdb: 2023.06.03 http://kernel.org/pub/software/network/wireless-regdb/
 -curl: 8.6.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
@@ -948,7 +945,7 @@ n series:
 -openssh: 9.7p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
 -openssl: 3.2.1 http://ftp.openssl.org/source/
--openvpn: 2.6.9 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.9 to 2.6.10 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.3.4 http://www.php.net/distributions/
@@ -990,6 +987,7 @@ n series:
 -wget2: 2.1.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.21 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
+-wireless-regdb: 2024.01.23 http://kernel.org/pub/software/network/wireless-regdb/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.10 https://w1.fi/wpa_supplicant/
 -yptools:
@@ -1156,7 +1154,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 12.0.1 to 15.1.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0136 to 9.1.0187 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0136 to 9.1.0192 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.9.0esr to 124.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
