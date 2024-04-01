@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0225 to 9.1.0228 https://github.com/vim/commits/master
+-vim: 9.1.0225 to 9.1.0250 https://github.com/vim/commits/master
 	- vim: 9.1.0225
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -260,13 +260,13 @@ Ap series :
 ------------------
 d series:
 --------------------
--Cython: 3.0.9 https://pypi.python.org/pypi/Cython/
+-Cython: 3.0.10 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.42 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--cargo-vendor-filterer: 0.5.12 https://github.com/coreos/cargo-vendor-filterer
+-cargo-vendor-filterer: 0.5.13 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.9.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -336,7 +336,7 @@ d series:
 	- perl: 5.38.2 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz
--poke: 3.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 4.0 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.8 to 3.12.2 (new API) https://www.python.org/downloads/
 -python-pip: 24.0 https://pypi.python.org/pypi/pip
@@ -442,7 +442,7 @@ l series:
 -duktape: 2.7.0 https://duktape.org
 -dvdauthor: 0.7.2 https://github.com/ldo/dvdauthor/tags
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/
--editorconfig-core-c: 0.12.6 https://github.com/editorconfig/editorconfig-core-c/releases
+-editorconfig-core-c: 0.12.7 https://github.com/editorconfig/editorconfig-core-c/releases
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.191 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
@@ -519,7 +519,7 @@ l series:
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
 -jansson: 2.14 https://github.com/akheron/jansson/releases
--jasper: 4.2.2 https://github.com/mdadams/jasper/releases
+-jasper: 4.2.3 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
@@ -575,7 +575,7 @@ l series:
 -libgusb: 0.4.8 https://github.com/hughsie/libgusb
 -libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
--libical: 3.0.17 https://github.com/libical/libical/releases
+-libical: 3.0.18 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.42 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.7 http://ftp.gnu.org/gnu/libidn/
@@ -687,7 +687,7 @@ l series:
 -opus: 1.5.1 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.38 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.52.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.52.2 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.4 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -pangomm2: 2.52.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -741,13 +741,13 @@ l series:
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 7.1.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 5.1.1 https://pypi.org/project/lxml/#files
+-python-lxml: 5.2.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.6 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.0 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
 -python-pbr: 6.0.0 https://pypi.org/project/pbr
--python-pillow: 10.2.0 https://github.com/python-pillow/Pillow/releases
+-python-pillow: 10.2.0 to 10.3.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.4.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-psutil: 5.9.8 https://pypi.org/project/psutil
@@ -821,7 +821,7 @@ l series:
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.76.0 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.7.0 https://www.wavpack.com/downloads.html
--wireplumber: 0.5.0 https://gitlab.freedesktop.org/pipewire/wireplumber
+-wireplumber: 0.5.1 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.25 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
@@ -846,8 +846,8 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20240216 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.28.0 https://c-ares.org/
--cifs-utils: 6.15 to 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-c-ares: 1.28.1 https://c-ares.org/
+-cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.6.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
@@ -1135,7 +1135,7 @@ xap series:
 -blackbox:
 	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
--blueman: 2.3.5 http://blueman-project.org
+-blueman: 2.4 http://blueman-project.org
 -ddd: 3.4.0 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
@@ -1158,7 +1158,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0225 to 9.1.0228 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0225 to 9.1.0250 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.9.1esr to 124.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1179,7 +1179,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.3ga7 http://x3270.bgp.nu/download.html
+-x3270: 4.3ga7 to 4.3ga8 http://x3270.bgp.nu/download.html
 -xaos: 4.3.2 https://github.com/xaos-project/XaoS/releases
 -xeyes: 1.2.0
 -xgames: 0.2
