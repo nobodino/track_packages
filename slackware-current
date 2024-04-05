@@ -55,7 +55,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.380 https://github.com/vcrhonek/hwdata
+-hwdata: 0.381 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -65,7 +65,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.23 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.6.25 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20240322 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -208,7 +208,7 @@ Ap series :
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
 -lsof: 4.99.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 4.0.12 to 5.0.3 https://linuxcontainers.org/lxc/downloads/
+-lxc: 4.0.12 to 6.0.0 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.12.0 https://gitlab.com/man-db/man-db/-/tags
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -293,10 +293,10 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.23 http://wwww.kernel.org
+-kernel-headers: 6.6.25 http://wwww.kernel.org
 -libgccjit: 13.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 18.1.2 http://llvm.org/
+-llvm: 18.1.3 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -375,7 +375,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.23 
+-kernel : 6.6.25 
 --------------------
 kde series :
 --------------------
@@ -391,7 +391,7 @@ l series:
 -Mako: 1.3.2 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.41.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.10 https://pypi.org/project/PyQt5
--PyQt-builder: 1.15.4 https://pypi.org/project/PyQt-builder/
+-PyQt-builder: 1.16.0 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.13.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.30.1 to 2.30.2 https://github.com/libsdl-org/SDL/releases
@@ -446,7 +446,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.191 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.8 https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.9 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.2 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
@@ -500,7 +500,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.14.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.14.1 to 4.14.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.14.0 https://download.gnome.org/sources/gtkmm/
@@ -549,7 +549,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.1 http://ftp.gnu.org/gnu/libcdio/
--libclc: 18.1.2 http://libclc.llvm.org/
+-libclc: 18.1.3 http://libclc.llvm.org/
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
@@ -677,7 +677,7 @@ l series:
 -neon: 0.33.0 https://github.com/notroj/neon/tags
 -netpbm: 11.06.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
--nodejs: 20.12.0 https://nodejs.org/dist
+-nodejs: 20.12.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.9 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -741,7 +741,7 @@ l series:
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 7.1.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 5.2.0 https://pypi.org/project/lxml/#files
+-python-lxml: 5.2.1 https://pypi.org/project/lxml/#files
 -python-markdown: 3.6 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.0 https://github.com/pypa/packaging/releases
@@ -798,7 +798,7 @@ l series:
 -sip: 6.8.3 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
--sof-firmware: 2023.12.1 https://github.com/thesofproject/sof-bin/releases
+-sof-firmware: 2024.03 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
@@ -865,11 +865,11 @@ n series:
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.5 https://www.gnupg.org/download/index.html
--gnutls: 3.8.4 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.5 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.23.2 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.58 http://www.apache.org/dist/httpd/
+-httpd: 2.4.59 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
@@ -935,7 +935,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.4 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.9 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.60.0 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.61.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.94 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.7 https://github.com/gpg/npth/tags/
@@ -1099,15 +1099,15 @@ x series: (main packages)
 -wayland-protocols: 1.34 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
 -xcb-proto: 1.16.0
--xdg-desktop-portal: 1.18.2
+-xdg-desktop-portal: 1.18.3
 -xdg-user-dirs: 0.18
 -xdg-utils: 1.2.0 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.15
 -xinit: 1.4.2
 -xkeyboard-config: 2.40
 -xorgproto: 2024.1
--xorg-server: 21.1.11 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 23.2.4
+-xorg-server: 21.1.12 http://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 23.2.5
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.1
 -xf86-video-amdgpu: 23.0.0 to 20230222
@@ -1158,7 +1158,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0225 to 9.1.0257 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0225 to 9.1.0265 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.9.1esr to 124.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
