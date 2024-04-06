@@ -42,7 +42,6 @@ A series :
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.43 https://www.gnu.org/software/mtools/
 -gawk: 5.3.0 http://ftp.gnu.org/pub/gnu/gawk/
--genpower: 1.0.5 to 1.0.6 https://github.com/quinot/genpower
 -gettext: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2024a
 	-tzcode: 2024a https://www.iana.org/time-zones
@@ -93,6 +92,7 @@ A series :
 -ncompress: 5.0 https://github.com/vapier/ncompress/tags
 -ndctl: 78 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
+-nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.2.1 https://github.com/openssl/openssl/tags
@@ -120,7 +120,7 @@ A series :
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.35 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
--tcsh: 6.24.11 http://ftp.funet.fi/pub/unix/shells/tcsh/ or https://github.com/tcsh-org/tcsh/tags
+-tcsh: 6.24.12 http://ftp.funet.fi/pub/unix/shells/tcsh/ or https://github.com/tcsh-org/tcsh/tags
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or https://git.savannah.gnu.org/cgit/time.git/log/
 -tree: 2.1.1 https://gitlab.com/OldManProgrammer/unix-tree/-/tags
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
@@ -211,13 +211,13 @@ Ap series :
 -lxc: 4.0.12 to 6.0.0 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.12.0 https://gitlab.com/man-db/man-db/-/tags
+-man-db: 2.12.1 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.07 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.7 http://mariadb.org/
 -mc: 4.8.31 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.32.5 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.32.6 http://sourceforge.net/projects/mpg123/files/
 -nano: 7.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -249,8 +249,8 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0225 to 9.1.0257 https://github.com/vim/commits/master
-	- vim: 9.1.0225
+-vim: 9.1.0265 to 9.1.0271 https://github.com/vim/commits/master
+	- vim: 9.1.0265
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -266,7 +266,7 @@ d series:
 -automake: 1.16.5 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.42 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--cargo-vendor-filterer: 0.5.13 https://github.com/coreos/cargo-vendor-filterer
+-cargo-vendor-filterer: 0.5.14 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.9.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -302,7 +302,7 @@ d series:
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.7.2 https://www.mercurial-scm.org/release
 -meson: 1.4.0 https://github.com/mesonbuild/meson/releases
--nasm: 2.16.01 http://www.nasm.us/
+-nasm: 2.16.02 http://www.nasm.us/
 -ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.2.72.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
 -opencl-headers: 2021.04.29 to 2023.04.17 https://github.com/KhronosGroup/OpenCL-Headers/releases
@@ -451,7 +451,7 @@ l series:
 -exiv2: 0.28.2 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 6.1.1 https://ffmpeg.org/
+-ffmpeg: 6.1.1 to 7.0.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.5 http://www.fluidsynth.org/
 -fmt: 10.2.1 https://github.com/fmtlib/fmt/releases/
@@ -610,7 +610,7 @@ l series:
 -libplacebo: 6.338.2 https://github.com/haasn/libplacebo
 -libplist: 2.4.0 http://www.libimobiledevice.org/
 -libpng: 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
--libproxy: 0.5.4 https://github.com/libproxy/libproxy/releases
+-libproxy: 0.5.5 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
 -libqalculate: 5.0.0 https://github.com/Qalculate/libqalculate/releases
@@ -735,7 +735,7 @@ l series:
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.6 https://pypi.org/project/glad2/#files
--python-hatchling: 1.22.4 https://pypi.org/project/hatchling
+-python-hatchling: 1.22.5 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.6 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
@@ -766,7 +766,7 @@ l series:
 -python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2024.3.25 https://pypi.org/project/trove-classifiers
--python-typing_extensions: 4.10.0 https://pypi.org/project/typing-extensions
+-python-typing_extensions: 4.11.0 https://pypi.org/project/typing-extensions
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.1 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -1102,7 +1102,7 @@ x series: (main packages)
 -xdg-desktop-portal: 1.18.3
 -xdg-user-dirs: 0.18
 -xdg-utils: 1.2.0 https://freedesktop.org/wiki/Software/xdg-utils/
--xdm 1.1.15
+-xdm 1.1.16
 -xinit: 1.4.2
 -xkeyboard-config: 2.40
 -xorgproto: 2024.1
@@ -1158,7 +1158,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0225 to 9.1.0265 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0265 to 9.1.0271 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.9.1esr to 124.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1234,7 +1234,7 @@ y series:
 extra:
 --------------------
 -aspell-word-list: 0.50.4
--bash-completion: 2.12.0 https://github.com/scop/bash-completion/releases
+-bash-completion: 2.13.0 https://github.com/scop/bash-completion/releases
 -bittornado: 0.3.18 
 -brltty: 6.6 http://mielke.cc/brltty/
 -emacs-regular-build: 29.3
