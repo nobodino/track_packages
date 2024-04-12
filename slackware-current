@@ -30,7 +30,7 @@ A series :
 -efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
--elogind: 252.23 https://github.com/elogind/elogind
+-elogind: 255.4 https://github.com/elogind/elogind
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.14 https://github.com/eudev-project/eudev
@@ -70,9 +70,9 @@ A series :
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
--libblockdev: 2.7.1 https://github.com/rhinstaller/libblockdev
--libbytesize: 2.8 to 2.10 https://github.com/rhinstaller/libbytesize
--libgudev: 237 to 238 https://download.gnome.org/sources/libgudev/
+-libblockdev: 3.1.1 https://github.com/rhinstaller/libblockdev
+-libbytesize: 2.10 https://github.com/rhinstaller/libbytesize
+-libgudev: 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
@@ -124,9 +124,9 @@ A series :
 -time: 1.9 http://ftp.gnu.org/pub/gnu/time/ or https://git.savannah.gnu.org/cgit/time.git/log/
 -tree: 2.1.1 https://gitlab.com/OldManProgrammer/unix-tree/-/tags
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
--udisks2: 2.9.4 to 2.10.1 https://github.com/storaged-project/udisks/releases
+-udisks2: 2.10.1 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 1.90.1 to 1.90.2 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 1.90.4 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0265 to 9.1.0304 https://github.com/vim/commits/master
+-vim: 9.1.0265 to 9.1.0309 https://github.com/vim/commits/master
 	- vim: 9.1.0265
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -274,7 +274,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -698,7 +698,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
 -pipewire: 1.0.4 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
--polkit: v0.123 to v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
+-polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
 -poppler: 24.04.0 http://poppler.freedesktop.org/
@@ -730,14 +730,14 @@ l series:
 -python-dnspython: 2.6.1 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.7 https://pypi.org/project/doxypypy
 -python-doxyqml: 0.5.3 https://pypi.org/project/doxyqml
--python-docutils: 0.20.1 https://pypi.org/project/docutils/#files
+-python-docutils: 0.21.1 https://pypi.org/project/docutils/#files
 -python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.6 https://pypi.org/project/glad2/#files
 -python-hatchling: 1.22.5 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
--python-idna: 3.6 https://github.com/kjd/idna/tags
+-python-idna: 3.7 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 7.1.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
@@ -952,7 +952,7 @@ n series:
 -openvpn: 2.6.10 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.4 to 8.3.5 http://www.php.net/distributions/
+-php: 8.3.5 to 8.3.6 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1043,7 +1043,7 @@ x series: (main packages)
 -ibus: 1.5.29 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.7 https://github.com/libpinyin/ibus-libpinyin/releases
--ibus-m17n: 1.4.28
+-ibus-m17n: 1.4.29
 -ibus-table: 1.17.4
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
@@ -1083,7 +1083,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.0.4 to 24.0.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.0.5 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1158,7 +1158,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0265 to 9.1.0304 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0265 to 9.1.0309 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.9.1esr to 124.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
