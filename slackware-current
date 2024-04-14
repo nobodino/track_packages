@@ -64,11 +64,11 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.26 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240410 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.27 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240412 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 643 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
+-less: 653 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.1.1 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.10 https://github.com/rhinstaller/libbytesize
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0265 to 9.1.0309 https://github.com/vim/commits/master
+-vim: 9.1.0265 to 9.1.0318 https://github.com/vim/commits/master
 	- vim: 9.1.0265
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.26 http://wwww.kernel.org
+-kernel-headers: 6.6.27 http://wwww.kernel.org
 -libgccjit: 13.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.3 http://llvm.org/
@@ -303,7 +303,7 @@ d series:
 -mercurial: 6.7.2 https://www.mercurial-scm.org/release
 -meson: 1.4.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.02 http://www.nasm.us/
--ninja: 1.11.1 https://github.com/ninja-build/ninja/releases
+-ninja: 1.12.0 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.2.72.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
 -opencl-headers: 2021.04.29 to 2023.04.17 https://github.com/KhronosGroup/OpenCL-Headers/releases
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
@@ -355,6 +355,7 @@ d series:
 -swig: 4.2.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.9 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.16 https://gitlab.gnome.org/GNOME/vala/-/tags
+-valgrind-3.22.0 http://sourceware.org/pub/valgrind
 -yasm: 1.3.0 http://yasm.tortall.net/
 --------------------
 e series:
@@ -375,7 +376,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.26 
+-kernel : 6.6.27 
 --------------------
 kde series :
 --------------------
@@ -388,7 +389,7 @@ l series:
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.11 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.2 http://www.libraw.org/
--Mako: 1.3.2 http://www.python.org/pypi/Mako/
+-Mako: 1.3.2 to 1.3.3 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.41.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.10 https://pypi.org/project/PyQt5
 -PyQt-builder: 1.16.0 https://pypi.org/project/PyQt-builder/
@@ -463,7 +464,7 @@ l series:
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.6 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
--gcr4: 4.2.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr4: 4.2.1 to 4.3.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.10 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
@@ -514,7 +515,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 (to 75rc) https://icu.unicode.org/
--imagemagick: 7.1.1_30 http://www.imagemagick.org/
+-imagemagick: 7.1.1_29 (to 30 nok) http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -571,7 +572,7 @@ l series:
 -libgnt: 2.14.3 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.52 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
--libgtop: 2.40.0 to 2.41.1 https://gitlab.gnome.org/GNOME/libgtop/-/tags
+-libgtop: 2.40.0 to 2.41.3 https://gitlab.gnome.org/GNOME/libgtop/-/tags
 -libgusb: 0.4.8 https://github.com/hughsie/libgusb
 -libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
@@ -648,7 +649,7 @@ l series:
 -libvncserver: 0.9.14 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.14.0 https://github.com/webmproject/libvpx/tags
--libwebp: 1.3.2 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
+-libwebp: 1.4.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
 -libwmf: 0.2.13 https://github.com/caolanm/libwmf/releases
 -libwnck3: 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
@@ -675,7 +676,7 @@ l series:
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -ncurses: 6.4_20230610 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.33.0 https://github.com/notroj/neon/tags
--netpbm: 11.06.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.06.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
 -nodejs: 20.12.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -684,7 +685,7 @@ l series:
 -opencv: 4.9.0 https://github.com/opencv/opencv/releases
 -openexr: 3.2.4 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.2 http://www.openjpeg.org
--opus: 1.5.1 https://opus-codec.org/
+-opus: 1.5.2 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.38 https://gstreamer.freedesktop.org/src/orc/
 -pango: 1.52.2 http://ftp.gnome.org/pub/GNOME/sources/pango/
@@ -808,7 +809,7 @@ l series:
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.13.1 to 2.0 https://taglib.github.io/
+-taglib: 1.13.1 to 2.0.1 https://taglib.github.io/
 -talloc: 2.4.2 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
@@ -952,7 +953,7 @@ n series:
 -openvpn: 2.6.10 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.5 to 8.3.6 http://www.php.net/distributions/
+-php: 8.3.6 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1106,7 +1107,7 @@ x series: (main packages)
 -xinit: 1.4.2
 -xkeyboard-config: 2.40
 -xorgproto: 2024.1
--xorg-server: 21.1.12 http://ftp.x.org/pub/individual/xserver/
+-xorg-server: 21.1.13 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 23.2.6
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.1
@@ -1158,7 +1159,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0265 to 9.1.0309 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0265 to 9.1.0318 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.9.1esr to 124.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
