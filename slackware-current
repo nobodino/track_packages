@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.6.27 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240412 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.6.28 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240417 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 653 https://ftp.gnu.org/gnu/less/ or https://www.greenwoodsoftware.com/less/
@@ -139,7 +139,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 6.6.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 6.7.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.6.1 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0265 to 9.1.0342 https://github.com/vim/commits/master
+-vim: 9.1.0265 to 9.1.0346 https://github.com/vim/commits/master
 	- vim: 9.1.0265
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -293,7 +293,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.6.27 http://wwww.kernel.org
+-kernel-headers: 6.6.28 http://wwww.kernel.org
 -libgccjit: 13.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.3 http://llvm.org/
@@ -338,7 +338,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 4.0 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.11.8 to 3.11.9/3.12.2 (new API) https://www.python.org/downloads/
+-python3: 3.11.8 to 3.11.9/3.12.3 (new API) https://www.python.org/downloads/
 -python-pip: 24.0 https://pypi.python.org/pypi/pip
 -python-setuptools: 69.5.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -376,7 +376,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.6.27 
+-kernel : 6.6.28 
 --------------------
 kde series :
 --------------------
@@ -708,7 +708,7 @@ l series:
 -protobuf: 26.1 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.26.0 https://github.com/pygobject/pycairo/releases
--pycups: 2.0.1 https://pypi.python.org/pypi/pycups
+-pycups: 2.0.3 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.3 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.48.2 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -763,7 +763,7 @@ l series:
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
--python-sphinx: 7.2.6 https://pypi.org/project/sphinx
+-python-sphinx: 7.3.5 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2024.3.25 https://pypi.org/project/trove-classifiers
@@ -840,7 +840,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.25 http://ftp.isc.org/isc/bind9
+-bind: 9.18.25 to 9.18.26 http://ftp.isc.org/isc/bind9
 -bluez: 5.75 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1097,7 +1097,7 @@ x series: (main packages)
 -twm: 1.0.12
 -vulkan-sdk: 1.3.275.0 to 1.3.281.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.22.0 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.34 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.35 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.3
 -xcb-proto: 1.17.0
 -xdg-desktop-portal: 1.18.3
@@ -1159,11 +1159,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0265 to 9.1.0342 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0265 to 9.1.0346 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.10.0esr to 125.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 115.09.0 https://www.thunderbird.net/
+-mozilla-thunderbird: 115.10.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.158 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
