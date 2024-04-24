@@ -26,7 +26,7 @@ A series :
 -dialog: 1.3_20240307 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.0 http://download.sourceforge.net/e2fsprogs/
--ed: 1.20.1 http://ftp.gnu.org/pub/gnu/ed/
+-ed: 1.20.2 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0346 to 9.1.0366 https://github.com/vim/commits/master
+-vim: 9.1.0346 to 9.1.0368 https://github.com/vim/commits/master
 	- vim: 9.1.0346
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -309,7 +309,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.26 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20240322 https://www.gnu.org/software/parallel/
+-parallel: 20240422 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.2 (to 5.39.9)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
@@ -344,7 +344,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
--ruby: 3.3.0 http://www.ruby-lang.org/
+-ruby: 3.3.1 http://www.ruby-lang.org/
 -rust: 1.77.2 https://rust-lang.org
 -rust-bindgen: 0.69.4 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
@@ -447,7 +447,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.191 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.6.9 https://github.com/AbiWord/enchant/releases
+-enchant: 2.6.9 to 2.7.0 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.2 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
@@ -573,7 +573,7 @@ l series:
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.52 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.40.0 to 2.41.3 https://gitlab.gnome.org/GNOME/libgtop/-/tags
--libgusb: 0.4.8 https://github.com/hughsie/libgusb
+-libgusb: 0.4.9 https://github.com/hughsie/libgusb
 -libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
 -libical: 3.0.18 https://github.com/libical/libical/releases
@@ -731,7 +731,7 @@ l series:
 -python-dnspython: 2.6.1 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.7 https://pypi.org/project/doxypypy
 -python-doxyqml: 0.5.3 https://pypi.org/project/doxyqml
--python-docutils: 0.21.1 https://pypi.org/project/docutils/#files
+-python-docutils: 0.21.2 https://pypi.org/project/docutils/#files
 -python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
@@ -937,7 +937,7 @@ n series:
 -nfs-utils: 2.6.4 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.9 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.61.0 https://github.com/nghttp2/nghttp2/releases
--nmap: 7.94 to 7.95 http://download.insecure.org/nmap/dist/
+-nmap: 7.95 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.7 https://github.com/gpg/npth/tags/
 -nss-mdns: 0.15.1 https://github.com/avahi/nss-mdns
@@ -1024,18 +1024,18 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.13 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.1.8 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-anthy: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-chinese-addons: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-gtk: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-hangul: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-kkc: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.9 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-anthy: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-chinese-addons: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-gtk: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-hangul: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-kkc: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-m17n: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-qt: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-sayura: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-extra: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-table-other: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-unikey: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-qt: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-sayura: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-extra: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-table-other: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-unikey: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
 -fontconfig: 2.13.92 to 2.15.0 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.4.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
@@ -1049,7 +1049,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
--libime: 1.1.6 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.1.7 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.6
 -libdmx: 1.1.4
@@ -1098,7 +1098,7 @@ x series: (main packages)
 -vulkan-sdk: 1.3.275.0 to 1.3.282.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.22.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.35 https://wayland.freedesktop.org/releases.html
--xcb-imdkit: 1.0.3
+-xcb-imdkit: 1.0.8
 -xcb-proto: 1.17.0
 -xdg-desktop-portal: 1.18.4
 -xdg-user-dirs: 0.18
@@ -1159,7 +1159,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0346 to 9.1.0366 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0346 to 9.1.0368 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.10.0esr to 125.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
