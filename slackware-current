@@ -249,7 +249,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0346 to 9.1.0369 https://github.com/vim/commits/master
+-vim: 9.1.0346 to 9.1.0373 https://github.com/vim/commits/master
 	- vim: 9.1.0346
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -392,7 +392,7 @@ l series:
 -Mako: 1.3.3 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.41.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.10 https://pypi.org/project/PyQt5
--PyQt-builder: 1.16.1 https://pypi.org/project/PyQt-builder/
+-PyQt-builder: 1.16.2 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.13.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.30.1 to 2.30.2 https://github.com/libsdl-org/SDL/releases
@@ -460,7 +460,7 @@ l series:
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.1 https://files.dyne.org/frei0r
--fribidi: 1.0.13 https://github.com/fribidi/fribidi/releases
+-fribidi: 1.0.14 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.6 https://github.com/ivmai/bdwgc/tags
@@ -888,7 +888,7 @@ n series:
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.7 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.10.3 https://www.gnupg.org/download/index.html
--libgpg-error: 1.48 https://www.gnupg.org/download/index.html
+-libgpg-error: 1.49 https://www.gnupg.org/download/index.html
 -libksba: 1.6.6 https://www.gnupg.org/download/index.html
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.18.1 (sendmail)
@@ -1085,7 +1085,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.0.6 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.0.6 (to 24.1.0rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1160,7 +1160,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0346 to 9.1.0369 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0346 to 9.1.0373 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 115.10.0esr to 125.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
