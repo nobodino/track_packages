@@ -517,7 +517,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 to 75.1 https://icu.unicode.org/
--imagemagick: 7.1.1_31 http://www.imagemagick.org/
+-imagemagick: 7.1.1_31 to 32 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -724,7 +724,7 @@ l series:
 -python-PyYAML: 6.0.1 https://pypi.org/project/pyyaml
 -python-alabaster: 0.7.16 https://pypi.org/project/alabaster
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs/releases
--python-babel: 2.14.0 https://pypi.org/project/babel
+-python-babel: 2.15.0 https://pypi.org/project/babel
 -python-build: 1.2.1 https://pypi.org/project/build/#files
 -python-calver: 2022.6.26 https://pypi.org/project/calver
 -python-certifi: 2024.2.2 https://pypi.python.org/pypi/certifi
