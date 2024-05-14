@@ -511,7 +511,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.54.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.4.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 8.4.0 to 8.5.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.17 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -660,7 +660,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.12.6 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.12.7 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.7.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.39 https://download.gnome.org/sources/libxslt/1.1/
@@ -746,7 +746,7 @@ l series:
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 7.1.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 5.2.1 https://pypi.org/project/lxml/#files
+-python-lxml: 5.2.2 https://pypi.org/project/lxml/#files
 -python-markdown: 3.6 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.0 https://github.com/pypa/packaging/releases
@@ -877,7 +877,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.8.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.9.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.21 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -939,7 +939,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.6.4 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.0.9 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.61.0 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.62.0 https://github.com/nghttp2/nghttp2/releases
 -nmap: 7.95 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.7 https://github.com/gpg/npth/tags/
@@ -1126,7 +1126,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 390 http://invisible-island.net/xterm/
+-xterm: 391 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1165,7 +1165,7 @@ xap series:
 -gvim: 9.1.0386 to 9.1.0411 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 125.0.3 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 125.0.3 to 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 125.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.158 http://pan.rebelbase.com/download/releases/
