@@ -10,6 +10,7 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.026 http://ftp.gnu.org/pub/gnu/bash/
+-bcachefs-tools: 1.7.0 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -250,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0386 to 9.1.0412 https://github.com/vim/commits/master
+-vim: 9.1.0386 to 9.1.0413 https://github.com/vim/commits/master
 	- vim: 9.1.0386
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -285,7 +286,7 @@ d series:
 -gcc: 14.1 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 14.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.45.0 to 2.45.1 https://git-scm.com/download
+-git: 2.45.1 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
@@ -351,7 +352,7 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.7.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.8 to 6.9 https://github.com/strace/strace/releases
+-strace: 6.9 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.1 http://www.swig.org/download.html
 -tree-sitter: 0.20.9 https://github.com/tree-sitter/tree-sitter
@@ -468,7 +469,7 @@ l series:
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.2.1 to 4.3.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
--gdk-pixbuf2: 2.42.11 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.48 https://download.gimp.org/pub/gegl/
@@ -502,7 +503,7 @@ l series:
 -gstreamer: 1.24.3 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.41 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.42 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.14.4 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
@@ -843,7 +844,7 @@ n series:
 	-pinepgp: 0.18.0
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.26 http://ftp.isc.org/isc/bind9
+-bind: 9.18.27 http://ftp.isc.org/isc/bind9
 -bluez: 5.75 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -1111,7 +1112,7 @@ x series: (main packages)
 -xkeyboard-config: 2.40
 -xorgproto: 2024.1
 -xorg-server: 21.1.13 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 23.2.6
+-xorg-server-xwayland: 23.2.7
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.2
 -xf86-video-amdgpu: 23.0.0 to 20230222
@@ -1162,7 +1163,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0386 to 9.1.0412 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0386 to 9.1.0413 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
