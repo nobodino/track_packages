@@ -78,7 +78,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.23 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.23 to 2.03.24 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 198 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.3 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0386 to 9.1.0413 https://github.com/vim/commits/master
+-vim: 9.1.0386 to 9.1.0414 https://github.com/vim/commits/master
 	- vim: 9.1.0386
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -826,7 +826,7 @@ l series:
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.76.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.7.0 https://www.wavpack.com/downloads.html
--wireplumber: 0.5.2 https://gitlab.freedesktop.org/pipewire/wireplumber
+-wireplumber: 0.5.2 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.25 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
@@ -845,7 +845,7 @@ n series:
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.27 http://ftp.isc.org/isc/bind9
--bluez: 5.75 http://www.bluez.org/download/
+-bluez: 5.75 to 5.76 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -1088,7 +1088,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.0.7 (to 24.1.0rc3) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.0.7 (to 24.1.0rc4) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1163,7 +1163,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0386 to 9.1.0413 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0386 to 9.1.0414 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
