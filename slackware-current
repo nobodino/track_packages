@@ -60,12 +60,12 @@ A series :
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
 -inih: r58 https://github.com/benhoyt/inih
--iniparser: 4.2 https://github.com/ndevilla/iniparser
+-iniparser: 4.2.1 https://github.com/ndevilla/iniparser
 -inotify-tools: 4.23.8.0 to 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.9.0 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.9.1 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20240510 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -78,9 +78,9 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.21.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.23 to 2.03.24 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.24 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
--mcelog: 198 https://github.com/andikleen/mcelog/tags
+-mcelog: 199 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.3 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.9 https://salsa.debian.org/minicom-team/minicom/-/tags
@@ -140,7 +140,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 6.7.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 6.8.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.6.1 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -173,7 +173,7 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.4.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 10.03.0 https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 10.03.0 to 10.03.1 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/ or https://github.com/gphoto
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0386 to 9.1.0414 https://github.com/vim/commits/master
+-vim: 9.1.0386 to 9.1.0418 https://github.com/vim/commits/master
 	- vim: 9.1.0386
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -295,10 +295,10 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.9.0 http://wwww.kernel.org
+-kernel-headers: 6.9.1 http://wwww.kernel.org
 -libgccjit: 14.1.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 18.1.5 http://llvm.org/
+-llvm: 18.1.5 to 18.1.6 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
@@ -363,7 +363,7 @@ d series:
 e series:
 --------------------
 -emacs: 29.3 http://www.gnu.org/software/emacs/
--emacspeak: 59.0  https://github.com/tvraman/emacspeak/releases
+-emacspeak: 60.0  https://github.com/tvraman/emacspeak/releases
 --------------------
 Installer:
 --------------------
@@ -378,7 +378,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.9.0 
+-kernel : 6.9.1 
 --------------------
 kde series :
 --------------------
@@ -771,12 +771,12 @@ l series:
 -python-sphinx: 7.3.7 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2024.3.25 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2024.5.17 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.1 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.43.0 https://pypi.org/project/wheel/#files
--python-zipp: 3.18.1 https://pypi.org/project/zipp
+-python-zipp: 3.18.2 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.12_20240314 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
@@ -845,7 +845,7 @@ n series:
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.18.27 http://ftp.isc.org/isc/bind9
--bluez: 5.75 to 5.76 http://www.bluez.org/download/
+-bluez: 5.76 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -878,7 +878,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.9.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.9.1 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.21 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -1163,7 +1163,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0386 to 9.1.0414 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0386 to 9.1.0418 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
