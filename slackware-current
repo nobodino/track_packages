@@ -35,7 +35,7 @@ A series :
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.14 https://github.com/eudev-project/eudev
--exfatprogs: 1.2.2 https://github.com/exfatprogs/exfatprogs
+-exfatprogs: 1.2.3 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.45 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
 -findutils: 4.9.0 http://ftp.gnu.org/gnu/findutils/
@@ -241,7 +241,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.45.3 http://www.sqlite.org/download.html
+-sqlite: 3.45.3 to 3.46.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.15p5 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.5 https://github.com/sysstat/sysstat/tags
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0386 to 9.1.0432 https://github.com/vim/commits/master
+-vim: 9.1.0386 to 9.1.0442 https://github.com/vim/commits/master
 	- vim: 9.1.0386
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -311,7 +311,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.26 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20240422 https://www.gnu.org/software/parallel/
+-parallel: 20240522 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.38.2 (to 5.39.9)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
@@ -384,14 +384,14 @@ kde series :
 --------------------
 -kde: 5.27.11 (plasma) https://download.kde.org/stable/
 -kde: 5.116.0 (framework) https://download.kde.org/stable/
--kde: 23.08.5 to 24.02.0 (kde gear) https://download.kde.org/stable/
+-kde: 23.08.5 to 24.05.0 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.11 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.2 http://www.libraw.org/
--Mako: 1.3.3 http://www.python.org/pypi/Mako/
+-Mako: 1.3.3 to 1.3.5 http://www.python.org/pypi/Mako/
 -M2Crypto: 0.41.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.10 https://pypi.org/project/PyQt5
 -PyQt-builder: 1.16.2 https://pypi.org/project/PyQt-builder/
@@ -480,7 +480,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.80.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.80.1 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.80.1 to 2.80.2 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glimm2: 2.80.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibc: 2.39 http://ftp.gnu.org/pub/gnu/glibc/
@@ -762,7 +762,7 @@ l series:
 -python-pyproject-hooks: 1.1.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.16.0 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.2 https://pypi.python.org/pypi/random2
--python-requests: 2.32.1 https://pypi.org/project/requests/
+-python-requests: 2.32.1 to 2.32.2 https://pypi.org/project/requests/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
 -python-setuptools_scm: 8.1.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
@@ -771,7 +771,7 @@ l series:
 -python-sphinx: 7.3.7 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2024.5.17 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2024.5.22 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.1 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -865,7 +865,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.11 to 2.1.12 http://www.epicsol.org/
--ethtool: 5.19 to 6.7 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.19 to 6.9 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.38 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.18.13 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -1088,7 +1088,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.0.7 to 24.1.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.1.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1099,7 +1099,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.275.0 to 1.3.283.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.275.0 to 1.3.285.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.22.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.36 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.8
@@ -1127,7 +1127,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 391 http://invisible-island.net/xterm/
+-xterm: 392 http://invisible-island.net/xterm/
 --------------------
 xap series:
 --------------------
@@ -1163,20 +1163,20 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0386 to 9.1.0432 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0386 to 9.1.0442 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 125.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.158 http://pan.rebelbase.com/download/releases/
--pavucontrol: 3.0 http://0pointer.de/lennart/projects/pavucontrol/
+-pavucontrol: 6.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.13
 	-pidgin: 2.14.13 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.3.0
+-sane: 1.3.0 to 1.3.1
 	- sane-backend : 1.3.0 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
 -seamonkey: 2.53.18.2 http://www.mozilla.org/projects/seamonkey/
