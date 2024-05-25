@@ -241,7 +241,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.45.3 to 3.46.0 http://www.sqlite.org/download.html
+-sqlite: 3.46.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -sudo: 1.9.15p5 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.5 https://github.com/sysstat/sysstat/tags
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0386 to 9.1.0442 https://github.com/vim/commits/master
+-vim: 9.1.0386 to 9.1.0443 https://github.com/vim/commits/master
 	- vim: 9.1.0386
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -511,7 +511,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.54.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.54.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 8.5.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -622,7 +622,7 @@ l series:
 -libqalculate: 5.1.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.58.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.58.0 to 2.58.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -703,7 +703,7 @@ l series:
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.0.6 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.0.6 to 1.0.7 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -762,7 +762,7 @@ l series:
 -python-pyproject-hooks: 1.1.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.16.0 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.2 https://pypi.python.org/pypi/random2
--python-requests: 2.32.1 to 2.32.2 https://pypi.org/project/requests/
+-python-requests: 2.32.2 https://pypi.org/project/requests/
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
 -python-setuptools_scm: 8.1.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.16.0 https://pypi.org/project/six/
@@ -851,7 +851,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20240216 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.28.1 https://c-ares.org/
+-c-ares: 1.29.0 https://c-ares.org/
 -cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.8.8 http://curl.haxx.se/download/
@@ -859,7 +859,7 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.0.6 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.0.8 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -999,6 +999,7 @@ n series:
 -wireless-regdb: 2024.05.08 http://kernel.org/pub/software/network/wireless-regdb/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.10 https://w1.fi/wpa_supplicant/
+-wsdd2: 1.8.7 https://github.com/Netgear/wsdd2
 -yptools:
 	- yp-tools: 4.2.3 https://github.com/thkukuk/yp-tools/releases
 	- ypbind-mt: 2.7.2 https://github.com/thkukuk/ypbind-mt/releases
@@ -1100,7 +1101,7 @@ x series: (main packages)
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
 -vulkan-sdk: 1.3.275.0 to 1.3.285.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
--wayland: 1.22.0 https://wayland.freedesktop.org/releases.html
+-wayland: 1.22.0 (to 1.22.93) https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.36 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.8
 -xcb-proto: 1.17.0
@@ -1163,7 +1164,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0386 to 9.1.0442 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0386 to 9.1.0443 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
