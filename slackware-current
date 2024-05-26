@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.9.1 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240510 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.9.2 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240519 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 655 https://github.com/wofr06
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0386 to 9.1.0443 https://github.com/vim/commits/master
+-vim: 9.1.0386 to 9.1.0445 https://github.com/vim/commits/master
 	- vim: 9.1.0386
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.9.1 http://wwww.kernel.org
+-kernel-headers: 6.9.2 http://wwww.kernel.org
 -libgccjit: 14.1.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.6 http://llvm.org/
@@ -313,7 +313,7 @@ d series:
 -pahole: 1.26 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20240522 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.38.2 (to 5.39.9)
+-perl: 5.38.2 (to 5.40.0-RC1)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.051 to 5.005 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
@@ -378,7 +378,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.9.1 
+-kernel : 6.9.2 
 --------------------
 kde series :
 --------------------
@@ -435,6 +435,7 @@ l series:
 -cryfs: 0.10.3 to 0.11.4 https://github.com/cryfs/cryfs/releases
 -cryptopp: 8.2.0 to 8.8.0 https://www.cryptopp.com/
 -cxxopts: 3.2.1 https://github.com/jarro2783/cxxopts
+-dav1d: 1.4.2 http://downloads.videolan.org/pub/videolan/dav1d
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
@@ -455,7 +456,7 @@ l series:
 -exiv2: 0.28.2 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 6.1.1 to 7.0.0 https://ffmpeg.org/
+-ffmpeg: 6.1.1 to 7.0.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.5 http://www.fluidsynth.org/
 -fmt: 10.2.1 https://github.com/fmtlib/fmt/releases/
@@ -495,7 +496,7 @@ l series:
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 46.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
--gsl: 2.7.1 http://www.gnu.org/software/gsl/
+-gsl: 2.8 http://www.gnu.org/software/gsl/
 -gst-plugins-base: 1.24.3 https://gstreamer.freedesktop.org/src/
 -gst-plugins-bad-free: 1.24.3 https://gstreamer.freedesktop.org/src/
 -gst-plugins-good: 1.24.3 https://gstreamer.freedesktop.org/src/
@@ -518,7 +519,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 to 75.1 https://icu.unicode.org/
--imagemagick: 7.1.1_32 http://www.imagemagick.org/
+-imagemagick: 7.1.1_32 to 33 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -622,7 +623,7 @@ l series:
 -libqalculate: 5.1.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.58.0 to 2.58.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.58.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -703,7 +704,7 @@ l series:
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.0.6 to 1.0.7 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.0.7 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
@@ -946,7 +947,7 @@ n series:
 -npth: 1.7 https://github.com/gpg/npth/tags/
 -nss-mdns: 0.15.1 https://github.com/avahi/nss-mdns
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
--ntp: 4.2.8p17 http://www.ntp.org/downloads.html
+-ntp: 4.2.8p18 http://www.ntp.org/downloads.html
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.8 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
@@ -1164,7 +1165,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0386 to 9.1.0443 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0386 to 9.1.0445 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1177,8 +1178,8 @@ xap series:
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
--sane: 1.3.0 to 1.3.1
-	- sane-backend : 1.3.0 https://gitlab.com/sane-project/backends/-/tags
+-sane: 1.3.1
+	- sane-backend : 1.3.1 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
 -seamonkey: 2.53.18.2 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
@@ -1191,7 +1192,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
 -xine-ui: 0.9.14 https://sourceforge.net/projects/xine/
--xlockmore: 5.77 https://www.tux.org/~bagleyd/xlockmore.html
+-xlockmore: 5.78 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.05 https://www.xpdfreader.com/download.html
