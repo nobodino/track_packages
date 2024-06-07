@@ -66,10 +66,10 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.9.3 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240529 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20240604 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 656 https://github.com/wofr06
+-less: 657 https://github.com/wofr06
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.1.1 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.10 https://github.com/rhinstaller/libbytesize
@@ -96,7 +96,7 @@ A series :
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
--openssl-solibs: 3.3.0 https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.3.1 https://github.com/openssl/openssl/tags
 -os-prober: 1.81 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.6.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0446 to 9.1.0465 https://github.com/vim/commits/master
+-vim: 9.1.0446 to 9.1.0470 https://github.com/vim/commits/master
 	- vim: 9.1.0446
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.3 to 3.29.4 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.4 to 3.29.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -314,9 +314,9 @@ d series:
 -pahole: 1.26 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20240522 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.38.2 (to 5.40.0-RC1)
+-perl: 5.38.2 (to 5.40.0-RC2)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
-	- DBD-mysql: 4.051 to 5.005 http://www.cpan.org/modules/by-module/DBD/
+	- DBD-mysql: 4.051 to 5.006 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
 	- IO-Socket-SSL: 2.085 https://www.cpan.org/modules/by-module/IO/
@@ -341,7 +341,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 4.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.11.8 to 3.11.9/3.12.3 (new API) https://www.python.org/downloads/
+-python3: 3.11.9 to 3.12.4 (new API) https://www.python.org/downloads/
 -python-pip: 24.0 https://pypi.python.org/pypi/pip
 -python-setuptools: 70.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -711,10 +711,10 @@ l series:
 -polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
--poppler: 24.05.0 http://poppler.freedesktop.org/
+-poppler: 24.06.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
--protobuf: 26.1 https://github.com/google/protobuf
+-protobuf: 27.1 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.26.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
@@ -780,7 +780,7 @@ l series:
 -python-urllib3: 2.2.1 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.43.0 https://pypi.org/project/wheel/#files
--python-zipp: 3.19.1 https://pypi.org/project/zipp
+-python-zipp: 3.19.2 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.13_20240519 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
@@ -854,7 +854,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20240216 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20240604 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.29.0 https://c-ares.org/
 -cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -883,7 +883,7 @@ n series:
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
 -iproute2: 6.9.1 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.21 http://ftp.netfilter.org/pub/ipset/
+-ipset: 7.22 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20240117 https://github.com/iputils/iputils/releases
@@ -957,11 +957,11 @@ n series:
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.7p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1w http://ftp.openssl.org/source/
--openssl: 3.3.0 http://ftp.openssl.org/source/
+-openssl: 3.3.1 http://ftp.openssl.org/source/
 -openvpn: 2.6.10 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.7 http://www.php.net/distributions/
+-php: 8.3.8 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1069,7 +1069,7 @@ x series: (main packages)
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.25.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.26.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
@@ -1077,7 +1077,7 @@ x series: (main packages)
 -libva: 2.21.0 https://github.com/intel/libva/releases
 -libva-utils: 2.21.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
--libwacom: 2.11.0 https://github.com/linuxwacom/libwacom/releases
+-libwacom: 2.12.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.16 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.17
@@ -1093,7 +1093,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.1.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1168,13 +1168,13 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0446 to 9.1.0465 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0446 to 9.1.0470 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 126.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 125.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
--pan: 0.158 http://pan.rebelbase.com/download/releases/
+-pan: 0.159 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.0 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.13
 	-pidgin: 2.14.13 https://www.pidgin.im/download/source/
