@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.8.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.9 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.5 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
@@ -97,7 +97,7 @@ A series :
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1w https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.3.1 https://github.com/openssl/openssl/tags
--os-prober: 1.81 https://packages.debian.org/unstable/utils/os-prober
+-os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.6.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.13.0 http://www.kernel.org/pub/software/utils/pciutils/
@@ -227,7 +227,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 11.9.0 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 11.9.1 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rfind: 1.6.0 https://github.com/pauldreik/rdfind
 -rpm: 4.19.1.1 (to 4.19.91) http://ftp.rpm.org/releases
@@ -276,7 +276,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.4 to 3.29.5 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -298,7 +298,7 @@ d series:
 -kernel-headers: 6.9.3 http://wwww.kernel.org
 -libgccjit: 14.1.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 18.1.6 http://llvm.org/
+-llvm: 18.1.7 http://llvm.org/
 -lua: 5.4.6 http://www.lua.org/ftp
 -luajit: 2.1.1716656478 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
@@ -464,8 +464,8 @@ l series:
 -fmt: 10.2.1 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
--frei0r-plugins: 2.3.1 https://files.dyne.org/frei0r
--fribidi: 1.0.14 https://github.com/fribidi/fribidi/releases
+-frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
+-fribidi: 1.0.15 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.6 https://github.com/ivmai/bdwgc/tags
@@ -556,7 +556,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.1 http://ftp.gnu.org/gnu/libcdio/
--libclc: 18.1.3 http://libclc.llvm.org/
+-libclc: 18.1.7 http://libclc.llvm.org/
 -libcupsfilters: 2.0.0 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -812,7 +812,7 @@ l series:
 -speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
--spirv-llvm-translator: 18.1.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
+-spirv-llvm-translator: 18.1.1 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
