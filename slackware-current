@@ -60,13 +60,13 @@ A series :
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
 -inih: r58 https://github.com/benhoyt/inih
--iniparser: 4.2.2 https://github.com/ndevilla/iniparser
--inotify-tools: 4.23.8.0 to 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
+-iniparser: 4.2.3 https://github.com/ndevilla/iniparser
+-inotify-tools: 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.9.4 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240612 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20240614 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 657 https://github.com/wofr06
@@ -214,7 +214,7 @@ Ap series :
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.12.1 https://gitlab.com/man-db/man-db/-/tags
--man-pages: 6.8 http://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.9 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.8 http://mariadb.org/
 -mc: 4.8.31 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0473 to 9.1.0483 https://github.com/vim/commits/master
+-vim: 9.1.0473 to 9.1.0491 https://github.com/vim/commits/master
 	- vim: 9.1.0473
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.5 (to 3.30.0-rc2) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.5 (to 3.30.0-rc3) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -357,7 +357,7 @@ d series:
 -strace: 6.9 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.1 http://www.swig.org/download.html
--tree-sitter: 0.20.9 https://github.com/tree-sitter/tree-sitter
+-tree-sitter: 0.22.6 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.17 https://gitlab.gnome.org/GNOME/vala/-/tags
 -valgrind: 3.23.0 http://sourceware.org/pub/valgrind
 -yasm: 1.3.0 http://yasm.tortall.net/
@@ -438,7 +438,7 @@ l series:
 -cryfs: 0.10.3 to 0.11.4 https://github.com/cryfs/cryfs/releases
 -cryptopp: 8.2.0 to 8.8.0 https://www.cryptopp.com/
 -cxxopts: 3.2.1 https://github.com/jarro2783/cxxopts
--dav1d: 1.4.2 http://downloads.videolan.org/pub/videolan/dav1d
+-dav1d: 1.4.3 http://downloads.videolan.org/pub/videolan/dav1d
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.112 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.3.2 http://dbus.freedesktop.org/releases/dbus-python/
@@ -450,11 +450,11 @@ l series:
 -duktape: 2.7.0 https://duktape.org
 -dvdauthor: 0.7.2 https://github.com/ldo/dvdauthor/tags
 -ebook-tools: 0.2.2 http://sourceforge.net/projects/ebook-tools/files/ebook-tools/
--editorconfig-core-c: 0.12.7 https://github.com/editorconfig/editorconfig-core-c/releases
+-editorconfig-core-c: 0.12.8 https://github.com/editorconfig/editorconfig-core-c/releases
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.191 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.51.1 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.8.0 https://github.com/AbiWord/enchant/releases
+-enchant: 2.8.1 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.2 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
@@ -463,7 +463,7 @@ l series:
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.5 http://www.fluidsynth.org/
 -fmt: 10.2.1 https://github.com/fmtlib/fmt/releases/
--freecell-solver: 6.8.0 https://fc-solve.shlomifish.org/download.html
+-freecell-solver: 6.10.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.15 https://github.com/fribidi/fribidi/releases
@@ -784,7 +784,7 @@ l series:
 -python-zipp: 3.19.2 https://pypi.org/project/zipp
 -qca: 2.3.7 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
--qt5: 5.15.13_20240519 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
+-qt5: 5.15.13_20240607 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt5-webkit: 5.212_0alpha4 https://github.com/qtwebkit/qtwebkit/releases
 -qt6: 6.7.1 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.14.3 https://github.com/frankosterfeld/qtkeychain/releases
@@ -855,7 +855,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20240604 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20240615 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.30.0 https://c-ares.org/
 -cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -1141,8 +1141,8 @@ xap series:
 	-Mplayer: 20240130
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.10.2
--audacious: 4.3.1 http://www.audacious-media-player.org
--audacious-plugins: 4.3.1 http://www.audacious-media-player.org
+-audacious: 4.4 http://www.audacious-media-player.org
+-audacious-plugins: 4.4 http://www.audacious-media-player.org
 -blackbox:
 	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
@@ -1169,7 +1169,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0473 to 9.1.0483 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0473 to 9.1.0491 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 127.0 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
