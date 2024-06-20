@@ -180,7 +180,7 @@ Ap series :
 -hplip: 3.24.4 http://hplipopensource.com
 -htop: 3.3.0 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.34_1 https://github.com/smxi/inxi/tags
+-inxi: 3.3.35_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0473 to 9.1.0500 https://github.com/vim/commits/master
+-vim: 9.1.0473 to 9.1.0505 https://github.com/vim/commits/master
 	- vim: 9.1.0473
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -344,7 +344,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.12.4 (new API) https://www.python.org/downloads/
 -python-pip: 24.0 https://pypi.python.org/pypi/pip
--python-setuptools: 70.0.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 70.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.2 https://github.com/shlomif/rinutils/releases
@@ -431,7 +431,7 @@ l series:
 -cairo: 1.18.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
 -cairomm1: 1.18.0 http://cairographics.org/cairomm/
--cfitsio: 4.3.1 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
+-cfitsio: 4.4.1 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -colord: 1.4.7 https://www.freedesktop.org/software/colord/releases/
@@ -620,7 +620,7 @@ l series:
 -libplist: 2.4.0 http://www.libimobiledevice.org/
 -libpng: 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
 -libppd: 2.0.0 https://github.com/OpenPrinting/libppd
--libproxy: 0.5.6 https://github.com/libproxy/libproxy/releases
+-libproxy: 0.5.7 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
 -libqalculate: 5.1.1 https://github.com/Qalculate/libqalculate/releases
@@ -665,10 +665,10 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.12.8 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.13.1 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.7.0 https://github.com/xkbcommon/libxkbcommon/releases
--libxslt: 1.1.40 https://download.gnome.org/sources/libxslt/1.1/
+-libxslt: 1.1.41 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.10.1 https://libzip.org/download/
 -lmdb: 0.9.33 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
@@ -761,7 +761,7 @@ l series:
 -python-pillow: 10.3.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.5.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-psutil: 5.9.8 https://pypi.org/project/psutil
+-python-psutil: 6.0.0 https://pypi.org/project/psutil
 -python-pygments: 2.18.0 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.1.0 https://pypi.org/project/pyproject_hooks/#files
@@ -895,8 +895,8 @@ n series:
 -krb5: 1.21.2 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.7 https://www.gnupg.org/download/index.html
--libgcrypt: 1.10.3 https://www.gnupg.org/download/index.html
--libgpg-error: 1.49 https://www.gnupg.org/download/index.html
+-libgcrypt: 1.11.0 https://www.gnupg.org/download/index.html
+-libgpg-error: 1.50 https://www.gnupg.org/download/index.html
 -libksba: 1.6.6 https://www.gnupg.org/download/index.html
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.18.1 (sendmail)
@@ -979,7 +979,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.24 http://www.sdaoden.eu/downloads
--samba: 4.20.1 https://ftp.samba.org/pub/samba/
+-samba: 4.20.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1094,7 +1094,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.1.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.1.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1169,10 +1169,10 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0473 to 9.1.0500 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0473 to 9.1.0505 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 127.0 to 127.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 127.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 127.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.159 http://pan.rebelbase.com/download/releases/
