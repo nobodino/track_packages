@@ -230,7 +230,7 @@ Ap series :
 -qpdf: 11.9.1 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rfind: 1.6.0 https://github.com/pauldreik/rdfind
--rpm: 4.19.1.1 (to 4.19.91) http://ftp.rpm.org/releases
+-rpm: 4.19.1.1 (to 4.19.92) http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
 -sc-im: 0.8.3 https://github.com/andmarti1424/sc-im
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.6 (to 3.30.0-rc3) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.6 (to 3.30.0-rc4) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -290,7 +290,7 @@ d series:
 -git: 2.45.2 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
--guile: 3.0.9 http://ftp.gnu.org/pub/gnu/guile/
+-guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 to 20220714 https://gyp.gsrc.io/
 -help2man: 1.49.3 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
@@ -304,7 +304,7 @@ d series:
 -luajit: 2.1.1716656478 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.7.4 https://www.mercurial-scm.org/release
+-mercurial: 6.7.4 (to 6.8rc0) https://www.mercurial-scm.org/release
 -meson: 1.4.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
@@ -313,7 +313,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.27 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20240522 https://www.gnu.org/software/parallel/
+-parallel: 20240622 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.40.0
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
@@ -522,7 +522,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 to 75.1 https://icu.unicode.org/
--imagemagick: 7.1.1_33 http://www.imagemagick.org/
+-imagemagick: 7.1.1_34 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -709,7 +709,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
 -pipewire: 1.0.7 (to 1.1.83) https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
--polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
+-polkit: v0.124 to v0.200 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.114 https://download.kde.org/stable/polkit-qt-1/
 -poppler: 24.06.1 http://poppler.freedesktop.org/
@@ -746,11 +746,11 @@ l series:
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.6 https://pypi.org/project/glad2/#files
--python-hatchling: 1.24.2 https://pypi.org/project/hatchling
+-python-hatchling: 1.25.0 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.7 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
--python-importlib_metadata: 7.2.0 https://pypi.org/project/importlib-metadata
+-python-importlib_metadata: 7.2.1 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
 -python-lxml: 5.2.2 https://pypi.org/project/lxml/#files
 -python-markdown: 3.6 https://pypi.org/project/Markdown
@@ -843,7 +843,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.48.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.48.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -1140,7 +1140,7 @@ xap series:
 -MPlayer: 20240130 https://mplayerhq.hu/design7/news.html
 	-Mplayer: 20240130
 	-Blue: 1.10 (skin)
--NetworkManager-openvpn: 1.10.2
+-NetworkManager-openvpn: 1.12.0
 -audacious: 4.4 http://www.audacious-media-player.org
 -audacious-plugins: 4.4 http://www.audacious-media-player.org
 -blackbox:
@@ -1172,7 +1172,7 @@ xap series:
 -gvim: 9.1.0514 to 9.1.0516 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 127.0.1 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 127.0.1 to 127.0.2 http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 127.0 https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.159 http://pan.rebelbase.com/download/releases/
