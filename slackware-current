@@ -14,7 +14,7 @@ A series :
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.9.1 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.9.2 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.5 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.9.6 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240618 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.9.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240622 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 658 https://github.com/wofr06
@@ -210,7 +210,7 @@ Ap series :
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
 -lsof: 4.99.3 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 6.0.0a https://linuxcontainers.org/lxc/downloads/
+-lxc: 6.0.1 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.12.1 https://gitlab.com/man-db/man-db/-/tags
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.9.6 http://wwww.kernel.org
+-kernel-headers: 6.9.7 http://wwww.kernel.org
 -libgccjit: 14.1.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 http://llvm.org/
@@ -343,7 +343,7 @@ d series:
 -poke: 4.1 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.12.4 (new API) https://www.python.org/downloads/
--python-pip: 24.1 to 24.1.1 https://pypi.python.org/pypi/pip
+-python-pip: 24.1.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 70.1.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.9.6 
+-kernel : 6.9.7 
 --------------------
 kde series :
 --------------------
@@ -516,7 +516,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.54.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 8.5.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 9.0.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -708,7 +708,7 @@ l series:
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.0.7 (to 1.1.83) https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.2.0 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
@@ -892,7 +892,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.6 https://github.com/irssi/irssi/releases
 -iw: 6.9 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.21.2 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.21.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.7 to 3.0.0 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.11.0 https://www.gnupg.org/download/index.html
@@ -1070,7 +1070,7 @@ x series: (main packages)
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.26.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.26.1 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
