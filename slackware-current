@@ -477,7 +477,7 @@ l series:
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.48 https://download.gimp.org/pub/gegl/
--gexiv2: 0.14.2 https://download.gnome.org/sources/gexiv2/0.14/
+-gexiv2: 0.14.3 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2024.1 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.80.2 https://ftp.gnome.org/pub/GNOME/sources/gjs
@@ -508,14 +508,14 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.42 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.14.4 (to 4.15.1) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.14.4 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.14.0 https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
--gvfs: 1.54.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
+-gvfs: 1.54.2 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
 -harfbuzz: 9.0.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
@@ -623,7 +623,7 @@ l series:
 -libproxy: 0.5.7 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 5.1.1 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 5.2.0.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.58.1 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -646,7 +646,7 @@ l series:
 -libtiff: 4.6.0 https://download.osgeo.org/libtiff/
 -libunibreak: 6.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.2 http://ftp.gnu.org/gnu/libunistring/mpfr
--libunwind: 1.6.2 https://git.savannah.nongnu.org/cgit/libunwind.git
+-libunwind: 1.8.1 https://git.savannah.nongnu.org/cgit/libunwind.git
 -liburing: 2.6 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.27 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
@@ -678,15 +678,15 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.24.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.101 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.101 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.101.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.101.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -mozjs115: 115.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.5 https://mujs.com/downloads
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.33.0 https://github.com/notroj/neon/tags
--netpbm: 11.06.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.07.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
 -nodejs: 20.15.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
@@ -831,7 +831,7 @@ l series:
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.76.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.7.0 https://www.wavpack.com/downloads.html
--wireplumber: 0.5.4 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
+-wireplumber: 0.5.5 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.25 http://www.xapian.org/
 -xxHash: 0.8.2 https://github.com/Cyan4973/xxHash/releases
@@ -901,7 +901,7 @@ n series:
 -libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.18.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
--libndp: 1.8 https://github.com/jpirko/libndp/tags
+-libndp: 1.9 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cthelper: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -978,7 +978,7 @@ n series:
 -rpcbind: 1.2.6 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
--s-nail: 14.9.24 http://www.sdaoden.eu/downloads
+-s-nail: 14.9.25 http://www.sdaoden.eu/downloads
 -samba: 4.20.2 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
@@ -1055,7 +1055,7 @@ x series: (main packages)
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.7 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.29
--ibus-table: 1.17.4
+-ibus-table: 1.17.6
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.9
@@ -1105,7 +1105,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.275.0 to 1.3.288.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.275.0 to 1.3.289.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.36 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
