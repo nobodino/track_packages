@@ -185,7 +185,7 @@ Ap series :
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.17.5.3 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0.8 https://github.com/ksh93/ksh
+-ksh93: 1.0.9 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.83 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 10.2.0 http://www.methods.co.nz/asciidoc/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.29.6 (to 3.30.0-rc4) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.29.6 to 3.30.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -475,7 +475,7 @@ l series:
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
--gdbm: 1.23 http://ftp.gnu.org/gnu/gdbm/
+-gdbm: 1.24 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.48 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.3 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2024.1 https://download.gnome.org/sources/gi-docgen/
@@ -616,7 +616,7 @@ l series:
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
 -libpaper: 2.2.5 https://github.com/rrthomas/libpaper
 -libpcap: 1.10.4 http://www.tcpdump.org/release/
--libplacebo: 6.338.2 https://github.com/haasn/libplacebo
+-libplacebo: 7.349.0 https://github.com/haasn/libplacebo
 -libplist: 2.4.0 http://www.libimobiledevice.org/
 -libpng: 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
 -libppd: 2.0.0 https://github.com/OpenPrinting/libppd
@@ -712,7 +712,7 @@ l series:
 -polkit: v0.124 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
--poppler: 24.06.1 http://poppler.freedesktop.org/
+-poppler: 24.06.2 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -protobuf: 27.2 https://github.com/google/protobuf
@@ -776,7 +776,7 @@ l series:
 -python-sphinx: 7.3.7 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2024.5.22 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2024.7.2 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.2 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -872,7 +872,7 @@ n series:
 -epic5: 2.1.13 http://www.epicsol.org/
 -ethtool: 5.19 to 6.9 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.38 (to 6.5.0beta9) https://www.fetchmail.info/
--getmail: 6.19.01 https://github.com/getmail6/getmail6/releases
+-getmail: 6.19.02 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.5 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.5 http://www.gnu.org/software/gnutls/
@@ -962,7 +962,7 @@ n series:
 -openvpn: 2.6.11 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.3 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.8 http://www.php.net/distributions/
+-php: 8.3.8 to 8.3.9 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.0 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
