@@ -185,7 +185,7 @@ Ap series :
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
 -jove: 4.17.5.3 http://ftp.cs.toronto.edu/cs/ftp/pub/hugh/jove-dev/
--ksh93: 1.0.9 https://github.com/ksh93/ksh
+-ksh93: 1.0.9 to 1.0.10 https://github.com/ksh93/ksh
 -libx86: 1.1 http://www.codon.org.uk/~mjg59/libx86/
 -linuxdoc-tools: 0.9.83 http://packages.qa.debian.org/l/linuxdoc-tools.html
 	- asciidoc: 10.2.0 to 10.2.1 http://www.methods.co.nz/asciidoc/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0645 to 9.1.0652 https://github.com/vim/commits/master
+-vim: 9.1.0645 to 9.1.0658 https://github.com/vim/commits/master
 	- vim: 9.1.0645
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.30.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.30.1 to 3.30.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -399,7 +399,7 @@ l series:
 -PyQt-builder: 1.16.4 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.15.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
--SDL2: 2.30.5 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.30.5 to 2.30.6 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
@@ -459,7 +459,7 @@ l series:
 -exiv2: 0.28.3 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 6.1.1 to 7.0.1 https://ffmpeg.org/
+-ffmpeg: 6.1.1 to 6.1.2/7.0.2 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.5 http://www.fluidsynth.org/
 -fmt: 10.2.1 to 11.0.2 https://github.com/fmtlib/fmt/releases/
@@ -511,7 +511,7 @@ l series:
 -gtk4: 4.14.4 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
--gtkmm4: 4.14.0 https://download.gnome.org/sources/gtkmm/
+-gtkmm4: 4.14.0 (to 4.15.0) https://download.gnome.org/sources/gtkmm/
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
@@ -608,7 +608,7 @@ l series:
 -libnotify: 0.8.2 to 0.8.3 https://download.gnome.org/sources/libnotify/0.8/
 -libnsl: 2.0.1 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.2 https://github.com/thkukuk/libnss_nis/releases
--libnvme: 1.8 https://github.com/linux-nvme/libnvme
+-libnvme: 1.8 to 1.10 https://github.com/linux-nvme/libnvme
 -libodfgen: 0.1.8 https://sourceforge.net/projects/libwpd/files/libodfgen/
 -libogg: 1.3.5 https://www.xiph.org/downloads/
 -liboggz: 1.1.1 https://www.xiph.org/downloads/
@@ -789,7 +789,7 @@ l series:
 -qt6: 6.7.2 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.14.3 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
--readline: 8.2.010 https://ftp.gnu.org/gnu/readline
+-readline: 8.2.010 to 8.2.013 https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.20 to 2.0.21 https://rubygems.org/gems/asciidoctor
@@ -980,7 +980,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.20.2 (to 4.21.0rc1) https://ftp.samba.org/pub/samba/
+-samba: 4.20.2 to 4.20.3 (to 4.21.0rc1) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1106,7 +1106,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.275.0 to 1.3.290.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.275.0 to 1.3.292.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.36 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
@@ -1170,7 +1170,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0645 to 9.1.0652 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0645 to 9.1.0658 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
