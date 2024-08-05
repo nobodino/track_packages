@@ -65,8 +65,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.9.9 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240726 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.10.3 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240802 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 https://github.com/wofr06
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0645 to 9.1.0658 https://github.com/vim/commits/master
+-vim: 9.1.0645 to 9.1.0660 https://github.com/vim/commits/master
 	- vim: 9.1.0645
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -267,7 +267,7 @@ d series:
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.17 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.42 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.42 to 2.43 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.14 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.26.0 https://github.com/mozilla/cbindgen/tags
@@ -284,7 +284,7 @@ d series:
 -distcc: 3.4 https://github.com/distcc/distcc/releases
 -doxygen: 1.11.0 http://wwfile:///root/Documents/epub/L'art de la therapie - Irvin Yalom.epubw.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
--gcc: 14.1 to 14.2 http://ftp.gnu.org/pub/gnu/gcc/
+-gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.45.2 to 2.46.0 https://git-scm.com/download
@@ -296,8 +296,8 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.9.12 http://wwww.kernel.org
--libgccjit: 14.1.0
+-kernel-headers: 6.10.3 http://wwww.kernel.org
+-libgccjit: 14.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.9.12 
+-kernel : 6.10.3 
 --------------------
 kde series :
 --------------------
@@ -980,7 +980,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.20.2 to 4.20.3 (to 4.21.0rc1) https://ftp.samba.org/pub/samba/
+-samba: 4.20.3 (to 4.21.0rc1) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1170,7 +1170,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0645 to 9.1.0658 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0645 to 9.1.0660 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1263,7 +1263,7 @@ extra:
 -xv: 5.0.0
 --------------------
 testing :
--kernel: 6.10.2
+-xxx
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
