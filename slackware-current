@@ -393,7 +393,7 @@ l series:
 -Imath: 3.1.11 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.2 http://www.libraw.org/
 -Mako: 1.3.5 http://www.python.org/pypi/Mako/
--M2Crypto: 0.41.0 http://pypi.python.org/pypi/M2Crypto/
+-M2Crypto: 0.42.0 http://pypi.python.org/pypi/M2Crypto/
 -PyQT5: 5.15.11 https://pypi.org/project/PyQt5
 -PyQt-builder: 1.16.4 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.15.0 https://pypi.org/project/PyQt5-sip/
@@ -463,7 +463,7 @@ l series:
 -fluidsynth: 2.3.6 http://www.fluidsynth.org/
 -fmt: 10.2.1 to 11.0.2 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
--freetype: 2.13.2 http://sourceforge.net/projects/freetype/files/freetype2/
+-freetype: 2.13.2 to 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.15 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
@@ -567,7 +567,7 @@ l series:
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
 -libdvdread: 6.1.3 http://download.videolan.org/videolan/libdvdread/
--libedit: 20240517_3.1 http://www.thrysoee.dk/editline/
+-libedit: 20240808_3.1 http://www.thrysoee.dk/editline/
 -libev: 4.33 http://dist.schmorp.de/libev/Attic
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.24 https://github.com/libexif/libexif/releases
@@ -751,7 +751,7 @@ l series:
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 8.2.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 5.2.2 https://pypi.org/project/lxml/#files
+-python-lxml: 5.3.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.6 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.1 https://github.com/pypa/packaging/releases
@@ -780,7 +780,7 @@ l series:
 -python-urllib3: 2.2.2 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.44.0 https://pypi.org/project/wheel/#files
--python-zipp: 3.19.2 https://pypi.org/project/zipp
+-python-zipp: 3.20. https://pypi.org/project/zipp
 -qca: 2.3.7 to 2.3.9 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.14_20240716 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
@@ -912,7 +912,7 @@ n series:
 -libqmi: 1.34.0 https://github.com/freedesktop/libqmi/tags
 -libtirpc: 1.3.5 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.30 http://links.twibright.com/download.php
--lynx: 2.9.1 http://ftp.invisible-island.net/lynx/tarballs/
+-lynx: 2.9.1 to 2.9.2 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20240502 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
@@ -1147,7 +1147,7 @@ xap series:
 	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
 -blueman: 2.4.3 http://blueman-project.org
--ddd: 3.4.0 to 3.4.1 http://ftp.gnu.org/gnu/ddd
+-ddd: 3.4.1 http://ftp.gnu.org/gnu/ddd
 -electricsheep: 20090306 to 2.7b33 http://electricsheep.org/
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
 -ffmpegthumbnailer: 2.2.2 https://github.com/dirkvdb/ffmpegthumbnailer
@@ -1175,7 +1175,7 @@ xap series:
 -mozilla-firefox: 128.0esr to 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 128.0.1esr to 128.1.0esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
--pan: 0.159 to 0.160 http://pan.rebelbase.com/download/releases/
+-pan: 0.160 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
 -pidgin: 2.14.13
 	-pidgin: 2.14.13 https://www.pidgin.im/download/source/
