@@ -64,9 +64,9 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.10.4 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.10.5 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20240809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 32 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kmod: 32 to 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 https://github.com/wofr06
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
@@ -240,7 +240,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.46.0 http://www.sqlite.org/download.html
+-sqlite: 3.46.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -stow: 2.4.0 https://www.gnu.org/software/stow/
 -sudo: 1.9.15p5 (to 1.9.16rc1) https://github.com/sudo-project/sudo/releases
@@ -251,7 +251,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0645 to 9.1.0672 https://github.com/vim/commits/master
+-vim: 9.1.0645 to 9.1.0675 https://github.com/vim/commits/master
 	- vim: 9.1.0645
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -295,7 +295,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.10.4 http://wwww.kernel.org
+-kernel-headers: 6.10.5 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 http://llvm.org/
@@ -343,7 +343,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.12.5 (new API) https://www.python.org/downloads/
 -python-pip: 24.2 https://pypi.python.org/pypi/pip
--python-setuptools: 72.1.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 72.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -379,7 +379,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.10.4 
+-kernel : 6.10.5 
 --------------------
 kde series :
 --------------------
@@ -425,7 +425,7 @@ l series:
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -avahi: 20240306 https://github.com/avahi/avahi
 -babl: 0.1.108 http://download.gimp.org/pub/babl/0.1/
--boost: 1.85.0 https://github.com/boostorg/boost
+-boost: 1.85.0 to 1.86.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
 -cairo: 1.18.0 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
@@ -458,12 +458,12 @@ l series:
 -exiv2: 0.28.3 https://exiv2.org/download.html
 -expat: 2.6.2 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 6.1.2 to 7.0.2 https://ffmpeg.org/
+-ffmpeg: 7.0.2 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.6 http://www.fluidsynth.org/
 -fmt: 10.2.1 to 11.0.2 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
--freetype: 2.13.2 to 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
+-freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.15 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
@@ -865,7 +865,7 @@ n series:
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 10.0.8 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
--dovecot: 2.3.21 http://www.dovecot.org/releases/
+-dovecot: 2.3.21.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 2.1.13 http://www.epicsol.org/
@@ -912,7 +912,7 @@ n series:
 -libqmi: 1.34.0 https://github.com/freedesktop/libqmi/tags
 -libtirpc: 1.3.5 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.30 http://links.twibright.com/download.php
--lynx: 2.9.1 to 2.9.2 http://ftp.invisible-island.net/lynx/tarballs/
+-lynx: 2.9.2 http://ftp.invisible-island.net/lynx/tarballs/
 -mcabber: 1.1.2 https://github.com/McKael/mcabber/releases
 -metamail: 2.7_52.diff.gz http://archive.debian.org/debian//pool/main/m/metamail/
 -mobile-broadband-provider-info: 20240502 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
@@ -979,7 +979,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.20.3 (to 4.21.0rc1) https://ftp.samba.org/pub/samba/
+-samba: 4.20.3 (to 4.21.0rc2) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1094,7 +1094,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.1.5 (to 24.2.0-rc4) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1105,7 +1105,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.275.0 to 1.3.292.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.290.0 to 1.3.292.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.36 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
@@ -1169,11 +1169,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0645 to 9.1.0672 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0645 to 9.1.0675 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 128.0esr to 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.0.1esr to 128.1.0esr https://www.thunderbird.net/
+-mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 128.1.0esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.160 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1220,7 +1220,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-appfinder: 4.18.1
 -xfce4-clipman-plugin: 1.6.6
 -xfce4-dev-tools: 4.18.1
--xfce4-notifyd: 0.9.4
+-xfce4-notifyd: 0.9.5
 -xfce4-panel: 4.18.6
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.4
@@ -1259,7 +1259,7 @@ extra:
 -tigervnc: 1.14.0 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
--xv: 5.0.0
+-xv: 6.0.0
 --------------------
 testing :
 -xxx
