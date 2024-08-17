@@ -507,7 +507,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.14.4 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.14.5 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.14.0 (to 4.15.0) https://download.gnome.org/sources/gtkmm/
@@ -752,7 +752,7 @@ l series:
 -python-importlib_metadata: 8.2.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
 -python-lxml: 5.3.0 https://pypi.org/project/lxml/#files
--python-markdown: 3.6 https://pypi.org/project/Markdown
+-python-markdown: 3.7 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.1 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
@@ -1220,7 +1220,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-appfinder: 4.18.1
 -xfce4-clipman-plugin: 1.6.6
 -xfce4-dev-tools: 4.18.1
--xfce4-notifyd: 0.9.5
+-xfce4-notifyd: 0.9.6
 -xfce4-panel: 4.18.6
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.18.4
