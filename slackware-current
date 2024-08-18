@@ -66,7 +66,7 @@ A series :
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.10.5 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20240809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 32 to 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 https://github.com/wofr06
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
@@ -232,7 +232,8 @@ Ap series :
 -rpm: 4.19.1.1 (to 4.19.92) http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
--sc-im: 0.8.3 https://github.com/andmarti1424/sc-im
+-sc-im: 0.8.4 https://github.com/andmarti1424/sc-im
+-scdoc: 1.11.3 https://git.sr.ht/~sircmpwn/scdoc
 -screen: 4.9.1 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
@@ -266,7 +267,7 @@ d series:
 -autoconf-archive: 2023.02.20 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.17 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.43 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.43 to 2.43.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.14 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.27.0 https://github.com/mozilla/cbindgen/tags
@@ -300,7 +301,7 @@ d series:
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
--luajit: 2.1.1720049189 https://luajit.org/git/luajit.git
+-luajit: 2.1.1723675123 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.8.1 https://www.mercurial-scm.org/release
@@ -349,7 +350,7 @@ d series:
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.3.4 http://www.ruby-lang.org/
 -rust: 1.80.1 https://rust-lang.org
--rust-bindgen: 0.69.4 https://github.com/rust-lang/rust-bindgen/tags
+-rust-bindgen: 0.70.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.8.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
@@ -625,7 +626,7 @@ l series:
 -libqalculate: 5.2.0.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.58.1 to 2.58.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.58.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
