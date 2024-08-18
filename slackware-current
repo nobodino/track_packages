@@ -10,7 +10,7 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.032 http://ftp.gnu.org/pub/gnu/bash/
--bcachefs-tools: 1.9.4 https://evilpiepirate.org/bcachefs-tools/
+-bcachefs-tools: 1.9.4 to 1.11.0 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -68,14 +68,14 @@ A series :
 -kernel-firmware: 20240809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 661 https://github.com/wofr06
+-less: 661 to 663 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.1.1 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.10 https://github.com/rhinstaller/libbytesize
 -libgudev: 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
--logrotate: 3.22.0 http://ftp.debian.org/debian/pool/main/l/logrotate/
+-logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.25 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
@@ -130,7 +130,7 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
--utempter: 1.2.1 (libutempter) https://gitlab.com/OldManProgrammer/unix-tree/-/tags
+-utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
 -util-linux: 2.40.2
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
