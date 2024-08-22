@@ -71,7 +71,7 @@ A series :
 -less: 661 (to 663 beta) https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.1.1 https://github.com/rhinstaller/libblockdev
--libbytesize: 2.10 https://github.com/rhinstaller/libbytesize
+-libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
 -libgudev: 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0680 to 9.1.0682 https://github.com/vim/commits/master
+-vim: 9.1.0680 to 9.1.0686 https://github.com/vim/commits/master
 	- vim: 9.1.0680
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -344,13 +344,13 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.12.5 (new API) https://www.python.org/downloads/
 -python-pip: 24.2 https://pypi.python.org/pypi/pip
--python-setuptools: 72.2.0 to 73.0.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 73.0.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.3.4 http://www.ruby-lang.org/
 -rust: 1.80.1 https://rust-lang.org
--rust-bindgen: 0.70.0 https://github.com/rust-lang/rust-bindgen/tags
+-rust-bindgen: 0.70.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.8.0 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
@@ -500,11 +500,11 @@ l series:
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 46.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
--gst-plugins-base: 1.24.6 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.24.6 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.24.6 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.24.6 http://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.24.6 http://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.24.6 to 1.24.7 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.24.6 to 1.24.7 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.24.6 to 1.24.7 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.24.6 to 1.24.7 http://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.24.6 to 1.24.7 http://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -750,7 +750,7 @@ l series:
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.7 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
--python-importlib_metadata: 8.2.0 to 8.3.0 https://pypi.org/project/importlib-metadata
+-python-importlib_metadata: 8.4.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
 -python-lxml: 5.3.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.7 https://pypi.org/project/Markdown
@@ -842,14 +842,14 @@ l series:
 --------------------
 n series:
 --------------------
--ModemManager: 1.20.6 http://www.freedesktop.org/software/ModemManager/
+-ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
 -NetworkManager: 1.48.8 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
--bind: 9.18.28 to 9.20.0 http://ftp.isc.org/isc/bind9
+-bind: 9.18.28 to 9.20.1 http://ftp.isc.org/isc/bind9
 -bluez: 5.77 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
@@ -864,12 +864,12 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.0.8 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.0.10 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 2.1.13 http://www.epicsol.org/
+-epic5: 2.4 http://www.epicsol.org/
 -ethtool: 5.19 to 6.10 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.39 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.19.03 https://github.com/getmail6/getmail6/releases
@@ -911,6 +911,7 @@ n series:
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
 -libnftnl: 1.2.7 http://ftp.netfilter.org/pub/libnftnl/
 -libqmi: 1.34.0 https://github.com/freedesktop/libqmi/tags
+-libqrtr-glib: 1.2.2 https://gitlab.freedesktop.org/mobile-broadband/libqrtr-glib
 -libtirpc: 1.3.5 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.30 http://links.twibright.com/download.php
 -lynx: 2.9.2 http://ftp.invisible-island.net/lynx/tarballs/
@@ -924,7 +925,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.2.3 to 3.2.7 http://netatalk.sourceforge.net/
+-netatalk: 3.2.7 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -943,7 +944,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.6.4 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nfs-utils: 2.6.4 to 2.7.1 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.1.0 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.62.1 https://github.com/nghttp2/nghttp2/releases
 -nghttp3: 1.4.0 https://github.com/ngtcp2/nghttp3
@@ -980,7 +981,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.20.3 (to 4.21.0rc2) https://ftp.samba.org/pub/samba/
+-samba: 4.20.3 (to 4.21.0rc3) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.0 http://www.dest-unreach.org/socat/download/
@@ -1170,7 +1171,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0680 to 9.1.0682 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0680 to 9.1.0686 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1227,7 +1228,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-power-manager: 4.18.4
 -xfce4-pulseaudio-plugin: 0.4.8
 -xfce4-screensaver: 4.18.3
--xfce4-screenshooter: 1.10.6
+-xfce4-screenshooter: 1.11.1
 -xfce4-session: 4.18.4
 -xfce4-settings: 4.18.6
 -xfce4-systemload-plugin: 1.3.2
