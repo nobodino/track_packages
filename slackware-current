@@ -126,7 +126,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.10.1 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 1.90.4 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 1.90.5 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.14.0 https://liburcu.org
@@ -139,7 +139,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
--xfsprogs: 6.9.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 6.10.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.6.2 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0686 to 9.1.0697 https://github.com/vim/commits/master
+-vim: 9.1.0686 to 9.1.0698 https://github.com/vim/commits/master
 	- vim: 9.1.0686
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -415,7 +415,7 @@ l series:
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.12 https://github.com/alsa-project/alsa-plugins/tags
 -aom: 3.9.1 https://aomedia.org/av1/
--apr: 1.7.4 http://apr.apache.org/download.cgi
+-apr: 1.7.5 http://apr.apache.org/download.cgi
 -apr-util: 1.6.3 http://apr.apache.org/download.cgi
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8.1 http://ftp.gnu.org/gnu/aspell/
@@ -484,9 +484,9 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.80.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.80.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.82.0 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
--glimm2: 2.80.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
+-glibmm2: 2.82.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibc: 2.40 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.15 https://github.com/jstedfast/gmime/releases
 -gmm: 5.4.2 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
@@ -508,7 +508,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.14.5 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.14.5 to 4.14.6 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.14.0 (to 4.15.0) https://download.gnome.org/sources/gtkmm/
@@ -522,7 +522,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 to 75.1 https://icu.unicode.org/
--imagemagick: 7.1.1_36 to 37 http://www.imagemagick.org/
+-imagemagick: 7.1.1_37 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.26 https://libisl.sourceforge.io/
 -iso-codes: 4.16.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -637,7 +637,7 @@ l series:
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.20 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.4.4 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.6.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.11.0 https://www.libssh.org/files
 -libssh2: 1.11.0 https://github.com/libssh2/libssh2/releases
@@ -676,7 +676,7 @@ l series:
 -lzo: 2.10 http://www.oberhumer.com/opensource/lzo/
 -media-player-info: 24 http://www.freedesktop.org/software/media-player-info/
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
--mlt: 7.24.0 https://github.com/mltframework/mlt/releases
+-mlt: 7.26.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
 -mozilla-nss: 3.103 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.103 https://ftp.mozilla.org/pub/security/nss/releases/
@@ -757,7 +757,7 @@ l series:
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 24.1 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
--python-pbr: 6.0.0 https://pypi.org/project/pbr
+-python-pbr: 6.1.0 https://pypi.org/project/pbr
 -python-pillow: 10.4.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.5.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
@@ -781,7 +781,7 @@ l series:
 -python-urllib3: 2.2.2 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.44.0 https://pypi.org/project/wheel/#files
--python-zipp: 3.20. https://pypi.org/project/zipp
+-python-zipp: 3.20.1 https://pypi.org/project/zipp
 -qca: 2.3.7 to 2.3.9 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.14_20240716 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
@@ -843,7 +843,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.48.8 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.48.10 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -946,7 +946,7 @@ n series:
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.7.1 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.1.0 http://www.netfilter.org/projects/nftables/
--nghttp2: 1.62.1 https://github.com/nghttp2/nghttp2/releases
+-nghttp2: 1.63.0 https://github.com/nghttp2/nghttp2/releases
 -nghttp3: 1.5.0 https://github.com/ngtcp2/nghttp3
 -nmap: 7.95 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
@@ -964,7 +964,7 @@ n series:
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.10 http://www.php.net/distributions/
+-php: 8.3.10 to 8.3.11 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -981,7 +981,7 @@ n series:
 -rp-pppoe: 3.15 to 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.20.3 (to 4.21.0rc3) https://ftp.samba.org/pub/samba/
+-samba: 4.20.3 (to 4.21.0rc4) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.1 http://www.dest-unreach.org/socat/download/
@@ -1066,7 +1066,7 @@ x series: (main packages)
 -libXaw3d: 1.6.6
 -libdmx: 1.1.4
 -libpciaccess: 0.18.1
--libdrm: 2.4.122 http://dri.freedesktop.org/libdrm/
+-libdrm: 2.4.123 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
 -libevdev: 1.13.2 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
@@ -1107,7 +1107,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.290.0 to 1.3.293.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.290.0 to 1.3.294.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.36 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
@@ -1171,7 +1171,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0686 to 9.1.0697 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0686 to 9.1.0698 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
