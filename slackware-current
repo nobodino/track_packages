@@ -64,8 +64,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.10.6 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240816 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.10.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240828 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 (to 663 beta) https://github.com/gwsw/less/tags
@@ -129,7 +129,7 @@ A series :
 -upower: 1.90.5 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 017 https://www.kernel.org/pub/linux/utils/usb/usbutils/
--userspace-rcu: 0.14.0 https://liburcu.org
+-userspace-rcu: 0.14.1 https://liburcu.org
 -utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
 -util-linux: 2.40.2
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
@@ -212,7 +212,7 @@ Ap series :
 -lxc: 6.0.1 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.12.1 https://gitlab.com/man-db/man-db/-/tags
+-man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.9.1 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 10.11.9 http://mariadb.org/
 -mc: 4.8.32 http://www.midnight-commander.org/downloads/
@@ -229,12 +229,12 @@ Ap series :
 -qpdf: 11.9.1 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rfind: 1.6.0 https://github.com/pauldreik/rdfind
--rpm: 4.19.1.1 (to 4.19.92) http://ftp.rpm.org/releases
+-rpm: 4.19.1.1 (to 4.19.93) http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
 -sc-im: 0.8.4 https://github.com/andmarti1424/sc-im
 -scdoc: 1.11.3 https://git.sr.ht/~sircmpwn/scdoc
--screen: 4.9.1 https://ftp.gnu.org/gnu/screen/
+-screen: 5.0.0 https://ftp.gnu.org/gnu/screen/
 -seejpeg:
 	- libjpeg: 6a http://ftp.ibiblio.org/pub/Linux/apps/graphics/libs
 	- seejpeg: 1.10 http://ftp.ibiblio.org/pub/Linux/apps/graphics/viewers/svga/
@@ -252,8 +252,8 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0686 to 9.1.0698 https://github.com/vim/commits/master
-	- vim: 9.1.0686
+-vim: 9.1.0702 to 9.1.0703 https://github.com/vim/commits/master
+	- vim: 9.1.0702
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.1.12 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.30.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.30.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.10.6 http://wwww.kernel.org
+-kernel-headers: 6.10.7 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 http://llvm.org/
@@ -315,7 +315,7 @@ d series:
 -pahole: 1.27 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20240822 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.40.0
+-perl: 5.40.0 (to 5.41.3)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.052 to 5.007 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.643 http://www.cpan.org/modules/by-module/DBI/
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.10.6 
+-kernel : 6.10.7 
 --------------------
 kde series :
 --------------------
@@ -508,7 +508,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.14.5 to 4.14.6 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.14.6 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.14.0 (to 4.15.0) https://download.gnome.org/sources/gtkmm/
@@ -531,7 +531,7 @@ l series:
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.17_20230812 https://github.com/json-c/json-c/tags
--json-glib: 1.8.0 https://gitlab.gnome.org/GNOME/json-glib/-/tags
+-json-glib: 1.10.0 https://gitlab.gnome.org/GNOME/json-glib/-/tags
 -judy: 1.0.5 https://sourceforge.net/projects/judy/files/
 -kdsoap: 2.1.1 https://github.com/KDAB/KDSoap/releases
 -keybinder3: 0.3.3 https://github.com/engla/keybinder
@@ -615,7 +615,7 @@ l series:
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
 -libpaper: 2.2.5 https://github.com/rrthomas/libpaper
--libpcap: 1.10.4 http://www.tcpdump.org/release/
+-libpcap: 1.10.4to 1.10.5 http://www.tcpdump.org/release/
 -libplacebo: 7.349.0 https://github.com/haasn/libplacebo
 -libplist: 2.6.0 http://www.libimobiledevice.org/
 -libpng: 1.6.43 http://sourceforge.net/projects/libpng/files/libpng16/
@@ -639,7 +639,7 @@ l series:
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
 -libsoup3: 3.6.0 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
--libssh: 0.11.0 https://www.libssh.org/files
+-libssh: 0.11.1 https://www.libssh.org/files
 -libssh2: 1.11.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
@@ -733,7 +733,7 @@ l series:
 -python-babel: 2.16.0 https://pypi.org/project/babel
 -python-build: 1.2.1 https://pypi.org/project/build/#files
 -python-calver: 2022.6.26 https://pypi.org/project/calver
--python-certifi: 2024.7.4 https://pypi.python.org/pypi/certifi
+-python-certifi: 2024.8.30 https://pypi.python.org/pypi/certifi
 -python-cffi: 1.17.0 https://pypi.python.org/pypi/cffi
 -python-chardet: 5.2.0 https://pypi.org/project/chardet/
 -python-charset-normalizer: 3.3.2 https://pypi.org/project/charset-normalizer
@@ -843,7 +843,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.48.10 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.48.10 (to 1.49.90) https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -855,7 +855,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20240703 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20240830 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.33.1 https://c-ares.org/
 -cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -964,7 +964,7 @@ n series:
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.10 to 8.3.11 http://www.php.net/distributions/
+-php: 8.3.11 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -988,7 +988,7 @@ n series:
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.72 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.4 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.4 to 4.99.5 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1096,7 +1096,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.2.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1171,7 +1171,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0686 to 9.1.0698 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0702 to 9.1.0703 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
