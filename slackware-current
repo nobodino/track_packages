@@ -52,7 +52,7 @@ A series :
 -haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.386 https://github.com/vcrhonek/hwdata
+-hwdata: 0.387 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -867,7 +867,7 @@ n series:
 -dovecot: 2.3.21.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 2.6 http://www.epicsol.org/
+-epic5: 3.0 http://www.epicsol.org/
 -ethtool: 5.19 to 6.10 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.39 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.19.04 https://github.com/getmail6/getmail6/releases
@@ -1094,7 +1094,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.2.1 to 24.2.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
