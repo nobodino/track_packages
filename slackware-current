@@ -43,9 +43,7 @@ A series :
 	- mtools: 4.0.18 to 4.0.44 https://www.gnu.org/software/mtools/
 -gawk: 5.3.0 http://ftp.gnu.org/pub/gnu/gawk/
 -gettext: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2024a
-	-tzcode: 2024a https://www.iana.org/time-zones
-	-tzdata: 2024a https://www.iana.org/time-zones
+-glibc-zoneinfo: 2024b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
@@ -172,7 +170,7 @@ Ap series :
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
 -flac: 1.4.3 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
--ghostscript: 10.03.1 https://ghostscript.com/releases/gsdnld.html
+-ghostscript: 10.03.1 (to 10.04.0rc1) https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/ or https://github.com/gphoto
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
@@ -247,12 +245,12 @@ Ap series :
 -sudo: 1.9.16 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.6 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
--texinfo: 7.1 http://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 7.1 to 7.1.1 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.4 https://github.com/tmux/tmux/releases
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0702 to 9.1.0718 https://github.com/vim/commits/master
+-vim: 9.1.0702 to 9.1.0720 https://github.com/vim/commits/master
 	- vim: 9.1.0702
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -342,7 +340,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.11.9 to 3.12.5 (new API) https://www.python.org/downloads/
+-python3: 3.11.9 to 3.11.10/3.12.6 https://www.python.org/downloads/
 -python-pip: 24.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 73.0.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -508,7 +506,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.14.6 (to 4.15.2) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.16.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.14.0 (to 4.15.0) https://download.gnome.org/sources/gtkmm/
@@ -643,7 +641,7 @@ l series:
 -libssh2: 1.11.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.6.0 https://download.osgeo.org/libtiff/
+-libtiff: 4.6.0 (to 4.7.0rc1) https://download.osgeo.org/libtiff/
 -libunibreak: 6.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.2 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.8.1 https://git.savannah.nongnu.org/cgit/libunwind.git
@@ -717,7 +715,7 @@ l series:
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -protobuf: 27.3 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
--pycairo: 1.26.1 https://github.com/pygobject/pycairo/releases
+-pycairo: 1.27.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.3 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
@@ -731,7 +729,7 @@ l series:
 -python-alabaster: 1.0.0 https://pypi.org/project/alabaster
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs/releases
 -python-babel: 2.16.0 https://pypi.org/project/babel
--python-build: 1.2.1 https://pypi.org/project/build/#files
+-python-build: 1.2.2 https://pypi.org/project/build/#files
 -python-calver: 2022.6.26 https://pypi.org/project/calver
 -python-certifi: 2024.8.30 https://pypi.python.org/pypi/certifi
 -python-cffi: 1.17.1 https://pypi.python.org/pypi/cffi
@@ -1171,7 +1169,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0702 to 9.1.0718 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0702 to 9.1.0720 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
