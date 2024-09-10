@@ -112,7 +112,7 @@ A series :
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 https://github.com/linux-ras/sysfsutils
--sysklogd: 2.6.1 https://github.com/troglobit/sysklogd/releases
+-sysklogd: 2.6.1 to 2.6.2 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
 -sysvinit: 3.10 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
@@ -241,7 +241,7 @@ Ap series :
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
 -sqlite: 3.46.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
--stow: 2.4.0 https://www.gnu.org/software/stow/
+-stow: 2.4.1 https://www.gnu.org/software/stow/
 -sudo: 1.9.16 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.6 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
@@ -250,7 +250,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0702 to 9.1.0720 https://github.com/vim/commits/master
+-vim: 9.1.0702 to 9.1.0724 https://github.com/vim/commits/master
 	- vim: 9.1.0702
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -342,7 +342,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.11.10/3.12.6 https://www.python.org/downloads/
 -python-pip: 24.2 https://pypi.python.org/pypi/pip
--python-setuptools: 73.0.1 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 73.0.1 to 74.1.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -426,7 +426,7 @@ l series:
 -babl: 0.1.108 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.86.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
--cairo: 1.18.0 to 1.18.2 http://cairographics.org/releases/
+-cairo: 1.18.2 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
 -cairomm1: 1.18.0 http://cairographics.org/cairomm/
 -cfitsio: 4.4.1 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
@@ -467,7 +467,7 @@ l series:
 -fribidi: 1.0.15 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
--gc: 8.2.6 https://github.com/ivmai/bdwgc/tags
+-gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.2.1 to 4.3.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
@@ -923,7 +923,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.2.7 http://netatalk.sourceforge.net/
+-netatalk: 3.2.8 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -984,7 +984,7 @@ n series:
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.1 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
--stunnel: 5.72 https://www.stunnel.org/downloads.html
+-stunnel: 5.72 to 5.73 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.5 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1054,7 +1054,7 @@ x series: (main packages)
 -ibus: 1.5.30 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.8 https://github.com/libpinyin/ibus-libpinyin/releases
--ibus-m17n: 1.4.31
+-ibus-m17n: 1.4.32
 -ibus-table: 1.17.6
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
@@ -1169,7 +1169,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 15.1.3 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0702 to 9.1.0720 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0702 to 9.1.0724 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
