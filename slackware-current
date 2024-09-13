@@ -27,7 +27,7 @@ A series :
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -e2fsprogs: 1.47.1 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.20.2 http://ftp.gnu.org/pub/gnu/ed/
--efibootmgr: 20191011 to 20230220 https://github.com/rhboot/efibootmgr
+-efibootmgr: 18 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
 -elogind: 255.5 https://github.com/elogind/elogind
@@ -62,13 +62,13 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.10.8 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240904 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.10.10 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20240912 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 (to 663 beta) https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
--libblockdev: 3.1.1 https://github.com/rhinstaller/libblockdev
+-libblockdev: 3.2.0 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
 -libgudev: 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
@@ -294,7 +294,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.10.8 http://wwww.kernel.org
+-kernel-headers: 6.10.10 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 http://llvm.org/
@@ -342,7 +342,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.11.10/3.12.6 https://www.python.org/downloads/
 -python-pip: 24.2 https://pypi.python.org/pypi/pip
--python-setuptools: 73.0.1 to 74.1.2 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 74.1.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -378,7 +378,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.10.8 
+-kernel : 6.10.10 
 --------------------
 kde series :
 --------------------
@@ -624,7 +624,7 @@ l series:
 -libqalculate: 5.2.0.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.58.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.58.4 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -641,7 +641,7 @@ l series:
 -libssh2: 1.11.0 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
--libtiff: 4.6.0 (to 4.7.0rc1) https://download.osgeo.org/libtiff/
+-libtiff: 4.6.0 (to 4.7.0rc2) https://download.osgeo.org/libtiff/
 -libunibreak: 6.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.2 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.8.1 https://git.savannah.nongnu.org/cgit/libunwind.git
@@ -713,13 +713,13 @@ l series:
 -poppler: 24.09.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
--protobuf: 27.3 https://github.com/google/protobuf
+-protobuf: 28.1 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.27.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.3 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.48.2 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.50.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 https://pypi.org/project/pyparsing/
 -python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
@@ -748,7 +748,7 @@ l series:
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.8 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
--python-importlib_metadata: 8.4.0 https://pypi.org/project/importlib-metadata
+-python-importlib_metadata: 8.5.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
 -python-lxml: 5.3.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.7 https://pypi.org/project/Markdown
@@ -774,7 +774,7 @@ l series:
 -python-sphinx: 8.0.2 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2024.7.2 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2024.9.12 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.2 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -857,7 +857,7 @@ n series:
 -c-ares: 1.33.1 https://c-ares.org/
 -cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
--curl: 8.9.1 http://curl.haxx.se/download/
+-curl: 8.10.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -872,7 +872,7 @@ n series:
 -fetchmail: 6.4.39 (to 6.5.0beta9) https://www.fetchmail.info/
 -getmail: 6.19.04 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.5 to 2.5.0 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.5 to 2.5.1 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.7.1 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.23.2 https://www.gnupg.org/download/index.html
@@ -1055,7 +1055,7 @@ x series: (main packages)
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.8 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.32
--ibus-table: 1.17.6
+-ibus-table: 1.17.8
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
