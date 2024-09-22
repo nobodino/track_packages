@@ -304,7 +304,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.8.1 https://www.mercurial-scm.org/release
--meson: 1.5.1 to 1.5.2 https://github.com/mesonbuild/meson/releases
+-meson: 1.5.2 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.2.72.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -556,7 +556,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 18.1.8 http://libclc.llvm.org/
+-libclc: 18.1.8 to 19.1.0 http://libclc.llvm.org/
 -libcupsfilters: 2.0.0 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -722,7 +722,7 @@ l series:
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.50.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
--pyparsing: 3.1.2 https://pypi.org/project/pyparsing/
+-pyparsing: 3.1.2 to 3.1.4 https://pypi.org/project/pyparsing/
 -python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
 -python-Jinja2: 3.1.4 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 2.1.5 https://pypi.org/project/Markupsafe
@@ -813,12 +813,12 @@ l series:
 -speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
--spirv-llvm-translator: 18.1.4 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
+-spirv-llvm-translator: 18.1.4 to 19.1.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
--taglib: 1.13.1 to 2.0.1 https://taglib.github.io/
+-taglib: 1.13.1 to 2.0.2 https://taglib.github.io/
 -talloc: 2.4.2 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
@@ -1156,7 +1156,7 @@ xap series:
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
 -freerdp: 2.11.7 https://pub.freerdp.com/releases
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
--geeqie: 2.4 http://sourceforge.net/projects/geeqie/files/geeqie/
+-geeqie: 2.5 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
 -gimp: 2.10.38 (to 2.99.18 beta) http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 http://gkrellm.srcbox.net/	
@@ -1171,11 +1171,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0736 to 9.1.0738 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0736 to 9.1.0739 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.2.2esr https://www.thunderbird.net/
+-mozilla-thunderbird: 128.2.3esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.160 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
