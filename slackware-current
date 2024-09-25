@@ -9,7 +9,7 @@ A series :
 -acl: 2.3.2 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
--bash: 5.2.032 to 037 http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.037 http://ftp.gnu.org/pub/gnu/bash/
 -bcachefs-tools: 1.9.4 to 1.11.0 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
@@ -287,7 +287,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.46.1 to 2.46.2 https://git-scm.com/download
+-git: 2.46.2 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -508,7 +508,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.16.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.16.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.16.0 https://download.gnome.org/sources/gtkmm/
@@ -516,7 +516,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 9.0.0 to 10.0.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 10.0.0 to 10.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -872,7 +872,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0 http://www.epicsol.org/
 -ethtool: 5.19 to 6.10 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.4.39 (to 6.5.0beta9) https://www.fetchmail.info/
+-fetchmail: 6.4.39 (to 6.5.0-rc1) https://www.fetchmail.info/
 -getmail: 6.19.04 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.5 to 2.5.1 https://www.gnupg.org/download/index.html
@@ -926,7 +926,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.2.9 http://netatalk.sourceforge.net/
+-netatalk: 3.2.10 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -965,7 +965,7 @@ n series:
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.11 http://www.php.net/distributions/
+-php: 8.3.11 to 8.3.12 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1195,7 +1195,7 @@ xap series:
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
 -x3270: 4.3ga9 http://x3270.bgp.nu/download.html
 -xaos: 4.3.2 https://github.com/xaos-project/XaoS/releases
--mpv: 0.38.0 to 0.39.0 https://github.com/mpv-player/mpv
+-mpv: 0.39.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
