@@ -20,7 +20,7 @@ A series :
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cryptsetup: 2.7.5 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.14.10 (to 1.15.8 beta) http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.14.10 (to 1.15.10 beta) http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20240619 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0736 to 9.1.0741 https://github.com/vim/commits/master
+-vim: 9.1.0736 to 9.1.0744 https://github.com/vim/commits/master
 	- vim: 9.1.0736
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -287,7 +287,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.1 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.46.2 https://git-scm.com/download
+-git: 2.46.2 (to 2.47.0rc0) https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -298,7 +298,7 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.10.11 http://wwww.kernel.org
 -libgccjit: 14.2.0
--libtool: 2.4.7 http://ftp.gnu.org/pub/gnu/libtool/
+-libtool: 2.5.3 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 to 19.1.0 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1725453128 https://luajit.org/git/luajit.git
@@ -466,7 +466,7 @@ l series:
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
--fribidi: 1.0.15 https://github.com/fribidi/fribidi/releases
+-fribidi: 1.0.16 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
@@ -516,7 +516,7 @@ l series:
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gtkspell3: 3.0.10 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.0 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 10.0.0 to 10.0.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 10.0.1 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -651,7 +651,7 @@ l series:
 -libusb: 1.0.27 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20230901 http://www.libimobiledevice.org/
--libuv: 1.48.0 https://dist.libuv.org/dist
+-libuv: 1.49.0 https://dist.libuv.org/dist
 -libvisio: 0.1.7 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.2 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.2 http://sourceforge.net/projects/libvisual/
@@ -904,7 +904,7 @@ n series:
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.9 https://github.com/jpirko/libndp/tags
 -libnetfilter_acct: 1.0.3 http://ftp.netfilter.org/pub/conntrack-tools/
--libnetfilter_conntrack: 1.0.9 http://ftp.netfilter.org/pub/conntrack-tools/
+-libnetfilter_conntrack: 1.1.0 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cthelper: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_cttimeout: 1.0.1 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnetfilter_log: 1.0.1 to 1.0.2 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -965,7 +965,7 @@ n series:
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.11 to 8.3.12 http://www.php.net/distributions/
+-php: 8.3.12 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1025,10 +1025,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 http://ftp.mars.org/pub/hfs/
--tcl: 8.6.15 https://www.tcl.tk/software/tcltk/download.html
+-tcl: 8.6.15 to 9.0.0 https://www.tcl.tk/software/tcltk/download.html
 -tclx: 8.6.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.15 https://www.tcl.tk/software/tcltk/download.html
+-tk: 8.6.15 to 9.0.0 https://www.tcl.tk/software/tcltk/download.html
 --------------------
 x series: (main packages)
 --------------------
@@ -1172,7 +1172,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0736 to 9.1.0741 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0736 to 9.1.0744 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
