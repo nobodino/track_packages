@@ -63,8 +63,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.10.11 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20240913 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.10.12 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20241001 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 (to 663 beta) https://github.com/gwsw/less/tags
@@ -77,7 +77,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.26 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.26 to 2.03.27 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 200 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.3 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -140,7 +140,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.10.1 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.6.2 http://tukaani.org/xz/
+-xz: 5.6.3 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -158,7 +158,7 @@ Ap series :
 -cdrtools: 3.02a9
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.4.10 to 2.4.11 https://github.com/openprinting/cups/releases
+-cups: 2.4.11 https://github.com/openprinting/cups/releases
 -cups-browsed: 2.0.1 https://github.com/OpenPrinting/cups-browsed
 -cups-filters: 2.0.1 https://github.com/OpenPrinting/cups-filters/tags
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0736 to 9.1.0751 https://github.com/vim/commits/master
+-vim: 9.1.0736 to 9.1.0754 https://github.com/vim/commits/master
 	- vim: 9.1.0736
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -285,9 +285,9 @@ d series:
 -doxygen: 1.12.0 http://wwfile:///root/Documents/epub/L'art de la therapie - Irvin Yalom.epubw.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
--gdb: 15.1 to 15.2 http://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.46.2 (to 2.47.0rc0) https://git-scm.com/download
+-git: 2.46.2 (to 2.47.0rc1) https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -296,12 +296,12 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.10.11 http://wwww.kernel.org
+-kernel-headers: 6.10.12 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 18.1.8 to 19.1.0 http://llvm.org/
+-llvm: 18.1.8 to 19.1.1 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
--luajit: 2.1.1725453128 https://luajit.org/git/luajit.git
+-luajit: 2.1.1727870382 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.8.1 https://www.mercurial-scm.org/release
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.10.11 
+-kernel : 6.10.12 
 --------------------
 kde series :
 --------------------
@@ -399,7 +399,7 @@ l series:
 -PyQt-builder: 1.16.4 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.15.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
--SDL2: 2.30.7 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.30.8 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
@@ -431,7 +431,7 @@ l series:
 -cairo: 1.18.2 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
 -cairomm1: 1.18.0 http://cairographics.org/cairomm/
--cfitsio: 4.4.1 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
+-cfitsio: 4.5.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -colord: 1.4.7 https://www.freedesktop.org/software/colord/releases/
@@ -459,7 +459,7 @@ l series:
 -exiv2: 0.28.3 https://exiv2.org/download.html
 -expat: 2.6.3 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 7.0.2 to 7.1 https://ffmpeg.org/
+-ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.3.6 http://www.fluidsynth.org/
 -fmt: 10.2.1 to 11.0.2 https://github.com/fmtlib/fmt/releases/
@@ -579,7 +579,7 @@ l series:
 -libgphoto2: 2.5.31 http://www.gphoto.org/
 -libgnt: 2.14.4 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
--libgsf: 1.14.52 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
+-libgsf: 1.14.53 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
 -libgtop: 2.41.3 https://gitlab.gnome.org/GNOME/libgtop/-/tags
 -libgusb: 0.4.9 https://github.com/hughsie/libgusb
 -libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
@@ -626,7 +626,7 @@ l series:
 -libqalculate: 5.2.0.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
--librsvg: 2.58.4 to 2.58.5 http://ftp.gnome.org/pub/gnome/sources/librsvg/
+-librsvg: 2.58.5 http://ftp.gnome.org/pub/gnome/sources/librsvg/
 -libsamplerate: 0.2.2 https://github.com/libsndfile/libsamplerate/releases
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
@@ -681,19 +681,19 @@ l series:
 -mozilla-nss: 3.105 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.105 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs128: 128.2.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs128: 128.3.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.5 https://mujs.com/downloads
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.33.0 https://github.com/notroj/neon/tags
--netpbm: 11.07.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.08.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
 -nodejs: 20.17.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.12 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.10.0 https://github.com/opencv/opencv/releases
--openexr: 3.2.4 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.3.0 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.2 http://www.openjpeg.org
 -opus: 1.5.2 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
@@ -745,7 +745,7 @@ l series:
 -python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.9.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
--python-glad2: 2.0.7 https://pypi.org/project/glad2/#files
+-python-glad2: 2.0.8 https://pypi.org/project/glad2/#files
 -python-hatch-vcs: 0.4.0 https://github.com/ofek/hatch-vcs
 -python-hatchling: 1.25.0 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
@@ -765,7 +765,7 @@ l series:
 -python-psutil: 6.0.0 https://pypi.org/project/psutil
 -python-pygments: 2.18.0 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
--python-pyproject-hooks: 1.1.0 https://pypi.org/project/pyproject_hooks/#files
+-python-pyproject-hooks: 1.2.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.18.0 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.2 https://pypi.python.org/pypi/random2
 -python-requests: 2.32.3 https://pypi.org/project/requests/
@@ -844,7 +844,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.48.10 (to 1.49.90) https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.48.10 to 1.50.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -946,7 +946,7 @@ n series:
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
 -nfs-utils: 2.7.1 https://sourceforge.net/projects/nfs/files/nfs-utils/
--nftables: 1.1.0 http://www.netfilter.org/projects/nftables/
+-nftables: 1.1.0 to 1.1.1 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.63.0 https://github.com/nghttp2/nghttp2/releases
 -nghttp3: 1.5.0 https://github.com/ngtcp2/nghttp3
 -nmap: 7.95 http://download.insecure.org/nmap/dist/
@@ -1118,10 +1118,10 @@ x series: (main packages)
 -xdg-utils: 1.2.0 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.16
 -xinit: 1.4.2
--xkeyboard-config: 2.42
+-xkeyboard-config: 2.43
 -xorgproto: 2024.1
 -xorg-server: 21.1.13 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 24.1.2
+-xorg-server-xwayland: 24.1.3
 -xf86-input-libinput: 1.3.0
 -xf86-input-wacom: 1.2.2
 -xf86-video-amdgpu: 23.0.0 to 20230222
@@ -1172,11 +1172,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0736 to 9.1.0751 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0736 to 9.1.0754 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 128.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.2.3esr https://www.thunderbird.net/
+-mozilla-firefox: 128.3.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 128.3.0esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.160 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1200,7 +1200,7 @@ xap series:
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
 -xine-ui: 0.9.14 https://sourceforge.net/projects/xine/
--xlockmore: 5.79 https://www.tux.org/~bagleyd/xlockmore.html
+-xlockmore: 5.80 https://www.tux.org/~bagleyd/xlockmore.html
 -xmms: 1.2.11
 -xpaint: 3.1.4 https://sourceforge.net/projects/sf-xpaint/
 -xpdf: 4.05 https://www.xpdfreader.com/download.html
@@ -1265,7 +1265,7 @@ extra:
 -xv: 6.0.1
 --------------------
 testing :
--kernel: 6.11.0
+-kernel: 6.11.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
