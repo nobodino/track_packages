@@ -50,7 +50,7 @@ A series :
 -grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.12 http://ftp.gnu.org/gnu/grub/
 -gzip: 1.13 http://ftp.gnu.org/pub/gnu/gzip/
--haveged: 1.9.18 https://github.com/jirka-h/haveged/releases
+-haveged: 1.9.19 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.23 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
 -hwdata: 0.388 https://github.com/vcrhonek/hwdata
@@ -63,8 +63,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 https://github.com/legionus/kbd/releases
--kernel-ide: 6.10.12 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20241001 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.10.13 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20241004 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 661 (to 663 beta) https://github.com/gwsw/less/tags
@@ -248,11 +248,11 @@ Ap series :
 -sysstat: 12.7.6 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.1.1http://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.5 https://github.com/tmux/tmux/releases
+-tmux: 3.5a https://github.com/tmux/tmux/releases
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0736 to 9.1.0757 https://github.com/vim/commits/master
+-vim: 9.1.0736 to 9.1.0759 https://github.com/vim/commits/master
 	- vim: 9.1.0736
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.10.12 http://wwww.kernel.org
+-kernel-headers: 6.10.13 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 18.1.8 to 19.1.1 http://llvm.org/
@@ -357,7 +357,7 @@ d series:
 -strace: 6.11 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.1 http://www.swig.org/download.html
--tree-sitter: 0.23.2 https://github.com/tree-sitter/tree-sitter
+-tree-sitter: 0.24.1 to 0.24.2 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.17 https://gitlab.gnome.org/GNOME/vala/-/tags
 -valgrind: 3.23.0 http://sourceware.org/pub/valgrind
 -yasm: 1.3.0 http://yasm.tortall.net/
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.10.12 
+-kernel : 6.10.13 
 --------------------
 kde series :
 --------------------
@@ -399,7 +399,7 @@ l series:
 -PyQt-builder: 1.16.4 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.15.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
--SDL2: 2.30.8 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.30.8 (to SDL3: 3.1.3) https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.2 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
@@ -508,7 +508,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.16.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.16.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.16.0 https://download.gnome.org/sources/gtkmm/
@@ -522,7 +522,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 to 75.1 https://icu.unicode.org/
--imagemagick: 7.1.1_38 http://www.imagemagick.org/
+-imagemagick: 7.1.1_38 to 39 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -620,7 +620,7 @@ l series:
 -libplist: 2.6.0 http://www.libimobiledevice.org/
 -libpng: 1.6.44 http://sourceforge.net/projects/libpng/files/libpng16/
 -libppd: 2.0.0 https://github.com/OpenPrinting/libppd
--libproxy: 0.5.8 https://github.com/libproxy/libproxy/releases
+-libproxy: 0.5.9 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
 -libqalculate: 5.2.0.1 https://github.com/Qalculate/libqalculate/releases
@@ -660,7 +660,7 @@ l series:
 -libvpx: 1.14.1 https://github.com/webmproject/libvpx/tags
 -libwebp: 1.4.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
 -libwmf: 0.2.13 https://github.com/caolanm/libwmf/releases
--libwnck3: 43.0 https://ftp.gnome.org/pub/gnome/sources/libwnck/
+-libwnck3: 43.1 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
@@ -688,7 +688,7 @@ l series:
 -neon: 0.33.0 https://github.com/notroj/neon/tags
 -netpbm: 11.08.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
--nodejs: 20.17.0 to 20.18.0 https://nodejs.org/dist
+-nodejs: 20.18.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.12 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
@@ -865,7 +865,7 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.0.10 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.1.0 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -926,7 +926,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 3.2.10 to 4.0.0 http://netatalk.sourceforge.net/
+-netatalk: 4.0.0 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -948,7 +948,7 @@ n series:
 -nfs-utils: 2.7.1 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.1.1 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.63.0 https://github.com/nghttp2/nghttp2/releases
--nghttp3: 1.5.0 https://github.com/ngtcp2/nghttp3
+-nghttp3: 1.6.0 https://github.com/ngtcp2/nghttp3
 -nmap: 7.95 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.7 https://github.com/gpg/npth/tags/
@@ -1172,7 +1172,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0736 to 9.1.0757 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0736 to 9.1.0759 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.3.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1265,7 +1265,7 @@ extra:
 -xv: 6.0.1
 --------------------
 testing :
--kernel: 6.11.1
+-kernel: 6.11.2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
