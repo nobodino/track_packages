@@ -229,7 +229,7 @@ Ap series :
 -qpdf: 11.9.1 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rfind: 1.6.0 https://github.com/pauldreik/rdfind
--rpm: 4.19.1.1 (to 4.19.94) http://ftp.rpm.org/releases
+-rpm: 4.19.1.1 to 4.20.0 http://ftp.rpm.org/releases
 -rzip: 2.1 http://rzip.samba.org/ftp/rzip/
 -sc: 7.16 https://www.ibiblio.org/pub/Linux/apps/financial/spreadsheet/
 -sc-im: 0.8.4 https://github.com/andmarti1424/sc-im
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0736 to 9.1.0759 https://github.com/vim/commits/master
+-vim: 9.1.0736 to 9.1.0766 https://github.com/vim/commits/master
 	- vim: 9.1.0736
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -287,7 +287,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.46.2 (to 2.47.0rc1) https://git-scm.com/download
+-git: 2.46.2 to 2.47.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -342,7 +342,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.11.9 to 3.11.10/3.12.6 https://www.python.org/downloads/
+-python3: 3.11.9 to 3.11.10/3.12.6/3.13.0 https://www.python.org/downloads/
 -python-pip: 24.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 75.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -357,7 +357,7 @@ d series:
 -strace: 6.11 https://github.com/strace/strace/releases
 -subversion: 1.14.3 https://subversion.apache.org
 -swig: 4.2.1 http://www.swig.org/download.html
--tree-sitter: 0.24.1 to 0.24.2 https://github.com/tree-sitter/tree-sitter
+-tree-sitter: 0.24.2 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.17 https://gitlab.gnome.org/GNOME/vala/-/tags
 -valgrind: 3.23.0 http://sourceware.org/pub/valgrind
 -yasm: 1.3.0 http://yasm.tortall.net/
@@ -522,7 +522,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 74.2 to 75.1 https://icu.unicode.org/
--imagemagick: 7.1.1_38 to 39 http://www.imagemagick.org/
+-imagemagick: 7.1.1_39 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -563,7 +563,7 @@ l series:
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
--libdeflate: 1.21 https://github.com/ebiggers/libdeflate
+-libdeflate: 1.22 https://github.com/ebiggers/libdeflate
 -libdiscid: 0.6.4 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
@@ -623,7 +623,7 @@ l series:
 -libproxy: 0.5.9 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 5.2.0.1 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 5.3.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.58.5 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -731,14 +731,14 @@ l series:
 -python-alabaster: 1.0.0 https://pypi.org/project/alabaster
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs/releases
 -python-babel: 2.16.0 https://pypi.org/project/babel
--python-build: 1.2.2 https://pypi.org/project/build/#files
+-python-build: 1.2.2.post1 https://pypi.org/project/build/#files
 -python-calver: 2022.6.26 https://pypi.org/project/calver
 -python-certifi: 2024.8.30 https://pypi.python.org/pypi/certifi
 -python-cffi: 1.17.1 https://pypi.python.org/pypi/cffi
 -python-chardet: 5.2.0 https://pypi.org/project/chardet/
 -python-charset-normalizer: 3.3.2 https://pypi.org/project/charset-normalizer
 -python-distro: 1.9.0 https://github.com/python-distro/distro/releases
--python-dnspython: 2.6.1 https://pypi.org/project/dnspython
+-python-dnspython: 2.7.0 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.7 https://pypi.org/project/doxypypy
 -python-doxyqml: 0.5.3 https://pypi.org/project/doxyqml
 -python-docutils: 0.21.2 https://pypi.org/project/docutils/#files
@@ -775,7 +775,7 @@ l series:
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
 -python-sphinx: 8.0.2 https://pypi.org/project/sphinx
--python-sphinx_rtd_theme: 2.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
+-python-sphinx_rtd_theme: 3.0.0 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.0.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2024.9.12 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
@@ -858,7 +858,7 @@ n series:
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20240830 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.33.1 https://c-ares.org/
--cifs-utils: 7.0 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 7.0 to 7.1 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.10.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
@@ -926,7 +926,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 4.0.0 http://netatalk.sourceforge.net/
+-netatalk: 4.0.0 to 4.0.1 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1004,7 +1004,7 @@ n series:
 -wget2: 2.1.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.23 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
--wireless-regdb: 2024.07.04 http://kernel.org/pub/software/network/wireless-regdb/
+-wireless-regdb: 2024.10.07 http://kernel.org/pub/software/network/wireless-regdb/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.11 https://w1.fi/wpa_supplicant/
 -wsdd2: 1.8.7 https://github.com/Netgear/wsdd2
@@ -1172,7 +1172,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0736 to 9.1.0759 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0736 to 9.1.0766 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.3.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
