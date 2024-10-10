@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20240619 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
--dracut: 103 https://github.com/dracut-ng/dracut-ng
+-dracut: 104 https://github.com/dracut-ng/dracut-ng
 -e2fsprogs: 1.47.1 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.20.2 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 18 https://github.com/rhboot/efibootmgr
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0736 to 9.1.0771 https://github.com/vim/commits/master
+-vim: 9.1.0736 to 9.1.0772 https://github.com/vim/commits/master
 	- vim: 9.1.0736
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.30.4 to 3.30.5 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.30.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -355,7 +355,7 @@ d series:
 -scons: 4.8.1 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
 -strace: 6.11 https://github.com/strace/strace/releases
--subversion: 1.14.3 to 1.14.4 https://subversion.apache.org
+-subversion: 1.14.4 https://subversion.apache.org
 -swig: 4.2.1 http://www.swig.org/download.html
 -tree-sitter: 0.24.2 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.17 https://gitlab.gnome.org/GNOME/vala/-/tags
@@ -681,7 +681,7 @@ l series:
 -mozilla-nss: 3.105 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.105 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.35 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs128: 128.3.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs128: 128.3.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.5 https://mujs.com/downloads
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
@@ -693,7 +693,7 @@ l series:
 -oniguruma: 6.9.12 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.23.1 https://openal-soft.org/openal-releases
 -opencv: 4.10.0 https://github.com/opencv/opencv/releases
--openexr: 3.3.0 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.3.1 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.2 http://www.openjpeg.org
 -opus: 1.5.2 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
@@ -736,7 +736,7 @@ l series:
 -python-certifi: 2024.8.30 https://pypi.python.org/pypi/certifi
 -python-cffi: 1.17.1 https://pypi.python.org/pypi/cffi
 -python-chardet: 5.2.0 https://pypi.org/project/chardet/
--python-charset-normalizer: 3.3.2 https://pypi.org/project/charset-normalizer
+-python-charset-normalizer: 3.4.0 https://pypi.org/project/charset-normalizer
 -python-distro: 1.9.0 https://github.com/python-distro/distro/releases
 -python-dnspython: 2.7.0 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.7 https://pypi.org/project/doxypypy
@@ -871,7 +871,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0 http://www.epicsol.org/
--ethtool: 5.19 to 6.10 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 5.19 to 6.11 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.39 (to 6.5.0-rc2) https://www.fetchmail.info/
 -getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -1037,18 +1037,18 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.21.1 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.1.10 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-anthy: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-chinese-addons: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.11 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-anthy: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-chinese-addons: 5.1.7 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-hangul: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-kkc: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-m17n: 5.1.1 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-qt: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-hangul: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-kkc: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-m17n: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-qt: 5.1.7 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-sayura: 5.1.2 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-extra: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-table-other: 5.1.3 https://fcitx-im.org/wiki/Fcitx_5
--fcitx5-unikey: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5-unikey: 5.1.5 https://fcitx-im.org/wiki/Fcitx_5
 -fontconfig: 2.13.92 to 2.15.0 https://gitlab.freedesktop.org/fontconfig/fontconfig/-/tags
 -freeglut: 3.6.0 http://freeglut.sourceforge.net/
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
@@ -1062,7 +1062,7 @@ x series: (main packages)
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
--libime: 1.1.8 https://fcitx-im.org/wiki/Fcitx_5
+-libime: 1.1.9 https://fcitx-im.org/wiki/Fcitx_5
 -libXau: 1.0.10
 -libXaw3d: 1.6.6
 -libdmx: 1.1.4
@@ -1172,10 +1172,10 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0736 to 9.1.0771 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0736 to 9.1.0772 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 128.3.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 128.3.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 128.3.0esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.160 http://pan.rebelbase.com/download/releases/
