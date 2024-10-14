@@ -25,7 +25,7 @@ A series :
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20240619 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
--dracut: 104 https://github.com/dracut-ng/dracut-ng
+-dracut: 105 https://github.com/dracut-ng/dracut-ng
 -e2fsprogs: 1.47.1 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.20.2 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 18 https://github.com/rhboot/efibootmgr
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20231011 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0774 to 9.1.0777 https://github.com/vim/commits/master
+-vim: 9.1.0774 to 9.1.0781 https://github.com/vim/commits/master
 	- vim: 9.1.0774
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -544,7 +544,7 @@ l series:
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.7.6 http://www.libarchive.org/downloads/
+-libarchive: 3.7.7 http://www.libarchive.org/downloads/
 -libass: 0.17.2 to 0.17.3 https://github.com/libass/libass
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
@@ -774,10 +774,10 @@ l series:
 -python-six: 1.16.0 https://pypi.org/project/six/
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
--python-sphinx: 8.1.1 https://pypi.org/project/sphinx
+-python-sphinx: 8.1.2 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.1 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2024.10.12 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2024.10.13 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.3 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -1128,10 +1128,10 @@ x series: (main packages)
 -xf86-video-ati: 22.0.0
 -xf86-video-dummy: 0.4.0
 -xf86-video-intel: 20230201
--xf86-video-mach64: 6.9.9
--xf86-video-mga: 2.0.1
+-xf86-video-mach64: 6.10.0
+-xf86-video-mga: 2.1.0
 -xf86-video-nouveau: 20231005
--xf86-video-r128: 6.12.1
+-xf86-video-r128: 6.13.0
 -xf86-video-s3virge: 1.11.1
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
@@ -1172,7 +1172,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.1 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0774 to 9.1.0777 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0774 to 9.1.0781 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.3.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
