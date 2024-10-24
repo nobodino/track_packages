@@ -95,7 +95,7 @@ A series :
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
 -openssl11-solibs: 1.1.1zb https://github.com/openssl/openssl/tags
--openssl-solibs: 3.3.2 https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.4.0 https://github.com/openssl/openssl/tags
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.6.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0774 to 9.1.0810 https://github.com/vim/commits/master
+-vim: 9.1.0774 to 9.1.0813 https://github.com/vim/commits/master
 	- vim: 9.1.0774
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -709,14 +709,14 @@ l series:
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.2.5 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.2.6 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.125 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
 -poppler: 24.10.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
--protobuf: 28.2 https://github.com/google/protobuf
+-protobuf: 28.3 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.27.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
@@ -871,7 +871,7 @@ n series:
 -dovecot: 2.3.21.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 3.0 http://www.epicsol.org/
+-epic5: 3.0.1 http://www.epicsol.org/
 -ethtool: 5.19 to 6.11 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.4.39 (to 6.5.0-rc2) https://www.fetchmail.info/
 -getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
@@ -962,7 +962,7 @@ n series:
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.9p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl11: 1.1.1zb http://ftp.openssl.org/source/
--openssl: 3.3.2 http://ftp.openssl.org/source/
+-openssl: 3.4.0 http://ftp.openssl.org/source/
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -1174,7 +1174,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0774 to 9.1.0810 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0774 to 9.1.0813 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.3.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1261,7 +1261,7 @@ extra:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 -mplayerplug-in: 3.55
 -sendmail: 8.18.1
--tigervnc: 1.14.0 to 1.14.1 https://github.com/TigerVNC/tigervnc/releases
+-tigervnc: 1.14.1 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.4.3
 -xfractint: 20.04p
 -xv: 6.0.2
