@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0774 to 9.1.0814 https://github.com/vim/commits/master
+-vim: 9.1.0774 to 9.1.0818 https://github.com/vim/commits/master
 	- vim: 9.1.0774
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -343,7 +343,7 @@ d series:
 -poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.11.10/3.12.7/3.13.0 https://www.python.org/downloads/
--python-pip: 24.2 https://pypi.python.org/pypi/pip
+-python-pip: 24.2 to 24.3 https://pypi.python.org/pypi/pip
 -python-setuptools: 75.2.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -1173,7 +1173,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0774 to 9.1.0814 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0774 to 9.1.0818 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.3.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
