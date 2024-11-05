@@ -77,7 +77,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.27 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.27 to 2.03.28 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 200 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.3 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -214,7 +214,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.9.1 http://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.11.9 http://mariadb.org/
+-mariadb: 10.11.10 http://mariadb.org/
 -mc: 4.8.32 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0821 to 9.1.0831 https://github.com/vim/commits/master
+-vim: 9.1.0821 to 9.1.0842 https://github.com/vim/commits/master
 	- vim: 9.1.0821
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -924,7 +924,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 4.0.3 to 4.0.4 http://netatalk.sourceforge.net/
+-netatalk: 4.0.4 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1143,8 +1143,8 @@ xap series:
 	-Mplayer: 20240130
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.12.0
--audacious: 4.4.1 http://www.audacious-media-player.org
--audacious-plugins: 4.4.1 http://www.audacious-media-player.org
+-audacious: 4.4.2 http://www.audacious-media-player.org
+-audacious-plugins: 4.4.2 http://www.audacious-media-player.org
 -blackbox:
 	- blackbox: 0.76.0 to 0.77.0 https://github.com/bbidulock/blackboxwm/releases
 	- bbkeys: 0.9.1 http://sourceforge.net/projects/bbkeys/files/bbkeys/
@@ -1171,7 +1171,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0821 to 9.1.0831 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0821 to 9.1.0842 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.4.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
