@@ -53,7 +53,7 @@ A series :
 -haveged: 1.9.19 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.25 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.388 https://github.com/vcrhonek/hwdata
+-hwdata: 0.389 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -77,7 +77,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.27 to 2.03.28 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.28 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 200 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.3 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -214,7 +214,7 @@ Ap series :
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.9.1 http://www.kernel.org/pub/linux/docs/man-pages/
--mariadb: 10.11.10 http://mariadb.org/
+-mariadb: 11.14.4 http://mariadb.org/
 -mc: 4.8.32 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0821 to 9.1.0842 https://github.com/vim/commits/master
+-vim: 9.1.0821 to 9.1.0845 https://github.com/vim/commits/master
 	- vim: 9.1.0821
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.30.5 (to 3.31.0-rc3) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.30.5 to 3.31.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -348,7 +348,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
--ruby: 3.3.5 http://www.ruby-lang.org/
+-ruby: 3.3.6 http://www.ruby-lang.org/
 -rust: 1.82.0 https://rust-lang.org
 -rust-bindgen: 0.70.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
@@ -475,7 +475,7 @@ l series:
 -gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.24 http://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.48 https://download.gimp.org/pub/gegl/
+-gegl: 0.4.50 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.3 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2024.1 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
@@ -515,7 +515,7 @@ l series:
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 10.0.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 10.1.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -858,7 +858,7 @@ n series:
 -c-ares: 1.34.2 https://c-ares.org/
 -cifs-utils: 7.1 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
--curl: 8.10.1 http://curl.haxx.se/download/
+-curl: 8.11.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -870,11 +870,11 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.1 http://www.epicsol.org/
 -ethtool: 5.19 to 6.11 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.5.0 https://www.fetchmail.info/
+-fetchmail: 6.5.0 (to 6.5.1-rc1) https://www.fetchmail.info/
 -getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.6 (to 2.5.1 beta) https://www.gnupg.org/download/index.html
--gnutls: 3.8.7.1 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.8 http://www.gnu.org/software/gnutls/
 -gpa: 0.10.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.23.2 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1102,7 +1102,7 @@ x series: (main packages)
 -mypaint-brushes: 1.3.1 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
 -noto-fonts-ttf: 20171024 to 24.4.1 https://github.com/notofonts/noto-fonts/releases
--pixman: 0.43.4 http://cairographics.org/releases/
+-pixman: 0.44.0 http://cairographics.org/releases/
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
@@ -1158,7 +1158,7 @@ xap series:
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.5 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
--gimp: 2.10.38 (to 2.99.18 beta) http://download.gimp.org/pub/gimp/
+-gimp: 2.10.38 (to 3.0.0-rc1) http://download.gimp.org/pub/gimp/
 -gkrellm: 2.3.11 http://gkrellm.srcbox.net/	
 	- gkrellm: 2.3.11
 	- gkrellm-countdown: 0.1.2
@@ -1171,11 +1171,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0821 to 9.1.0842 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0821 to 9.1.0845 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.4.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.4.0esr https://www.thunderbird.net/
+-mozilla-thunderbird: 128.4.1esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
