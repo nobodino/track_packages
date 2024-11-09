@@ -63,8 +63,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.6.4 (to 2.7-rc1) https://github.com/legionus/kbd/releases
--kernel-ide: 6.11.6 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20241022 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.11.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20241108 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.11.6 http://wwww.kernel.org
+-kernel-headers: 6.11.7 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.3 http://llvm.org/
@@ -333,7 +333,7 @@ d series:
 	- Sub-Quote: 2.006008 https://www.cpan.org/modules/by-module/Sub/
 	- Template-Toolkit: 3.102 https://www.cpan.org/modules/by-module/Template/
 	- TermReadKey: 2.38 https://www.cpan.org/modules/by-module/Term/
-	- URI: 5.30 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.30 to 5.31 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.47 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- libnet: 3.15 https://www.cpan.org/modules/01modules.index.html
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.11.6 
+-kernel : 6.11.7 
 --------------------
 kde series :
 --------------------
@@ -755,7 +755,7 @@ l series:
 -python-lxml: 5.3.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.7 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
--python-packaging: 24.1 https://github.com/pypa/packaging/releases
+-python-packaging: 24.2 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
 -python-pbr: 6.1.0 https://pypi.org/project/pbr
 -python-pillow: 11.0.0 https://github.com/python-pillow/Pillow/releases
@@ -884,7 +884,7 @@ n series:
 -inetd-OpenBSD: 1.79
 -iproute2: 6.11.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.22 http://ftp.netfilter.org/pub/ipset/
--iptables: 1.8.9 to 1.8.10 https://www.netfilter.org/projects/iptables/downloads.html
+-iptables: 1.8.11 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20240905 https://github.com/iputils/iputils/releases
 -ipw2100-fw: 1.3 http://intellinuxwireless.org/
@@ -892,7 +892,7 @@ n series:
 -irssi: 1.4.6 https://github.com/irssi/irssi/releases
 -iw: 6.9 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.21.3 http://web.mit.edu/kerberos/dist/krb5/
--lftp: 4.9.2 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
+-lftp: 4.9.3 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 2.5.7 to 3.0.0 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.11.0 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.50 https://www.gnupg.org/download/index.html
@@ -1055,7 +1055,7 @@ x series: (main packages)
 -ibus: 1.5.30 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.8 https://github.com/libpinyin/ibus-libpinyin/releases
--ibus-m17n: 1.4.33
+-ibus-m17n: 1.4.34
 -ibus-table: 1.17.8
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
@@ -1129,7 +1129,7 @@ x series: (main packages)
 -xf86-video-intel: 20230201
 -xf86-video-mach64: 6.10.0
 -xf86-video-mga: 2.1.0
--xf86-video-nouveau: 20231005
+-xf86-video-nouveau: 10.0.18
 -xf86-video-r128: 6.13.0
 -xf86-video-s3virge: 1.11.1
 -xf86-video-trident: 1.4.0
@@ -1234,7 +1234,7 @@ xfce: 4.18 https://gitlab.xfce.org/xfce/
 -xfce4-systemload-plugin: 1.3.2
 -xfce4-taskmanager: 1.5.7
 -xfce4-terminal: 1.1.3
--xfce4-weather-plugin: 0.11.2
+-xfce4-weather-plugin: 0.11.3
 -xfce4-whiskermenu-plugin: 2.8.3
 -xfconf: 4.18.3
 -xfdesktop: 4.18.1
@@ -1259,7 +1259,7 @@ extra:
 -mplayerplug-in: 3.55
 -sendmail: 8.18.1
 -tigervnc: 1.14.1 https://github.com/TigerVNC/tigervnc/releases
--xf86-video-fbdev: 0.4.3
+-xf86-video-fbdev: 0.5.1
 -xfractint: 20.04p
 -xv: 6.0.2
 --------------------
