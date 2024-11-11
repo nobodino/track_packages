@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0821 to 9.1.0847 https://github.com/vim/commits/master
+-vim: 9.1.0821 to 9.1.0849 https://github.com/vim/commits/master
 	- vim: 9.1.0821
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -521,7 +521,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 76.1 https://icu.unicode.org/
--imagemagick: 7.1.1_39 http://www.imagemagick.org/
+-imagemagick: 7.1.1_40 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -746,7 +746,7 @@ l series:
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.8 https://pypi.org/project/glad2/#files
 -python-hatch-vcs: 0.4.0 https://github.com/ofek/hatch-vcs
--python-hatchling: 1.25.0 https://pypi.org/project/hatchling
+-python-hatchling: 1.26.1 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.10 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
@@ -780,12 +780,12 @@ l series:
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.3 https://github.com/urllib3/urllib3/releases
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
--python-wheel: 0.44.0 https://pypi.org/project/wheel/#files
--python-zipp: 3.20.2 https://pypi.org/project/zipp
+-python-wheel: 0.45.0 https://pypi.org/project/wheel/#files
+-python-zipp: 3.21.0 https://pypi.org/project/zipp
 -qca: 2.3.7 to 2.3.9 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.15_20241031 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
--qt6: 6.7.3 https://invent.kde.org/qt/qt/qt5.git
+-qt6: 6.8.0 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.14.3 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
 -readline: 8.2.013 https://ftp.gnu.org/gnu/readline
@@ -807,7 +807,7 @@ l series:
 -sip: 6.8.6 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
--sof-firmware: 2024.09 https://github.com/thesofproject/sof-bin/releases
+-sof-firmware: 2024.09.1 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
@@ -855,7 +855,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20240830 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.34.2 https://c-ares.org/
+-c-ares: 1.34.3 https://c-ares.org/
 -cifs-utils: 7.1 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.11.0 http://curl.haxx.se/download/
@@ -924,7 +924,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 4.0.4 http://netatalk.sourceforge.net/
+-netatalk: 4.0.5 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1052,7 +1052,7 @@ x series: (main packages)
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
 -glu: 9.0.3 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
--ibus: 1.5.30 https://github.com/ibus/ibus/releases/
+-ibus: 1.5.31 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.15.8 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.34
@@ -1095,7 +1095,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.2.6 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.6 (to 24.3.0-rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1171,7 +1171,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0821 to 9.1.0847 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0821 to 9.1.0849 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.4.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
