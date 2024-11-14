@@ -148,7 +148,7 @@ Ap series :
 --------------------
 -a2ps: 4.15.6 http://ftp.gnu.org/gnu/a2ps/ 
 -acct: 6.6.4 https://ftp.gnu.org/gnu/acct/
--alsa-utils: 1.2.12 https://www.alsa-project.org/files/files/pub/utils/
+-alsa-utils: 1.2.13 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.5 http://software.calhariz.com/at/
 -bc: 1.07.1 to 6.7.4 https://git.yzena.com/gavin/bc/tags
@@ -164,7 +164,7 @@ Ap series :
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.28 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
--diffstat: 1.66 https://invisible-island.net/archives/diffstat/
+-diffstat: 1.67 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.10 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
 -dmidecode: 3.6 https://www.nongnu.org/dmidecode/
@@ -244,7 +244,7 @@ Ap series :
 -sqlite: 3.46.1 to 3.47.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -stow: 2.4.1 https://www.gnu.org/software/stow/
--sudo: 1.9.16 https://github.com/sudo-project/sudo/releases
+-sudo: 1.9.16p1 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.6 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.1.1http://ftp.gnu.org/pub/gnu/texinfo/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0821 to 9.1.0857 https://github.com/vim/commits/master
+-vim: 9.1.0821 to 9.1.0861 https://github.com/vim/commits/master
 	- vim: 9.1.0821
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -344,7 +344,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.11.10/3.12.7/3.13.0 https://www.python.org/downloads/
 -python-pip: 24.3 https://pypi.python.org/pypi/pip
--python-setuptools: 75.3.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 75.5.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 3.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -410,7 +410,7 @@ l series:
 -accountsservice: 23.13.9 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 47.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -adwaita-icon-theme-legacy: 20240517 https://gitlab.gnome.org/jimmac/adwaita-icon-theme-legacy
--alsa-lib: 1.2.12 https://github.com/alsa-project/alsa-lib
+-alsa-lib: 1.2.13 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
 -alsa-plugins: 1.2.12 https://github.com/alsa-project/alsa-plugins/tags
 -aom: 3.10.0 https://aomedia.org/av1/
@@ -551,7 +551,7 @@ l series:
 -libburn: 1.5.6 http://files.libburnia-project.org/releases/
 -libcaca: 0.99beta19 to 0.99beta20 https://github.com/cacalabs/libcaca/releases
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
--libcap: 2.71 http://sites.google.com/site/fullycapable/
+-libcap: 2.72 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.5 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
@@ -664,7 +664,7 @@ l series:
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.13.4 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.13.5 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.7.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.42 https://download.gnome.org/sources/libxslt/1.1/
@@ -746,7 +746,7 @@ l series:
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.8 https://pypi.org/project/glad2/#files
 -python-hatch-vcs: 0.4.0 https://github.com/ofek/hatch-vcs
--python-hatchling: 1.26.1 https://pypi.org/project/hatchling
+-python-hatchling: 1.26.3 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.10 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
@@ -774,7 +774,7 @@ l series:
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
 -python-sphinx: 8.1.3 https://pypi.org/project/sphinx
--python-sphinx_rtd_theme: 3.0.1 https://pypi.python.org/pypi/sphinx_rtd_theme
+-python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2024.10.21.16 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
@@ -870,7 +870,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.1 http://www.epicsol.org/
 -ethtool: 5.19 to 6.11 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.5.0 (to 6.5.1-rc1) https://www.fetchmail.info/
+-fetchmail: 6.5.1 https://www.fetchmail.info/
 -getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.6 (to 2.5.1 beta) https://www.gnupg.org/download/index.html
@@ -949,7 +949,7 @@ n series:
 -nghttp3: 1.6.0 https://github.com/ngtcp2/nghttp3
 -nmap: 7.95 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
--npth: 1.7 https://github.com/gpg/npth/tags/
+-npth: 1.8 https://github.com/gpg/npth/tags/
 -nss-mdns: 0.15.1 https://github.com/avahi/nss-mdns
 -nss-pam-ldapd: 0.9.12 https://arthurdejong.org/nss-pam-ldapd
 -ntp: 4.2.8p18 http://www.ntp.org/downloads.html
@@ -1095,7 +1095,7 @@ x series: (main packages)
 -libXt: 1.3.0
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.2.6 (to 24.3.0-rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.6 to 24.2.7 (to 24.3.0-rc1) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1171,11 +1171,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0821 to 9.1.0857 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0821 to 9.1.0861 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.4.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.4.2esr https://www.thunderbird.net/
+-mozilla-thunderbird: 128.4.3esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
