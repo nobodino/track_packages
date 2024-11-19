@@ -207,7 +207,7 @@ Ap series :
 	- sgml-common: 0.6.3-57.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/s/
 	- xmlto: 0.0.28-16.fc35 http://ftp.mirrorservice.org/sites/download.fedora.redhat.com/pub/fedora/linux/development/rawhide/Everything/source/tree/Packages/x/
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
--lsof: 4.99.3 https://github.com/lsof-org/lsof/releases
+-lsof: 4.99.4 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 6.0.2 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0867 to 9.1.0869 https://github.com/vim/commits/master
+-vim: 9.1.0867 to 9.1.0873 https://github.com/vim/commits/master
 	- vim: 9.1.0867
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -354,7 +354,7 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.8.1 https://github.com/SCons/scons/releases
 -slacktrack: 2.23 http://www.slackware.com/~mozes
--strace: 6.11 https://github.com/strace/strace/releases
+-strace: 6.11 to 6.12 https://github.com/strace/strace/releases
 -subversion: 1.14.4 https://subversion.apache.org
 -swig: 4.3.0 http://www.swig.org/download.html
 -tree-sitter: 0.24.4 https://github.com/tree-sitter/tree-sitter
@@ -1171,7 +1171,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0867 to 9.1.0869 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0867 to 9.1.0873 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.4.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1252,7 +1252,7 @@ extra:
 -brltty: 6.7 http://mielke.cc/brltty/
 -emacs-regular-build: 29.4
 -emacspeak: 53.0
--fltk: 1.3.10 http://www.fltk.org
+-fltk: 1.3.10 to 1.4.0-1 http://www.fltk.org
 -getty-ps: 2.1.0b
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
@@ -1264,7 +1264,7 @@ extra:
 -xv: 6.0.2
 --------------------
 testing :
--kernel: 6.11.3
+-kernel: 6.12.0
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
