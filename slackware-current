@@ -35,7 +35,7 @@ A series :
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
 -eudev: 3.2.14 https://github.com/eudev-project/eudev
--exfatprogs: 1.2.5 https://github.com/exfatprogs/exfatprogs
+-exfatprogs: 1.2.6 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.45 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
 -findutils: 4.10.0 http://ftp.gnu.org/gnu/findutils/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.31.0 to 3.31.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -298,13 +298,13 @@ d series:
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
 -kernel-headers: 6.11.9 http://wwww.kernel.org
 -libgccjit: 14.2.0
--libtool: 2.5.3 http://ftp.gnu.org/pub/gnu/libtool/
+-libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.4 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1731601260 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.8.2 (to 6.9rc1) https://www.mercurial-scm.org/release
+-mercurial: 6.9 https://www.mercurial-scm.org/release
 -meson: 1.6.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
@@ -315,7 +315,7 @@ d series:
 -pahole: 1.27 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20241022 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.40.0 (to 5.41.5)
+-perl: 5.40.0 (to 5.41.6)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.052 to 5.010 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.645 http://www.cpan.org/modules/by-module/DBI/
@@ -344,9 +344,9 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.11.9 to 3.11.10/3.12.7/3.13.0 https://www.python.org/downloads/
 -python-pip: 24.3 https://pypi.python.org/pypi/pip
--python-setuptools: 75.5.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 75.6.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
--re2c: 3.1 to 4.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
+-re2c: 4.0 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.3.6 http://www.ruby-lang.org/
 -rust: 1.82.0 https://rust-lang.org
@@ -508,7 +508,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.16.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.16.5 to 4.16.6 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.16.0 https://download.gnome.org/sources/gtkmm/
@@ -687,7 +687,7 @@ l series:
 -neon: 0.33.0 https://github.com/notroj/neon/tags
 -netpbm: 11.08.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
--nodejs: 20.18.0 https://nodejs.org/dist
+-nodejs: 20.18.1 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.12 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.24.0 https://openal-soft.org/openal-releases
@@ -854,7 +854,7 @@ n series:
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
--ca-certificates: 20240830 http://packages.qa.debian.org/c/ca-certificates.html
+-ca-certificates: 20241120 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.34.3 https://c-ares.org/
 -cifs-utils: 7.1 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
@@ -882,7 +882,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.11.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.12.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.22 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.11 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.1 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -1095,7 +1095,7 @@ x series: (main packages)
 -libXt: 1.3.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.2.7 (to 24.3.0-rc2) https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.7 to 24.3.0 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1106,7 +1106,7 @@ x series: (main packages)
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.290.0 to 1.3.299.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.290.0 to 1.3.301.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.38 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
@@ -1175,7 +1175,7 @@ xap series:
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.4.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.4.3esr to 128.4.4 https://www.thunderbird.net/
+-mozilla-thunderbird: 128.4.4esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
