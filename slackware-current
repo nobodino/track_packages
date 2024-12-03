@@ -210,7 +210,7 @@ Ap series :
 -lsof: 4.99.4 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
 -lxc: 6.0.2 https://linuxcontainers.org/lxc/downloads/
--lzip: 1.24.1 http://download.savannah.gnu.org/releases/lzip/
+-lzip: 1.24.1 (to 1.25-rc1) http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.9.1 http://www.kernel.org/pub/linux/docs/man-pages/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0882 to 9.1.0899 https://github.com/vim/commits/master
+-vim: 9.1.0882 to 9.1.0901 https://github.com/vim/commits/master
 	- vim: 9.1.0882
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -785,7 +785,7 @@ l series:
 -qca: 2.3.7 to 2.3.9 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.16_20241121 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
--qt6: 6.8.0 https://invent.kde.org/qt/qt/qt5.git
+-qt6: 6.8.1 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.14.3 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
 -readline: 8.2.013 https://ftp.gnu.org/gnu/readline
@@ -1100,14 +1100,14 @@ x series: (main packages)
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
 -mypaint-brushes: 1.3.1 https://github.com/Jehan/mypaint-brushes/tags
--noto-cjk-fonts-ttf: 2.001 https://fonts.google.com/noto
+-noto-cjk-fonts-ttf: 2.004 https://fonts.google.com/noto
 -noto-emoji: 2.047
 -noto-fonts-ttf: 2024.12.01 https://github.com/notofonts/noto-fonts/releases
 -pixman: 0.44.0 http://cairographics.org/releases/
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
 -twm: 1.0.12
--vulkan-sdk: 1.3.290.0 to 1.3.301.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
+-vulkan-sdk: 1.3.290.0 to 1.4 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.38 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
@@ -1172,11 +1172,11 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0882 to 9.1.0899 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0882 to 9.1.0901 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.5.0esr https://www.thunderbird.net/
+-mozilla-thunderbird: 128.5.0esr to 128.5.1esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
