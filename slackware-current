@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0919 https://github.com/vim/commits/master
+-vim: 9.1.0915 to 9.1.0924 https://github.com/vim/commits/master
 	- vim: 9.1.0915
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -592,7 +592,7 @@ l series:
 -libimobiledevice-glue: 20231110 http://www.libimobiledevice.org/
 -libindicator: 12.10.1 https://launchpad.net/libindicator
 -libiodbc: 3.52.16 http://sourceforge.net/projects/iodbc/files/iodbc/
--libjpeg-turbo: 3.0.4 http://sourceforge.net/projects/libjpeg-turbo/files/
+-libjpeg-turbo: 3.1.0 http://sourceforge.net/projects/libjpeg-turbo/files/
 -libkarma: 0.1.2 http://linux-karma.sourceforge.net
 -libmad: 0.15.1b http://www.underbit.com/products/mad/ or http://downloads.sourceforge.net/mad
 -libmcrypt: 2.5.8 http://sourceforge.net/projects/mcrypt/
@@ -680,7 +680,7 @@ l series:
 -mozilla-nss: 3.107 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.107 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs128: 128.5.1esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs128: 128.5.2esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.5 https://mujs.com/downloads
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
@@ -701,7 +701,7 @@ l series:
 -pangomm: 2.46.4 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -pangomm2: 2.54.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
--pcaudiolib: 1.1 to 1.2 https://github.com/espeak-ng/pcaudiolib/releases
+-pcaudiolib: 1.3 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.44 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
@@ -779,6 +779,7 @@ l series:
 -python-trove-classifiers: 2024.10.21.16 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.2.3 https://github.com/urllib3/urllib3/releases
+-python-versioneer: 0.29 https://pypi.org/project/versioneer
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.45.1 https://pypi.org/project/wheel/#files
 -python-zipp: 3.21.0 https://pypi.org/project/zipp
@@ -985,7 +986,7 @@ n series:
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.2 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
--stunnel: 5.73 https://www.stunnel.org/downloads.html
+-stunnel: 5.73 to 5.74 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.5 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1172,10 +1173,10 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0919 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0915 to 9.1.0924 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 128.5.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 128.5.2esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
