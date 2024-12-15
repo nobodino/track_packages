@@ -63,8 +63,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.4 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20241209 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.5 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20241212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
@@ -218,7 +218,7 @@ Ap series :
 -mc: 4.8.32 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.32.9 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.32.10 http://sourceforge.net/projects/mpg123/files/
 -nano: 8.2 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.4 http://wwww.kernel.org
+-kernel-headers: 6.12.5 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.5 http://llvm.org/
@@ -337,7 +337,7 @@ d series:
 	- XML-Parser: 2.47 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- libnet: 3.15 https://www.cpan.org/modules/01modules.index.html
-	- perl: 5.38.2 http://www.perl.com/CPAN/src/5.0/
+	- perl: 5.40.0 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz
 -poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.4 
+-kernel : 6.12.5 
 --------------------
 kde series :
 --------------------
@@ -718,7 +718,7 @@ l series:
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.27.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
--pycurl: 7.45.3 http://pycurl.io/
+-pycurl: 7.45.4 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.50.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
@@ -732,7 +732,7 @@ l series:
 -python-babel: 2.16.0 https://pypi.org/project/babel
 -python-build: 1.2.2.post1 https://pypi.org/project/build/#files
 -python-calver: 2022.6.26 https://pypi.org/project/calver
--python-certifi: 2024.8.30 https://pypi.python.org/pypi/certifi
+-python-certifi: 2024.12.14 https://pypi.python.org/pypi/certifi
 -python-cffi: 1.17.1 https://pypi.python.org/pypi/cffi
 -python-chardet: 5.2.0 https://pypi.org/project/chardet/
 -python-charset-normalizer: 3.4.0 https://pypi.org/project/charset-normalizer
@@ -856,7 +856,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20241120 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.34.3 https://c-ares.org/
+-c-ares: 1.34.4 https://c-ares.org/
 -cifs-utils: 7.1 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.11.1 http://curl.haxx.se/download/
@@ -986,7 +986,7 @@ n series:
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.2 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
--stunnel: 5.73 to 5.74 https://www.stunnel.org/downloads.html
+-stunnel: 5.74 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
 -tcpdump: 4.99.5 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
@@ -1062,7 +1062,7 @@ x series: (main packages)
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
 -libime: 1.1.9 https://fcitx-im.org/wiki/Fcitx_5
--libXau: 1.0.10
+-libXau: 1.0.12
 -libXaw3d: 1.6.6
 -libdmx: 1.1.4
 -libpciaccess: 0.18.1
