@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0924 https://github.com/vim/commits/master
+-vim: 9.1.0915 to 9.1.0931 https://github.com/vim/commits/master
 	- vim: 9.1.0915
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -746,7 +746,7 @@ l series:
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.8 https://pypi.org/project/glad2/#files
 -python-hatch-vcs: 0.4.0 https://github.com/ofek/hatch-vcs
--python-hatchling: 1.26.3 https://pypi.org/project/hatchling
+-python-hatchling: 1.27.0 https://pypi.org/project/hatchling
 -python-html5lib: 1.1 https://github.com/html5lib/html5lib-python/archive
 -python-idna: 3.10 https://github.com/kjd/idna/tags
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
@@ -1059,6 +1059,7 @@ x series: (main packages)
 -ibus-m17n: 1.4.34
 -ibus-table: 1.17.9
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
+-libdisplay-info: 0.2.0 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
 -libime: 1.1.9 https://fcitx-im.org/wiki/Fcitx_5
@@ -1173,7 +1174,7 @@ xap series:
 -gparted: 1.6.0 https://gparted.org/
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0924 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0915 to 9.1.0931 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1209,39 +1210,40 @@ xap series:
 -xscreensaver: 6.09 http://www.jwz.org/xscreensaver/python*
 -xsnow: 3.7.9 https://sourceforge.net/projects/xsnow/files/
 --------------------
-xfce: 4.18 https://gitlab.xfce.org/xfce/
+xfce: 4.20 https://gitlab.xfce.org/xfce/
 --------------------
--Greybird: 3.22.15
+-Greybird: 3.23.3
 -elementary-xfce: 0.20.0
--exo: 4.18.0
--garcon: 4.18.1 to 4.18.2
--libxfce4ui: 4.18.5
--libxfce4util: 4.18.3 
+-exo: 4.20.0
+-garcon: 4.20.0
+-libxfce4ui: 4.20.0
+-libxfce4util: 4.20.0
+-libxfce4windowing: 4.20.0 
 -mousepad: 0.6.3
 -thunar: 4.18.11 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.2
--xfce4-appfinder: 4.18.1
+-xfce4-appfinder: 4.20.
 -xfce4-clipman-plugin: 1.6.6
--xfce4-dev-tools: 4.18.1
+-xfce4-dev-tools: 4.20.
 -xfce4-notifyd: 0.9.6
--xfce4-panel: 4.18.6
+-xfce4-panel: 4.20.0
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
--xfce4-power-manager: 4.18.4
+-xfce4-power-manager: 4.20.0
 -xfce4-pulseaudio-plugin: 0.4.9
--xfce4-screensaver: 4.18.3
+-xfce4-screensaver: 4.20.0
 -xfce4-screenshooter: 1.11.1
--xfce4-session: 4.18.4
--xfce4-settings: 4.18.6
+-xfce4-session: 4.20.0
+-xfce4-settings: 4.20.0
 -xfce4-systemload-plugin: 1.3.2
 -xfce4-taskmanager: 1.5.7
 -xfce4-terminal: 1.1.3
 -xfce4-weather-plugin: 0.11.3
 -xfce4-whiskermenu-plugin: 2.8.3
 -xfce4-xkb-plugin: 0.8.3
--xfconf: 4.18.3
--xfdesktop: 4.18.1
--xfwm4: 4.18.0
+-xfconf: 4.20.
+-xfdesktop: 4.20.0
+-xfwm4: 4.20.0
 --------------------
 y series:
 --------------------
