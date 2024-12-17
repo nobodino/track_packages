@@ -20,7 +20,7 @@ A series :
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cryptsetup: 2.7.5 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.14.10 (to 1.15.92 beta) http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.14.10 to 1.16.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20240619 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0931 https://github.com/vim/commits/master
+-vim: 9.1.0915 to 9.1.0938 https://github.com/vim/commits/master
 	- vim: 9.1.0915
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -287,7 +287,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.22.5 to 0.23 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.47.1 https://git-scm.com/download
+-git: 2.47.1 (to 2.48.0rc0) https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -305,7 +305,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9 https://www.mercurial-scm.org/release
--meson: 1.6.0 https://github.com/mesonbuild/meson/releases
+-meson: 1.6.0 to 1.6.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.2.72.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -562,7 +562,7 @@ l series:
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
 -libdbusmenu: 16.04.0 https://launchpad.net/libdbusmenu
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
--libdeflate: 1.22 https://github.com/ebiggers/libdeflate
+-libdeflate: 1.23 https://github.com/ebiggers/libdeflate
 -libdiscid: 0.6.4 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
@@ -1172,9 +1172,10 @@ xap series:
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
 -gnuplot: 6.0.1 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.6.0 https://gparted.org/
+-gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0931 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0915 to 9.1.0938 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1195,7 +1196,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.3ga9 http://x3270.bgp.nu/download.html
+-x3270: 4.3ga10 http://x3270.bgp.nu/download.html
 -xaos: 4.3.3 https://github.com/xaos-project/XaoS/releases
 -mpv: 0.39.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
