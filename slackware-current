@@ -9,7 +9,7 @@ A series :
 -acl: 2.3.2 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
--bash: 5.2.037 http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.037 (to 5.3-beta) http://ftp.gnu.org/pub/gnu/bash/
 -bcachefs-tools: 1.13.0 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
@@ -62,7 +62,7 @@ A series :
 -inotify-tools: 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 2.7 https://github.com/legionus/kbd/releases
+-kbd: 2.7 to 2.7.1 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.12.5 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20241212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
@@ -90,7 +90,7 @@ A series :
 -mt-st: 1.7 https://github.com/iustin/mt-st/releases/tag/v1.7
 -mtx: 1.3.12 http://mtx.opensource-sw.net/ or http://ftp.debian.org/debian/pool/main/m/mtx/
 -ncompress: 5.0 https://github.com/vapier/ncompress/tags
--ndctl: 79 https://github.com/pmem/ndctl/releases
+-ndctl: 80 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0938 https://github.com/vim/commits/master
+-vim: 9.1.0915 to 9.1.0942 https://github.com/vim/commits/master
 	- vim: 9.1.0915
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -299,13 +299,13 @@ d series:
 -kernel-headers: 6.12.5 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 19.1.5 http://llvm.org/
+-llvm: 19.1.6 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1732813678 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9 https://www.mercurial-scm.org/release
--meson: 1.6.0 to 1.6.1 https://github.com/mesonbuild/meson/releases
+-meson: 1.6.1 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.2.72.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -556,7 +556,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 19.1.5 http://libclc.llvm.org/
+-libclc: 19.1.6 http://libclc.llvm.org/
 -libcupsfilters: 2.1.0 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -643,6 +643,8 @@ l series:
 -libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.7.0 https://download.osgeo.org/libtiff/
+-libtraceevent: 1.8.4 https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/
+-libtracefs: 1.8.1 https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/
 -libunibreak: 6.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.3 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.8.1 https://git.savannah.nongnu.org/cgit/libunwind.git
@@ -789,7 +791,7 @@ l series:
 -qt6: 6.8.1 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.14.3 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.4 https://github.com/stachenov/quazip/releases
--readline: 8.2.013 https://ftp.gnu.org/gnu/readline
+-readline: 8.2.013 (to 8.3-beta) https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.20 to 2.0.21 https://rubygems.org/gems/asciidoctor
@@ -803,6 +805,7 @@ l series:
 	-SDL_net: 1.2.8 https://www.libsdl.org/projects/SDL_net/
 	-SDL_sound: 1.0.3 https://www.libsdl.org/projects/SDL_sound/
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
+-seatd: 0.9.1 https://git.sr.ht/~kennylevinsen/seatd/archive/
 -shared-desktop-ontologies: 0.11.0 http://sourceforge.net/projects/oscaf
 -shared-mime-info: 2.4 http://freedesktop.org/wiki/Software/shared-mime-info/
 -sip: 6.9.1 (Python-sip) https://pypi.python.org/pypi/SIP
@@ -884,7 +887,7 @@ n series:
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
 -iproute2: 6.12.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
--ipset: 7.22 http://ftp.netfilter.org/pub/ipset/
+-ipset: 7.23 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.11 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.2 https://github.com/iptraf-ng/iptraf-ng/releases
 -iputils: 20240905 https://github.com/iputils/iputils/releases
@@ -964,7 +967,7 @@ n series:
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.14 to 8.4.1 http://www.php.net/distributions/
+-php: 8.3.14 to 8.4.2 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1059,6 +1062,7 @@ x series: (main packages)
 -ibus-m17n: 1.4.34
 -ibus-table: 1.17.9
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
+-labwc: 0.8.2 https://github.com/labwc/labwc
 -libdisplay-info: 0.2.0 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
@@ -1078,6 +1082,7 @@ x series: (main packages)
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
 -libpinyin: 2.8.1 https://github.com/libpinyin/libpinyin/releases
+-libsfdo: 0.1.3 https://gitlab.freedesktop.org/vyivel/libsfdo/-/archive/
 -libva: 2.22.0 https://github.com/intel/libva/releases
 -libva-utils: 2.22.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
@@ -1121,7 +1126,7 @@ x series: (main packages)
 -xinit: 1.4.2
 -xkeyboard-config: 2.43
 -xorgproto: 2024.1
--xorg-server: 21.1.14 http://ftp.x.org/pub/individual/xserver/
+-xorg-server: 21.1.14 to 21.1.15 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 24.1.3 to 24.1.4
 -xf86-input-evdev: 2.11.0
 -xf86-input-libinput: 1.5.0
@@ -1139,6 +1144,7 @@ x series: (main packages)
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
 -xterm: 396 http://invisible-island.net/xterm/
+-wlroots: 0.18.2 https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/
 --------------------
 xap series:
 --------------------
@@ -1175,7 +1181,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0938 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0915 to 9.1.0942 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
