@@ -20,7 +20,7 @@ A series :
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cryptsetup: 2.7.5 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.14.10 to 1.16.0 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.16.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20240619 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -63,8 +63,8 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7 to 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.5 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20241212 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.6 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20241219 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
@@ -209,7 +209,7 @@ Ap series :
 -lm_sensors: 3.6.0 https://github.com/lm-sensors/lm-sensors/tags
 -lsof: 4.99.4 https://github.com/lsof-org/lsof/releases
 -lsscsi: 0.32 http://sg.danny.cz/scsi/lsscsi.html
--lxc: 6.0.2 https://linuxcontainers.org/lxc/downloads/
+-lxc: 6.0.3 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.24.1 (to 1.25-rc1) http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
@@ -252,7 +252,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0946 https://github.com/vim/commits/master
+-vim: 9.1.0915 to 9.1.0950 https://github.com/vim/commits/master
 	- vim: 9.1.0915
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -277,7 +277,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.2 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.31.3 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -296,7 +296,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.5 http://wwww.kernel.org
+-kernel-headers: 6.12.6 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.6 http://llvm.org/
@@ -380,7 +380,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.5 
+-kernel : 6.12.6 
 --------------------
 kde series :
 --------------------
@@ -400,7 +400,7 @@ l series:
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.30.10 (to SDL3: 3.1.5) https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.8.2 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_image: 2.8.3 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.2.0 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.22.0 https://www.libsdl.org/projects/SDL2_ttf/
@@ -659,7 +659,7 @@ l series:
 -libvncserver: 0.9.14 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.15.0 https://github.com/webmproject/libvpx/tags
--libwebp: 1.4.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
+-libwebp: 1.5.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
 -libwmf: 0.2.13 https://github.com/caolanm/libwmf/releases
 -libwnck3: 43.1 https://ftp.gnome.org/pub/gnome/sources/libwnck/
 -libwnck: 2.31.0 http://ftp.gnome.org/pub/gnome/sources/libwnck/
@@ -763,7 +763,7 @@ l series:
 -python-pillow: 11.0.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.5.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-psutil: 6.1.0 https://pypi.org/project/psutil
+-python-psutil: 6.1.1 https://pypi.org/project/psutil
 -python-pygments: 2.18.0 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.2.0 https://pypi.org/project/pyproject_hooks/#files
@@ -950,7 +950,7 @@ n series:
 -nfs-utils: 2.8.2 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.1.1 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.64.0 https://github.com/nghttp2/nghttp2/releases
--nghttp3: 1.6.0 https://github.com/ngtcp2/nghttp3
+-nghttp3: 1.7.0 https://github.com/ngtcp2/nghttp3
 -nmap: 7.95 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.8 https://github.com/gpg/npth/tags/
@@ -967,7 +967,7 @@ n series:
 -openvpn: 2.6.12 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.14 to 8.4.2 http://www.php.net/distributions/
+-php: 8.3.15 to 8.4.2 http://www.php.net/distributions/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1176,12 +1176,12 @@ xap series:
 	- eboard: 1.1.1 to 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 6.0.1 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 6.0.1 to 6.0.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.6.0 https://gparted.org/
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0946 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0915 to 9.1.0950 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
