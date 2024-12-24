@@ -116,7 +116,7 @@ A series :
 -sysfsutils: 2.1.1 https://github.com/linux-ras/sysfsutils
 -sysklogd: 2.6.2 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
--sysvinit: 3.11 https://github.com/slicer69/sysvinit/releases
+-sysvinit: 3.12 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.35 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -129,7 +129,7 @@ A series :
 -upower: 1.90.6 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
--userspace-rcu: 0.14.1 https://liburcu.org
+-userspace-rcu: 0.15.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
 -util-linux: 2.40.2
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
@@ -219,7 +219,7 @@ Ap series :
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.32.10 http://sourceforge.net/projects/mpg123/files/
--nano: 8.2 http://www.nano-editor.org/download.php
+-nano: 8.3 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 2.11.0 https://github.com/linux-nvme/nvme-cli/tags
@@ -247,12 +247,12 @@ Ap series :
 -sudo: 1.9.16p2 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.6 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
--texinfo: 7.1.1http://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 7.1.1 to 7.2 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.5a https://github.com/tmux/tmux/releases
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0950 https://github.com/vim/commits/master
+-vim: 9.1.0915 to 9.1.0955 https://github.com/vim/commits/master
 	- vim: 9.1.0915
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -301,7 +301,7 @@ d series:
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.6 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
--luajit: 2.1.1732813678 https://luajit.org/git/luajit.git
+-luajit: 2.1.1734355927 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9 https://www.mercurial-scm.org/release
@@ -315,7 +315,7 @@ d series:
 -pahole: 1.28 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20241122 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.40.0 (to 5.41.6)
+-perl: 5.40.0 (to 5.41.7)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.052 to 5.010 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.645 http://www.cpan.org/modules/by-module/DBI/
@@ -348,7 +348,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
--ruby: 3.3.6 http://www.ruby-lang.org/
+-ruby: 3.3.6 to 3.4.0 http://www.ruby-lang.org/
 -rust: 1.83.0 https://rust-lang.org
 -rust-bindgen: 0.70.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
@@ -521,7 +521,7 @@ l series:
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 76.1 https://icu.unicode.org/
--imagemagick: 7.1.1_41 http://www.imagemagick.org/
+-imagemagick: 7.1.1_43 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -656,7 +656,7 @@ l series:
 -libvisio: 0.1.8 https://dev-www.libreoffice.org/src/libvisio/
 -libvisual: 0.4.2 http://sourceforge.net/projects/libvisual/
 -libvisual-plugins: 0.4.2 http://sourceforge.net/projects/libvisual/
--libvncserver: 0.9.14 https://github.com/LibVNC/libvncserver/releases
+-libvncserver: 0.9.15 https://github.com/LibVNC/libvncserver/releases
 -libvorbis: 1.3.7 https://www.xiph.org/downloads/
 -libvpx: 1.15.0 https://github.com/webmproject/libvpx/tags
 -libwebp: 1.5.0 https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html
@@ -726,7 +726,7 @@ l series:
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 to 3.1.4 https://pypi.org/project/pyparsing/
 -python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
--python-Jinja2: 3.1.4 https://pypi.org/project/Jinja2
+-python-Jinja2: 3.1.5 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 3.0.2 https://pypi.org/project/Markupsafe
 -python-PyYAML: 6.0.2 https://pypi.org/project/pyyaml
 -python-alabaster: 1.0.0 https://pypi.org/project/alabaster
@@ -780,7 +780,7 @@ l series:
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2024.10.21.16 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
--python-urllib3: 2.2.3 https://github.com/urllib3/urllib3/releases
+-python-urllib3: 2.3.0 https://github.com/urllib3/urllib3/releases
 -python-versioneer: 0.29 https://pypi.org/project/versioneer
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
 -python-wheel: 0.45.1 https://pypi.org/project/wheel/#files
@@ -846,7 +846,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.50.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.50.0 to 1.50.1 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -1027,10 +1027,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 http://ftp.mars.org/pub/hfs/
--tcl: 8.6.15 to 86.16/9.0.0 https://www.tcl.tk/software/tcltk/download.html
+-tcl: 8.6.15 to 8.6.16/9.0.1 https://www.tcl.tk/software/tcltk/download.html
 -tclx: 8.6.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.15 to 8.6.16/9.0.0 https://www.tcl.tk/software/tcltk/download.html
+-tk: 8.6.15 to 8.6.16/9.0.1 https://www.tcl.tk/software/tcltk/download.html
 --------------------
 x series: (main packages)
 --------------------
@@ -1102,7 +1102,7 @@ x series: (main packages)
 -libXt: 1.3.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.3.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 24.2.8 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.4 http://m17n.nongnu.org
@@ -1116,7 +1116,7 @@ x series: (main packages)
 -twm: 1.0.12
 -vulkan-sdk: 1.3.290.0 to 1.4 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.38 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.39 https://wayland.freedesktop.org/releases.html
 -xcb-imdkit: 1.0.9
 -xcb-proto: 1.17.0
 -xdg-desktop-portal: 1.18.4
@@ -1176,12 +1176,12 @@ xap series:
 	- eboard: 1.1.1 to 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
--gnuplot: 6.0.1 to 6.0.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 6.0.2 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.6.0 https://gparted.org/
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0950 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0915 to 9.1.0955 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1238,7 +1238,7 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.20.0
 -xfce4-pulseaudio-plugin: 0.4.9
--xfce4-screensaver: 4.20.0
+-xfce4-screensaver: 4.18.4
 -xfce4-screenshooter: 1.11.1
 -xfce4-session: 4.20.0
 -xfce4-settings: 4.20.0
@@ -1255,6 +1255,7 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 y series:
 --------------------
 -bsd-games: 2.17 http://metalab.unc.edu/pub/Linux/games/
+-gnugo: 3.8 https://www.gnu.org/software/gnugo/
 -nethack: 3.6.7 https://www.nethack.org
 --------------------
 extra:
@@ -1276,7 +1277,7 @@ extra:
 -xv: 6.0.2
 --------------------
 testing :
--mesa: 24.3.0
+-mesa: 24.3.2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
