@@ -19,6 +19,7 @@ A series :
 -coreutils: 9.5 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
+-cracklib: 2.10.3 https://github.com/cracklib/cracklib
 -cryptsetup: 2.7.5 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.16.0 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
@@ -247,13 +248,13 @@ Ap series :
 -sudo: 1.9.16p2 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.6 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
--texinfo: 7.1.1 to 7.2 http://ftp.gnu.org/pub/gnu/texinfo/
+-texinfo: 7.2 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.5a https://github.com/tmux/tmux/releases
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0915 to 9.1.0955 https://github.com/vim/commits/master
-	- vim: 9.1.0915
+-vim: 9.1.0958 to 9.1.095x https://github.com/vim/commits/master
+	- vim: 9.1.0958
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -313,7 +314,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.28 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20241122 https://www.gnu.org/software/parallel/
+-parallel: 20241222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.40.0 (to 5.41.7)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
@@ -583,7 +584,7 @@ l series:
 -libgusb: 0.4.9 https://github.com/hughsie/libgusb
 -libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
--libical: 3.0.18 https://github.com/libical/libical/releases
+-libical: 3.0.19 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.42 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.7 http://ftp.gnu.org/gnu/libidn/
@@ -846,7 +847,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.50.0 to 1.50.1 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.50.1 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -996,7 +997,7 @@ n series:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
 -tftp-hpa: 5.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
--tin: 2.6.3 http://www.tin.org/
+-tin: 2.6.4 http://www.tin.org/
 -traceroute: 2.1.6 https://sourceforge.net/projects/traceroute/files/traceroute/
 -ulogd: 2.0.8 http://ftp.netfilter.org/pub/ulogd/
 -uucp: 1.07 to 1.07-27.debian.tr.xz  http://ftp.gnu.org/gnu/uucp/ or https://debian-repo.stanford.edu/debian/pool/main/u/uucp/
@@ -1181,7 +1182,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0915 to 9.1.0955 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0958 to 9.1.095x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1215,7 +1216,7 @@ xap series:
 -xpdf: 4.05 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.09 http://www.jwz.org/xscreensaver/python*
--xsnow: 3.7.9 https://sourceforge.net/projects/xsnow/files/
+-xsnow: 3.8.3 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.20 https://gitlab.xfce.org/xfce/
 --------------------
@@ -1231,7 +1232,7 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -thunar-volman: 4.18.0
 -tumbler: 4.18.2
 -xfce4-appfinder: 4.20.
--xfce4-clipman-plugin: 1.6.6
+-xfce4-clipman-plugin: 1.6.7
 -xfce4-dev-tools: 4.20.
 -xfce4-notifyd: 0.9.6
 -xfce4-panel: 4.20.0
