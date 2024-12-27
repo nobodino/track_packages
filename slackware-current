@@ -110,7 +110,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.16.0 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.16.0 to 4.17.0 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -253,8 +253,8 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0958 to 9.1.095x https://github.com/vim/commits/master
-	- vim: 9.1.0958
+-vim: 9.1.0964 to 9.1.096x https://github.com/vim/commits/master
+	- vim: 9.1.0964
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -349,7 +349,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
--ruby: 3.3.6 to 3.4.0 http://www.ruby-lang.org/
+-ruby: 3.4.1 http://www.ruby-lang.org/
 -rust: 1.83.0 https://rust-lang.org
 -rust-bindgen: 0.70.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
@@ -462,7 +462,7 @@ l series:
 -ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.1 http://www.fluidsynth.org/
--fmt: 10.2.1 to 11.0.2 https://github.com/fmtlib/fmt/releases/
+-fmt: 10.2.1 to 11.1.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -688,9 +688,9 @@ l series:
 -mujs: 1.3.5 https://mujs.com/downloads
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.34.0 https://github.com/notroj/neon/tags
--netpbm: 11.08.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.09.0 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
--nodejs: 20.18.1 to 22.11.0 https://nodejs.org/dist
+-nodejs: 22.12.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.12 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.24.1 https://openal-soft.org/openal-releases
@@ -795,7 +795,7 @@ l series:
 -readline: 8.2.013 (to 8.3-beta) https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
--rubygem-asciidoctor: 2.0.20 to 2.0.21 https://rubygems.org/gems/asciidoctor
+-rubygem-asciidoctor: 2.0.23 https://rubygems.org/gems/asciidoctor
 -sbc: 2.0 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.10 http://serf.apache.org/
 -sg3_utils: 1.48 http://sg.danny.cz/sg/sg3_utils.html
@@ -1182,7 +1182,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0958 to 9.1.095x https://github.com/vim/vim/commits/master
+-gvim: 9.1.0964 to 9.1.096x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1236,16 +1236,16 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -xfce4-dev-tools: 4.20.
 -xfce4-notifyd: 0.9.6
 -xfce4-panel: 4.20.0
--xfce4-panel-profiles: 1.0.14 https://gitlab.xfce.org/apps/xfce4-panel-profiles
+-xfce4-panel-profiles: 1.0.15 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.20.0
 -xfce4-pulseaudio-plugin: 0.4.9
 -xfce4-screensaver: 4.18.4
 -xfce4-screenshooter: 1.11.1
 -xfce4-session: 4.20.0
 -xfce4-settings: 4.20.0
--xfce4-systemload-plugin: 1.3.2
--xfce4-taskmanager: 1.5.7
--xfce4-terminal: 1.1.3
+-xfce4-systemload-plugin: 1.3.3
+-xfce4-taskmanager: 1.5.8
+-xfce4-terminal: 1.1.4
 -xfce4-weather-plugin: 0.11.3
 -xfce4-whiskermenu-plugin: 2.8.3
 -xfce4-xkb-plugin: 0.8.3
@@ -1262,7 +1262,7 @@ y series:
 extra:
 --------------------
 -aspell-word-list: 0.50.4
--bash-completion: 2.15.0 https://github.com/scop/bash-completion/releases
+-bash-completion: 2.16.0 https://github.com/scop/bash-completion/releases
 -brltty: 6.7 http://mielke.cc/brltty/
 -emacs-regular-build: 29.4
 -emacspeak: 53.0
