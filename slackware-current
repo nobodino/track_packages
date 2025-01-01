@@ -44,7 +44,7 @@ A series :
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.18 to 4.0.45 https://www.gnu.org/software/mtools/
 -gawk: 5.3.1 http://ftp.gnu.org/pub/gnu/gawk/
--gettext: 0.22.5 to 0.23 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2024b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
@@ -110,7 +110,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.16.0 to 4.17.0 (nok) https://github.com/shadow-maint/shadow/tags
+-shadow: 4.16.0 to 4.17.1 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0964 to 9.1.0981 https://github.com/vim/commits/master
+-vim: 9.1.0964 to 9.1.0983 https://github.com/vim/commits/master
 	- vim: 9.1.0964
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -287,7 +287,7 @@ d series:
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.22.5 to 0.23 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext-tools: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.47.1 (to 2.48.0rc1) https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
@@ -944,7 +944,7 @@ n series:
 	- netkit-rwho
 	- netkit-timed
 -netpipes: 4.2 http://web.purplefrog.com/ftp/netpipes/
--nettle: 3.10 https://ftp.gnu.org/gnu/nettle/
+-nettle: 3.10.1 https://ftp.gnu.org/gnu/nettle/
 -netwatch: 1.3.1_2 http://www.slctech.org/~mackay/netwatch.html#FTP%20SITE%20ACCESS
 -network-scripts: 15.0
 -netwrite: 0.17
@@ -975,10 +975,10 @@ n series:
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.9.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
--ppp: 2.5.1
-	-ppp: 2.5.1 https://github.com/paulusmack/ppp/tags
+-ppp: 2.5.2
+	-ppp: 2.5.2 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
-	-freeradius-client: 1.1.7
+	-freeradius-client: 1.1.8
 -procmail: 3.24 https://github.com/BuGlessRB/procmail/releases
 -proftpd: 1.3.8c http://www.proftpd.org
 -pssh: 2.3.5 https://github.com/lilydjwg/pssh/tags
@@ -1022,9 +1022,9 @@ n series:
 --------------------
 t series:
 --------------------
--fig2dev: 3.2.9 https://sourceforge.net/projects/mcj/files/
+-fig2dev: 3.2.9a https://sourceforge.net/projects/mcj/files/
 -texlive: 2024.240409 https://ctan.net/systems/texlive/Source/ and http://slackware.schoepfer.info/slackbuilds/texlive/
--xfig: 3.2.9 https://sourceforge.net/projects/mcj/files/
+-xfig: 3.2.9a https://sourceforge.net/projects/mcj/files/
 --------------------
 tcl/tk series:
 --------------------
@@ -1185,7 +1185,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0964 to 9.1.0981 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0964 to 9.1.0983 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1231,7 +1231,7 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -libxfce4util: 4.20.0
 -libxfce4windowing: 4.20.0 
 -mousepad: 0.6.3
--thunar: 4.18.11 https://gitlab.xfce.org/xfce/thunar
+-thunar: 4.20.1 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.2
 -xfce4-appfinder: 4.20.
