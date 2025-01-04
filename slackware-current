@@ -27,7 +27,7 @@ A series :
 -dialog: 1.3_20240619 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -dracut: 105 https://github.com/dracut-ng/dracut-ng
--e2fsprogs: 1.47.1 http://download.sourceforge.net/e2fsprogs/
+-e2fsprogs: 1.47.2 http://download.sourceforge.net/e2fsprogs/
 -ed: 1.20.2 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 18 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
@@ -54,7 +54,7 @@ A series :
 -haveged: 1.9.19 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.25 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.390 https://github.com/vcrhonek/hwdata
+-hwdata: 0.391 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -64,7 +64,7 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.7 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.12.8 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20241220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -81,7 +81,7 @@ A series :
 -lvm2: 2.03.29 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.14 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 202 https://github.com/andikleen/mcelog/tags
--mdadm: 4.3 https://www.kernel.org/pub/linux/utils/raid/mdadm/
+-mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.9 https://salsa.debian.org/minicom-team/minicom/-/tags
 	- lrzsz: 0.12.21 http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
@@ -104,7 +104,7 @@ A series :
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.11 https://download.savannah.gnu.org/releases/lzip/plzip/
--procps-ng: 4.0.4 https://gitlab.com/procps-ng/procps/-/tags
+-procps-ng: 4.0.4 to 4.0.5 https://gitlab.com/procps-ng/procps/-/tags
 -quota: 4.09 http://www.sf.net/projects/linuxquota/
 -reiserfsprogs: 3.6.27 https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs
 -rpm2tgz: 1.2.2
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0964 to 9.1.0983 https://github.com/vim/commits/master
+-vim: 9.1.0964 to 9.1.0988 https://github.com/vim/commits/master
 	- vim: 9.1.0964
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -283,7 +283,7 @@ d series:
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
 -distcc: 3.4 https://github.com/distcc/distcc/releases
--doxygen: 1.13.0 http://wwfile:///root/Documents/epub/L'art de la therapie - Irvin Yalom.epubw.doxygen.org/download.html
+-doxygen: 1.13.1 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
@@ -297,7 +297,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.7 http://wwww.kernel.org
+-kernel-headers: 6.12.8 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.6 http://llvm.org/
@@ -381,7 +381,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.7 
+-kernel : 6.12.8 
 --------------------
 kde series :
 --------------------
@@ -399,12 +399,12 @@ l series:
 -PyQt-builder: 1.17.1 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.16.1 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
--SDL2: 2.30.10 to 2.30.11 (to SDL3: 3.1.5) https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.30.11 (to SDL3: 3.1.5) https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.4 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.2.0 https://www.libsdl.org/projects/SDL2_net/
--SDL2_ttf: 2.22.0 https://www.libsdl.org/projects/SDL2_ttf/
+-SDL2_ttf: 2.24.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.8.0 https://git.adelielinux.org/community/a52dec/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -abseil-cpp: 20240722.0 https://github.com/abseil/abseil-cpp
@@ -510,7 +510,7 @@ l series:
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.16.6 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.16.7 to 4.16.12 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.16.0 https://download.gnome.org/sources/gtkmm/
@@ -716,7 +716,7 @@ l series:
 -polkit: v0.125 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
--poppler: 24.12.0 http://poppler.freedesktop.org/
+-poppler: 25.01.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -protobuf: 29.2 https://github.com/google/protobuf
@@ -727,7 +727,7 @@ l series:
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.50.0 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
--pyparsing: 3.1.2 to 3.1.4 https://pypi.org/project/pyparsing/
+-pyparsing: 3.1.2 to 3.2.1 https://pypi.org/project/pyparsing/
 -python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
 -python-Jinja2: 3.1.5 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 3.0.2 https://pypi.org/project/Markupsafe
@@ -763,7 +763,7 @@ l series:
 -python-packaging: 24.2 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
 -python-pbr: 6.1.0 https://pypi.org/project/pbr
--python-pillow: 11.0.0 https://github.com/python-pillow/Pillow/releases
+-python-pillow: 11.1.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.5.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-psutil: 6.1.1 https://pypi.org/project/psutil
@@ -844,7 +844,7 @@ l series:
 -zlib: 1.3.1 (to zlib-ng 2.1.4) https://zlib.net/
 -zstd: 1.5.6 https://github.com/facebook/zstd/releases
 -zug: 0.1.1 https://github.com/arximboldi/zug
--zxing-cpp: 2.2.1 https://github.com/zxing-cpp/zxing-cpp
+-zxing-cpp: 2.3.0 https://github.com/zxing-cpp/zxing-cpp
 --------------------
 n series:
 --------------------
@@ -880,9 +880,9 @@ n series:
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.7 (to 2.5.2 beta) https://www.gnupg.org/download/index.html
+-gnupg2: 2.5.2 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.8 http://www.gnu.org/software/gnutls/
--gpa: 0.10.0 https://www.gnupg.org/download/index.html
+-gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
 -httpd: 2.4.62 http://www.apache.org/dist/httpd/
@@ -900,7 +900,7 @@ n series:
 -iw: 6.9 https://www.kernel.org/pub/software/network/iw/
 -krb5: 1.21.3 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.3 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
--libassuan: 2.5.7 to 3.0.0 https://www.gnupg.org/download/index.html
+-libassuan: 3.0.1 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.11.0 https://www.gnupg.org/download/index.html
 -libgpg-error: 1.51 https://www.gnupg.org/download/index.html
 -libksba: 1.6.7 https://www.gnupg.org/download/index.html
@@ -1185,7 +1185,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0964 to 9.1.0983 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0964 to 9.1.0988 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1282,7 +1282,7 @@ extra:
 --------------------
 testing :
 -gimp: 3.0.0_RC2
--mesa: 24.3.2
+-mesa: 24.3.3
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
