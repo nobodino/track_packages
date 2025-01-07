@@ -115,7 +115,7 @@ A series :
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 https://github.com/linux-ras/sysfsutils
--sysklogd: 2.6.2 https://github.com/troglobit/sysklogd/releases
+-sysklogd: 2.7.0 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
 -sysvinit: 3.13 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.13 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.5 http://software.calhariz.com/at/
--bc: 1.08.0 https://git.yzena.com/gavin/bc/tags
+-bc: 1.08.0 to 1.08.1 https://git.yzena.com/gavin/bc/tags
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.5 https://github.com/cdrdao/cdrdao/
@@ -164,7 +164,7 @@ Ap series :
 -cups-filters: 2.0.1 https://github.com/OpenPrinting/cups-filters/tags
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
--ddrescue: 1.28 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
+-ddrescue: 1.29 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.67 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.10 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0964 to 9.1.0990 https://github.com/vim/commits/master
+-vim: 9.1.0964 to 9.1.0993 https://github.com/vim/commits/master
 	- vim: 9.1.0964
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -288,7 +288,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.47.1 (to 2.48.0rc1) https://git-scm.com/download
+-git: 2.47.1 (to 2.48.0rc2) https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -316,9 +316,9 @@ d series:
 -pahole: 1.28 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20241222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.40.0 (to 5.41.7)
+-perl: 5.40.0 (to 5.41.0-RC1)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
-	- DBD-mysql: 4.052 to 5.010 http://www.cpan.org/modules/by-module/DBD/
+	- DBD-mysql: 4.052 to 5.011 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.645 http://www.cpan.org/modules/by-module/DBI/
 	- Devel-Checklib: 1.16 https://www.cpan.org/modules/by-module/Devel/
 	- IO-Socket-SSL: 2.089 https://www.cpan.org/modules/by-module/IO/
@@ -345,7 +345,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.8 to 3.13.1 https://www.python.org/downloads/
 -python-pip: 24.3 https://pypi.python.org/pypi/pip
--python-setuptools: 75.6.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 75.7.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -385,7 +385,7 @@ f series:
 --------------------
 kde series :
 --------------------
--kde: 5.27.11 (plasma) https://download.kde.org/stable/
+-kde: 5.27.12 (plasma) https://download.kde.org/stable/
 -kde: 5.116.0 (framework) https://download.kde.org/stable/
 -kde: 23.08.5 to 24.05.0 (kde gear) https://download.kde.org/stable/
 --------------------
@@ -502,11 +502,11 @@ l series:
 -gsettings-desktop-schemas: 47.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.24.10 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.24.10 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.24.10 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.24.10 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.24.10 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -569,7 +569,7 @@ l series:
 -libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
 -libdvdread: 6.1.3 http://download.videolan.org/videolan/libdvdread/
--libedit: 20240808_3.1 http://www.thrysoee.dk/editline/
+-libedit: 20250104_3.1 http://www.thrysoee.dk/editline/
 -libev: 4.33 http://dist.schmorp.de/libev/Attic
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.24 https://github.com/libexif/libexif/releases
@@ -767,7 +767,7 @@ l series:
 -python-pluggy: 1.5.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-psutil: 6.1.1 https://pypi.org/project/psutil
--python-pygments: 2.18.0 https://pypi.org/project/Pygments
+-python-pygments: 2.19.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.2.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.18.0 https://pypi.org/project/pysol-cards
@@ -781,7 +781,7 @@ l series:
 -python-sphinx: 8.1.3 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2024.10.21.16 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2025.1.6.15 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.3.0 https://github.com/urllib3/urllib3/releases
 -python-versioneer: 0.29 https://pypi.org/project/versioneer
@@ -987,7 +987,7 @@ n series:
 -rp-pppoe: 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.21.2 https://ftp.samba.org/pub/samba/
+-samba: 4.21.2 to 4.21.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.2 http://www.dest-unreach.org/socat/download/
@@ -1081,7 +1081,7 @@ x series: (main packages)
 -libfontenc: 1.1.6
 -libgee: 0.20.6 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.27.9 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.27.1 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
@@ -1127,7 +1127,7 @@ x series: (main packages)
 -xdg-user-dirs: 0.18
 -xdg-utils: 1.2.0 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.16
--xinit: 1.4.2
+-xinit: 1.4.3
 -xkeyboard-config: 2.43
 -xorgproto: 2024.1
 -xorg-server: 21.1.15 http://ftp.x.org/pub/individual/xserver/
@@ -1147,7 +1147,7 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 396 http://invisible-island.net/xterm/
+-xterm: 397 http://invisible-island.net/xterm/
 -wlroots: 0.18.2 https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/
 --------------------
 xap series:
@@ -1185,10 +1185,10 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0964 to 9.1.0990 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0964 to 9.1.0993 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 128.5.2esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-firefox: 128.5.2esr to 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
 -mozilla-thunderbird: 128.5.2esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
