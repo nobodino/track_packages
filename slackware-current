@@ -28,7 +28,7 @@ A series :
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -dracut: 105 https://github.com/dracut-ng/dracut-ng
 -e2fsprogs: 1.47.2 http://download.sourceforge.net/e2fsprogs/
--ed: 1.20.2 http://ftp.gnu.org/pub/gnu/ed/
+-ed: 1.21 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 18 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
@@ -59,7 +59,7 @@ A series :
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
 -inih: r58 https://github.com/benhoyt/inih
--iniparser: 4.2.4 https://github.com/ndevilla/iniparser
+-iniparser: 4.2.5 https://github.com/ndevilla/iniparser
 -inotify-tools: 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
@@ -152,7 +152,7 @@ Ap series :
 -alsa-utils: 1.2.13 https://www.alsa-project.org/files/files/pub/utils/
 -amp: 0.7.6 http://ftp.rasip.fer.hr/pub/mpeg/ ????
 -at: 3.2.5 http://software.calhariz.com/at/
--bc: 1.08.0 to 1.08.1 https://git.yzena.com/gavin/bc/tags
+-bc: 1.08.1 https://git.yzena.com/gavin/bc/tags
 -bpe: 2.01.00 http://bpe.sourceforge.net
 -cdparanoia: 10.2 http://www.xiph.org/paranoia/download/
 -cdrdao: 1.2.5 https://github.com/cdrdao/cdrdao/
@@ -180,7 +180,7 @@ Ap series :
 -hplip: 3.24.4 http://hplipopensource.com
 -htop: 3.3.0 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.36_1 https://github.com/smxi/inxi/tags
+-inxi: 3.3.37_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0964 to 9.1.0993 https://github.com/vim/commits/master
+-vim: 9.1.0964 to 9.1.0998 https://github.com/vim/commits/master
 	- vim: 9.1.0964
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -502,11 +502,11 @@ l series:
 -gsettings-desktop-schemas: 47.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.24.10 to 1.24.11 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.24.11 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.24.11 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.24.11 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.24.11 https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.24.11 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -619,7 +619,7 @@ l series:
 -libpcap: 1.10.5 http://www.tcpdump.org/release/
 -libplacebo: 7.349.0 https://github.com/haasn/libplacebo
 -libplist: 2.6.0 http://www.libimobiledevice.org/
--libpng: 1.6.44 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.45 http://sourceforge.net/projects/libpng/files/libpng16/
 -libppd: 2.1.0 https://github.com/OpenPrinting/libppd
 -libproxy: 0.5.9 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
@@ -685,14 +685,14 @@ l series:
 -mozilla-nss: 3.107 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.107 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
--mozjs128: 128.5.2esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs128: 128.6.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.5 https://mujs.com/downloads
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.34.0 https://github.com/notroj/neon/tags
 -netpbm: 11.09.02 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.24 https://releases.pagure.org/newt
--nodejs: 22.12.0 https://nodejs.org/dist
+-nodejs: 22.13.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.24.1 https://openal-soft.org/openal-releases
@@ -781,7 +781,7 @@ l series:
 -python-sphinx: 8.1.3 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2025.1.6.15 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2025.1.7.14 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.3.0 https://github.com/urllib3/urllib3/releases
 -python-versioneer: 0.29 https://pypi.org/project/versioneer
@@ -987,7 +987,7 @@ n series:
 -rp-pppoe: 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.3.0 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.21.2 to 4.21.3 https://ftp.samba.org/pub/samba/
+-samba: 4.21.3 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.2 http://www.dest-unreach.org/socat/download/
@@ -1185,11 +1185,11 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0964 to 9.1.0993 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0964 to 9.1.0998 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
--mozilla-firefox: 128.5.2esr to 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.5.2esr https://www.thunderbird.net/
+-mozilla-firefox: 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
+-mozilla-thunderbird: 128.6.0esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.161 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
@@ -1201,7 +1201,7 @@ xap series:
 -sane: 1.3.1
 	- sane-backend : 1.3.1 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
--seamonkey: 2.53.19 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.20 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
