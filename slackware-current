@@ -132,7 +132,7 @@ A series :
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.15.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
--util-linux: 2.40.2
+-util-linux: 2.40.2 to 2.40.3
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
@@ -160,7 +160,7 @@ Ap series :
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
 -cups: 2.4.11 https://github.com/openprinting/cups/releases
--cups-browsed: 2.1.0 https://github.com/OpenPrinting/cups-browsed
+-cups-browsed: 2.1.0 to 2.1.1 https://github.com/OpenPrinting/cups-browsed
 -cups-filters: 2.0.1 https://github.com/OpenPrinting/cups-filters/tags
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.0964 to 9.1.0998 https://github.com/vim/commits/master
+-vim: 9.1.0964 to 9.1.1001 https://github.com/vim/commits/master
 	- vim: 9.1.0964
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -278,17 +278,17 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.3 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.31.3 to 3.31.4 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
 -distcc: 3.4 https://github.com/distcc/distcc/releases
--doxygen: 1.13.1 http://www.doxygen.org/download.html
+-doxygen: 1.13.2 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.47.1 (to 2.48.0rc2) https://git-scm.com/download
+-git: 2.47.1 to 2.48.0 https://git-scm.com/download
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -350,7 +350,7 @@ d series:
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.4.1 http://www.ruby-lang.org/
--rust: 1.83.0 https://rust-lang.org
+-rust: 1.83.0 to 1.84.0 https://rust-lang.org
 -rust-bindgen: 0.70.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.8.1 https://github.com/SCons/scons/releases
@@ -463,7 +463,7 @@ l series:
 -ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.2 http://www.fluidsynth.org/
--fmt: 10.2.1 to 11.1.1 https://github.com/fmtlib/fmt/releases/
+-fmt: 11.1.1 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -484,7 +484,7 @@ l series:
 -gjs: 1.82.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
--glib-networking: 2.80.0 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
+-glib-networking: 2.80.0 to 2.80.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
 -glib2: 2.82.4 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibmm2: 2.82.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
@@ -556,7 +556,7 @@ l series:
 -libcap: 2.73 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.5 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
--libcdio: 2.1.0 http://ftp.gnu.org/gnu/libcdio/
+-libcdio: 2.1.1 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
 -libclc: 19.1.6 http://libclc.llvm.org/
 -libcupsfilters: 2.1.0 https://github.com/OpenPrinting/libcupsfilters
@@ -702,7 +702,7 @@ l series:
 -opus: 1.5.2 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.40 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.54.0 to 1.55.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.54.0 to 1.56.0 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.4 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -pangomm2: 2.54.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -719,7 +719,7 @@ l series:
 -poppler: 25.01.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
--protobuf: 29.2 https://github.com/google/protobuf
+-protobuf: 29.2 to 29.3 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.27.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
@@ -781,7 +781,7 @@ l series:
 -python-sphinx: 8.1.3 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2025.1.7.14 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2025.1.10.15 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.3.0 https://github.com/urllib3/urllib3/releases
 -python-versioneer: 0.29 https://pypi.org/project/versioneer
@@ -880,7 +880,7 @@ n series:
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.5.2 https://www.gnupg.org/download/index.html
+-gnupg2: 2.5.2 to 2.5.3 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.8 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.1 https://www.gnupg.org/download/index.html
@@ -1185,7 +1185,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.0964 to 9.1.0998 https://github.com/vim/vim/commits/master
+-gvim: 9.1.0964 to 9.1.1001 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1196,6 +1196,7 @@ xap series:
 -pidgin: 2.14.13
 	-pidgin: 2.14.13 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
+-qalculate-gtk: 5.4.0 https://github.com/Qalculate/qalculate-gtk
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.3.1
