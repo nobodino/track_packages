@@ -132,11 +132,11 @@ A series :
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.15.0 https://liburcu.org
 -utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
--util-linux: 2.40.2 to 2.40.3 (nok)
+-util-linux: 2.40.4
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
-	- util-linux: 2.40.2 https://www.kernel.org/pub/linux/utils/util-linux/
+	- util-linux: 2.40.4 https://www.kernel.org/pub/linux/utils/util-linux/
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.21 http://ftp.gnu.org/gnu/which/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1006 to 9.1.1008 https://github.com/vim/commits/master
+-vim: 9.1.1006 to 9.1.1012 https://github.com/vim/commits/master
 	- vim: 9.1.1006
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -289,6 +289,7 @@ d series:
 -gdb: 15.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.48.0 https://git-scm.com/download
+-googletest: 20250109 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.9 to 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -463,7 +464,7 @@ l series:
 -ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.2 http://www.fluidsynth.org/
--fmt: 11.1.1 https://github.com/fmtlib/fmt/releases/
+-fmt: 11.1.1 to 11.1.2 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -556,7 +557,7 @@ l series:
 -libcap: 2.73 http://sites.google.com/site/fullycapable/
 -libcap-ng: 0.8.5 https://people.redhat.com/sgrubb/libcap-ng/
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
--libcdio: 2.1.1 http://ftp.gnu.org/gnu/libcdio/
+-libcdio: 2.2.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
 -libclc: 19.1.6 http://libclc.llvm.org/
 -libcupsfilters: 2.1.0 https://github.com/OpenPrinting/libcupsfilters
@@ -638,7 +639,7 @@ l series:
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.20 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.6.1 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.6.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.11.1 https://www.libssh.org/files
 -libssh2: 1.11.1 https://github.com/libssh2/libssh2/releases
@@ -685,6 +686,7 @@ l series:
 -mozilla-nss: 3.107 (nss) http://de-mirror.org/gentoo/distfiles/
 	- nss: 3.107 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
+-movit: 1.7.1 https://movit.sesse.net
 -mozjs128: 128.6.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.1 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.5 https://mujs.com/downloads
@@ -713,7 +715,7 @@ l series:
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
 -pipewire: 1.2.7 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
--polkit: v0.125 https://gitlab.freedesktop.org/polkit/polkit/-/tags
+-polkit: v0.125 to v0.126 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
 -poppler: 25.01.0 http://poppler.freedesktop.org/
@@ -782,7 +784,7 @@ l series:
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.1.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2025.1.10.15 https://pypi.org/project/trove-classifiers
--python-typogrify: 2.0.7 https://pypi.org/project/typogrify/#files
+-python-typogrify: 2.1.0 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.3.0 https://github.com/urllib3/urllib3/releases
 -python-versioneer: 0.29 https://pypi.org/project/versioneer
 -python-webencodings: 0.5.1 https://pypi.org/project/webencodings
@@ -931,7 +933,7 @@ n series:
 -ncftp: 3.2.7 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 4.0.8 to 4.1.0 http://netatalk.sourceforge.net/
+-netatalk: 4.1.0 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -1185,7 +1187,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1006 to 9.1.1008 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1006 to 9.1.1012 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
