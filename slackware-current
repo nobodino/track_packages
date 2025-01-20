@@ -42,7 +42,7 @@ A series :
 -findutils: 4.10.0 http://ftp.gnu.org/gnu/findutils/
 -floppy:
 	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
-	- mtools: 4.0.18 to 4.0.45 https://www.gnu.org/software/mtools/
+	- mtools: 4.0.18 to 4.0.47 https://www.gnu.org/software/mtools/
 -gawk: 5.3.1 http://ftp.gnu.org/pub/gnu/gawk/
 -gettext: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2025a https://www.iana.org/time-zones
@@ -98,7 +98,7 @@ A series :
 -openssl11-solibs: 1.1.1zb https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.4.0 https://github.com/openssl/openssl/tags
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
--pam: 1.6.1 to 1.7.0 https://github.com/linux-pam/linux-pam/releases
+-pam: 1.7.0 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.7.6 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.13.0 http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
@@ -253,7 +253,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1006 to 9.1.1033 https://github.com/vim/commits/master
+-vim: 9.1.1006 to 9.1.1039 https://github.com/vim/commits/master
 	- vim: 9.1.1006
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -317,7 +317,7 @@ d series:
 -pahole: 1.28 https://git.kernel.org/cgit/devel/pahole/pahole.git
 -parallel: 20241222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.40.0 to 5.40.1 (to 5.41.0-RC1)
+-perl: 5.40.1 (to 5.41.0-RC1)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.052 to 5.011 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.645 to 1.646 http://www.cpan.org/modules/by-module/DBI/
@@ -335,7 +335,7 @@ d series:
 	- Sub-Quote: 2.006008 https://www.cpan.org/modules/by-module/Sub/
 	- Template-Toolkit: 3.102 https://www.cpan.org/modules/by-module/Template/
 	- TermReadKey: 2.38 https://www.cpan.org/modules/by-module/Term/
-	- URI: 5.30 to 5.31 http://www.cpan.org/modules/by-module/URI/
+	- URI: 5.31 http://www.cpan.org/modules/by-module/URI/
 	- XML-Parser: 2.47 http://www.cpan.org/modules/by-module/XML/
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- libnet: 3.15 https://www.cpan.org/modules/01modules.index.html
@@ -704,7 +704,7 @@ l series:
 -opus: 1.5.2 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.40 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.56.0 to 1.56.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.56.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.4 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -pangomm2: 2.56.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
@@ -880,7 +880,7 @@ n series:
 -epic5: 3.0.2 http://www.epicsol.org/
 -ethtool: 5.19 to 6.11 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.5.2 https://www.fetchmail.info/
--getmail: 6.19.05 https://github.com/getmail6/getmail6/releases
+-getmail: 6.19.06 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.5.3 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.8 http://www.gnu.org/software/gnutls/
@@ -1186,7 +1186,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1006 to 9.1.1033 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1006 to 9.1.1039 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
