@@ -74,7 +74,7 @@ A series :
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.2.1 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
--libcgroup: 0.41 to 3.1.0 https://github.com/libcgroup/libcgroup/releases
+-libcgroup: 3.1.0 https://github.com/libcgroup/libcgroup/releases
 -libgudev: 238 https://download.gnome.org/sources/libgudev/
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
@@ -112,7 +112,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.16.0 to 4.17.2 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.17.2 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -143,7 +143,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.22 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.12.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.6.3 to 5.6.4 http://tukaani.org/xz/
+-xz: 5.6.4 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1050 to 9.1.105x https://github.com/vim/commits/master
+-vim: 9.1.1050 to 9.1.1054 https://github.com/vim/commits/master
 	- vim: 9.1.1050
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -272,7 +272,7 @@ d series:
 -automake: 1.17 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.43.1 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--cargo-vendor-filterer: 0.5.16 https://github.com/coreos/cargo-vendor-filterer
+-cargo-vendor-filterer: 0.5.17 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.27.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.10.2 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
@@ -280,7 +280,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.4 to 3.31.5 http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.31.5 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -309,7 +309,7 @@ d series:
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9.1 https://www.mercurial-scm.org/release
--meson: 1.6.1 https://github.com/mesonbuild/meson/releases
+-meson: 1.6.1 to 1.7.0 https://github.com/mesonbuild/meson/releases
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 12.2.72.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -347,7 +347,7 @@ d series:
 -poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.8 to 3.13.1 https://www.python.org/downloads/
--python-pip: 24.3 https://pypi.python.org/pypi/pip
+-python-pip: 25.0 https://pypi.python.org/pypi/pip
 -python-setuptools: 75.7.0 to 75.8.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -410,7 +410,7 @@ l series:
 -SDL2_ttf: 2.24.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.8.0 https://git.adelielinux.org/community/a52dec/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
--abseil-cpp: 20240722.0 https://github.com/abseil/abseil-cpp
+-abseil-cpp: 20240722.1 https://github.com/abseil/abseil-cpp
 -accountsservice: 23.13.9 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 47.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -adwaita-icon-theme-legacy: 20240517 https://gitlab.gnome.org/jimmac/adwaita-icon-theme-legacy
@@ -465,8 +465,8 @@ l series:
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
--fluidsynth: 2.4.2 http://www.fluidsynth.org/
--fmt: 11.1.2 https://github.com/fmtlib/fmt/releases/
+-fluidsynth: 2.4.3 http://www.fluidsynth.org/
+-fmt: 11.1.2 to 11.1.3 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -512,7 +512,7 @@ l series:
 -gstreamer: 1.24.11 to 1.25.1 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.43 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.48 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.16.12 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
@@ -622,7 +622,7 @@ l series:
 -libpcap: 1.10.5 http://www.tcpdump.org/release/
 -libplacebo: 7.349.0 https://github.com/haasn/libplacebo
 -libplist: 2.6.0 http://www.libimobiledevice.org/
--libpng: 1.6.45 to 1.6.46 http://sourceforge.net/projects/libpng/files/libpng16/
+-libpng: 1.6.46 http://sourceforge.net/projects/libpng/files/libpng16/
 -libppd: 2.1.0 https://github.com/OpenPrinting/libppd
 -libproxy: 0.5.9 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
@@ -635,7 +635,7 @@ l series:
 -libsass: 3.6.6 https://github.com/sass/libsass/releases
 -libsigc++: 2.12.1 https://github.com/libsigcplusplus/libsigcplusplus/releases
 -libsigc++3: 3.6.0 https://github.com/libsigcplusplus/libsigcplusplus/releases
--libseccomp: 2.5.5 https://github.com/seccomp/libseccomp/releases
+-libseccomp: 2.6.0 https://github.com/seccomp/libseccomp/releases
 -libsecret: 0.21.6 http://ftp.gnome.org/pub/gnome/sources/libsecret/
 -libsigsegv: 2.14 https://ftp.gnu.org/gnu/libsigsegv/
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
@@ -839,7 +839,7 @@ l series:
 -utf8proc: 2.10.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.28.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.78.1 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.78.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.7.0 https://www.wavpack.com/downloads.html
 -wireplumber: 0.5.7 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
@@ -882,14 +882,14 @@ n series:
 -epic5: 3.0.2 http://www.epicsol.org/
 -ethtool: 5.19 to 6.11 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.5.2 https://www.fetchmail.info/
--getmail: 6.19.06 https://github.com/getmail6/getmail6/releases
+-getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.5.3 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.8 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
--httpd: 2.4.62 to 2.4.63 http://www.apache.org/dist/httpd/
+-httpd: 2.4.63 http://www.apache.org/dist/httpd/
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
@@ -1188,7 +1188,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1050 to 9.1.105x https://github.com/vim/vim/commits/master
+-gvim: 9.1.1050 to 9.1.1054 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
