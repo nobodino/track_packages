@@ -244,7 +244,7 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.46.1 to 3.48.0 http://www.sqlite.org/download.html
+-sqlite: 3.46.1 to 3.49.0 http://www.sqlite.org/download.html
 -squashfs-tools: 4.6.1 http://squashfs.sourceforge.net/
 -stow: 2.4.1 https://www.gnu.org/software/stow/
 -sudo: 1.9.16p2 https://github.com/sudo-project/sudo/releases
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1050 to 9.1.1077 https://github.com/vim/commits/master
+-vim: 9.1.1050 to 9.1.1081 https://github.com/vim/commits/master
 	- vim: 9.1.1050
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -412,7 +412,7 @@ SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
 -SDL2_ttf: 2.24.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.8.0 https://git.adelielinux.org/community/a52dec/
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
--abseil-cpp: 20240722.1 https://github.com/abseil/abseil-cpp
+-abseil-cpp: 20250127.0 https://github.com/abseil/abseil-cpp
 -accountsservice: 23.13.9 https://www.freedesktop.org/software/accountsservice
 -adwaita-icon-theme: 47.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -adwaita-icon-theme-legacy: 20240517 https://gitlab.gnome.org/jimmac/adwaita-icon-theme-legacy
@@ -837,7 +837,7 @@ SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
 -talloc: 2.4.2 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
--tdb: 1.4.11 https://www.samba.org/ftp/tdb/
+-tdb: 1.4.13 https://www.samba.org/ftp/tdb/
 -tevent: 0.16.1 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -unicode-ucd: 16.0.0 https://www.unicode.org/Public/zipped/15.1.0/UCD.zip
@@ -1139,7 +1139,7 @@ x series: (main packages)
 -xkeyboard-config: 2.43
 -xorgproto: 2024.1
 -xorg-server: 21.1.15 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 24.1.4 to 24.1.5
+-xorg-server-xwayland: 24.1.5
 -xf86-input-evdev: 2.11.0
 -xf86-input-libinput: 1.5.0
 -xf86-input-wacom: 1.2.3
@@ -1193,7 +1193,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1050 to 9.1.1077 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1050 to 9.1.1081 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1216,7 +1216,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.3ga10 to 4.4ga3 http://x3270.bgp.nu/download.html
+-x3270: 4.4ga3 http://x3270.bgp.nu/download.html
 -xaos: 4.3.3 https://github.com/xaos-project/XaoS/releases
 -mpv: 0.39.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
@@ -1294,7 +1294,7 @@ testing :
 -gimp: 3.0.0_RC2
 -glibc: 2.41
 -kernel: 6.13.1
--mesa: 25.0.0_rc1
+-mesa: 25.0.0_rc2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
