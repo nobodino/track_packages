@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1050 to 9.1.1081 https://github.com/vim/commits/master
+-vim: 9.1.1050 to 9.1.1082 https://github.com/vim/commits/master
 	- vim: 9.1.1050
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -266,7 +266,7 @@ Ap series :
 ------------------
 d series:
 --------------------
--AMF-headers: 1.4.35 https://github.com/GPUOpen-LibrariesAndSDKs/AMF
+-AMF-headers: 1.4.36 https://github.com/GPUOpen-LibrariesAndSDKs/AMF
 -Cython: 3.0.11 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2024.10.16 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
@@ -404,7 +404,7 @@ l series:
 -PyQt5_sip: 12.17.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.30.12 https://github.com/libsdl-org/SDL/releases
-SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
+SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.4 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
@@ -648,7 +648,7 @@ SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.11.1 https://www.libssh.org/files
 -libssh2: 1.11.1 https://github.com/libssh2/libssh2/releases
--libtasn1: 4.19.0 http://ftp.gnu.org/gnu/libtasn1/
+-libtasn1: 4.20.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.1.1 https://www.xiph.org/downloads/
 -libtiff: 4.7.0 https://download.osgeo.org/libtiff/
 -libtraceevent: 1.8.4 https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/
@@ -676,7 +676,7 @@ SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
 -libxml2: 2.13.5 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
--libxkbcommon: 1.7.0 https://github.com/xkbcommon/libxkbcommon/releases
+-libxkbcommon: 1.8.0 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.42 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.11.3 https://libzip.org/download/
 -lmdb: 0.9.33 https://github.com/LMDB/lmdb/tags
@@ -721,7 +721,7 @@ SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 4.10.0 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.2.7 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.2.7 (to 1.3.82) https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.126 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
@@ -834,11 +834,11 @@ SDL3: 3.2.2 https://github.com/libsdl-org/SDL/releases
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
 -taglib: 1.13.1 to 2.0.2 https://taglib.github.io/
--talloc: 2.4.2 https://www.samba.org/ftp/talloc/
+-talloc: 2.4.3 https://www.samba.org/ftp/talloc/
 -tango-icon-theme: 0.8.90 http://tango.freedesktop.org/releases/
 -tango-icon-theme-extras: 0.1.0 http://tango.freedesktop.org/releases/
 -tdb: 1.4.13 https://www.samba.org/ftp/tdb/
--tevent: 0.16.1 https://www.samba.org/ftp/tevent/
+-tevent: 0.16.2 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -unicode-ucd: 16.0.0 https://www.unicode.org/Public/zipped/15.1.0/UCD.zip
 -utf8proc: 2.10.0 https://github.com/JuliaStrings/utf8proc/releases
@@ -1193,7 +1193,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1050 to 9.1.1081 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1050 to 9.1.1082 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1216,7 +1216,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.4ga3 http://x3270.bgp.nu/download.html
+-x3270: 4.4ga4 http://x3270.bgp.nu/download.html
 -xaos: 4.3.3 https://github.com/xaos-project/XaoS/releases
 -mpv: 0.39.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
@@ -1234,7 +1234,7 @@ xap series:
 xfce: 4.20 https://gitlab.xfce.org/xfce/
 --------------------
 -Greybird: 3.23.4
--elementary-xfce: 0.20.0
+-elementary-xfce: 0.20.1
 -exo: 4.20.0
 -garcon: 4.20.0
 -libxfce4ui: 4.20.0
