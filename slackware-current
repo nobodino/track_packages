@@ -66,8 +66,8 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.12 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250131 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.13 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250508 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
@@ -119,7 +119,7 @@ A series :
 -sysfsutils: 2.1.1 https://github.com/linux-ras/sysfsutils
 -sysklogd: 2.7.0 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
--sysvinit: 3.13 https://github.com/slicer69/sysvinit/releases
+-sysvinit: 3.14 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
 -sysvinit-scripts: 2.0
 -tar: 1.35 http://ftp.gnu.org/pub/gnu/tar/ ou http://alpha.gnu.org/gnu/tar/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1050 to 9.1.1082 https://github.com/vim/commits/master
+-vim: 9.1.1050 to 9.1.1086 https://github.com/vim/commits/master
 	- vim: 9.1.1050
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -301,7 +301,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.12 http://wwww.kernel.org
+-kernel-headers: 6.12.13 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.7 http://llvm.org/
@@ -385,7 +385,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.12 
+-kernel : 6.12.13 
 --------------------
 kde series :
 --------------------
@@ -398,7 +398,7 @@ l series:
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
 -Imath: 3.1.12 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.21.3 http://www.libraw.org/
--Mako: 1.3.5 to 1.3.7 http://www.python.org/pypi/Mako/
+-Mako: 1.3.5 to 1.3.9 http://www.python.org/pypi/Mako/
 -PyQT5: 5.15.11 https://pypi.org/project/PyQt5
 -PyQt-builder: 1.18.0 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.17.0 https://pypi.org/project/PyQt5-sip/
@@ -406,8 +406,8 @@ l series:
 -SDL2: 2.30.12 https://github.com/libsdl-org/SDL/releases
 SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
--SDL2_image: 2.8.4 https://www.libsdl.org/projects/SDL2_image/
--SDL2_mixer: 2.8.0 https://www.libsdl.org/projects/SDL2_mixer/
+-SDL2_image: 2.8.5 https://www.libsdl.org/projects/SDL2_image/
+-SDL2_mixer: 2.8.1 https://www.libsdl.org/projects/SDL2_mixer/
 -SDL2_net: 2.2.0 https://www.libsdl.org/projects/SDL2_net/
 -SDL2_ttf: 2.24.0 https://www.libsdl.org/projects/SDL2_ttf/
 -a52dec: 0.8.0 https://git.adelielinux.org/community/a52dec/
@@ -478,7 +478,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -fuse3: 3.16.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
--gcr4: 4.2.1 to 4.3.0 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
+-gcr4: 4.2.1 to 4.3.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
@@ -846,7 +846,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.78.3 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.8.1 https://www.wavpack.com/downloads.html
--wireplumber: 0.5.7 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
+-wireplumber: 0.5.8 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
 -xapian-core: 1.4.27 http://www.xapian.org/
 -xxHash: 0.8.3 https://github.com/Cyan4973/xxHash/releases
@@ -890,7 +890,7 @@ n series:
 -getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.5.3 https://www.gnupg.org/download/index.html
--gnutls: 3.8.8 http://www.gnu.org/software/gnutls/
+-gnutls: 3.8.9 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.1 https://www.gnupg.org/download/index.html
 -htdig: 3.2.0b6 http://www.htdig.org/
@@ -1193,7 +1193,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1050 to 9.1.1082 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1050 to 9.1.1086 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1293,7 +1293,7 @@ extra:
 testing :
 -gimp: 3.0.0_RC2
 -glibc: 2.41
--kernel: 6.13.1
+-kernel: 6.13.2
 -mesa: 25.0.0_rc2
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
@@ -1323,6 +1323,22 @@ Intel i6700: grep . /sys/devices/system/cpu/vulnerabilities/*
 /sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: IBRS, IBPB: conditional, RSB filling, PBRSB-eIBRS: Not affected
 /sys/devices/system/cpu/vulnerabilities/srbds:Mitigation: Microcode
 /sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Mitigation: TSX disabled
+/-----------------------------------------------------------------------------------/
+EliteBook G3: grep . /sys/devices/system/cpu/vulnerabilities/*
+/sys/devices/system/cpu/vulnerabilities/gather_data_sampling:Not affected
+/sys/devices/system/cpu/vulnerabilities/itlb_multihit:KVM: Mitigation: VMX unsupported
+/sys/devices/system/cpu/vulnerabilities/l1tf:Mitigation: PTE Inversion
+/sys/devices/system/cpu/vulnerabilities/mds:Mitigation: Clear CPU buffers; SMT vulnerable
+/sys/devices/system/cpu/vulnerabilities/meltdown:Mitigation: PTI
+/sys/devices/system/cpu/vulnerabilities/mmio_stale_data:Unknown: No mitigations
+/sys/devices/system/cpu/vulnerabilities/reg_file_data_sampling:Not affected
+/sys/devices/system/cpu/vulnerabilities/retbleed:Not affected
+/sys/devices/system/cpu/vulnerabilities/spec_rstack_overflow:Not affected
+/sys/devices/system/cpu/vulnerabilities/spec_store_bypass:Mitigation: Speculative Store Bypass disabled via prctl
+/sys/devices/system/cpu/vulnerabilities/spectre_v1:Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+/sys/devices/system/cpu/vulnerabilities/spectre_v2:Mitigation: Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected
+/sys/devices/system/cpu/vulnerabilities/srbds:Mitigation: Microcode
+/sys/devices/system/cpu/vulnerabilities/tsx_async_abort:Not affected
 /-----------------------------------------------------------------------------------/
 nvidia-smi --query-gpu=driver_version --format=csv,noheader
 /-----------------------------------------------------------------------------------/
