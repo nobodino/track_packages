@@ -97,7 +97,7 @@ A series :
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl11-solibs: 1.1.1zb https://github.com/openssl/openssl/tags
+-openssl11-solibs: 1.1.1zb_p2 https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.4.0 https://github.com/openssl/openssl/tags
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.7.0 https://github.com/linux-pam/linux-pam/releases
@@ -229,7 +229,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 11.9.1 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 11.10.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rdfind: 1.7.0 https://github.com/pauldreik/rdfind
 -rpm: 4.20.0 http://ftp.rpm.org/releases
@@ -255,8 +255,8 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1050 to 9.1.1086 https://github.com/vim/commits/master
-	- vim: 9.1.1050
+-vim: 9.1.1094 to 9.1.109x https://github.com/vim/commits/master
+	- vim: 9.1.1094
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
@@ -274,7 +274,7 @@ d series:
 -binutils: 2.43.1 to 2.44 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-vendor-filterer: 0.5.17 https://github.com/coreos/cargo-vendor-filterer
--cbindgen: 0.27.0 https://github.com/mozilla/cbindgen/tags
+-cbindgen: 0.28.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.10.2 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.23 https://github.com/Oblomov/clinfo
@@ -348,21 +348,21 @@ d series:
 -poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.9 to 3.13.2 https://www.python.org/downloads/
--python-pip: 25.0 https://pypi.python.org/pypi/pip
+-python-pip: 25.0.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 75.7.0 to 75.8.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.4.1 http://www.ruby-lang.org/
 -rust: 1.84.1 https://rust-lang.org
--rust-bindgen: 0.70.1 https://github.com/rust-lang/rust-bindgen/tags
+-rust-bindgen: 0.71.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.8.1 https://github.com/SCons/scons/releases
 -slacktrack: 2.24 http://www.slackware.com/~mozes
 -strace: 6.13 https://github.com/strace/strace/releases
 -subversion: 1.14.5 https://subversion.apache.org
 -swig: 4.3.0 http://www.swig.org/download.html
--tree-sitter: 0.24.4 https://github.com/tree-sitter/tree-sitter
+-tree-sitter: 0.24.4 to 0.25.0 https://github.com/tree-sitter/tree-sitter
 -vala: 0.56.17 https://gitlab.gnome.org/GNOME/vala/-/tags
 -valgrind: 3.24.0 http://sourceware.org/pub/valgrind
 -yasm: 1.3.0 http://yasm.tortall.net/
@@ -403,7 +403,7 @@ l series:
 -PyQt-builder: 1.18.0 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.17.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
--SDL2: 2.30.12 https://github.com/libsdl-org/SDL/releases
+-SDL2: 2.32.0 https://github.com/libsdl-org/SDL/releases
 SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.5 https://www.libsdl.org/projects/SDL2_image/
@@ -483,7 +483,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.24 http://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.52 https://download.gimp.org/pub/gegl/
+-gegl: 0.4.54 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.3 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2024.1 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
@@ -580,7 +580,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.25 https://github.com/libexif/libexif/releases
 -libfakekey: 0.3 https://git.yoctoproject.org/libfakekey/
--libffi: 3.4.6 https://github.com/libffi/libffi/releases/
+-libffi: 3.4.7 https://github.com/libffi/libffi/releases/
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.31 http://www.gphoto.org/
@@ -618,7 +618,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -libnvme: 1.11.1 https://github.com/linux-nvme/libnvme
 -libodfgen: 0.1.8 https://sourceforge.net/projects/libwpd/files/libodfgen/
 -libogg: 1.3.5 https://www.xiph.org/downloads/
--liboggz: 1.1.1 https://www.xiph.org/downloads/
+-liboggz: 1.1.2 https://www.xiph.org/downloads/
 -liboil: 0.3.17 http://liboil.freedesktop.org/download/
 -libopusenc: 0.2.1 https://libopusenc-codec.org/
 -libpaper: 2.2.6 https://github.com/rrthomas/libpaper
@@ -974,7 +974,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.13.2 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.9p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl11: 1.1.1zb http://ftp.openssl.org/source/
+-openssl11: 1.1.1zb_p2 http://ftp.openssl.org/source/
 -openssl: 3.4.0 http://ftp.openssl.org/source/
 -openvpn: 2.6.13 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
@@ -1193,7 +1193,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1050 to 9.1.1086 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1094 to 9.1.109x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1255,7 +1255,7 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -xfce4-screensaver: 4.18.4
 -xfce4-screenshooter: 1.11.1
 -xfce4-session: 4.20.0
--xfce4-settings: 4.20.0
+-xfce4-settings: 4.20.1
 -xfce4-systemload-plugin: 1.3.3
 -xfce4-taskmanager: 1.5.8
 -xfce4-terminal: 1.1.4
@@ -1291,7 +1291,7 @@ extra:
 -xv: 6.0.2
 --------------------
 testing :
--gimp: 3.0.0_RC2
+-gimp: 3.0.0_RC2 to RC3
 -glibc: 2.41
 -kernel: 6.13.2
 -mesa: 25.0.0_rc2
