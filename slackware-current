@@ -173,7 +173,7 @@ Ap series :
 -dmidecode: 3.6 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
 -enscript: 1.6.6 https://ftp.gnu.org/gnu/enscript/
--flac: 1.4.3 to 1.5 http://downloads.xiph.org/releases/flac/
+-flac: 1.5.0 http://downloads.xiph.org/releases/flac/
 -ghostscript-fonts-std: 8.11
 -ghostscript: 10.04.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.28 http://www.gphoto.org/ or https://github.com/gphoto
@@ -312,6 +312,7 @@ d series:
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9.1 https://www.mercurial-scm.org/release
 -meson: 1.7.0 https://github.com/mesonbuild/meson/releases
+-mold: 2.36.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 13.0.19.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -880,7 +881,7 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.1.0 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.2.0 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21.1 to 2.4.0 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -890,7 +891,7 @@ n series:
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.5.3 https://www.gnupg.org/download/index.html
+-gnupg2: 2.5.3 to 2.5.4 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.9 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.2 https://www.gnupg.org/download/index.html
@@ -1072,7 +1073,7 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.31 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
--ibus-libpinyin: 1.15.8 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.16.0 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.35
 -ibus-table: 1.17.10
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
@@ -1292,10 +1293,10 @@ extra:
 -xfractint: 20.04p
 -xv: 6.0.2
 --------------------
-testing :
+testing:
 -gimp: 3.0.0_RC3
 -kernel: 6.13.2
--mesa: 25.0.0_rc2
+-mesa: 25.0.0_rc3
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
