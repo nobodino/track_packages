@@ -72,7 +72,7 @@ A series :
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
--libblockdev: 3.2.1 https://github.com/rhinstaller/libblockdev
+-libblockdev: 3.3.0 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
 -libcgroup: 3.1.0 https://github.com/libcgroup/libcgroup/releases
 -libgudev: 238 https://download.gnome.org/sources/libgudev/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1094 to 9.1.1111 https://github.com/vim/commits/master
+-vim: 9.1.1094 to 9.1.1113 https://github.com/vim/commits/master
 	- vim: 9.1.1094
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -278,7 +278,7 @@ d series:
 -cbindgen: 0.28.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.10.2 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
--clinfo: 3.0.23 https://github.com/Oblomov/clinfo
+-clinfo: 3.0.25 https://github.com/Oblomov/clinfo
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
@@ -355,7 +355,7 @@ d series:
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.0.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
--ruby: 3.4.1 http://www.ruby-lang.org/
+-ruby: 3.4.1 to 3.4.2 http://www.ruby-lang.org/
 -rust: 1.84.1 https://rust-lang.org
 -rust-bindgen: 0.71.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
@@ -506,6 +506,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -gobject-introspection: 1.82.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
+-graphviz: 12.2.1 https://gitlab.com/graphviz/graphviz
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 47.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
@@ -777,7 +778,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -python-pillow: 11.1.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.5.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-psutil: 6.1.1 https://pypi.org/project/psutil
+-python-psutil: 7.0.0 https://pypi.org/project/psutil
 -python-pygments: 2.19.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.2.0 https://pypi.org/project/pyproject_hooks/#files
@@ -874,7 +875,7 @@ n series:
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20250131 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.34.4 https://c-ares.org/
--cifs-utils: 7.1 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 7.2 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.12.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
@@ -981,7 +982,7 @@ n series:
 -openvpn: 2.6.13 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.16 to 8.4.4 https://www.php.net/
+-php: 8.3.17 to 8.4.4 https://www.php.net/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1196,7 +1197,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1094 to 9.1.1111 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1094 to 9.1.1113 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
