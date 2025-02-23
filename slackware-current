@@ -40,9 +40,9 @@ A series :
 -f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.46 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
 -findutils: 4.10.0 http://ftp.gnu.org/gnu/findutils/
--floppy:
-	- fdutils: 5.5-20081027 to 5.6 http://fdutils.linux.lu/
-	- mtools: 4.0.47 https://www.gnu.org/software/mtools/
+-floppy: 5.6
+	- fdutils: 5.6 http://fdutils.linux.lu/
+	- mtools: 4.0.48 https://www.gnu.org/software/mtools/
 -gawk: 5.3.1 http://ftp.gnu.org/pub/gnu/gawk/
 -gettext: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2025a https://www.iana.org/time-zones
@@ -68,7 +68,7 @@ A series :
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.12.16 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20250220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 33 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kmod: 34 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
@@ -82,7 +82,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.30 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.15 https://download.savannah.nongnu.org/releases/lzip/lzlib/
--mcelog: 202 https://github.com/andikleen/mcelog/tags
+-mcelog: 204 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.9 https://salsa.debian.org/minicom-team/minicom/-/tags
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.11120 to 9.1.1134 https://github.com/vim/commits/master
+-vim: 9.1.11120 to 9.1.1136 https://github.com/vim/commits/master
 	- vim: 9.1.1120
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -273,7 +273,7 @@ d series:
 -automake: 1.17 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.43.1 to 2.44 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
--cargo-c: 0.10.9 https://github.com/lu-zero/cargo-c
+-cargo-c: 0.10.11 https://github.com/lu-zero/cargo-c
 -cargo-vendor-filterer: 0.5.17 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.28.0 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.10.2 https://ccache.dev/download.html
@@ -320,7 +320,7 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.29 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20250122 https://www.gnu.org/software/parallel/
+-parallel: 20250222 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
 -perl: 5.40.1 (to 5.41.0-RC1)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
@@ -532,7 +532,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 76.1 (to 77-rc) https://icu.unicode.org/
--imagemagick: 7.1.1_43 http://www.imagemagick.org/
+-imagemagick: 7.1.1_43 to 44 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -786,13 +786,13 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -python-pysol_cards: 0.18.1 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.2 https://pypi.python.org/pypi/random2
 -python-requests: 2.32.3 https://pypi.org/project/requests/
--python-roman-numerals-py: 3.0.0 https://pypi.org/project/roman-numerals-py
+-python-roman-numerals-py: 3.1.0 https://pypi.org/project/roman-numerals-py
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
--python-setuptools_scm: 8.1.0 https://pypi.org/project/setuptools_scm
+-python-setuptools_scm: 8.2.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.17.0 https://pypi.org/project/six/
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
--python-sphinx: 8.2.0 https://pypi.org/project/sphinx
+-python-sphinx: 8.2.1 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.2.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2025.2.18.16 https://pypi.org/project/trove-classifiers
@@ -1004,7 +1004,7 @@ n series:
 -samba: 4.21.4 (to 4.22.0rc3) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
--socat: 1.8.0.2 http://www.dest-unreach.org/socat/download/
+-socat: 1.8.0.3 http://www.dest-unreach.org/socat/download/
 -sshfs: 3.7.3 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.74 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
@@ -1023,7 +1023,7 @@ n series:
 -wget2: 2.2.0 http://ftp.gnu.org/gnu/wget/
 -whois: 5.5.23 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20210914 https://git.zx2c4.com/wireguard-tool
--wireless-regdb: 2024.10.07 http://kernel.org/pub/software/network/wireless-regdb/
+-wireless-regdb: 2025.02.20 http://kernel.org/pub/software/network/wireless-regdb/
 -wireless_tools: 30pre9 http://pcmcia-cs.soureforge.net/ftp/contrib/ or http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 -wpa_supplicant: 2.11 https://w1.fi/wpa_supplicant/
 -wsdd2: 1.8.7 https://github.com/Netgear/wsdd2
@@ -1080,7 +1080,7 @@ x series: (main packages)
 -ibus-m17n: 1.4.35
 -ibus-table: 1.17.11
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
--labwc: 0.8.2 https://github.com/labwc/labwc
+-labwc: 0.8.3 https://github.com/labwc/labwc
 -libdisplay-info: 0.2.0 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
@@ -1199,7 +1199,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1120 to 9.1.1134 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1120 to 9.1.1136 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
