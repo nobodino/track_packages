@@ -85,7 +85,7 @@ A series :
 -mcelog: 204 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
-	- minicom: 2.9 https://salsa.debian.org/minicom-team/minicom/-/tags
+	- minicom: 2.10 https://salsa.debian.org/minicom-team/minicom/-/tags
 	- lrzsz: 0.12.21 http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
 -mkinitrd: 1.4.11
 	- busybox: 1.32.1 to 1.36.1 http://www.busybox.net/
@@ -112,7 +112,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.17.2 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.17.2 to 4.17.3 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -216,7 +216,7 @@ Ap series :
 -lzip: 1.25 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
--man-pages: 6.11 http://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.12 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 11.14.5 http://mariadb.org/
 -mc: 4.8.33 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.11120 to 9.1.1144 https://github.com/vim/commits/master
+-vim: 9.1.11120 to 9.1.1147 https://github.com/vim/commits/master
 	- vim: 9.1.1120
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.5 (to 4.0.0-rc1) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.31.6 (to 4.0.0-rc1) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -511,11 +511,11 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -gsettings-desktop-schemas: 47.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.24.12 to 1.25.50 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.24.12 to 1.25.50 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.24.12 to 1.25.50 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.24.12 to 1.25.50 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.24.12 to 1.25.50 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.48 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -633,7 +633,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -libproxy: 0.5.9 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 5.5.0 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 5.5.1 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.59.2 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -830,7 +830,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
 -sof-firmware: 2025.01 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
--speech-dispatcher: 0.11.5 https://github.com/brailcom/speechd/releases
+-speech-dispatcher: 0.12.0 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
 -spirv-llvm-translator: 19.1.4 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
@@ -884,7 +884,7 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.2.0 to 10.2.1 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.2.1 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21.1 to 2.4.0 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -988,7 +988,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.10.0 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.10.1 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.5.2
 	-ppp: 2.5.2 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -1199,7 +1199,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1120 to 9.1.1144 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1120 to 9.1.1147 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1210,8 +1210,8 @@ xap series:
 -pidgin: 2.14.14
 	-pidgin: 2.14.14 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
--qalculate-gtk: 5.5.0 https://github.com/Qalculate/qalculate-gtk
--qalculate-qt: 5.5.0 https://github.com/Qalculate/qalculate-qtv
+-qalculate-gtk: 5.5.1 https://github.com/Qalculate/qalculate-gtk
+-qalculate-qt: 5.5.1 https://github.com/Qalculate/qalculate-qtv
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.3.1
