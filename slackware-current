@@ -44,7 +44,7 @@ A series :
 	- fdutils: 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.48 https://www.gnu.org/software/mtools/
 -gawk: 5.3.1 http://ftp.gnu.org/pub/gnu/gawk/
--gettext: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2025a https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
@@ -112,7 +112,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.17.2 to 4.17.3 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.17.3 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.11120 to 9.1.1147 https://github.com/vim/commits/master
+-vim: 9.1.11120 to 9.1.1151 https://github.com/vim/commits/master
 	- vim: 9.1.1120
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -282,7 +282,7 @@ d series:
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.6 (to 4.0.0-rc1) http://www.cmake.org/cmake/resources/software.html
+-cmake: 3.31.6 (to 4.0.0-rc2) http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -291,7 +291,7 @@ d series:
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 16.2 http://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.23.1 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.48.1 https://git-scm.com/download
 -googletest: 20250109 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
@@ -351,7 +351,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.9 to 3.13.2 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
--python-setuptools: 75.7.0 to 75.8.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 75.8.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -402,7 +402,7 @@ l series:
 -LibRaw: 0.21.3 http://www.libraw.org/
 -Mako: 1.3.5 to 1.3.9 http://www.python.org/pypi/Mako/
 -PyQT5: 5.15.11 https://pypi.org/project/PyQt5
--PyQt-builder: 1.18.0 https://pypi.org/project/PyQt-builder/
+-PyQt-builder: 1.18.1 https://pypi.org/project/PyQt-builder/
 -PyQt5_sip: 12.17.0 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.32.0 https://github.com/libsdl-org/SDL/releases
@@ -884,7 +884,7 @@ n series:
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
--dhcpcd: 10.2.1 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.2.2 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.90 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.3.21.1 to 2.4.0 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -1144,8 +1144,8 @@ x series: (main packages)
 -xinit: 1.4.3
 -xkeyboard-config: 2.44
 -xorgproto: 2024.1
--xorg-server: 21.1.15 http://ftp.x.org/pub/individual/xserver/
--xorg-server-xwayland: 24.1.5
+-xorg-server: 21.1.16 http://ftp.x.org/pub/individual/xserver/
+-xorg-server-xwayland: 24.1.6
 -xf86-input-evdev: 2.11.0
 -xf86-input-libinput: 1.5.0
 -xf86-input-wacom: 1.2.3
@@ -1199,7 +1199,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1120 to 9.1.1147 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1120 to 9.1.1151 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
