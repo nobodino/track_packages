@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.11120 to 9.1.1151 https://github.com/vim/commits/master
+-vim: 9.1.11120 to 9.1.1153 https://github.com/vim/commits/master
 	- vim: 9.1.1120
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 16.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.48.1 https://git-scm.com/download
+-git: 2.48.1 (to 2.49.0.rc0) https://git-scm.com/download
 -googletest: 20250109 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
@@ -471,7 +471,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.3 http://www.fluidsynth.org/
--fmt: 11.1.3 https://github.com/fmtlib/fmt/releases/
+-fmt: 11.1.3 to 11.1.4 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -1199,7 +1199,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1120 to 9.1.1151 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1120 to 9.1.1153 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
