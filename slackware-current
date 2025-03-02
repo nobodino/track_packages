@@ -10,7 +10,7 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.037 (to 5.3-beta) http://ftp.gnu.org/pub/gnu/bash/
--bcachefs-tools: 1.13.0 https://evilpiepirate.org/bcachefs-tools/
+-bcachefs-tools: 1.20.0 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -21,7 +21,7 @@ A series :
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.10.3 https://github.com/cracklib/cracklib
 -cryptsetup: 2.7.5 https://gitlab.com/cryptsetup/cryptsetup
--dbus: 1.16.0 http://dbus.freedesktop.org/releases/dbus/
+-dbus: 1.16.2 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
 -dialog: 1.3_20250116 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
@@ -66,7 +66,7 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.16 https://www.kernel.org/pub/linux/kernel/
+-kernel-ide: 6.12.17 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20250220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
@@ -80,7 +80,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.30 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.31 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.15 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 204 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -168,7 +168,7 @@ Ap series :
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.29 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.67 https://invisible-island.net/archives/diffstat/
--diffutils: 3.11 http://ftp.gnu.org/pub/gnu/diffutils/
+-diffutils: 3.10 (to 3.11 nok) http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
 -dmidecode: 3.6 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.11120 to 9.1.1153 https://github.com/vim/commits/master
+-vim: 9.1.1120 to 9.1.1163 https://github.com/vim/commits/master
 	- vim: 9.1.1120
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -302,7 +302,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.16 http://wwww.kernel.org
+-kernel-headers: 6.12.17 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 19.1.7 http://llvm.org/
@@ -310,7 +310,7 @@ d series:
 -luajit: 2.1.1736781742 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.9.2 https://www.mercurial-scm.org/release
+-mercurial: 6.9.2 (to 7.0.0rc0) https://www.mercurial-scm.org/release
 -meson: 1.7.0 https://github.com/mesonbuild/meson/releases
 -mold: 2.36.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
@@ -351,7 +351,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.9 to 3.13.2 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
--python-setuptools: 75.8.1 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 75.8.2 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -387,7 +387,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.16 
+-kernel : 6.12.17 
 --------------------
 kde series :
 --------------------
@@ -471,7 +471,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -ffmpeg: 7.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.3 http://www.fluidsynth.org/
--fmt: 11.1.3 to 11.1.4 https://github.com/fmtlib/fmt/releases/
+-fmt: 11.1.4 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -487,7 +487,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -gdbm: 1.24 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.54 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.3 https://download.gnome.org/sources/gexiv2/0.14/
--gi-docgen: 2024.1 https://download.gnome.org/sources/gi-docgen/
+-gi-docgen: 2025.3 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
 -gjs: 1.82.1 https://ftp.gnome.org/pub/GNOME/sources/gjs
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
@@ -526,7 +526,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 10.3.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 10.4.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -691,8 +691,8 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.30.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.108 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.108 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.109 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.109 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -movit: 1.7.1 https://movit.sesse.net
 -mozjs128: 128.7.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -833,7 +833,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -speech-dispatcher: 0.12.0 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
--spirv-llvm-translator: 19.1.4 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
+-spirv-llvm-translator: 19.1.5 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
@@ -849,7 +849,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 -utf8proc: 2.10.0 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.28.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
--vte: 0.78.3 http://ftp.gnome.org/pub/gnome/sources/vte/
+-vte: 0.78.3 to 0.78.4 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.8.1 https://www.wavpack.com/downloads.html
 -wireplumber: 0.5.8 to 1.0.6/1.1.81 https://gitlab.freedesktop.org/pipewire/wireplumber
 -woff2: 20231106 https://github.com/google/woff2
@@ -863,7 +863,7 @@ SDL3: 3.2.4 https://github.com/libsdl-org/SDL/releases
 n series:
 --------------------
 -ModemManager: 1.22.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.50.2 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.52.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.26
 	-alpine: 2.26 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -889,7 +889,7 @@ n series:
 -dovecot: 2.3.21.1 to 2.4.0 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
--epic5: 3.0.2 http://www.epicsol.org/
+-epic5: 3.0.3 http://www.epicsol.org/
 -ethtool: 6.11 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
@@ -1135,6 +1135,7 @@ x series: (main packages)
 -vulkan-sdk: 1.4.304.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
 -wayland-protocols: 1.40 https://wayland.freedesktop.org/releases.html
+-wayland-utils: 1.2.0 https://gitlab.freedesktop.org/wayland/wayland-utils/
 -xcb-imdkit: 1.0.9
 -xcb-proto: 1.17.0
 -xdg-desktop-portal: 1.18.4
@@ -1199,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1120 to 9.1.1153 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1120 to 9.1.1163 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.7.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1298,7 +1299,7 @@ extra:
 --------------------
 testing:
 -gimp: 3.0.0_RC3
--kernel: 6.13.3
+-kernel: 6.13.5
 -mesa: 25.0.0
 -php: 8.4.4
 /-----------------------------------------------------------------------------------/
