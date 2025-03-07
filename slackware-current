@@ -68,7 +68,7 @@ A series :
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.12.17 https://www.kernel.org/pub/linux/kernel/
 -kernel-firmware: 20250220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 34 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kmod: 34 to 34.1 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
@@ -134,7 +134,7 @@ A series :
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.15.1 https://liburcu.org
 -utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
--util-linux: 2.40.4 (to 2.41-rc1)
+-util-linux: 2.40.4 (to 2.41-rc2)
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
 	- setserial: 2.17 http://ftp.debian.org/debian/pool/main/s/setserial/
@@ -216,7 +216,7 @@ Ap series :
 -lzip: 1.25 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
--man-pages: 6.12 http://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.12 to 6.13 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 11.14.5 http://mariadb.org/
 -mc: 4.8.33 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1169 to 9.1.1176 https://github.com/vim/commits/master
+-vim: 9.1.1169 to 9.1.1179 https://github.com/vim/commits/master
 	- vim: 9.1.1169
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -305,12 +305,12 @@ d series:
 -kernel-headers: 6.12.17 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 19.1.7 to 20.1.0 http://llvm.org/
+-llvm: 20.1.0 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1736781742 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.9.2 (to 7.0.0rc0) https://www.mercurial-scm.org/release
+-mercurial: 6.9.2 to 6.9.3 (to 7.0.0rc0) https://www.mercurial-scm.org/release
 -meson: 1.7.0 https://github.com/mesonbuild/meson/releases
 -mold: 2.36.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
@@ -493,7 +493,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.80.0 to 2.80.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.82.5 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.82.5 to 2.84.0  https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibmm2: 2.82.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibc: 2.41 http://ftp.gnu.org/pub/gnu/glibc/
@@ -518,7 +518,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gstreamer: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.48 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.16.12 (to 4.17.6) https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
@@ -567,7 +567,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.2.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 19.1.6 http://libclc.llvm.org/
+-libclc: 20.1.0 http://libclc.llvm.org/
 -libcupsfilters: 2.1.1 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -725,7 +725,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -phonon-backend-gstreamer: 20221120 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -phonon-backend-mpv: 20240401 https://github.com/OpenProgger/phonon-mpv
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.2.7 (to 1.3.83) https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.2.7 to 1.4.0 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.126 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
@@ -833,7 +833,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -speech-dispatcher: 0.12.0 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
 -speexdsp: 1.2.1 http://www.speex.org/
--spirv-llvm-translator: 19.1.5 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
+-spirv-llvm-translator: 20.1.0 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
@@ -1001,7 +1001,7 @@ n series:
 -rp-pppoe: 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.4.1 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.21.4 (to 4.22.0rc3) https://ftp.samba.org/pub/samba/
+-samba: 4.21.4 to 4.22.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.3 http://www.dest-unreach.org/socat/download/
@@ -1120,7 +1120,7 @@ x series: (main packages)
 -libXt: 1.3.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 24.3.4 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 25.0.1 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.5 http://m17n.nongnu.org
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1169 to 9.1.1176 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1169 to 9.1.1179 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1301,7 +1301,6 @@ extra:
 testing:
 -gimp: 3.0.0_RC3
 -kernel: 6.13.5
--mesa: 25.0.0 to 25.0.1
 -php: 8.4.4
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
