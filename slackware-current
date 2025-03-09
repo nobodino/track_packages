@@ -66,9 +66,9 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.17 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250220 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 34 to 34.1 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kernel-ide: 6.12.18 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250307 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kmod: 34.1 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
@@ -216,7 +216,7 @@ Ap series :
 -lzip: 1.25 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
 -man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
--man-pages: 6.12 to 6.13 http://www.kernel.org/pub/linux/docs/man-pages/
+-man-pages: 6.13 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 11.14.5 http://mariadb.org/
 -mc: 4.8.33 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1169 to 9.1.1179 https://github.com/vim/commits/master
+-vim: 9.1.1169 to 9.1.1186 https://github.com/vim/commits/master
 	- vim: 9.1.1169
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -302,7 +302,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.17 http://wwww.kernel.org
+-kernel-headers: 6.12.18 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.0 http://llvm.org/
@@ -310,9 +310,9 @@ d series:
 -luajit: 2.1.1736781742 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.9.2 to 6.9.3 (to 7.0.0rc0) https://www.mercurial-scm.org/release
+-mercurial: 6.9.3 (to 7.0.0rc0) https://www.mercurial-scm.org/release
 -meson: 1.7.0 https://github.com/mesonbuild/meson/releases
--mold: 2.36.0 https://github.com/rui314/mold
+-mold: 2.37.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 13.0.19.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -387,7 +387,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.17 
+-kernel : 6.12.18 
 --------------------
 kde series :
 --------------------
@@ -436,7 +436,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -babl: 0.1.110 http://download.gimp.org/pub/babl/0.1/
 -boost: 1.87.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
--cairo: 1.18.2 http://cairographics.org/releases/
+-cairo: 1.18.2 to 1.18.4 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
 -cairomm1: 1.18.0 http://cairographics.org/cairomm/
 -ccid: 1.6.1 https://ccid.apdu.fr/files
@@ -493,7 +493,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.80.0 to 2.80.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.82.5 to 2.84.0  https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.84.0  https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibmm2: 2.82.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibc: 2.41 http://ftp.gnu.org/pub/gnu/glibc/
@@ -725,7 +725,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -phonon-backend-gstreamer: 20221120 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -phonon-backend-mpv: 20240401 https://github.com/OpenProgger/phonon-mpv
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.2.7 to 1.4.0 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.4.0 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.126 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
@@ -742,7 +742,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 to 3.2.1 https://pypi.org/project/pyparsing/
 -python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
--python-Jinja2: 3.1.5 https://pypi.org/project/Jinja2
+-python-Jinja2: 3.1.6 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 3.0.2 https://pypi.org/project/Markupsafe
 -python-PyYAML: 6.0.2 https://pypi.org/project/pyyaml
 -python-alabaster: 1.0.0 https://pypi.org/project/alabaster
@@ -807,7 +807,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -qt5: 5.15.16_20250122 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
 -qt6: 6.8.2 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.15.0 https://github.com/frankosterfeld/qtkeychain/releases
--quazip: 1.4 https://github.com/stachenov/quazip/releases
+-quazip: 1.5 https://github.com/stachenov/quazip/releases
 -readline: 8.2.013 (to 8.3-beta) https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
@@ -894,7 +894,7 @@ n series:
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.5.3 to 2.5.4 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.7 to 2.5.5 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.9 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.2 https://www.gnupg.org/download/index.html
@@ -1001,7 +1001,7 @@ n series:
 -rp-pppoe: 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.4.1 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.21.4 to 4.22.0 https://ftp.samba.org/pub/samba/
+-samba: 4.22.0 https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.3 http://www.dest-unreach.org/socat/download/
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1169 to 9.1.1179 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1169 to 9.1.1186 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1300,7 +1300,7 @@ extra:
 --------------------
 testing:
 -gimp: 3.0.0_RC3
--kernel: 6.13.5
+-kernel: 6.13.6
 -php: 8.4.4
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
