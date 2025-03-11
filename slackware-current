@@ -180,7 +180,7 @@ Ap series :
 -groff: 1.23.0 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.4 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.24.4 http://hplipopensource.com
--htop: 3.3.0 https://github.com/htop-dev/htop/releases
+-htop: 3.4.0 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
 -inxi: 3.3.37_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
@@ -229,7 +229,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 11.10.1 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 12.0.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rdfind: 1.7.0 https://github.com/pauldreik/rdfind
 -rpm: 4.20.1 http://ftp.rpm.org/releases
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1169 to 9.1.1192 https://github.com/vim/commits/master
+-vim: 9.1.1169 to 9.1.1194 https://github.com/vim/commits/master
 	- vim: 9.1.1169
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,7 +276,7 @@ d series:
 -cargo-c: 0.10.11 https://github.com/lu-zero/cargo-c
 -cargo-vendor-filterer: 0.5.17 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.28.0 https://github.com/mozilla/cbindgen/tags
--ccache: 4.10.2 https://ccache.dev/download.html
+-ccache: 4.11 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.25 https://github.com/Oblomov/clinfo
 -clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
@@ -292,7 +292,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 16.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.48.1 (to 2.49.0.rc1) https://git-scm.com/download
+-git: 2.48.1 (to 2.49.0.rc2) https://git-scm.com/download
 -googletest: 20250109 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
@@ -532,7 +532,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 76.1 (to 77-rc) https://icu.unicode.org/
--imagemagick: 7.1.1_44 to 45 http://www.imagemagick.org/
+-imagemagick: 7.1.1_45 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -738,7 +738,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.4 http://pycurl.io/
 -pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygobject3: 3.50.0 to 3.52.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
+-pygobject3: 3.52.1 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 to 3.2.1 https://pypi.org/project/pyparsing/
 -python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
@@ -1037,7 +1037,7 @@ n series:
 t series:
 --------------------
 -fig2dev: 3.2.9a https://sourceforge.net/projects/mcj/files/
--texlive: 2024.240409 https://ctan.net/systems/texlive/Source/ and http://slackware.schoepfer.info/slackbuilds/texlive/
+-texlive: 2024.240409 to 20050308 https://ctan.net/systems/texlive/Source/ and http://slackware.schoepfer.info/slackbuilds/texlive/
 -xfig: 3.2.9a https://sourceforge.net/projects/mcj/files/
 --------------------
 tcl/tk series:
@@ -1142,7 +1142,7 @@ x series: (main packages)
 -xdg-user-dirs: 0.18
 -xdg-utils: 1.2.0 https://freedesktop.org/wiki/Software/xdg-utils/
 -xdm 1.1.17
--xinit: 1.4.3
+-xinit: 1.4.4
 -xkeyboard-config: 2.44
 -xorgproto: 2024.1
 -xorg-server: 21.1.16 http://ftp.x.org/pub/individual/xserver/
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1169 to 9.1.1192 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1169 to 9.1.1194 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1223,7 +1223,7 @@ xap series:
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
--x3270: 4.4ga4 http://x3270.bgp.nu/download.html
+-x3270: 4.4ga5 http://x3270.bgp.nu/download.html
 -xaos: 4.3.3 https://github.com/xaos-project/XaoS/releases
 -mpv: 0.39.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
@@ -1236,7 +1236,7 @@ xap series:
 -xpdf: 4.05 https://www.xpdfreader.com/download.html
 -xsane: 0.999 http://www.xsane.org/download/
 -xscreensaver: 6.09 http://www.jwz.org/xscreensaver/python*
--xsnow: 3.8.3 https://sourceforge.net/projects/xsnow/files/
+-xsnow: 3.8.4 https://sourceforge.net/projects/xsnow/files/
 --------------------
 xfce: 4.20 https://gitlab.xfce.org/xfce/
 --------------------
