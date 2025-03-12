@@ -307,7 +307,7 @@ d series:
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.0 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
--luajit: 2.1.1736781742 https://luajit.org/git/luajit.git
+-luajit: 2.1.1741571767 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9.3 (to 7.0.0rc0) https://www.mercurial-scm.org/release
@@ -347,7 +347,7 @@ d series:
 	- perl: 5.40.0 http://www.perl.com/CPAN/src/5.0/
 -pkg-config: 0.29.2 http://www.freedesktop.org/software/pkgconfig/releases/
 -pmake: 1.111_1.diff.gz
--poke: 4.2 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.9 to 3.13.2 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
@@ -511,11 +511,11 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gsettings-desktop-schemas: 47.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.24.12 (to 1.25.90) https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -594,7 +594,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libgusb: 0.4.9 https://github.com/hughsie/libgusb
 -libhandy: 1.8.3 https://gitlab.gnome.org/GNOME/libhandy/
 -libid3tag: 0.15.1b https://sourceforge.net/projects/mad/files/libid3tag/0.15.1b/
--libical: 3.0.19 https://github.com/libical/libical/releases
+-libical: 3.0.20 https://github.com/libical/libical/releases
 -libIDL: 0.8.14 http://ftp.gnome.org/pub/gnome/sources/libIDL/0.8/
 -libidn: 1.42 http://ftp.gnu.org/gnu/libidn/
 -libidn2: 2.3.8 http://ftp.gnu.org/gnu/libidn/
@@ -701,7 +701,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -ncurses: 6.5 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.34.0 https://github.com/notroj/neon/tags
 -netpbm: 11.09.03 https://sourceforge.net/p/netpbm/code/HEAD/tree/
--newt: 0.52.24 https://releases.pagure.org/newt
+-newt: 0.52.25 https://releases.pagure.org/newt
 -nodejs: 22.14.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
@@ -713,7 +713,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -opus: 1.5.2 https://opus-codec.org/
 -opusfile: 0.12 https://opus-codec.org/
 -orc: 0.4.41 https://gstreamer.freedesktop.org/src/orc/
--pango: 1.56.1 http://ftp.gnome.org/pub/GNOME/sources/pango/
+-pango: 1.56.1 to 1.56.2 http://ftp.gnome.org/pub/GNOME/sources/pango/
 -pangomm: 2.46.4 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -pangomm2: 2.56.1 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.6 https://ftp.gnu.org/gnu/parted/
