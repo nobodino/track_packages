@@ -66,8 +66,8 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.18 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250307 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.19 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250313 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.1 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 668 https://github.com/gwsw/less/tags
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1169 to 9.1.1199 https://github.com/vim/commits/master
+-vim: 9.1.1169 to 9.1.1202 https://github.com/vim/commits/master
 	- vim: 9.1.1169
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -302,12 +302,12 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.18 http://wwww.kernel.org
+-kernel-headers: 6.12.19 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.0 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
--luajit: 2.1.1741571767 https://luajit.org/git/luajit.git
+-luajit: 2.1.1741730670 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 6.9.3 (to 7.0.0rc0) https://www.mercurial-scm.org/release
@@ -387,7 +387,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.18 
+-kernel : 6.12.19 
 --------------------
 kde series :
 --------------------
@@ -511,11 +511,11 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gsettings-desktop-schemas: 47.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.24.12 to 1.26.0 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.26.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.26.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.26.0 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.26.0 https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.26.0 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -679,8 +679,8 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
 -libxml2: 2.13.6 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
--libxkbcommon: 1.8.0 https://github.com/xkbcommon/libxkbcommon/releases
--libxslt: 1.1.42 https://download.gnome.org/sources/libxslt/1.1/
+-libxkbcommon: 1.8.1 https://github.com/xkbcommon/libxkbcommon/releases
+-libxslt: 1.1.43 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.11.3 https://libzip.org/download/
 -lmdb: 0.9.33 https://github.com/LMDB/lmdb/tags
 -loudmouth: 1.5.4 https://github.com/mcabber/loudmouth/releases
@@ -796,7 +796,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -python-sphinx: 8.2.3 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.2.0 https://pypi.org/project/tomli-w/#files
--python-trove-classifiers: 2025.3.3.18 https://pypi.org/project/trove-classifiers
+-python-trove-classifiers: 2025.3.13.13 https://pypi.org/project/trove-classifiers
 -python-typogrify: 2.1.0 https://pypi.org/project/typogrify/#files
 -python-urllib3: 2.3.0 https://github.com/urllib3/urllib3/releases
 -python-versioneer: 0.29 https://pypi.org/project/versioneer
@@ -944,7 +944,7 @@ n series:
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.14 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
--ncftp: 3.2.7 to 3.2.8 http://ftp.ncftp.com/download/
+-ncftp: 3.2.8 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 4.1.2 http://netatalk.sourceforge.net/
@@ -1202,7 +1202,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1169 to 9.1.1199 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1169 to 9.1.1202 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1302,7 +1302,7 @@ extra:
 --------------------
 testing:
 -gimp: 3.0.0_RC3
--kernel: 6.13.6
+-kernel: 6.13.7
 -php: 8.4.4 to 8.4.5
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
