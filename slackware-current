@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1169 to 9.1.1202 https://github.com/vim/commits/master
+-vim: 9.1.1169 to 9.1.1206 https://github.com/vim/commits/master
 	- vim: 9.1.1169
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -292,7 +292,7 @@ d series:
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 16.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.48.1 to 2.49.0. https://git-scm.com/download
+-git: 2.49.0. https://git-scm.com/download
 -googletest: 20250109 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
@@ -416,7 +416,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -aalib: 1.4rc5 http://dl.sourceforge.net/aa-project/
 -abseil-cpp: 20250127.0 https://github.com/abseil/abseil-cpp
 -accountsservice: 23.13.9 https://www.freedesktop.org/software/accountsservice
--adwaita-icon-theme: 47.0 https://github.com/GNOME/adwaita-icon-theme/tags
+-adwaita-icon-theme: 48.0 https://github.com/GNOME/adwaita-icon-theme/tags
 -adwaita-icon-theme-legacy: 20240517 https://gitlab.gnome.org/jimmac/adwaita-icon-theme-legacy
 -alsa-lib: 1.2.13 https://github.com/alsa-project/alsa-lib
 -alsa-oss: 1.1.9 https://github.com/alsa-project/alsa-oss
@@ -440,7 +440,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
 -cairomm1: 1.18.0 http://cairographics.org/cairomm/
 -ccid: 1.6.1 https://ccid.apdu.fr/files
--cfitsio: 4.5.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
+-cfitsio: 4.6.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -colord: 1.4.7 https://www.freedesktop.org/software/colord/releases/
@@ -503,7 +503,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gnome-keyring: 46.2 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
 -gnu-efi: 3.0.18 http://sourceforge.net/projects/gnu-efi/
--gobject-introspection: 1.82.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
+-gobject-introspection: 1.84.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
 -graphviz: 12.2.1 https://gitlab.com/graphviz/graphviz
@@ -519,7 +519,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.16.12 to 4.18.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.18.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.16.0 https://download.gnome.org/sources/gtkmm/
@@ -1202,7 +1202,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1169 to 9.1.1202 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1169 to 9.1.1206 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
