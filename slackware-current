@@ -10,11 +10,11 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.037 (to 5.3-beta) http://ftp.gnu.org/pub/gnu/bash/
--bcachefs-tools: 1.20.0 https://evilpiepirate.org/bcachefs-tools/
+-bcachefs-tools: 1.25.0 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
--btrfs-progs: 6.13 http://btrfs.wiki.kernel.org
+-btrfs-progs: 6.14 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
 -coreutils: 9.6 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
@@ -28,7 +28,7 @@ A series :
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -dracut: 106 https://github.com/dracut-ng/dracut-ng
 -e2fsprogs: 1.47.2 http://download.sourceforge.net/e2fsprogs/
--ed: 1.21 http://ftp.gnu.org/pub/gnu/ed/
+-ed: 1.21.1 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 18 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
@@ -45,7 +45,7 @@ A series :
 	- mtools: 4.0.48 https://www.gnu.org/software/mtools/
 -gawk: 5.3.1 http://ftp.gnu.org/pub/gnu/gawk/
 -gettext: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
--glibc-zoneinfo: 2025a https://www.iana.org/time-zones
+-glibc-zoneinfo: 2025b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
 -grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
@@ -66,11 +66,11 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.19 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250313 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
--kmod: 34.1 https://www.kernel.org/pub/linux/utils/kernel/kmod/
+-kernel-ide: 6.12.20 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250322 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 668 https://github.com/gwsw/less/tags
+-less: 673 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.3.0 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
@@ -93,7 +93,7 @@ A series :
 -mt-st: 1.8 https://github.com/iustin/mt-st/releases/tag/v1.7
 -mtx: 1.3.12 http://mtx.opensource-sw.net/ or http://ftp.debian.org/debian/pool/main/m/mtx/
 -ncompress: 5.0 https://github.com/vapier/ncompress/tags
--ndctl: 80 https://github.com/pmem/ndctl/releases
+-ndctl: 81 https://github.com/pmem/ndctl/releases
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
@@ -143,7 +143,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.23 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.13.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.6.4 http://tukaani.org/xz/
+-xz: 5.8.0 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -166,7 +166,7 @@ Ap series :
 -cups-filters: 2.0.1 https://github.com/OpenPrinting/cups-filters/tags
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
--ddrescue: 1.29 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
+-ddrescue: 1.29.1 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.67 https://invisible-island.net/archives/diffstat/
 -diffutils: 3.10 (to 3.11 nok) http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1227 to 9.1.1230 https://github.com/vim/commits/master
+-vim: 9.1.1227 to 9.1.1255 https://github.com/vim/commits/master
 	- vim: 9.1.1227
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -276,13 +276,13 @@ d series:
 -cargo-c: 0.10.11 https://github.com/lu-zero/cargo-c
 -cargo-vendor-filterer: 0.5.17 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.28.0 https://github.com/mozilla/cbindgen/tags
--ccache: 4.11.1 https://ccache.dev/download.html
+-ccache: 4.11.2 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.25 https://github.com/Oblomov/clinfo
--clisp: 2.50_20230718 https://gitlab.com/gnu-clisp/clisp
+-clisp: 2.50_20241228 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 3.31.6 (to 4.0.0-rc5) http://www.cmake.org/cmake/resources/software.html
+-cmake: 4.0.0 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -293,7 +293,7 @@ d series:
 -gdb: 16.2 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.49.0. https://git-scm.com/download
--googletest: 20250109 https://github.com/google/googletest
+-googletest: 1.16.0 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
@@ -302,7 +302,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.19 http://wwww.kernel.org
+-kernel-headers: 6.12.20 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.1 http://llvm.org/
@@ -310,7 +310,7 @@ d series:
 -luajit: 2.1.1741730670 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 6.9.4 (to 7.0.0rc1) https://www.mercurial-scm.org/release
+-mercurial: 7.0 https://www.mercurial-scm.org/release
 -meson: 1.7.0 https://github.com/mesonbuild/meson/releases
 -mold: 2.37.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
@@ -320,9 +320,9 @@ d series:
 -oprofile: 1.4.0 http://oprofile.sourceforge.net/news/
 -p2c: 2.02 https://alum.mit.edu/www/toms/p2c
 -pahole: 1.29 https://git.kernel.org/cgit/devel/pahole/pahole.git
--parallel: 20250222 https://www.gnu.org/software/parallel/
+-parallel: 20250322 https://www.gnu.org/software/parallel/
 -patchelf: 0.17.2 to 0.18.0 https://github.com/NixOS/patchelf/releases
--perl: 5.40.1 (to 5.41.0-RC1)
+-perl: 5.40.1 (to 5.41.10)
 	- Authen-SASL: 2.1700 https://www.cpan.org/modules/by-module/Authen/
 	- DBD-mysql: 4.052 to 5.011 http://www.cpan.org/modules/by-module/DBD/
 	- DBI: 1.645 to 1.647 http://www.cpan.org/modules/by-module/DBI/
@@ -351,7 +351,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.9 to 3.13.2 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
--python-setuptools: 77.0.3 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 78.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -359,9 +359,9 @@ d series:
 -rust: 1.85.1 https://rust-lang.org
 -rust-bindgen: 0.71.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
--scons: 4.9.0 https://github.com/SCons/scons/releases
+-scons: 4.9.1 https://github.com/SCons/scons/releases
 -slacktrack: 2.24 http://www.slackware.com/~mozes
--strace: 6.13 https://github.com/strace/strace/releases
+-strace: 6.14 https://github.com/strace/strace/releases
 -subversion: 1.14.5 https://subversion.apache.org
 -swig: 4.3.0 http://www.swig.org/download.html
 -tree-sitter: 0.25.3 https://github.com/tree-sitter/tree-sitter
@@ -387,7 +387,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.19 
+-kernel : 6.12.20 
 --------------------
 kde series :
 --------------------
@@ -428,7 +428,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -argon2: 20190702 https://github.com/P-H-C/phc-winner-argon2
 -aspell: 0.60.8.1 http://ftp.gnu.org/gnu/aspell/
 -aspell-en: 2020.12.07
--at-spi2-core: 2.56.0 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
+-at-spi2-core: 2.56.0 to 2.56.1 http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/
 -atkmm: 2.28.3 to 2.28.4 http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -atkmm2: 2.36.3 http://ftp.gnome.org/pub/GNOME/sources/atkmm/
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
@@ -440,7 +440,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
 -cairomm1: 1.18.0 http://cairographics.org/cairomm/
 -ccid: 1.6.2 https://ccid.apdu.fr/files
--cfitsio: 4.6.0 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
+-cfitsio: 4.6.2 http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/
 -chmlib: 0.40 http://www.jedrea.com/chmlib/
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -colord: 1.4.7 https://www.freedesktop.org/software/colord/releases/
@@ -466,7 +466,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -enchant: 2.8.2 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.5 https://exiv2.org/download.html
--expat: 2.7.0 http://sourceforge.net/projects/expat/files/expat/
+-expat: 2.7.1 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
 -ffmpeg: 7.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
@@ -477,15 +477,15 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.16 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.16.2 (to 3.17.1-rc1) https://github.com/libfuse/libfuse/releases
+-fuse3: 3.16.2 to 3.17.1 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0  http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.4.0.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
--gdbm: 1.24 http://ftp.gnu.org/gnu/gdbm/
--gegl: 0.4.56 https://download.gimp.org/pub/gegl/
+-gdbm: 1.25 http://ftp.gnu.org/gnu/gdbm/
+-gegl: 0.4.58 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.3 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2025.3 https://download.gnome.org/sources/gi-docgen/
 -giflib: 5.2.2 http://sourceforge.net/projects/giflib/files/
@@ -502,7 +502,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gmp: 6.3.0 http://ftp.gnu.org/gnu/gmp/
 -gnome-keyring: 48.0 http://ftp.acc.umu.se/pub/gnome/sources/gnome-keyring/
 -gnome-themes-extra: 3.28 https://ftp.acc.umu.se/pub/gnome/sources/gnome-themes-extra
--gnu-efi: 3.0.18 http://sourceforge.net/projects/gnu-efi/
+-gnu-efi: 4.0.0 http://sourceforge.net/projects/gnu-efi/
 -gobject-introspection: 1.84.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
@@ -521,23 +521,22 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
 -gtk4: 4.18.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
--gtkmm3: 3.24.9 https://download.gnome.org/sources/gtkmm/3.24/
--gtkmm4: 4.16.0 https://download.gnome.org/sources/gtkmm/
--gtksourceview3: 3.24.11 (to 4.8.4/5.8.0) https://projects.gnome.org/gtksourceview/3.24/ 
+-gtkmm3: 3.24.10 https://download.gnome.org/sources/gtkmm/3.24/
+-gtkmm4: 4.18.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 10.4.0 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 11.0.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 76.1 to 77.1 https://icu.unicode.org/
+-icu4c: 77.1 https://icu.unicode.org/
 -imagemagick: 7.1.1_46 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
--jansson: 2.14 https://github.com/akheron/jansson/releases
--jasper: 4.2.4 https://github.com/mdadams/jasper/releases
+-jansson: 2.14.1 https://github.com/akheron/jansson/releases
+-jasper: 4.2.5 https://github.com/mdadams/jasper/releases
 -jemalloc: 5.3.0 https://github.com/jemalloc/jemalloc/releases
 -jmtpfs: 0.5 https://github.com/JasonFerrara/jmtpfs/tags
 -json-c: 0.18_20240915 https://github.com/json-c/json-c/tags
@@ -575,7 +574,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libdbusmenu-qt: 0.9.3+16.04.20160218 https://launchpad.net/libdbusmenu-qt/
 -libdeflate: 1.23 https://github.com/ebiggers/libdeflate
 -libdiscid: 0.6.4 http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/
--libdmtx: 0.7.7 https://github.com/dmtx/libdmtx/tags
+-libdmtx: 0.7.8 https://github.com/dmtx/libdmtx/tags
 -libdvdnav: 6.1.1 https://download.videolan.org/pub/videolan/libdvdnav/
 -libdvdread: 6.1.3 http://download.videolan.org/videolan/libdvdread/
 -libedit: 20250104_3.1 http://www.thrysoee.dk/editline/
@@ -615,7 +614,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libnjb: 2.2.7 https://sourceforge.net/projects/libnjb/files/libnjb/
 -libnl: 1.1.4 https://github.com/thom311/libnl/
 -libnl3: 3.11.0 https://github.com/thom311/libnl
--libnotify: 0.8.4 https://download.gnome.org/sources/libnotify/0.8/
+-libnotify: 0.8.6 https://download.gnome.org/sources/libnotify/0.8/
 -libnsl: 2.0.1 https://github.com/thkukuk/libnsl/releases
 -libnss_nis: 3.2 https://github.com/thkukuk/libnss_nis/releases
 -libnvme: 1.12 https://github.com/linux-nvme/libnvme
@@ -647,7 +646,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libsndfile: 1.2.2 https://github.com/libsndfile/libsndfile/releases
 -libsodium: 1.0.20 https://github.com/jedisct1/libsodium/tags
 -libsoup: 2.74.3 http://ftp.gnome.org/pub/gnome/sources/libsoup/2.74/
--libsoup3: 3.6.4 to 3.6.5 http://ftp.gnome.org/pub/gnome/sources/libsoup/
+-libsoup3: 3.6.5 http://ftp.gnome.org/pub/gnome/sources/libsoup/
 -libspectre: 0.2.12 https://www.freedesktop.org/wiki/Software/libspectre/
 -libssh: 0.11.1 https://www.libssh.org/files
 -libssh2: 1.11.1 https://github.com/libssh2/libssh2/releases
@@ -677,7 +676,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.13.6 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.13.7 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.8.1 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.43 https://download.gnome.org/sources/libxslt/1.1/
@@ -708,7 +707,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -openal-soft: 1.24.2 https://openal-soft.org/openal-releases
 -openblas: 0.3.29 https://github.com/xianyi/OpenBLAS
 -opencv: 4.10.0 https://github.com/opencv/opencv/releases
--openexr: 3.3.2 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.3.3 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.3 http://www.openjpeg.org
 -opensc: 0.26.1 https://github.com/OpenSC/OpenSC
 -opus: 1.5.2 https://opus-codec.org/
@@ -721,7 +720,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -pcaudiolib: 1.3 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.45 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
--pcsc-lite: 2.3.1 https://pcsclite.apdu.fr/files/
+-pcsc-lite: 2.3.2 https://pcsclite.apdu.fr/files/
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 20221120 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -phonon-backend-mpv: 20240401 https://github.com/OpenProgger/phonon-mpv
@@ -761,7 +760,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -python-doxyqml: 0.5.3 https://pypi.org/project/doxyqml
 -python-docutils: 0.21.2 https://pypi.org/project/docutils/#files
 -python-editables: 0.5 https://pypi.org/project/editables
--python-flit-core: 3.11.0 https://pypi.org/project/flit_core/#files
+-python-flit-core: 3.12.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
 -python-glad2: 2.0.8 https://pypi.org/project/glad2/#files
 -python-hatch-vcs: 0.4.0 https://github.com/ofek/hatch-vcs
@@ -789,7 +788,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -python-requests: 2.32.3 https://pypi.org/project/requests/
 -python-roman-numerals-py: 3.1.0 https://pypi.org/project/roman-numerals-py
 -python-sane: 2.9.1 https://github.com/python-pillow/Sane/releases
--python-setuptools_scm: 8.2.1 https://pypi.org/project/setuptools_scm
+-python-setuptools_scm: 8.2.0 https://pypi.org/project/setuptools_scm
 -python-six: 1.17.0 https://pypi.org/project/six/
 -python-smartypants: 2.0.1 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 2.2.0 https://pypi.org/project/snowballstemmer
@@ -806,7 +805,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -qca: 2.3.10 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.16_20250122 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
--qt6: 6.8.2 https://invent.kde.org/qt/qt/qt5.git
+-qt6: 6.8.3_20250319 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.15.0 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.5 https://github.com/stachenov/quazip/releases
 -readline: 8.2.013 (to 8.3-beta) https://ftp.gnu.org/gnu/readline
@@ -888,7 +887,7 @@ n series:
 -dhcp: 4.4.3p1 http://ftp.isc.org/isc/dhcp/
 -dhcpcd: 10.2.2 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.91 https://thekelleys.org.uk/dnsmasq/
--dovecot: 2.3.21.1 to 2.4.0 http://www.dovecot.org/releases/
+-dovecot: 2.3.21.1 to 2.4.1 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.3 http://www.epicsol.org/
@@ -905,7 +904,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.13.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.14.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.23 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.11 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.2 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -944,7 +943,7 @@ n series:
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.14 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
--ncftp: 3.2.8 http://ftp.ncftp.com/download/
+-ncftp: 3.2.9 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 4.1.2 http://netatalk.sourceforge.net/
@@ -1079,7 +1078,7 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.31 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
--ibus-libpinyin: 1.16.0 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.16.1 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.35
 -ibus-table: 1.17.11
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
@@ -1094,20 +1093,20 @@ x series: (main packages)
 -libpciaccess: 0.18.1
 -libdrm: 2.4.124 http://dri.freedesktop.org/libdrm/
 -libepoxy: 1.5.10 https://github.com/anholt/libepoxy/releases
--libevdev: 1.13.3 http://www.freedesktop.org/software/libevdev/
+-libevdev: 1.13.4 http://www.freedesktop.org/software/libevdev/
 -libfontenc: 1.1.6
 -libgee: 0.20.8 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.27.1 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.28.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
--libpinyin: 2.10.0 https://github.com/libpinyin/libpinyin/releases
+-libpinyin: 2.10.1 https://github.com/libpinyin/libpinyin/releases
 -libsfdo: 0.1.3 https://gitlab.freedesktop.org/vyivel/libsfdo/-/archive/
 -libva: 2.22.0 https://github.com/intel/libva/releases
 -libva-utils: 2.22.0 https://github.com/intel/libva-utils/releases
 -libvdpau: 1.5 https://gitlab.freedesktop.org/vdpau/libvdpau/tags
--libwacom: 2.14.0 https://github.com/linuxwacom/libwacom/releases
+-libwacom: 2.15.0 https://github.com/linuxwacom/libwacom/releases
 -libXaw: 1.0.16 
 -libXaw3dXft: 1.6.2h
 -libxcb: 1.17
@@ -1137,7 +1136,7 @@ x series: (main packages)
 -twm: 1.0.12
 -vulkan-sdk: 1.4.304.0 to 1.4.309.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.40 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.42 https://wayland.freedesktop.org/releases.html
 -wayland-utils: 1.2.0 https://gitlab.freedesktop.org/wayland/wayland-utils/
 -xcb-imdkit: 1.0.9
 -xcb-proto: 1.17.0
@@ -1170,8 +1169,8 @@ x series: (main packages)
 --------------------
 xap series:
 --------------------
--MPlayer: 20240130 https://mplayerhq.hu/design7/news.html
-	-Mplayer: 20240130
+-MPlayer: 20250326 https://mplayerhq.hu/design7/news.html
+	-Mplayer: 20250326
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.12.0
 -audacious: 4.4.2 http://www.audacious-media-player.org
@@ -1189,7 +1188,7 @@ xap series:
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.5 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
--gimp: 3.0.0 http://download.gimp.org/pub/gimp/
+-gimp: 3.0.2 http://download.gimp.org/pub/gimp/
 -gkrellm: 2.4.0 http://gkrellm.srcbox.net/	
 	- gkrellm: 2.4.0
 	- gkrellm-countdown: 0.1.2
@@ -1203,7 +1202,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1227 to 9.1.1230 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1227 to 9.1.1255 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1228,7 +1227,7 @@ xap series:
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
 -x3270: 4.4ga5 http://x3270.bgp.nu/download.html
 -xaos: 4.3.3 https://github.com/xaos-project/XaoS/releases
--mpv: 0.39.0 https://github.com/mpv-player/mpv
+-mpv: 0.40.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
@@ -1247,10 +1246,10 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -elementary-xfce: 0.21
 -exo: 4.20.0
 -garcon: 4.20.0
--libxfce4ui: 4.20.0
--libxfce4util: 4.20.0
+-libxfce4ui: 4.20.1
+-libxfce4util: 4.20.1
 -libxfce4windowing: 4.20.2 
--mousepad: 0.6.3
+-mousepad: 0.6.4
 -thunar: 4.20.2 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
 -tumbler: 4.18.2
@@ -1258,17 +1257,17 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.6.7
 -xfce4-dev-tools: 4.20.
 -xfce4-notifyd: 0.9.7
--xfce4-panel: 4.20.3
+-xfce4-panel: 4.20.4
 -xfce4-panel-profiles: 1.0.15 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.20.0
 -xfce4-pulseaudio-plugin: 0.4.9
 -xfce4-screensaver: 4.18.4
 -xfce4-screenshooter: 1.11.1
--xfce4-session: 4.20.0
+-xfce4-session: 4.20.2
 -xfce4-settings: 4.20.1
 -xfce4-systemload-plugin: 1.3.3
 -xfce4-taskmanager: 1.5.8
--xfce4-terminal: 1.1.4
+-xfce4-terminal: 1.1.5
 -xfce4-weather-plugin: 0.11.3
 -xfce4-whiskermenu-plugin: 2.9.2
 -xfce4-xkb-plugin: 0.8.5
@@ -1302,7 +1301,7 @@ extra:
 -xv: 6.0.2
 --------------------
 testing:
--kernel: 6.13.7
+-kernel: 6.14.0
 -php: 8.4.5
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
