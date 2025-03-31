@@ -58,7 +58,7 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inih: r58 https://github.com/benhoyt/inih
+-inih: r59 https://github.com/benhoyt/inih
 -iniparser: 4.2.6 https://github.com/ndevilla/iniparser
 -inotify-tools: 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -intel-microcode: 20250211 https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
@@ -70,7 +70,7 @@ A series :
 -kernel-firmware: 20250328 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 673 https://github.com/gwsw/less/tags
+-less: 674 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.3.0 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
@@ -97,7 +97,6 @@ A series :
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl11-solibs: 1.1.1zb_p2 https://github.com/openssl/openssl/tags
 -openssl-solibs: 3.4.1 https://github.com/openssl/openssl/tags
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.7.0 https://github.com/linux-pam/linux-pam/releases
@@ -255,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1227 to 9.1.1258 https://github.com/vim/commits/master
+-vim: 9.1.1227 to 9.1.1263 https://github.com/vim/commits/master
 	- vim: 9.1.1227
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -532,7 +531,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 77.1 https://icu.unicode.org/
--imagemagick: 7.1.1_46 http://www.imagemagick.org/
+-imagemagick: 7.1.1_47 http://www.imagemagick.org/
 -immer: 0.8.1 https://github.com/arximboldi/immer
 -isl: 0.27 https://libisl.sourceforge.io/
 -iso-codes: 4.17.0 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -652,7 +651,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libssh: 0.11.1 https://www.libssh.org/files
 -libssh2: 1.11.1 https://github.com/libssh2/libssh2/releases
 -libtasn1: 4.20.0 http://ftp.gnu.org/gnu/libtasn1/
--libtheora: 1.1.1 https://www.xiph.org/downloads/
+-libtheora: 1.2.0 https://www.xiph.org/downloads/
 -libtiff: 4.7.0 https://download.osgeo.org/libtiff/
 -libtraceevent: 1.8.4 https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/
 -libtracefs: 1.8.1 https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/
@@ -705,7 +704,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -nodejs: 22.14.0 https://nodejs.org/dist
 -ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
--openal-soft: 1.24.2 https://openal-soft.org/openal-releases
+-openal-soft: 1.24.3 https://openal-soft.org/openal-releases
 -openblas: 0.3.29 https://github.com/xianyi/OpenBLAS
 -opencv: 4.10.0 https://github.com/opencv/opencv/releases
 -openexr: 3.3.3 https://github.com/AcademySoftwareFoundation/openexr/releases
@@ -738,11 +737,8 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -pycairo: 1.27.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.4 http://pycurl.io/
--pygobject: 2.28.7 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
 -pygobject3: 3.52.3 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pygtk: 2.24.0 to 2.24.2 https://pypi.org/project/PyGTK/
 -pyparsing: 3.1.2 to 3.2.1 https://pypi.org/project/pyparsing/
--python2-pycairo: 1.18.2 https://pypi.python.org/pypi/pycairo
 -python-Jinja2: 3.1.6 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 3.0.2 https://pypi.org/project/Markupsafe
 -python-PyYAML: 6.0.2 https://pypi.org/project/pyyaml
@@ -947,7 +943,7 @@ n series:
 -ncftp: 3.2.9 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
--netatalk: 4.1.2 http://netatalk.sourceforge.net/
+-netatalk: 4.1.2 to 4.2.0 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
 -netkit-xxx: 0.17
 	- netkit-bootparamd
@@ -966,7 +962,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.8.2 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nfs-utils: 2.8.2 to 2.8.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.1.1 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.65.0 https://github.com/nghttp2/nghttp2/releases
 -nghttp3: 1.8.0 https://github.com/ngtcp2/nghttp3
@@ -981,7 +977,6 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.14.1 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.9p2 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl11: 1.1.1zb_p2 http://ftp.openssl.org/source/
 -openssl: 3.4.1 http://ftp.openssl.org/source/
 -openvpn: 2.6.13 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
@@ -1058,7 +1053,7 @@ x series: (main packages)
 -OpenCC: 1.1.9 https://github.com/BYVoid/OpenCC/releases
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.18 https://github.com/NVIDIA/egl-wayland/releases
--eglexternalplatform: 1.1 https://github.com/NVIDIA/eglexternalplatform/tags
+-eglexternalplatform: 1.2.1 https://github.com/NVIDIA/eglexternalplatform/tags
 -fcitx5: 5.1.12 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.1.6 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.1.8 https://fcitx-im.org/wiki/Fcitx_5
@@ -1170,8 +1165,8 @@ x series: (main packages)
 --------------------
 xap series:
 --------------------
--MPlayer: 20250326 https://mplayerhq.hu/design7/news.html
-	-Mplayer: 20250326
+-MPlayer: 20250330 https://mplayerhq.hu/design7/news.html
+	-Mplayer: 20250330
 	-Blue: 1.10 (skin)
 -NetworkManager-openvpn: 1.12.0
 -audacious: 4.4.2 http://www.audacious-media-player.org
@@ -1203,7 +1198,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1227 to 9.1.1258 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1227 to 9.1.1263 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
