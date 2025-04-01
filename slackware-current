@@ -116,7 +116,7 @@ A series :
 -smartmontools: 7.4 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
 -sysfsutils: 2.1.1 https://github.com/linux-ras/sysfsutils
--sysklogd: 2.7.1 https://github.com/troglobit/sysklogd/releases
+-sysklogd: 2.7.2 https://github.com/troglobit/sysklogd/releases
 -syslinux: 4.06 to 5.10/6.03 https://www.kernel.org/pub/linux/utils/boot/syslinux/
 -sysvinit: 3.14 https://github.com/slicer69/sysvinit/releases
 -sysvinit-functions 8.53
@@ -128,7 +128,7 @@ A series :
 -udisks: 1.0.5 http://hal.freedesktop.org/releases/
 -udisks2: 2.10.1 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
--upower: 1.90.6 to 1.90.7 https://gitlab.freedesktop.org/upower/upower/-/releases
+-upower: 1.90.8 https://gitlab.freedesktop.org/upower/upower/-/releases
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.15.1 https://liburcu.org
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1227 to 9.1.1263 https://github.com/vim/commits/master
+-vim: 9.1.1227 to 9.1.1265 https://github.com/vim/commits/master
 	- vim: 9.1.1227
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -553,7 +553,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -libaio: 0.3.113 http://releases.pagure.org/libaio
 -libao: 1.2.2 https://www.xiph.org/downloads/
 -libappindicator: 12.10.0 https://launchpad.net/libappindicator
--libarchive: 3.7.8 http://www.libarchive.org/downloads/
+-libarchive: 3.7.9 http://www.libarchive.org/downloads/
 -libass: 0.17.2 to 0.17.3 https://github.com/libass/libass
 -libasyncns: 0.8 http://0pointer.de/lennart/projects/libasyncns
 -libatasmart: 0.19 http://0pointer.de/blog/projects/being-smart.html
@@ -809,7 +809,7 @@ SDL3: 3.2.8 https://github.com/libsdl-org/SDL/releases
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.23 https://rubygems.org/gems/asciidoctor
--sbc: 2.0 http://www.kernel.org/pub/linux/bluetooth
+-sbc: 2.1 http://www.kernel.org/pub/linux/bluetooth
 -serf: 1.3.10 http://serf.apache.org/
 -sg3_utils: 1.48 http://sg.danny.cz/sg/sg3_utils.html
 -sdl: 1.2.15 http://www.libsdl.org/release/
@@ -962,7 +962,7 @@ n series:
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
--nfs-utils: 2.8.2 to 2.8.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
+-nfs-utils: 2.8.3 https://sourceforge.net/projects/nfs/files/nfs-utils/
 -nftables: 1.1.1 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.65.0 https://github.com/nghttp2/nghttp2/releases
 -nghttp3: 1.8.0 https://github.com/ngtcp2/nghttp3
@@ -1198,7 +1198,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1227 to 9.1.1263 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1227 to 9.1.1265 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.8.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
