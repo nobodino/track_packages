@@ -10,7 +10,7 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.2.037 (to 5.3-beta) http://ftp.gnu.org/pub/gnu/bash/
--bcachefs-tools: 1.25.0 https://evilpiepirate.org/bcachefs-tools/
+-bcachefs-tools: 1.25.1 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -43,7 +43,7 @@ A series :
 -floppy: 5.6
 	- fdutils: 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.48 https://www.gnu.org/software/mtools/
--gawk: 5.3.1 http://ftp.gnu.org/pub/gnu/gawk/
+-gawk: 5.3.2 http://ftp.gnu.org/pub/gnu/gawk/
 -gettext: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2025b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
@@ -54,7 +54,7 @@ A series :
 -haveged: 1.9.19 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.25 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
--hwdata: 0.393 https://github.com/vcrhonek/hwdata
+-hwdata: 0.394 https://github.com/vcrhonek/hwdata
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
@@ -221,7 +221,7 @@ Ap series :
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.32.10 http://sourceforge.net/projects/mpg123/files/
--nano: 8.3 http://www.nano-editor.org/download.php
+-nano: 8.3 to 8.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 2.11.0 https://github.com/linux-nvme/nvme-cli/tags
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1227 to 9.1.1267 https://github.com/vim/commits/master
+-vim: 9.1.1227 to 9.1.1270 https://github.com/vim/commits/master
 	- vim: 9.1.1227
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -305,13 +305,13 @@ d series:
 -kernel-headers: 6.12.21 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 20.1.1 to 20.1.2 http://llvm.org/
+-llvm: 20.1.2 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1741730670 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 7.0 https://www.mercurial-scm.org/release
--meson: 1.7.0 to 1.7.1 https://github.com/mesonbuild/meson/releases
+-meson: 1.7.1 https://github.com/mesonbuild/meson/releases
 -mold: 2.37.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.12.1 https://github.com/ninja-build/ninja/releases
@@ -568,7 +568,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.2.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 20.1.0 http://libclc.llvm.org/
+-libclc: 20.1.2 http://libclc.llvm.org/
 -libcupsfilters: 2.1.1 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -731,7 +731,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -polkit: v0.126 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
--poppler: 25.03.0 http://poppler.freedesktop.org/
+-poppler: 25.04.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -protobuf: 29.4 https://github.com/google/protobuf
@@ -740,7 +740,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
 -pycurl: 7.45.4 http://pycurl.io/
 -pygobject3: 3.52.3 http://ftp.gnome.org/pub/GNOME/sources/pygobject/
--pyparsing: 3.1.2 to 3.2.1 https://pypi.org/project/pyparsing/
+-pyparsing: 3.2.3 https://pypi.org/project/pyparsing/
 -python-Jinja2: 3.1.6 https://pypi.org/project/Jinja2
 -python-MarkupSafe: 3.0.2 https://pypi.org/project/Markupsafe
 -python-PyYAML: 6.0.2 https://pypi.org/project/pyyaml
@@ -748,7 +748,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -python-appdirs: 1.4.4 https://github.com/ActiveState/appdirs/releases
 -python-babel: 2.17.0 https://pypi.org/project/babel
 -python-build: 1.2.2.post1 https://pypi.org/project/build/#files
--python-calver: 2022.6.26 https://pypi.org/project/calver
+-python-calver: 2025.4.2 https://pypi.org/project/calver
 -python-certifi: 2025.1.31 https://pypi.python.org/pypi/certifi
 -python-cffi: 1.17.1 https://pypi.python.org/pypi/cffi
 -python-chardet: 5.2.0 https://pypi.org/project/chardet/
@@ -804,7 +804,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -qca: 2.3.10 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.16_20250122 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
--qt6: 6.8.3_20250319 https://invent.kde.org/qt/qt/qt5.git
+-qt6: 6.8.3_20250319 to 6.9.0 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.15.0 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.5 https://github.com/stachenov/quazip/releases
 -readline: 8.2.013 (to 8.3-beta) https://ftp.gnu.org/gnu/readline
@@ -870,7 +870,7 @@ n series:
 -autofs: 5.1.9 https://www.kernel.org/pub/linux/daemons/autofs/v5/
 -biff+comsat: 0.17
 -bind: 9.20.7 http://ftp.isc.org/isc/bind9
--bluez: 5.80 to 5.81 http://www.bluez.org/download/
+-bluez: 5.82 http://www.bluez.org/download/
 -bluez-firmware: 1.2 http://www.bluez.org/download/
 -bootp: 2.4.3_15.diff.gz to 2.4.3-19.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bootp/
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
@@ -879,7 +879,7 @@ n series:
 -c-ares: 1.34.4 https://c-ares.org/
 -cifs-utils: 7.3 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
--curl: 8.12.1 http://curl.haxx.se/download/
+-curl: 8.13.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.1 https://github.com/dehydrated-io/dehydrated/releases
@@ -980,7 +980,7 @@ n series:
 -openresolv: 3.14.1 https://roy.marples.name/downloads/openresolv/
 -openssh: 9.9p2 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 3.4.1 http://ftp.openssl.org/source/
--openvpn: 2.6.13 http://www.openvpn.net/index.php/open-source/downloads.html
+-openvpn: 2.6.14 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
 -php: 8.3.19 to 8.4.5 https://www.php.net/
@@ -1120,7 +1120,7 @@ x series: (main packages)
 -libXt: 1.3.1
 -libxcvt: 0.1.2
 -marisa: 0.2.6 https://github.com/s-yata/marisa-trie/releases
--mesa: 25.0.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 25.0.3 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.5 http://m17n.nongnu.org
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1227 to 9.1.1267 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1227 to 9.1.1270 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.9.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
