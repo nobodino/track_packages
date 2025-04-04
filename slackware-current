@@ -142,7 +142,7 @@ A series :
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.23 http://ftp.gnu.org/gnu/which/
 -xfsprogs: 6.13.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
--xz: 5.8.0 http://tukaani.org/xz/
+-xz: 5.8.0 to 5.8.1 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
 --------------------
@@ -221,7 +221,7 @@ Ap series :
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.32.10 http://sourceforge.net/projects/mpg123/files/
--nano: 8.3 to 8.4 http://www.nano-editor.org/download.php
+-nano: 8.4 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 2.11.0 https://github.com/linux-nvme/nvme-cli/tags
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1227 to 9.1.1270 https://github.com/vim/commits/master
+-vim: 9.1.1227 to 9.1.1275 https://github.com/vim/commits/master
 	- vim: 9.1.1227
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -294,7 +294,7 @@ d series:
 -git: 2.49.0. https://git-scm.com/download
 -googletest: 1.16.0 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
--google-go-lang: 1.24.1 https://go.dev
+-google-go-lang: 1.24.1 to 1.24.2 https://go.dev
 -gperf: 3.1 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 to 20220714 https://gyp.gsrc.io/
@@ -356,7 +356,7 @@ d series:
 -re2c: 4.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.4.2 http://www.ruby-lang.org/
--rust: 1.85.1 https://rust-lang.org
+-rust: 1.86.0 https://rust-lang.org
 -rust-bindgen: 0.71.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.9.1 https://github.com/SCons/scons/releases
@@ -495,7 +495,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.80.0 to 2.80.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.84.0  https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.84.0 to 2.84.1 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibmm2: 2.84.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibc: 2.41 http://ftp.gnu.org/pub/gnu/glibc/
@@ -678,7 +678,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -libwpd: 0.10.3 https://sourceforge.net/projects/libwpd/files/libwpd/
 -libwpg: 0.3.4 https://sourceforge.net/projects/libwpg/files/libwpg/
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
--libxml2: 2.13.7 https://download.gnome.org/sources/libxml2/2.10/
+-libxml2: 2.13.7 to 2.14.1 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
 -libxkbcommon: 1.8.1 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.43 https://download.gnome.org/sources/libxslt/1.1/
@@ -704,7 +704,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -netpbm: 11.10.0 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.25 https://releases.pagure.org/newt
 -nodejs: 22.14.0 https://nodejs.org/dist
--ocl-icd: 2.3.2 https://github.com/OCL-dev/ocl-icd/releases
+-ocl-icd: 2.3.3 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.24.3 https://openal-soft.org/openal-releases
 -openblas: 0.3.29 https://github.com/xianyi/OpenBLAS
@@ -722,7 +722,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -pcaudiolib: 1.3 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.45 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
--pcsc-lite: 2.3.2 https://pcsclite.apdu.fr/files/
+-pcsc-lite: 2.3.3 https://pcsclite.apdu.fr/files/
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 20221120 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -phonon-backend-mpv: 20240401 https://github.com/OpenProgger/phonon-mpv
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1227 to 9.1.1270 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1227 to 9.1.1275 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.9.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
