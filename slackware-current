@@ -9,14 +9,14 @@ A series :
 -acl: 2.3.2 http://savannah.nongnu.org/projects/acl
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
--bash: 5.2.037 (to 5.3-beta) http://ftp.gnu.org/pub/gnu/bash/
+-bash: 5.2.037 (to 5.3-rc1) http://ftp.gnu.org/pub/gnu/bash/
 -bcachefs-tools: 1.25.1 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
 -btrfs-progs: 6.14 http://btrfs.wiki.kernel.org
 -bzip2: 1.0.8 https://sourceware.org/pub/bzip2/
--coreutils: 9.6 http://ftp.gnu.org/pub/gnu/coreutils/
+-coreutils: 9.7 http://ftp.gnu.org/pub/gnu/coreutils/
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.10.3 https://github.com/cracklib/cracklib
@@ -58,7 +58,7 @@ A series :
 -infozip: 6.0
 	- unzip: 6.0 http://ftp.info-zip.org/pub/infozip/src/
 	- zip: 3.0 http://fresh.t-systems-sfr.com/unix/src/misc/
--inih: r59 https://github.com/benhoyt/inih
+-inih: r60 https://github.com/benhoyt/inih
 -iniparser: 4.2.6 https://github.com/ndevilla/iniparser
 -inotify-tools: 4.23.9.0 https://github.com/rvoicilas/inotify-tools/releases
 -intel-microcode: 20250211 https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
@@ -97,7 +97,7 @@ A series :
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nut: 2.8.2 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl-solibs: 3.4.1 https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.5.0 https://github.com/openssl/openssl/tags
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.7.0 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.8 http://ftp.gnu.org/pub/gnu/patch/
@@ -160,14 +160,14 @@ Ap series :
 -cdrtools: 3.02a9
 	- cdrtools: 3.02a9 http://sourceforge.net/projects/cdrtools/files/alpha/
 	- zisofs-tools : 1.0.8 https://www.kernel.org/pub/linux/utils/fs/zisofs/
--cups: 2.4.11 https://github.com/openprinting/cups/releases
+-cups: 2.4.12 https://github.com/openprinting/cups/releases
 -cups-browsed: 2.1.0 to 2.1.1 https://github.com/OpenPrinting/cups-browsed
 -cups-filters: 2.0.1 https://github.com/OpenPrinting/cups-filters/tags
 -dash: 0.5.12 http://gondor.apana.org.au/~herbert/dash/files/
 -dc3dd: 7.3.1 http://sourceforge.net/projects/dc3dd/
 -ddrescue: 1.29.1 http://ftp.gnu.org/gnu/ddrescue/ or (testing) http://download.savannah.gnu.org/releases/ddrescue/
 -diffstat: 1.67 https://invisible-island.net/archives/diffstat/
--diffutils: 3.10 (to 3.11 nok) http://ftp.gnu.org/pub/gnu/diffutils/
+-diffutils: 3.12 http://ftp.gnu.org/pub/gnu/diffutils/
 -dmapi: 2.2.12 http://oss.sgi.com/projects/xfs/cmd_tars/ or http://ftp.debian.org/debian/pool/main/d/dmapi/
 -dmidecode: 3.6 https://www.nongnu.org/dmidecode/
 -dvd+rw-tools: 7.1 http://fy.chalmers.se/~appro/linux/DVD+RW/tools/
@@ -228,7 +228,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.13 to 2.15 https://github.com/fenrus75/powertop/releases
--qpdf: 12.0.0 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 12.0.0 to 12.1.0 https://sourceforge.net/projects/qpdf/files/qpdf/
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
 -rdfind: 1.7.0 https://github.com/pauldreik/rdfind
 -rpm: 4.20.1 http://ftp.rpm.org/releases
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1283 to 9.1.128x https://github.com/vim/commits/master
+-vim: 9.1.1283 to 9.1.1289 https://github.com/vim/commits/master
 	- vim: 9.1.1283
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -307,10 +307,10 @@ d series:
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.2 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
--luajit: 2.1.1741730670 https://luajit.org/git/luajit.git
+-luajit: 2.1.1744014795 https://luajit.org/git/luajit.git
 -m4: 1.4.19 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
--mercurial: 7.0 https://www.mercurial-scm.org/release
+-mercurial: 7.0 to 7.0.1 https://www.mercurial-scm.org/release
 -meson: 1.7.2 https://github.com/mesonbuild/meson/releases
 -mold: 2.37.0 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
@@ -349,7 +349,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.12.9 to 3.13.2 https://www.python.org/downloads/
+-python3: 3.12.10 to 3.13.3 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 78.1.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -521,7 +521,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.18.3 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.18.3 to 4.18.4/4.19.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.10 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.18.0 https://download.gnome.org/sources/gtkmm/
@@ -701,7 +701,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -mujs: 1.3.6 https://mujs.com/downloads
 -ncurses: 6.5_20250405 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.34.0 https://github.com/notroj/neon/tags
--netpbm: 11.10.0 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.10.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.25 https://releases.pagure.org/newt
 -nodejs: 22.14.0 https://nodejs.org/dist
 -ocl-icd: 2.3.3 https://github.com/OCL-dev/ocl-icd/releases
@@ -807,7 +807,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -qt6: 6.8.3_20250319 to 6.9.0 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.15.0 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.5 https://github.com/stachenov/quazip/releases
--readline: 8.2.013 (to 8.3-beta) https://ftp.gnu.org/gnu/readline
+-readline: 8.2.013 (to 8.3-rc1) https://ftp.gnu.org/gnu/readline
 -rpcsvc-proto: 1.4.4 https://github.com/thkukuk/rpcsvc-proto/releases
 -rttr: 0.9.6 https://www.rttr.org/download
 -rubygem-asciidoctor: 2.0.23 https://rubygems.org/gems/asciidoctor
@@ -876,7 +876,7 @@ n series:
 -bridge-utils: 1.7.1 https://git.kernel.org/pub/scm/network/bridge/bridge-utils.git/refs/tags
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20250131 http://packages.qa.debian.org/c/ca-certificates.html
--c-ares: 1.34.4 https://c-ares.org/
+-c-ares: 1.34.5 https://c-ares.org/
 -cifs-utils: 7.3 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.13.0 http://curl.haxx.se/download/
@@ -890,7 +890,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.3 http://www.epicsol.org/
--ethtool: 6.11 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 6.14 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -916,9 +916,9 @@ n series:
 -lftp: 4.9.3 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 3.0.2 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.11.0 https://www.gnupg.org/download/index.html
--libgpg-error: 1.51 https://www.gnupg.org/download/index.html
+-libgpg-error: 1.53 https://www.gnupg.org/download/index.html
 -libksba: 1.6.7 https://www.gnupg.org/download/index.html
--libmbim: 1.30.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
+-libmbim: 1.32.0 https://gitlab.freedesktop.org/mobile-broadband/libmbim/-/tags
 -libmilter: 8.18.1 (sendmail)
 -libmnl: 1.0.5 http://www.netfilter.org/projects/libmnl/
 -libndp: 1.9 https://github.com/jpirko/libndp/tags
@@ -930,7 +930,7 @@ n series:
 -libnetfilter_queue: 1.0.5 http://ftp.netfilter.org/pub/conntrack-tools/
 -libnfnetlink: 1.0.2 http://ftp.netfilter.org/pub/libnfnetlink/
 -libnftnl: 1.2.8 http://ftp.netfilter.org/pub/libnftnl/
--libqmi: 1.34.0 https://github.com/freedesktop/libqmi/tags
+-libqmi: 1.36.0 https://github.com/freedesktop/libqmi/tags
 -libqrtr-glib: 1.2.2 https://gitlab.freedesktop.org/mobile-broadband/libqrtr-glib
 -libtirpc: 1.3.6 https://sourceforge.net/projects/libtirpc/files/libtirpc/
 -links: 2.30 http://links.twibright.com/download.php
@@ -942,7 +942,7 @@ n series:
 -mtr: 0.95 https://github.com/traviscross/mtr/tags
 -mutt: 2.2.14 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
--ncftp: 3.2.9 http://ftp.ncftp.com/download/
+-ncftp: 3.2.9.1 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.4 https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 4.2.0 http://netatalk.sourceforge.net/
@@ -978,12 +978,12 @@ n series:
 -openldap: 2.6.9 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.14.1 https://roy.marples.name/downloads/openresolv/
--openssh: 9.9p2 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 3.4.1 http://ftp.openssl.org/source/
+-openssh: 10.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
+-openssl: 3.5.0 http://ftp.openssl.org/source/
 -openvpn: 2.6.14 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.3.19 to 8.4.5 https://www.php.net/
+-php: 8.3.19 to 8.4.6 https://www.php.net/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
@@ -1074,10 +1074,10 @@ x series: (main packages)
 -glew: 2.2.0 https://github.com/nigels-com/glew/releases
 -glu: 9.0.3 http://cgit.freedesktop.org/mesa/glu/
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
--ibus: 1.5.31 https://github.com/ibus/ibus/releases/
+-ibus: 1.5.32 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
 -ibus-libpinyin: 1.16.1 https://github.com/libpinyin/ibus-libpinyin/releases
--ibus-m17n: 1.4.35
+-ibus-m17n: 1.4.36
 -ibus-table: 1.17.11
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
 -labwc: 0.8.3 https://github.com/labwc/labwc
@@ -1134,7 +1134,7 @@ x series: (main packages)
 -twm: 1.0.12
 -vulkan-sdk: 1.4.304.0 to 1.4.309.0 https://github.com/KhronosGroup/Vulkan-ValidationLayers/releases
 -wayland: 1.23.0 to 1.23.1 https://wayland.freedesktop.org/releases.html
--wayland-protocols: 1.42 https://wayland.freedesktop.org/releases.html
+-wayland-protocols: 1.43 https://wayland.freedesktop.org/releases.html
 -wayland-utils: 1.2.0 https://gitlab.freedesktop.org/wayland/wayland-utils/
 -xcb-imdkit: 1.0.9
 -xcb-proto: 1.17.0
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1283 to 9.1.128x https://github.com/vim/vim/commits/master
+-gvim: 9.1.1283 to 9.1.1289 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.9.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1301,7 +1301,7 @@ extra:
 testing:
 -kernel-6.13.x: 6.13.9
 -kernel-6.14.x: 6.14.0
--php: 8.4.5
+-php: 8.4.5 to 8.4.6
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
