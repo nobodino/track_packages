@@ -48,9 +48,9 @@ A series :
 -glibc-zoneinfo: 2025b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
--grep: 3.11 http://ftp.gnu.org/pub/gnu/grep
+-grep: 3.12 http://ftp.gnu.org/pub/gnu/grep
 -grub: 2.12 http://ftp.gnu.org/gnu/grub/
--gzip: 1.13 http://ftp.gnu.org/pub/gnu/gzip/
+-gzip: 1.14 http://ftp.gnu.org/pub/gnu/gzip/
 -haveged: 1.9.19 https://github.com/jirka-h/haveged/releases
 -hdparm: 9.65 https://sourceforge.net/projects/hdparm/files/hdparm/
 -hostname: 3.25 http://debian.backend.mirrors.debian.org/debian/pool/main/h/hostname/
@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.12.21 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250328 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20250408 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 674 https://github.com/gwsw/less/tags
@@ -181,7 +181,7 @@ Ap series :
 -hplip: 3.25.2 http://hplipopensource.com
 -htop: 3.4.0 https://github.com/htop-dev/htop/releases
 -ispell: 3.4.06 https://www.cs.hmc.edu/~geoff/ispell.html
--inxi: 3.3.37_1 https://github.com/smxi/inxi/tags
+-inxi: 3.3.38_1 https://github.com/smxi/inxi/tags
 -itstool: 2.0.7 http://itstool.org/download/
 -jed: 0.99_19 to pre0.99-20-179 https://github.com/jedsoft/jed
 -joe: 4.6 http://sourceforge.net/projects/joe-editor/files/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1283 to 9.1.1289 https://github.com/vim/commits/master
+-vim: 9.1.1283 to 9.1.1291 https://github.com/vim/commits/master
 	- vim: 9.1.1283
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.2 https://www.xiph.org/downloads/
@@ -281,7 +281,7 @@ d series:
 -clisp: 2.50_20241228 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 4.0.0 http://www.cmake.org/cmake/resources/software.html
+-cmake: 4.0.1 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -434,7 +434,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -audiofile: 0.3.6 https://download.gnome.org/sources/audiofile/0.3/
 -avahi: 20240306 https://github.com/avahi/avahi
 -babl: 0.1.112 http://download.gimp.org/pub/babl/0.1/
--boost: 1.87.0 https://github.com/boostorg/boost
+-boost: 1.87.0 to 1.88.0 https://github.com/boostorg/boost
 -brotli: 1.1.0 https://github.com/google/brotli/releases
 -cairo: 1.18.4 http://cairographics.org/releases/
 -cairomm: 1.14.4 to 1.14.5 http://cairographics.org/cairomm/
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1283 to 9.1.1289 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1283 to 9.1.1291 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.9.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1299,8 +1299,7 @@ extra:
 -xv: 6.0.2
 --------------------
 testing:
--kernel-6.13.x: 6.13.9
--kernel-6.14.x: 6.14.0
+-kernel-6.14.x: 6.14.2
 -php: 8.4.5 to 8.4.6
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
