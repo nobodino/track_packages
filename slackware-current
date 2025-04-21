@@ -66,8 +66,8 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.22 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250410 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.24 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250419 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 674 https://github.com/gwsw/less/tags
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1283 to 9.1.1324 https://github.com/vim/commits/master
+-vim: 9.1.1283 to 9.1.1326 https://github.com/vim/commits/master
 	- vim: 9.1.1283
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
@@ -289,20 +289,20 @@ d series:
 -doxygen: 1.13.2 http://www.doxygen.org/download.html
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 http://ftp.gnu.org/pub/gnu/gcc/
--gdb: 16.2 http://ftp.gnu.org/pub/gnu/gdb/
+-gdb: 16.3 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.49.0. https://git-scm.com/download
 -googletest: 1.16.0 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -google-go-lang: 1.24.2 https://go.dev
--gperf: 3.2.1 http://ftp.gnu.org/gnu/gperf/
+-gperf: 3.3 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.10 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 to 20220714 https://gyp.gsrc.io/
 -help2man: 1.49.3 http://ftp.gnu.org/gnu/help2man/
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.22 http://wwww.kernel.org
+-kernel-headers: 6.12.24 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.3 http://llvm.org/
@@ -352,7 +352,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.10 to 3.13.3 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
--python-setuptools: 78.1.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 79.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -388,7 +388,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.22 
+-kernel : 6.12.24 
 --------------------
 kde series :
 --------------------
@@ -1077,7 +1077,7 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.32 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
--ibus-libpinyin: 1.16.1 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.16.2 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.36
 -ibus-table: 1.17.11
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
@@ -1201,7 +1201,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1283 to 9.1.1324 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1283 to 9.1.1326 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.9.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1300,7 +1300,7 @@ extra:
 -xv: 6.0.2
 --------------------
 testing:
--kernel-6.14.x: 6.14.2
+-kernel-6.14.x: 6.14.3
 -php: 8.4.6
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
