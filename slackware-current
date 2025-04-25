@@ -132,7 +132,7 @@ A series :
 -usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.15.2 https://liburcu.org
--utempter: 1.2.1 (libutempter) https://github.com/altlinux/libutempter/tags
+-utempter: 1.2.3 (libutempter) https://github.com/altlinux/libutempter/tags
 -util-linux: 2.41
 	- adjtimex: 1.23_1.diff.gz to 1.29.tar.xz http://ftp.debian.org/debian/pool/main/a/adjtimex/
 	- net-tools: 20181103 to 2.10 https://sourceforge.net/projects/net-tools/files/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1283 to 9.1.1340 https://github.com/vim/commits/master
+-vim: 9.1.1283 to 9.1.1343 https://github.com/vim/commits/master
 	- vim: 9.1.1283
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
@@ -352,7 +352,7 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.10 to 3.13.3 https://www.python.org/downloads/
 -python-pip: 25.0.1 https://pypi.python.org/pypi/pip
--python-setuptools: 79.0.0 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 79.0.1 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -480,7 +480,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.16 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.16.2 to 3.17.1 https://github.com/libfuse/libfuse/releases
+-fuse3: 3.16.2 to 3.17.2 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0  http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.4.0.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -514,11 +514,11 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -gsettings-desktop-schemas: 48.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.26.0 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.26.0 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.26.0 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.26.0 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.26.0 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.26.0 to 1.26.1 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.26.0 to 1.26.1 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.26.0 to 1.26.1 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.26.0 to 1.26.1 https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.26.0 to 1.26.1 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -1201,7 +1201,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1283 to 9.1.1340 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1283 to 9.1.1343 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.9.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
