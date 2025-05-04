@@ -44,7 +44,7 @@ A series :
 	- fdutils: 5.6 http://fdutils.linux.lu/
 	- mtools: 4.0.48 https://www.gnu.org/software/mtools/
 -gawk: 5.3.2 http://ftp.gnu.org/pub/gnu/gawk/
--gettext: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext: 0.24.1 http://ftp.gnu.org/pub/gnu/gettext/
 -glibc-zoneinfo: 2025b https://www.iana.org/time-zones
 -gpm: 1.20.7 http://www.nico.schottelius.org/software/gpm/ or https://github.com/telmich/gpm/
 -gptfdisk: 1.0.10 https://sourceforge.net/projects/gptfdisk/files/gptfdisk/
@@ -66,8 +66,8 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.25 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250425 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.26 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250502 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 674 https://github.com/gwsw/less/tags
@@ -214,7 +214,7 @@ Ap series :
 -lxc: 6.0.4 https://linuxcontainers.org/lxc/downloads/
 -lzip: 1.25 http://download.savannah.gnu.org/releases/lzip/
 -madplay: 0.15.2b htp://www.underbit.com/products/mad/ or http://sourceforge.net/projects/mad/files/madplay/
--man-db: 2.13.0 https://gitlab.com/man-db/man-db/-/tags
+-man-db: 2.13.0 to 2.13.1 https://gitlab.com/man-db/man-db/-/tags
 -man-pages: 6.13 http://www.kernel.org/pub/linux/docs/man-pages/
 -mariadb: 11.14.5 http://mariadb.org/
 -mc: 4.8.33 http://www.midnight-commander.org/downloads/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1349 to 9.1.1357 https://github.com/vim/commits/master
+-vim: 9.1.1349 to 9.1.1362 https://github.com/vim/commits/master
 	- vim: 9.1.1349
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
@@ -275,7 +275,7 @@ d series:
 -cargo-c: 0.10.12 https://github.com/lu-zero/cargo-c
 -cargo-vendor-filterer: 0.5.17 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.28.0 https://github.com/mozilla/cbindgen/tags
--ccache: 4.11.2 https://ccache.dev/download.html
+-ccache: 4.11.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.25 https://github.com/Oblomov/clinfo
 -clisp: 2.50_20241228 https://gitlab.com/gnu-clisp/clisp
@@ -290,7 +290,7 @@ d series:
 -flex: 2.6.4 https://github.com/westes/flex/releases
 -gcc: 14.2 to 15.1 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 16.3 http://ftp.gnu.org/pub/gnu/gdb/
--gettext-tools: 0.24 http://ftp.gnu.org/pub/gnu/gettext/
+-gettext-tools: 0.24.1 http://ftp.gnu.org/pub/gnu/gettext/
 -git: 2.49.0. https://git-scm.com/download
 -googletest: 1.17.0 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
@@ -302,7 +302,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.25 http://wwww.kernel.org
+-kernel-headers: 6.12.26 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.4 http://llvm.org/
@@ -351,8 +351,8 @@ d series:
 -poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.10 to 3.13.3 https://www.python.org/downloads/
--python-pip: 25.1 https://pypi.python.org/pypi/pip
--python-setuptools: 80.1.0 https://pypi.python.org/pypi/setuptools
+-python-pip: 25.1.1 https://pypi.python.org/pypi/pip
+-python-setuptools: 80.3.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
@@ -388,7 +388,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.25 
+-kernel : 6.12.26 
 --------------------
 kde series :
 --------------------
@@ -474,7 +474,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -ffmpeg: 7.1.1 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.5 http://www.fluidsynth.org/
--fmt: 11.1.4 https://github.com/fmtlib/fmt/releases/
+-fmt: 11.1.4 to 11.2.0 https://github.com/fmtlib/fmt/releases/
 -freecell-solver: 6.12.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.13.3 http://sourceforge.net/projects/freetype/files/freetype2/
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
@@ -522,7 +522,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.18.3 to 4.18.4/4.19.0 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk4: 4.18.4 to 4.18.5 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.10 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.18.0 https://download.gnome.org/sources/gtkmm/
@@ -681,7 +681,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -libxklavier: 5.4 https://gitlab.freedesktop.org/archived-projects/libxklavier/-/tags
 -libxml2: 2.13.8 to 2.14.1 https://download.gnome.org/sources/libxml2/2.10/
 -libyaml: 0.2.5 (yaml) http://pyyaml.org/wiki/LibYAML
--libxkbcommon: 1.8.1 (to 1.9.0 nok) https://github.com/xkbcommon/libxkbcommon/releases
+-libxkbcommon: 1.9.1 https://github.com/xkbcommon/libxkbcommon/releases
 -libxslt: 1.1.43 https://download.gnome.org/sources/libxslt/1.1/
 -libzip: 1.11.3 https://libzip.org/download/
 -lmdb: 0.9.33 https://github.com/LMDB/lmdb/tags
@@ -783,7 +783,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -python-pygments: 2.19.1 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.2.0 https://pypi.org/project/pyproject_hooks/#files
--python-pysol_cards: 0.20.0 https://pypi.org/project/pysol-cards
+-python-pysol_cards: 0.22.0 https://pypi.org/project/pysol-cards
 -python-random2: 1.0.2 https://pypi.python.org/pypi/random2
 -python-requests: 2.32.3 https://pypi.org/project/requests/
 -python-roman-numerals-py: 3.1.0 https://pypi.org/project/roman-numerals-py
@@ -848,7 +848,7 @@ SDL3: 3.2.10 https://github.com/libsdl-org/SDL/releases
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -unicode-ucd: 16.0.0 https://www.unicode.org/Public/zipped/15.1.0/UCD.zip
 -utf8proc: 2.10.0 https://github.com/JuliaStrings/utf8proc/releases
--v4l-utils: 1.28.1 http://linuxtv.org/downloads/v4l-utils/
+-v4l-utils: 1.30.1 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.80.1 http://ftp.gnome.org/pub/gnome/sources/vte/
 -wavpack: 5.8.1 https://www.wavpack.com/downloads.html
@@ -1081,7 +1081,7 @@ x series: (main packages)
 -ibus-m17n: 1.4.36
 -ibus-table: 1.17.11
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
--labwc: 0.8.3 https://github.com/labwc/labwc
+-labwc: 0.8.4 https://github.com/labwc/labwc
 -libdisplay-info: 0.2.0 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
@@ -1201,7 +1201,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1349 to 9.1.1357 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1349 to 9.1.1362 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.10.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1301,7 +1301,7 @@ extra:
 --------------------
 testing:
 -gcc: 15.1
--kernel-6.14.x: 6.14.4
+-kernel-6.14.x: 6.14.5
 -mesa: 25.1.0_rc3
 -php: 8.4.6
 /-----------------------------------------------------------------------------------/
