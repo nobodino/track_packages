@@ -129,7 +129,7 @@ A series :
 -udisks2: 2.10.1 https://github.com/storaged-project/udisks/releases
 -unarj: 2.65 http://www.arjsoftware.com/files.htm
 -upower: 1.90.9 https://gitlab.freedesktop.org/upower/upower/-/releases
--usb_modeswitch: 2.6.1 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
+-usb_modeswitch: 2.6.2 http://www.draisberghof.de/usb_modeswitch or http://ftp.debian.org/debian/pool/main/u/usb-modeswitch/
 -usbutils: 018 https://www.kernel.org/pub/linux/utils/usb/usbutils/
 -userspace-rcu: 0.15.2 https://liburcu.org
 -utempter: 1.2.3 (libutempter) https://github.com/altlinux/libutempter/tags
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1385 to 9.1.138x https://github.com/vim/commits/master
+-vim: 9.1.1385 to 9.1.1393 https://github.com/vim/commits/master
 	- vim: 9.1.1385
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
@@ -305,7 +305,7 @@ d series:
 -kernel-headers: 6.12.28 http://wwww.kernel.org
 -libgccjit: 14.2.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 20.1.4 http://llvm.org/
+-llvm: 20.1.4 to 20.1.5 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1744318430 https://luajit.org/git/luajit.git
 -m4: 1.4.20 http://ftp.gnu.org/pub/gnu/m4/
@@ -352,12 +352,12 @@ d series:
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.10 to 3.13.3 https://www.python.org/downloads/
 -python-pip: 25.1.1 https://pypi.python.org/pypi/pip
--python-setuptools: 80.3.1 https://pypi.python.org/pypi/setuptools
+-python-setuptools: 80.6.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
--ruby: 3.4.3 http://www.ruby-lang.org/
--rust: 1.86.0 https://rust-lang.org
+-ruby: 3.4.3 to 3.4.4 http://www.ruby-lang.org/
+-rust: 1.86.0 to 1.87.0 https://rust-lang.org
 -rust-bindgen: 0.71.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.9.1 https://github.com/SCons/scons/releases
@@ -569,7 +569,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.2.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 20.1.4 http://libclc.llvm.org/
+-libclc: 20.1.4 to 20.1.5 http://libclc.llvm.org/
 -libcupsfilters: 2.1.1 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -895,7 +895,7 @@ n series:
 -fetchmail: 6.5.2 https://www.fetchmail.info/
 -getmail: 6.19.07 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.7 to 2.5.6 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.7 to 2.4.8/2.5.6 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.9 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.2 https://www.gnupg.org/download/index.html
@@ -969,7 +969,7 @@ n series:
 -nftables: 1.1.3 http://www.netfilter.org/projects/nftables/
 -nghttp2: 1.65.0 https://github.com/nghttp2/nghttp2/releases
 -nghttp3: 1.9.0 https://github.com/ngtcp2/nghttp3
--nmap: 7.96 to 7.97 http://download.insecure.org/nmap/dist/
+-nmap: 7.97 http://download.insecure.org/nmap/dist/
 -nn: 6.7.3 http://www.nndev.org/
 -npth: 1.8 https://github.com/gpg/npth/tags/
 -nss-mdns: 0.15.1 https://github.com/avahi/nss-mdns
@@ -1201,7 +1201,7 @@ xap series:
 -gtk-layer-shell: 0.9.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1385 to 9.1.138x https://github.com/vim/vim/commits/master
+-gvim: 9.1.1385 to 9.1.1393 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.10.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
