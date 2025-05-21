@@ -266,7 +266,7 @@ Ap series :
 d series:
 --------------------
 -AMF-headers: 1.4.36 https://github.com/GPUOpen-LibrariesAndSDKs/AMF
--Cython: 3.1.0 to 3.1.1 https://pypi.python.org/pypi/Cython/
+-Cython: 3.1.1 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2024.10.16 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.17 http://ftp.gnu.org/pub/gnu/automake/
@@ -496,7 +496,7 @@ l series:
 -glade: 3.40.0 https://ftp.gnome.org/pub/GNOME/sources/glade/
 -glib: 1.2.10_17.diff.gz http://ftp.gtk.org/pub/gtk/v1.2/
 -glib-networking: 2.80.0 to 2.80.1 http://ftp.acc.umu.se/pub/gnome/sources/glib-networking/
--glib2: 2.84.1 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
+-glib2: 2.84.1 to 2.84.2 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibmm2: 2.84.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibc: 2.41 http://ftp.gnu.org/pub/gnu/glibc/
@@ -1205,7 +1205,7 @@ xap series:
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.10.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.10.1esr https://www.thunderbird.net/
+-mozilla-thunderbird: 128.10.2esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.162 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
