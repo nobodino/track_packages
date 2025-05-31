@@ -65,9 +65,9 @@ A series :
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
--kbd: 2.7.1 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.30 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250521 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kbd: 2.7.1 to 2.8.0 https://github.com/legionus/kbd/releases
+-kernel-ide: 6.12.31 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 2025052 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 674 to 678 https://github.com/gwsw/less/tags
@@ -302,10 +302,10 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.30 http://wwww.kernel.org
+-kernel-headers: 6.12.31 http://wwww.kernel.org
 -libgccjit: 14.3.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
--llvm: 20.1.5 to 20.1.6 http://llvm.org/
+-llvm: 20.1.6 http://llvm.org/
 -lua: 5.4.7 http://www.lua.org/ftp
 -luajit: 2.1.1744318430 https://luajit.org/git/luajit.git
 -m4: 1.4.20 http://ftp.gnu.org/pub/gnu/m4/
@@ -388,7 +388,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.30 
+-kernel : 6.12.31 
 --------------------
 kde series :
 --------------------
@@ -514,11 +514,11 @@ l series:
 -gsettings-desktop-schemas: 48.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.26.0 to 1.26.1 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.26.1 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.26.1 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.26.1 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.26.1 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.26.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.26.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.26.2 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.26.2 https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.26.2 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -569,7 +569,7 @@ l series:
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.2.0 http://ftp.gnu.org/gnu/libcdio/
 -libcdio-paranoia: 10.2+2.0.2 http://ftp.gnu.org/gnu/libcdio/
--libclc: 20.1.5 to 20.1.6 http://libclc.llvm.org/
+-libclc: 20.1.6 http://libclc.llvm.org/
 -libcupsfilters: 2.1.1 https://github.com/OpenPrinting/libcupsfilters
 -libcue: 2.2.1 https://github.com/lipnitsk/libcue/releases
 -libdaemon: 0.14 http://0pointer.de/lennart/projects/libdaemon/
@@ -661,7 +661,7 @@ l series:
 -libunibreak: 6.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.3 http://ftp.gnu.org/gnu/libunistring/mpfr
 -libunwind: 1.8.1 https://git.savannah.nongnu.org/cgit/libunwind.git
--liburing: 2.9 https://git.kernel.dk/cgit/liburing/
+-liburing: 2.10 https://git.kernel.dk/cgit/liburing/
 -libusb: 1.0.28 https://github.com/libusb/libusb/releases
 -libusb-compat: 0.1.8 http://libusb.info
 -libusbmuxd: 20230901 http://www.libimobiledevice.org/
@@ -728,7 +728,7 @@ l series:
 -phonon-backend-gstreamer: 20221120 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -phonon-backend-mpv: 20240401 https://github.com/OpenProgger/phonon-mpv
 -pilot-link: 0.12.5 https://github.com/jichu4n/pilot-link/releases
--pipewire: 1.4.3 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
+-pipewire: 1.4.4 https://gitlab.freedesktop.org/pipewire/pipewire/-/tags
 -polkit: v0.126 https://gitlab.freedesktop.org/polkit/polkit/-/tags
 -polkit-gnome: 0.105 http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/
 -polkit-qt-1: 0.200 https://download.kde.org/stable/polkit-qt-1/
@@ -1301,7 +1301,7 @@ extra:
 --------------------
 testing:
 -gcc: 15.1
--kernel-6.14.x: 6.14.8
+-kernel-6.14.x: 6.14.9
 -php: 8.4.6 to 8.4.7
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
