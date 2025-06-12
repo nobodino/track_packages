@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1441 to 9.1.1453 https://github.com/vim/commits/master
+-vim: 9.1.1441 to 9.1.1455 https://github.com/vim/commits/master
 	- vim: 9.1.1441
 	- ctags: 5.8 http://ctags.sourceforge.net/
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
@@ -278,7 +278,7 @@ d series:
 -ccache: 4.11.3 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.0.25 https://github.com/Oblomov/clinfo
--clisp: 2.50_20241228 https://gitlab.com/gnu-clisp/clisp
+-clisp: 2.50_20250504 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
 -cmake: 4.0.2 http://www.cmake.org/cmake/resources/software.html
@@ -350,7 +350,7 @@ d series:
 -pmake: 1.111_1.diff.gz
 -poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
--python3: 3.12.11 to 3.13.4 https://www.python.org/downloads/
+-python3: 3.12.11 to 3.13.5 https://www.python.org/downloads/
 -python-pip: 25.1.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 80.9.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
@@ -509,7 +509,7 @@ l series:
 -gobject-introspection: 1.84.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
--graphviz: 12.2.1 to 13.0.0 https://gitlab.com/graphviz/graphviz
+-graphviz: 13.0.0 https://gitlab.com/graphviz/graphviz
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 48.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
@@ -585,7 +585,7 @@ l series:
 -libevent: 2.1.12 http://libevent.org/
 -libexif: 0.6.25 https://github.com/libexif/libexif/releases
 -libfakekey: 0.3 https://git.yoctoproject.org/libfakekey/
--libffi: 3.5.0 https://github.com/libffi/libffi/releases/
+-libffi: 3.5.1 https://github.com/libffi/libffi/releases/
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
 -libgphoto2: 2.5.31 http://www.gphoto.org/
@@ -878,7 +878,7 @@ n series:
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20250131 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.34.5 https://c-ares.org/
--cifs-utils: 7.3 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 7.3 to 7.4 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.14.1 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
@@ -892,7 +892,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.3 http://www.epicsol.org/
 -ethtool: 6.14 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.5.2 https://www.fetchmail.info/
+-fetchmail: 6.5.3 https://www.fetchmail.info/
 -getmail: 6.19.08 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.8 to 2.5.7 https://www.gnupg.org/download/index.html
@@ -1201,11 +1201,11 @@ xap series:
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1441 to 9.1.1453 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1441 to 9.1.1455 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.11.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
--mozilla-thunderbird: 128.11.0esr https://www.thunderbird.net/
+-mozilla-thunderbird: 128.11.1esr https://www.thunderbird.net/
 -network-manager-applet: 1.34.0 https://download.gnome.org/sources/network-manager-applet/
 -pan: 0.163 http://pan.rebelbase.com/download/releases/
 -pavucontrol: 6.1 http://0pointer.de/lennart/projects/pavucontrol/
