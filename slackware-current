@@ -66,11 +66,11 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.8.0 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.33 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250609 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.34 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20250619 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
--less: 674 to 678 https://github.com/gwsw/less/tags
+-less: 679 https://github.com/gwsw/less/tags
 -lhasa: 0.4.0 https://github.com/fragglet/lhasa
 -libblockdev: 3.3.1 https://github.com/rhinstaller/libblockdev
 -libbytesize: 2.11 https://github.com/rhinstaller/libbytesize
@@ -101,7 +101,7 @@ A series :
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.7.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.8 http://ftp.gnu.org/pub/gnu/patch/
--pciutils: 3.13.0 http://www.kernel.org/pub/software/utils/pciutils/
+-pciutils: 3.14.0 http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
 -pkgtools: 15.0
 -plzip: 1.12 https://download.savannah.gnu.org/releases/lzip/plzip/
@@ -246,7 +246,7 @@ Ap series :
 -sqlite: 3.50.1 http://www.sqlite.org/download.html
 -squashfs-tools: 4.7 http://squashfs.sourceforge.net/
 -stow: 2.4.1 https://www.gnu.org/software/stow/
--sudo: 1.9.16p2 (to 1.6.17rc1) https://github.com/sudo-project/sudo/releases
+-sudo: 1.9.17 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.7 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.2 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1460 to 9.1.1471 https://github.com/vim/commits/master
+-vim: 9.1.1460 to 9.1.1473 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -300,7 +300,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.33 http://wwww.kernel.org
+-kernel-headers: 6.12.34 http://wwww.kernel.org
 -libgccjit: 15.1.0
 -libtool: 2.5.3 to 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 20.1.7 http://llvm.org/
@@ -344,7 +344,7 @@ d series:
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- libnet: 3.15 https://www.cpan.org/modules/01modules.index.html
 	- perl: 5.40.2 http://www.perl.com/CPAN/src/5.0/
--pkgconf: 2.4.3 https://github.com/pkgconf/pkgconf
+-pkgconf: 2.50. https://github.com/pkgconf/pkgconf
 -pmake: 1.111_1.diff.gz
 -poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
@@ -387,7 +387,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.33 
+-kernel : 6.12.34 
 --------------------
 kde series :
 --------------------
@@ -692,8 +692,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.32.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.111 to 3.112 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.111 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.113 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.113 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -movit: 1.7.1 https://movit.sesse.net
 -mozjs128: 128.11.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -707,7 +707,7 @@ l series:
 -ocl-icd: 2.3.3 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.24.3 https://openal-soft.org/openal-releases
--openblas: 0.3.29 https://github.com/xianyi/OpenBLAS
+-openblas: 0.3.30 https://github.com/xianyi/OpenBLAS
 -opencv: 4.10.0 https://github.com/opencv/opencv/releases
 -openexr: 3.3.4 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.3 http://www.openjpeg.org
@@ -770,7 +770,7 @@ l series:
 -python-importlib_metadata: 8.7.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
 -python-lxml: 5.4.0 https://pypi.org/project/lxml/#files
--python-markdown: 3.8.1 https://pypi.org/project/Markdown
+-python-markdown: 3.8.2 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 25.0 https://github.com/pypa/packaging/releases
 -python-pathspec: 0.12.1 https://pypi.org/project/pathspec
@@ -779,7 +779,7 @@ l series:
 -python-pluggy: 1.6.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
 -python-psutil: 7.0.0 https://pypi.org/project/psutil
--python-pygments: 2.19.1 https://pypi.org/project/Pygments
+-python-pygments: 2.19.2 https://pypi.org/project/Pygments
 -python-pycparser: 2.22 https://pypi.python.org/pypi/pycparser
 -python-pyproject-hooks: 1.2.0 https://pypi.org/project/pyproject_hooks/#files
 -python-pysol_cards: 0.24.0 https://pypi.org/project/pysol-cards
@@ -894,7 +894,7 @@ n series:
 -fetchmail: 6.5.4 https://www.fetchmail.info/
 -getmail: 6.19.08 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.8 to 2.5.7 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.8 to 2.5.8 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.9 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.3 https://www.gnupg.org/download/index.html
@@ -1056,7 +1056,7 @@ x series: (main packages)
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
 -egl-wayland: 1.1.19 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.2.1 https://github.com/NVIDIA/eglexternalplatform/tags
--fcitx5: 5.1.13 https://fcitx-im.org/wiki/Fcitx_5
+-fcitx5: 5.1.14 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.1.7 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-chinese-addons: 5.1.9 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-gtk: 5.1.4 https://fcitx-im.org/wiki/Fcitx_5
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1460 to 9.1.1471 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1460 to 9.1.1473 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 128.11.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1299,8 +1299,10 @@ extra:
 -xv: 6.0.3
 --------------------
 testing:
--kernel-6.14.x: 6.14.11
+-kernel-6.15.x: 6.15.3
 -php: 8.4.8
+-firefox: 140.0b9
+-mozilla-thunderbird: 140.0b3
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
