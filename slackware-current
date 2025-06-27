@@ -111,7 +111,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.17.4 to 4.18.0 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.18.0 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.5 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -141,7 +141,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.23 http://ftp.gnu.org/gnu/which/
--xfsprogs: 6.14.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 6.15.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.8.1 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1476 to 9.1.1478 https://github.com/vim/commits/master
+-vim: 9.1.1476 to 9.1.1484 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -267,7 +267,7 @@ d series:
 -Cython: 3.1.2 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2024.10.16 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
--automake: 1.18 http://ftp.gnu.org/pub/gnu/automake/
+-automake: 1.18 to 1.18.1 http://ftp.gnu.org/pub/gnu/automake/
 -binutils: 2.43.1 to 2.44 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-c: 0.10.13 https://github.com/lu-zero/cargo-c
@@ -344,7 +344,7 @@ d series:
 	- XML-Simple: 2.25 http://www.cpan.org/modules/by-module/XML/
 	- libnet: 3.15 https://www.cpan.org/modules/01modules.index.html
 	- perl: 5.40.2 http://www.perl.com/CPAN/src/5.0/
--pkgconf: 2.50. https://github.com/pkgconf/pkgconf
+-pkgconf: 2.5.1 https://github.com/pkgconf/pkgconf
 -pmake: 1.111_1.diff.gz
 -poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
@@ -355,7 +355,7 @@ d series:
 -re2c: 4.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.4.4 http://www.ruby-lang.org/
--rust: 1.87.0 https://rust-lang.org
+-rust: 1.87.0 to 1.88.0 https://rust-lang.org
 -rust-bindgen: 0.72.0 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.9.1 https://github.com/SCons/scons/releases
@@ -445,7 +445,7 @@ l series:
 -clucene: 2.3.3.4 http://sourceforge.net/projects/clucene/files/clucene-core-unstable/
 -cmark: 0.31.1 https://github.com/commonmark/cmark 
 -cmark-gfm: 0.29.0 https://github.com/github/cmark-gfm
--colord: 1.4.7 https://www.freedesktop.org/software/colord/releases/
+-colord: 1.4.8 https://www.freedesktop.org/software/colord/releases/
 -cryfs: 0.10.3 to 0.11.4 https://github.com/cryfs/cryfs/releases
 -cryptopp: 8.2.0 to 8.8.0 https://www.cryptopp.com/
 -cxxopts: 3.3.1 https://github.com/jarro2783/cxxopts
@@ -513,11 +513,11 @@ l series:
 -gsettings-desktop-schemas: 48.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
 -gspell: 1.14.0 https://download.gnome.org/sources/gspell/
--gst-plugins-base: 1.26.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-bad-free: 1.26.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-good: 1.26.2 https://gstreamer.freedesktop.org/src/
--gst-plugins-libav: 1.26.2 https://gstreamer.freedesktop.org/modules/gst-libav.html
--gstreamer: 1.26.2 https://gstreamer.freedesktop.org/src/gstreamer
+-gst-plugins-base: 1.26.2 to 1.26.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-bad-free: 1.26.2 to 1.26.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-good: 1.26.2 to 1.26.3 https://gstreamer.freedesktop.org/src/
+-gst-plugins-libav: 1.26.2 to 1.26.3  https://gstreamer.freedesktop.org/modules/gst-libav.html
+-gstreamer: 1.26.2 to 1.26.3 https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
 -gtk+3: 3.24.49 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
@@ -696,14 +696,14 @@ l series:
 	- nss: 3.113 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -movit: 1.7.1 https://movit.sesse.net
--mozjs128: 128.11.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+-mozjs128: 128.12.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.2 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.7 https://mujs.com/downloads
 -ncurses: 6.5_20250614 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.34.2 https://github.com/notroj/neon/tags
 -netpbm: 11.10.05 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.25 https://releases.pagure.org/newt
--nodejs: 22.16.0 to 22.17.0 https://nodejs.org/dist
+-nodejs: 22.17.0 https://nodejs.org/dist
 -ocl-icd: 2.3.3 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.24.3 https://openal-soft.org/openal-releases
@@ -769,7 +769,7 @@ l series:
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 8.7.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 5.4.0 https://pypi.org/project/lxml/#files
+-python-lxml: 6.0.0 https://pypi.org/project/lxml/#files
 -python-markdown: 3.8.2 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 25.0 https://github.com/pypa/packaging/releases
@@ -890,7 +890,7 @@ n series:
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.3 http://www.epicsol.org/
--ethtool: 6.14 https://www.kernel.org/pub/software/network/ethtool/
+-ethtool: 6.15 https://www.kernel.org/pub/software/network/ethtool/
 -fetchmail: 6.5.4 https://www.fetchmail.info/
 -getmail: 6.19.08 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
@@ -977,7 +977,7 @@ n series:
 -obexhttp: 0.24.2 http://sourceforge.net/projects/openobex/files/
 -openldap: 2.6.10 https://ftp.openldap.org/software/download/
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
--openresolv: 3.16.5 https://roy.marples.name/downloads/openresolv/
+-openresolv: 3.17.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 10.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
 -openssl: 3.5.0 http://ftp.openssl.org/source/
 -openvpn: 2.6.14 http://www.openvpn.net/index.php/open-source/downloads.html
@@ -1076,7 +1076,7 @@ x series: (main packages)
 -hack-fonts-ttf: 3.003 https://github.com/source-foundry/Hack/releases
 -ibus: 1.5.32 https://github.com/ibus/ibus/releases/
 -ibus-hangul: 1.5.5
--ibus-libpinyin: 1.16.3 https://github.com/libpinyin/ibus-libpinyin/releases
+-ibus-libpinyin: 1.16.4 https://github.com/libpinyin/ibus-libpinyin/releases
 -ibus-m17n: 1.4.36
 -ibus-table: 1.17.14
 -intel-vaapi-driver: 2.4.1 https://github.com/intel/intel-vaapi-driver/releases
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1476 to 9.1.1478 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1476 to 9.1.1484 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
