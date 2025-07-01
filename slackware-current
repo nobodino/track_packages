@@ -80,7 +80,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.32 to 2.03.33 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.33 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.15 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 206 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -246,7 +246,7 @@ Ap series :
 -sqlite: 3.50.2 http://www.sqlite.org/download.html
 -squashfs-tools: 4.7 http://squashfs.sourceforge.net/
 -stow: 2.4.1 https://www.gnu.org/software/stow/
--sudo: 1.9.17 https://github.com/sudo-project/sudo/releases
+-sudo: 1.9.17p1 https://github.com/sudo-project/sudo/releases
 -sysstat: 12.7.7 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.2 http://ftp.gnu.org/pub/gnu/texinfo/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1476 to 9.1.1497 https://github.com/vim/commits/master
+-vim: 9.1.1476 to 9.1.1498 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -352,7 +352,7 @@ d series:
 -python-pip: 25.1.1 https://pypi.python.org/pypi/pip
 -python-setuptools: 80.9.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
--re2c: 4.2 http://re2c.org or https://github.com/skvadrik/re2c/releases
+-re2c: 4.3 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.4.4 http://www.ruby-lang.org/
 -rust: 1.88.0 https://rust-lang.org
@@ -634,7 +634,7 @@ l series:
 -libproxy: 0.5.10 https://github.com/libproxy/libproxy/releases
 -libpsl: 0.21.5 https://github.com/rockdaboot/libpsl/releases
 -libptytty: 2.0 http://dist.schmorp.de/libptytty/
--libqalculate: 5.5.2 https://github.com/Qalculate/libqalculate/releases
+-libqalculate: 5.6.0 https://github.com/Qalculate/libqalculate/releases
 -libraw1394: 2.1.2 https://www.kernel.org/pub/linux/libs/ieee1394/
 -librevenge: 0.0.5 https://sourceforge.net/projects/libwpd/files/librevenge/
 -librsvg: 2.60.0 http://ftp.gnome.org/pub/gnome/sources/librsvg/
@@ -1200,7 +1200,7 @@ xap series:
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1476 to 9.1.1497 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1476 to 9.1.1498 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1211,8 +1211,8 @@ xap series:
 -pidgin: 2.14.14
 	-pidgin: 2.14.14 https://www.pidgin.im/download/source/
 	-pidgin-encryption: 3.1 http://sourceforge.net/projects/pidgin-encrypt/files/Releases/
--qalculate-gtk: 5.5.1 https://github.com/Qalculate/qalculate-gtk
--qalculate-qt: 5.5.1 https://github.com/Qalculate/qalculate-qtv
+-qalculate-gtk: 5.6.0 https://github.com/Qalculate/qalculate-gtk
+-qalculate-qt: 5.6.0 https://github.com/Qalculate/qalculate-qtv
 -rdesktop: 1.9.0 http://www.rdesktop.org/#download
 -rxvt-unicode: 9.31 http://software.schmorp.de/pkg/rxvt-unicode.html
 -sane: 1.4.0
