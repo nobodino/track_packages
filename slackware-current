@@ -3,7 +3,7 @@ http://www.slackware.com/changelog/current.php?cpu=x86_64
 A series :
 --------------------
 -aaa_base: 15.0
--aaa_glibc-solibs: 2.41
+-aaa_glibc-solibs: 2.42
 -aaa_libraries: 15.0
 -aaa_terminfo: 6.5_20250705
 -acl: 2.3.2 http://savannah.nongnu.org/projects/acl
@@ -67,7 +67,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.8.0 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.12.40 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20250721 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20250725 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 679 https://github.com/gwsw/less/tags
@@ -80,7 +80,7 @@ A series :
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
--lvm2: 2.03.33 https://mirrors.kernel.org/sourceware/lvm2/
+-lvm2: 2.03.34 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.15 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 206 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
@@ -220,7 +220,7 @@ Ap series :
 -mc: 4.8.33 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.33.0 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.33.1 http://sourceforge.net/projects/mpg123/files/
 -nano: 8.5 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -243,18 +243,18 @@ Ap series :
 -slackpkg: 15.0.10 http://www.slackpkg.org/
 -soma: 3.3.7 http://git.tty1.uk/cgit.cgi/soma/snapshot
 -sox: 14.4.2 http://sourceforge.net/projects/sox/files/sox/
--sqlite: 3.50.3 http://www.sqlite.org/download.html
+-sqlite: 3.50.4 http://www.sqlite.org/download.html
 -squashfs-tools: 4.7 http://squashfs.sourceforge.net/
 -stow: 2.4.1 https://www.gnu.org/software/stow/
--sudo: 1.9.17p1 https://github.com/sudo-project/sudo/releases
--sysstat: 12.7.7 https://github.com/sysstat/sysstat/tags
+-sudo: 1.9.17p2 https://github.com/sudo-project/sudo/releases
+-sysstat: 12.7.8 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.2 http://ftp.gnu.org/pub/gnu/texinfo/
 -tmux: 3.5a https://github.com/tmux/tmux/releases
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1564 to 9.1.1587 https://github.com/vim/commits/master
+-vim: 9.1.1564 to 9.1.1591 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -268,7 +268,7 @@ d series:
 -autoconf-archive: 2024.10.16 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.72 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.18.1 http://ftp.gnu.org/pub/gnu/automake/
--binutils: 2.43.1 to 2.44 https://www.kernel.org/pub/linux/devel/binutils/
+-binutils: 2.45 https://www.kernel.org/pub/linux/devel/binutils/
 -bison: 3.8.2 http://ftp.gnu.org/pub/gnu/bison/
 -cargo-c: 0.10.14 https://github.com/lu-zero/cargo-c
 -cargo-vendor-filterer: 0.5.18 https://github.com/coreos/cargo-vendor-filterer
@@ -309,8 +309,8 @@ d series:
 -m4: 1.4.20 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 7.0.3 (to 7.1rc0) https://www.mercurial-scm.org/release
--meson: 1.8.2 https://github.com/mesonbuild/meson/releases
--mold: 2.40.2 https://github.com/rui314/mold
+-meson: 1.8.3 https://github.com/mesonbuild/meson/releases
+-mold: 2.40.3 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
 -ninja: 1.13.1 https://github.com/ninja-build/ninja/releases
 -nv-codec-headers: 13.0.19.0 https://git.videolan.org/git/ffmpeg/nv-codec-headers.git nv-codec-headers
@@ -349,7 +349,7 @@ d series:
 -poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.11 to 3.14.0rc1 https://www.python.org/downloads/
--python-pip: 25.1.1 https://pypi.python.org/pypi/pip
+-python-pip: 25.2 https://pypi.python.org/pypi/pip
 -python-setuptools: 80.9.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
 -re2c: 4.3 http://re2c.org or https://github.com/skvadrik/re2c/releases
@@ -465,7 +465,7 @@ l series:
 -eigen3: 3.4.0 http://eigen.tuxfamily.org/index.php?title=Main_Page
 -elfutils: 0.193 http://sourceware.org/pub/elfutils/
 -espeak-ng: 1.52.0 https://github.com/espeak-ng/espeak-ng/tags
--enchant: 2.8.11 https://github.com/AbiWord/enchant/releases
+-enchant: 2.8.11 to 2.8.12 https://github.com/AbiWord/enchant/releases
 -esound: 0.2.41 http://ftp.gnome.org/pub/GNOME/sources/esound/0.2/
 -exiv2: 0.28.5 https://exiv2.org/download.html
 -expat: 2.7.1 http://sourceforge.net/projects/expat/files/expat/
@@ -486,7 +486,7 @@ l series:
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
 -gdk-pixbuf2: 2.42.12 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
--gdbm: 1.25 http://ftp.gnu.org/gnu/gdbm/
+-gdbm: 1.26 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.62 https://download.gimp.org/pub/gegl/
 -gexiv2: 0.14.6 https://download.gnome.org/sources/gexiv2/0.14/
 -gi-docgen: 2025.4 https://download.gnome.org/sources/gi-docgen/
@@ -498,7 +498,7 @@ l series:
 -glib2: 2.84.2 to 2.85.2 https://ftp.acc.umu.se/pub/gnome/sources/glib/2.76/
 -glibmm: 2.66.7 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
 -glibmm2: 2.84.0 https://ftp.acc.umu.se/pub/gnome/sources/glibmm/
--glibc: 2.41 http://ftp.gnu.org/pub/gnu/glibc/
+-glibc: 2.42 http://ftp.gnu.org/pub/gnu/glibc/
 -gmime: 3.2.15 https://github.com/jstedfast/gmime/releases
 -gmm: 5.4.4 http://download-mirror.savannah.gnu.org/releases/getfem/stable/
 -gmp: 6.3.0 http://ftp.gnu.org/gnu/gmp/
@@ -527,7 +527,7 @@ l series:
 -gtkmm4: 4.18.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 11.3.2 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 11.3.3 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -708,7 +708,7 @@ l series:
 -openal-soft: 1.24.3 https://openal-soft.org/openal-releases
 -openblas: 0.3.30 https://github.com/xianyi/OpenBLAS
 -opencv: 4.12.0 https://github.com/opencv/opencv/releases
--openexr: 3.3.4 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.3.5 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.3 http://www.openjpeg.org
 -opensc: 0.26.1 https://github.com/OpenSC/OpenSC
 -opus: 1.5.2 https://opus-codec.org/
@@ -756,7 +756,7 @@ l series:
 -python-dnspython: 2.7.0 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.7 https://pypi.org/project/doxypypy
 -python-doxyqml: 0.5.3 https://pypi.org/project/doxyqml
--python-docutils: 0.21.2 https://pypi.org/project/docutils/#files
+-python-docutils: 0.22 https://pypi.org/project/docutils/#files
 -python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.12.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
@@ -832,7 +832,7 @@ l series:
 -speexdsp: 1.2.1 http://www.speex.org/
 -spirv-llvm-translator: 20.1.4 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
--suitesparse: 7.10.3 https://github.com/DrTimothyAldenDavis/SuiteSparse
+-suitesparse: 7.11.0 https://github.com/DrTimothyAldenDavis/SuiteSparse
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
@@ -892,7 +892,7 @@ n series:
 -fetchmail: 6.5.4 https://www.fetchmail.info/
 -getmail: 6.19.08 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.4.8 to 2.5.9 https://www.gnupg.org/download/index.html
+-gnupg2: 2.4.8 to 2.5.10 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.10 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.3 to 2.0.0 https://www.gnupg.org/download/index.html
@@ -901,7 +901,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 6.15.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 6.16.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.24 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.11 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.2 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -981,9 +981,9 @@ n series:
 -openvpn: 2.6.14 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.2 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
--php: 8.4.10 https://www.php.net/
+-php: 8.4.10 to 8.4.11 https://www.php.net/
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
--pinentry: 1.3.1 https://www.gnupg.org/download/index.html#pinentry
+-pinentry: 1.3.2 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
 -postfix: 3.10.3 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.5.2
@@ -994,7 +994,7 @@ n series:
 -proftpd: 1.3.9 http://www.proftpd.org
 -pssh: 2.3.5 https://github.com/lilydjwg/pssh/tags
 -rdist: 6.1.5 http://www.magnicomp.com/rdist/
--rpcbind: 1.2.7 http://sourceforge.net/projects/rpcbind/
+-rpcbind: 1.2.8 http://sourceforge.net/projects/rpcbind/
 -rp-pppoe: 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.4.1 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
@@ -1094,7 +1094,7 @@ x series: (main packages)
 -libfontenc: 1.1.6
 -libgee: 0.20.8 https://gitlab.gnome.org/GNOME/libgee/-/tags
 -libglvnd: 1.7.0 https://github.com/NVIDIA/libglvnd/tags
--libinput: 1.28.1 https://gitlab.freedesktop.org/libinput/libinput/-/tags
+-libinput: 1.29.0 https://gitlab.freedesktop.org/libinput/libinput/-/tags
 -libkkc: 0.3.5 https://github.com/ueno/libkkc/releases
 -libkkc-data: 0.2.7
 -libmypaint: 1.6.1 https://github.com/mypaint/libmypaint/releases
@@ -1119,7 +1119,7 @@ x series: (main packages)
 -libXt: 1.3.1
 -libxcvt: 0.1.2
 -marisa: 0.3.0 https://github.com/s-yata/marisa-trie/releases
--mesa: 25.1.6 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 25.1.7 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.6 http://m17n.nongnu.org
@@ -1199,7 +1199,7 @@ xap series:
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1564 to 9.1.1587 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1564 to 9.1.1591 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1285,7 +1285,7 @@ extra:
 -brltty: 6.8 http://mielke.cc/brltty/
 -emacs-regular-build: 30.1
 -emacspeak: 53.0
--fltk: 1.3.11 to 1.4.4 http://www.fltk.org
+-fltk: 1.4.4 http://www.fltk.org
 -getty-ps: 2.1.0b
 -google-chrome:
 -java: (jdk and jre) 8u301 http://www.oracle.com/technetwork/java/javase/downloads/index.html
@@ -1298,8 +1298,8 @@ extra:
 -xv: 6.0.3
 --------------------
 testing:
--kernel-6.15.x: 6.15.7
--mesa: 25.2.0_rc2
+-kernel-6.15.x: 6.16.0
+-mesa: 25.2.0_rc3
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
