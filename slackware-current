@@ -20,11 +20,11 @@ A series :
 -cpio: 2.15 http://ftp.gnu.org/pub/gnu/cpio/
 -cpufrequtils: 008 http://www.kernel.org/pub/linux/utils/kernel/cpufreq/
 -cracklib: 2.10.3 https://github.com/cracklib/cracklib
--cryptsetup: 2.8.0 https://gitlab.com/cryptsetup/cryptsetup
+-cryptsetup: 2.8.0 to 2.8.1 https://gitlab.com/cryptsetup/cryptsetup
 -dbus: 1.16.2 http://dbus.freedesktop.org/releases/dbus/
 -dcron: 4.5 https://github.com/dubiousjim/dcron
 -devs: 2.3.1_46.2.diff http://ftp.debian.org/debian/pool/main/m/makedev/
--dialog: 1.3_20250116 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
+-dialog: 1.3_20250116 to 1.3_20250817 http://ftp.debian.org/debian/pool/main/d/dialog/ or https://invisible-mirror.net/archives/dialog/
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -dracut: 108 https://github.com/dracut-ng/dracut-ng
 -e2fsprogs: 1.47.3 http://download.sourceforge.net/e2fsprogs/
@@ -222,7 +222,7 @@ Ap series :
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
 -mpg123: 1.33.2 http://sourceforge.net/projects/mpg123/files/
--nano: 8.5 http://www.nano-editor.org/download.php
+-nano: 8.6 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
 -nvme-cli: 2.15 https://github.com/linux-nvme/nvme-cli/tags
@@ -255,7 +255,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1629 to 9.1.1634 https://github.com/vim/commits/master
+-vim: 9.1.1629 to 9.1.1680 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -290,7 +290,7 @@ d series:
 -gcc: 15.2 http://ftp.gnu.org/pub/gnu/gcc/
 -gdb: 16.3 http://ftp.gnu.org/pub/gnu/gdb/
 -gettext-tools: 0.26 http://ftp.gnu.org/pub/gnu/gettext/
--git: 2.50.1 (to 2.51.0_rc1) https://git-scm.com/download
+-git: 2.50.1 to 2.51.0 https://git-scm.com/download
 -googletest: 1.17.0 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
 -google-go-lang: 1.25.0 https://go.dev
@@ -310,7 +310,7 @@ d series:
 -m4: 1.4.20 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 7.1 https://www.mercurial-scm.org/release
--meson: 1.8.3 https://github.com/mesonbuild/meson/releases
+-meson: 1.8.3 to 1.8.4 https://github.com/mesonbuild/meson/releases
 -meson-python: 0.18.0 https://github.com/mesonbuild/meson-python
 -mold: 2.40.3 https://github.com/rui314/mold
 -nasm: 2.16.03 http://www.nasm.us/
@@ -474,7 +474,7 @@ l series:
 -exiv2: 0.28.5 https://exiv2.org/download.html
 -expat: 2.7.1 http://sourceforge.net/projects/expat/files/expat/
 -farstream: 0.2.9 http://freedesktop.org/software/farstream/releases/farstream
--ffmpeg: 7.1.1 https://ffmpeg.org/
+-ffmpeg: 7.1.1 to 8.0 https://ffmpeg.org/
 -fftw : 3.3.10 http://www.fftw.org/download.html
 -fluidsynth: 2.4.7 http://www.fluidsynth.org/
 -fmt: 11.2.0 https://github.com/fmtlib/fmt/releases/
@@ -483,7 +483,7 @@ l series:
 -frei0r-plugins: 2.3.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.16 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
--fuse3: 3.16.2 to 3.17.2 https://github.com/libfuse/libfuse/releases
+-fuse3: 3.16.2 to 3.17.4 https://github.com/libfuse/libfuse/releases
 -gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.40.0  http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.4.0.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
@@ -531,7 +531,7 @@ l series:
 -gtkmm4: 4.18.0 https://download.gnome.org/sources/gtkmm/
 -gtkspell: 2.0.16 http://gtkspell.sourceforge.net/
 -gvfs: 1.56.1 http://ftp.acc.umu.se/pub/gnome/sources/gvfs
--harfbuzz: 11.4.1 https://github.com/harfbuzz/harfbuzz
+-harfbuzz: 11.4.2 to 11.4.3 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -hunspell: 1.7.2 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.8 https://sourceforge.net/projects/hunspell/files/Hyphen
@@ -695,8 +695,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.32.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.115 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.115 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.115.1 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.115.1 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -movit: 1.7.1 https://movit.sesse.net
 -mozjs128: 128.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -704,7 +704,7 @@ l series:
 -mujs: 1.3.7 https://mujs.com/downloads
 -ncurses: 6.5_20250809 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.35.0 https://github.com/notroj/neon/tags
--netpbm: 11.11.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.11.01 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.25 https://releases.pagure.org/newt
 -nodejs: 22.18.0 https://nodejs.org/dist
 -ocl-icd: 2.3.3 https://github.com/OCL-dev/ocl-icd/releases
@@ -737,7 +737,7 @@ l series:
 -poppler: 25.08.0 http://poppler.freedesktop.org/
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
--protobuf:  https://github.com/google/protobuf
+-protobuf: 32.0  https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.28.0 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
@@ -772,7 +772,7 @@ l series:
 -python-imagesize: 1.4.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 8.7.0 https://pypi.org/project/importlib-metadata
 -python-installer: 0.7.0 https://pypi.org/project/installer/#files
--python-lxml: 6.0.0 https://pypi.org/project/lxml/#files
+-python-lxml: 6.0.1 https://pypi.org/project/lxml/#files
 -python-markdown: 3.8.2 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 25.0 https://github.com/pypa/packaging/releases
@@ -915,7 +915,7 @@ n series:
 -ipw2200-fw: 3.1 http://intellinuxwireless.org/
 -irssi: 1.4.6 https://github.com/irssi/irssi/releases
 -iw: 6.9 https://www.kernel.org/pub/software/network/iw/
--krb5: 1.22.0 http://web.mit.edu/kerberos/dist/krb5/
+-krb5: 1.22.0 to 1.22.1 http://web.mit.edu/kerberos/dist/krb5/
 -lftp: 4.9.3 https://lftp.yar.ru/get.html or https://github.com/lavv17/lftp/releases
 -libassuan: 3.0.2 https://www.gnupg.org/download/index.html
 -libgcrypt: 1.11.2 https://www.gnupg.org/download/index.html
@@ -990,7 +990,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.2 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.10.3 http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.10.3 to 3.10.4 http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.5.2
 	-ppp: 2.5.2 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -1003,7 +1003,7 @@ n series:
 -rp-pppoe: 4.0 https://dianne.skoll.ca/projects/rp-pppoe/
 -rsync: 3.4.1 https://ftp.samba.org/pub/rsync/
 -s-nail: 14.9.25 http://www.sdaoden.eu/downloads
--samba: 4.22.3 (to 4.23.0rc1) https://ftp.samba.org/pub/samba/
+-samba: 4.22.4 (to 4.23.0rc2) https://ftp.samba.org/pub/samba/
 -slrn: 1.0.3a https://slrn.info/
 -snownews: 1.11 https://github.com/msharov/snownews/releases
 -socat: 1.8.0.3 http://www.dest-unreach.org/socat/download/
@@ -1046,10 +1046,10 @@ tcl/tk series:
 --------------------
 -expect: 5.45.4 http://expect.nist.gov/
 -hfsutils: 3.2.6 http://ftp.mars.org/pub/hfs/
--tcl: 8.6.16 to 9.0.2 https://www.tcl.tk/software/tcltk/download.html
+-tcl: 8.6.16 to 8.6.17/9.0.2 https://www.tcl.tk/software/tcltk/download.html
 -tclx: 8.6.3 http://tclx.sourceforge.net/
 -tix: 8.4.3 http://tix.sourceforge.net/download.shtml
--tk: 8.6.16 to 9.0.2 https://www.tcl.tk/software/tcltk/download.html
+-tk: 8.6.16 to 8.6.17/9.0.2 https://www.tcl.tk/software/tcltk/download.html
 --------------------
 x series: (main packages)
 --------------------
@@ -1194,17 +1194,17 @@ xap series:
 -gkrellm: 2.4.0 http://gkrellm.srcbox.net/	
 	- gkrellm: 2.4.0
 	- gkrellm-countdown: 0.1.2
--gnuchess: 6.2.11
-	- gnuchess : 6.2.11 http://ftp.gnu.org/gnu/chess/
+-gnuchess: 6.3.0
+	- gnuchess : 6.3.0 http://ftp.gnu.org/gnu/chess/
 	- eboard: 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
-	- xboard: 4.9.1 http://ftp.gnu.org/pub/gnu/xboard/
+	- xboard: 4.9.1 http://ftp.gnu.tesorg/pub/gnu/xboard/
 -gnuplot: 6.0.3 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.6.0 to 1.7.0 https://gparted.org/
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1629 to 9.1.1634 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1629 to 9.1.1680 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.1.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1300,11 +1300,12 @@ extra:
 -tigervnc:  1.15.0 https://github.com/TigerVNC/tigervnc/releases
 -xf86-video-fbdev: 0.5.1
 -xfractint: 20.04p
--xv: 6.0.3
+-xv: 6.0.4
 --------------------
 testing:
--kernel-6.16.x: 6.16.1
--mesa: 25.2.0
+-ffmpeg: 8.0
+-kernel-6.16.x: 6.16.3
+-mesa: 25.2.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
 --------------------
