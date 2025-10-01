@@ -10,7 +10,7 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.5.2 http://savannah.nongnu.org/projects/attr
 -bash: 5.3.003 http://ftp.gnu.org/pub/gnu/bash/
--bcachefs-tools: 1.31.5 https://evilpiepirate.org/bcachefs-tools/
+-bcachefs-tools: 1.36.1 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -98,7 +98,7 @@ A series :
 -ntfs-3g: 2022.10.3 https://github.com/tuxera/ntfs-3g/releases
 -nut: 2.8.4 https://www.networkupstools.org
 -nvi: 1.81.6 http://www.bostic.com/vi/ or http://ftp.debian.org/debian/pool/main/n/nvi/
--openssl-solibs: 3.5.3 https://github.com/openssl/openssl/tags
+-openssl-solibs: 3.5.4 https://github.com/openssl/openssl/tags
 -os-prober: 1.82 https://packages.debian.org/unstable/utils/os-prober
 -pam: 1.7.1 https://github.com/linux-pam/linux-pam/releases
 -patch: 2.8 http://ftp.gnu.org/pub/gnu/patch/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1766 to 9.1.1813 https://github.com/vim/commits/master
+-vim: 9.1.1766 to 9.1.1815 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -279,7 +279,7 @@ d series:
 -clisp: 2.50_20250504 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
--cmake: 4.1.1 http://www.cmake.org/cmake/resources/software.html
+-cmake: 4.1.1 to 4.1.2 http://www.cmake.org/cmake/resources/software.html
 -cscope: 15.9 https://sourceforge.net/projects/cscope/files/cscope/
 -cvs: 1.11.23 http://ftp.gnu.org/non-gnu/cvs/source/stable/1.11.23/
 -dev86: 0.16.21 https://github.com/lkundrak/dev86/tags
@@ -364,10 +364,10 @@ d series:
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.9.1 https://github.com/SCons/scons/releases
 -slacktrack: 2.24 http://www.slackware.com/~mozes
--strace: 6.16 https://github.com/strace/strace/releases
+-strace: 6.17 https://github.com/strace/strace/releases
 -subversion: 1.14.5 https://subversion.apache.org
 -swig: 4.3.1 http://www.swig.org/download.html
--tree-sitter: 0.26.0 https://github.com/tree-sitter/tree-sitter
+-tree-sitter: 0.25.10 https://github.com/tree-sitter/tree-sitter
 -universal-ctags: 6.2.0 https://github.com/universal-ctags/ctags
 -vala: 0.56.18 https://gitlab.gnome.org/GNOME/vala/-/tags
 -valgrind: 3.25.1 http://sourceware.org/pub/valgrind
@@ -489,7 +489,7 @@ l series:
 -gcr: 3.41.2  http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.4.0.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
--gdk-pixbuf2: 2.44.2 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
+-gdk-pixbuf2: 2.44.3 http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf
 -gdk-pixbuf2-xlib: 2.40.2 https://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf-xlib/
 -gdbm: 1.26 http://ftp.gnu.org/gnu/gdbm/
 -gegl: 0.4.62 https://download.gimp.org/pub/gegl/
@@ -525,8 +525,8 @@ l series:
 -gstreamer: 1.26.6 (to 1.27.1) https://gstreamer.freedesktop.org/src/gstreamer
 -gtk+: 1.2.10_18.diff.gz
 -gtk+2: 2.24.33 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/2.24/
--gtk+3: 3.24.50 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
--gtk4: 4.20.1 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
+-gtk+3: 3.24.51 http://ftp.acc.umu.se/pub/gnome/sources/gtk+/3.24/
+-gtk4: 4.20.2 https://ftp.acc.umu.se/pub/gnome/sources/gtk/4.10/
 -gtkmm2: 2.24.5 https://download.gnome.org/sources/gtkmm/2.24/
 -gtkmm3: 3.24.10 https://download.gnome.org/sources/gtkmm/3.24/
 -gtkmm4: 4.20.0 https://download.gnome.org/sources/gtkmm/
@@ -809,7 +809,7 @@ l series:
 -qca: 2.3.10 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.17_2025060 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
--qt6: 6.9.2_20250818 https://invent.kde.org/qt/qt/qt5.git
+-qt6: 6.9.3_20250926 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.15.0 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.5 https://github.com/stachenov/quazip/releases
 -readline: 8.3.001 https://ftp.gnu.org/gnu/readline
@@ -983,7 +983,7 @@ n series:
 -openobex: 1.7.2 https://gitlab.com/openobex/mainline/-/tags
 -openresolv: 3.17.0 https://roy.marples.name/downloads/openresolv/
 -openssh: 10.0p1 http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/
--openssl: 3.5.3 http://ftp.openssl.org/source/
+-openssl: 3.5.4 http://ftp.openssl.org/source/
 -openvpn: 2.6.15 http://www.openvpn.net/index.php/open-source/downloads.html
 -p11-kit: 0.25.10 https://github.com/p11-glue/p11-kit/releases
 -pam-krb5: 4.11 https://archives.eyrie.org/software/kerberos
@@ -1205,7 +1205,7 @@ xap series:
 -gtk-layer-shell: 0.9.2 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 16.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1766 to 9.1.1813 https://github.com/vim/vim/commits/master
+-gvim: 9.1.1766 to 9.1.1815 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.3.1esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
