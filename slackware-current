@@ -66,8 +66,8 @@ A series :
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.9.0 https://github.com/legionus/kbd/releases
--kernel-ide: 6.12.53 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20251015 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-ide: 6.12.54 https://www.kernel.org/pub/linux/kernel/
+-kernel-firmware: 20251018 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 679 https://github.com/gwsw/less/tags
@@ -300,7 +300,7 @@ d series:
 -icecream: 1.4.0 https://github.com/icecc/icecream/releases
 -indent: 2.2.13 http://ftp.gnu.org/gnu/indent/
 -intltool: 0.51.0 https://edge.launchpad.net/intltool/+download
--kernel-headers: 6.12.53 http://wwww.kernel.org
+-kernel-headers: 6.12.54 http://wwww.kernel.org
 -jq: 1.8.1 https://github.com/jqlang/jq/releases/download/
 -libgccjit: 15.2.0
 -libtool: 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
@@ -391,7 +391,7 @@ f series:
 --------------------
 -k series:
 --------------------
--kernel : 6.12.53 
+-kernel : 6.12.54 
 --------------------
 kde series :
 --------------------
@@ -485,7 +485,7 @@ l series:
 -fribidi: 1.0.16 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 to 3.17.4 https://github.com/libfuse/libfuse/releases
--gc: 8.2.8 https://github.com/ivmai/bdwgc/tags
+-gc: 8.2.10 https://github.com/ivmai/bdwgc/tags
 -gcr: 3.41.2  http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gcr4: 4.4.0.1 http://ftp.acc.umu.se/pub/gnome/sources/gcr/
 -gd: 2.3.3 https://github.com/libgd/libgd/releases
@@ -513,7 +513,7 @@ l series:
 -gobject-introspection: 1.86.0 http://ftp.acc.umu.se/pub/gnome/sources/gobject-introspection
 -graphene: 1.10.8 https://github.com/ebassi/graphene/releases 
 -graphite2: 1.3.14 https://github.com/silnrsi/graphite/releases or http://graphite.sil.org/
--graphviz: 14.0.1 https://gitlab.com/graphviz/graphviz
+-graphviz: 14.0.2 https://gitlab.com/graphviz/graphviz
 -grantlee: 5.3.1 https://github.com/steveire/grantlee/releases
 -gsettings-desktop-schemas: 49.1 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
@@ -593,7 +593,7 @@ l series:
 -libfyaml: 0.9 https://github.com/pantoniou/libfyaml
 -libglade: 2.6.4 http://ftp.gnome.org/pub/GNOME/sources/libglade/2.6/
 -libgnome-keyring: 3.12.0 http://ftp.gnome.org/pub/GNOME/sources/libgnome-keyring/3.12/
--libgphoto2: 2.5.32 http://www.gphoto.org/
+-libgphoto2: 2.5.33 http://www.gphoto.org/
 -libgnt: 2.14.4 https://downloads.sourceforge.net/pidgin/libgnt/
 -libgpod: 0.8.3 http://www.gtkpod.org/libgpod/
 -libgsf: 1.14.53 http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/
@@ -727,7 +727,7 @@ l series:
 -pcaudiolib: 1.3 https://github.com/espeak-ng/pcaudiolib/releases
 -pcre2: 10.46 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
--pcsc-lite: 2.3.3 https://pcsclite.apdu.fr/files/
+-pcsc-lite: 2.4.0 https://pcsclite.apdu.fr/files/
 -phonon: 4.12.0 https://github.com/KDE/phonon/tags
 -phonon-backend-gstreamer: 20221120 http://download.kde.org/stable/phonon/phonon-backend-gstreamer/
 -phonon-backend-mpv: 20240401 https://github.com/OpenProgger/phonon-mpv
@@ -896,7 +896,7 @@ n series:
 -elm: 2.5.8 http://ftp.virginia.edu/pub/elm/
 -epic5: 3.0.3 http://www.epicsol.org/
 -ethtool: 6.15 https://www.kernel.org/pub/software/network/ethtool/
--fetchmail: 6.5.6 to 6.5.7 https://www.fetchmail.info/
+-fetchmail: 6.5.7 https://www.fetchmail.info/
 -getmail: 6.19.09 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
 -gnupg2: 2.4.8 to 2.5.10 https://www.gnupg.org/download/index.html
@@ -1308,7 +1308,7 @@ testing:
 -ffmpeg: 8.0
 -kernel-6.14.x: 6.14.11
 -kernel-6.16.x: 6.16.12
--kernel-6.17.x: 6.17.3
+-kernel-6.17.x: 6.17.4
 -mesa: 25.3.0_rc1
 -rust: 1.90.0
 /-----------------------------------------------------------------------------------/
