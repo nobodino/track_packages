@@ -82,7 +82,7 @@ A series :
 -lrzip: 0.651 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.38 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.15 https://download.savannah.nongnu.org/releases/lzip/lzlib/
--mcelog: 207 https://github.com/andikleen/mcelog/tags
+-mcelog: 208 https://github.com/andikleen/mcelog/tags
 -mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.10 https://salsa.debian.org/minicom-team/minicom/-/tags
@@ -220,7 +220,7 @@ Ap series :
 -mc: 4.8.33 http://www.midnight-commander.org/downloads/
 -moc: 2.6_alpha3 http://moc.daper.net/
 -most: 5.0.0a to 5.2.0 https://www.jedsoft.org/releases/most/
--mpg123: 1.33.3 http://sourceforge.net/projects/mpg123/files/
+-mpg123: 1.33.4 http://sourceforge.net/projects/mpg123/files/
 -nano: 8.6 to 8.7 http://www.nano-editor.org/download.php
 -neofetch: 20211210 https://github.com/dylanaraps/neofetch/wiki
 -normalize: 0.7.7 http://normalize.nongnu.org/ (normalize-audio debian)
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.1952 to 9.1.2001 https://github.com/vim/commits/master
+-vim: 9.1.2011 to 9.1.201x https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -305,8 +305,8 @@ d series:
 -libgccjit: 15.2.0
 -libtool: 2.5.4 http://ftp.gnu.org/pub/gnu/libtool/
 -llvm: 21.1.8 http://llvm.org/
--lua: 5.4.8 http://www.lua.org/ftp
--luajit: 2.1.1744318430 https://luajit.org/git/luajit.git
+-lua: 5.5.0 http://www.lua.org/ftp
+-luajit: 2.1.1765228720 https://luajit.org/git/luajit.git
 -m4: 1.4.20 http://ftp.gnu.org/pub/gnu/m4/
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 7.1.2 (to 7.2rc0) https://www.mercurial-scm.org/release
@@ -356,7 +356,7 @@ d series:
 -python-pyproject_metadata: 0.9.1 https://pypi.org/project/pyproject-metadata/
 -python-setuptools: 80.9.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
--re2c: 4.3.1 to 4.4 http://re2c.org or https://github.com/skvadrik/re2c/releases
+-re2c: 4.4 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 3.4.8 http://www.ruby-lang.org/
 -rust: 1.89.0 to 1.92.0 https://rust-lang.org
@@ -711,7 +711,7 @@ l series:
 -nodejs: 22.21.1 https://nodejs.org/dist
 -ocl-icd: 2.3.4 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
--openal-soft: 1.24.3 https://openal-soft.org/openal-releases
+-openal-soft: 1.25.0 https://openal-soft.org/openal-releases
 -openblas: 0.3.30 https://github.com/xianyi/OpenBLAS
 -opencv: 4.12.0 https://github.com/opencv/opencv/releases
 -openexr: 3.4.4 https://github.com/AcademySoftwareFoundation/openexr/releases
@@ -763,7 +763,7 @@ l series:
 -python-dnspython: 2.8.0 https://pypi.org/project/dnspython
 -python-doxypypy: 0.8.8.7 https://pypi.org/project/doxypypy
 -python-doxyqml: 0.5.3 https://pypi.org/project/doxyqml
--python-docutils: 0.22.3 https://pypi.org/project/docutils/#files
+-python-docutils: 0.22.4 https://pypi.org/project/docutils/#files
 -python-editables: 0.5 https://pypi.org/project/editables
 -python-flit-core: 3.12.0 https://pypi.org/project/flit_core/#files
 -python-future: 1.0.0 https://pypi.org/project/future/
@@ -833,10 +833,10 @@ l series:
 	-SDL_ttf: 2.0.15 https://www.libsdl.org/projects/SDL_ttf/
 -seatd: 0.9.1 https://git.sr.ht/~kennylevinsen/seatd/archive/
 -shared-mime-info: 2.4 http://freedesktop.org/wiki/Software/shared-mime-info/
--sip: 6.14.0 (to 6.15.0 nok) (Python-sip) https://pypi.python.org/pypi/SIP
+-sip: 6.15.1 (Python-sip) https://pypi.python.org/pypi/SIP
 -slang: 2.3.3 http://www.jedsoft.org/releases/slang/
 -slang1: 1.4.9 http://space.mit.edu/pub/davis/slang/
--sof-firmware: 2025.05 https://github.com/thesofproject/sof-bin/releases
+-sof-firmware: 2025.12 https://github.com/thesofproject/sof-bin/releases
 -sound-theme-freedesktop: 0.8 http://people.freedesktop.org/~mccann/dist/
 -speech-dispatcher: 0.12.1 https://github.com/brailcom/speechd/releases
 -speex: 1.2.1 http://www.speex.org/
@@ -952,7 +952,7 @@ n series:
 -mutt: 2.2.15 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.3.0 http://ftp.ncftp.com/download/
--net-snmp: 5.9.4to 5.9.5  https://sourceforge.net/projects/net-snmp/files/net-snmp/
+-net-snmp: 5.9.5  https://sourceforge.net/projects/net-snmp/files/net-snmp/
 -net-tools: 20170208_479bb4a to 2.10 https://github.com/ecki/net-tools/tags
 -netatalk: 4.3.2 http://netatalk.sourceforge.net/
 -netdate: diff2.gz
@@ -1156,7 +1156,7 @@ x series: (main packages)
 -xdm 1.1.17
 -xinit: 1.4.4
 -xkeyboard-config: 2.46
--xorgproto: 2024.1
+-xorgproto: 2025.1
 -xorg-server: 21.1.21 http://ftp.x.org/pub/individual/xserver/
 -xorg-server-xwayland: 24.1.8
 -xf86-input-evdev: 2.11.0
@@ -1174,15 +1174,15 @@ x series: (main packages)
 -xf86-video-trident: 1.4.0
 -xf86-video-vesa: 2.6.0
 -xisxwayland: 2
--xterm: 405 http://invisible-island.net/xterm/
+-xterm: 406 http://invisible-island.net/xterm/
 -wlroots: 0.19.2 https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/
 --------------------
 xap series:
 --------------------
--MPlayer: 20250330 https://mplayerhq.hu/design7/news.html
-	-Mplayer: 20250330
+-MPlayer: 20251221 https://mplayerhq.hu/design7/news.html
+	-Mplayer: 20251221
 	-Blue: 1.10 (skin)
--NetworkManager-openvpn: 1.12.4 https://github.com/GNOME/NetworkManager-openvpn
+-NetworkManager-openvpn: 1.12.5 https://github.com/GNOME/NetworkManager-openvpn
 -audacious: 4.5.1 http://www.audacious-media-player.org
 -audacious-plugins: 4.5.1 http://www.audacious-media-player.org
 -blackbox:
@@ -1207,12 +1207,12 @@ xap series:
 	- eboard: 1.1.3 https://github.com/fbergo/eboard/tags
 	- Sjeng-Free: 11.2 http://sjeng.org/download.html
 	- xboard: 4.9.1 http://ftp.gnu.tesorg/pub/gnu/xboard/
--gnuplot: 6.0.3 to 6.0.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
+-gnuplot: 6.0.4 http://sourceforge.net/projects/gnuplot/files/gnuplot/
 -gparted: 1.6.0 to 1.7.0 https://gparted.org/
 -gtk-layer-shell: 0.10.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 17.0.0 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.1952 to 9.1.2001 https://github.com/vim/vim/commits/master
+-gvim: 9.1.2011 to 9.1.201x https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1237,7 +1237,7 @@ xap series:
 -x11-ssh-askpass: 1.2.4.1 http://www.jmknoble.net/software/x11-ssh-askpass/
 -x3270: 4.4ga6 http://x3270.bgp.nu/download.html
 -xaos: 4.3.4 https://github.com/xaos-project/XaoS/releases
--mpv: 0.40.0 https://github.com/mpv-player/mpv
+-mpv: 0.41.0 https://github.com/mpv-player/mpv
 -xeyes: 1.2.0
 -xgames: 0.2
 -xine-lib: 1.2.13 https://sourceforge.net/projects/xine/
@@ -1314,6 +1314,7 @@ ptesting:
 -ffmpeg: 8.0.1
 -kernel-6.14.x: 6.14.11
 -kernel-6.18.x: 6.18.2
+-php: 8.5.1
 -rust: 1.91.1
 /-----------------------------------------------------------------------------------/
 Ryzen 9 3950x: grep . /sys/devices/system/cpu/vulnerabilities/*
