@@ -111,7 +111,7 @@ A series :
 -rpm2tgz: 1.2.2
 -sdparm: 1.12 http://sg.danny.cz/sg/sdparm.html
 -sed: 4.9 http://ftp.gnu.org/pub/gnu/sed
--shadow: 4.18.0 https://github.com/shadow-maint/shadow/tags
+-shadow: 4.19.0 https://github.com/shadow-maint/shadow/tags
 -sharutils: 4.15.2 http://ftp.gnu.org/pub/gnu/sharutils/
 -smartmontools: 7.5 http://sourceforge.net/projects/smartmontools/files/smartmontools/
 -splitvt: 1.6.6 http://ftp.debian.org/debian/pool/main/s/splitvt/ or http://slouken.libsdl.org/projects/splitvt/
@@ -141,7 +141,7 @@ A series :
 	- ziptool: 1.4.0 to 2.1.2 https://code.google.com/p/ziptool/
 -volume_key: 0.3.12 https://pagure.io/volume_key/releases
 -which: 2.23 http://ftp.gnu.org/gnu/which/
--xfsprogs: 6.17.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
+-xfsprogs: 6.17.0 to 6.18.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/
 -xz: 5.8.2 http://tukaani.org/xz/
 -zerofree: 1.1.1 https://frippery.org/uml/
 -zoo: 2.10-28.debian.tar.gz http://ftp.debian.org/debian/pool/main/z/zoo/
@@ -410,7 +410,7 @@ l series:
 -PyQt5_sip: 12.17.2 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.32.10 https://github.com/libsdl-org/SDL/releases
--SDL3: 3.2.26 https://github.com/libsdl-org/SDL/releases
+-SDL3: 3.2.28 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.8 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.1 https://www.libsdl.org/projects/SDL2_mixer/
@@ -632,7 +632,7 @@ l series:
 -liboggz: 1.1.3 https://www.xiph.org/downloads/
 -libopusenc: 0.3 https://libopusenc-codec.org/
 -libpaper: 2.2.7 https://github.com/rrthomas/libpaper
--libpcap: 1.10.5 http://www.tcpdump.org/release/
+-libpcap: 1.10.5 to 1.10.6 http://www.tcpdump.org/release/
 -libplacebo: 7.351.0 https://github.com/haasn/libplacebo
 -libplist: 2.7.0 http://www.libimobiledevice.org/
 -libpng: 1.6.53 http://sourceforge.net/projects/libpng/files/libpng16/
@@ -707,14 +707,14 @@ l series:
 -mujs: 1.3.8 https://mujs.com/downloads
 -ncurses: 6.5_20250809 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.35.0 https://github.com/notroj/neon/tags
--netpbm: 11.12.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
+-netpbm: 11.13.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.25 https://releases.pagure.org/newt
 -nodejs: 22.21.1 https://nodejs.org/dist
 -ocl-icd: 2.3.4 https://github.com/OCL-dev/ocl-icd/releases
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.25.0 https://openal-soft.org/openal-releases
 -openblas: 0.3.30 https://github.com/xianyi/OpenBLAS
--opencv: 4.12.0 https://github.com/opencv/opencv/releases
+-opencv: 4.12.0 to 4.13.0 https://github.com/opencv/opencv/releases
 -openexr: 3.4.4 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.4 http://www.openjpeg.org
 -opensc: 0.26.1 https://github.com/OpenSC/OpenSC
@@ -786,7 +786,7 @@ l series:
 -python-pillow: 12.0.0 https://github.com/python-pillow/Pillow/releases
 -python-pluggy: 1.6.0 https://pypi.org/project/pluggy
 -python-ply: 3.11 https://pypi.python.org/pypi/ply
--python-psutil: 7.2.0 https://pypi.org/project/psutil
+-python-psutil: 7.2.1 https://pypi.org/project/psutil
 -python-pybind11: 3.0.1 https://pypi.python.org/pypi/pybind11
 -python-pygments: 2.19.2 https://pypi.org/project/Pygments
 -python-pycparser: 2.23 https://pypi.python.org/pypi/pycparser
@@ -856,7 +856,7 @@ l series:
 -tevent: 0.17.1 https://www.samba.org/ftp/tevent/
 -tidy-html5: 5.8.0 https://github.com/htacg/tidy-html5/releases
 -unicode-ucd: 17.0.0 https://www.unicode.org/Public/zipped/15.1.0/UCD.zip
--utf8proc: 2.11.2 https://github.com/JuliaStrings/utf8proc/releases
+-utf8proc: 2.11.3 https://github.com/JuliaStrings/utf8proc/releases
 -v4l-utils: 1.32.0 http://linuxtv.org/downloads/v4l-utils/
 -vid.stab: 1.1.1 https://github.com/georgmartius/vid.stab.git
 -vte: 0.82.2 http://ftp.gnome.org/pub/gnome/sources/vte/
@@ -904,7 +904,7 @@ n series:
 -fetchmail: 6.6.2 https://www.fetchmail.info/
 -getmail: 6.19.09 https://github.com/getmail6/getmail6/releases
 -gnupg: 1.4.23 https://www.gnupg.org/download/index.html
--gnupg2: 2.5.14 https://www.gnupg.org/download/index.html
+-gnupg2: 2.5.16 https://www.gnupg.org/download/index.html
 -gnutls: 3.8.11 http://www.gnu.org/software/gnutls/
 -gpa: 0.11.0 https://www.gnupg.org/download/index.html
 -gpgme: 1.24.3 to 2.0.0 https://www.gnupg.org/download/index.html
@@ -1017,7 +1017,7 @@ n series:
 -sshfs: 3.7.5 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.76 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.5 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.5 to 1.99.6 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1029,7 +1029,7 @@ n series:
 -vlan: 1.9 to 2.0.5 (from debian) http://www.candelatech.com/~greear/vlan.html or http://ftp.debian.org/debian/pool/main/v/vlan/
 -vsftpd: 3.0.5 https://security.appspot.com/vsftpd.html
 -wget: 1.25.0 http://ftp.gnu.org/gnu/wget/
--wget2: 2.2.0 http://ftp.gnu.org/gnu/wget/
+-wget2: 2.2.1 http://ftp.gnu.org/gnu/wget/
 -whois: 5.6.5 https://github.com/rfc1036/whois/tags
 -wireguard-tools: 1.0.20250521 https://git.zx2c4.com/wireguard-tool
 -wireless-regdb: 2025.10.07 http://kernel.org/pub/software/network/wireless-regdb/
@@ -1268,14 +1268,14 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -xfce4-clipman-plugin: 1.7.0
 -xfce4-dev-tools: 4.20.
 -xfce4-notifyd: 0.9.7
--xfce4-panel: 4.20.5
+-xfce4-panel: 4.20.6
 -xfce4-panel-profiles: 1.1.1 https://gitlab.xfce.org/apps/xfce4-panel-profiles
 -xfce4-power-manager: 4.20.0
 -xfce4-pulseaudio-plugin: 0.5.0
 -xfce4-screensaver: 4.20.1
 -xfce4-screenshooter: 1.11.3
 -xfce4-session: 4.20.3
--xfce4-settings: 4.20.2
+-xfce4-settings: 4.20.3
 -xfce4-systemload-plugin: 1.4.0
 -xfce4-taskmanager: 1.6.0
 -xfce4-terminal: 1.1.5
