@@ -83,7 +83,7 @@ A series :
 -lvm2: 2.03.38 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.15 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 208 https://github.com/andikleen/mcelog/tags
--mdadm: 4.4 https://www.kernel.org/pub/linux/utils/raid/mdadm/
+-mdadm: 4.5 https://www.kernel.org/pub/linux/utils/raid/mdadm/
 -minicom:
 	- minicom: 2.10 https://salsa.debian.org/minicom-team/minicom/-/tags
 	- lrzsz: 0.12.21 http://www.ohse.de/uwe/software/lrzsz.html or http://ftp.debian.org/debian/pool/main/l/lrzsz/
@@ -254,7 +254,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.1.2028 to 9.1.2031 https://github.com/vim/commits/master
+-vim: 9.1.2037 to 9.1.20xx https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.2.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -410,7 +410,7 @@ l series:
 -PyQt5_sip: 12.17.2 https://pypi.org/project/PyQt5-sip/
 -QScintilla: 2.14.1 https://riverbankcomputing.com/software/qscintilla/download
 -SDL2: 2.32.10 https://github.com/libsdl-org/SDL/releases
--SDL3: 3.2.28 https://github.com/libsdl-org/SDL/releases
+-SDL3: 3.4.0 https://github.com/libsdl-org/SDL/releases
 -SDL2_gfx: 1.0.4 https://www.libsdl.org/projects/SDL2_gfx/
 -SDL2_image: 2.8.8 https://www.libsdl.org/projects/SDL2_image/
 -SDL2_mixer: 2.8.1 https://www.libsdl.org/projects/SDL2_mixer/
@@ -454,7 +454,7 @@ l series:
 -cryfs: 0.10.3 to 0.11.4 https://github.com/cryfs/cryfs/releases
 -cryptopp: 8.2.0 to 8.8.0 https://www.cryptopp.com/
 -cxxopts: 3.3.1 https://github.com/jarro2783/cxxopts
--dav1d: 1.5.2 http://downloads.videolan.org/pub/videolan/dav1d
+-dav1d: 1.5.3 http://downloads.videolan.org/pub/videolan/dav1d
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.114 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.4.0 http://dbus.freedesktop.org/releases/dbus-python/
@@ -632,7 +632,7 @@ l series:
 -liboggz: 1.1.3 https://www.xiph.org/downloads/
 -libopusenc: 0.3 https://libopusenc-codec.org/
 -libpaper: 2.2.7 https://github.com/rrthomas/libpaper
--libpcap: 1.10.5 to 1.10.6 http://www.tcpdump.org/release/
+-libpcap: 1.10.6 http://www.tcpdump.org/release/
 -libplacebo: 7.351.0 https://github.com/haasn/libplacebo
 -libplist: 2.7.0 http://www.libimobiledevice.org/
 -libpng: 1.6.53 http://sourceforge.net/projects/libpng/files/libpng16/
@@ -661,7 +661,7 @@ l series:
 -libtasn1: 4.20.0 http://ftp.gnu.org/gnu/libtasn1/
 -libtheora: 1.2.0 https://www.xiph.org/downloads/
 -libtiff: 4.7.1 https://download.osgeo.org/libtiff/
--libtraceevent: 1.8.6 https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/
+-libtraceevent: 1.8.7 https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git/
 -libtracefs: 1.8.2 https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/
 -libunibreak: 6.1 https://github.com/adah1972/libunibreak
 -libunistring: 1.4.1 http://ftp.gnu.org/gnu/libunistring/mpfr
@@ -705,7 +705,7 @@ l series:
 -mozjs140: 140.6.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
 -mpfr: 4.2.2 http://www.mpfr.org + mfr.allpatches.patch (wget -c http://www.mpfr.org/mpfr-current/allpatches)
 -mujs: 1.3.8 https://mujs.com/downloads
--ncurses: 6.5_20250809 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
+-ncurses: 6.6 http://dickey.his.com/ncurses/ or http://invisible-island.net/ncurses/current/ or https://invisible-island.net/archives/ncurses/6.3/
 -neon: 0.35.0 https://github.com/notroj/neon/tags
 -netpbm: 11.13.00 https://sourceforge.net/p/netpbm/code/HEAD/tree/
 -newt: 0.52.25 https://releases.pagure.org/newt
@@ -714,7 +714,7 @@ l series:
 -oniguruma: 6.9.10 https://github.com/kkos/oniguruma/releases
 -openal-soft: 1.25.0 https://openal-soft.org/openal-releases
 -openblas: 0.3.30 https://github.com/xianyi/OpenBLAS
--opencv: 4.12.0 to 4.13.0 https://github.com/opencv/opencv/releases
+-opencv: 4.13.0 https://github.com/opencv/opencv/releases
 -openexr: 3.4.4 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.4 http://www.openjpeg.org
 -opensc: 0.26.1 https://github.com/OpenSC/OpenSC
@@ -802,7 +802,7 @@ l series:
 -python-six: 1.17.0 https://pypi.org/project/six/
 -python-smartypants: 2.0.2 https://github.com/leohemsted/smartypants.py/tags
 -python-snowballstemmer: 3.0.1 https://pypi.org/project/snowballstemmer
--python-sphinx: 9.0.4 https://pypi.org/project/sphinx
+-python-sphinx: 9.1.0 https://pypi.org/project/sphinx
 -python-sphinx_rtd_theme: 3.0.2 https://pypi.python.org/pypi/sphinx_rtd_theme
 -python-tomli-w: 1.2.0 https://pypi.org/project/tomli-w/#files
 -python-trove-classifiers: 2025.12.1.14 https://pypi.org/project/trove-classifiers
@@ -887,7 +887,7 @@ n series:
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20251030 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.34.6 https://c-ares.org/
--cifs-utils: 7.4 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 7.5 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.8 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.17.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
@@ -950,7 +950,7 @@ n series:
 -mobile-broadband-provider-info: 20251111 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mosh: 1.4.0 https://mosh.org
 -mtr: 0.96 https://github.com/traviscross/mtr/tags
--mutt: 2.2.15 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.2.16 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.3.0 http://ftp.ncftp.com/download/
 -net-snmp: 5.9.5.2 https://sourceforge.net/projects/net-snmp/files/net-snmp/
@@ -997,7 +997,7 @@ n series:
 -pidentd: 3.0.19 http://ftp.lysator.liu.se/pub/ident/servers/
 -pinentry: 1.3.2 https://www.gnupg.org/download/index.html#pinentry
 -popa3d: 1.0.3 http://www.openwall.com/popa3d/
--postfix: 3.10.7 (to 3.12.0-RC2) http://ftp.porcupine.org/mirrors/postfix-release/official/
+-postfix: 3.10.7 (to 3.12.0-RC3) http://ftp.porcupine.org/mirrors/postfix-release/official/
 -ppp: 2.5.2
 	-ppp: 2.5.2 https://github.com/paulusmack/ppp/tags
 	-pppsetup: 1.98
@@ -1017,7 +1017,7 @@ n series:
 -sshfs: 3.7.5 hhttps://github.com/libfuse/sshfs/releases
 -stunnel: 5.76 https://www.stunnel.org/downloads.html
 -tcp_wrappers: 7.6 https://debian-repo.stanford.edu/debian/pool/main/t/tcp-wrappers/
--tcpdump: 4.99.5 to 1.99.6 https://www.tcpdump.org/index.html#latest-releases
+-tcpdump: 4.99.6 https://www.tcpdump.org/index.html#latest-releases
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
@@ -1133,14 +1133,14 @@ x series: (main packages)
 -libXt: 1.3.1
 -libxcvt: 0.1.2
 -marisa: 0.3.0 https://github.com/s-yata/marisa-trie/releases
--mesa: 25.3.2 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
+-mesa: 25.3.3 https://archive.mesa3d.org// (mesa-demo: 8.4.0)
 -motif: 2.3.8 https://sourceforge.net/projects/motif/files/
 -mtdev. 1.1.7 http://bitmath.org/code/mtdev/
 -m17n-lib: 1.8.6 http://m17n.nongnu.org
 -mypaint-brushes: 1.3.1 https://github.com/Jehan/mypaint-brushes/tags
 -noto-cjk-fonts-ttf: 2.004 https://fonts.google.com/noto
 -noto-emoji: 2.051
--noto-fonts-ttf: 2025.12.01 https://github.com/notofonts/noto-fonts/releases
+-noto-fonts-ttf: 2026.01.01 https://github.com/notofonts/noto-fonts/releases
 -pixman: 0.46.4 http://cairographics.org/releases/
 -setxkbmap: 1.3.4
 -skkdic: 20210919 http://pkgs.fedoraproject.org/repo/pkgs/skkdic/
@@ -1213,7 +1213,7 @@ xap series:
 -gtk-layer-shell: 0.10.0 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 17.0.0 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.1.2028 to 9.1.2031 https://github.com/vim/vim/commits/master
+-gvim: 9.1.2037 to 9.1.20xx https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.6.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1231,7 +1231,7 @@ xap series:
 -sane: 1.4.0
 	- sane-backend : 1.4.0 https://gitlab.com/sane-project/backends/-/tags
 	- sane-frontend: 1.0.14 https://gitlab.com/sane-project/frontends/-/tags
--seamonkey: 2.53.22 http://www.mozilla.org/projects/seamonkey/
+-seamonkey: 2.53.23 http://www.mozilla.org/projects/seamonkey/
 -seyon: 2.20c_16.diff.gz to 2.20c_64.debian.tar.xz http://ftp.debian.org/debian/pool/main/s/seyon/
 -ssr: 0.4.4 https://github.com/MaartenBaert/ssr/tags
 -windowmaker: 0.96.0 https://github.com/window-maker/wmaker/releases/
@@ -1259,7 +1259,7 @@ xfce: 4.20 https://gitlab.xfce.org/xfce/
 -garcon: 4.20.0
 -libxfce4ui: 4.20.2
 -libxfce4util: 4.20.1
--libxfce4windowing: 4.20.4 
+-libxfce4windowing: 4.20.5 
 -mousepad: 0.6.5
 -thunar: 4.20.6 https://gitlab.xfce.org/xfce/thunar
 -thunar-volman: 4.18.0
