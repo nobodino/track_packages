@@ -68,7 +68,7 @@ A series :
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
 -kbd: 2.10.0 https://github.com/legionus/kbd/releases
 -kernel-ide: 6.18.44 https://www.kernel.org/pub/linux/kernel/
--kernel-firmware: 20260809 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
+-kernel-firmware: 20260814 git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git
 -kmod: 34.2 https://www.kernel.org/pub/linux/utils/kernel/kmod/
 -lbzip2: 2.5 http://lbzip2.org/download or https://github.com/kjn/lbzip2/tags
 -less: 704 https://github.com/gwsw/less/tags
@@ -255,11 +255,11 @@ Ap series :
 -sysstat: 12.7.9 https://github.com/sysstat/sysstat/tags
 -terminus-font: 4.49.1 http://terminus-font.sourceforge.net
 -texinfo: 7.3 http://ftp.gnu.org/pub/gnu/texinfo/
--tmux: 3.7b https://github.com/tmux/tmux/releases
+-tmux: 3.7c https://github.com/tmux/tmux/releases
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.2.0901 to 9.2.09xx https://github.com/vim/commits/master
+-vim: 9.2.0964 to 9.2.09xx https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.3.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -357,7 +357,7 @@ d series:
 	- perl: 5.44.0 http://www.perl.com/CPAN/src/5.0/
 -pkgconf: 3.0.5 https://github.com/pkgconf/pkgconf
 -pmake: 1.111_1.diff.gz
--poke: 4.3 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
+-poke: 5.0 http://www.jemarch.net/poke or https://www.gnu.org/software/poke
 -python2: 2.7.18 https://www.python.org/downloads/
 -python3: 3.12.14 to 3.14.3 https://www.python.org/downloads/
 -python-numpy: 2.5.2 https://pypi.org/project/numpy/
@@ -727,8 +727,8 @@ l series:
 -mhash: 0.9.9.9 https://sourceforge.net/projects/mhash/files/mhash/
 -mlt: 7.40.0 https://github.com/mltframework/mlt/releases
 -mm: 1.4.2 http://de-mirror.org/gentoo/distfiles/
--mozilla-nss: 3.126.1 (nss) http://de-mirror.org/gentoo/distfiles/
-	- nss: 3.126.1 https://ftp.mozilla.org/pub/security/nss/releases/
+-mozilla-nss: 3.127 (nss) http://de-mirror.org/gentoo/distfiles/
+	- nss: 3.127 https://ftp.mozilla.org/pub/security/nss/releases/
 	- nspr: 4.36 https://ftp.mozilla.org/pub/mozilla.org/nspr/releases/
 -movit: 1.7.2 https://movit.sesse.net
 -mozjs140: 140.13.0esr https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
@@ -888,7 +888,7 @@ l series:
 -speexdsp: 1.2.1 http://www.speex.org/
 -spirv-llvm-translator: 22.1.5 https://github.com/KhronosGroup/SPIRV-LLVM-Translator/releases
 -startup-notification: 0.12 http://www.freedesktop.org/software/startup-notification/releases/
--suitesparse: 7.13.0 https://github.com/DrTimothyAldenDavis/SuiteSparse
+-suitesparse: 7.14.0 https://github.com/DrTimothyAldenDavis/SuiteSparse
 -svgalib: 1.9.25 http://www.arava.co.il/matan/svgalib/
 -system-config-printer: 1.5.18 https://github.com/OpenPrinting/system-config-printer/releases
 -t1lib: 5.1.2 http://www.t1lib.org/
@@ -941,7 +941,7 @@ n series:
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
 -daemon: 0.8.4 http://libslack.org/daemon/
 -dehydrated: 0.7.2 https://github.com/dehydrated-io/dehydrated/releases
--dhcpcd: 10.5.0 http://roy.marples.name/downloads/dhcpcd
+-dhcpcd: 10.5.2 http://roy.marples.name/downloads/dhcpcd
 -dnsmasq: 2.93 https://thekelleys.org.uk/dnsmasq/
 -dovecot: 2.4.4 http://www.dovecot.org/releases/
 -ebtables: 2.0.11 http://ftp.netfilter.org/pub/ebtables/
@@ -1146,7 +1146,7 @@ x series: (main packages)
 -ibus-table: 1.17.19
 -igt-gpu-tools: 2.5
 -intel-gmmlib: 22.10.1 https://github.com/intel/gmmlib
--intel-media-driver: 26.3.1 https://github.com/intel/media-driver
+-intel-media-driver: 26.3.2 https://github.com/intel/media-driver
 -intel-vaapi-driver: 2.4.5 https://github.com/intel/intel-vaapi-driver/releases
 -labwc: 0.20.1 https://github.com/labwc/labwc
 -libdisplay-info: 0.4.0 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/
@@ -1273,7 +1273,7 @@ xap series:
 -gtk-layer-shell: 0.10.1 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 17.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.2.0901 to 9.2.0911 https://github.com/vim/vim/commits/master
+-gvim: 9.2.0964 to 9.2.0911 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.13.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1375,6 +1375,7 @@ extra:
 testing:
 -geeqie: 
 -kernel-7.1.x: 7.1.8
+-kernel-7.2.x: 7.2.0
 -glibc: 2.43
 -mesa:
 -firefox: 153.0esr
