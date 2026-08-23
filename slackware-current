@@ -11,7 +11,7 @@ A series :
 -acpid: 2.0.34 http://sourceforge.net/projects/acpid2/
 -attr: 2.6.0 http://savannah.nongnu.org/projects/attr
 -bash: 5.3.015 http://ftp.gnu.org/pub/gnu/bash/
--bcachefs-tools: 1.38.8 https://evilpiepirate.org/bcachefs-tools/
+-bcachefs-tools: 1.39.2 https://evilpiepirate.org/bcachefs-tools/
 -bin: 11.1
 	- debianutils: 2.7 http://ftp.debian.org/debian/pool/main/d/debianutils/
 	- fbset: 2.1 http://ftp.debian.org/debian/pool/main/f/fbset/
@@ -29,7 +29,7 @@ A series :
 -dosfstools: 4.2 https://github.com/dosfstools/dosfstools
 -dracut: 112 https://github.com/dracut-ng/dracut-ng
 -e2fsprogs: 1.47.4 http://download.sourceforge.net/e2fsprogs/
--ed: 1.22.5 http://ftp.gnu.org/pub/gnu/ed/
+-ed: 1.22.6 http://ftp.gnu.org/pub/gnu/ed/
 -efibootmgr: 18 https://github.com/rhboot/efibootmgr
 -efivar: 20201015 to 20230307 or 39 https://github.com/rhboot/efivar
 -elilo: 3.16 http://sourceforge.net/projects/elilo/files/elilo/
@@ -80,7 +80,7 @@ A series :
 -libpwquality: 1.4.5 https://github.com/libpwquality/libpwquality
 -lilo: 24.2 https://salsa.debian.org/joowie-guest/upstream_lilo
 -logrotate: 3.22.0 https://github.com/logrotate/logrotate
--lrzip: 0.660 http://ck.kolivas.org/apps/lrzip/
+-lrzip: 0.7.2 http://ck.kolivas.org/apps/lrzip/
 -lvm2: 2.03.42 https://mirrors.kernel.org/sourceware/lvm2/
 -lzlib: 1.16 https://download.savannah.nongnu.org/releases/lzip/lzlib/
 -mcelog: 212 https://github.com/andikleen/mcelog/tags
@@ -259,7 +259,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.2.0964 to 9.2.09xx https://github.com/vim/commits/master
+-vim: 9.2.0964 to 9.2.0992 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.3.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -269,7 +269,7 @@ Ap series :
 d series:
 --------------------
 -AMF-headers: 1.5.2 https://github.com/GPUOpen-LibrariesAndSDKs/AMF
--Cython: 3.2.9 https://pypi.python.org/pypi/Cython/
+-Cython: 3.3.0 https://pypi.python.org/pypi/Cython/
 -autoconf-archive: 2024.10.16 https://www.gnu.org/software/autoconf-archive/
 -autoconf: 2.73 http://ftp.gnu.org/pub/gnu/autoconf/
 -automake: 1.18.1 http://ftp.gnu.org/pub/gnu/automake/
@@ -368,7 +368,7 @@ d series:
 -re2c: 4.5.1 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 4.0.6 http://www.ruby-lang.org/
--rust: 1.97.0 https://rust-lang.org
+-rust: 1.98.0 https://rust-lang.org
 -rust-bindgen: 0.72.1 https://github.com/rust-lang/rust-bindgen/tags
 -sassc: 3.6.2 to 3.6.5 https://github.com/sass/sassc/releases
 -scons: 4.11.0 https://github.com/SCons/scons/releases
@@ -407,12 +407,12 @@ kde series :
 --------------------
 -kde: 5.116.0 (plasma) https://download.kde.org/stable/
 -kde: 6.29 (framework) https://download.kde.org/stable/
--kde: 26.04.3 (kde gear) https://download.kde.org/stable/
+-kde: 26.08.0 (kde gear) https://download.kde.org/stable/
 --------------------
 l series:
 --------------------
 -GConf: 3.2.6 https://download.gnome.org/sources/GConf/3.2/
--Imath: 3.2.2 https://github.com/AcademySoftwareFoundation/Imath/releases
+-Imath: 3.2.3 https://github.com/AcademySoftwareFoundation/Imath/releases
 -LibRaw: 0.22.2 http://www.libraw.org/
 -Mako: 1.3.5 to 1.3.9 http://www.python.org/pypi/Mako/
 -PyQT5: 5.15.11 https://pypi.org/project/PyQt5
@@ -499,7 +499,7 @@ l series:
 -fprintd: 1.94.5 https://gitlab.freedesktop.org/libfprint/fprintd
 -freecell-solver: 6.16.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.14.3 http://sourceforge.net/projects/freetype/files/freetype2/
--frei0r-plugins: 3.3.0 https://files.dyne.org/frei0r
+-frei0r-plugins: 3.4.3 https://files.dyne.org/frei0r
 -fribidi: 1.0.16 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 to 3.18.0 https://github.com/libfuse/libfuse/releases
@@ -591,7 +591,7 @@ l series:
 -libcacard: 2.8.2 https://gitlab.freedesktop.org/spice/libcacard
 -libcanberra: 0.30 http://0pointer.de/lennart/projects/libcanberra/
 -libcap: 2.78 http://sites.google.com/site/fullycapable/
--libcap-ng: 0.9.3 https://people.redhat.com/sgrubb/libcap-ng/
+-libcap-ng: 0.9.5 https://people.redhat.com/sgrubb/libcap-ng/
 -libcbor: 0.14.0 https://github.com/PJK/libcbor
 -libcddb: 1.3.2 http://libcddb.sourceforge.net/download.html
 -libcdio: 2.4.0 http://ftp.gnu.org/gnu/libcdio/
@@ -746,7 +746,7 @@ l series:
 -openal-soft: 1.25.2 https://openal-soft.org/openal-releases
 -openblas: 0.3.34 https://github.com/xianyi/OpenBLAS
 -opencv: 4.14.0 https://github.com/opencv/opencv/releases
--openexr: 3.4.14 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.4.15 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.4 http://www.openjpeg.org
 -openjph: 0.31.0 https://github.com/aous72/OpenJPH
 -opensc: 0.27.1 https://github.com/OpenSC/OpenSC
@@ -775,7 +775,7 @@ l series:
 -poppler-data: 0.4.12 http://poppler.freedesktop.org
 -popt: 1.19 https://github.com/rpm-software-management/popt/releases
 -potrace: 1.16 https://potrace.sourceforge.net/
--protobuf: 35.1 https://github.com/google/protobuf
+-protobuf: 36.0 https://github.com/google/protobuf
 -pulseaudio: 17.0 https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/tags
 -pycairo: 1.29.1 https://github.com/pygobject/pycairo/releases
 -pycups: 2.0.4 https://pypi.python.org/pypi/pycups
@@ -854,7 +854,7 @@ l series:
 -qca: 2.3.10 https://download.kde.org/stable/qca/
 -qrencode: 4.1.1 http://fukuchi.org/works/qrencode
 -qt5: 5.15.19_20260520 https://invent.kde.org/qt/qt/qt5.git or https://download.qt.io/official_releases/qt/5.15/
--qt6: 6.11.1_20260508 https://invent.kde.org/qt/qt/qt5.git
+-qt6: 6.11.2_20260807 https://invent.kde.org/qt/qt/qt5.git
 -qtkeychain: 0.17.0 https://github.com/frankosterfeld/qtkeychain/releases
 -quazip: 1.7.2 https://github.com/stachenov/quazip/releases
 -range-v3: 0.12.0 https://github.com/ericniebler/range-v3
@@ -921,7 +921,7 @@ l series:
 n series:
 --------------------
 -ModemManager: 1.24.0 http://www.freedesktop.org/software/ModemManager/
--NetworkManager: 1.58.0 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
+-NetworkManager: 1.58.1 https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/tags
 -alpine: 2.29.9
 	-alpine: 2.29.9 http://alpine.x10host.com/alpine/release/
 	-pinepgp: 0.18.0
@@ -961,7 +961,7 @@ n series:
 -icmpinfo: 1.11 http://www.demailly.com/~dl/icmpinfo.html
 -iftop: 1.0pre4 http://www.ex-parrot.com/pdw/iftop/
 -inetd-OpenBSD: 1.79
--iproute2: 7.1.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
+-iproute2: 7.2.0 https://www.kernel.org/pub/linux/utils/net/iproute2/
 -ipset: 7.24 http://ftp.netfilter.org/pub/ipset/
 -iptables: 1.8.13 https://www.netfilter.org/projects/iptables/downloads.html
 -iptraf-ng: 1.2.2 https://github.com/iptraf-ng/iptraf-ng/releases
@@ -1148,7 +1148,7 @@ x series: (main packages)
 -intel-gmmlib: 22.10.1 https://github.com/intel/gmmlib
 -intel-media-driver: 26.3.2 https://github.com/intel/media-driver
 -intel-vaapi-driver: 2.4.5 https://github.com/intel/intel-vaapi-driver/releases
--labwc: 0.20.1 https://github.com/labwc/labwc
+-labwc: 0.20.2 https://github.com/labwc/labwc
 -libdisplay-info: 0.4.0 https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/
 -liberation-fonts-ttf: 2.1.5 https://github.com/liberationfonts/liberation-fonts/releases
 -libFS: 1.0.10
@@ -1273,7 +1273,7 @@ xap series:
 -gtk-layer-shell: 0.10.1 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 17.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.2.0964 to 9.2.0911 https://github.com/vim/vim/commits/master
+-gvim: 9.2.0964 to 9.2.0992 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.13.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
