@@ -259,7 +259,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.2.1001 to 9.2.1021 https://github.com/vim/commits/master
+-vim: 9.2.1001 to 9.2.1025 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.3.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -365,7 +365,7 @@ d series:
 -python-pyproject_metadata: 0.12.1 https://pypi.org/project/pyproject-metadata/
 -python-setuptools: 84.0.0 https://pypi.python.org/pypi/setuptools
 -rcs: 5.10.1 http://ftp.gnu.org/pub/gnu/rcs/
--re2c: 4.5.1 to 4.6 http://re2c.org or https://github.com/skvadrik/re2c/releases
+-re2c: 4.6 http://re2c.org or https://github.com/skvadrik/re2c/releases
 -rinutils: 0.10.3 https://github.com/shlomif/rinutils/releases
 -ruby: 4.0.6 http://www.ruby-lang.org/
 -rust: 1.98.0 https://rust-lang.org
@@ -1000,7 +1000,7 @@ n series:
 -mobile-broadband-provider-info: 20251111 http://ftp.debian.org/debian/pool/main/m/mobile-broadband-provider-info/
 -mosh: 1.4.0 https://mosh.org
 -mtr: 0.96 https://github.com/traviscross/mtr/tags
--mutt: 2.4.1 http://ftp.mutt.org/pub/mutt/
+-mutt: 2.4.2 http://ftp.mutt.org/pub/mutt/
 -nc: 110_21.diff.gz to 1.10-47.debian.tar.xz (netcat traditional) or 1.219-1.debian.tar.xz (netcat-openbsd)
 -ncftp: 3.3.0 http://ftp.ncftp.com/download/
 -ngtcp2: 1.25.0 https://github.com/ngtcp2/ngtcp2
@@ -1273,7 +1273,7 @@ xap series:
 -gtk-layer-shell: 0.10.1 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 17.0.2 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.2.1002 to 9.2.1021 https://github.com/vim/vim/commits/master
+-gvim: 9.2.1002 to 9.2.1025 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 140.13.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
@@ -1375,7 +1375,7 @@ extra:
 testing:
 -geeqie: 
 -kernel-7.2.x: 7.2.2
--glibc: 2.43
+-glibc: 2.44
 -mesa:
 -firefox: 153.0esr
 -thunderbird: 153.0esr
