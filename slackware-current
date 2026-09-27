@@ -62,7 +62,7 @@ A series :
 -inih: r62 https://github.com/benhoyt/inih
 -iniparser: 4.3.0 https://github.com/ndevilla/iniparser
 -inotify-tools: 4.26.262.0 https://github.com/rvoicilas/inotify-tools/releases
--intel-microcode: 20260812 https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+-intel-microcode: 202609.25 https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
 -isapnptools: 1.27 http://www.roestockfox.co.uk/isapnptools/index.html
 -iucode_tool: 2.3.1 https://gitlab.com/iucode-tool/iucode-tool
 -jfsutils: 1.1.15 http://jfs.sourceforge.net/
@@ -105,7 +105,7 @@ A series :
 -patch: 2.8 http://ftp.gnu.org/pub/gnu/patch/
 -pciutils: 3.15.0 http://www.kernel.org/pub/software/utils/pciutils/
 -pcmciautils: 018 http://ftp.debian.org/debian/pool/main/p/pcmciautils/
--pkgtools: 15.0
+-pkgtools: 16.0
 -plzip: 1.13 https://download.savannah.gnu.org/releases/lzip/plzip/
 -procps-ng: 4.0.7 https://gitlab.com/procps-ng/procps/-/tags
 -quota: 4.11 http://www.sf.net/projects/linuxquota/
@@ -285,7 +285,7 @@ d series:
 -cbindgen: 0.29.4 https://github.com/mozilla/cbindgen/tags
 -ccache: 4.13.6 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
--clinfo: 3.0.25 https://github.com/Oblomov/clinfo
+-clinfo: 3.1.26.09.26 https://github.com/Oblomov/clinfo
 -clisp: 2.50_20260903 https://gitlab.com/gnu-clisp/clisp
 	- clisp: 2.50 http://ftp.gnu.org/pub/gnu/clisp/
 	- ffcall : 2.3
@@ -323,7 +323,7 @@ d series:
 -make: 4.4.1 http://ftp.gnu.org/pub/gnu/make/
 -mercurial: 7.2.4 https://www.mercurial-scm.org/release
 -meson: 1.12.1 https://github.com/mesonbuild/meson/releases
--meson-python: 0.21.1 https://github.com/mesonbuild/meson-python
+-meson-python: 0.22.0 https://github.com/mesonbuild/meson-python
 -mold: 2.42.1 https://github.com/rui314/mold
 -nasm: 3.02 http://www.nasm.us/
 -ninja: 1.13.2 https://github.com/ninja-build/ninja/releases
@@ -539,7 +539,7 @@ l series:
 -graphviz: 16.1.0 https://gitlab.com/graphviz/graphviz
 -gsettings-desktop-schemas: 51.0 http://ftp.acc.umu.se/pub/gnome/sources/gsettings-desktop-schemas
 -gsl: 2.8 http://www.gnu.org/software/gsl/
--gspell: 1.14.4 https://download.gnome.org/sources/gspell/
+-gspell: 1.14.5 https://download.gnome.org/sources/gspell/
 -gst-plugins-base: 1.28.7 https://gstreamer.freedesktop.org/src/
 -gst-plugins-bad-free: 1.28.7 https://gstreamer.freedesktop.org/src/
 -gst-plugins-good: 1.28.7 https://gstreamer.freedesktop.org/src/
@@ -752,7 +752,7 @@ l series:
 -openal-soft: 1.25.2 https://openal-soft.org/openal-releases
 -openblas: 0.3.34 https://github.com/xianyi/OpenBLAS
 -opencv: 5.0.0 https://github.com/opencv/opencv/releases
--openexr: 3.5.0 https://github.com/AcademySoftwareFoundation/openexr/releases
+-openexr: 3.5.1 https://github.com/AcademySoftwareFoundation/openexr/releases
 -openjpeg: 2.5.4 http://www.openjpeg.org
 -openjph: 0.32.0 https://github.com/aous72/OpenJPH
 -opensc: 0.27.1 https://github.com/OpenSC/OpenSC
@@ -821,7 +821,7 @@ l series:
 -python-importlib_metadata: 8.7.0 https://pypi.org/project/importlib-metadata
 -python-installer: 1.0.0 https://pypi.org/project/installer/#files
 -python-lxml: 6.1.3 https://pypi.org/project/lxml/#files
--python-markdown: 3.10.3 https://pypi.org/project/Markdown
+-python-markdown: 3.11 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 26.3 https://github.com/pypa/packaging/releases
 -python-pathspec: 1.1.1 https://pypi.org/project/pathspec
@@ -840,7 +840,7 @@ l series:
 -python-requests: 2.34.2 https://pypi.org/project/requests/
 -python-roman-numerals: 4.1.0 https://pypi.org/project/roman-numerals
 -python-sane: 2.9.2 https://github.com/python-pillow/Sane/releases
--python-scikit-build-core: 1.0.3 https://pypi.python.org/pypi/scikit_build_core
+-python-scikit-build-core: 1.1.0 https://pypi.python.org/pypi/scikit_build_core
 -python-setuptools-gettext: 0.1.18 https://pypi.org/project/setuptools-gettext/
 -python-setuptools_scm: 10.3.4 https://pypi.org/project/setuptools_scm
 -python-six: 1.17.0 https://pypi.org/project/six/
@@ -942,7 +942,7 @@ n series:
 -bsd-finger: 0.17 to 0.17-17.debian.tar.xz http://ftp.debian.org/debian/pool/main/b/bsd-finger/
 -ca-certificates: 20260910 http://packages.qa.debian.org/c/ca-certificates.html
 -c-ares: 1.34.8 https://c-ares.org/
--cifs-utils: 7.7 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
+-cifs-utils: 7.8 http://ftp.samba.org/pub/linux-cifs/cifs-utils/
 -conntrack-tools: 1.4.9 http://ftp.netfilter.org/pub/conntrack-tools/
 -curl: 8.22.0 http://curl.haxx.se/download/
 -cyrus-sasl: 2.1.28 https://github.com/cyrusimap/cyrus-sasl/releases
