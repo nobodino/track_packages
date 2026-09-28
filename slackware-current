@@ -234,7 +234,7 @@ Ap series :
 -opus-tools: 0.2 https://opus-codec.org/
 -pamixer: 1.6 https://github.com/cdemoulins/pamixer/tags
 -powertop: 2.16 https://github.com/fenrus75/powertop/releases
--qpdf: 12.4.1 https://sourceforge.net/projects/qpdf/files/qpdf/
+-qpdf: 12.4.2 https://sourceforge.net/projects/qpdf/files/qpdf/
 -qemu: 11.1.1 https://qemu.org
 -qemu-guest-agent: 11.1.1 https://qemu.org
 -radeontool: 1.6.3 http://people.freedesktop.org/~airlied/radeontool/
@@ -263,7 +263,7 @@ Ap series :
 -undervolt: 0.4.0 https://github.com/georgewhewell/undervolt
 -usbmuxd: 20240416 https://github.com/libimobiledevice/usbmuxd/releases
 -vbetool: 1.2.2 https://cgit.freedesktop.org/~airlied/vbetool/
--vim: 9.2.1125 to 9.2.1132 https://github.com/vim/commits/master
+-vim: 9.2.1125 to 9.2.1135 https://github.com/vim/commits/master
 -vorbis-tools: 1.4.3 https://www.xiph.org/downloads/
 -xfsdump: 3.3.0 https://www.kernel.org/pub/linux/utils/fs/xfs/xfsdump/
 -xmltoman: 0.6 https://github.com/atsb/xmltoman
@@ -283,7 +283,7 @@ d series:
 -cargo-c: 0.10.25 https://github.com/lu-zero/cargo-c
 -cargo-vendor-filterer: 0.5.18 https://github.com/coreos/cargo-vendor-filterer
 -cbindgen: 0.29.4 https://github.com/mozilla/cbindgen/tags
--ccache: 4.13.6 https://ccache.dev/download.html
+-ccache: 4.14.1 https://ccache.dev/download.html
 -check: 0.15.2 https://github.com/libcheck/check/releases
 -clinfo: 3.1.26.09.26 https://github.com/Oblomov/clinfo
 -clisp: 2.50_20260903 https://gitlab.com/gnu-clisp/clisp
@@ -474,7 +474,7 @@ l series:
 -cxxopts: 3.3.1 https://github.com/jarro2783/cxxopts
 -dav1d: 1.5.4 http://downloads.videolan.org/pub/videolan/dav1d
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
--dbus-glib: 0.114 http://dbus.freedesktop.org/releases/dbus-glib/
+-dbus-glib: 0.116 http://dbus.freedesktop.org/releases/dbus-glib/
 -dbus-python: 1.4.0 http://dbus.freedesktop.org/releases/dbus-python/
 -dconf: 51.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 49.0 https://download.gnome.org/sources/dconf-editor/
@@ -504,7 +504,7 @@ l series:
 -fprintd: 1.94.5 https://gitlab.freedesktop.org/libfprint/fprintd
 -freecell-solver: 6.16.0 https://fc-solve.shlomifish.org/download.html
 -freetype: 2.14.3 http://sourceforge.net/projects/freetype/files/freetype2/
--frei0r-plugins: 3.5.0 https://files.dyne.org/frei0r
+-frei0r-plugins: 3.6.0 https://files.dyne.org/frei0r
 -fribidi: 1.0.17 https://github.com/fribidi/fribidi/releases
 -fuse: 2.9.9 https://github.com/libfuse/libfuse
 -fuse3: 3.16.2 to 3.18.3 https://github.com/libfuse/libfuse/releases
@@ -560,8 +560,8 @@ l series:
 -hunspell: 1.7.3 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.9 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
--icu4c: 78.3 https://icu.unicode.org/
--imagemagick: 7.1.2_31 http://www.imagemagick.org/
+-icu4c: 78.3 to 79rc1 https://icu.unicode.org/
+-imagemagick: 7.1.2_32 http://www.imagemagick.org/
 -immer: 0.9.1 https://github.com/arximboldi/immer
 -isl: 0.28 https://libisl.sourceforge.io/
 -iso-codes: 4.20.1 https://salsa.debian.org/iso-codes-team/iso-codes
@@ -1082,7 +1082,7 @@ n series:
 -telnet:
 	-netkit-telnet:  0.17
 	-telnet-OpenBSD: 20020321
--tftp-hpa: 6.1 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
+-tftp-hpa: 7.2 https://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 -timedated: 2026.07.01 https://forge.slackware.nl/rizitis/timedated
 -tin: 2.6.6 http://www.tin.org/
 -traceroute: 2.1.6 https://sourceforge.net/projects/traceroute/files/traceroute/
@@ -1281,7 +1281,7 @@ xap series:
 -gtk-layer-shell: 0.10.1 https://github.com/wmww/gtk-layer-shell
 -gucharmap: 18.0.0 https://download.gnome.org/sources/gucharmap
 -gv: 3.7.4
--gvim: 9.2.1125 to 9.2.1132 https://github.com/vim/vim/commits/master
+-gvim: 9.2.1125 to 9.2.1135 https://github.com/vim/vim/commits/master
 -hexchat: 2.16.2 https://github.com/hexchat/hexchat/releases
 -libnma: 1.10.6 https://download.gnome.org/sources/libnma/1.10/
 -mozilla-firefox: 153.3.0esr http://ftp.mozilla.org/pub/mozilla.org/mozilla/
