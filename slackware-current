@@ -36,7 +36,7 @@ A series :
 -elogind: 255.27 https://github.com/elogind/elogind
 -elvis: 2.2_0  http://ftp.cs.pdx.edu/pub/elvis/
 -etc: 14.2 + _etc.tar.gz http://dickey.his.com/ncurses/
--eudev: 3.2.14 https://github.com/eudev-project/eudev
+-eudev: 3.2.15 https://github.com/eudev-project/eudev
 -exfatprogs: 1.4.3 https://github.com/exfatprogs/exfatprogs
 -f2fs-tools: 1.16.0 https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
 -file: 5.48 https://github.com/file/file/tags or http://ftp.astron.com/pub/file/
@@ -182,7 +182,7 @@ Ap series :
 -ghostscript-fonts-std: 8.11
 -ghostscript: 10.08.0 https://ghostscript.com/releases/gsdnld.html
 -gphoto2: 2.5.32 http://www.gphoto.org/ or https://github.com/gphoto
--groff: 1.24.1 http://ftp.gnu.org/pub/gnu/groff/
+-groff: 1.24.2 http://ftp.gnu.org/pub/gnu/groff/
 -gutenprint: 5.3.5 http://gimp-print.sourceforge.net/p_Download.php
 -hplip: 3.26.6 http://hplipopensource.com
 -htop: 3.5.3 https://github.com/htop-dev/htop/releases
@@ -304,7 +304,7 @@ d series:
 -git: 2.55.0 https://git-scm.com/download
 -googletest: 1.18.0 https://github.com/google/googletest
 -gnucobol: 3.2 http://ftp.gnu.org/gnu/gnucobol
--google-go-lang: 1.26.5 https://go.dev
+-google-go-lang: 1.27.1 https://go.dev
 -gperf: 3.3 http://ftp.gnu.org/gnu/gperf/
 -guile: 3.0.11 http://ftp.gnu.org/pub/gnu/guile/
 -gyp: 20210831 to 20220714 https://gyp.gsrc.io/
@@ -475,7 +475,7 @@ l series:
 -dav1d: 1.5.4 http://downloads.videolan.org/pub/videolan/dav1d
 -db48: 4.8.30 http://download.oracle.com/berkeley-db/
 -dbus-glib: 0.116 http://dbus.freedesktop.org/releases/dbus-glib/
--dbus-python: 1.4.0 http://dbus.freedesktop.org/releases/dbus-python/
+-dbus-python: 1.5.0 http://dbus.freedesktop.org/releases/dbus-python/
 -dconf: 51.0 http://download.gnome.org/sources/dconf/
 -dconf-editor: 49.0 https://download.gnome.org/sources/dconf-editor/
 -ddcutil: 3.0.2 https://github.com/rockowitz/ddcutil
@@ -557,7 +557,7 @@ l series:
 -harfbuzz: 14.5.0 https://github.com/harfbuzz/harfbuzz
 -hicolor-icon-theme: 0.18 http://icon-theme.freedesktop.org/releases/
 -highway: 1.4.0 https://github.com/google/highway
--hunspell: 1.7.3 https://github.com/hunspell/hunspell/releases
+-hunspell: 1.7.4 https://github.com/hunspell/hunspell/releases
 -hyphen: 2.8.9 https://sourceforge.net/projects/hunspell/files/Hyphen
 -icon-naming-utils: 0.8.90 http://tango.freedesktop.org/releases/
 -icu4c: 78.3 to 79rc1 https://icu.unicode.org/
@@ -766,7 +766,7 @@ l series:
 -pangomm2: 2.58.0 http://ftp.gnome.org/pub/GNOME/sources/pangomm/
 -parted: 3.8 https://ftp.gnu.org/gnu/parted/
 -pcaudiolib: 1.3 https://github.com/espeak-ng/pcaudiolib/releases
--pcre2: 10.48 https://github.com/PhilipHazel/pcre2/releases
+-pcre2: 10.49 https://github.com/PhilipHazel/pcre2/releases
 -pcre: 8.45 http://ftp.pcre.org/pub/pcre/
 -pcsc-lite: 2.5.2 https://pcsclite.apdu.fr/files/
 -pdfio: 1.6.5 https://github.com/michaelrsweet/pdfio
@@ -820,7 +820,7 @@ l series:
 -python-imagesize: 2.0.1 https://pypi.org/project/imagesize
 -python-importlib_metadata: 8.7.0 https://pypi.org/project/importlib-metadata
 -python-installer: 1.0.0 https://pypi.org/project/installer/#files
--python-lxml: 6.1.3 https://pypi.org/project/lxml/#files
+-python-lxml: 6.1.2 (6.1.3 nok) https://pypi.org/project/lxml/#files
 -python-markdown: 3.11 https://pypi.org/project/Markdown
 -python-notify2: 0.3.1 https://pypi.python.org/pypi/notify2
 -python-packaging: 26.3 https://github.com/pypa/packaging/releases
@@ -1028,7 +1028,7 @@ n series:
 -netpipes: 4.2 http://web.purplefrog.com/ftp/netpipes/
 -nettle: 3.10.1 https://ftp.gnu.org/gnu/nettle/
 -netwatch: 1.3.1_2 http://www.slctech.org/~mackay/netwatch.html#FTP%20SITE%20ACCESS
--network-scripts: 15.0
+-network-scripts: 16.0
 -netwrite: 0.17
 -newspost: 2.1.1 http://newspost.unixcab.org/index.html#Download
 -nfacct: 1.0.2 http://ftp.netfilter.org/pub/nfacct/
@@ -1127,7 +1127,7 @@ x series: (main packages)
 -bdf2psf: 1.249 https://packages.qa.debian.org/c/console-setup.html
 -OpenCC: 1.4.2 https://github.com/BYVoid/OpenCC/releases
 -compiz: 0.8.18 to 0.9.14.2 https://github.com/compiz-reloaded/compiz or https://launchpad.net/compiz
--egl-wayland: 1.1.22 https://github.com/NVIDIA/egl-wayland/releases
+-egl-wayland: 1.1.23 https://github.com/NVIDIA/egl-wayland/releases
 -eglexternalplatform: 1.2.1 https://github.com/NVIDIA/eglexternalplatform/tags
 -fcitx5: 5.1.23 https://fcitx-im.org/wiki/Fcitx_5
 -fcitx5-anthy: 5.1.11 https://fcitx-im.org/wiki/Fcitx_5
@@ -1262,7 +1262,7 @@ xap series:
 -easytag: 2.4.3 https://gitlab.gnome.org/GNOME/easytag
 -ffmpegthumbnailer: 2.3.1 https://github.com/dirkvdb/ffmpegthumbnailer
 -fluxbox: 1.3.7 http://fluxbox.sourceforge.net/
--freerdp: 3.32.0 https://pub.freerdp.com/releases
+-freerdp: 3.32.1 https://pub.freerdp.com/releases
 -fvwm: 2.7.0 https://github.com/fvwmorg/fvwm or http://download.gna.org/fvwm-crystal/
 -geeqie: 2.9 http://sourceforge.net/projects/geeqie/files/geeqie/
 -gftp: 2.9.0b to 2.9.1b https://github.com/masneyb/gftp/releases
